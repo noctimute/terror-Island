@@ -480,6 +480,7 @@ try {
     const s = state.sel;
     if (!s) {
       card.hidden = true;
+      card.classList.remove("full"); // the next island opens at half height again
       document.body.classList.remove("has-card");
       return;
     }
@@ -634,10 +635,7 @@ try {
       card.classList.remove("dragging");
       card.style.height = "";
       if (!moved) return card.classList.toggle("full");
-      if (ht < innerHeight * 0.25) {
-        card.classList.remove("full");
-        return setSel(null);
-      }
+      if (ht < innerHeight * 0.25) return setSel(null);
       card.classList.toggle("full", ht > innerHeight * 0.6);
     };
     h.addEventListener("pointerup", end);
