@@ -44,7 +44,7 @@ try {
     import("three/addons/controls/OrbitControls.js"),
     import("three/addons/renderers/CSS2DRenderer.js"),
     // each city page points the shared engine at its own content: <main id="app" data-src="../lumama/data.json">
-    fetch(`${$("#app").dataset.src || "./data.json"}?v=12`)
+    fetch(`${$("#app").dataset.src || "./data.json"}?v=13`)
       .then((r) => {
         if (!r.ok) throw Error(`data.json: ${r.status}`);
         return r.json();

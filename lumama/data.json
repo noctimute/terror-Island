@@ -3,7 +3,7 @@
  "meta": {
   "slug": "lumama",
   "city": "台中",
-  "title": "台中驚魂島",
+  "title": "台中恐怖島",
   "eyebrow": "TERROR ISLAND",
   "welcome": "WELCOME, TAICHUNG",
   "terrain": {
@@ -150,8 +150,113 @@
  },
  "zones": [
   {
-   "id": "dajia",
+   "id": "xitun",
    "number": 1,
+   "name": "墜落島",
+   "model": "deathisle",
+   "cell": [
+    1,
+    3
+   ],
+   "ground": "#7E7882",
+   "side": "#45414A",
+   "fear": [
+    "D"
+   ],
+   "danger": 5,
+   "summary": "高樓林立的這一格，收錄的不是傳說，而是台中真實發生、有新聞報導可查的墜樓事件。",
+   "spots": [
+    {
+     "id": "xitun-fall",
+     "name": "勤美誠品一個半月內 3人墜樓身亡",
+     "era": "now",
+     "fear": [
+      "D"
+     ],
+     "danger": 5,
+     "date": "2025-02-24～2025-04-11",
+     "place": "西區 勤美誠品綠園道",
+     "plain": "2025 年 2 月 24 日、3 月 18 日與 4 月 11 日，台中勤美誠品綠園道在一個半月內發生 3 起墜樓死亡事件，地點都在同一處大門前。",
+     "facts": [
+      "第一起事件警方已排除外力介入",
+      "商場事後加裝防護網、加強保全，並規劃改設鐵窗防護"
+     ],
+     "helpline": true,
+     "sources": [
+      {
+       "title": "詭異！台中勤美誠品45天三人墜樓 都摔在「最命苦星巴克」門口",
+       "outlet": "自由時報",
+       "url": "https://news.ltn.com.tw/news/society/breakingnews/5008408"
+      },
+      {
+       "title": "台中勤美商場裝防護網加強保全 11日又傳墜樓事件 業者將改設鐵窗防護",
+       "outlet": "台灣英文新聞",
+       "url": "https://www.taiwannews.com.tw/zh/news/6082960"
+      },
+      {
+       "title": "Taichung mall enhances security with new safety nets",
+       "outlet": "TVBS World",
+       "url": "https://news.tvbs.com.tw/english/2850013"
+      }
+     ]
+    }
+   ],
+   "news": {
+    "title": "本島取材自真實新聞",
+    "body": "以下事件都有新聞報導可查，文字只摘要報導內容，不加入未經證實的推論。島上的 3D 人物是通用的示意插畫，不對應任何一位死者。謹向罹難者與家屬致哀。"
+   },
+   "recordsSrc": "falls.json"
+  },
+  {
+   "id": "oldtown",
+   "number": 2,
+   "name": "漂浮島",
+   "model": "floatisle",
+   "cell": [
+    1,
+    4
+   ],
+   "ground": "#6E7A80",
+   "side": "#3E474C",
+   "fear": [
+    "A"
+   ],
+   "danger": 4,
+   "summary": "黑水湖的正中央有一座會漂的小島，湖面上浮著一個個閉不上眼的小人。（虛構傳說）",
+   "spots": [
+    {
+     "id": "oldtown-drift",
+     "name": "會漂的小島",
+     "era": "90s",
+     "fear": [
+      "A"
+     ],
+     "danger": 3,
+     "plain": "湖中央的小島沒有根，每天早上都停在不一樣的位置。島上的枯樹下，總點著三根不會熄的蠟燭。",
+     "facts": [
+      "沒有人看過它移動的樣子",
+      "划船靠近，島就會慢慢退開"
+     ]
+    },
+    {
+     "id": "oldtown-float",
+     "name": "浮在湖面的人",
+     "era": "now",
+     "fear": [
+      "A"
+     ],
+     "danger": 4,
+     "plain": "湖面上漂著幾個小小的人，眼睛畫著叉，臉朝著天空。每數一次，數量都不一樣。",
+     "facts": [
+      "撈起來的只有一件濕透的外套",
+      "第一個浮上來的，總是面向你"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "dajia",
+   "number": 3,
    "name": "施工中",
    "model": "construction",
    "cell": [
@@ -168,7 +273,7 @@
   },
   {
    "id": "houli",
-   "number": 2,
+   "number": 4,
    "name": "垃圾山太空包",
    "model": "garbage",
    "cell": [
@@ -248,7 +353,7 @@
   },
   {
    "id": "fengyuan",
-   "number": 3,
+   "number": 5,
    "name": "施工中",
    "model": "construction",
    "cell": [
@@ -265,7 +370,7 @@
   },
   {
    "id": "dongshi",
-   "number": 4,
+   "number": 6,
    "name": "施工中",
    "model": "construction",
    "cell": [
@@ -282,7 +387,7 @@
   },
   {
    "id": "lishan",
-   "number": 5,
+   "number": 7,
    "name": "施工中",
    "model": "construction",
    "cell": [
@@ -299,7 +404,7 @@
   },
   {
    "id": "port",
-   "number": 6,
+   "number": 8,
    "name": "施工中",
    "model": "construction",
    "cell": [
@@ -316,7 +421,7 @@
   },
   {
    "id": "daya",
-   "number": 7,
+   "number": 9,
    "name": "施工中",
    "model": "construction",
    "cell": [
@@ -333,7 +438,7 @@
   },
   {
    "id": "xinshe",
-   "number": 8,
+   "number": 10,
    "name": "施工中",
    "model": "construction",
    "cell": [
@@ -350,7 +455,7 @@
   },
   {
    "id": "guguan",
-   "number": 9,
+   "number": 11,
    "name": "施工中",
    "model": "construction",
    "cell": [
@@ -367,7 +472,7 @@
   },
   {
    "id": "shalu",
-   "number": 10,
+   "number": 12,
    "name": "施工中",
    "model": "construction",
    "cell": [
@@ -383,66 +488,8 @@
    "wip": true
   },
   {
-   "id": "xitun",
-   "number": 11,
-   "name": "墜落島",
-   "model": "deathisle",
-   "cell": [
-    1,
-    3
-   ],
-   "ground": "#7E7882",
-   "side": "#45414A",
-   "fear": [
-    "D"
-   ],
-   "danger": 5,
-   "summary": "高樓林立的這一格，收錄的不是傳說，而是台中真實發生、有新聞報導可查的墜樓事件。",
-   "spots": [
-    {
-     "id": "xitun-fall",
-     "name": "勤美誠品一個半月內 3人墜樓身亡",
-     "era": "now",
-     "fear": [
-      "D"
-     ],
-     "danger": 5,
-     "date": "2025-02-24～2025-04-11",
-     "place": "西區 勤美誠品綠園道",
-     "plain": "2025 年 2 月 24 日、3 月 18 日與 4 月 11 日，台中勤美誠品綠園道在一個半月內發生 3 起墜樓死亡事件，地點都在同一處大門前。",
-     "facts": [
-      "第一起事件警方已排除外力介入",
-      "商場事後加裝防護網、加強保全，並規劃改設鐵窗防護"
-     ],
-     "helpline": true,
-     "sources": [
-      {
-       "title": "詭異！台中勤美誠品45天三人墜樓 都摔在「最命苦星巴克」門口",
-       "outlet": "自由時報",
-       "url": "https://news.ltn.com.tw/news/society/breakingnews/5008408"
-      },
-      {
-       "title": "台中勤美商場裝防護網加強保全 11日又傳墜樓事件 業者將改設鐵窗防護",
-       "outlet": "台灣英文新聞",
-       "url": "https://www.taiwannews.com.tw/zh/news/6082960"
-      },
-      {
-       "title": "Taichung mall enhances security with new safety nets",
-       "outlet": "TVBS World",
-       "url": "https://news.tvbs.com.tw/english/2850013"
-      }
-     ]
-    }
-   ],
-   "news": {
-    "title": "本島取材自真實新聞",
-    "body": "以下事件都有新聞報導可查，文字只摘要報導內容，不加入未經證實的推論。島上的 3D 人物是通用的示意插畫，不對應任何一位死者。謹向罹難者與家屬致哀。"
-   },
-   "recordsSrc": "falls.json"
-  },
-  {
    "id": "beitun",
-   "number": 12,
+   "number": 13,
    "name": "氣爆火災島",
    "model": "disaster",
    "cell": [
@@ -547,7 +594,7 @@
   },
   {
    "id": "taiping",
-   "number": 13,
+   "number": 14,
    "name": "施工中",
    "model": "construction",
    "cell": [
@@ -564,7 +611,7 @@
   },
   {
    "id": "dadu",
-   "number": 14,
+   "number": 15,
    "name": "廚餘湖",
    "model": "foodlake",
    "cell": [
@@ -641,53 +688,6 @@
     "title": "廚餘處理",
     "body": "廚餘若沒有進入堆肥、養豬或生質能等正規處理流程，而是被傾倒或掩埋，可能產生惡臭、孳生病媒，滲出的汁液也可能污染土壤與地下水。"
    }
-  },
-  {
-   "id": "oldtown",
-   "number": 15,
-   "name": "漂浮島",
-   "model": "floatisle",
-   "cell": [
-    1,
-    4
-   ],
-   "ground": "#6E7A80",
-   "side": "#3E474C",
-   "fear": [
-    "A"
-   ],
-   "danger": 4,
-   "summary": "黑水湖的正中央有一座會漂的小島，湖面上浮著一個個閉不上眼的小人。（虛構傳說）",
-   "spots": [
-    {
-     "id": "oldtown-drift",
-     "name": "會漂的小島",
-     "era": "90s",
-     "fear": [
-      "A"
-     ],
-     "danger": 3,
-     "plain": "湖中央的小島沒有根，每天早上都停在不一樣的位置。島上的枯樹下，總點著三根不會熄的蠟燭。",
-     "facts": [
-      "沒有人看過它移動的樣子",
-      "划船靠近，島就會慢慢退開"
-     ]
-    },
-    {
-     "id": "oldtown-float",
-     "name": "浮在湖面的人",
-     "era": "now",
-     "fear": [
-      "A"
-     ],
-     "danger": 4,
-     "plain": "湖面上漂著幾個小小的人，眼睛畫著叉，臉朝著天空。每數一次，數量都不一樣。",
-     "facts": [
-      "撈起來的只有一件濕透的外套",
-      "第一個浮上來的，總是面向你"
-     ]
-    }
-   ]
   },
   {
    "id": "dali",
@@ -822,7 +822,7 @@
     "target": "all",
     "time": 1260,
     "flows": [],
-    "caption": "歡迎來到台中驚魂島：大部分的島還在施工中"
+    "caption": "歡迎來到台中恐怖島：大部分的島還在施工中"
    },
    {
     "from": 8,
