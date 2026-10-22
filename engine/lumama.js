@@ -76,17 +76,29 @@ export function createLumama(THREE, { scene, centers, CSS2DObject, rng }) {
     add(arc, ink, x, 0.03, 0.214, [1, 0.7, 1], [0, 0, 0], head);
   }
   // nose with dark nostrils
-  add(sph, face, 0, -0.035, 0.225, [0.07, 0.07, 0.06], [0, 0, 0], head);
-  for (const x of [-0.018, 0.018]) add(sph, ink, x, -0.055, 0.245, [0.018, 0.012, 0.01], [0, 0, 0], head);
+  // an oversized bulbous nose with big dark nostrils and a shadow under it
+  const noseMat = new THREE.MeshStandardMaterial({ color: 0xcfe08e, emissive: 0x6e9a34, emissiveIntensity: 0.55, roughness: 0.6 });
+  add(sph, noseMat, 0, -0.03, 0.245, [0.15, 0.13, 0.13], [0, 0, 0], head);
+  add(sph, noseMat, 0, 0.03, 0.235, [0.06, 0.1, 0.06], [0, 0, 0], head);
+  for (const x of [-0.035, 0.035]) add(sph, ink, x, -0.075, 0.272, [0.05, 0.028, 0.03], [0, 0, x > 0 ? -0.3 : 0.3], head);
+  add(sph, shade, 0, -0.095, 0.23, [0.16, 0.03, 0.04], [0, 0, 0], head);
   // wide-open laugh: dark mouth, upper teeth, a lower lip
-  add(sph, mouthIn, 0, -0.14, 0.19, [0.16, 0.13, 0.08], [0, 0, 0], head);
-  add(new THREE.BoxGeometry(0.1, 0.03, 0.01), mat(0xffffff, { emissive: 0x777777 }), 0, -0.092, 0.245, [1, 1, 1], [0, 0, 0], head);
-  add(sph, shade, 0, -0.185, 0.2, [0.1, 0.02, 0.03], [0, 0, 0], head);
+  add(sph, mouthIn, 0, -0.165, 0.19, [0.17, 0.12, 0.08], [0, 0, 0], head);
+  add(new THREE.BoxGeometry(0.1, 0.03, 0.01), mat(0xffffff, { emissive: 0x777777 }), 0, -0.12, 0.236, [1, 1, 1], [0, 0, 0], head);
+  add(sph, shade, 0, -0.215, 0.2, [0.1, 0.02, 0.03], [0, 0, 0], head);
   // shirt collar
   for (const x of [-0.06, 0.06]) add(new THREE.BoxGeometry(0.12, 0.05, 0.02), shirt, x, 0.64, 0.155, [1, 1, 1], [0, 0, x > 0 ? -0.5 : 0.5]);
+  // a little drum hung in front of her, played with both hands
+  const drum = new THREE.Group();
+  drum.position.set(0, 0.36, 0.27);
+  g.add(drum);
+  add(new THREE.CylinderGeometry(0.15, 0.15, 0.13, 18), mat(0xc8102e), 0, 0, 0, [1, 1, 1], [0, 0, 0], drum);
+  add(new THREE.CylinderGeometry(0.152, 0.152, 0.012, 18), mat(0xf4f1ea), 0, 0.068, 0, [1, 1, 1], [0, 0, 0], drum);
+  add(new THREE.CylinderGeometry(0.155, 0.155, 0.02, 18), mat(0xd9a520), 0, -0.06, 0, [1, 1, 1], [0, 0, 0], drum);
+  for (const x of [-0.12, 0.12]) add(new THREE.BoxGeometry(0.02, 0.32, 0.02), mat(0x2c2a30), x, 0.2, -0.12, [1, 1, 1], [0.6, 0, 0], drum);
   // a faint halo of light around the face
   const glow = new THREE.PointLight(0xb8ff7a, 1.4, 2.4, 2);
-  glow.position.set(0, 0.95, 0.4);
+  glow.position.set(0, 1.25, 0.9);
   g.add(glow);
   g.scale.setScalar(1.8);
 
@@ -127,8 +139,11 @@ export function createLumama(THREE, { scene, centers, CSS2DObject, rng }) {
     const sw = Math.sin(t * 7) * 0.5;
     legs[0].rotation.x = sw;
     legs[1].rotation.x = -sw;
-    arms[0].rotation.x = -sw * 0.8;
-    arms[1].rotation.set(0, 0, 2.5 + Math.sin(t * 6) * 0.35);
+    // left and right hands take turns beating the drum
+    const beat = t * 8;
+    arms[0].rotation.set(-0.8 - Math.max(0, Math.sin(beat)) * 0.5, 0, 0.4);
+    arms[1].rotation.set(-0.8 - Math.max(0, -Math.sin(beat)) * 0.5, 0, -0.4);
+    drum.position.y = 0.36 + Math.abs(Math.sin(beat)) * 0.01;
     head.rotation.z = Math.sin(t * 3.5) * 0.08;
     glow.intensity = 0.9 + Math.sin(t * 2) * 0.3;
   }
