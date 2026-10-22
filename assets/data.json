@@ -1,0 +1,1633 @@
+{
+ "schemaVersion": "1.0",
+ "meta": {
+  "title": "台中驚魂島",
+  "eyebrow": "TERROR ISLAND",
+  "disclaimer": "所有傳說、人物與事件皆為虛構創作，僅借用台中行政區名稱作為地理位置。標示「市政議題」的島嶼取材自城市公共議題（垃圾去化、廚餘處理），以恐怖故事手法呈現，情節不代表任何真實場址的狀況。"
+ },
+ "fear": [
+  {
+   "id": "F",
+   "name": "民俗禁忌",
+   "en": "Folklore",
+   "color": "#C99A2E"
+  },
+  {
+   "id": "E",
+   "name": "異形怪物",
+   "en": "Entity",
+   "color": "#4E7D5B"
+  },
+  {
+   "id": "A",
+   "name": "怨靈現身",
+   "en": "Apparition",
+   "color": "#7F9CC4"
+  },
+  {
+   "id": "R",
+   "name": "詛咒儀式",
+   "en": "Ritual",
+   "color": "#A8201A"
+  }
+ ],
+ "eras": [
+  {
+   "id": "qing",
+   "label": "清代"
+  },
+  {
+   "id": "japan",
+   "label": "日治"
+  },
+  {
+   "id": "postwar",
+   "label": "戰後"
+  },
+  {
+   "id": "90s",
+   "label": "九〇年代"
+  },
+  {
+   "id": "now",
+   "label": "近年"
+  }
+ ],
+ "roles": {
+  "sailor": {
+   "label": "溺水船員",
+   "color": "#3F5E78",
+   "hat": "#2A2F36"
+  },
+  "conductor": {
+   "label": "列車長",
+   "color": "#2F3B4F",
+   "hat": "#1E2430"
+  },
+  "nurse": {
+   "label": "夜班護理師",
+   "color": "#E9E6E0",
+   "hat": "#F4F1EC"
+  },
+  "scarecrow": {
+   "label": "稻草人",
+   "color": "#C9A95A",
+   "hat": "#8A6A2E"
+  },
+  "worker": {
+   "label": "紡織女工",
+   "color": "#7D3A3A",
+   "hat": "#3A2424"
+  },
+  "gardener": {
+   "label": "花農",
+   "color": "#6C7F4A",
+   "hat": "#D9C27A"
+  },
+  "child": {
+   "label": "小孩",
+   "color": "#C2554A",
+   "hat": "#2B2222"
+  },
+  "lady": {
+   "label": "白衣女",
+   "color": "#F2F0EA",
+   "hat": "#141012"
+  },
+  "baker": {
+   "label": "餅舖師傅",
+   "color": "#EDE3CF",
+   "hat": "#F7F2E8"
+  },
+  "projectionist": {
+   "label": "放映師",
+   "color": "#4A3E36",
+   "hat": "#2A221E"
+  },
+  "monk": {
+   "label": "道士",
+   "color": "#C99A2E",
+   "hat": "#2A1E14"
+  },
+  "driver": {
+   "label": "清運司機",
+   "color": "#2E6E4E",
+   "hat": "#E6C23A"
+  },
+  "collector": {
+   "label": "廚餘回收員",
+   "color": "#2C6DB5",
+   "hat": "#1E2430"
+  }
+ },
+ "carry": {
+  "lantern": "燈籠",
+  "ticket": "單程車票",
+  "bandage": "繃帶",
+  "straw": "稻草",
+  "thread": "紅線",
+  "seed": "花種",
+  "balloon": "氣球",
+  "umbrella": "紅傘",
+  "cake": "冥婚喜餅",
+  "film": "膠卷",
+  "talisman": "符咒",
+  "bale": "太空包",
+  "bucket": "廚餘桶"
+ },
+ "zones": [
+  {
+   "id": "dajia",
+   "number": 1,
+   "district": "大甲・大安",
+   "name": "稻草人之田",
+   "model": "scarecrow",
+   "cell": [
+    1,
+    0
+   ],
+   "ground": "#B49A52",
+   "side": "#6E5A3A",
+   "fear": [
+    "E",
+    "F"
+   ],
+   "danger": 3,
+   "summary": "海風吹過的稻田裡，稻草人的數量每年秋收都會多一個。",
+   "spots": [
+    {
+     "id": "dajia-eighth",
+     "name": "第八個稻草人",
+     "era": "postwar",
+     "fear": [
+      "E"
+     ],
+     "danger": 3,
+     "plain": "農家每年只立七個稻草人，秋收前卻總會數到八個。第八個穿著去年失蹤的那件黃雨衣。",
+     "facts": [
+      "只在秋收前一週出現",
+      "數到第八個時，千萬不要回頭"
+     ]
+    },
+    {
+     "id": "dajia-bell",
+     "name": "退潮時的鈴聲",
+     "era": "qing",
+     "fear": [
+      "F"
+     ],
+     "danger": 2,
+     "plain": "大安海邊退潮後，泥灘深處傳來繫在腳踝上的鈴鐺聲，聲音會一路跟著人走回岸邊。",
+     "facts": [
+      "老漁民退潮後不下灘",
+      "聽見鈴聲要把鞋子反過來放"
+     ]
+    },
+    {
+     "id": "dajia-wave",
+     "name": "逆風的稻浪",
+     "era": "now",
+     "fear": [
+      "A"
+     ],
+     "danger": 2,
+     "plain": "無風的夜晚，稻浪仍一波波朝同一個方向倒下，像有人從田中央慢慢走過來。",
+     "facts": [
+      "空拍機拍到稻田中央有一條人形的路",
+      "隔天早上稻子又站了回去"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "houli",
+   "number": 2,
+   "district": "后里・外埔",
+   "name": "垃圾山太空包",
+   "model": "garbage",
+   "cell": [
+    2,
+    0
+   ],
+   "ground": "#9C9584",
+   "side": "#5A5346",
+   "fear": [
+    "E",
+    "R"
+   ],
+   "danger": 4,
+   "summary": "城市的垃圾無處可去，被包成白色太空包越堆越高——據說，山裡面有東西在動。",
+   "spots": [
+    {
+     "id": "houli-breath",
+     "name": "會呼吸的山",
+     "era": "now",
+     "fear": [
+      "E"
+     ],
+     "danger": 4,
+     "plain": "白色太空包一顆疊一顆，堆得比樹還高。夜裡包膜會一起一伏，像整座山在呼吸。",
+     "facts": [
+      "每一顆都貼著入場日期，最舊的已經好幾年",
+      "沒有人說得出它們最後要運去哪裡"
+     ]
+    },
+    {
+     "id": "houli-ooze",
+     "name": "滲出來的黑水",
+     "era": "now",
+     "fear": [
+      "R"
+     ],
+     "danger": 4,
+     "plain": "雨後，太空包底部滲出黑色的汁液，順著坡流進隔壁的田，連稻草人都不敢站太近。",
+     "facts": [
+      "黑水流過的地方，草會在一夜之間枯掉",
+      "黑水裡偶爾浮著沒有拆封的喜帖"
+     ]
+    },
+    {
+     "id": "houli-extra",
+     "name": "多出來的一包",
+     "era": "now",
+     "fear": [
+      "R"
+     ],
+     "danger": 3,
+     "plain": "每天清點，太空包都會多出一顆。包膜上用麥克筆寫著的，是你家的地址。",
+     "facts": [
+      "多出來的那一顆摸起來是溫的",
+      "搬走它的隔天，它會回到原位"
+     ]
+    },
+    {
+     "id": "houli-digger",
+     "name": "沒有司機的怪手",
+     "era": "90s",
+     "fear": [
+      "E"
+     ],
+     "danger": 3,
+     "plain": "半夜收工後，停在場邊的怪手會自己動起來，把太空包一顆一顆往山頂疊。",
+     "facts": [
+      "駕駛座上的坐墊總是濕的",
+      "引擎從來沒有發動過的聲音"
+     ]
+    }
+   ],
+   "civic": {
+    "title": "垃圾去化",
+    "body": "當焚化與掩埋量能跟不上垃圾產生的速度，垃圾會被壓縮、以塑膠膜包成「太空包」暫時堆置。堆置時間一長，包膜可能破損、滲出污水，也可能有火災與異味的風險。"
+   }
+  },
+  {
+   "id": "fengyuan",
+   "number": 3,
+   "district": "豐原・神岡",
+   "name": "不打烊的餅舖",
+   "model": "bakery",
+   "cell": [
+    1,
+    1
+   ],
+   "ground": "#BFA582",
+   "side": "#6B5640",
+   "fear": [
+    "F",
+    "R"
+   ],
+   "danger": 2,
+   "summary": "老街上的百年餅舖，招牌燈從不熄滅——但店裡沒有人。",
+   "spots": [
+    {
+     "id": "fengyuan-cake",
+     "name": "冥婚喜餅",
+     "era": "japan",
+     "fear": [
+      "R"
+     ],
+     "danger": 4,
+     "plain": "深夜的訂單上只寫著一組生辰八字，取貨的人從不走正門，餅盒上永遠綁著紅線。",
+     "facts": [
+      "訂單只在農曆七月出現",
+      "餅盒裡會多放一張空白喜帖"
+     ]
+    },
+    {
+     "id": "fengyuan-oven",
+     "name": "凌晨四點的烤爐",
+     "era": "postwar",
+     "fear": [
+      "E"
+     ],
+     "danger": 3,
+     "plain": "烤爐溫度總在凌晨四點自行升高，烤盤上排著一個個小手印形狀的麵團。",
+     "facts": [
+      "師傅說那是「客人自己捏的」",
+      "烤好的餅沒有人敢吃"
+     ]
+    },
+    {
+     "id": "fengyuan-receipt",
+     "name": "明天的收據",
+     "era": "now",
+     "fear": [
+      "F"
+     ],
+     "danger": 2,
+     "plain": "收銀機吐出的收據，日期永遠是明天。買到的人回家後，都會把那張收據燒掉。",
+     "facts": [
+      "收據背面印著一行小字：「記得來拿」",
+      "沒燒掉的人，隔天會再收到一張"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "dongshi",
+   "number": 4,
+   "district": "東勢・石岡",
+   "name": "舊山線九號隧道",
+   "model": "tunnel",
+   "cell": [
+    2,
+    1
+   ],
+   "ground": "#727F52",
+   "side": "#4D4A3A",
+   "fear": [
+    "A",
+    "F"
+   ],
+   "danger": 4,
+   "summary": "廢棄的山線鐵道隧道，回聲總是比你的腳步多一步。",
+   "spots": [
+    {
+     "id": "dongshi-echo",
+     "name": "多一步的回聲",
+     "era": "japan",
+     "fear": [
+      "A"
+     ],
+     "danger": 4,
+     "plain": "在隧道裡數自己的腳步，回聲總多一聲。停下來的時候，那一聲還在繼續往前走。",
+     "facts": [
+      "隧道全長剛好九百九十九步",
+      "最後一步的回聲是從背後傳來的"
+     ]
+    },
+    {
+     "id": "dongshi-signal",
+     "name": "自己亮起的號誌",
+     "era": "postwar",
+     "fear": [
+      "F"
+     ],
+     "danger": 3,
+     "plain": "斷電多年的號誌燈偶爾轉成綠燈，彷彿在等一班早已不存在的列車進站。",
+     "facts": [
+      "轉綠的那晚，鐵軌會微微發燙",
+      "看見綠燈的人要立刻離開軌道"
+     ]
+    },
+    {
+     "id": "dongshi-raincoat",
+     "name": "隧道口的雨衣人",
+     "era": "now",
+     "fear": [
+      "A"
+     ],
+     "danger": 3,
+     "plain": "下雨天，隧道口總站著一個穿黃雨衣的人。車燈照過去，地上只剩一灘水。",
+     "facts": [
+      "雨衣的款式和稻草人之田的一模一樣",
+      "從來沒有人看清楚他的臉"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lishan",
+   "number": 5,
+   "district": "和平・梨山",
+   "name": "霧中梨園",
+   "model": "orchard",
+   "cell": [
+    4,
+    1
+   ],
+   "ground": "#647F55",
+   "side": "#46473A",
+   "fear": [
+    "E",
+    "F"
+   ],
+   "danger": 3,
+   "summary": "高山果園終年起霧，霧裡的梨子長得比人頭還大。",
+   "spots": [
+    {
+     "id": "lishan-pear",
+     "name": "人頭大的梨",
+     "era": "now",
+     "fear": [
+      "E"
+     ],
+     "danger": 3,
+     "plain": "套袋裡的梨長得太大太重，剝開紙袋，果皮上有五官形狀的凹痕。",
+     "facts": [
+      "只長在果園最深處那一棵",
+      "切開時會流出溫熱的汁液"
+     ]
+    },
+    {
+     "id": "lishan-call",
+     "name": "霧裡叫你的名字",
+     "era": "qing",
+     "fear": [
+      "F"
+     ],
+     "danger": 4,
+     "plain": "濃霧中有人用你家人的聲音叫你的名字。山上的規矩只有一條：別應。",
+     "facts": [
+      "叫第三聲時聲音會變得很近",
+      "回應的人會走進霧裡再也找不到"
+     ]
+    },
+    {
+     "id": "lishan-ladder",
+     "name": "多一階的梯子",
+     "era": "postwar",
+     "fear": [
+      "E"
+     ],
+     "danger": 2,
+     "plain": "果農的木梯夜裡會多長出一階，一路往霧裡延伸，看不見盡頭。",
+     "facts": [
+      "多出來的那一階是濕的",
+      "果農收工前一定把梯子放倒"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "port",
+   "number": 6,
+   "district": "清水・梧棲",
+   "name": "霧港幽靈船",
+   "model": "ghostship",
+   "cell": [
+    0,
+    1
+   ],
+   "ground": "#7F8B8E",
+   "side": "#4A4E52",
+   "fear": [
+    "A",
+    "R"
+   ],
+   "danger": 5,
+   "summary": "濃霧夜裡，港口會多停泊一艘沒有編號的漁船。",
+   "spots": [
+    {
+     "id": "port-boat",
+     "name": "無編號漁船",
+     "era": "postwar",
+     "fear": [
+      "A"
+     ],
+     "danger": 5,
+     "plain": "船身沒有漆上編號，甲板燈是綠色的。它靠岸後從不卸貨，只會有人「上船」。",
+     "facts": [
+      "只在能見度低於五十公尺時出現",
+      "天亮前會連同霧一起消失"
+     ]
+    },
+    {
+     "id": "port-watch",
+     "name": "網到的手錶",
+     "era": "90s",
+     "fear": [
+      "R"
+     ],
+     "danger": 3,
+     "plain": "漁網撈上一支停在 3:17 的手錶，每晚的同一時間都會響起鬧鈴。",
+     "facts": [
+      "丟回海裡也會再被撈上來",
+      "手錶背面刻著今天的日期"
+     ]
+    },
+    {
+     "id": "port-lighthouse",
+     "name": "倒著閃的燈塔",
+     "era": "japan",
+     "fear": [
+      "F"
+     ],
+     "danger": 3,
+     "plain": "燈塔明明壞了多年，船員卻說霧夜裡看見它在倒著閃——像在把船叫回去。",
+     "facts": [
+      "燈光的節奏是摩斯電碼",
+      "解讀出來只有兩個字：「回來」"
+     ]
+    },
+    {
+     "id": "port-market",
+     "name": "凌晨魚市的客人",
+     "era": "now",
+     "fear": [
+      "A"
+     ],
+     "danger": 3,
+     "plain": "凌晨的魚市有個穿濕西裝的客人，只買活魚，付的錢天亮後變成冥紙。",
+     "facts": [
+      "走過的地方會留下一串海水",
+      "攤販都說「他是老客人了」"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "daya",
+   "number": 7,
+   "district": "大雅・潭子",
+   "name": "紡車自轉的工廠",
+   "model": "factory",
+   "cell": [
+    1,
+    2
+   ],
+   "ground": "#9A907C",
+   "side": "#58504A",
+   "fear": [
+    "R",
+    "A"
+   ],
+   "danger": 4,
+   "summary": "加工區的老紡織廠早已停工，紡車卻仍在夜裡轉動。",
+   "spots": [
+    {
+     "id": "daya-loom",
+     "name": "自轉的紡車",
+     "era": "postwar",
+     "fear": [
+      "R"
+     ],
+     "danger": 4,
+     "plain": "斷電的廠房裡，十二台紡車同時轉動，織出一匹沒有盡頭的紅布。",
+     "facts": [
+      "紅布每晚會往門外多延伸一公尺",
+      "布上的花紋是一排排名字"
+     ]
+    },
+    {
+     "id": "daya-clock",
+     "name": "從不響的下班鈴",
+     "era": "90s",
+     "fear": [
+      "A"
+     ],
+     "danger": 3,
+     "plain": "夜班女工的打卡卡片停在同一天，打卡鐘卻每晚自己多打一格。",
+     "facts": [
+      "卡片上的名字有四十七個",
+      "下班鈴從那天起就沒有再響過"
+     ]
+    },
+    {
+     "id": "daya-thread",
+     "name": "走不出去的紅線",
+     "era": "now",
+     "fear": [
+      "R"
+     ],
+     "danger": 4,
+     "plain": "廠房地上散落著紅線，順著走會回到剛進門的地方——但門已經不見了。",
+     "facts": [
+      "剪斷紅線的人會聽見有人哭",
+      "紅線的另一頭通往紅燈籠古厝"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "xinshe",
+   "number": 8,
+   "district": "新社",
+   "name": "吃人的花海迷宮",
+   "model": "maze",
+   "cell": [
+    3,
+    2
+   ],
+   "ground": "#A9839A",
+   "side": "#5E4A54",
+   "fear": [
+    "E",
+    "F"
+   ],
+   "danger": 3,
+   "summary": "花季限定的迷宮園區，入口數到的人數和出口永遠對不上。",
+   "spots": [
+    {
+     "id": "xinshe-count",
+     "name": "對不上的人數",
+     "era": "now",
+     "fear": [
+      "E"
+     ],
+     "danger": 4,
+     "plain": "入園三百人，出園兩百九十九人。監視器裡沒有任何人走失，花卻開得特別好。",
+     "facts": [
+      "少掉的那一位從來沒有家屬來找",
+      "隔年同一個位置會長出新品種"
+     ]
+    },
+    {
+     "id": "xinshe-sunflower",
+     "name": "轉頭的向日葵",
+     "era": "90s",
+     "fear": [
+      "E"
+     ],
+     "danger": 3,
+     "plain": "夜裡沒有太陽，整片向日葵仍會轉向同一個方向——轉向你。",
+     "facts": [
+      "拍照時花盤裡會出現眼睛",
+      "閉上眼睛數到十，它們會靠近一步"
+     ]
+    },
+    {
+     "id": "xinshe-sign",
+     "name": "花下的木牌",
+     "era": "postwar",
+     "fear": [
+      "F"
+     ],
+     "danger": 3,
+     "plain": "每株花底下都插著一塊木牌，寫著從沒來過園區的遊客名字。",
+     "facts": [
+      "有人在木牌上看到自己的名字",
+      "名字旁邊的日期是空白的"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "guguan",
+   "number": 9,
+   "district": "和平・谷關",
+   "name": "第十三號湯屋",
+   "model": "onsen",
+   "cell": [
+    4,
+    2
+   ],
+   "ground": "#71866F",
+   "side": "#4A4A40",
+   "fear": [
+    "A",
+    "F"
+   ],
+   "danger": 4,
+   "summary": "溫泉旅館的湯屋只編到十二號，櫃台卻常有人預約十三號。",
+   "spots": [
+    {
+     "id": "guguan-room13",
+     "name": "十三號湯屋",
+     "era": "japan",
+     "fear": [
+      "A"
+     ],
+     "danger": 4,
+     "plain": "走廊盡頭有扇沒有編號的木門，熱氣從門縫冒出，裡面傳來泡湯的歌聲。",
+     "facts": [
+      "預約人的電話號碼是空號",
+      "歌聲是日語老歌"
+     ]
+    },
+    {
+     "id": "guguan-slippers",
+     "name": "多一雙拖鞋",
+     "era": "postwar",
+     "fear": [
+      "A"
+     ],
+     "danger": 3,
+     "plain": "湯屋門外整齊擺著一雙濕拖鞋，地上的腳印卻只往裡面走。",
+     "facts": [
+      "拖鞋的尺寸是小孩的",
+      "清潔人員收走後隔天又會出現"
+     ]
+    },
+    {
+     "id": "guguan-red",
+     "name": "變紅的溫泉",
+     "era": "qing",
+     "fear": [
+      "F"
+     ],
+     "danger": 3,
+     "plain": "每逢農曆七月，池水會在午夜變成淡淡的紅色，帶著鐵鏽的味道。",
+     "facts": [
+      "當地人稱為「還湯」",
+      "那幾天旅館一律不收客人"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "shalu",
+   "number": 10,
+   "district": "沙鹿・龍井",
+   "name": "末班海線列車",
+   "model": "station",
+   "cell": [
+    0,
+    2
+   ],
+   "ground": "#A09780",
+   "side": "#5A5246",
+   "fear": [
+    "A",
+    "R"
+   ],
+   "danger": 4,
+   "summary": "海線小站深夜會停靠一班時刻表上沒有的列車。",
+   "spots": [
+    {
+     "id": "shalu-train",
+     "name": "23:59 的末班車",
+     "era": "japan",
+     "fear": [
+      "A"
+     ],
+     "danger": 5,
+     "plain": "車廂燈慘白，座位上的乘客都望著窗外的海。上車的人，不會出現在下一站。",
+     "facts": [
+      "列車沒有車號",
+      "車門關上前會有人對你招手"
+     ]
+    },
+    {
+     "id": "shalu-ticket",
+     "name": "寫著你名字的車票",
+     "era": "now",
+     "fear": [
+      "R"
+     ],
+     "danger": 4,
+     "plain": "售票機有時會吐出一張車票，目的地欄印的是你的名字。",
+     "facts": [
+      "車票不能退，也丟不掉",
+      "票面的發車時間每天提早一分鐘"
+     ]
+    },
+    {
+     "id": "shalu-chimney",
+     "name": "多一根的煙囪",
+     "era": "90s",
+     "fear": [
+      "F"
+     ],
+     "danger": 2,
+     "plain": "遠方煙囪的倒影，在月台積水裡總會多出一根，而且正在冒煙。",
+     "facts": [
+      "只在雨後的月台看得到",
+      "冒的是白色的、人形的煙"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "xitun",
+   "number": 11,
+   "district": "西屯",
+   "name": "停擺的摩天輪",
+   "model": "ferris",
+   "cell": [
+    1,
+    3
+   ],
+   "ground": "#8F8494",
+   "side": "#4E4854",
+   "fear": [
+    "A",
+    "E"
+   ],
+   "danger": 3,
+   "summary": "商場頂樓的摩天輪停運多年，某節車廂的燈總在半夜亮起。",
+   "spots": [
+    {
+     "id": "xitun-cabin",
+     "name": "第七號車廂",
+     "era": "90s",
+     "fear": [
+      "A"
+     ],
+     "danger": 4,
+     "plain": "停擺的摩天輪只有第七號車廂會亮燈，玻璃上有從裡面按上去的小手印。",
+     "facts": [
+      "車廂停在最高點",
+      "手印每晚多一個"
+     ]
+    },
+    {
+     "id": "xitun-market",
+     "name": "夜市最後一攤",
+     "era": "now",
+     "fear": [
+      "E"
+     ],
+     "danger": 3,
+     "plain": "夜市收攤後，巷尾還剩一攤撈金魚。仔細看，金魚的眼睛是人的眼睛。",
+     "facts": [
+      "老闆只收零錢",
+      "撈到的金魚回家後會說話"
+     ]
+    },
+    {
+     "id": "xitun-elevator",
+     "name": "不存在的十三樓",
+     "era": "now",
+     "fear": [
+      "F"
+     ],
+     "danger": 3,
+     "plain": "大樓電梯沒有十三樓，深夜卻偶爾停在兩層樓之間，門自己打開。",
+     "facts": [
+      "門外是一條鋪紅地毯的走廊",
+      "千萬不要踏出去"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "beitun",
+   "number": 12,
+   "district": "北屯",
+   "name": "第七病棟",
+   "model": "hospital",
+   "cell": [
+    2,
+    2
+   ],
+   "ground": "#8D978F",
+   "side": "#4E5450",
+   "fear": [
+    "A",
+    "R"
+   ],
+   "danger": 5,
+   "summary": "廢棄醫院只剩第七病棟還亮著燈，值班表上的護理師已退休三十年。",
+   "spots": [
+    {
+     "id": "beitun-call",
+     "name": "整排亮起的呼叫鈴",
+     "era": "postwar",
+     "fear": [
+      "A"
+     ],
+     "danger": 5,
+     "plain": "空無一人的病房持續按著呼叫鈴，護理站的燈號從 701 一路亮到 712。",
+     "facts": [
+      "每晚 01:00 準時開始",
+      "713 號病房並不存在，但它也會亮"
+     ]
+    },
+    {
+     "id": "beitun-wheelchair",
+     "name": "走廊的輪椅",
+     "era": "90s",
+     "fear": [
+      "A"
+     ],
+     "danger": 3,
+     "plain": "輪椅會在走廊盡頭自己轉向，好像在等誰來推。",
+     "facts": [
+      "輪椅上永遠蓋著一條毛毯",
+      "推過它的人會夢見走廊"
+     ]
+    },
+    {
+     "id": "beitun-chart",
+     "name": "寫著你名字的病歷",
+     "era": "now",
+     "fear": [
+      "R"
+     ],
+     "danger": 5,
+     "plain": "櫃子裡有一份病歷，姓名和生日都是你，入院日期是下週。",
+     "facts": [
+      "病歷上的醫師簽名是你自己的筆跡",
+      "主訴欄寫著：「聽見有人叫我」"
+     ]
+    },
+    {
+     "id": "beitun-morgue",
+     "name": "地下室冷藏櫃",
+     "era": "japan",
+     "fear": [
+      "A"
+     ],
+     "danger": 4,
+     "plain": "B2 的冷藏櫃早已斷電，每晚卻總有一格是冰的。",
+     "facts": [
+      "每晚冰的那一格都不一樣",
+      "格子上的名牌是空白的"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "taiping",
+   "number": 13,
+   "district": "太平",
+   "name": "無人吊橋",
+   "model": "bridge",
+   "cell": [
+    2,
+    3
+   ],
+   "ground": "#677852",
+   "side": "#45463A",
+   "fear": [
+    "F",
+    "A"
+   ],
+   "danger": 3,
+   "summary": "山谷裡的老吊橋，夜裡踩上去會聽見另一個人從對岸走來的腳步聲。",
+   "spots": [
+    {
+     "id": "taiping-steps",
+     "name": "對岸的腳步",
+     "era": "postwar",
+     "fear": [
+      "A"
+     ],
+     "danger": 4,
+     "plain": "吊橋晃動的節奏和你的步伐對不上——有人正從對岸走過來，可是橋上沒有人。",
+     "facts": [
+      "走到橋中間時晃動會停止",
+      "那代表對方已經站在你面前"
+     ]
+    },
+    {
+     "id": "taiping-lanterns",
+     "name": "整排紅燈籠",
+     "era": "qing",
+     "fear": [
+      "F"
+     ],
+     "danger": 3,
+     "plain": "夜裡橋索上會亮起一整排紅燈籠，數量剛好是當年落水的人數。",
+     "facts": [
+      "燈籠會一盞盞往你的方向熄滅",
+      "最後一盞熄滅前要走到對岸"
+     ]
+    },
+    {
+     "id": "taiping-stones",
+     "name": "溪底的石頭臉",
+     "era": "now",
+     "fear": [
+      "E"
+     ],
+     "danger": 2,
+     "plain": "乾季的溪床上，石頭排成一張臉，每天朝吊橋的方向轉一點。",
+     "facts": [
+      "雨季時那張臉會沉到水裡",
+      "有人說它在等橋上的人往下看"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "dadu",
+   "number": 14,
+   "district": "大肚・烏日",
+   "name": "廚餘湖",
+   "model": "foodlake",
+   "cell": [
+    0,
+    3
+   ],
+   "ground": "#8C7A55",
+   "side": "#54462F",
+   "fear": [
+    "E",
+    "F"
+   ],
+   "danger": 4,
+   "summary": "一桶桶廚餘倒進挖開的土坑，坑越挖越大，成了一座會冒泡的湖。",
+   "spots": [
+    {
+     "id": "dadu-bottomless",
+     "name": "倒不滿的湖",
+     "era": "now",
+     "fear": [
+      "E"
+     ],
+     "danger": 4,
+     "plain": "塑膠桶一桶接一桶倒下去，湖面卻從來沒有升高。湖底好像有什麼東西在吃。",
+     "facts": [
+      "附近的居民說，夜裡聽得到咀嚼聲",
+      "野狗經過這裡都會繞路"
+     ]
+    },
+    {
+     "id": "dadu-bubbles",
+     "name": "會說話的泡泡",
+     "era": "now",
+     "fear": [
+      "F"
+     ],
+     "danger": 3,
+     "plain": "悶熱的夜晚湖面不停冒泡，泡泡破掉時，會冒出一股酸味和一句聽不清楚的話。",
+     "facts": [
+      "把耳朵靠近的人，回家後吃什麼都是酸的",
+      "泡泡最多的地方，正是湖最深的地方"
+     ]
+    },
+    {
+     "id": "dadu-tarp",
+     "name": "帆布底下",
+     "era": "90s",
+     "fear": [
+      "E"
+     ],
+     "danger": 4,
+     "plain": "鋪在坡上的綠色帆布被風掀起的時候，下面露出來的不是泥土。",
+     "facts": [
+      "帆布每晚都會被拉回原位",
+      "沒有人承認是自己鋪的"
+     ]
+    },
+    {
+     "id": "dadu-dumpers",
+     "name": "凌晨來倒廚餘的人",
+     "era": "now",
+     "fear": [
+      "F"
+     ],
+     "danger": 3,
+     "plain": "凌晨三點，總有一輛沒掛車牌的小貨車開到坑邊，兩個人倒完廚餘就消失在田埂上。",
+     "facts": [
+      "車斗裡的桶子從來沒有空過",
+      "監視器只拍到三角錐自己移動"
+     ]
+    }
+   ],
+   "civic": {
+    "title": "廚餘處理",
+    "body": "廚餘若沒有進入堆肥、養豬或生質能等正規處理流程，而是被傾倒或掩埋，可能產生惡臭、孳生病媒，滲出的汁液也可能污染土壤與地下水。"
+   }
+  },
+  {
+   "id": "oldtown",
+   "number": 15,
+   "district": "中區・南屯",
+   "name": "最後一場電影",
+   "model": "cinema",
+   "cell": [
+    1,
+    4
+   ],
+   "ground": "#AD9174",
+   "side": "#5E4C3C",
+   "fear": [
+    "A",
+    "R"
+   ],
+   "danger": 4,
+   "summary": "舊城區的老戲院歇業後，凌晨仍會傳出放映機轉動的聲音。",
+   "spots": [
+    {
+     "id": "oldtown-show",
+     "name": "午夜場",
+     "era": "postwar",
+     "fear": [
+      "A"
+     ],
+     "danger": 4,
+     "plain": "售票口的燈會在午夜亮起，賣出的票上印著 1972 年的日期。",
+     "facts": [
+      "片名每次都不一樣",
+      "片尾名單裡會出現觀眾的名字"
+     ]
+    },
+    {
+     "id": "oldtown-seat",
+     "name": "F 排 13 號",
+     "era": "90s",
+     "fear": [
+      "A"
+     ],
+     "danger": 3,
+     "plain": "散場後，F 排 13 號的座椅總是放下的，坐墊還是溫的。",
+     "facts": [
+      "戲院從來不賣這個位置",
+      "坐上去的人會看完一整部沒有聲音的電影"
+     ]
+    },
+    {
+     "id": "oldtown-film",
+     "name": "多一格的膠卷",
+     "era": "japan",
+     "fear": [
+      "R"
+     ],
+     "danger": 4,
+     "plain": "放映師說膠卷裡多了一格。每放映一次，觀眾席最後一排就多坐一個人。",
+     "facts": [
+      "那一格的畫面是第七病棟",
+      "膠卷後來被送去醫院「檢查」"
+     ]
+    },
+    {
+     "id": "oldtown-clogs",
+     "name": "巷子裡的木屐聲",
+     "era": "qing",
+     "fear": [
+      "F"
+     ],
+     "danger": 3,
+     "plain": "半夜的石板巷傳來木屐聲，越來越近，最後停在你家門口。",
+     "facts": [
+      "開門的話聲音就會進來",
+      "要等它走遠才能睡"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "dali",
+   "number": 16,
+   "district": "大里・霧峰",
+   "name": "紅燈籠古厝",
+   "model": "mansion",
+   "cell": [
+    2,
+    4
+   ],
+   "ground": "#946455",
+   "side": "#55372E",
+   "fear": [
+    "R",
+    "F"
+   ],
+   "danger": 5,
+   "summary": "百年古厝的燈籠夜夜亮著，據說那是一場還沒結束的冥婚。",
+   "spots": [
+    {
+     "id": "dali-sedan",
+     "name": "停在門口的紅轎",
+     "era": "qing",
+     "fear": [
+      "R"
+     ],
+     "danger": 5,
+     "plain": "午夜時古厝門前會停著一頂紅花轎，轎簾裡伸出一隻戴著玉鐲的手。",
+     "facts": [
+      "轎子沒有轎夫",
+      "撿起地上紅包的人會被「算進去」"
+     ]
+    },
+    {
+     "id": "dali-tablet",
+     "name": "多一個牌位",
+     "era": "japan",
+     "fear": [
+      "F"
+     ],
+     "danger": 4,
+     "plain": "祠堂裡的牌位每年清明都會多一個，上面的名字還活著。",
+     "facts": [
+      "名字是用紅筆寫的",
+      "家族長輩不准任何人去數"
+     ]
+    },
+    {
+     "id": "dali-mirror",
+     "name": "慢半拍的梳妝鏡",
+     "era": "postwar",
+     "fear": [
+      "A"
+     ],
+     "danger": 3,
+     "plain": "閨房的梳妝鏡照出來的你，總是慢半拍才眨眼。",
+     "facts": [
+      "鏡子用紅布蓋著",
+      "掀開紅布的人會聽見梳頭的聲音"
+     ]
+    }
+   ]
+  }
+ ],
+ "wilds": [
+  {
+   "cell": [
+    3,
+    0
+   ],
+   "label": "和平・雪山霧林"
+  },
+  {
+   "cell": [
+    4,
+    0
+   ],
+   "label": "和平・雪山霧林"
+  },
+  {
+   "cell": [
+    5,
+    0
+   ],
+   "label": "和平・大甲溪源"
+  },
+  {
+   "cell": [
+    3,
+    1
+   ],
+   "label": "和平・八仙山"
+  },
+  {
+   "cell": [
+    5,
+    1
+   ],
+   "label": "和平・合歡山區"
+  }
+ ],
+ "flows": [
+  {
+   "id": "F1",
+   "from": "port",
+   "to": "shalu",
+   "walker": "sailor",
+   "carry": "lantern",
+   "evidence": "record",
+   "text": "溺水的船員提著燈籠，搭上末班海線列車回家"
+  },
+  {
+   "id": "F2",
+   "from": "shalu",
+   "to": "dongshi",
+   "walker": "conductor",
+   "carry": "ticket",
+   "evidence": "witness",
+   "text": "海線末班車的乘客，總在山線的九號隧道下車"
+  },
+  {
+   "id": "F3",
+   "from": "beitun",
+   "to": "guguan",
+   "walker": "nurse",
+   "carry": "bandage",
+   "evidence": "record",
+   "text": "病人說要去泡湯養病，從此沒有回到病房"
+  },
+  {
+   "id": "F4",
+   "from": "dajia",
+   "to": "houli",
+   "walker": "scarecrow",
+   "carry": "straw",
+   "evidence": "rumor",
+   "text": "稻草人把被黑水泡爛的稻草，一束束送去垃圾山打包"
+  },
+  {
+   "id": "F5",
+   "from": "daya",
+   "to": "dali",
+   "walker": "worker",
+   "carry": "thread",
+   "evidence": "record",
+   "text": "紡車織出的紅布，被裁成了冥婚的嫁衣"
+  },
+  {
+   "id": "F6",
+   "from": "xinshe",
+   "to": "lishan",
+   "walker": "gardener",
+   "carry": "seed",
+   "evidence": "rumor",
+   "text": "迷宮裡的花種被帶上山，種進了霧裡"
+  },
+  {
+   "id": "F7",
+   "from": "xitun",
+   "to": "oldtown",
+   "walker": "child",
+   "carry": "balloon",
+   "evidence": "witness",
+   "text": "摩天輪上的小孩牽著氣球，去看午夜場"
+  },
+  {
+   "id": "F8",
+   "from": "dadu",
+   "to": "taiping",
+   "walker": "collector",
+   "carry": "bucket",
+   "evidence": "witness",
+   "text": "凌晨的廚餘車沒有開進回收場，而是轉進了吊橋下的溪谷"
+  },
+  {
+   "id": "F9",
+   "from": "fengyuan",
+   "to": "dali",
+   "walker": "baker",
+   "carry": "cake",
+   "evidence": "record",
+   "text": "深夜訂的冥婚喜餅，送到了紅燈籠古厝"
+  },
+  {
+   "id": "F10",
+   "from": "oldtown",
+   "to": "beitun",
+   "walker": "projectionist",
+   "carry": "film",
+   "evidence": "rumor",
+   "text": "多一格的膠卷裡，拍到了第七病棟的走廊"
+  },
+  {
+   "id": "F11",
+   "from": "houli",
+   "to": "lishan",
+   "walker": "driver",
+   "carry": "bale",
+   "evidence": "witness",
+   "text": "堆不下的太空包，被沒有車號的卡車載上了山"
+  },
+  {
+   "id": "F12",
+   "from": "dali",
+   "to": "port",
+   "walker": "monk",
+   "carry": "talisman",
+   "evidence": "record",
+   "text": "道士帶著符咒前往霧港，要把幽靈船送走"
+  },
+  {
+   "id": "F13",
+   "from": "xitun",
+   "to": "dadu",
+   "walker": "collector",
+   "carry": "bucket",
+   "evidence": "record",
+   "text": "夜市收攤後的廚餘，一桶桶倒進了廚餘湖"
+  },
+  {
+   "id": "F14",
+   "from": "fengyuan",
+   "to": "houli",
+   "walker": "baker",
+   "carry": "cake",
+   "evidence": "rumor",
+   "text": "沒人領取的冥婚喜餅，被一起包進了太空包"
+  }
+ ],
+ "evidence": {
+  "record": {
+   "label": "地方誌記載",
+   "style": "solid"
+  },
+  "witness": {
+   "label": "目擊者證詞",
+   "style": "dash"
+  },
+  "rumor": {
+   "label": "坊間謠言",
+   "style": "dot"
+  }
+ },
+ "dayCycle": [
+  {
+   "from": "00:00",
+   "to": "01:00",
+   "zones": [
+    "oldtown",
+    "xitun"
+   ],
+   "label": "午夜場開映，第七號車廂亮燈"
+  },
+  {
+   "from": "01:00",
+   "to": "02:30",
+   "zones": [
+    "beitun",
+    "guguan"
+   ],
+   "label": "呼叫鈴從 701 亮到 712"
+  },
+  {
+   "from": "02:30",
+   "to": "04:00",
+   "zones": [
+    "daya",
+    "dali",
+    "houli"
+   ],
+   "label": "紡車轉動、紅轎停在門口、垃圾山開始呼吸"
+  },
+  {
+   "from": "04:00",
+   "to": "05:30",
+   "zones": [
+    "port",
+    "fengyuan"
+   ],
+   "label": "霧港靠岸，烤爐升溫"
+  },
+  {
+   "from": "05:30",
+   "to": "07:00",
+   "zones": [
+    "lishan",
+    "dajia"
+   ],
+   "label": "晨霧裡有人叫你的名字"
+  },
+  {
+   "from": "07:00",
+   "to": "17:00",
+   "zones": [
+    "xinshe",
+    "fengyuan"
+   ],
+   "label": "白天：傳說沉睡，只有花海和餅舖照常營業"
+  },
+  {
+   "from": "17:00",
+   "to": "19:00",
+   "zones": [
+    "dadu",
+    "taiping",
+    "dongshi"
+   ],
+   "label": "逢魔時刻：廚餘湖開始冒泡，吊橋開始晃"
+  },
+  {
+   "from": "19:00",
+   "to": "21:30",
+   "zones": [
+    "xitun",
+    "dadu"
+   ],
+   "label": "夜市收攤，廚餘車出發"
+  },
+  {
+   "from": "21:30",
+   "to": "23:00",
+   "zones": [
+    "fengyuan",
+    "taiping",
+    "houli"
+   ],
+   "label": "收攤後，餅舖的燈仍亮著，怪手自己動了起來"
+  },
+  {
+   "from": "23:00",
+   "to": "24:00",
+   "zones": [
+    "shalu",
+    "dongshi"
+   ],
+   "label": "23:59，末班車進站"
+  }
+ ],
+ "tour": {
+  "cues": [
+   {
+    "from": 0,
+    "to": 5,
+    "target": "all",
+    "time": 1260,
+    "flows": [],
+    "caption": "歡迎來到台中驚魂島：十六格傳說，拼成一座城"
+   },
+   {
+    "from": 5,
+    "to": 11,
+    "target": "port",
+    "time": 270,
+    "flows": [
+     "F1"
+    ],
+    "caption": "霧夜，港口多停了一艘沒有編號的船"
+   },
+   {
+    "from": 11,
+    "to": 17,
+    "target": "shalu",
+    "time": 1439,
+    "flows": [
+     "F1",
+     "F2"
+    ],
+    "caption": "23:59 的末班車，不停靠下一站"
+   },
+   {
+    "from": 17,
+    "to": 23,
+    "target": "beitun",
+    "time": 60,
+    "flows": [
+     "F3"
+    ],
+    "caption": "第七病棟的呼叫鈴，從 701 一路亮到 712"
+   },
+   {
+    "from": 23,
+    "to": 29,
+    "target": "guguan",
+    "time": 90,
+    "flows": [
+     "F3"
+    ],
+    "caption": "十三號湯屋，今晚也有人預約"
+   },
+   {
+    "from": 29,
+    "to": 36,
+    "target": "dali",
+    "time": 180,
+    "flows": [
+     "F5",
+     "F9",
+     "F12"
+    ],
+    "caption": "所有的紅線，最後都通往古厝"
+   },
+   {
+    "from": 36,
+    "to": 42,
+    "target": "oldtown",
+    "time": 10,
+    "flows": [
+     "F7",
+     "F10"
+    ],
+    "caption": "午夜場的 F 排 13 號，坐墊還是溫的"
+   },
+   {
+    "from": 42,
+    "to": 48,
+    "target": "houli",
+    "time": 200,
+    "flows": [
+     "F11",
+     "F14"
+    ],
+    "caption": "垃圾無處可去，太空包越堆越高——山在呼吸"
+   },
+   {
+    "from": 48,
+    "to": 54,
+    "target": "dadu",
+    "time": 1110,
+    "flows": [
+     "F13",
+     "F8"
+    ],
+    "caption": "廚餘湖永遠倒不滿，湖底有東西在吃"
+   },
+   {
+    "from": 54,
+    "to": 60,
+    "target": "all",
+    "time": 1320,
+    "flows": [
+     "*"
+    ],
+    "caption": "一個傳說，牽動下一個"
+   },
+   {
+    "from": 60,
+    "to": 64,
+    "target": "all",
+    "time": 330,
+    "flows": [],
+    "caption": "天亮之前，別回頭"
+   }
+  ]
+ },
+ "ui": {
+  "intro": [
+   {
+    "title": "每一格，都是一則傳說",
+    "body": "16 個六邊形，拼成台中市的輪廓——從海線、屯區到梨山。其中幾座島取材自真實的市政議題，例如垃圾山太空包與廚餘湖。點一格，或打開右側清單開始探險。"
+   },
+   {
+    "title": "紅線把恐懼連起來",
+    "body": "打開「連線」，看船員、護理師、稻草人帶著燈籠、車票、紅線，在傳說之間移動。"
+   },
+   {
+    "title": "越晚，越危險",
+    "body": "拖動下方「驚魂一夜」的時間軸，不同時刻會喚醒不同的地點。也可以按「導覽」看 64 秒的故事。"
+   }
+  ],
+  "mascot": "阿飄 · 點一格，開始探險"
+ }
+}
