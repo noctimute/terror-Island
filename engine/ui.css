@@ -392,9 +392,10 @@ body.touring .controls, body.touring .dock, body.touring .card, body.touring .ma
 .gun-hud .gun-ico svg { width: 22px; height: 22px; }
 .gun-hud strong { display: block; font-size: 13px; }
 .gun-hud small { display: block; opacity: .8; margin-top: 2px; }
-.gun-hud i { display: block; height: 5px; margin-top: 6px; background: rgba(255,255,255,.15); border-radius: 3px; overflow: hidden; }
+.gun-hud i { display: block; height: 5px; margin-top: 5px; background: rgba(255,255,255,.15); border-radius: 3px; overflow: hidden; }
 .gun-hud em { display: block; height: 100%; width: 0; background: #ffd23f; transition: width .4s ease; }
 .gun-hud button { background: none; border: 1px solid rgba(255,255,255,.3); color: inherit; border-radius: 8px; padding: 4px 8px; font-size: 11px; cursor: pointer; }
+.gun-hud .gun-note { font-size: 10px; opacity: .55; }
 .gun-hud.done .gun-ico { background: #d9a520; }
 body.touring .gun-hud { display: none; }
 @media (max-width: 760px) { .gun-hud { left: 10px; right: 10px; bottom: 10px; max-width: none; } }
