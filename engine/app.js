@@ -9,6 +9,11 @@ const $ = (s) => document.querySelector(s),
 const params = new URLSearchParams(location.search);
 const reduced = matchMedia("(prefers-reduced-motion: reduce)");
 const mobileMQ = matchMedia("(max-width: 800px)");
+// portrait phone overview: lower angle, turned a little so the city's diagonal fills the narrow screen
+const PHONE_POLAR = 1.0,
+  PHONE_FIT = 1.0,
+  PHONE_DZ = -3,
+  PHONE_AZIM = -0.35;
 const esc = (v) => String(v ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
 const pad = (n) => String(n).padStart(2, "0");
 const fmt = (m) => `${pad(Math.floor(m / 60) % 24)}:${pad(Math.floor(m % 60))}`;
@@ -93,6 +98,10 @@ try {
   const wildsData = D.wilds || [];
   const { centers, wildCenters, bounds } = layoutZones(zones, wildsData);
   const heightAt = createHeightAt(centers);
+  // middle of the 16 legend plateaus (the forest cells to the east would pull the phone framing off-centre)
+  const zoneBox = new THREE.Box3();
+  for (const z of zones) zoneBox.expandByPoint(new THREE.Vector3(centers.get(z.id).x, 0, centers.get(z.id).z));
+  const zoneMid = zoneBox.getCenter(new THREE.Vector3());
   const city = buildCity(THREE, zones, centers, wildCenters);
   scene.add(city.group);
   const allCenters = new Map([...centers, ...wildCenters.map((w, i) => [`wild-${i}`, w])]);
@@ -165,7 +174,7 @@ try {
       selectZone(z.id);
     });
     const obj = new CSS2DObject(el);
-    obj.position.set(c.x, TOP + 0.1, c.z + 1.45);
+    obj.position.set(c.x, TOP - 0.1, c.z + 1.8); // hangs on the plateau's front edge
     scene.add(obj);
     chips.set(z.id, { obj, el });
     z.spots.forEach((s, i) => {
@@ -243,11 +252,13 @@ try {
       d = bounds.maxZ - bounds.minZ + 3;
     const vfov = (camera.fov * Math.PI) / 180,
       hfov = 2 * Math.atan(Math.tan(vfov / 2) * camera.aspect);
-    const polar = state.bird ? 0.1 : 0.88;
+    // phones (portrait): a lower, slightly turned view like a diorama, sized to the screen width
+    const phone = mobileMQ.matches && camera.aspect < 0.85;
+    const polar = state.bird ? 0.1 : phone ? PHONE_POLAR : 0.88;
     const fit = Math.max(w / 2 / Math.tan(hfov / 2), (d / 2 / Math.tan(vfov / 2)) * (state.bird ? 1.0 : 1.05));
-    const dist = Math.min(68, Math.max(12, fit * (mobileMQ.matches ? 1.3 : 0.82)));
-    const t = new THREE.Vector3(0, 0, state.bird ? 0 : 0.6);
-    const p = viewPos(t, dist, polar);
+    const dist = Math.min(68, Math.max(12, fit * (phone ? PHONE_FIT : mobileMQ.matches ? 1.3 : 0.82)));
+    const t = phone ? zoneMid.clone().setZ(zoneMid.z + (state.bird ? 0 : PHONE_DZ)) : new THREE.Vector3(0, 0, state.bird ? 0 : 0.6);
+    const p = viewPos(t, dist, polar, phone && !state.bird ? PHONE_AZIM : 0);
     if (instant) {
       controls.target.copy(t);
       camera.position.copy(p);
