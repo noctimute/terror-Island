@@ -465,7 +465,7 @@ try {
         <h2>${esc(z.name)}</h2><p class="lead">${esc(z.summary)}</p>
         <div class="meta-row">${fearChips(z.fear)}${skulls(z.danger)}</div>
         ${civicBox(z)}${newsBox(z)}
-        <h3>${z.news ? "事件" : "傳說"} <small>${z.spots.length}</small></h3>${z.spotsNote ? `<p class="rec-note">${esc(z.spotsNote)}</p>` : ""}
+        <h3>${z.news ? "事件" : "傳說"} <small>${z.spots.length}</small></h3>
         <ol class="spot-list">${z.spots
           .map(
             (sp) => `<li><button data-spot="${sp.id}"><span class="sp-name">${esc(sp.name)}</span><span class="sp-meta">${esc(eraById.get(sp.era).label)} ${skulls(sp.danger)}</span><span class="sp-plain">${esc(sp.plain)}</span></button></li>`,
@@ -476,7 +476,8 @@ try {
           .map((f) => `<li><button data-flow="${f.id}"><em>${f.id}</em>${icon(f.carry)}<span>${esc(f.text)}</span></button></li>`)
           .join("")}</ul>
         <p class="when">最活躍的時段：${activeWindows(z.id).join("、") || "—"}</p>
-        <div class="card-actions"><button data-act="prev">← 上一處</button><button data-act="flows" class="primary">看它連到哪</button><button data-act="next">下一處 →</button></div>`;
+        <div class="card-actions"><button data-act="prev">← 上一處</button><button data-act="flows" class="primary">看它連到哪</button><button data-act="next">下一處 →</button></div>
+        ${z.spotsNote ? `<p class="rec-note">${esc(z.spotsNote)}</p>` : ""}`;
     } else if (s.type === "spot") {
       const sp = spotById.get(s.id),
         z = zoneById.get(sp.zone);

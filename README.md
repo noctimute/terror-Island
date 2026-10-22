@@ -72,7 +72,7 @@ lumama/data.json    台中內容
 ```json
 {
   "title": "台中墜樓新聞紀錄",
-  "note": "顯示在「事件」標題下方的說明",
+  "note": "顯示在島卡片最底部的來源說明",
   "helpline": true,
   "updated": "2026-10-22",
   "records": [

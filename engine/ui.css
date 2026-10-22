@@ -355,7 +355,7 @@ body.touring .controls, body.touring .dock, body.touring .card, body.touring .ma
 .wip-tag { background: #c9861a; }
 .help { margin-top: 12px; padding: 10px 14px; border-radius: 10px; background: #fff6dc; border: 1px solid #ecd9a0; color: #4a3a10; font-size: 12.5px; line-height: 1.7; }
 .sources { list-style: none; margin: 6px 0 0; padding: 0; }
-.rec-note { margin: 0 0 10px; font-size: 12px; line-height: 1.7; color: #6a6060; }
+.rec-note { margin: 18px 0 0; font-size: 12px; line-height: 1.7; color: #6a6060; }
 .sources li { padding: 8px 0; border-top: 1px solid rgba(0, 0, 0, 0.08); font-size: 13px; line-height: 1.5; }
 .sources a { color: #8e1c16; text-decoration: underline; text-underline-offset: 2px; word-break: break-word; }
 .sources small { display: block; margin-top: 2px; color: #7a7070; font-size: 11px; }
