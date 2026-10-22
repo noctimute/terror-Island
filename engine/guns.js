@@ -1,5 +1,6 @@
 // Easter egg「台中都有槍」: small pistols lie on the roads around the map. Clicking one collects it,
-// pops a toast, and shows a little collection menu with how many are left. Progress is kept per viewer.
+// pops a toast, and shows a little collection menu with how many are left. Progress is kept per viewer;
+// the guns still to find are scattered to new random spots on every visit.
 import { S, hexVertex } from "./world.js?v=1";
 
 const KEY = "taichung-guns-v1";
