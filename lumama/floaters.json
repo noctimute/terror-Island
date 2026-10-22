@@ -1,9 +1,653 @@
 {
  "title": "台中浮屍與落水新聞",
- "note": "整理自 Threads 上流傳的「台中死亡列表」",
+ "note": "整理自 Threads 上流傳的「台中死亡列表」與「台中死亡地圖」網站，每則都附上原始新聞",
  "helpline": true,
  "updated": "2026-10-22",
  "records": [
+  {
+   "id": "float-dm462",
+   "title": "快訊／台中筏子溪驚見人形物體 警消到場發現男性浮屍",
+   "date": "2026-10-20",
+   "place": "南屯",
+   "summary": "南屯筏子溪發現一名男子的遺體，報請檢警相驗。",
+   "sources": [
+    {
+     "title": "快訊／台中筏子溪驚見人形物體 警消到場發現男性浮屍",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20261020/3258050.htm"
+    },
+    {
+     "title": "台中筏子溪驚見浮屍！ 男子溺水排除外力介入",
+     "outlet": "新新聞報",
+     "url": "https://new-reporter.com/news/282008/"
+    },
+    {
+     "title": "台中筏子溪驚見浮屍！ 男子溺水排除外力介入 | LIFE生活網",
+     "outlet": "Life 生活網",
+     "url": "https://life.tw/article/%E5%8F%B0%E4%B8%AD%E7%AD%8F%E5%AD%90%E6%BA%AA%E9%A9%9A%E8%A6%8B%E6%B5%AE%E5%B1%8D-%E7%94%B7%E5%AD%90%E6%BA%BA%E6%B0%B4%E6%8E%92%E9%99%A4%E5%A4%96%E5%8A%9B%E4%BB%8B%E5%85%A5-3187446"
+    }
+   ]
+  },
+  {
+   "id": "float-dm460",
+   "title": "快訊／石岡水壩上游漂浮屍！女子卡水閘門明顯死亡…落水原因待確認",
+   "date": "2026-10-15",
+   "place": "石岡",
+   "summary": "石岡水壩發現一名女子的遺體，報請檢警相驗。",
+   "sources": [
+    {
+     "title": "快訊／石岡水壩上游漂浮屍！女子卡水閘門明顯死亡…落水原因待確認",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1922808"
+    },
+    {
+     "title": "快訊／石岡水壩上游漂浮屍！女子卡水閘門明顯死亡…落水原因待確認",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%BF%AB%E8%A8%8A-%E7%9F%B3%E5%B2%A1%E6%B0%B4%E5%A3%A9%E4%B8%8A%E6%B8%B8%E6%BC%82%E6%B5%AE%E5%B1%8D-%E5%A5%B3%E5%AD%90%E5%8D%A1%E6%B0%B4%E9%96%98%E9%96%80%E6%98%8E%E9%A1%AF%E6%AD%BB%E4%BA%A1-%E8%90%BD%E6%B0%B4%E5%8E%9F%E5%9B%A0%E5%BE%85%E7%A2%BA%E8%AA%8D-003500311.html"
+    },
+    {
+     "title": "石岡水壩上游驚見女浮屍！ 身分死因待查",
+     "outlet": "新新聞報",
+     "url": "https://new-reporter.com/news/281485/"
+    },
+    {
+     "title": "石岡水壩上游驚見女浮屍！ 身分死因待查 - 新頭條-TheHubNews",
+     "outlet": "下班經濟學",
+     "url": "https://www.thehubnews.net/archives/675360"
+    },
+    {
+     "title": "石岡水壩上游驚見女浮屍！ 身分死因待查 | LIFE生活網",
+     "outlet": "Life 生活網",
+     "url": "https://life.tw/article/%E7%9F%B3%E5%B2%A1%E6%B0%B4%E5%A3%A9%E4%B8%8A%E6%B8%B8%E9%A9%9A%E8%A6%8B%E5%A5%B3%E6%B5%AE%E5%B1%8D-%E8%BA%AB%E5%88%86%E6%AD%BB%E5%9B%A0%E5%BE%85%E6%9F%A5-3180602"
+    },
+    {
+     "title": "台中石岡水壩閘門女屍漂浮 晨運民眾受驚嚇",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5607130"
+    },
+    {
+     "title": "台中石岡水壩右側閘門發現浮屍 確認身分61歲婦人找到機車",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7320/9816387"
+    },
+    {
+     "title": "快訊／台中石岡水壩驚見女浮屍 消防緊急出動小艇打撈",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20261015/3254876.htm"
+    }
+   ]
+  },
+  {
+   "id": "float-dm459",
+   "title": "圳溝旁留下一部機車！台中騎士不明原因落水 下游尋獲已身亡",
+   "date": "2026-10-14",
+   "place": "豐原",
+   "summary": "豐原水溝發現一名男子的遺體，報請檢警相驗。",
+   "sources": [
+    {
+     "title": "圳溝旁留下一部機車！台中騎士不明原因落水 下游尋獲已身亡",
+     "outlet": "壹蘋新聞網",
+     "url": "https://news.nextapple.com/local/20261014/D8925E3E45EE0111159D26CCABCE63B4"
+    },
+    {
+     "title": "37歲男子騎機車掉落豐原角潭路圳溝 送醫不治",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5605439"
+    },
+    {
+     "title": "台中豐原騎士掉落角潭路圳溝 送醫不治",
+     "outlet": "三節新聞",
+     "url": "https://www.sjtv.com.tw/articles/114877"
+    },
+    {
+     "title": "台中豐原男子騎機車掉落圳溝 送醫不治 | 中華日報|中華新聞雲",
+     "outlet": "中華日報",
+     "url": "https://www.cdns.com.tw/articles/1474731"
+    },
+    {
+     "title": "台中豐原騎士掉落角潭路圳溝 送醫不治",
+     "outlet": "Newtalk 新聞",
+     "url": "https://newtalk.tw/news/view/2026-10-14/1065385"
+    },
+    {
+     "title": "豐原騎士凌晨撞護欄摔入圳溝沖走 下游尋獲已無呼吸心跳",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20261014001333-260402"
+    },
+    {
+     "title": "豐原37歲騎士撞護欄落水身亡 警方：無酒駕、肇因待查 - 17news民生好報",
+     "outlet": "17 新聞",
+     "url": "https://17news.net/archives/342318"
+    },
+    {
+     "title": "影/台中豐原機車自撞大排！37歲男遭沖走2公里送醫不治",
+     "outlet": "中天新聞網",
+     "url": "https://ctinews.com/news/items/qXWQ6BK0aR"
+    },
+    {
+     "title": "機車騎士疑擦撞護欄落水！37歲男墜圳溝遭沖走2公里 警消攔截救起已成冰冷遺體",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/external/mirrordaily_91434"
+    }
+   ]
+  },
+  {
+   "id": "float-dm449",
+   "title": "快訊／台中高鐵站特區漂浮屍！「人形物體」水中漂…釣客嚇壞報案",
+   "date": "2026-10-08",
+   "place": "烏日",
+   "summary": "烏日筏子溪發現一名男子的遺體，報請檢警相驗。",
+   "sources": [
+    {
+     "title": "快訊／台中高鐵站特區漂浮屍！「人形物體」水中漂…釣客嚇壞報案",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%BF%AB%E8%A8%8A-%E5%8F%B0%E4%B8%AD%E9%AB%98%E9%90%B5%E7%AB%99%E7%89%B9%E5%8D%80%E6%BC%82%E6%B5%AE%E5%B1%8D-%E4%BA%BA%E5%BD%A2%E7%89%A9%E9%AB%94-%E6%B0%B4%E4%B8%AD%E6%BC%82-%E9%87%A3%E5%AE%A2%E5%9A%87%E5%A3%9E%E5%A0%B1%E6%A1%88-085900849.html"
+    }
+   ]
+  },
+  {
+   "id": "float-dm448",
+   "title": "晨運民眾驚見人影載浮載沉！台中西屯橋下漂浮屍 女死者無證件",
+   "date": "2026-10-07",
+   "place": "西屯",
+   "summary": "西屯橋下發現一名女子的遺體，報請檢警相驗。",
+   "sources": [
+    {
+     "title": "晨運民眾驚見人影載浮載沉！台中西屯橋下漂浮屍 女死者無證件",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1918775"
+    },
+    {
+     "title": "台中西屯環中路橋下驚見女浮屍身分成謎 明日檢方相驗查死因",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7320/9800126"
+    },
+    {
+     "title": "晨運民眾驚魂！台中環中路橋下赫見「泡水腫脹女屍」",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20261007003236-260402"
+    }
+   ]
+  },
+  {
+   "id": "float-dm436",
+   "title": "釣客驚見男子屍漂大甲溪！死者身分待查…搜救人員研判：可能是他",
+   "date": "2026-09-12",
+   "place": "石岡",
+   "summary": "石岡河邊發現一名男子的遺體，報請檢警相驗。",
+   "sources": [
+    {
+     "title": "釣客驚見男子屍漂大甲溪！死者身分待查…搜救人員研判：可能是他",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E9%87%A3%E5%AE%A2%E9%A9%9A%E8%A6%8B%E7%94%B7%E5%AD%90%E5%B1%8D%E6%BC%82%E5%A4%A7%E7%94%B2%E6%BA%AA-%E6%AD%BB%E8%80%85%E8%BA%AB%E5%88%86%E5%BE%85%E6%9F%A5-%E6%90%9C%E6%95%91%E4%BA%BA%E5%93%A1%E7%A0%94%E5%88%A4-%E5%8F%AF%E8%83%BD%E6%98%AF%E4%BB%96-231800328.html"
+    },
+    {
+     "title": "釣客驚見男子屍漂大甲溪！死者身分待查…搜救人員研判：可能是他",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1906134"
+    },
+    {
+     "title": "釣客驚見男子屍漂大甲溪…身分可能是他",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/external/setn_1906134"
+    },
+    {
+     "title": "釣客嚇傻！台中大甲溪驚見浮屍 泡水嚴重「性別難辨」",
+     "outlet": "PChome 新聞（轉載）",
+     "url": "https://news.pchome.com.tw/society/ctinews/20260912/index-78922415640763309002.html"
+    },
+    {
+     "title": "釣客驚見大甲溪「人影漂浮」！警消打撈上岸 已明顯死亡",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/4021387"
+    },
+    {
+     "title": "大甲溪河床驚見浮屍！卡大石下全身腫脹 性別、身分難辨",
+     "outlet": "東森新聞",
+     "url": "https://news.ebc.net.tw/news/society/570987"
+    },
+    {
+     "title": "影／農曆七月剛過台中大甲溪現浮屍 消防隊員打撈疑上月落水男",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7320/9750742"
+    },
+    {
+     "title": "鬼月剛過！消防員一早喊「墜橋男還沒找到」 傍晚大甲溪驚見男浮屍",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5571980"
+    },
+    {
+     "title": "快訊／台中大甲溪河床大石下卡浮屍 全身腫脹無法辨識性別",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260912/3236352.htm"
+    }
+   ]
+  },
+  {
+   "id": "float-dm433",
+   "title": "驚！台中科博館植物園水池「驚見浮屍」 民眾嚇壞急報警",
+   "date": "2026-09-08",
+   "place": "北區",
+   "summary": "北區科博館發現一名男子的遺體，報請檢警相驗。",
+   "sources": [
+    {
+     "title": "驚！台中科博館植物園水池「驚見浮屍」 民眾嚇壞急報警",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5567216"
+    },
+    {
+     "title": "台中老翁臥趴科博館植物園水池內 警消到場已明顯死亡",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7320/9741989"
+    },
+    {
+     "title": "台中科博館水池驚見浮屍 水深僅至膝蓋！嚇壞工作人員",
+     "outlet": "壹蘋新聞網",
+     "url": "https://news.nextapple.com/local/20260908/239C00479EB0A54DEEBAC416EF64C592"
+    },
+    {
+     "title": "台中科博館水池驚見浮屍！72歲男已明顯死亡 死因待查",
+     "outlet": "FTNN 新聞網",
+     "url": "https://www.ftnn.com.tw/news/577290"
+    },
+    {
+     "title": "台中科博館植物園驚見浮屍！72歲翁趴臥及膝水池 打撈上岸已死亡",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/story/20260908edi102"
+    },
+    {
+     "title": "民視新聞報導",
+     "outlet": "民視新聞",
+     "url": "https://www.ftvnews.com.tw/news/detail/2026908W0582"
+    },
+    {
+     "title": "快訊／台中科博館水池驚見浮屍 外包人員整理園藝嚇壞報案",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260908/3233762.htm"
+    },
+    {
+     "title": "台中科博館外水池驚見浮屍！ 園藝人員嚇壞報警",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20260908003779-260402"
+    }
+   ]
+  },
+  {
+   "id": "float-dm418",
+   "title": "快訊／台中公園驚傳浮屍命案！女載浮載沉嚇壞路人…打撈上岸已死亡",
+   "date": "2026-08-19",
+   "place": "北區",
+   "summary": "北區台中公園發現一名女子的遺體，報請檢警相驗。",
+   "sources": [
+    {
+     "title": "快訊／台中公園驚傳浮屍命案！女載浮載沉嚇壞路人…打撈上岸已死亡",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%BF%AB%E8%A8%8A-%E5%8F%B0%E4%B8%AD%E5%85%AC%E5%9C%92%E9%A9%9A%E5%82%B3%E6%B5%AE%E5%B1%8D%E5%91%BD%E6%A1%88-55%E6%AD%B2%E5%A5%B3%E8%BC%89%E6%B5%AE%E8%BC%89%E6%B2%89%E5%9A%87%E5%A3%9E%E8%B7%AF%E4%BA%BA-%E6%89%93%E6%92%88%E4%B8%8A%E5%B2%B8%E5%B7%B2%E6%AD%BB%E4%BA%A1-062800525.html"
+    },
+    {
+     "title": "台中公園驚傳浮屍命案！女載浮載沉嚇壞路人…打撈上岸已死亡",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1891984"
+    },
+    {
+     "title": "台中公園日月湖驚見女浮屍！ 檢警相驗調查 | LIFE生活網",
+     "outlet": "Life 生活網",
+     "url": "https://life.tw/article/%E5%8F%B0%E4%B8%AD%E5%85%AC%E5%9C%92%E6%97%A5%E6%9C%88%E6%B9%96%E9%A9%9A%E8%A6%8B%E5%A5%B3%E6%B5%AE%E5%B1%8D-%E6%AA%A2%E8%AD%A6%E7%9B%B8%E9%A9%97%E8%AA%BF%E6%9F%A5-3124196"
+    },
+    {
+     "title": "台中公園日月湖驚現浮屍 六旬身障婦命喪湖面",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7320/9701287"
+    },
+    {
+     "title": "台中公園日月湖驚傳落水 「橋下有人在漂」打撈已溺斃",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5545162"
+    },
+    {
+     "title": "台中公園日月湖驚現浮屍！六旬婦漂浮湖面身亡",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20260819003255-260402"
+    }
+   ]
+  },
+  {
+   "id": "float-dm409",
+   "title": "快訊／大甲溪驚見人影！警消火速出動橡皮艇 涉溪打撈男屍",
+   "date": "2026-08-03",
+   "place": "石岡",
+   "summary": "石岡水壩發現一名男子的遺體，報請檢警相驗。",
+   "sources": [
+    {
+     "title": "快訊／大甲溪驚見人影！警消火速出動橡皮艇 涉溪打撈男屍",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%BF%AB%E8%A8%8A-%E5%A4%A7%E7%94%B2%E6%BA%AA%E9%A9%9A%E8%A6%8B%E4%BA%BA%E5%BD%B1-%E8%AD%A6%E6%B6%88%E7%81%AB%E9%80%9F%E5%87%BA%E5%8B%95%E6%A9%A1%E7%9A%AE%E8%89%87-%E6%B6%89%E6%BA%AA%E6%89%93%E6%92%88%E7%94%B7%E5%B1%8D-043000272.html"
+    },
+    {
+     "title": "快訊／大甲溪驚見人影！警消火速出動橡皮艇 涉溪打撈男屍",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1882985"
+    },
+    {
+     "title": "台中石岡大甲溪中有浮屍 消防隊員抬上岸警方查身分",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7320/9667139"
+    },
+    {
+     "title": "台中石岡大甲溪發現男性浮屍 身份待查",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5526689"
+    }
+   ]
+  },
+  {
+   "id": "float-dm400",
+   "title": "台中午後大雷雨柳川水位暴漲 驚見半裸浮屍",
+   "date": "2026-07-18",
+   "place": "南區",
+   "summary": "南區柳川發現一人的遺體，報請檢警相驗。",
+   "sources": [
+    {
+     "title": "台中午後大雷雨柳川水位暴漲 驚見半裸浮屍",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5509823"
+    }
+   ]
+  },
+  {
+   "id": "float-dm381",
+   "title": "快訊／家屬一早報協尋！台中男埤豐橋落水「卡石縫」送醫不治",
+   "date": "2026-06-28",
+   "place": "豐原",
+   "summary": "豐原河邊發現一名男子的遺體，報請檢警相驗。",
+   "sources": [
+    {
+     "title": "影/悚！台中豐原「刺青壯漢卡鋼橋下石縫慘死」",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%BD%B1-%E6%82%9A-%E5%8F%B0%E4%B8%AD%E8%B1%90%E5%8E%9F-%E5%88%BA%E9%9D%92%E5%A3%AF%E6%BC%A2%E5%8D%A1%E9%8B%BC%E6%A9%8B%E4%B8%8B%E7%9F%B3%E7%B8%AB%E6%85%98%E6%AD%BB-001415198.html"
+    },
+    {
+     "title": "男子台中埤豐橋落水 搜救9小時尋獲卡下游石縫 吊掛送醫命危",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5487022"
+    },
+    {
+     "title": "快訊／家屬一早報協尋！台中男埤豐橋落水「卡石縫」送醫不治",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1863728"
+    }
+   ]
+  },
+  {
+   "id": "float-dm356",
+   "title": "快訊》台中死亡悲劇！30歲男漂浮溪中無動靜 撈起已成冰冷遺體",
+   "date": "2026-05-23",
+   "place": "東區",
+   "summary": "東區旱溪發現一名男子的遺體，報請檢警相驗。",
+   "sources": [
+    {
+     "title": "快訊》台中死亡悲劇！30歲男漂浮溪中無動靜 撈起已成冰冷遺體",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20260523001364-260402?chdtv"
+    },
+    {
+     "title": "快訊／台中旱溪漂浮屍！年輕男困路橋下方載浮載沉…死因身分待查",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1842892"
+    },
+    {
+     "title": "台中旱溪漂人影嚇壞民眾！男子被打撈上岸明顯死亡",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5446818"
+    },
+    {
+     "title": "新／台中旱溪漂浮屍！年輕男死因身分待查",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/external/setn_1842892"
+    },
+    {
+     "title": "快訊》台中死亡悲劇！30歲男漂浮溪中無動靜 撈起已成冰冷遺體",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20260523001364-260402"
+    },
+    {
+     "title": "台中旱溪驚現浮屍 30歲男漂河面、身分不明死因待查",
+     "outlet": "CTWANT",
+     "url": "https://www.ctwant.com/article/482320/"
+    }
+   ]
+  },
+  {
+   "id": "float-dm350",
+   "title": "大甲溪南岸花樑鋼橋下方發現浮屍 警消打撈確認失蹤女子",
+   "date": "2026-05-20",
+   "place": "豐原",
+   "summary": "豐原橋下發現一名女子的遺體，報請檢警相驗。",
+   "sources": [
+    {
+     "title": "快訊／台中大甲溪驚見浮屍！女困「橋下石縫」慘死…消防急馳救援",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%BF%AB%E8%A8%8A-%E5%8F%B0%E4%B8%AD%E5%A4%A7%E7%94%B2%E6%BA%AA%E9%A9%9A%E8%A6%8B%E6%B5%AE%E5%B1%8D-%E5%A5%B3%E5%9B%B0-%E6%A9%8B%E4%B8%8B%E7%9F%B3%E7%B8%AB-%E6%85%98%E6%AD%BB-035200474.html?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAA534-HU84AH8a0ujst9rjNwmxj9nSiwuAcQ39PW4T6XyClgji64aipcOg0BZTce_Kvb_BCDpfzyHeNAV8dwNP9XPHXIpyYltSwM4hHR-vNHSvJK7MUjaIgb-XScx_kuSRywWRvR7yChJfnXDakblbV2BbqSDLcjCHnwiquGXDpf"
+    },
+    {
+     "title": "大甲溪南岸花樑鋼橋下方發現浮屍 警消打撈確認失蹤女子",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5444323"
+    },
+    {
+     "title": "快訊／台中大甲溪驚見浮屍！女困「橋下石縫」慘死…消防急馳救援",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%BF%AB%E8%A8%8A-%E5%8F%B0%E4%B8%AD%E5%A4%A7%E7%94%B2%E6%BA%AA%E9%A9%9A%E8%A6%8B%E6%B5%AE%E5%B1%8D-%E5%A5%B3%E5%9B%B0-%E6%A9%8B%E4%B8%8B%E7%9F%B3%E7%B8%AB-%E6%85%98%E6%AD%BB-035200474.html"
+    },
+    {
+     "title": "台中女大甲溪落水卡石縫溺斃 夫曾報案協尋...等不到愛妻回家",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260521/3169590.htm"
+    }
+   ]
+  },
+  {
+   "id": "float-dm329",
+   "title": "台中婦人失蹤 孝媳哭求白沙屯媽祖幫找人…今尋獲遺體",
+   "date": "2026-04-16",
+   "place": "龍井",
+   "summary": "龍井水溝發現一名女子的遺體，報請檢警相驗。",
+   "sources": [
+    {
+     "title": "台中婦人失蹤 孝媳哭求白沙屯媽祖幫找人…今尋獲遺體",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E5%A9%A6%E4%BA%BA%E5%A4%B1%E8%B9%A4-%E5%AD%9D%E5%AA%B3%E5%93%AD%E6%B1%82%E7%99%BD%E6%B2%99%E5%B1%AF%E5%AA%BD%E7%A5%96%E5%B9%AB%E6%89%BE%E4%BA%BA-%E4%BB%8A%E5%B0%8B%E7%8D%B2%E9%81%BA%E9%AB%94-130140805.html"
+    }
+   ]
+  },
+  {
+   "id": "float-dm323",
+   "title": "快訊／台中公園人影「面朝下」載浮載沉 六旬婦撈起成冰冷屍體",
+   "date": "2026-04-09",
+   "place": "北區",
+   "summary": "北區台中公園發現一名女子的遺體，報請檢警相驗。",
+   "sources": [
+    {
+     "title": "快訊／台中公園人影「面朝下」載浮載沉 六旬婦撈起成冰冷屍體",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/3173604"
+    },
+    {
+     "title": "快訊／台中公園驚見女屍！漂湖中載浮載沉 撈起已明顯死亡",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260409/3146408.htm"
+    },
+    {
+     "title": "台中公園有人落水？警消打撈上岸...六旬婦人已明顯死亡",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7320/9431209"
+    },
+    {
+     "title": "快訊／台中公園驚見女浮屍！民眾嚇壞急報警 撈起已死亡多時",
+     "outlet": "NOWnews",
+     "url": "https://www.nownews.com/news/6805395"
+    },
+    {
+     "title": "快訊／台中公園漂浮屍！「橋下有人在漂」嚇壞報案…61歲婦落水溺斃",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%BF%AB%E8%A8%8A-%E5%8F%B0%E4%B8%AD%E5%85%AC%E5%9C%92%E6%BC%82%E6%B5%AE%E5%B1%8D-%E6%A9%8B%E4%B8%8B%E6%9C%89%E4%BA%BA%E5%9C%A8%E6%BC%82-%E5%9A%87%E5%A3%9E%E5%A0%B1%E6%A1%88-61%E6%AD%B2%E5%A9%A6%E8%90%BD%E6%B0%B4%E6%BA%BA%E6%96%83-053400818.html"
+    }
+   ]
+  },
+  {
+   "id": "float-dm221",
+   "title": "快訊／台中公園日月湖漂出浮屍！26歲男身分曝光",
+   "date": "2025-10-08",
+   "place": "北區",
+   "summary": "北區台中公園發現一名男子的遺體，報請檢警相驗。",
+   "sources": [
+    {
+     "title": "快訊／台中公園日月湖漂出浮屍！26歲男身分曝光",
+     "outlet": "NOWnews",
+     "url": "https://www.nownews.com/news/6739977"
+    },
+    {
+     "title": "台中公園驚見26歲男浮屍 | 中華日報|中華新聞雲",
+     "outlet": "中華日報",
+     "url": "https://www.cdns.com.tw/articles/1298786"
+    },
+    {
+     "title": "台中公園日月湖驚見男浮屍 清潔人員嚇壞報案",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5204249"
+    },
+    {
+     "title": "台中公園日月湖驚見浮屍！26歲男深夜徘徊溺斃…清潔工嚇壞報警",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1732641"
+    },
+    {
+     "title": "台中公園驚見男性浮屍！清潔人員巡湖發現嚇壞報警",
+     "outlet": "Newtalk 新聞",
+     "url": "https://newtalk.tw/news/view/2025-10-08/997934"
+    },
+    {
+     "title": "快訊／台中地標日月湖驚見浮屍！年輕男子漂湖面身分待查",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20251008/3046849.htm"
+    },
+    {
+     "title": "台中公園有人墜日月湖！清掃員感覺怪查看 目睹26歲男死亡",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/3010395"
+    }
+   ]
+  },
+  {
+   "id": "float-dm203",
+   "title": "快訊／台中麻園頭溪連2日傳浮屍案！男子水面載浮載沉⋯撈起已死亡",
+   "date": "2025-09-07",
+   "place": "南區",
+   "summary": "南區麻園頭溪發現一名男子的遺體，報請檢警相驗。",
+   "sources": [
+    {
+     "title": "快訊／台中麻園頭溪連2日傳浮屍案！男子水面載浮載沉⋯撈起已死亡",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%BF%AB%E8%A8%8A-%E5%8F%B0%E4%B8%AD%E9%BA%BB%E5%9C%92%E9%A0%AD%E6%BA%AA%E9%80%A32%E6%97%A5%E5%82%B3%E6%B5%AE%E5%B1%8D%E6%A1%88-%E7%94%B7%E5%AD%90%E6%B0%B4%E9%9D%A2%E8%BC%89%E6%B5%AE%E8%BC%89%E6%B2%89-%E6%92%88%E8%B5%B7%E5%B7%B2%E6%AD%BB%E4%BA%A1-021200949.html"
+    },
+    {
+     "title": "台中麻園頭溪驚見男屍載浮載沉 打撈上岸警將調查",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5169624"
+    },
+    {
+     "title": "台中麻園頭溪連兩日驚見浮屍！今晨再撈起一具無名男屍",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20250907001100-260402"
+    },
+    {
+     "title": "台中麻園頭溪連2日驚見浮屍 今晨再撈起無名男屍",
+     "outlet": "CTWANT",
+     "url": "https://www.ctwant.com/article/443913/"
+    }
+   ]
+  },
+  {
+   "id": "float-dm202",
+   "title": "台中25歲女墜麻園頭溪「漂流40分鐘」 3公里外被尋獲搶救不治",
+   "date": "2025-09-06",
+   "place": "西屯",
+   "summary": "西屯麻園頭溪發現一名女子的遺體，報請檢警相驗。",
+   "sources": [
+    {
+     "title": "台中25歲女墜麻園頭溪「漂流40分鐘」 3公里外被尋獲搶救不治",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD25%E6%AD%B2%E5%A5%B3%E5%A2%9C%E9%BA%BB%E5%9C%92%E9%A0%AD%E6%BA%AA-%E6%BC%82%E6%B5%8140%E5%88%86%E9%90%98-3%E5%85%AC%E9%87%8C%E5%A4%96%E8%A2%AB%E5%B0%8B%E7%8D%B2%E6%90%B6%E6%95%91%E4%B8%8D%E6%B2%BB-030246343.html"
+    },
+    {
+     "title": "快訊／台中25歲女「跨過西區」墜溪漂流40分鐘 搶救不治亡",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250906/3028737.htm"
+    },
+    {
+     "title": "快訊／台中25歲女墜橋漂流1小時 打撈上岸搶救無效身亡",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2981253"
+    }
+   ]
+  },
+  {
+   "id": "float-dm196",
+   "title": "快訊/哀慟！台中周末爆噩耗",
+   "date": "2025-08-31",
+   "place": "烏日",
+   "summary": "烏日水溝發現一名男子的遺體，報請檢警相驗。",
+   "sources": [
+    {
+     "title": "快訊/哀慟！台中周末爆噩耗",
+     "outlet": "中天新聞網",
+     "url": "https://ctinews.com/news/items/pRnY5N21nY"
+    },
+    {
+     "title": "台中男路過往河溝一瞥…驚見65歲伯漂水面 撈起成冰冷遺體",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2976020"
+    }
+   ]
+  },
+  {
+   "id": "float-dm184",
+   "title": "台中麻園頭溪驚見浮屍 失蹤3天72歲翁家屬悲痛認屍",
+   "date": "2025-08-16",
+   "place": "西區",
+   "summary": "西區河邊發現一名男子的遺體，報請檢警相驗。",
+   "sources": [
+    {
+     "title": "台中麻園頭溪驚見浮屍 失蹤3天72歲翁家屬悲痛認屍",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E9%BA%BB%E5%9C%92%E9%A0%AD%E6%BA%AA%E9%A9%9A%E8%A6%8B%E6%B5%AE%E5%B1%8D-%E5%A4%B1%E8%B9%A43%E5%A4%A972%E6%AD%B2%E7%BF%81%E5%AE%B6%E5%B1%AC%E6%82%B2%E7%97%9B%E8%AA%8D%E5%B1%8D-021626320.html"
+    },
+    {
+     "title": "楊柳颱風來失蹤！台中七旬翁陳屍麻園頭溪 家屬悲痛認屍",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2962138"
+    }
+   ]
+  },
+  {
+   "id": "float-dm176",
+   "title": "男屍泡水塔12小時 台中大樓住戶驚「不知喝下多少屍水？」",
+   "date": "2025-07-27",
+   "place": "北區",
+   "summary": "北區一處住宅發現一名男子的遺體，報請檢警相驗。",
+   "sources": [
+    {
+     "title": "男屍泡水塔12小時 台中大樓住戶驚「不知喝下多少屍水？」",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5123325"
+    },
+    {
+     "title": "台中77歲翁陳屍社區水塔！久病自行出門溺亡 屍水恐流竄「整棟變凶宅」 | 易軍堯 | 全解析",
+     "outlet": "風傳媒",
+     "url": "https://www.storm.mg/article/11055891"
+    }
+   ]
+  },
   {
    "id": "float-51",
    "date": "2025-06-26",
@@ -24,6 +668,53 @@
      "title": "快訊／清晨驚見「女子漂浮水中」！台中石岡水壩發現浮屍 警消打撈上岸、身分待查",
      "outlet": "FTNN 新聞網",
      "url": "https://www.ftnn.com.tw/news/587399"
+    }
+   ]
+  },
+  {
+   "id": "float-dm144",
+   "title": "石岡情人木橋下驚見男性浮屍 警消打撈上岸身份待查",
+   "date": "2025-05-20",
+   "place": "石岡",
+   "summary": "石岡河邊發現一名男子的遺體，報請檢警相驗。",
+   "sources": [
+    {
+     "title": "石岡情人木橋下驚見男性浮屍 警消打撈上岸身份待查",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250520/2963760.htm"
+    }
+   ]
+  },
+  {
+   "id": "float-dm143",
+   "title": "中市大雅排水溝驚見浮屍 疑豐原失蹤多日老翁",
+   "date": "2025-05-19",
+   "place": "大雅",
+   "summary": "大雅水溝發現一名男子的遺體，報請檢警相驗。",
+   "sources": [
+    {
+     "title": "聯合新聞網報導",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7320/8749474"
+    },
+    {
+     "title": "中市大雅排水溝驚見浮屍 疑豐原失蹤多日老翁",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5047652"
+    }
+   ]
+  },
+  {
+   "id": "float-dm140",
+   "title": "5/11 東區發現遺體",
+   "date": "2025-05-11",
+   "place": "東區",
+   "summary": "東區旱溪發現一名女子的遺體，報請檢警相驗。",
+   "sources": [
+    {
+     "title": "聯合新聞網報導",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7320/8731887"
     }
    ]
   },
@@ -52,6 +743,25 @@
      "title": "快訊／台中清水漂浮屍！鐵路旁大排水溝驚見男子水上漂…路人嚇壞報警",
      "outlet": "三立新聞網",
      "url": "https://www.setn.com/News.aspx?NewsID=1650581"
+    }
+   ]
+  },
+  {
+   "id": "float-dm137",
+   "title": "快訊／台中旱溪漂浮屍！男趴水面一路漂…民眾目睹「撈屍現場」嚇壞",
+   "date": "2025-05-01",
+   "place": "大里",
+   "summary": "大里旱溪發現一名男子的遺體，報請檢警相驗。",
+   "sources": [
+    {
+     "title": "快訊／台中旱溪漂浮屍！男趴水面一路漂…民眾目睹「撈屍現場」嚇壞",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%BF%AB%E8%A8%8A-%E5%8F%B0%E4%B8%AD%E6%97%B1%E6%BA%AA%E6%BC%82%E6%B5%AE%E5%B1%8D-%E7%94%B7%E8%B6%B4%E6%B0%B4%E9%9D%A2-%E8%B7%AF%E6%BC%82-%E6%B0%91%E7%9C%BE%E7%9B%AE%E7%9D%B9-064700220.html"
+    },
+    {
+     "title": "快訊／台中旱溪漂浮屍！男趴水面一路漂…民眾目睹「撈屍現場」嚇壞",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1649327"
     }
    ]
   },
@@ -202,6 +912,20 @@
    ]
   },
   {
+   "id": "float-dm88",
+   "title": "1/30 龍井發現遺體",
+   "date": "2025-01-30",
+   "place": "龍井",
+   "summary": "龍井水溝發現一名男子的遺體，報請檢警相驗。",
+   "sources": [
+    {
+     "title": "台中男嬰被丟大排亡.全身赤裸「臍帶未剪」 警追可疑人士",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E7%94%B7%E5%AC%B0%E8%A2%AB%E4%B8%9F%E5%A4%A7%E6%8E%92%E4%BA%A1-%E5%85%A8%E8%BA%AB%E8%B5%A4%E8%A3%B8-%E8%87%8D%E5%B8%B6%E6%9C%AA%E5%89%AA-%E8%AD%A6%E8%BF%BD%E5%8F%AF%E7%96%91%E4%BA%BA%E5%A3%AB-083800122.html"
+    }
+   ]
+  },
+  {
    "id": "float-11",
    "date": "2025-01-28",
    "place": "龍井",
@@ -294,6 +1018,25 @@
    ]
   },
   {
+   "id": "float-dm54",
+   "title": "73歲老翁留字條離家 家屬報案尋獲時已溺斃",
+   "date": "2024-10-15",
+   "place": "豐原",
+   "summary": "豐原水溝發現一名男子的遺體，報請檢警相驗。",
+   "sources": [
+    {
+     "title": "快訊/豐原水圳驚見浮屍！7旬失聯翁「機車停岸邊、人浮水面上」家裡有遺書",
+     "outlet": "中天新聞網",
+     "url": "https://ctinews.com/news/items/BexXRNZEWb"
+    },
+    {
+     "title": "73歲老翁留字條離家 家屬報案尋獲時已溺斃",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4830859"
+    }
+   ]
+  },
+  {
    "id": "float-102",
    "date": "2024-10-09",
    "place": "東區",
@@ -313,6 +1056,25 @@
      "title": "快訊／台中「帝國糖廠」驚見男浮屍載浮載沉！民眾散步嚇壞報警",
      "outlet": "Yahoo 新聞",
      "url": "https://tw.news.yahoo.com/%E5%BF%AB%E8%A8%8A-%E5%8F%B0%E4%B8%AD-%E5%B8%9D%E5%9C%8B%E7%B3%96%E5%BB%A0-%E9%A9%9A%E8%A6%8B%E7%94%B7%E6%B5%AE%E5%B1%8D%E8%BC%89%E6%B5%AE%E8%BC%89%E6%B2%89-%E6%B0%91%E7%9C%BE%E6%95%A3%E6%AD%A5%E5%9A%87%E5%A3%9E%E5%A0%B1%E8%AD%A6-102700576.html"
+    }
+   ]
+  },
+  {
+   "id": "float-88",
+   "title": "快訊/西屯大排清晨發現70歲女浮屍 附近找到敬老卡",
+   "date": "2024-08-16",
+   "place": "西屯",
+   "summary": "西屯水溝發現一名女子的遺體，報請檢警相驗。",
+   "sources": [
+    {
+     "title": "快訊/西屯大排清晨發現70歲女浮屍 附近找到敬老卡",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%BF%AB%E8%A8%8A-%E8%A5%BF%E5%B1%AF%E5%A4%A7%E6%8E%92%E6%B8%85%E6%99%A8%E7%99%BC%E7%8F%BE70%E6%AD%B2%E5%A5%B3%E6%B5%AE%E5%B1%8D-%E9%99%84%E8%BF%91%E6%89%BE%E5%88%B0%E6%95%AC%E8%80%81%E5%8D%A1-023122593.html"
+    },
+    {
+     "title": "台中水溝驚現浮屍 70歲老婦因生活壓力自縊身亡",
+     "outlet": "台灣時報",
+     "url": "https://www.taiwantimes.com.tw/app-container/app-content/new/new-content-detail?blogId=blog-11adbd7e-7468-4cfe-8549-90c8f9c1716c&currentCategory=7"
     }
    ]
   },
@@ -381,6 +1143,20 @@
    ]
   },
   {
+   "id": "float-77",
+   "title": "7/11 龍井發現遺體",
+   "date": "2024-07-11",
+   "place": "龍井",
+   "summary": "龍井大肚溪出海口發現一名男子的遺體，報請檢警相驗。",
+   "sources": [
+    {
+     "title": "聯合新聞網報導",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7320/8089029"
+    }
+   ]
+  },
+  {
    "id": "float-69",
    "date": "2024-06-30",
    "place": "梧棲",
@@ -433,6 +1209,30 @@
      "title": "快訊／台中大排驚見女浮屍！身分不詳 距大雅樹葬區僅1公里",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20240622/2763113.htm"
+    }
+   ]
+  },
+  {
+   "id": "float-59",
+   "title": "嚇破膽！民散步時驚見排水溝有男屍 機車停一旁死因離奇",
+   "date": "2024-06-07",
+   "place": "神岡",
+   "summary": "神岡水溝發現一名男子的遺體，報請檢警相驗。",
+   "sources": [
+    {
+     "title": "嚇破膽！民散步時驚見排水溝有男屍 機車停一旁死因離奇",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20240607001454-260402"
+    },
+    {
+     "title": "嚇破膽！民散步時驚見排水溝有男屍 機車停一旁死因離奇",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20240607001454-260402?chdtv"
+    },
+    {
+     "title": "男子疑騎機車撞電線桿 掉落中市神岡大圳路旁浮圳溺斃",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4698001"
     }
    ]
   },
@@ -512,6 +1312,25 @@
      "title": "聯合新聞網報導",
      "outlet": "聯合新聞網",
      "url": "https://udn.com/news/story/7320/8008808"
+    }
+   ]
+  },
+  {
+   "id": "float-dm7",
+   "title": "台中81歲翁站4樓高陸橋！下秒「墜落溪中」無呼吸心跳搶救亡",
+   "date": "2024-05-27",
+   "place": "南屯",
+   "summary": "南屯橋下發現一名男子的遺體，報請檢警相驗。",
+   "sources": [
+    {
+     "title": "Yahoo 新聞報導",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E7%94%B7-4%E5%B1%A4%E6%A8%93%E9%AB%98%E5%A2%9C%E6%A9%8B-2%E5%A4%A9%E9%80%A3%E7%88%864%E6%A1%88-%E4%BB%96%E7%A0%B8%E6%BA%AA%E4%B8%AD%E7%84%A1%E5%91%BC%E5%90%B8%E5%BF%83%E8%B7%B3-072627267.html"
+    },
+    {
+     "title": "台中81歲翁站4樓高陸橋！下秒「墜落溪中」無呼吸心跳搶救亡",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2498873"
     }
    ]
   }

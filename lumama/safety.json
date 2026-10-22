@@ -77,6 +77,31 @@
    ]
   },
   {
+   "id": "s-pedestrian",
+   "title": "台中2025年行人死亡57人 全國最多",
+   "date": "2025",
+   "sort": "2025-12",
+   "place": "台中",
+   "summary": "交通部統計，台中 2025 年行人事故 30 日內死亡 57 人，是各縣市最多；市府回應整體事故死亡人數較前年減少，減幅六都第一。",
+   "sources": [
+    {
+     "title": "1至8月交通事故釀1819死台南連4個月居冠 台中、高雄行人死亡最多",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7266/9134533"
+    },
+    {
+     "title": "台中行人死亡數冠全台 挨批出門「步步驚心」市府反擊了",
+     "outlet": "ctee.com.tw",
+     "url": "https://www.ctee.com.tw/news/20260313701369-431401"
+    },
+    {
+     "title": "六都第2名！台中上半年交通事故行人死亡數 較同期下降54.8％ - 臺中市",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/Taichung/breakingnews/5556716"
+    }
+   ]
+  },
+  {
    "id": "s-dali-parking",
    "title": "大里運動公園地下停車場淹水 車泡水13小時",
    "date": "2025-07",

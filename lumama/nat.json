@@ -128,6 +128,35 @@
    ]
   },
   {
+   "id": "n-rapidtest",
+   "title": "市府採購的快篩 33萬劑疑混充中國製",
+   "date": "2022-05",
+   "place": "台中",
+   "summary": "Omicron 疫情期間市府採購 43.8 萬劑快篩，其中約 33 萬劑批號疑似是中國製品改貼美國製標籤；市府退貨並移送檢調，進口商負責人遭羈押，多個機關也買到同一廠商的貨。",
+   "sources": [
+    {
+     "title": "台中市新增7250例本土個案 成人BNT疫苗開放預約施打",
+     "outlet": "Newtalk 新聞",
+     "url": "https://newtalk.tw/news/view/2022-05-22/758790"
+    },
+    {
+     "title": "怎麼驗都陰性？ 黑心業者違法進口中國製快篩被抓到了",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/story/20220613inv006"
+    },
+    {
+     "title": "富樂快篩劑疑陸貨貼美製 大鑫負責人交保",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/585489"
+    },
+    {
+     "title": "關鍵評論網報導",
+     "outlet": "關鍵評論網",
+     "url": "https://www.thenewslens.com/article/168179"
+    }
+   ]
+  },
+  {
    "id": "n-boat",
    "title": "大安海岸擱淺無人快艇 有簡體字物資",
    "date": "2021-08-09",

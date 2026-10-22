@@ -37,6 +37,35 @@
    ]
   },
   {
+   "id": "f-avian",
+   "title": "豐原蛋雞場禽流感 業者隱匿17天才通報",
+   "date": "2026-01",
+   "place": "豐原",
+   "summary": "豐原一處蛋雞場雞隻從 1 月上旬開始異常死亡，業者未通報、私下掩埋死雞並繼續賣蛋；民眾在社群爆料後市府才介入，驗出 H5N1，撲殺約 7 千隻，業者被罰 115 萬元。",
+   "sources": [
+    {
+     "title": "豐原蛋雞場大量死亡檢驗結果出爐 盧秀燕：確認禽流感陽性",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7266/9293340"
+    },
+    {
+     "title": "台中爆禽流感！蛋雞10日異常死亡卻隱匿17天 盧秀燕親上火線報告 | 政治快訊",
+     "outlet": "NOWnews",
+     "url": "https://www.nownews.com/news/6780855"
+    },
+    {
+     "title": "台中豐原蛋雞場爆禽流感！7千隻雞全撲殺、雞蛋下架，業者疑隱匿「最重罰百萬」，市府回應了- 今周刊",
+     "outlet": "businesstoday.com.tw",
+     "url": "https://www.businesstoday.com.tw/article/category/183027/post/202601280061/"
+    },
+    {
+     "title": "台中豐康牧場禽流感疫情 盧秀燕：有效控制未擴散",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/aloc/202602020252.aspx"
+    }
+   ]
+  },
+  {
    "id": "f-tea",
    "title": "手搖飲店誤用去漬粉 3名顧客喝下灼傷",
    "date": "2025-11-30",
@@ -183,6 +212,35 @@
      "title": "（影）一個月內兩度爆發嚴重食安 謝志忠要求中市消保官主動介入",
      "outlet": "Newtalk 新聞",
      "url": "https://newtalk.tw/news/view/2025-07-24/983733"
+    }
+   ]
+  },
+  {
+   "id": "f-ractopamine",
+   "title": "台糖梅花肉片驗出瘦肉精西布特羅",
+   "date": "2024-01",
+   "place": "台中",
+   "summary": "台中市食安處抽驗台糖梅花肉片，驗出瘦肉精西布特羅；中央與市府對是否為實驗室汙染各說各話，行政院結論是無法排除也無法證實。",
+   "sources": [
+    {
+     "title": "聯合新聞網報導",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7266/7760392"
+    },
+    {
+     "title": "台中查出台糖肉片含瘦肉精 台糖保證無使用並追查污染源",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/679612"
+    },
+    {
+     "title": "政院公布「瘦肉精0檢出」 台中衛生局：6次都驗出",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/politics/2388524"
+    },
+    {
+     "title": "快訊／台糖豬肉片複驗結果出爐！食藥署檢出瘦肉精「西布特羅」",
+     "outlet": "ETtoday",
+     "url": "https://health.ettoday.net/news/2679868"
     }
    ]
   }
