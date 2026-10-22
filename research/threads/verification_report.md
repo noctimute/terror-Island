@@ -1,0 +1,527 @@
+# 台中相關 Threads 貼文：議題分類與新聞查證（精簡版）
+
+不含貼文全文與互動數據。每個事件各搜尋 1～2 次；標「查無」只代表這輪沒搜到，不等於不存在。
+
+狀態說明：屬實／需修正（事件屬實但細節有誤）／不符（與報導或官方結論相反）／查無／無佐證（推論無任何來源支持）／部分查證／未查。
+
+## 分類
+
+| 分類 | 篇數 | 貼文編號 |
+|---|---|---|
+| 台中死亡事件與「死亡列表」 | 18 | #5, #26, #27, #28, #35, #44, #82, #84, #86, #88, #89, #90, #94, #99, #100, #109, #110, #111 |
+| 治安・警政・司法 | 8 | #3, #10, #18, #31, #34, #36, #106, #108 |
+| 中國因素與國安 | 15 | #4, #9, #22, #23, #25, #37, #62, #64, #76, #83, #92, #95, #97, #98, #105 |
+| 公安災害與市府究責 | 10 | #16, #30, #33, #48, #63, #66, #77, #81, #101, #102 |
+| 食安與防疫 | 11 | #15, #24, #41, #45, #50, #51, #52, #53, #54, #55, #68 |
+| 兒少保護與性侵案 | 4 | #19, #29, #56, #87 |
+| 能源（中火改核） | 6 | #20, #69, #70, #71, #73, #74 |
+| 市政・財政・社宅 | 8 | #6, #12, #17, #59, #91, #103, #104, #107 |
+| 盧秀燕施政與政治評論 | 27 | #1, #7, #8, #11, #13, #14, #21, #32, #38, #39, #40, #43, #46, #47, #49, #58, #60, #61, #65, #67, #72, #75, #79, #80, #85, #93, #96 |
+| 個人經歷與其他 | 5 | #0, #2, #42, #57, #78 |
+
+## 台中死亡事件與「死亡列表」
+
+- **【無佐證】「被墜樓」「人口清洗」「中國特務處理人」等推論**：沒有任何新聞報導或官方資料支持這些推論；有查到的個案多是警方已排除外力，或已經有兇手被判刑
+- **【屬實】梧棲25歲饒姓男子被打死（2024-11）**：是凌虐致死案，兇手一、二審都判12年。這案是他殺且已經判刑，不是「被壓下來」
+  - [來源1](https://udn.com/news/story/7321/9657563)
+  - [來源2](https://www.nownews.com/news/6764395)
+  - [來源3](https://www.storm.mg/lifestyle/5281968)
+- **【部分查證】「台中死亡列表」（約100筆）**：沒辦法逐筆查。抽查結果：勤美墜樓、梧棲命案屬實；河堤焦屍、旱溪頭套塑膠袋、龍井男嬰、76小時6死、大學墜樓、虹揚橋吊掛這幾則，搜尋一次都沒找到主流報導
+- **【需修正】中國實習醫羅帥宇墜亡**：事件屬實；官方通報認定是自殺，家屬有質疑
+  - [來源1](https://www.worldjournal.com/wj/story/121474/8806688)
+  - [來源2](https://newtalk.tw/news/view/2025-06-14/976351)
+  - [來源3](https://www.hk01.com/article/60247328)
+- **【屬實】勤美誠品47天內3人墜樓（2025-02～04）**：第一起警方已排除外力；商場加裝防護網
+  - [來源1](https://news.ltn.com.tw/news/society/breakingnews/5008408)
+  - [來源2](https://news.pts.org.tw/article/690865)
+  - [來源3](https://www.taiwannews.com.tw/zh/news/6082960)
+  - [來源4](https://news.tvbs.com.tw/english/2850013)
+- **【查無】2024/11/14～17 76小時6人死亡**：沒找到報導
+- **【查無】西屯虹揚橋男子吊掛身亡**：搜尋一次沒找到
+- **【需修正】前刑事局警政監林明佐收賄4451萬**：收賄、起訴32人屬實；但搜索、羈押、起訴的是台中地檢署。橋頭（與嘉義）地檢是2021年辦高雄博弈案時發現線索，再移交中檢
+  - [來源1](https://news.ltn.com.tw/news/Taichung/breakingnews/5492364)
+  - [來源2](https://news.pts.org.tw/article/711483)
+  - [來源3](https://news.tvbs.com.tw/local/2902634)
+  - [來源4](https://www.mirrormedia.mg/story/amp/20240603inv001)
+  - [來源5](https://udn.com/news/story/7321/8979372)
+- **【需修正】「12警員涉收賄、太平分局偵查隊長被帶回」**：查到的是12名警員開假罰單案：檢方認定沒有收賄，但圖利約4400萬。太平分局偵查隊長被帶回的報導沒找到
+  - [來源1](https://www.cna.com.tw/news/asoc/202512020061.aspx)
+  - [來源2](https://news.ltn.com.tw/news/society/breakingnews/5459175)
+  - [來源3](https://news.pts.org.tw/article/784023)
+- **【查無】台中河堤火警發現焦屍（2025-03）**：搜尋一次沒找到
+- **【查無】台中某大學30歲男墜樓（2025-02-19）**：搜尋一次沒找到
+- **【不符】氣爆傷者是「中國現役特警」**：傷者是「澳門」治安警察局的現役特警，與家人來台旅遊受傷，不是中國大陸特警
+  - [來源1](https://www.stheadline.com/breaking-news/3428859/)
+  - [來源2](https://www.nownews.com/news/6646357)
+  - [來源3](https://www.taiwannews.com.tw/zh/news/6086854)
+  - [來源4](https://newtalk.tw/news/view/2025-02-14/956703)
+- **【屬實】曾參與解放軍演習的香港船「長和輪」停靠台中港（2024-12）**：該船2022年參與過共軍演習；港務公司說依法停靠卸貨，海巡登檢沒發現異狀
+  - [來源1](https://www.cna.com.tw/news/ahel/202412090031.aspx)
+  - [來源2](https://news.pts.org.tw/article/728030)
+  - [來源3](https://news.ltn.com.tw/news/politics/breakingnews/4887463)
+  - [來源4](https://www.cw.com.tw/article/5136313)
+- **【屬實】盧秀燕／購物節「民調第一」**：購物節網路民調約9成滿意（市府委託）；遠見2025-04好感度調查盧秀燕地方首長最高；「4成6反對大罷免」沒找到相同數字
+  - [來源1](https://www.storm.mg/article/5325441)
+  - [來源2](https://udn.com/news/story/7325/9269144)
+  - [來源3](https://www.gvm.com.tw/article/124647)
+  - [來源4](https://udn.com/news/story/6656/9038280)
+  - [來源5](https://www.nownews.com/news/6677340)
+- **【需修正】幣流分析師陳梅慧車禍身亡（2024-12-04）**：車禍屬實。她是以涉案人身分去台中地檢署應訊（不是「半夜被叫去問話」）；新竹地檢偵結認定肇事者是隨機接單的計程車司機，排除蓄意
+  - [來源1](https://www.cna.com.tw/news/asoc/202412050313.aspx)
+  - [來源2](https://www.cna.com.tw/news/asoc/202502140355.aspx)
+  - [來源3](https://www.storm.mg/article/5287570)
+  - [來源4](https://news.tvbs.com.tw/politics/2710115)
+  - [來源5](https://www.businesstoday.com.tw/article/category/183027/post/202412060022/)
+
+## 治安・警政・司法
+
+- **【屬實】中區國稅局簡任稽核收賄、南屯4340萬豪宅（2026-09）**：查到現金1280萬、5塊黃金，用兒子名義付了500萬頭期款；「鈔票磚」是形容
+  - [來源1](https://cna.com.tw/news/asoc/202609030148.aspx)
+  - [來源2](https://udn.com/news/story/7321/9820409)
+  - [來源3](https://news.ltn.com.tw/news/Taichung/breakingnews/5609384)
+- **【需修正】蝦皮賣場水房洗錢17億、28人**：大致屬實：是南投警方偵破、集團設在台中、19人被起訴；但運作期間約3年，不是2年
+  - [來源1](https://udn.com/news/story/124490/9632269)
+  - [來源2](https://www.ettoday.net/news/20260603/3176869.htm)
+  - [來源3](https://www.inside.com.tw/article/38786-understanding-how-shopee-account-rental-becomes-money-laundering-crime-pattern)
+- **【屬實】第二分局陳姓偵查小隊長涉毒、性侵，羈押禁見（2026-06）**：已記兩大過免職
+  - [來源1](https://www.ettoday.net/news/20260630/3192513.htm)
+  - [來源2](https://news.ltn.com.tw/news/Taichung/breakingnews/5488620)
+  - [來源3](https://udn.com/news/story/7321/9587050)
+- **【屬實】中天記者林宸佑國安案（2026-01）**：橋頭地檢偵辦，羈押禁見後延押
+  - [來源1](https://www.cna.com.tw/news/asoc/202603160174.aspx)
+  - [來源2](https://www.storm.mg/article/11096024)
+  - [來源3](https://udn.com/news/story/7321/9382198)
+  - [來源4](https://news.pts.org.tw/article/791176)
+- **【需修正】前刑事局警政監林明佐收賄4451萬**：收賄、起訴32人屬實；但搜索、羈押、起訴的是台中地檢署。橋頭（與嘉義）地檢是2021年辦高雄博弈案時發現線索，再移交中檢
+  - [來源1](https://news.ltn.com.tw/news/Taichung/breakingnews/5492364)
+  - [來源2](https://news.pts.org.tw/article/711483)
+  - [來源3](https://news.tvbs.com.tw/local/2902634)
+  - [來源4](https://www.mirrormedia.mg/story/amp/20240603inv001)
+  - [來源5](https://udn.com/news/story/7321/8979372)
+- **【屬實】中油徐漢貪瀆、搜出2710萬、一審判25年**：橋頭地院一審判決
+  - [來源1](https://udn.com/news/story/7321/9396833)
+  - [來源2](https://finance.ettoday.net/news/3201928)
+  - [來源3](https://news.pts.org.tw/article/800572)
+  - [來源4](https://www.worldjournal.com/wj/story/121222/9640970)
+- **【屬實】橋頭地檢偵破醫美密醫詐團**：彭姓女子等10人被起訴，一年獲利近千萬
+  - [來源1](https://news.pts.org.tw/article/800480)
+  - [來源2](https://udn.com/news/story/7321/9396660)
+  - [來源3](https://www.peoplenews.tw/?p=22908)
+- **【查無】2022年橋頭查獲漁船走私1.5公噸K他命**：沒找到吻合的案子。2022年橋頭指揮的是茄萣外海622公斤愷他命原料案
+  - [來源1](https://www.nownews.com/news/6097597)
+- **【屬實】七期商辦詐團話務機房**：2025-09-25搜索、4人被起訴；報導沒提到「破門」
+  - [來源1](https://udn.com/news/story/124490/9282249)
+  - [來源2](https://news.pts.org.tw/article/800385)
+  - [來源3](https://www.nownews.com/news/6809923)
+- **【需修正】「12警員涉收賄、太平分局偵查隊長被帶回」**：查到的是12名警員開假罰單案：檢方認定沒有收賄，但圖利約4400萬。太平分局偵查隊長被帶回的報導沒找到
+  - [來源1](https://www.cna.com.tw/news/asoc/202512020061.aspx)
+  - [來源2](https://news.ltn.com.tw/news/society/breakingnews/5459175)
+  - [來源3](https://news.pts.org.tw/article/784023)
+- **【無佐證】台中夫妻經營的水房一年流水150億**：是個人說法，沒有新聞可以佐證
+
+## 中國因素與國安
+
+- **【屬實】航見科技用中國零件冒充國造無人機，梧棲有空殼據點（2026-08）**：國防無人機案第一件涉國安法的；負責人被羈押
+  - [來源1](https://news.ltn.com.tw/news/Taichung/breakingnews/5543957)
+  - [來源2](https://news.pts.org.tw/article/823019)
+  - [來源3](https://www.ettoday.net/news/20260818/3221055.htm)
+  - [來源4](https://www.mirrormedia.mg/story/20260818edi071)
+- **【需修正】「台中」豐益科技洗產地、仍得標國防部**：洗產地、仍得標國防部9194萬屬實；但起訴的是桃園地檢，報導沒說這家是台中公司
+  - [來源1](https://www.nownews.com/news/6754886)
+  - [來源2](https://news.pts.org.tw/article/781593)
+  - [來源3](https://udn.com/news/story/10930/9144053)
+  - [來源4](https://news.tvbs.com.tw/politics/3046654)
+- **【需修正】清潔隊裝備標中華民國製，送來是中國貨**：2024年採購的反光背心、雨衣等，標案寫產地中華民國，但包裝印簡體字（議員江肇國踢爆）；環保局說是文書疏失，還請局內人員幫忙換包裝，民進黨團質疑在「洗產地」。送驗結果除女雨鞋外都合格，「劣質品」是批評用語
+  - [來源1](https://news.pts.org.tw/article/748983)
+  - [來源2](https://news.ltn.com.tw/news/life/breakingnews/5027896)
+  - [來源3](https://www.chinatimes.com/realtimenews/20250430002281-260421)
+  - [來源4](https://udn.com/news/story/6656/8708064)
+- **【查無】役男入伍禮電子錶是中國品牌**：入伍禮電子錶屬實（每支約299元），但沒找到品牌或產地爭議的報導
+  - [來源1](https://www.storm.mg/lifestyle/4857641)
+  - [來源2](https://news.ltn.com.tw/news/politics/breakingnews/4403705)
+- **【查無】關務署查獲台中工具機、自行車業者集體洗產地**：沒找到這個具體案件
+- **【屬實】曾參與解放軍演習的香港船「長和輪」停靠台中港（2024-12）**：該船2022年參與過共軍演習；港務公司說依法停靠卸貨，海巡登檢沒發現異狀
+  - [來源1](https://www.cna.com.tw/news/ahel/202412090031.aspx)
+  - [來源2](https://news.pts.org.tw/article/728030)
+  - [來源3](https://news.ltn.com.tw/news/politics/breakingnews/4887463)
+  - [來源4](https://www.cw.com.tw/article/5136313)
+- **【屬實】中國周姓男子搭橡皮艇偷渡到台中港（2021-04-30）**：依國安法等移送
+  - [來源1](https://newtalk.tw/news/view/2021-05-04/570024)
+  - [來源2](https://www.taiwannews.com.tw/ch/news/4193405)
+  - [來源3](https://www.businesstoday.com.tw/article/category/183027/post/202106210015/)
+- **【查無】2021-08台中大安海域疑有偷渡客上岸**：搜尋一次沒找到報導
+- **【屬實】2049計畫協會報告指台中港是登陸目標**：易思安2021年《Hostile Harbors》報告把台中港列為主要潛在目標
+  - [來源1](https://www.cna.com.tw/news/aipl/202108030230.aspx)
+  - [來源2](https://www.thenewslens.com/article/162914)
+  - [來源3](https://newtalk.tw/news/view/2021-07-14/604150)
+  - [來源4](https://www.worldjournal.com/wj/story/121220/8720794)
+- **【屬實】中國宣布重啟上海、福建赴台自由行（2026-04）**：陸方宣布推動，台灣本島還沒開放
+  - [來源1](https://udn.com/news/story/124802/9442429)
+  - [來源2](https://wantrich.chinatimes.com/news/20260420900045-420501)
+  - [來源3](https://www.cna.com.tw/news/afe/202501170066.aspx)
+- **【屬實】太平國小棒球隊教練性侵案**：2024-12初報31人、最小二年級；後續累計超過80名學童（貼文的「82兒童」就是這案）；監察院糾正
+  - [來源1](https://www.mirrormedia.mg/story/20241223inv002)
+  - [來源2](https://news.pts.org.tw/article/729202)
+  - [來源3](https://news.pts.org.tw/article/814581)
+  - [來源4](https://www.thenewslens.com/article/267972)
+  - [來源5](https://www.nownews.com/news/6806662)
+  - [來源6](https://news.ltn.com.tw/news/society/breakingnews/5397587)
+- **【屬實】高雄春捲集體食物中毒173人（2026-04）**
+  - [來源1](https://www.ctee.com.tw/news/20260408701744-431401)
+  - [來源2](https://www.taiwannews.com.tw/zh/news/6335188)
+  - [來源3](https://www.businesstoday.com.tw/article/category/183029/post/202604070019/)
+  - [來源4](https://www.peoplenews.tw/?p=25533)
+- **【需修正】幣流分析師陳梅慧車禍身亡（2024-12-04）**：車禍屬實。她是以涉案人身分去台中地檢署應訊（不是「半夜被叫去問話」）；新竹地檢偵結認定肇事者是隨機接單的計程車司機，排除蓄意
+  - [來源1](https://www.cna.com.tw/news/asoc/202412050313.aspx)
+  - [來源2](https://www.cna.com.tw/news/asoc/202502140355.aspx)
+  - [來源3](https://www.storm.mg/article/5287570)
+  - [來源4](https://news.tvbs.com.tw/politics/2710115)
+  - [來源5](https://www.businesstoday.com.tw/article/category/183027/post/202412060022/)
+- **【需修正】前刑事局警政監林明佐收賄4451萬**：收賄、起訴32人屬實；但搜索、羈押、起訴的是台中地檢署。橋頭（與嘉義）地檢是2021年辦高雄博弈案時發現線索，再移交中檢
+  - [來源1](https://news.ltn.com.tw/news/Taichung/breakingnews/5492364)
+  - [來源2](https://news.pts.org.tw/article/711483)
+  - [來源3](https://news.tvbs.com.tw/local/2902634)
+  - [來源4](https://www.mirrormedia.mg/story/amp/20240603inv001)
+  - [來源5](https://udn.com/news/story/7321/8979372)
+- **【查無】2023-04調查局立案查中資介選（台中、彰化）**：搜尋一次沒找到
+- **【需修正】調查局總部資安處火警（2023-04-24）**：火警屬實；新北消防局鑑定是老舊電線引起的「電氣因素」，排除人為縱火；北檢2024年簽結，資料都有備份
+  - [來源1](https://news.pts.org.tw/article/633753)
+  - [來源2](https://news.pts.org.tw/article/633898)
+  - [來源3](https://www.taiwannews.com.tw/ch/news/4873172)
+  - [來源4](https://www.cna.com.tw/news/asoc/202304250333.aspx)
+  - [來源5](https://udn.com/news/story/7320/7172970)
+  - [來源6](https://www.cna.com.tw/news/asoc/202403020044.aspx)
+  - [來源7](https://news.ltn.com.tw/news/society/breakingnews/4287070)
+- **【不符】氣爆傷者是「中國現役特警」**：傷者是「澳門」治安警察局的現役特警，與家人來台旅遊受傷，不是中國大陸特警
+  - [來源1](https://www.stheadline.com/breaking-news/3428859/)
+  - [來源2](https://www.nownews.com/news/6646357)
+  - [來源3](https://www.taiwannews.com.tw/zh/news/6086854)
+  - [來源4](https://newtalk.tw/news/view/2025-02-14/956703)
+- **【未查】愷愷案、兒福聯盟**：這次沒查
+- **【屬實】陸配媳婦把93歲婆婆裝行李箱丟淡水河（2025-09）**：屬實；媳婦說婆婆是猝死、警方沒發現外力，檢方以遺棄／侵害屍體罪起訴（不是殺人），2026-09一審判1年
+  - [來源1](https://udn.com/news/story/7315/9015537)
+  - [來源2](https://www.mirrormedia.mg/story/20250919edi074)
+  - [來源3](https://www.worldjournal.com/wj/story/121222/9017874)
+  - [來源4](https://news.cts.com.tw/cts/society/202609/202609103077038.html)
+  - [來源5](https://www.ettoday.net/news/20260812/3218074.htm)
+  - [來源6](https://www.setn.com/news/1888399)
+- **【無佐證】「被墜樓」「人口清洗」「中國特務處理人」等推論**：沒有任何新聞報導或官方資料支持這些推論；有查到的個案多是警方已排除外力，或已經有兇手被判刑
+- **【需修正】于朦朧墜樓**：事件屬實；北京警方通報是「酒後意外」、排除刑事。「被丟下樓」只是網路上的說法，沒有證據
+  - [來源1](https://www.nownews.com/news/6730410)
+  - [來源2](https://newtalk.tw/news/view/2025-09-22/995007)
+  - [來源3](https://www.stheadline.com/film-drama/3498847/)
+- **【查無】中國公司說跟台中市府很熟、保證陸人能買房**：沒找到報導
+- **【查無】台中公車是比亞迪**：沒找到台中公車採用比亞迪的報導，台中電動公車查到的是華德動能。只有2014年苗栗客運的BYD車行駛苗栗—台中
+  - [來源1](https://www.cw.com.tw/article/5100718)
+- **【屬實】蕭美琴在捷克遭中國使館人員跟車（2025-06證實）**：捷克軍事情報局證實有衝撞計畫
+  - [來源1](https://news.pts.org.tw/article/758349)
+  - [來源2](https://news.pts.org.tw/article/758400)
+  - [來源3](https://newtalk.tw/news/view/2025-06-27/978626)
+  - [來源4](https://www.nownews.com/news/6700219)
+  - [來源5](https://news.ltn.com.tw/news/politics/breakingnews/5089691)
+  - [來源6](https://www.chinatimes.com/realtimenews/20250629000999-260407)
+  - [來源7](https://www.businesstoday.com.tw/article/category/183025/post/202506290001/)
+- **【不符】台鐵銅鑼站電纜遭剪（2025-01-27）**：被剪是真的，但警方破獲的是4人竊電纜集團（偷了205公斤裸銅），跟匪諜、戰時演練無關
+  - [來源1](https://news.pts.org.tw/article/735524)
+  - [來源2](https://news.pts.org.tw/article/736892)
+  - [來源3](https://news.ltn.com.tw/news/life/breakingnews/4936129)
+  - [來源4](https://www.cna.com.tw/news/ahel/202501270111.aspx)
+  - [來源5](https://www.ctwant.com/article/392797/)
+  - [來源6](https://www.scooptw.com/cnews/337429/)
+- **【不符】台中差點成為第一個禁摩城市**：市府多次澄清是謠言；條例只授權在水湳經貿園區這類「指定區域」禁行燃油機車，不是全市
+  - [來源1](https://en.cofacts.tw/article/qawetrt7lgvl)
+  - [來源2](https://www.nownews.com/news/5172549)
+  - [來源3](https://www.nownews.com/news/6693684)
+  - [來源4](https://www.taichung.gov.tw/1531742/post)
+  - [來源5](https://www.chinatimes.com/realtimenews/20190505001192-260405)
+  - [來源6](https://www.mygopen.com/2018/05/line.html)
+- **【需修正】BRT公車是中國鄭州宇通**：2014年BRT雙節巴士的母公司在中國屬實，但報導沒寫出「宇通」品牌
+  - [來源1](https://news.pts.org.tw/article/480925)
+  - [來源2](https://news.tvbs.com.tw/life/943561)
+  - [來源3](https://www.thenewslens.com/article/18144)
+- **【查無】324路火燒公車是中國福田製**：沒找到報導
+- **【查無】交通局無人機用中國Autel**：沒找到台灣的報導
+- **【屬實】台中34校1599支、地下道用中國製海康威視監視器**：2019年議員揭發台灣大道地下道裝海康威視，市府承諾一週內汰換；後續盤點出34校共1599支
+  - [來源1](https://news.pts.org.tw/article/445560)
+  - [來源2](https://news.pts.org.tw/article/445531)
+  - [來源3](https://news.ltn.com.tw/news/life/breakingnews/2910145)
+  - [來源4](https://www.cna.com.tw/news/firstnews/201907180155.aspx)
+- **【屬實】字節跳動在台中設分公司**：2022年登記在台中東區，陸委會查處；TikTok否認有關
+  - [來源1](https://news.ltn.com.tw/news/politics/breakingnews/4158725)
+  - [來源2](https://www.rfa.org/cantonese/news/htm/tw-douyin-12202022085223.html)
+  - [來源3](https://www.inside.com.tw/article/30157-mac-suspected-TikTok-taiwan-branch)
+- **【查無】八炯詭異被追撞車禍**：沒找到報導
+
+## 公安災害與市府究責
+
+- **【屬實】致癌油事件、盧秀燕批中央「蓋牌」（2026-07）**：雙方政治攻防中；盧秀燕和17縣市開了反毒油會議
+  - [來源1](https://www.nownews.com/news/6862667)
+  - [來源2](https://udn.com/news/story/124940/9666576)
+  - [來源3](https://www.ettoday.net/news/20260721/3205101.htm)
+  - [來源4](https://www.worldjournal.com/wj/story/121218/9666802)
+- **【需修正】盧秀燕叫總統停止罷免、去救災（2025-07）**：呼籲停止罷免、說台中救災隊在南部屬實；「我台中人還在幫你救災」這句沒查到逐字原話
+  - [來源1](https://www.thenewslens.com/article/255729)
+  - [來源2](https://news.pts.org.tw/article/760564)
+  - [來源3](https://news.tvbs.com.tw/politics/2930389)
+  - [來源4](https://news.ltn.com.tw/news/politics/breakingnews/5106560)
+- **【屬實】台中新光三越氣爆（2025-02-13）**：初報4死、後為5死；盧秀燕稱新光三越要負責；監察院指市府警覺不足
+  - [來源1](https://www.cna.com.tw/news/asoc/202502130081.aspx)
+  - [來源2](https://news.pts.org.tw/article/737755)
+  - [來源3](https://udn.com/news/story/7325/9149867)
+  - [來源4](https://www.nownews.com/news/6646934)
+  - [來源5](https://www.thenewslens.com/article/249076)
+- **【屬實】跨年煙火燒傷日本女童（2025-01-01）**：盧秀燕說是「小意外」，消防局罰廠商10萬
+  - [來源1](https://www.cna.com.tw/news/asoc/202501010079.aspx)
+  - [來源2](https://news.pts.org.tw/article/731564)
+  - [來源3](https://newtalk.tw/news/view/2025-01-01/951242)
+  - [來源4](https://www.taiwannews.com.tw/zh/news/6005468)
+- **【屬實】全聯大肚倉儲大火9死（2024-12-19）**：盧秀燕說「三法併罰、絕不寬貸」
+  - [來源1](https://www.cna.com.tw/news/asoc/202412190188.aspx)
+  - [來源2](https://news.pts.org.tw/article/729730)
+  - [來源3](https://www.nownews.com/news/6616638)
+  - [來源4](https://www.businesstoday.com.tw/article/category/183027/post/202412190017/)
+- **【查無】2026-04台中又淹水、一晚200毫米**：沒找到2026年4月台中淹水的報導
+- **【查無】太平火燒8間房（2026-01-05）**：沒找到報導
+- **【屬實】烏日火災延燒12間房（2026-01-15）**：1人死亡
+  - [來源1](https://udn.com/news/story/7320/9268848)
+  - [來源2](https://news.pts.org.tw/article/790950)
+  - [來源3](https://www.ftvnews.com.tw/news/detail/2026116W0027)
+  - [來源4](https://news.housefun.com.tw/news/article/174583480341.html)
+- **【不符】台中糞水灌下水道只罰6000元**：「黑水專案」偷排上千噸水肥是刑事案，有人被判3年2月；罰1200～6000元的是另一件北屯垃圾車倒餿水
+  - [來源1](https://udn.com/news/story/7321/8955744)
+  - [來源2](https://udn.com/news/story/7321/9287749)
+  - [來源3](https://news.pts.org.tw/article/766981)
+  - [來源4](https://www.mirrormedia.mg/story/20250822edi040)
+  - [來源5](https://news.ltn.com.tw/news/society/paper/1721244)
+  - [來源6](https://www.setn.com/news/1786378)
+- **【查無】鷹架浪板掉落砸傷2人，罰1.8萬**：沒找到完全吻合的。查到的是：配電管從14樓掉落砸車、沒人受傷、罰1.8萬
+  - [來源1](https://www.thenewslens.com/article/253374)
+  - [來源2](https://news.pts.org.tw/article/752537)
+- **【查無】盧秀燕老公是建設公司董事、總經理**：她丈夫廖述嘉沒有建設公司職務的報導（只有網紅爆料說他當過關貿獨立董事）
+  - [來源1](https://www.mirrormedia.mg/story/20260805edi046)
+- **【屬實】台中垃圾山、太空包**：大里掩埋場堆了40萬噸；打包轉運到文山遭居民抗議
+  - [來源1](https://udn.com/news/story/7325/9279804)
+  - [來源2](https://news.ltn.com.tw/news/life/breakingnews/5384356)
+  - [來源3](https://www.nownews.com/news/6792904)
+- **【需修正】大里停車場淹水（2025-07）**：大里運動公園地下停車場2025-07淹水、車泡13小時屬實；「啟用半年、花費上億」查不到，這座停車場2019年就有漏水報導
+  - [來源1](https://news.pts.org.tw/article/760162)
+  - [來源2](https://news.pts.org.tw/article/763378)
+  - [來源3](https://news.tvbs.com.tw/life/1193899)
+  - [來源4](https://news.ltn.com.tw/news/life/breakingnews/5102713)
+  - [來源5](https://www.ettoday.net/news/20250710/2993634.htm)
+  - [來源6](https://www.ftvnews.com.tw/news/detail/2025710C04M1)
+- **【屬實】盧秀燕／購物節「民調第一」**：購物節網路民調約9成滿意（市府委託）；遠見2025-04好感度調查盧秀燕地方首長最高；「4成6反對大罷免」沒找到相同數字
+  - [來源1](https://www.storm.mg/article/5325441)
+  - [來源2](https://udn.com/news/story/7325/9269144)
+  - [來源3](https://www.gvm.com.tw/article/124647)
+  - [來源4](https://udn.com/news/story/6656/9038280)
+  - [來源5](https://www.nownews.com/news/6677340)
+
+## 食安與防疫
+
+- **【屬實】致癌油事件、盧秀燕批中央「蓋牌」（2026-07）**：雙方政治攻防中；盧秀燕和17縣市開了反毒油會議
+  - [來源1](https://www.nownews.com/news/6862667)
+  - [來源2](https://udn.com/news/story/124940/9666576)
+  - [來源3](https://www.ettoday.net/news/20260721/3205101.htm)
+  - [來源4](https://www.worldjournal.com/wj/story/121218/9666802)
+- **【需修正】豐原烤鴨店集體食物中毒（2025-07）**：事件屬實，驗出沙門氏菌；「逾300人」是民代說收到近350人投訴，衛生局正式通報的人數少很多
+  - [來源1](https://news.pts.org.tw/article/766871)
+  - [來源2](https://www.storm.mg/article/11055137)
+  - [來源3](https://newtalk.tw/news/view/2025-07-24/983733)
+  - [來源4](https://www.chinatimes.com/realtimenews/20250805000903-260405)
+- **【屬實】高雄春捲集體食物中毒173人（2026-04）**
+  - [來源1](https://www.ctee.com.tw/news/20260408701744-431401)
+  - [來源2](https://www.taiwannews.com.tw/zh/news/6335188)
+  - [來源3](https://www.businesstoday.com.tw/article/category/183029/post/202604070019/)
+  - [來源4](https://www.peoplenews.tw/?p=25533)
+- **【需修正】春水堂顧客喝到清潔液灼傷（2025-11-30）**：誤用的是酵素去漬粉（碳酸氫鈉，弱鹼），不是「強鹼」；3人都無大礙
+  - [來源1](https://www.storm.mg/article/11084903)
+  - [來源2](https://news.pts.org.tw/article/783836)
+  - [來源3](https://www.nownews.com/news/6760143)
+  - [來源4](https://www.worldjournal.com/wj/story/121222/9176502)
+- **【需修正】豬瘟禁宰禁運、肉攤停業**：店家停業屬實，但禁宰禁運是中央農業部宣布的全國措施，經濟部補助每攤3萬
+  - [來源1](https://udn.com/news/story/124635/9088873)
+  - [來源2](https://city.gvm.com.tw/article/125409)
+  - [來源3](https://news.pts.org.tw/article/778264)
+  - [來源4](https://technews.tw/2025/10/22/african-swine-fever-taiwan-rumor/)
+- **【屬實】梧棲養豬場非洲豬瘟（2025-10-21）**：10/21驗出陽性；市府10/14訪視未採樣遭批；行政院查疏失
+  - [來源1](https://udn.com/news/story/124635/9105460)
+  - [來源2](https://news.pts.org.tw/article/779261)
+  - [來源3](https://www.nownews.com/news/6745255)
+  - [來源4](https://newtalk.tw/news/view/2025-10-27/1001153)
+  - [來源5](https://www.mirrormedia.mg/story/amp/20251027inv005)
+- **【需修正】豬瘟期間盧秀燕未出席記者會、主打購物節**：防疫記者會由副市長主持、盧稱先等中央記者會屬實；「請媒體多報導購物節」這句原話查不到
+  - [來源1](https://newtalk.tw/news/view/2025-10-23/1000624)
+  - [來源2](https://newtalk.tw/news/view/2025-10-23/1000656)
+  - [來源3](https://www.nownews.com/news/6758519)
+  - [來源4](https://www.storm.mg/article/11077917)
+- **【查無】台中果菜市場拍賣偷斤減兩**：沒找到任何報導
+
+## 兒少保護與性侵案
+
+- **【屬實】太平國小棒球隊教練性侵案**：2024-12初報31人、最小二年級；後續累計超過80名學童（貼文的「82兒童」就是這案）；監察院糾正
+  - [來源1](https://www.mirrormedia.mg/story/20241223inv002)
+  - [來源2](https://news.pts.org.tw/article/729202)
+  - [來源3](https://news.pts.org.tw/article/814581)
+  - [來源4](https://www.thenewslens.com/article/267972)
+  - [來源5](https://www.nownews.com/news/6806662)
+  - [來源6](https://news.ltn.com.tw/news/society/breakingnews/5397587)
+- **【屬實】染HIV校車司機性侵女學生、5人感染（2026-06）**：彰化衛生局疫調揭發，傳染鏈擴及南投、台中；被起訴32罪
+  - [來源1](https://udn.com/news/story/7317/9564539)
+  - [來源2](https://udn.com/news/story/7320/9565598)
+  - [來源3](https://www.worldjournal.com/wj/story/121475/9565029)
+  - [來源4](https://udn.com/news/story/7266/9572383)
+  - [來源5](https://www.mirrormedia.mg/story/20260613edi009)
+  - [來源6](https://www.chinatimes.com/realtimenews/20260613002187-260405)
+  - [來源7](https://health.ltn.com.tw/article/breakingnews/5474655)
+  - [來源8](https://news.ebc.net.tw/news/society/556387)
+- **【屬實】高雄春捲集體食物中毒173人（2026-04）**
+  - [來源1](https://www.ctee.com.tw/news/20260408701744-431401)
+  - [來源2](https://www.taiwannews.com.tw/zh/news/6335188)
+  - [來源3](https://www.businesstoday.com.tw/article/category/183029/post/202604070019/)
+  - [來源4](https://www.peoplenews.tw/?p=25533)
+- **【查無】112年兒少保護通報各縣市排名**：找不到和貼文相同的排名數字，無法核對
+  - [來源1](https://www.dbas.taichung.gov.tw/media/1049281/113-04-兒少保護案件.pdf)
+- **【未查】愷愷案、兒福聯盟**：這次沒查
+- **【屬實】跨年煙火燒傷日本女童（2025-01-01）**：盧秀燕說是「小意外」，消防局罰廠商10萬
+  - [來源1](https://www.cna.com.tw/news/asoc/202501010079.aspx)
+  - [來源2](https://news.pts.org.tw/article/731564)
+  - [來源3](https://newtalk.tw/news/view/2025-01-01/951242)
+  - [來源4](https://www.taiwannews.com.tw/zh/news/6005468)
+- **【屬實】台中新光三越氣爆（2025-02-13）**：初報4死、後為5死；盧秀燕稱新光三越要負責；監察院指市府警覺不足
+  - [來源1](https://www.cna.com.tw/news/asoc/202502130081.aspx)
+  - [來源2](https://news.pts.org.tw/article/737755)
+  - [來源3](https://udn.com/news/story/7325/9149867)
+  - [來源4](https://www.nownews.com/news/6646934)
+  - [來源5](https://www.thenewslens.com/article/249076)
+
+## 能源（中火改核）
+
+- **【需修正】台中發電量不夠自己用**：方向屬實（中火發電量低於台中用電，要靠外地支援）；但272／295億度、78億度缺口這些數字找不到同樣的報導，2020年資料的缺口約48億度
+  - [來源1](https://ec.ltn.com.tw/article/paper/1431428)
+  - [來源2](https://www.nownews.com/news/6693161)
+  - [來源3](https://www.thenewslens.com/article/120415)
+  - [來源4](https://www.cna.com.tw/news/afe/201912250093.aspx)
+- **【屬實】盧秀燕反對在台中蓋核電**：2021年在議會說「台中增加核電機組，堅決反對」
+  - [來源1](https://newtalk.tw/news/view/2021-10-31/659412)
+  - [來源2](https://www.nownews.com/news/5213021)
+  - [來源3](https://www.taiwannews.com.tw/zh/news/5963126)
+
+## 市政・財政・社宅
+
+- **【查無】各縣市每平方公里分到的預算**：找不到「每平方公里」的數字；查到的是統籌分配總額（台北1264億、高雄832億、台中824億）
+  - [來源1](https://cna.com.tw/news/afe/202608250036.aspx)
+  - [來源2](https://ec.ltn.com.tw/article/breakingnews/5550518)
+- **【查無】韓國瑜賤賣高雄九如橋旁建地**：沒找到報導
+- **【查無】2026-05西屯砍一排路樹**：沒找到報導
+- **【不符】台中營養午餐只補助5元**：「5元」是國民黨議員對私校提的建議金額；2026-01盧秀燕宣布115學年起公立國中小午餐全面免費（每餐市府補60元）
+  - [來源1](https://www.storm.mg/article/11093621)
+  - [來源2](https://newtalk.tw/news/view/2026-01-08/1013840)
+  - [來源3](https://udn.com/news/story/6885/9252359)
+  - [來源4](https://udn.com/news/story/7325/9410536)
+- **【查無】盧秀燕領購物節代言費（1832萬／3230萬）**：沒找到盧秀燕領代言費的報導。查到的是議員質疑市長照片宣傳，經發局說「請市長代言不用錢」；購物節總預算約3～4億
+  - [來源1](https://www.nownews.com/news/6861941)
+  - [來源2](https://newtalk.tw/news/view/2025-10-23/1000594)
+  - [來源3](https://newtalk.tw/news/view/2026-04-01/1027566)
+  - [來源4](https://newtalk.tw/news/view/2026-07-31/1050517)
+- **【屬實】台鐵高雄機廠改建親子遊樂園、免費**：2026-08開幕
+  - [來源1](https://www.ettoday.net/news/20250202/2888746.htm)
+  - [來源2](https://www.nownews.com/news/6864057)
+  - [來源3](https://www.storm.mg/article/11146206)
+- **【屬實】馬文君700坪莊園，租國有地月租6400**：這是民進黨依公式推估的金額；鏡週刊揭露
+  - [來源1](https://www.mirrormedia.mg/story/20231205inv001)
+  - [來源2](https://news.pts.org.tw/article/670188)
+  - [來源3](https://news.tvbs.com.tw/politics/2328399)
+- **【需修正】盧秀燕把社宅用地賣掉**：北屯太原段社宅預定地是盧市府在2019年標售（約38億）屬實；但林佳龍任內2016年已先賣掉一半；市府說社宅改到西屯國安段蓋1280戶
+  - [來源1](https://newtalk.tw/news/view/2019-07-09/270211)
+  - [來源2](https://www.nownews.com/news/5684788)
+  - [來源3](https://newtalk.tw/news/view/2022-01-11/695169)
+  - [來源4](https://news.ltn.com.tw/news/politics/breakingnews/3798070)
+  - [來源5](https://www.chinatimes.com/realtimenews/20220118000391-263101)
+  - [來源6](https://www.cna.com.tw/news/aloc/202404020215.aspx)
+- **【查無】台中社宅廣告登上台鐵列車**：沒找到報導
+
+## 盧秀燕施政與政治評論
+
+- **【需修正】盧秀燕擔任蔣萬安競選總部主委（2026-10）**：擔任主委屬實；「資源不對稱」這句話沒查到
+  - [來源1](https://www.worldjournal.com/wj/story/121218/9823490)
+  - [來源2](https://www.worldjournal.com/wj/story/121218/9821816)
+  - [來源3](https://www.cna.com.tw/news/aipl/202610190171.aspx)
+  - [來源4](https://news.ltn.com.tw/news/politics/breakingnews/5610133)
+  - [來源5](https://news.ebc.net.tw/news/politics/576495)
+- **【屬實】盧秀燕颱風前赴美又折返（2024-07凱米颱風）**：22日出發、23日折返，在台67小時後再赴美，機票自費
+  - [來源1](https://news.tvbs.com.tw/politics/2565311)
+  - [來源2](https://www.cna.com.tw/news/aipl/202407250113.aspx)
+  - [來源3](https://newtalk.tw/news/view/2024-07-24/929384)
+  - [來源4](https://news.ltn.com.tw/news/politics/breakingnews/4745986)
+- **【需修正】慈濟被騙10億，律師陳昱瑄是台中市府法律顧問**：詐騙案屬實；但法制局澄清，她2016～2021年是免費法律諮詢的「法律扶助顧問律師」，不是市府法律顧問，任期也跨林佳龍、盧秀燕兩任
+  - [來源1](https://newtalk.tw/news/view/2026-08-07/1051890)
+  - [來源2](https://www.ettoday.net/news/20260807/3214955.htm)
+  - [來源3](https://news.ltn.com.tw/news/politics/breakingnews/5531665)
+  - [來源4](https://www.mirrormedia.mg/story/20260806-167inv-181037)
+- **【查無】盧秀燕老公是建設公司董事、總經理**：她丈夫廖述嘉沒有建設公司職務的報導（只有網紅爆料說他當過關貿獨立董事）
+  - [來源1](https://www.mirrormedia.mg/story/20260805edi046)
+- **【需修正】川普智庫說要取消國民黨家屬綠卡**：是安全政策中心研究員紐夏的建議，不是川普政府的措施
+  - [來源1](https://news.ltn.com.tw/news/politics/breakingnews/5344717)
+  - [來源2](https://newtalk.tw/news/view/2026-02-16/1020401)
+  - [來源3](https://en.cofacts.tw/article/pOwnZ5wBFWYyqTEoSgBK)
+- **【查無】胡志強說「台中市輸了，中華民國就沒了」**：找不到這句原話的出處
+- **【需修正】AIT要求申請簽證要把社群帳號公開（2025-12）**：屬實，但只限H-1B、H-4、F、M、J簽證
+  - [來源1](https://news.ltn.com.tw/news/Taipei/breakingnews/5273623)
+  - [來源2](https://udn.com/news/story/7314/9193642)
+  - [來源3](https://news.pts.org.tw/article/785295)
+  - [來源4](https://technews.tw/2025/12/10/ait-h1b-visa-rules/)
+- **【查無】盧秀燕女兒是美國人**：沒找到報導
+- **【查無】盧秀燕領購物節代言費（1832萬／3230萬）**：沒找到盧秀燕領代言費的報導。查到的是議員質疑市長照片宣傳，經發局說「請市長代言不用錢」；購物節總預算約3～4億
+  - [來源1](https://www.nownews.com/news/6861941)
+  - [來源2](https://newtalk.tw/news/view/2025-10-23/1000594)
+  - [來源3](https://newtalk.tw/news/view/2026-04-01/1027566)
+  - [來源4](https://newtalk.tw/news/view/2026-07-31/1050517)
+- **【屬實】「美國學者：賴是魯莽的領導人」是時代雜誌投書**：是高德斯坦的投書，不是時代雜誌報導；中央社誤植後已更正並懲處
+  - [來源1](https://www.cna.com.tw/news/aipl/202510255002.aspx)
+  - [來源2](https://newtalk.tw/news/view/2025-10-25/1000870)
+  - [來源3](https://www.thenewslens.com/article/260307)
+- **【屬實】盧秀燕／購物節「民調第一」**：購物節網路民調約9成滿意（市府委託）；遠見2025-04好感度調查盧秀燕地方首長最高；「4成6反對大罷免」沒找到相同數字
+  - [來源1](https://www.storm.mg/article/5325441)
+  - [來源2](https://udn.com/news/story/7325/9269144)
+  - [來源3](https://www.gvm.com.tw/article/124647)
+  - [來源4](https://udn.com/news/story/6656/9038280)
+  - [來源5](https://www.nownews.com/news/6677340)
+- **【需修正】「台中普發4萬」梗圖，盧秀燕說要告**：是市府報警、警方移送一名Threads用戶，台中地院裁定不罰（屬言論自由），不是盧秀燕本人提告
+  - [來源1](https://udn.com/news/story/7321/9073809)
+  - [來源2](https://udn.com/news/story/6656/8910196)
+  - [來源3](https://www.businesstoday.com.tw/article/category/183025/post/202507310010/)
+  - [來源4](https://www.nownews.com/news/6778125)
+- **【需修正】盧秀燕叫總統停止罷免、去救災（2025-07）**：呼籲停止罷免、說台中救災隊在南部屬實；「我台中人還在幫你救災」這句沒查到逐字原話
+  - [來源1](https://www.thenewslens.com/article/255729)
+  - [來源2](https://news.pts.org.tw/article/760564)
+  - [來源3](https://news.tvbs.com.tw/politics/2930389)
+  - [來源4](https://news.ltn.com.tw/news/politics/breakingnews/5106560)
+- **【屬實】柯文哲7000萬交保（2025-09）**
+  - [來源1](https://www.thenewslens.com/article/258324)
+  - [來源2](https://news.tvbs.com.tw/politics/2980551)
+  - [來源3](https://www.gvm.com.tw/article/124128)
+- **【需修正】盧秀燕率縣市首長要中央「放下屠刀」（財劃法，2025-09）**：屬實，但是15縣市，不是14縣市
+  - [來源1](https://udn.com/news/story/124593/8994719)
+  - [來源2](https://www.nownews.com/news/6729322)
+  - [來源3](https://news.tvbs.com.tw/politics/2987891)
+  - [來源4](https://www.thenewslens.com/article/258484)
+- **【屬實】2025-07-12台中罷免晚會**：當天台中有罷團和國民黨的大型晚會；韓國瑜被罷免的同意票939,090票是2020年的事實
+  - [來源1](https://www.cna.com.tw/news/aipl/202507120231.aspx)
+  - [來源2](https://www.thenewslens.com/article/250125)
+  - [來源3](https://www.mirrormedia.mg/story/20250714edi035)
+- **【屬實】台中新光三越氣爆（2025-02-13）**：初報4死、後為5死；盧秀燕稱新光三越要負責；監察院指市府警覺不足
+  - [來源1](https://www.cna.com.tw/news/asoc/202502130081.aspx)
+  - [來源2](https://news.pts.org.tw/article/737755)
+  - [來源3](https://udn.com/news/story/7325/9149867)
+  - [來源4](https://www.nownews.com/news/6646934)
+  - [來源5](https://www.thenewslens.com/article/249076)
+- **【屬實】跨年煙火燒傷日本女童（2025-01-01）**：盧秀燕說是「小意外」，消防局罰廠商10萬
+  - [來源1](https://www.cna.com.tw/news/asoc/202501010079.aspx)
+  - [來源2](https://news.pts.org.tw/article/731564)
+  - [來源3](https://newtalk.tw/news/view/2025-01-01/951242)
+  - [來源4](https://www.taiwannews.com.tw/zh/news/6005468)
+
+## 個人經歷與其他
+
+（皆為評論／個人意見）
