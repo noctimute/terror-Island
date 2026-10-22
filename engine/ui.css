@@ -27,6 +27,7 @@ button { font: inherit; color: inherit; cursor: pointer; }
 button:focus-visible, input:focus-visible, select:focus-visible { outline: 2px solid var(--accent2); outline-offset: 2px; }
 .eyebrow { font: 700 11px/1.2 ui-monospace, monospace; letter-spacing: 0.18em; color: var(--accent); text-transform: uppercase; }
 .mob-only { display: none !important; }
+[hidden] { display: none !important; }
 .ico { width: 18px; height: 18px; flex: none; }
 
 /* ---------- stage ---------- */
@@ -190,6 +191,8 @@ body.has-card .dock, body.has-card .mascot, body.has-card .legend { display: non
 
 /* ---------- bottom controls ---------- */
 .controls { position: fixed; left: 18px; bottom: 18px; width: min(480px, calc(100vw - var(--side) - 340px)); min-width: 380px; background: var(--glass); border-radius: var(--r); box-shadow: var(--shadow); z-index: 5; padding: 6px 16px 14px; backdrop-filter: blur(6px); }
+.controls { display: none; } /* opened from the toolbar's 時間軸 button */
+body.time-open .controls { display: block; }
 .control-tabs { display: flex; align-items: center; gap: 4px; border-bottom: 1px solid var(--line); }
 .control-tabs button { border: 0; background: none; padding: 10px 8px; font-size: 12px; font-weight: 700; color: var(--muted); border-bottom: 2px solid transparent; margin-bottom: -1px; }
 .control-tabs button.active { color: var(--ink); border-color: var(--accent); }
@@ -293,8 +296,7 @@ body.touring .controls, body.touring .dock, body.touring .card, body.touring .ma
 
 /* ---------- medium widths ---------- */
 @media (max-width: 1600px) {
-  .hud .seg2 button span { display: none; }
-  .hud .seg2 button { padding: 10px 11px; }
+  .hud .seg2 button { padding: 7px 9px; }
   .toolbar { flex-direction: column; align-items: flex-end; }
 }
 @media (max-width: 1280px) {
