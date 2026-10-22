@@ -65,7 +65,7 @@ lumama/data.json    台中內容
 
 ## 墜落島的新聞紀錄（`lumama/falls.json`）
 
-墜落島卡片下方的「台中墜樓新聞紀錄」讀取 `lumama/falls.json`（`data.json` 裡 `zones[].recordsSrc` 指向它），可以單獨更新，不必動其他檔案。每一筆：
+墜落島的「事件」清單除了 `data.json` 裡的事件，也會讀取 `lumama/falls.json`（`data.json` 裡 `zones[].recordsSrc` 指向它），可以單獨更新，不必動其他檔案。每一筆：
 
 ```json
 {

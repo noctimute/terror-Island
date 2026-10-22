@@ -53,7 +53,27 @@ try {
         // a zone can keep a long list of news records in its own file (zones[].recordsSrc), so it can be updated alone
         const base = new URL($("#app").dataset.src || "./data.json", document.baseURI);
         for (const z of D.zones)
-          if (z.recordsSrc) z.records = await fetch(`${new URL(z.recordsSrc, base)}?v=${Math.floor(Date.now() / 36e5)}`).then((r) => (r.ok ? r.json() : null));
+          if (z.recordsSrc) {
+            const R = await fetch(`${new URL(z.recordsSrc, base)}?v=${Math.floor(Date.now() / 36e5)}`).then((r) => (r.ok ? r.json() : null));
+            if (!R) continue;
+            z.spotsNote = R.note;
+            // each record becomes one more 事件, titled after its first real headline; no 3D pin for these
+            for (const r of R.records)
+              z.spots.push({
+                id: r.id,
+                name: r.title || r.sources.find((x) => !x.title.endsWith("報導"))?.title || `${r.date} ${r.place} 墜樓`,
+                era: "now",
+                fear: ["D"],
+                danger: 5,
+                date: r.date,
+                place: r.place,
+                plain: r.summary,
+                facts: [],
+                helpline: true,
+                sources: r.sources,
+                pin: false,
+              });
+          }
         return D;
       }),
   ]);
@@ -187,6 +207,7 @@ try {
     scene.add(obj);
     chips.set(z.id, { obj, el });
     z.spots.forEach((s, i) => {
+      if (s.pin === false) return;
       const a = Math.PI * 1.15 + (i / Math.max(1, z.spots.length - 1)) * Math.PI * 0.7;
       const pe = document.createElement("button");
       pe.className = "pin";
@@ -418,19 +439,6 @@ try {
           .map((s) => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.title)}</a><small>${esc(s.outlet)}</small></li>`)
           .join("")}</ul>`;
   }
-  function recordList(z) {
-    const R = z.records;
-    if (!R?.records?.length) return "";
-    return `<h3>${esc(R.title)} <small>${R.records.length}</small></h3>
-        <p class="rec-note">${esc(R.note)}</p>
-        ${D.helpline ? `<aside class="help">${esc(D.helpline)}</aside>` : ""}
-        <ol class="records">${R.records
-          .map(
-            (r) => `<li><div class="rec-head"><b>${esc(r.date)}</b><span>${esc(r.place)}</span></div><p>${esc(r.summary)}</p>
-            <ul class="sources">${r.sources.map((s) => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.title)}</a><small>${esc(s.outlet)}</small></li>`).join("")}</ul></li>`,
-          )
-          .join("")}</ol>`;
-  }
   function helpBox(sp) {
     return sp.helpline && D.helpline ? `<aside class="help">${esc(D.helpline)}</aside>` : "";
   }
@@ -457,13 +465,12 @@ try {
         <h2>${esc(z.name)}</h2><p class="lead">${esc(z.summary)}</p>
         <div class="meta-row">${fearChips(z.fear)}${skulls(z.danger)}</div>
         ${civicBox(z)}${newsBox(z)}
-        <h3>${z.news ? "事件" : "傳說"} <small>${z.spots.length}</small></h3>
+        <h3>${z.news ? "事件" : "傳說"} <small>${z.spots.length}</small></h3>${z.spotsNote ? `<p class="rec-note">${esc(z.spotsNote)}</p>` : ""}
         <ol class="spot-list">${z.spots
           .map(
             (sp) => `<li><button data-spot="${sp.id}"><span class="sp-name">${esc(sp.name)}</span><span class="sp-meta">${esc(eraById.get(sp.era).label)} ${skulls(sp.danger)}</span><span class="sp-plain">${esc(sp.plain)}</span></button></li>`,
           )
           .join("")}</ol>
-        ${recordList(z)}
         <h3>詛咒連線 <small>${fl.length}</small></h3>
         <ul class="flow-list">${fl
           .map((f) => `<li><button data-flow="${f.id}"><em>${f.id}</em>${icon(f.carry)}<span>${esc(f.text)}</span></button></li>`)
@@ -476,7 +483,7 @@ try {
       html = `<button class="back" data-zone="${z.id}">← ${esc(zoneLabel(z))}</button>
         <div class="eyebrow">${esc(eraById.get(sp.era).label)} · ${sp.fear.map((f) => esc(fearById.get(f).name)).join(" / ")}</div>
         <h2>${esc(sp.name)}</h2><p class="lead">${esc(sp.plain)}</p>
-        <ul class="facts">${sp.facts.map((f) => `<li>${esc(f)}</li>`).join("")}</ul>
+        ${sp.facts.length ? `<ul class="facts">${sp.facts.map((f) => `<li>${esc(f)}</li>`).join("")}</ul>` : ""}
         ${helpBox(sp)}${sourceList(sp)}
         <dl class="kv">${sp.date ? `<dt>日期</dt><dd>${esc(sp.date)}</dd>` : ""}${sp.place ? `<dt>地點</dt><dd>${esc(sp.place)}</dd>` : ""}<dt>危險度</dt><dd>${skulls(sp.danger)}</dd><dt>流傳年代</dt><dd>${esc(eraById.get(sp.era).label)}</dd>
         <dt>所在地</dt><dd>${z.district ? `${esc(z.district)}・` : ""}${esc(z.name)}</dd><dt>恐懼類型</dt><dd>${fearChips(sp.fear)}</dd>
