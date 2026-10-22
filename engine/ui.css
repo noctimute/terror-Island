@@ -379,3 +379,6 @@ body.touring .controls, body.touring .dock, body.touring .card, body.touring .ma
 .sources small { display: block; margin-top: 2px; color: #7a7070; font-size: 11px; }
 .heart-buttons .civic-btn b .ico { width: 16px; height: 16px; }
 .heart-buttons .civic-btn { flex-basis: 100%; }
+
+/* Lumama's name tag floats above her head */
+.lumama-tag { font: 900 14px/1 "Helvetica Neue", Arial, sans-serif; color: #fff; letter-spacing: 0.02em; text-shadow: 0 0 3px #000, 0 0 3px #000, 0 2px 4px #000; pointer-events: none; white-space: nowrap; }

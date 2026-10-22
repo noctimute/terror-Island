@@ -2,6 +2,7 @@ import { TOP, WILD_TOP, layoutZones, buildCity, createHeightAt } from "./world.j
 import { createEnvironment, mulberry } from "./environment.js?v=2";
 import { createKit, MODELS, wildForest } from "./models.js?v=19";
 import { createPeople, flowCurve } from "./people.js?v=2";
+import { createLumama } from "./lumama.js?v=2";
 import { icon, skulls } from "./icons.js?v=1";
 
 const $ = (s) => document.querySelector(s),
@@ -289,6 +290,8 @@ try {
       pushLog({ text, flow: f.id, zone: z.id });
     },
   });
+
+  const lumama = createLumama(THREE, { scene, centers: [...centers.values()], CSS2DObject, rng: mulberry(7) });
 
   // ---------- camera ----------
   let fly = null;
@@ -1152,6 +1155,7 @@ try {
     env.update(at);
     kit.update(at, frozen ? 0 : dt, envCtx);
     people.update(at, frozen ? 0 : dt, envCtx, frozen);
+    lumama.update(at, frozen ? 0 : dt);
     city.lamps.mat.color.setHex(0xffd38a).multiplyScalar(0.25 + envCtx.night * 1.6);
     const cy = currentCycle();
     for (const [id, g] of city.glows) g.material.opacity = cy.zones.includes(id) ? (0.32 + Math.sin(at * 2.4) * 0.14) * (0.5 + envCtx.night * 0.5) : 0;
