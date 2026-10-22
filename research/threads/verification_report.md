@@ -406,6 +406,10 @@
   - [來源2](https://udn.com/news/story/6656/8910196)
   - [來源3](https://www.businesstoday.com.tw/article/category/183025/post/202507310010/)
   - [來源4](https://www.nownews.com/news/6778125)
+  - [來源5](https://news.ltn.com.tw/news/politics/breakingnews/5124368)
+  - [來源6](https://www.ftvnews.com.tw/news/detail/2025730W0887)
+  - [來源7](https://www.chinatimes.com/realtimenews/20250730004310-260407)
+  - [來源8](https://newtalk.tw/news/view/2025-07-29/984627)
 - **【需修正】盧秀燕叫總統停止罷免、去救災（2025-07）**：呼籲停止罷免、說台中救災隊在南部屬實；「我台中人還在幫你救災」這句沒查到逐字原話
   - [來源1](https://www.thenewslens.com/article/255729)
   - [來源2](https://news.pts.org.tw/article/760564)
