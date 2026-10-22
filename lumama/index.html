@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Noto+Serif+TC:wght@700;900&display=swap">
 <base href="../engine/">
-<link rel="stylesheet" href="./ui.css?v=20">
+<link rel="stylesheet" href="./ui.css?v=21">
 <script type="importmap">{"imports":{"three":"./vendor/three/build/three.module.min.js","three/addons/":"./vendor/three/examples/jsm/"}}</script>
 </head>
 <body><main id="app" data-src="../lumama/data.json">
@@ -74,7 +74,7 @@
 <div id="log-body" hidden><div class="log-filters"><span class="live"><i></i>LIVE</span><select id="log-flow" aria-label="篩選詛咒連線"></select></div><ol id="log-list" tabindex="0" aria-label="事件列表"></ol></div>
 </aside>
 
-<div class="mascot"><span class="face sad" aria-hidden="true">😰</span><span id="mascot-text"></span></div>
+<div class="mascot"><span class="face sad" aria-hidden="true"><svg viewBox="0 0 32 32" width="30" height="30"><defs><linearGradient id="fear-blue" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7fa8e8"/><stop offset=".45" stop-color="#cfdcf2"/><stop offset=".6" stop-color="#f5f0e8"/></linearGradient></defs><circle cx="16" cy="16" r="15" fill="url(#fear-blue)"/><path d="M7.5 12.2l5.2-2.4M24.5 12.2l-5.2-2.4" stroke="#1b1517" stroke-width="1.7" stroke-linecap="round" fill="none"/><ellipse cx="11.2" cy="15.6" rx="1.7" ry="2.2" fill="#1b1517"/><ellipse cx="20.8" cy="15.6" rx="1.7" ry="2.2" fill="#1b1517"/><path d="M10.8 24.2q5.2-4.6 10.4 0q-5.2-1.6-10.4 0z" fill="#1b1517" stroke="#1b1517" stroke-width="1.2" stroke-linejoin="round"/><path d="M26.3 8.2q-2.6 3.6-1 5.2q1.6 1.4 3-.2q1-1.6-2-5z" fill="#5aa8f0"/></svg></span><span id="mascot-text"></span></div>
 
 <div class="legend" hidden id="legend"><b>事件關聯・依據</b><br><i></i><span>報導佐證</span>　<i class="dash"></i><span>同地點</span></div>
 
@@ -102,4 +102,4 @@
 <div id="loading" class="loading" role="status"><h2>TERROR</h2><p>正在載入事件…</p></div>
 <noscript><p class="nojs">這個互動地圖需要啟用 JavaScript 與 WebGL。</p></noscript>
 </main>
-<script type="module" src="./app.js?v=49"></script></body></html>
+<script type="module" src="./app.js?v=50"></script></body></html>

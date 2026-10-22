@@ -382,4 +382,4 @@ body.touring .controls, body.touring .dock, body.touring .card, body.touring .ma
 
 /* Lumama's name tag floats above her head */
 .lumama-tag { font: 900 14px/1 "Helvetica Neue", Arial, sans-serif; color: #fff; letter-spacing: 0.02em; text-shadow: 0 0 3px #000, 0 0 3px #000, 0 2px 4px #000; pointer-events: none; white-space: nowrap; }
-.mascot .face.sad { background: none; font-size: 22px; line-height: 1; }
+.mascot .face.sad { background: none; width: 30px; height: 30px; }
