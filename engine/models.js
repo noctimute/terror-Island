@@ -834,7 +834,7 @@ export const MODELS = {
     return { mist: 3, mistY: 0.3 };
   },
 
-  // 食安島：night-market stalls, a big oil drum with a warning label, a quarantined pig pen
+  // 食安島：night-market stalls, a tainted-oil factory, a quarantined pig pen
   foodisle(p, rng) {
     for (let i = 0; i < 3; i++) {
       const st = p.sub(-0.9 + i * 0.6, 0, -0.75);
@@ -843,11 +843,32 @@ export const MODELS = {
       for (let k = 0; k < 3; k++) st.cyl(-0.15 + k * 0.15, 0.39, 0.06, 0.1, 0.05, 0.1, C.white);
       lantern(st, 0, 0.42, 0.22, C.warm, 0.4);
     }
-    // oil drum with a black warning band
-    const drum = p.sub(0.95, 0, -0.2);
-    drum.cyl(0, 0.32, 0, 0.42, 0.64, 0.42, 0xc9a227);
-    drum.cyl(0, 0.32, 0, 0.43, 0.14, 0.43, C.black);
-    drum.box(0, 0.32, 0.215, 0.16, 0.08, 0.01, C.blood, { glow: true });
+    // tainted-oil factory: grimy hall with a sawtooth roof, two oil tanks, pipes, a chimney of dark smoke, leaking drums
+    const fac = p.sub(0.85, 0, -0.15);
+    fac.box(0, 0.3, 0, 0.8, 0.6, 0.6, 0x7d7466);
+    for (let i = 0; i < 3; i++) fac.gable(-0.27 + i * 0.27, 0.6, 0, 0.27, 0.16, 0.62, 0x4a4540, { rz: 0 });
+    fac.box(0, 0.22, 0.305, 0.3, 0.36, 0.02, 0x3a332c);
+    for (const x of [-0.28, 0.28]) fac.box(x, 0.42, 0.305, 0.14, 0.1, 0.02, C.sick, { glow: true });
+    fac.box(0, 0.5, 0.31, 0.36, 0.08, 0.01, 0xc9a227);
+    fac.cyl(0.28, 0.9, -0.18, 0.12, 0.7, 0.12, 0x5a524a);
+    fac.cyl(0.28, 1.25, -0.18, 0.14, 0.04, 0.14, C.blood);
+    for (const [x, z] of [[-0.62, -0.1], [-0.62, 0.25]]) {
+      fac.cyl(x, 0.35, z, 0.3, 0.7, 0.3, 0xb7b0a0);
+      fac.cone(x, 0.75, z, 0.3, 0.1, 0.3, 0x8a8478);
+      fac.box(x, 0.35, z + 0.152, 0.12, 0.1, 0.01, C.black);
+    }
+    fac.cyl(-0.45, 0.55, 0.075, 0.035, 0.035, 0.38, C.metal, { rx: Math.PI / 2 });
+    fac.box(-0.5, 0.55, -0.1, 0.18, 0.035, 0.035, C.metal);
+    // drums oozing a dark green sludge
+    for (const [x, z, rz] of [[0.15, 0.55, 0], [0.38, 0.6, 0], [0.3, 0.82, Math.PI / 2]]) fac.cyl(x, rz ? 0.08 : 0.13, z, 0.16, 0.26, 0.16, 0xc9a227, { rz });
+    fac.cyl(0.08, 0.012, 0.85, 0.5, 0.01, 0.34, 0x3a4a1c);
+    fac.box(-0.25, 0.012, 0.6, 0.18, 0.01, 0.4, 0x3a4a1c);
+    const smoke = [];
+    for (let i = 0; i < 4; i++) {
+      const d = p.dyn(1.13, 1.3, -0.33);
+      d.sphere(0, 0, 0, 0.2, 0.18, 0.2, 0x2f2b28);
+      smoke.push(d.node);
+    }
     // pig pen with red quarantine tape
     const pen = p.sub(-0.35, 0, 0.6);
     for (const [x, z, ry] of [[-0.55, 0, Math.PI / 2], [0.55, 0, Math.PI / 2], [0, -0.38, 0], [0, 0.38, 0]]) pen.box(x, 0.12, z, ry ? 0.76 : 1.1, 0.06, 0.03, C.wood, { ry });
@@ -861,11 +882,14 @@ export const MODELS = {
       g.cyl(0.2, 0.13, 0, 0.05, 0.03, 0.05, 0xe09aa6, { rz: Math.PI / 2 });
       pigs.push({ n: g.node, ph: rng() * 6 });
     }
-    // a cup of tea on a table
-    p.cyl(0.95, 0.2, 0.7, 0.36, 0.04, 0.36, C.wood);
-    p.cyl(0.95, 0.1, 0.7, 0.04, 0.2, 0.04, C.dwood);
-    p.cyl(0.95, 0.28, 0.7, 0.08, 0.12, 0.08, C.white);
-    p.anim((t) => pigs.forEach((g) => (g.n.rotation.y += Math.sin(t * 0.7 + g.ph) * 0.004)));
+    p.anim((t) => {
+      pigs.forEach((g) => (g.n.rotation.y += Math.sin(t * 0.7 + g.ph) * 0.004));
+      smoke.forEach((n, i) => {
+        const k = (t * 0.25 + i / 4) % 1;
+        n.position.set(1.13 + k * 0.35, 1.3 + k * 0.9, -0.33 - k * 0.1);
+        n.scale.setScalar(0.6 + k * 1.2);
+      });
+    });
     return { mist: 2, mistY: 0.25 };
   },
 
