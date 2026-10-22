@@ -669,59 +669,6 @@ export const MODELS = {
     return { mist: 3, mistY: 0.2 };
   },
 
-  // 15 中區・南屯：頂樓的黑影（虛構傳說）
-  shadowroof(p, rng) {
-    const bd = p.sub(0, 0, -0.55);
-    bd.box(0, 1.1, 0, 1.3, 2.2, 1.0, 0x7a5a4a);
-    bd.box(0, 2.22, 0, 1.36, 0.06, 1.06, 0x4a3a34);
-    for (let f = 0; f < 6; f++)
-      for (let c = 0; c < 3; c++) {
-        const lit = rng() < 0.25;
-        bd.box(-0.38 + c * 0.38, 0.35 + f * 0.32, 0.505, 0.2, 0.16, 0.02, lit ? C.warm : C.glass, { glow: lit });
-      }
-    bd.box(0, 0.22, 0.51, 0.3, 0.44, 0.02, C.dwood);
-    lantern(bd, -0.55, 0.75, 0.55, C.blood, 0.6);
-    lantern(bd, 0.55, 0.75, 0.55, C.blood, 0.6);
-    const ROOF = 2.25,
-      pair = [-0.24, 0.24].map((x) => {
-        const g = p.dyn(x, ROOF, -0.2);
-        const arms = shadowman(g, 0.75);
-        return { arms, inner: x < 0 ? 1 : 0 };
-      });
-    const victim = p.dyn(0, ROOF + 0.18, 0.0);
-    qdead(victim, 0.75);
-    p.anim((t) => {
-      const u = (t % 6.5) / 6.5,
-        v = victim.node;
-      // arms: held out (0–0.4), swing forward to throw (0.4–0.5), drop back down after
-      const reach = u < 0.4 ? -1.25 : u < 0.5 ? -1.25 - ((u - 0.4) / 0.1) * 0.6 : u < 0.6 ? -1.85 + ((u - 0.5) / 0.1) * 1.85 : 0;
-      for (const pr of pair) for (const a of pr.arms) a.rotation.x = reach;
-      if (u < 0.4) {
-        v.position.set(0, ROOF + 0.18 + Math.sin(t * 6) * 0.01, 0.0);
-        v.rotation.set(0, 0, Math.sin(t * 9) * 0.15);
-      } else if (u < 0.5) {
-        const k = (u - 0.4) / 0.1;
-        v.position.set(0, ROOF + 0.18 + k * 0.12, k * 0.3);
-        v.rotation.set(k * 0.8, 0, 0);
-      } else if (u < 0.72) {
-        const k = (u - 0.5) / 0.22;
-        v.position.set(0, ROOF + 0.3 - (ROOF + 0.25) * k * k, 0.3 + k * 0.45);
-        v.rotation.set(0.8 + k * Math.PI * 1.6, 0, k * 0.5);
-      } else {
-        v.position.set(0, 0.05, 0.75);
-        v.rotation.set(-Math.PI / 2, 0, 0.5);
-      }
-    });
-    // street below: lamp posts and a dark puddle where it lands
-    p.cyl(0, 0.012, 0.8, 0.9, 0.02, 0.6, 0x3a1416);
-    for (const x of [-1.1, 1.1]) {
-      p.cyl(x, 0.45, 0.6, 0.04, 0.9, 0.04, C.black);
-      p.sphere(x, 0.92, 0.6, 0.12, 0.12, 0.12, C.lamp, { glow: true });
-    }
-    deadTree(p, -1.2, -0.8, 1.1);
-    deadTree(p, 1.15, -0.95, 0.9, 1.2);
-  },
-
   // 12 北屯：第七病棟
   hospital(p, rng) {
     p.box(0, 0.6, -0.5, 1.9, 1.2, 0.7, 0x9aa49c);

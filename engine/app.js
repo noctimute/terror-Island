@@ -1,6 +1,6 @@
 import { TOP, WILD_TOP, layoutZones, buildCity, createHeightAt } from "./world.js?v=1";
 import { createEnvironment, mulberry } from "./environment.js?v=1";
-import { createKit, MODELS, wildForest } from "./models.js?v=4";
+import { createKit, MODELS, wildForest } from "./models.js?v=5";
 import { createPeople, flowCurve } from "./people.js?v=1";
 import { icon, skulls } from "./icons.js?v=1";
 
@@ -44,7 +44,7 @@ try {
     import("three/addons/controls/OrbitControls.js"),
     import("three/addons/renderers/CSS2DRenderer.js"),
     // each city page points the shared engine at its own content: <main id="app" data-src="../lumama/data.json">
-    fetch(`${$("#app").dataset.src || "./data.json"}?v=4`).then((r) => {
+    fetch(`${$("#app").dataset.src || "./data.json"}?v=5`).then((r) => {
       if (!r.ok) throw Error(`data.json: ${r.status}`);
       return r.json();
     }),
