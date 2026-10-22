@@ -1,6 +1,6 @@
 import { TOP, WILD_TOP, layoutZones, buildCity, createHeightAt } from "./world.js?v=1";
 import { createEnvironment, mulberry } from "./environment.js?v=1";
-import { createKit, MODELS, wildForest } from "./models.js?v=1";
+import { createKit, MODELS, wildForest } from "./models.js?v=2";
 import { createPeople, flowCurve } from "./people.js?v=1";
 import { icon, skulls } from "./icons.js?v=1";
 
@@ -39,7 +39,7 @@ try {
     import("three/addons/controls/OrbitControls.js"),
     import("three/addons/renderers/CSS2DRenderer.js"),
     // each city page points the shared engine at its own content: <main id="app" data-src="../lumama/data.json">
-    fetch(`${$("#app").dataset.src || "./data.json"}?v=1`).then((r) => {
+    fetch(`${$("#app").dataset.src || "./data.json"}?v=2`).then((r) => {
       if (!r.ok) throw Error(`data.json: ${r.status}`);
       return r.json();
     }),
@@ -385,6 +385,21 @@ try {
     if (!z.civic) return "";
     return `<aside class="civic">${icon("civic")}<div><b>現實中的市政議題：${esc(z.civic.title)}</b><p>${esc(z.civic.body)}</p></div></aside>`;
   }
+  // real-news islands: a notice on the zone, and each event's own sources
+  function newsBox(z) {
+    if (!z.news) return "";
+    return `<aside class="news">${icon("skull")}<div><b>${esc(z.news.title)}</b><p>${esc(z.news.body)}</p></div></aside>`;
+  }
+  function sourceList(sp) {
+    if (!sp.sources?.length) return "";
+    return `<h3>新聞來源 <small>${sp.sources.length}</small></h3>
+        <ul class="sources">${sp.sources
+          .map((s) => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.title)}</a><small>${esc(s.outlet)}</small></li>`)
+          .join("")}</ul>`;
+  }
+  function helpBox(sp) {
+    return sp.helpline && D.helpline ? `<aside class="help">${esc(D.helpline)}</aside>` : "";
+  }
   function activeWindows(zid) {
     return D.dayCycle.filter((c) => c.zones.includes(zid)).map((c) => `${c.from}–${c.to}`);
   }
@@ -402,8 +417,8 @@ try {
       html = `<div class="eyebrow">LEGEND ${pad(z.number)} · ${esc(z.district)}</div>
         <h2>${esc(z.name)}</h2><p class="lead">${esc(z.summary)}</p>
         <div class="meta-row">${fearChips(z.fear)}${skulls(z.danger)}</div>
-        ${civicBox(z)}
-        <h3>傳說 <small>${z.spots.length}</small></h3>
+        ${civicBox(z)}${newsBox(z)}
+        <h3>${z.news ? "事件" : "傳說"} <small>${z.spots.length}</small></h3>
         <ol class="spot-list">${z.spots
           .map(
             (sp) => `<li><button data-spot="${sp.id}"><span class="sp-name">${esc(sp.name)}</span><span class="sp-meta">${esc(eraById.get(sp.era).label)} ${skulls(sp.danger)}</span><span class="sp-plain">${esc(sp.plain)}</span></button></li>`,
@@ -422,10 +437,11 @@ try {
         <div class="eyebrow">${esc(eraById.get(sp.era).label)} · ${sp.fear.map((f) => esc(fearById.get(f).name)).join(" / ")}</div>
         <h2>${esc(sp.name)}</h2><p class="lead">${esc(sp.plain)}</p>
         <ul class="facts">${sp.facts.map((f) => `<li>${esc(f)}</li>`).join("")}</ul>
-        <dl class="kv"><dt>危險度</dt><dd>${skulls(sp.danger)}</dd><dt>流傳年代</dt><dd>${esc(eraById.get(sp.era).label)}</dd>
+        ${helpBox(sp)}${sourceList(sp)}
+        <dl class="kv">${sp.date ? `<dt>日期</dt><dd>${esc(sp.date)}</dd>` : ""}${sp.place ? `<dt>地點</dt><dd>${esc(sp.place)}</dd>` : ""}<dt>危險度</dt><dd>${skulls(sp.danger)}</dd><dt>流傳年代</dt><dd>${esc(eraById.get(sp.era).label)}</dd>
         <dt>所在地</dt><dd>${esc(z.district)}・${esc(z.name)}</dd><dt>恐懼類型</dt><dd>${fearChips(sp.fear)}</dd>
         <dt>活躍時段</dt><dd>${activeWindows(z.id).join("、") || "—"}</dd></dl>
-        ${civicBox(z)}
+        ${civicBox(z)}${newsBox(z)}
         <div class="card-actions"><button data-act="prev-spot">← 上一則</button><button data-act="next-spot">下一則 →</button></div>`;
     } else if (s.type === "flow") {
       const f = flowById.get(s.id),
@@ -528,7 +544,7 @@ try {
           const open = state.sel?.zone === z.id || (q && spots.length);
           const off = activeSet() && !zoneMatches(z);
           return `<div class="row${open ? " open" : ""}${off ? " off" : ""}${state.sel?.zone === z.id ? " sel" : ""}">
-            <button class="zrow" data-zone="${z.id}" aria-expanded="${!!open}"><em>${pad(z.number)}</em><span><b>${esc(z.name)}${z.civic ? `<mark class="tag">市政議題</mark>` : ""}</b><small>${esc(z.district)}</small></span><i>${z.spots.length} ↗</i></button>
+            <button class="zrow" data-zone="${z.id}" aria-expanded="${!!open}"><em>${pad(z.number)}</em><span><b>${esc(z.name)}${z.civic ? `<mark class="tag">市政議題</mark>` : ""}${z.news ? `<mark class="tag news-tag">真實新聞</mark>` : ""}</b><small>${esc(z.district)}</small></span><i>${z.spots.length} ↗</i></button>
             ${open ? `<ul class="spots">${spots.map((s) => `<li><button data-spot="${s.id}" class="${state.sel?.id === s.id ? "sel" : ""}">${esc(s.name)}<small>${esc(eraById.get(s.era).label)}</small></button></li>`).join("")}</ul>` : ""}
           </div>`;
         })

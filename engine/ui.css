@@ -345,5 +345,16 @@ body.touring .controls, body.touring .dock, body.touring .card, body.touring .ma
 .civic > .ico { color: #2c6db5; margin-top: 2px; }
 .civic b { font-size: 13px; }
 .civic p { margin: 4px 0 0; font-size: 12px; line-height: 1.75; }
+/* real-news island */
+.news { display: flex; gap: 10px; margin-top: 16px; padding: 12px 14px; border-radius: 12px; background: #efeaea; border: 1px solid #d6caca; color: #3a2a2a; }
+.news > .ico { color: #6b1a16; margin-top: 2px; flex: none; }
+.news b { font-size: 13px; }
+.news p { margin: 4px 0 0; font-size: 12px; line-height: 1.75; }
+.news-tag { background: #3b3a40; }
+.help { margin-top: 12px; padding: 10px 14px; border-radius: 10px; background: #fff6dc; border: 1px solid #ecd9a0; color: #4a3a10; font-size: 12.5px; line-height: 1.7; }
+.sources { list-style: none; margin: 6px 0 0; padding: 0; }
+.sources li { padding: 8px 0; border-top: 1px solid rgba(0, 0, 0, 0.08); font-size: 13px; line-height: 1.5; }
+.sources a { color: #8e1c16; text-decoration: underline; text-underline-offset: 2px; word-break: break-word; }
+.sources small { display: block; margin-top: 2px; color: #7a7070; font-size: 11px; }
 .heart-buttons .civic-btn b .ico { width: 16px; height: 16px; }
 .heart-buttons .civic-btn { flex-basis: 100%; }

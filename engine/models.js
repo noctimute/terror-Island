@@ -187,6 +187,18 @@ function figure(p, x, z, body, head = 0xe6ddcf, s = 1, ry = 0) {
   f.sphere(0, 0.4 * s, 0, 0.15 * s, 0.15 * s, 0.15 * s, head);
 }
 
+// chibi figure with ✕✕ eyes; built facing +z inside a dyn group so it can be animated or laid flat
+function qdead(d, s = 1) {
+  d.rbox(0, 0.16 * s, 0, 0.2 * s, 0.24 * s, 0.14 * s, 0x5b6b8a);
+  d.sphere(0, 0.4 * s, 0, 0.26 * s, 0.25 * s, 0.24 * s, 0xf0dcc8);
+  d.box(0, 0.5 * s, -0.02 * s, 0.27 * s, 0.08 * s, 0.22 * s, 0x2b2222); // hair
+  for (const ex of [-0.055, 0.055])
+    for (const rz of [0.785, -0.785]) d.box(ex * s, 0.41 * s, 0.12 * s, 0.07 * s, 0.014 * s, 0.01 * s, C.black, { rz });
+  d.box(0, 0.33 * s, 0.12 * s, 0.05 * s, 0.01 * s, 0.01 * s, C.black); // flat mouth
+  d.cyl(-0.13 * s, 0.17 * s, 0, 0.04 * s, 0.16 * s, 0.04 * s, 0xf0dcc8, { rz: 0.5 });
+  d.cyl(0.13 * s, 0.17 * s, 0, 0.04 * s, 0.16 * s, 0.04 * s, 0xf0dcc8, { rz: -0.5 });
+}
+
 // ---------- the 16 legends ----------
 export const MODELS = {
   // 01 大甲・大安：稻草人之田
@@ -523,36 +535,75 @@ export const MODELS = {
     });
   },
 
-  // 11 西屯：停擺的摩天輪
-  ferris(p) {
-    p.box(0, 0.3, -0.55, 1.5, 0.6, 0.9, 0x7a7484);
-    for (let i = 0; i < 5; i++) p.box(-0.6 + i * 0.3, 0.32, -0.095, 0.2, 0.22, 0.02, i === 2 ? C.warm : 0x2a2830, { glow: i === 2 });
-    p.box(-0.3, 0.98, -0.55, 0.06, 0.8, 0.06, C.metal, { rz: 0.25 });
-    p.box(0.3, 0.98, -0.55, 0.06, 0.8, 0.06, C.metal, { rz: -0.25 });
-    const wheel = p.dyn(0, 1.35, -0.5);
-    wheel.torus(0, 0, 0, 1.45, 1.45, 1.5, C.bone);
-    const cabins = [];
-    for (let i = 0; i < 8; i++) {
-      const a = (i / 8) * Math.PI * 2;
-      wheel.box(Math.cos(a) * 0.36, Math.sin(a) * 0.36, 0, 0.72, 0.025, 0.025, C.bone, { rz: a });
-      const cab = wheel.dyn(Math.cos(a) * 0.72, Math.sin(a) * 0.72, 0);
-      const lit = i === 1;
-      cab.box(0, -0.08, 0, 0.16, 0.16, 0.14, lit ? C.blood : 0x6a5a6a, { glow: lit, own: lit });
-      cabins.push(cab.node);
+  // 11 西屯・七期：死亡島（取材自真實新聞；人物為通用 Q 版示意，不對應任何特定死者）
+  deathisle(p, rng) {
+    // glass tower at the back, its upper floors scorched
+    const tw = p.sub(-0.35, 0, -0.75);
+    tw.box(0, 1.6, 0, 0.95, 3.2, 0.95, 0x6f7a86);
+    tw.box(0, 3.24, 0, 1.02, 0.08, 1.02, 0x4a525c);
+    for (let f = 0; f < 10; f++)
+      for (let c = 0; c < 3; c++) {
+        const y = 0.35 + f * 0.29,
+          lit = rng() < 0.22,
+          burnt = f === 7 && c > 0;
+        tw.box(-0.28 + c * 0.28, y, 0.478, 0.18, 0.16, 0.02, burnt ? C.black : lit ? C.warm : C.glass, { glow: lit && !burnt });
+      }
+    tw.box(0.16, 2.4, 0.49, 0.5, 0.1, 0.02, 0x2a2224); // soot band
+    // rooftop ledge where the little figure stands
+    tw.box(0, 3.3, 0.42, 0.95, 0.06, 0.12, 0x8c939b);
+    // a fallen-then-reset Q figure: stands at the edge, drops, lies on the plaza, repeats
+    const faller = p.dyn(-0.35, 3.33, -0.25);
+    qdead(faller);
+    const TOP_Y = 3.33;
+    p.anim((t) => {
+      const u = (t % 7) / 7;
+      const n = faller.node;
+      if (u < 0.35) {
+        n.position.y = TOP_Y;
+        n.position.z = -0.25;
+        n.rotation.set(Math.sin(t * 3) * 0.08, 0, 0);
+      } else if (u < 0.55) {
+        const k = (u - 0.35) / 0.2;
+        n.position.y = TOP_Y - (TOP_Y - 0.05) * k * k;
+        n.position.z = -0.25 + k * 0.35;
+        n.rotation.set(k * Math.PI * 1.5, 0, k * 0.6);
+      } else {
+        n.position.y = 0.05;
+        n.position.z = 0.1;
+        n.rotation.set(-Math.PI / 2, 0, 0.6);
+      }
+    });
+    // police tape around the landing spot
+    for (const x of [-0.85, 0.15]) p.cyl(x, 0.12, 0.15, 0.03, 0.24, 0.03, C.yellow);
+    p.box(-0.35, 0.2, 0.15, 1.0, 0.03, 0.01, C.yellow);
+    // memorial candles
+    for (let i = 0; i < 5; i++) p.cyl(-0.75 + i * 0.1, 0.04, 0.32, 0.04, 0.08, 0.04, C.lamp, { glow: true });
+    // second, lower block beside the tower
+    const b2 = p.sub(0.85, 0, -0.85);
+    b2.box(0, 0.8, 0, 0.6, 1.6, 0.6, 0x7d7470);
+    for (let f = 0; f < 5; f++) b2.box(0, 0.3 + f * 0.28, 0.305, 0.4, 0.12, 0.02, f === 2 ? C.blood : C.glass, { glow: f === 2 });
+    // dark lake in front with floating figures
+    for (let i = 0; i < 18; i++) {
+      const a = (i / 18) * Math.PI * 2;
+      p.ico(Math.cos(a) * 1.05, 0.05, 0.95 + Math.sin(a) * 0.52, 0.22, 0.12, 0.18, i % 2 ? C.dstone : C.stone, { ry: a });
+    }
+    p.cyl(0, 0.03, 0.95, 2.0, 0.04, 1.0, 0x1b2e36);
+    const floaters = [];
+    for (const [x, z, r] of [[-0.55, 0.9, 0.4], [0.1, 1.15, -0.8], [0.6, 0.85, 2.1]]) {
+      const f = p.dyn(x, 0.07, z);
+      qdead(f, 0.8);
+      f.node.rotation.set(-Math.PI / 2, 0, r);
+      floaters.push({ n: f.node, x, z, r, ph: rng() * 6 });
     }
     p.anim((t) => {
-      wheel.node.rotation.z = Math.sin(t * 0.25) * 0.015;
-      for (const c of cabins) c.rotation.z = -wheel.node.rotation.z + Math.sin(t + c.position.x) * 0.06;
+      for (const f of floaters) {
+        f.n.position.y = 0.07 + Math.sin(t * 1.1 + f.ph) * 0.015;
+        f.n.rotation.z = f.r + Math.sin(t * 0.3 + f.ph) * 0.25;
+        f.n.position.x = f.x + Math.sin(t * 0.2 + f.ph) * 0.05;
+      }
     });
-    // night market's last stall
-    for (let i = 0; i < 3; i++) {
-      const s = p.sub(-0.75 + i * 0.75, 0, 0.75);
-      s.box(0, 0.16, 0, 0.5, 0.32, 0.35, 0x6a5444);
-      s.gable(0, 0.42, 0, 0.6, 0.18, 0.42, i % 2 ? C.red : C.white);
-      lantern(s, -0.18, 0.36, 0.2, C.warm, 0.35);
-      lantern(s, 0.18, 0.36, 0.2, C.warm, 0.35);
-    }
-    p.cyl(0.75, 0.38, 0.95, 0.24, 0.06, 0.24, 0x3d6a8a);
+    for (let i = 0; i < 5; i++) p.cone(1.15 + (i % 2) * 0.12, 0.14, 0.75 + i * 0.1, 0.05, 0.28, 0.05, 0x55704a, { rz: (rng() - 0.5) * 0.5 });
+    return { mist: 3, mistY: 0.2 };
   },
 
   // 12 北屯：第七病棟
