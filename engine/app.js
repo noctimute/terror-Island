@@ -3,9 +3,9 @@ import { createEnvironment, mulberry } from "./environment.js?v=2";
 import { createKit, MODELS, wildForest } from "./models.js?v=19";
 import { createPeople, flowCurve } from "./people.js?v=3";
 import { createLumama } from "./lumama.js?v=9";
-import { createGuns } from "./guns.js?v=9";
+import { createGuns } from "./guns.js?v=10";
 import { createMusic } from "./music.js?v=1";
-import { sfx } from "./sfx.js?v=1";
+import { sfx } from "./sfx.js?v=2";
 import { icon, skulls } from "./icons.js?v=1";
 
 const $ = (s) => document.querySelector(s),
@@ -296,7 +296,7 @@ try {
 
   createMusic($("#music-toggle"));
   const lumama = createLumama(THREE, { scene, centers: [...centers.values()], CSS2DObject, rng: mulberry(7), onCelebrate: sfx.lumama });
-  const guns = createGuns(THREE, { scene, centers: [...centers.values()], CSS2DObject, rng: Math.random, groundAt: (x, z) => env.heightAtTerrain(x, z) - 0.03, blocked: [...allCenters.values()], hud: $("#gun-hud"), onCollect: (left) => sfx.gun(!left) });
+  const guns = createGuns(THREE, { scene, centers: [...centers.values()], CSS2DObject, rng: Math.random, groundAt: (x, z) => env.heightAtTerrain(x, z) - 0.03, blocked: [...allCenters.values()], hud: $("#gun-hud"), onCollect: (left) => sfx.gun(!left), onReset: sfx.reset });
 
   // ---------- camera ----------
   let fly = null;

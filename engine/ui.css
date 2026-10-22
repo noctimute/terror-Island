@@ -399,7 +399,11 @@ body.touring .controls, body.touring .dock, body.touring .card, body.touring .ma
 .gun-hud .gun-note { font-size: 10px; opacity: .55; }
 .gun-hud.done .gun-ico { background: #d9a520; }
 body.touring .gun-hud { display: none; }
-@media (max-width: 760px) { .gun-hud { left: 10px; right: 10px; bottom: 10px; max-width: none; } }
+/* on phones the layer buttons sit along the bottom edge, so the gun menu rides just above them */
+@media (max-width: 760px) {
+  .gun-hud { left: 10px; right: 10px; bottom: calc(max(10px, env(safe-area-inset-bottom)) + 76px); max-width: none; padding: 8px 10px; }
+  body.time-open .gun-hud { display: none; }
+}
 
 /* 暫停 also holds the page's own CSS loops, like the floating mascot face */
 body.frozen .mascot .face { animation-play-state: paused; }

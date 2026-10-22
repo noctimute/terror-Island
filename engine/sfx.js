@@ -159,6 +159,14 @@ export const sfx = {
     const notes = done ? [523, 659, 784, 1046, 1318] : [784, 1175];
     notes.forEach((f, i) => tone({ type: "square", f0: f, at: 0.14 + i * 0.08, dur: done ? 0.5 : 0.25, vol: 0.05 }));
   },
+  // 重來: the magazine drops out, a new one clicks in, and the guns scatter again with a falling sweep
+  reset() {
+    ac();
+    noise({ dur: 0.08, vol: 0.3, freq: 1200, q: 3 });
+    tone({ type: "triangle", f0: 400, f1: 250, at: 0.02, dur: 0.12, vol: 0.12 });
+    noise({ at: 0.22, dur: 0.05, vol: 0.35, freq: 2600, q: 3 });
+    [1175, 988, 784, 659].forEach((f, i) => tone({ type: "square", f0: f, at: 0.32 + i * 0.06, dur: 0.18, vol: 0.04 }));
+  },
   // Lumama: a slap on her drum and a shower of coins
   lumama() {
     ac();
