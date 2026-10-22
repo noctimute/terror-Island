@@ -1088,6 +1088,107 @@ export const MODELS = {
     });
   },
 
+  // 賣地島：fenced empty plots with red "for sale" boards, an auction desk with a gavel and cash, luxury towers going up, a swallow circling
+  landisle(p, rng) {
+    for (const [x, z] of [[-0.95, 0.45], [-0.25, 0.75], [0.5, 0.55]]) {
+      const lot = p.sub(x, 0, z);
+      lot.box(0, 0.02, 0, 0.6, 0.04, 0.5, 0x8a6a48);
+      for (const [fx, fz, w, ry] of [[0, -0.25, 0.6, 0], [0, 0.25, 0.6, 0], [-0.3, 0, 0.5, Math.PI / 2], [0.3, 0, 0.5, Math.PI / 2]]) lot.box(fx, 0.08, fz, w, 0.03, 0.02, C.white, { ry });
+      lot.cyl(0.18, 0.25, -0.1, 0.03, 0.5, 0.03, C.metal);
+      lot.box(0.18, 0.45, -0.1, 0.3, 0.2, 0.02, 0xc8102e);
+      lot.box(0.18, 0.45, -0.088, 0.12, 0.12, 0.01, C.white);
+    }
+    // luxury towers, one still under construction with a crane
+    const tw = p.sub(-0.5, 0, -0.55);
+    tw.box(0, 0.9, 0, 0.5, 1.8, 0.5, 0x3d4a5a);
+    for (let f = 0; f < 8; f++) tw.box(0, 0.2 + f * 0.21, 0.255, 0.42, 0.1, 0.01, rng() < 0.6 ? C.warm : C.glass, { glow: rng() < 0.6 });
+    tw.box(0, 1.85, 0, 0.56, 0.1, 0.56, 0xd9a520);
+    const t2 = p.sub(0.35, 0, -0.6);
+    t2.box(0, 0.5, 0, 0.5, 1.0, 0.5, 0x9a958c);
+    for (let f = 0; f < 4; f++) t2.box(0, 1.05 + f * 0.2, 0, 0.5, 0.02, 0.5, C.metal);
+    for (const [x, z] of [[-0.24, -0.24], [0.24, -0.24], [-0.24, 0.24], [0.24, 0.24]]) t2.box(x, 1.4, z, 0.03, 0.8, 0.03, C.metal);
+    p.box(0.95, 1.0, -0.75, 0.07, 2.0, 0.07, C.yellow);
+    p.box(0.65, 1.95, -0.72, 0.9, 0.06, 0.06, C.yellow);
+    // auction desk: gavel, stacks of cash, a briefcase
+    const desk = p.sub(1.0, 0, 0.15, -0.5);
+    desk.box(0, 0.18, 0, 0.6, 0.36, 0.32, C.dwood);
+    desk.box(0, 0.37, 0, 0.66, 0.03, 0.38, C.wood);
+    for (let i = 0; i < 3; i++) desk.box(-0.18 + i * 0.07, 0.42 + i * 0.02, 0.05, 0.12, 0.06 + i * 0.04, 0.08, 0x3f8f4a);
+    desk.box(0.15, 0.44, -0.05, 0.2, 0.1, 0.06, C.black);
+    const gavel = p.dyn(1.0, 0.45, 0.15);
+    gavel.box(0, 0.08, 0, 0.14, 0.06, 0.06, C.dwood);
+    gavel.box(0.1, 0.06, 0, 0.18, 0.02, 0.02, C.wood);
+    // a swallow circling overhead
+    const bird = p.dyn(0, 1.4, 0);
+    bird.sphere(0, 0, 0, 0.16, 0.08, 0.08, 0x1f2a44);
+    bird.sphere(0.02, -0.02, 0, 0.12, 0.05, 0.06, C.white);
+    bird.box(-0.12, 0.01, 0.03, 0.12, 0.01, 0.02, 0x1f2a44, { ry: 0.3 });
+    bird.box(-0.12, 0.01, -0.03, 0.12, 0.01, 0.02, 0x1f2a44, { ry: -0.3 });
+    const wings = [bird.box(0, 0.02, 0.12, 0.08, 0.01, 0.2, 0x1f2a44), bird.box(0, 0.02, -0.12, 0.08, 0.01, 0.2, 0x1f2a44)];
+    p.anim((t) => {
+      gavel.node.rotation.z = Math.max(0, Math.sin(t * 3)) * 0.6;
+      const a = t * 0.6;
+      bird.node.position.set(Math.cos(a) * 1.0, 1.4 + Math.sin(t * 2) * 0.08, Math.sin(a) * 0.8);
+      bird.node.rotation.y = -a - Math.PI / 2;
+      wings.forEach((w, i) => (w.rotation.x = Math.sin(t * 12) * 0.5 * (i ? -1 : 1)));
+    });
+    return { mist: 2, mistY: 0.25 };
+  },
+
+  // 髒川島：a stone-banked canal of murky water with floating trash bags, bottles and belly-up fish, a little arched bridge, an overflowing bin
+  riverisle(p, rng) {
+    p.box(0, 0.03, 0.15, 3.0, 0.04, 0.9, 0x4f4a26);
+    for (const z of [-0.32, 0.62]) p.box(0, 0.09, z, 3.0, 0.16, 0.08, C.stone);
+    // arched footbridge
+    const br = p.sub(0.2, 0, 0.15);
+    br.box(0, 0.24, 0, 0.36, 0.05, 1.05, C.stone);
+    for (const z of [-0.5, 0.5]) br.box(0, 0.12, z, 0.36, 0.24, 0.06, C.dstone);
+    for (const x of [-0.17, 0.17]) br.box(x, 0.33, 0, 0.03, 0.14, 1.05, C.white);
+    // floating junk and dead fish, bobbing
+    const bob = [];
+    for (let i = 0; i < 15; i++) {
+      const x = -1.3 + rng() * 2.6;
+      if (Math.abs(x - 0.2) < 0.25) continue;
+      const f = p.dyn(x, 0.07, -0.15 + rng() * 0.6, rng() * 6);
+      if (i % 3 === 0) {
+        f.sphere(0, 0, 0, 0.16, 0.06, 0.07, 0xdfe3d0);
+        f.cone(-0.1, 0, 0, 0.06, 0.06, 0.02, 0xdfe3d0, { rz: Math.PI / 2 });
+        for (const dz of [0.03, -0.03]) for (const ry of [0.785, -0.785]) f.box(0.05, 0.03, dz, 0.025, 0.005, 0.006, C.black, { ry });
+      } else if (i % 3 === 1) f.sphere(0, 0, 0, 0.14, 0.1, 0.12, [C.black, 0x3a5a8a, C.white][i % 3]);
+      else f.cyl(0, 0, 0, 0.04, 0.12, 0.04, 0x8fd0c0, { rz: Math.PI / 2 });
+      bob.push({ n: f.node, ph: rng() * 6 });
+    }
+    // banks: overflowing bin, litter, a lamp, a sad sign
+    const bin = p.sub(-0.9, 0, -0.65);
+    bin.cyl(0, 0.16, 0, 0.22, 0.32, 0.22, 0x2e7d4f);
+    for (let i = 0; i < 4; i++) bin.sphere((rng() - 0.5) * 0.2, 0.34 + rng() * 0.06, (rng() - 0.5) * 0.2, 0.12, 0.1, 0.12, [C.black, C.white, 0x3a5a8a][i % 3]);
+    for (let i = 0; i < 6; i++) p.sphere(-1.2 + rng() * 2.4, 0.04, -0.6 - rng() * 0.3, 0.1, 0.06, 0.1, [C.black, C.white, 0x3a5a8a, 0xc9a227][i % 4]);
+    for (let i = 0; i < 5; i++) p.cyl(-1.1 + rng() * 2.2, 0.03, 0.8 + rng() * 0.15, 0.03, 0.1, 0.03, 0x8fd0c0, { rz: Math.PI / 2, ry: rng() * 3 });
+    for (const x of [-0.4, 0.9]) {
+      p.cyl(x, 0.45, -0.45, 0.03, 0.9, 0.03, C.black);
+      p.sphere(x, 0.92, -0.45, 0.09, 0.09, 0.09, C.lamp, { glow: true });
+    }
+    // a bench with a sleeping bag under the bridge end
+    p.box(0.9, 0.06, 0.85, 0.5, 0.08, 0.18, 0x5a6b3a);
+    // green-brown stink haze
+    const haze = [];
+    for (let i = 0; i < 4; i++) {
+      const h = p.dyn(-1 + i * 0.65, 0.3, 0.15);
+      haze.push({ m: h.sphere(0, 0, 0, 0.35, 0.12, 0.3, 0x9db04a, { glow: true, own: true }), n: h.node, ph: rng() * 6 });
+    }
+    p.anim((t) => {
+      bob.forEach((b) => {
+        b.n.position.y = 0.07 + Math.sin(t * 1.4 + b.ph) * 0.015;
+        b.n.rotation.y += 0.002;
+      });
+      haze.forEach((h) => {
+        h.n.position.y = 0.3 + Math.sin(t * 0.7 + h.ph) * 0.06;
+        h.m.material.userData.flick = 0.25 + Math.sin(t + h.ph) * 0.1;
+      });
+    });
+    return { mist: 6, mistY: 0.2 };
+  },
+
   // 12 北屯：第七病棟
   hospital(p, rng) {
     p.box(0, 0.6, -0.5, 1.9, 1.2, 0.7, 0x9aa49c);

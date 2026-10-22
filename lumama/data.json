@@ -61,6 +61,18 @@
    "name": "兒少受害",
    "en": "Child victims",
    "color": "#E84393"
+  },
+  {
+   "id": "L",
+   "name": "賣地爭議",
+   "en": "Land sales",
+   "color": "#A0522D"
+  },
+  {
+   "id": "E",
+   "name": "環境髒亂",
+   "en": "Pollution",
+   "color": "#6B8E23"
   }
  ],
  "eras": [
@@ -573,36 +585,52 @@
   {
    "id": "dajia",
    "number": 12,
-   "name": "施工中",
-   "model": "construction",
+   "name": "賣地島",
+   "model": "landisle",
    "cell": [
     1,
     0
    ],
-   "ground": "#9A958C",
-   "side": "#5E5A52",
-   "fear": [],
-   "danger": 0,
-   "summary": "這一格還在施工中，新的內容整理好就會開放。",
+   "ground": "#B5A58A",
+   "side": "#6E5E48",
+   "fear": [
+    "L"
+   ],
+   "danger": 2,
+   "summary": "抵費地、配餘地、社宅用地——這一格收錄盧市府標售土地與建商相關爭議的新聞。",
    "spots": [],
-   "wip": true
+   "recordsSrc": "land.json",
+   "news": {
+    "title": "本島取材自真實新聞",
+    "body": "以下事件都有新聞報導可查，文字只摘要報導內容，並同時列出批評方與市府的說法，不加入未經證實的推論；島上的 3D 場景是示意插畫，不是真實場址的樣貌。"
+   },
+   "tlColor": "#A0522D",
+   "tag": "賣地・建商"
   },
   {
    "id": "dongshi",
    "number": 13,
-   "name": "施工中",
-   "model": "construction",
+   "name": "髒川島",
+   "model": "riverisle",
    "cell": [
     2,
     1
    ],
-   "ground": "#9A958C",
-   "side": "#5E5A52",
-   "fear": [],
-   "danger": 0,
-   "summary": "這一格還在施工中，新的內容整理好就會開放。",
+   "ground": "#8C9474",
+   "side": "#4E5440",
+   "fear": [
+    "E"
+   ],
+   "danger": 2,
+   "summary": "整治後曾經很漂亮的綠川，後來變濁、發臭、漂死魚和垃圾——這一格收錄相關新聞。",
    "spots": [],
-   "wip": true
+   "recordsSrc": "river.json",
+   "news": {
+    "title": "本島取材自真實新聞",
+    "body": "以下事件都有新聞報導可查，文字只摘要報導內容，並同時列出批評方與市府的說法，不加入未經證實的推論；島上的 3D 場景是示意插畫，不是真實場址的樣貌。"
+   },
+   "tlColor": "#6B8E23",
+   "tag": "河川髒亂"
   },
   {
    "id": "lishan",

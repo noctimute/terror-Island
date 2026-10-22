@@ -209,6 +209,39 @@
      "url": "https://www.cna.com.tw/news/asoc/202404300444.aspx"
     }
    ]
+  },
+  {
+   "id": "s-mrt",
+   "title": "建案吊臂掉落砸中捷運列車 1死8傷",
+   "date": "2023-05-10",
+   "place": "南屯",
+   "summary": "南屯一處建案工地拆除吊車時，吊臂從頂樓掉落、砸中行駛中的中捷綠線列車，造成 1 死 8 傷；市府勒令建案停工並開罰，檢方後來起訴工地相關人員。",
+   "sources": [
+    {
+     "title": "中捷意外／工地吊車斷索砸列車釀1死8傷 市府勒令停工首波罰百萬",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/636252"
+    },
+    {
+     "title": "中捷事故1死8傷 興富發初判吊掛鋼索斷裂致意外",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/636176"
+    },
+    {
+     "title": "1死10傷憾事！林良泰竟要媒體和觀眾為中捷團隊拍拍手 議員傻眼了",
+     "outlet": "Newtalk 新聞",
+     "url": "https://newtalk.tw/news/view/2023-05-12/870740"
+    },
+    {
+     "title": "中捷意外／凌晨完成巡軌 今晨6時恢復全線營運",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/636276"
+    }
+   ],
+   "fear": [
+    "S",
+    "D"
+   ]
   }
  ]
 }
