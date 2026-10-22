@@ -55,12 +55,46 @@ export function createGuns(THREE, { scene, centers, CSS2DObject, rng, count = 12
     } catch {}
   };
 
-  const metal = new THREE.MeshStandardMaterial({ color: 0x55596a, roughness: 0.35, metalness: 0.5 });
-  const grip = new THREE.MeshStandardMaterial({ color: 0x7a5236, roughness: 0.7 });
-  const slide = new THREE.BoxGeometry(0.34, 0.07, 0.08);
-  const barrel = new THREE.CylinderGeometry(0.022, 0.022, 0.1, 8).rotateZ(Math.PI / 2);
-  const handle = new THREE.BoxGeometry(0.08, 0.16, 0.07);
-  const guard = new THREE.TorusGeometry(0.04, 0.01, 4, 10, Math.PI);
+  // like a police seizure table: mostly black pistols, a few two-tone or silver ones, a revolver and a rifle
+  const black = new THREE.MeshStandardMaterial({ color: 0x1c1d22, roughness: 0.45, metalness: 0.4 });
+  const dark = new THREE.MeshStandardMaterial({ color: 0x2c2e35, roughness: 0.7, metalness: 0.2 });
+  const silver = new THREE.MeshStandardMaterial({ color: 0xb9bcc4, roughness: 0.25, metalness: 0.85 });
+  const box = (w, h, d) => new THREE.BoxGeometry(w, h, d);
+  const cyl = (r, l, n = 8) => new THREE.CylinderGeometry(r, r, l, n).rotateZ(Math.PI / 2);
+  const guardGeo = new THREE.TorusGeometry(0.04, 0.01, 4, 10, Math.PI);
+  // each part: [geometry, material, x, y, z, rotation z]
+  const pistol = (slideMat, frame = black, long = 1) => [
+    [box(0.34 * long, 0.075, 0.08), slideMat, 0.02 * long, 0.11, 0],
+    [box(0.28 * long, 0.04, 0.07), frame, 0.0, 0.065, 0],
+    [box(0.085, 0.17, 0.07), frame, -0.1, 0.0, 0, -0.28],
+    [guardGeo, frame, -0.01, 0.05, 0, Math.PI],
+  ];
+  const VARIANTS = [
+    pistol(black), // Glock-style, all black
+    [...pistol(black), [box(0.06, 0.17, 0.05), black, 0.24, -0.02, 0, 0.1]], // with a spare magazine
+    pistol(silver), // silver slide on a black frame
+    pistol(black, dark, 0.8), // compact
+    [...pistol(black, black, 1.15), [cyl(0.03, 0.14), black, 0.27, 0.11, 0]], // long slide with a compensator
+    [...pistol(black), [box(0.09, 0.05, 0.06), dark, 0.08, 0.04, 0]], // with an under-rail light
+    [
+      // revolver
+      [cyl(0.022, 0.22), black, 0.12, 0.12, 0],
+      [cyl(0.05, 0.08, 10), dark, -0.02, 0.1, 0],
+      [box(0.08, 0.16, 0.06), dark, -0.11, 0.0, 0, -0.35],
+      [guardGeo, black, -0.02, 0.05, 0, Math.PI],
+    ],
+    [
+      // AR-style rifle, laid on the diagonal so it fits the pickup ring
+      [box(0.42, 0.07, 0.06), black, 0, 0.12, 0],
+      [cyl(0.018, 0.26), black, 0.33, 0.12, 0],
+      [box(0.2, 0.06, 0.055), dark, -0.3, 0.1, 0, -0.1],
+      [box(0.05, 0.16, 0.05), black, 0.06, 0.02, 0, 0.15],
+      [box(0.05, 0.12, 0.05), dark, -0.1, 0.03, 0, -0.3],
+      [cyl(0.03, 0.16), black, 0.02, 0.2, 0],
+    ],
+  ];
+  // slot g0..g11 → model: black pistols dominate
+  const PICK = [0, 1, 2, 0, 3, 4, 0, 5, 6, 1, 7, 3];
   const hitGeo = new THREE.SphereGeometry(0.45, 8, 6);
   const hitMat = new THREE.MeshBasicMaterial();
   const ringGeo = new THREE.RingGeometry(0.14, 0.2, 24);
@@ -80,16 +114,13 @@ export function createGuns(THREE, { scene, centers, CSS2DObject, rng, count = 12
       const g = new THREE.Group();
       const spin = new THREE.Group();
       g.add(spin);
-      const m = (geo, mat, x, y, z, rz = 0) => {
+      const variant = VARIANTS[PICK[Number(id.slice(1)) % PICK.length]];
+      for (const [geo, mat, x, y, z, rz = 0] of variant) {
         const mesh = new THREE.Mesh(geo, mat);
         mesh.position.set(x, y, z);
         mesh.rotation.z = rz;
         spin.add(mesh);
-      };
-      m(slide, metal, 0, 0.1, 0);
-      m(barrel, metal, 0.2, 0.11, 0);
-      m(handle, grip, -0.11, 0.01, 0, -0.25);
-      m(guard, metal, -0.02, 0.05, 0, Math.PI);
+      }
       const ring = new THREE.Mesh(ringGeo, glowMat);
       ring.rotation.x = -Math.PI / 2;
       ring.position.y = 0.02;
