@@ -4,7 +4,7 @@ import { S, hexVertex } from "./world.js?v=1";
 
 const KEY = "taichung-guns-v1";
 
-export function createGuns(THREE, { scene, centers, CSS2DObject, rng, count = 12, hud }) {
+export function createGuns(THREE, { scene, centers, CSS2DObject, rng, count = 12, outside = 4, groundAt, blocked = centers, hud }) {
   // candidate spots: midpoints of the road edges between hex corners
   const seen = new Set(),
     spots = [];
@@ -23,6 +23,21 @@ export function createGuns(THREE, { scene, centers, CSS2DObject, rng, count = 12
   for (let i = spots.length - 1; i > 0; i--) {
     const j = Math.floor(rng() * (i + 1));
     [spots[i], spots[j]] = [spots[j], spots[i]];
+  }
+
+  // a few lie in the open ground around the city instead of on a road
+  const picks = spots.slice(0, count - outside).map((p) => ({ ...p, y: 0.02 }));
+  for (let tries = 0; picks.length < count && tries < 400; tries++) {
+    const c = centers[Math.floor(rng() * centers.length)];
+    const a = rng() * Math.PI * 2,
+      r = S * (1.3 + rng() * 1.2);
+    const x = c.x + Math.cos(a) * r,
+      z = c.z + Math.sin(a) * r;
+    if (blocked.some((o) => Math.hypot(x - o.x, z - o.z) < S * 1.15)) continue;
+    if (picks.some((o) => Math.hypot(x - o.x, z - o.z) < S)) continue;
+    const y = groundAt ? groundAt(x, z) : 0;
+    if (y < -0.12 || y > 0.9) continue;
+    picks.push({ x, z, y: y + 0.02 });
   }
 
   let found = new Set();
@@ -49,7 +64,7 @@ export function createGuns(THREE, { scene, centers, CSS2DObject, rng, count = 12
   const pillarMat = new THREE.MeshBasicMaterial({ color: 0x6fe3ff, transparent: true, opacity: 0.12, side: THREE.DoubleSide, toneMapped: false, depthWrite: false, blending: THREE.AdditiveBlending });
 
   const guns = [];
-  spots.slice(0, count).forEach((p, i) => {
+  picks.forEach((p, i) => {
     const id = `g${i}`;
     if (found.has(id)) return;
     // GTA-style pickup: the gun floats upright, spinning and bobbing over a glowing ring and a faint light pillar
@@ -73,7 +88,7 @@ export function createGuns(THREE, { scene, centers, CSS2DObject, rng, count = 12
     const pillar = new THREE.Mesh(pillarGeo, pillarMat);
     pillar.position.y = 0.35;
     g.add(pillar);
-    g.position.set(p.x + (rng() - 0.5) * 0.2, 0.02, p.z + (rng() - 0.5) * 0.2);
+    g.position.set(p.x, p.y, p.z);
     g.scale.setScalar(1.7);
     const hit = new THREE.Mesh(hitGeo, hitMat);
     hit.position.y = 0.2;
