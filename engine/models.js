@@ -590,7 +590,7 @@ export const MODELS = {
     });
   },
 
-  // 11 飛翔島（取材自真實新聞；人物為通用 Q 版示意，不對應任何特定死者）
+  // 11 墜落島（取材自真實新聞；人物為通用 Q 版示意，不對應任何特定死者）
   deathisle(p, rng) {
     // glass tower at the back, its upper floors scorched
     const tw = p.sub(-0.35, 0, -0.75);
