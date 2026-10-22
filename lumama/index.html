@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Noto+Serif+TC:wght@700;900&display=swap">
 <base href="../engine/">
-<link rel="stylesheet" href="./ui.css?v=10">
+<link rel="stylesheet" href="./ui.css?v=11">
 <script type="importmap">{"imports":{"three":"./vendor/three/build/three.module.min.js","three/addons/":"./vendor/three/examples/jsm/"}}</script>
 </head>
 <body><main id="app" data-src="../lumama/data.json">
@@ -78,15 +78,20 @@
 
 <div class="legend" hidden id="legend"><b>詛咒連線・依據</b><br><i></i><span>地方誌記載</span>　<i class="dash"></i><span>目擊者證詞</span><br><i class="dot"></i><span>坊間謠言</span></div>
 
-<section class="controls" aria-label="時間與傳說篩選">
+<section class="controls" aria-label="事件時間軸與篩選">
 <div class="control-tabs" role="tablist">
-<button class="active" role="tab" aria-selected="true" data-panel="day">01 驚魂一夜</button>
-<button role="tab" aria-selected="false" data-panel="era">02 傳說年代</button>
+<button class="active" role="tab" aria-selected="true" data-panel="tl">01 事件時間軸</button>
+<button role="tab" aria-selected="false" data-panel="isle">02 依島篩選</button>
 <button role="tab" aria-selected="false" data-panel="fear">03 FEAR</button>
 <div class="status" id="status" aria-live="off"></div>
 </div>
-<div class="panel active" id="panel-day" role="tabpanel"><div class="day-row"><button id="day-play" class="play" aria-label="播放一夜">▶</button><output id="clock">21:00</output><input id="day" type="range" min="0" max="1439" value="1260" aria-label="驚魂一夜，分鐘"></div><div class="ticks"><span>00:00</span><span>06:00</span><span>12:00</span><span>18:00</span><span>24:00</span></div><p class="control-note" id="day-note"></p></div>
-<div class="panel" id="panel-era" role="tabpanel"><div class="term-buttons" id="era-buttons"></div><p class="control-note" id="era-note">選一個年代，只顯示那個年代開始流傳的地點。</p></div>
+<div class="panel active" id="panel-tl" role="tabpanel">
+<div class="tl-row"><button id="tl-play" class="play" aria-label="播放時間軸">▶</button><output id="tl-month">全部</output><button id="tl-all" class="tl-chip" aria-pressed="true">全部</button><button id="tl-cum" class="tl-chip" aria-pressed="false">累積</button></div>
+<div class="tl-track"><div class="tl-dots" id="tl-dots" aria-hidden="true"></div><input id="tl" type="range" min="0" max="0" value="0" aria-label="事件時間軸，月份"></div>
+<div class="ticks" id="tl-ticks"></div>
+<div class="tl-list" id="tl-list"></div>
+</div>
+<div class="panel" id="panel-isle" role="tabpanel"><div class="term-buttons" id="isle-buttons"></div><p class="control-note" id="isle-note">選一座島，只顯示那座島。</p></div>
 <div class="panel" id="panel-fear" role="tabpanel"><div class="heart-buttons" id="fear-buttons"></div><p class="control-note">可複選。依恐懼類型篩選地點，未符合的地點會褪色。</p></div>
 </section>
 
@@ -97,4 +102,4 @@
 <div id="loading" class="loading" role="status"><h2>TERROR</h2><p>正在喚醒傳說…</p></div>
 <noscript><p class="nojs">這個互動地圖需要啟用 JavaScript 與 WebGL。</p></noscript>
 </main>
-<script type="module" src="./app.js?v=19"></script></body></html>
+<script type="module" src="./app.js?v=20"></script></body></html>

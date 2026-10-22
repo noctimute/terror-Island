@@ -196,9 +196,25 @@ body.has-card .dock, body.has-card .mascot, body.has-card .legend { display: non
 .status { margin-left: auto; font: 11px ui-monospace, monospace; color: var(--muted); }
 .panel { display: none; padding-top: 12px; }
 .panel.active { display: block; }
-.day-row { display: flex; align-items: center; gap: 12px; }
+.tl-row { display: flex; align-items: center; gap: 10px; }
 .play { width: 38px; height: 38px; border-radius: 50%; border: 0; background: var(--ink); color: #fff; font-size: 13px; flex: none; }
-#clock { font: 700 22px ui-monospace, monospace; color: var(--accent); width: 72px; }
+#tl-month { font: 700 20px ui-monospace, monospace; color: var(--accent); min-width: 88px; }
+.tl-chip { border: 1px solid var(--line); background: #fbf8f3; border-radius: 999px; padding: 5px 12px; font-size: 12px; }
+.tl-chip[aria-pressed="true"] { background: var(--ink); color: #fff; border-color: var(--ink); }
+.tl-track { position: relative; margin-top: 8px; padding-top: 26px; }
+.tl-track input[type="range"] { width: 100%; display: block; margin: 0; }
+.tl-dots { position: absolute; left: 9px; right: 9px; top: 0; height: 24px; pointer-events: none; }
+.tl-dots i { position: absolute; width: 5px; height: 5px; margin-left: -2.5px; border-radius: 50%; background: var(--c); opacity: 0.22; transition: opacity 0.2s; }
+.tl-dots i.on { opacity: 1; }
+#tl-ticks { position: relative; height: 14px; margin: 2px 9px 0; display: block; }
+#tl-ticks span { position: absolute; transform: translateX(-50%); }
+.tl-list { margin-top: 8px; max-height: 150px; overflow: auto; }
+.tl-head, .tl-empty { margin: 0 0 4px; font-size: 12px; color: #4a4042; }
+.tl-list ul { list-style: none; margin: 0; padding: 0; }
+.tl-list button { width: 100%; border: 0; background: none; text-align: left; display: flex; gap: 8px; padding: 4px 0; font-size: 12px; line-height: 1.5; }
+.tl-list button:hover span { text-decoration: underline; }
+.tl-list b { flex: none; font: 700 11px ui-monospace, monospace; color: var(--c); min-width: 78px; }
+#isle-buttons button[aria-pressed="true"] { background: var(--c, var(--ink)); border-color: var(--c, var(--ink)); }
 input[type="range"] { flex: 1; accent-color: var(--accent); height: 24px; }
 .ticks { display: flex; justify-content: space-between; margin: 0 0 0 122px; font: 10px ui-monospace, monospace; color: var(--muted); }
 .control-note { margin: 10px 0 0; font-size: 12px; line-height: 1.7; color: #4a4042; }

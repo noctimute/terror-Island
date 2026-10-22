@@ -44,7 +44,7 @@ try {
     import("three/addons/controls/OrbitControls.js"),
     import("three/addons/renderers/CSS2DRenderer.js"),
     // each city page points the shared engine at its own content: <main id="app" data-src="../lumama/data.json">
-    fetch(`${$("#app").dataset.src || "./data.json"}?v=14`)
+    fetch(`${$("#app").dataset.src || "./data.json"}?v=15`)
       .then((r) => {
         if (!r.ok) throw Error(`data.json: ${r.status}`);
         return r.json();
@@ -66,6 +66,7 @@ try {
                 fear: r.fear ?? R.fear ?? ["D"],
                 danger: r.danger ?? R.danger ?? 5,
                 date: r.date,
+                sort: r.sort, // month used to place a range/year-only date on the timeline
                 place: r.place,
                 plain: r.summary,
                 facts: [],
@@ -234,6 +235,9 @@ try {
     fear: new Set(),
     civic: false,
     era: null,
+    isle: null,
+    tl: null, // month index on the event timeline, or null for "all"
+    tlCum: false,
     names: false,
     badges: true,
     flows: false,
@@ -313,11 +317,13 @@ try {
   function zoneMatches(z) {
     if (state.fear.size && !(z.fear.some((f) => state.fear.has(f)) || z.spots.some((s) => s.fear.some((f) => state.fear.has(f))))) return false;
     if (state.era && !z.spots.some((s) => s.era === state.era)) return false;
+    if (state.isle && z.id !== state.isle) return false;
+    if (state.tl !== null && !tlZones().has(z.id)) return false;
     if (state.civic && !z.civic) return false;
     return true;
   }
   function activeSet() {
-    if (!state.fear.size && !state.era && !state.civic) return null;
+    if (!state.fear.size && !state.era && !state.civic && !state.isle && state.tl === null) return null;
     return new Set(zones.filter(zoneMatches).map((z) => z.id));
   }
   function applyFilters() {
@@ -345,11 +351,10 @@ try {
     $("#status").textContent = `顯示 ${n} / ${zones.length} 處地點`;
     $$("#fear-buttons [data-fear]").forEach((b) => b.setAttribute("aria-pressed", state.fear.has(b.dataset.fear)));
     $("#fear-buttons [data-civic]")?.setAttribute("aria-pressed", state.civic);
-    $$("#era-buttons button").forEach((b) => b.setAttribute("aria-pressed", (b.dataset.era || null) === state.era));
-    const era = state.era && eraById.get(state.era);
-    $("#era-note").textContent = era
-      ? `${era.label}開始流傳的傳說：${zones.filter(zoneMatches).map((z) => z.name).join("、") || "無"}`
-      : "選一個年代，只顯示那個年代開始流傳的地點。";
+    $$("#isle-buttons button").forEach((b) => b.setAttribute("aria-pressed", (b.dataset.isle || null) === state.isle));
+    const isle = state.isle && zoneById.get(state.isle);
+    $("#isle-note").textContent = isle ? `只顯示 ${zoneLabel(isle)}，共 ${isle.spots.length} 則。` : "選一座島，只顯示那座島。";
+    renderTimeline();
   }
 
   function flowView() {
@@ -398,14 +403,9 @@ try {
   function setTime(m) {
     state.minute = ((m % 1440) + 1440) % 1440;
     env.setTime(state.minute);
-    $("#clock").textContent = fmt(state.minute);
-    $("#day").value = Math.round(state.minute);
     const cy = currentCycle();
     if (cy !== lastCycle) {
       lastCycle = cy;
-      $("#day-note").innerHTML = `<b>${esc(cy.from)}–${esc(cy.to)}</b> ${esc(cy.label)}　<span class="awake">${cy.zones
-        .map((id) => `<button data-zone="${id}">${esc(zoneById.get(id).name)}</button>`)
-        .join("")}</span>`;
       for (const [id] of chips) chips.get(id).el.classList.toggle("awake", cy.zones.includes(id));
       if (state.log) renderOverview();
     }
@@ -442,9 +442,6 @@ try {
   function helpBox(sp) {
     return sp.helpline && D.helpline ? `<aside class="help">${esc(D.helpline)}</aside>` : "";
   }
-  function activeWindows(zid) {
-    return D.dayCycle.filter((c) => c.zones.includes(zid)).map((c) => `${c.from}–${c.to}`);
-  }
   function renderCard() {
     const s = state.sel;
     if (!s) {
@@ -475,7 +472,6 @@ try {
         <ul class="flow-list">${fl
           .map((f) => `<li><button data-flow="${f.id}"><em>${f.id}</em>${icon(f.carry)}<span>${esc(f.text)}</span></button></li>`)
           .join("")}</ul>
-        <p class="when">最活躍的時段：${activeWindows(z.id).join("、") || "—"}</p>
         <div class="card-actions"><button data-act="prev">← 上一處</button><button data-act="flows" class="primary">看它連到哪</button><button data-act="next">下一處 →</button></div>
         ${z.spotsNote ? `<p class="rec-note">${esc(z.spotsNote)}</p>` : ""}`;
     } else if (s.type === "spot") {
@@ -487,8 +483,7 @@ try {
         ${sp.facts.length ? `<ul class="facts">${sp.facts.map((f) => `<li>${esc(f)}</li>`).join("")}</ul>` : ""}
         ${helpBox(sp)}${sourceList(sp)}
         <dl class="kv">${sp.date ? `<dt>日期</dt><dd>${esc(sp.date)}</dd>` : ""}${sp.place ? `<dt>地點</dt><dd>${esc(sp.place)}</dd>` : ""}<dt>危險度</dt><dd>${skulls(sp.danger)}</dd><dt>流傳年代</dt><dd>${esc(eraById.get(sp.era).label)}</dd>
-        <dt>所在地</dt><dd>${z.district ? `${esc(z.district)}・` : ""}${esc(z.name)}</dd>${sp.fear.length ? `<dt>恐懼類型</dt><dd>${fearChips(sp.fear)}</dd>` : ""}
-        <dt>活躍時段</dt><dd>${activeWindows(z.id).join("、") || "—"}</dd></dl>
+        <dt>所在地</dt><dd>${z.district ? `${esc(z.district)}・` : ""}${esc(z.name)}</dd>${sp.fear.length ? `<dt>恐懼類型</dt><dd>${fearChips(sp.fear)}</dd>` : ""}</dl>
         ${civicBox(z)}${newsBox(z)}
         <div class="card-actions"><button data-act="prev-spot">← 上一則</button><button data-act="next-spot">下一則 →</button></div>`;
     } else if (s.type === "flow") {
@@ -604,7 +599,7 @@ try {
     h.addEventListener("pointerup", end);
     h.addEventListener("pointercancel", end);
   }
-  $("#day-note").addEventListener("click", onNavClick);
+  $("#tl-list").addEventListener("click", onNavClick);
 
   // ---------- sidebar ----------
   $("#disclaimer").textContent = D.meta.disclaimer;
@@ -678,22 +673,103 @@ try {
       $$(".controls .panel").forEach((p) => p.classList.toggle("active", p.id === `panel-${b.dataset.panel}`));
     }),
   );
-  $("#day").addEventListener("input", (e) => {
-    timeTween = null;
-    setTime(+e.target.value);
+  // ---------- event timeline: every dated 事件 placed on a month axis ----------
+  // each open island keeps its own colour on the timeline (zones[].tlColor), with a fallback palette
+  const ISLE_COLORS = ["#7a5fb0", "#2c6db5", "#b5852c", "#a23a6e"];
+  const isleColor = new Map(zones.filter((z) => !z.wip).map((z, i) => [z.id, z.tlColor || ISLE_COLORS[i % ISLE_COLORS.length]]));
+  const monthOf = (d) => {
+    const m = String(d || "").match(/(\d{4})(?:-(\d{1,2}))?/);
+    return m ? +m[1] * 12 + (m[2] ? +m[2] - 1 : 0) : null;
+  };
+  const tlEvents = zones
+    .flatMap((z) => z.spots.map((sp) => ({ sp, z, m: monthOf(sp.sort || sp.date) })))
+    .filter((e) => e.m !== null)
+    .sort((a, b) => a.m - b.m);
+  const tlStart = tlEvents.length ? tlEvents[0].m : 0,
+    tlEnd = tlEvents.length ? tlEvents.at(-1).m : 0,
+    tlSpan = Math.max(1, tlEnd - tlStart);
+  const ym = (m) => `${Math.floor(m / 12)}-${String((m % 12) + 1).padStart(2, "0")}`;
+  const tlVisible = (e) => !state.isle || e.z.id === state.isle;
+  const tlIn = (e) => (state.tl === null ? true : state.tlCum ? e.m <= tlStart + state.tl : e.m === tlStart + state.tl);
+  function tlZones() {
+    return new Set(tlEvents.filter((e) => tlIn(e) && tlVisible(e)).map((e) => e.z.id));
+  }
+  {
+    const stack = new Map();
+    $("#tl-dots").innerHTML = tlEvents
+      .map((e) => {
+        const n = stack.get(e.m) || 0;
+        stack.set(e.m, n + 1);
+        return `<i data-m="${e.m}" data-z="${e.z.id}" style="left:${((e.m - tlStart) / tlSpan) * 100}%;bottom:${n * 5}px;--c:${isleColor.get(e.z.id) || "#888"}"></i>`;
+      })
+      .join("");
+    const years = [];
+    for (let y = Math.floor(tlStart / 12); y <= Math.floor(tlEnd / 12); y++) years.push(y);
+    $("#tl-ticks").innerHTML = years.map((y) => `<span style="left:${(Math.max(0, y * 12 - tlStart) / tlSpan) * 100}%">${y}</span>`).join("");
+    $("#tl").max = tlSpan;
+    $("#tl").value = tlSpan;
+  }
+  function renderTimeline() {
+    const shown = tlEvents.filter((e) => tlIn(e) && tlVisible(e));
+    $("#tl-month").textContent = state.tl === null ? "全部" : ym(tlStart + state.tl);
+    $("#tl-all").setAttribute("aria-pressed", state.tl === null);
+    $("#tl-cum").setAttribute("aria-pressed", state.tlCum);
+    $$("#tl-dots i").forEach((d) => {
+      const e = { m: +d.dataset.m, z: { id: d.dataset.z } };
+      d.classList.toggle("on", tlIn(e) && tlVisible(e));
+    });
+    const list = state.tl === null || state.tlCum ? shown.slice(-6).reverse() : shown;
+    const head = state.tl === null ? `全部 ${shown.length} 件` : state.tlCum ? `到 ${ym(tlStart + state.tl)} 累計 ${shown.length} 件` : `${ym(tlStart + state.tl)} 共 ${shown.length} 件`;
+    $("#tl-list").innerHTML =
+      `<p class="tl-head">${head}${(state.tl === null || state.tlCum) && shown.length > 6 ? "（列出最近 6 件）" : ""}</p>` +
+      (list.length
+        ? `<ul>${list.map((e) => `<li><button data-spot="${e.sp.id}"><b style="--c:${isleColor.get(e.z.id) || "#888"}">${esc(e.sp.date)}</b><span>${esc(e.sp.name)}</span></button></li>`).join("")}</ul>`
+        : `<p class="tl-empty">這個月沒有收錄的事件。</p>`);
+  }
+  const setTl = (v) => {
+    state.tl = v;
+    applyFilters();
+  };
+  $("#tl").addEventListener("input", (e) => setTl(+e.target.value));
+  $("#tl-all").addEventListener("click", () => {
+    stopTl();
+    $("#tl").value = tlSpan;
+    setTl(null);
   });
-  $("#day-play").addEventListener("click", () => {
-    state.playing = !state.playing;
-    $("#day-play").textContent = state.playing ? "❚❚" : "▶";
-    $("#day-play").setAttribute("aria-label", state.playing ? "暫停" : "播放一夜");
+  $("#tl-cum").addEventListener("click", () => {
+    state.tlCum = !state.tlCum;
+    applyFilters();
+  });
+  let tlTimer = null;
+  function stopTl() {
+    clearInterval(tlTimer);
+    tlTimer = null;
+    $("#tl-play").textContent = "▶";
+    $("#tl-play").setAttribute("aria-label", "播放時間軸");
+  }
+  $("#tl-play").addEventListener("click", () => {
+    if (tlTimer) return stopTl();
+    if (state.tl === null || state.tl >= tlSpan) setTl(0);
+    $("#tl").value = state.tl;
+    $("#tl-play").textContent = "❚❚";
+    $("#tl-play").setAttribute("aria-label", "暫停");
+    tlTimer = setInterval(() => {
+      if (state.tl >= tlSpan) return stopTl();
+      setTl(state.tl + 1);
+      $("#tl").value = state.tl;
+    }, reduced.matches ? 1200 : 450);
   });
   $$(".seg [data-time]").forEach((b) => b.addEventListener("click", () => tweenTime(+b.dataset.time)));
-  $("#era-buttons").innerHTML =
-    `<button data-era="" aria-pressed="true">全部</button>` + D.eras.map((e) => `<button data-era="${e.id}" aria-pressed="false">${esc(e.label)}</button>`).join("");
-  $("#era-buttons").addEventListener("click", (e) => {
+  $("#isle-buttons").innerHTML =
+    `<button data-isle="" aria-pressed="true">全部</button>` +
+    zones
+      .filter((z) => !z.wip)
+      .map((z) => `<button data-isle="${z.id}" aria-pressed="false" style="--c:${isleColor.get(z.id)}">${pad(z.number)} ${esc(z.name)}</button>`)
+      .join("");
+  $("#isle-buttons").addEventListener("click", (e) => {
     const b = e.target.closest("button");
     if (!b) return;
-    state.era = b.dataset.era || null;
+    state.isle = b.dataset.isle || null;
     applyFilters();
     renderTree();
   });
@@ -1022,7 +1098,7 @@ try {
       timeTween.t = Math.min(1, timeTween.t + wall / 1.4);
       setTime(timeTween.from + (timeTween.to - timeTween.from) * ease(timeTween.t));
       if (timeTween.t >= 1) timeTween = null;
-    } else if (state.playing) setTime(state.minute + dt * 30);
+    }
     if (fly) {
       fly.t = Math.min(1, fly.t + wall / fly.dur);
       const k = ease(fly.t);
