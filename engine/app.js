@@ -2,7 +2,7 @@ import { TOP, WILD_TOP, layoutZones, buildCity, createHeightAt } from "./world.j
 import { createEnvironment, mulberry } from "./environment.js?v=2";
 import { createKit, MODELS, wildForest } from "./models.js?v=19";
 import { createPeople, flowCurve } from "./people.js?v=2";
-import { createLumama } from "./lumama.js?v=5";
+import { createLumama } from "./lumama.js?v=7";
 import { icon, skulls } from "./icons.js?v=1";
 
 const $ = (s) => document.querySelector(s),
@@ -940,6 +940,7 @@ try {
     if (!down || Math.hypot(e.clientX - down.x, e.clientY - down.y) > 6) return;
     down = null;
     const id = pick(e);
+    if (ray.intersectObject(lumama.hit, false).length) return lumama.celebrate();
     if (state.tour) return;
     if (id) selectZone(id);
     else if (state.sel) setSel(null, { fly: false });

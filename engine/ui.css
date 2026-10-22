@@ -381,5 +381,6 @@ body.touring .controls, body.touring .dock, body.touring .card, body.touring .ma
 .heart-buttons .civic-btn { flex-basis: 100%; }
 
 /* Lumama's name tag floats above her head */
-.lumama-tag { font: 900 14px/1 "Helvetica Neue", Arial, sans-serif; color: #fff; letter-spacing: 0.02em; text-shadow: 0 0 3px #000, 0 0 3px #000, 0 2px 4px #000; pointer-events: none; white-space: nowrap; }
+.lumama-tag { font: 900 14px/1 "Helvetica Neue", Arial, sans-serif; color: #fff; letter-spacing: 0.02em; text-shadow: 0 0 3px #000, 0 0 3px #000, 0 2px 4px #000; pointer-events: auto; cursor: pointer; white-space: nowrap; }
 .mascot .face.sad { background: none; width: 30px; height: 30px; }
+.lumama-pop { display: inline-block; font: 900 18px/1 "Helvetica Neue", Arial, sans-serif; color: #ffd23f; text-shadow: 0 0 4px #000, 0 0 4px #000, 0 2px 6px #000; white-space: nowrap; pointer-events: none; }

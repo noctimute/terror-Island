@@ -111,6 +111,39 @@ export function createLumama(THREE, { scene, centers, CSS2DObject, rng }) {
   tag.position.set(0, 1.42, 0);
   g.add(tag);
   scene.add(g);
+  el.addEventListener("click", (e) => {
+    e.stopPropagation();
+    celebrate();
+  });
+
+  // invisible hit box for clicks, and a gold-coin burst with a floating "民調第一名 +1"
+  const hit = new THREE.Mesh(new THREE.BoxGeometry(0.7, 1.4, 0.6), new THREE.MeshBasicMaterial());
+  hit.position.y = 0.7;
+  hit.visible = false;
+  g.add(hit);
+  const coinGeo = new THREE.CylinderGeometry(0.09, 0.09, 0.025, 16);
+  const coinMat = new THREE.MeshBasicMaterial({ color: 0xffc93a, toneMapped: false });
+  const coins = [];
+  const pops = [];
+  function celebrate(onClick) {
+    for (let i = 0; i < 14; i++) {
+      const c = new THREE.Mesh(coinGeo, coinMat);
+      c.position.set(g.position.x, 1.9 * g.scale.y, g.position.z);
+      const a = rng() * Math.PI * 2,
+        sp = 0.8 + rng() * 1.2;
+      c.userData = { vx: Math.cos(a) * sp, vy: 2.8 + rng() * 1.8, vz: Math.sin(a) * sp, life: 1.6, spin: 6 + rng() * 8 };
+      scene.add(c);
+      coins.push(c);
+    }
+    // CSS2DRenderer owns the wrapper's transform, so the float-up runs on an inner span, driven from update()
+    const t = document.createElement("div");
+    t.innerHTML = '<span class="lumama-pop">民調第一名 +1</span>';
+    const pop = new CSS2DObject(t);
+    pop.position.set(0, 1.85, 0);
+    g.add(pop);
+    pops.push({ obj: pop, span: t.firstChild, age: 0 });
+    onClick?.();
+  }
 
   // ---- wandering ----
   const list = [...nodes.values()];
@@ -128,6 +161,33 @@ export function createLumama(THREE, { scene, centers, CSS2DObject, rng }) {
     k = 0;
   }
   function update(t, dt) {
+    for (let i = pops.length - 1; i >= 0; i--) {
+      const q = pops[i];
+      q.age += Math.max(dt, 1 / 60);
+      const k = q.age / 1.6;
+      const sc = k < 0.15 ? 0.6 + (k / 0.15) * 0.55 : 1.15 - Math.min(1, (k - 0.15) / 0.2) * 0.15;
+      q.span.style.transform = `translateY(${-k * 46}px) scale(${sc})`;
+      q.span.style.opacity = k < 0.7 ? 1 : Math.max(0, 1 - (k - 0.7) / 0.3);
+      if (k >= 1) {
+        g.remove(q.obj);
+        q.obj.element.remove();
+        pops.splice(i, 1);
+      }
+    }
+    for (let i = coins.length - 1; i >= 0; i--) {
+      const c = coins[i],
+        u = c.userData;
+      u.vy -= 9 * dt;
+      c.position.x += u.vx * dt;
+      c.position.y = Math.max(0.03, c.position.y + u.vy * dt);
+      c.position.z += u.vz * dt;
+      c.rotation.x += u.spin * dt;
+      u.life -= dt;
+      if (u.life <= 0) {
+        scene.remove(c);
+        coins.splice(i, 1);
+      }
+    }
     const len = Math.hypot(to.x - from.x, to.z - from.z) || 1;
     k += (dt * SPEED) / len;
     if (k >= 1) pick();
@@ -149,5 +209,5 @@ export function createLumama(THREE, { scene, centers, CSS2DObject, rng }) {
     head.rotation.z = Math.sin(t * 3.5) * 0.08;
     glow.intensity = 0.9 + Math.sin(t * 2) * 0.3;
   }
-  return { group: g, update };
+  return { group: g, hit, update, celebrate };
 }
