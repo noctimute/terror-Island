@@ -653,7 +653,7 @@ try {
           const zHit = !q || [z.name, z.district, z.summary, z.civic?.title, z.civic && "市政議題"].some((t) => norm(t).includes(q));
           const spots = z.spots.filter((s) => !q || zHit || [s.name, s.plain, ...s.facts].some((t) => norm(t).includes(q)));
           if (!zHit && !spots.length) return "";
-          const open = state.sel?.zone === z.id || (q && spots.length);
+          const open = (state.sel?.zone === z.id && state.treeFolded !== z.id) || (q && spots.length);
           const off = activeSet() && !zoneMatches(z);
           return `<div class="row${open ? " open" : ""}${off ? " off" : ""}${state.sel?.zone === z.id ? " sel" : ""}">
             <button class="zrow" data-zone="${z.id}" aria-expanded="${!!open}"><em>${pad(z.number)}</em><span><b>${esc(z.name)}${z.civic ? `<mark class="tag">市政議題</mark>` : ""}${z.news ? `<mark class="tag news-tag">真實新聞</mark>` : ""}${z.wip ? `<mark class="tag wip-tag">施工中</mark>` : ""}</b>${z.district ? `<small>${esc(z.district)}</small>` : ""}</span><i>${z.spots.length} ↗</i></button>
@@ -672,7 +672,16 @@ try {
       tree.innerHTML = rows || `<p class="empty">找不到「${esc(state.search)}」相關的連線。</p>`;
     }
   }
-  $("#tree").addEventListener("click", onNavClick);
+  // clicking an island row that is already expanded folds its event list back up
+  $("#tree").addEventListener("click", (e) => {
+    const row = e.target.closest(".zrow");
+    if (row && row.getAttribute("aria-expanded") === "true") {
+      state.treeFolded = row.dataset.zone;
+      return renderTree();
+    }
+    state.treeFolded = null;
+    onNavClick(e);
+  });
   $("#search").addEventListener("input", (e) => {
     state.search = e.target.value;
     renderTree();
