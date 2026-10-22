@@ -541,7 +541,38 @@ try {
   }
   cardContent.addEventListener("click", onNavClick);
   $("#card-close").addEventListener("click", () => setSel(null));
-  $("#card-handle").addEventListener("click", () => card.classList.toggle("full"));
+  // phone sheet: drag the handle up to full screen, down to half height or off to close; a tap toggles
+  {
+    const h = $("#card-handle");
+    let drag = null;
+    h.addEventListener("pointerdown", (e) => {
+      drag = { y: e.clientY, h0: card.offsetHeight, moved: false };
+      h.setPointerCapture(e.pointerId);
+      card.classList.add("dragging");
+    });
+    h.addEventListener("pointermove", (e) => {
+      if (!drag) return;
+      const dy = e.clientY - drag.y;
+      if (Math.abs(dy) > 6) drag.moved = true;
+      if (drag.moved) card.style.height = `${Math.min(innerHeight, Math.max(60, drag.h0 - dy))}px`;
+    });
+    const end = () => {
+      if (!drag) return;
+      const moved = drag.moved,
+        ht = card.offsetHeight;
+      drag = null;
+      card.classList.remove("dragging");
+      card.style.height = "";
+      if (!moved) return card.classList.toggle("full");
+      if (ht < innerHeight * 0.25) {
+        card.classList.remove("full");
+        return setSel(null);
+      }
+      card.classList.toggle("full", ht > innerHeight * 0.6);
+    };
+    h.addEventListener("pointerup", end);
+    h.addEventListener("pointercancel", end);
+  }
   $("#day-note").addEventListener("click", onNavClick);
 
   // ---------- sidebar ----------
