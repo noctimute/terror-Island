@@ -37,6 +37,20 @@
    ]
   },
   {
+   "id": "n-dji",
+   "title": "消防局救災被拍到用中國製無人機 盧秀燕要求嚴查",
+   "date": "2025-11-14",
+   "place": "龍井",
+   "summary": "龍井一場工廠火警中，台中市消防局被拍到使用中國大疆無人機，議員質疑違反規定；盧秀燕要求嚴查，消防局說已封存所有中國製無人機。",
+   "sources": [
+    {
+     "title": "台中市消防局用中國製無人機 盧秀燕要求嚴查",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/aloc/202511140276.aspx"
+    }
+   ]
+  },
+  {
    "id": "n-vest",
    "title": "清潔隊裝備標台灣製 包裝印簡體字",
    "date": "2025-04",
@@ -97,6 +111,54 @@
      "title": "天下雜誌報導",
      "outlet": "天下雜誌",
      "url": "https://www.cw.com.tw/article/5136313"
+    }
+   ]
+  },
+  {
+   "id": "n-bus324",
+   "title": "324路公車行駛中起火燒成骨架 議員指是中國福田製柴油車",
+   "date": "2024-07-30",
+   "place": "西屯",
+   "summary": "台中客運 324 路公車在西屯都會公園附近起火、燒到只剩骨架，司機及時疏散 5 名乘客；議員指這款低地板車是中國福田汽車生產的柴油車、不是電動車，交通局要求同款 55 輛一個月內完成安檢。",
+   "sources": [
+    {
+     "title": "快訊／台中公車噴火！開到都會公園剩鐵架 司機+5乘客急逃命",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240730/2787590.htm"
+    },
+    {
+     "title": "林秉宥揭台中火燒公車中國製非電車 同款車雙北滿街跑",
+     "outlet": "Newtalk 新聞",
+     "url": "https://newtalk.tw/news/view/2024-07-31/930285"
+    },
+    {
+     "title": "中市324路公車起火、同款尚有55輛 業者1個月內須完成安檢",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/breakingnews/4755196"
+    }
+   ]
+  },
+  {
+   "id": "n-autel",
+   "title": "交通局無人機竟是中國品牌 先停用查產地",
+   "date": "2024-05-07",
+   "place": "台中",
+   "summary": "議員質詢指交通局 3 台無人機品牌是 Autel Robotics，母公司是深圳道通智能；交通局說依中央共同供應契約採購，已先停用並確認產地，若有中資背景就更換。",
+   "sources": [
+    {
+     "title": "議員質疑中市府使用中國品牌無人機 籲儘速更換 (圖)",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E8%AD%B0%E5%93%A1%E8%B3%AA%E7%96%91%E4%B8%AD%E5%B8%82%E5%BA%9C%E4%BD%BF%E7%94%A8%E4%B8%AD%E5%9C%8B%E5%93%81%E7%89%8C%E7%84%A1%E4%BA%BA%E6%A9%9F-%E7%B1%B2%E5%84%98%E9%80%9F%E6%9B%B4%E6%8F%9B-%E5%9C%96-104826002.html"
+    },
+    {
+     "title": "疑採購中國品牌無人機 中市府確認出產來源先停用",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E7%96%91%E6%8E%A1%E8%B3%BC%E4%B8%AD%E5%9C%8B%E5%93%81%E7%89%8C%E7%84%A1%E4%BA%BA%E6%A9%9F-%E4%B8%AD%E5%B8%82%E5%BA%9C%E7%A2%BA%E8%AA%8D%E5%87%BA%E7%94%A2%E4%BE%86%E6%BA%90%E5%85%88%E5%81%9C%E7%94%A8-103453601.html"
+    },
+    {
+     "title": "中市府無人機美國品牌深圳製造？交通局要查",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E4%B8%AD%E5%B8%82%E5%BA%9C%E7%84%A1%E4%BA%BA%E6%A9%9F%E7%BE%8E%E5%9C%8B%E5%93%81%E7%89%8C%E6%B7%B1%E5%9C%B3%E8%A3%BD%E9%80%A0-%E4%BA%A4%E9%80%9A%E5%B1%80%E8%A6%81%E6%9F%A5-095926668.html"
     }
    ]
   },
@@ -249,6 +311,44 @@
      "title": "連續出現中國偷渡客台灣應強化海巡能力 - 今周刊",
      "outlet": "今周刊",
      "url": "https://www.businesstoday.com.tw/article/category/183027/post/202106210015/"
+    }
+   ]
+  },
+  {
+   "id": "n-brt",
+   "title": "BRT雙節公車中國母公司停產 恐成維修孤兒",
+   "date": "2020-05-29",
+   "place": "台中",
+   "summary": "台中當年為 BRT 引進的 64 輛宇通雙節公車，議員指中國母公司鄭州宇通已停產這款車型，擔心零件與維修沒有著落；交通局說零件已備料，營運不受影響。",
+   "sources": [
+    {
+     "title": "台中雙節公車中國母公司爆停產 後續維修招租恐淪「殺肉件」 - 政治",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/politics/breakingnews/3181317"
+    },
+    {
+     "title": "原廠傳停產 台中雙節公車恐成維修孤兒",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/480925"
+    }
+   ]
+  },
+  {
+   "id": "n-underpass",
+   "title": "台灣大道地下道裝海康威視監視器 8座128支",
+   "date": "2019-07-18",
+   "place": "台中",
+   "summary": "議員發現台灣大道沿線地下道裝的是中國海康威視監視器；養工處清查有 8 座地下道、共 128 支，承諾請廠商更換，後來說已全數汰換為台製設備。",
+   "sources": [
+    {
+     "title": "海康威視監視器現蹤台中地下道 議員籲盧秀燕盡速汰換 | 政治",
+     "outlet": "Newtalk 新聞",
+     "url": "https://newtalk.tw/news/view/2019-07-18/274217"
+    },
+    {
+     "title": "台中地下道裝中國製監視器引資安疑慮",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/438508"
     }
    ]
   },

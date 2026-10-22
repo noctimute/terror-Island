@@ -1135,6 +1135,62 @@ export const MODELS = {
     return { mist: 2, mistY: 0.25 };
   },
 
+  // 標案島：city hall on one side, a TV station on the other, a conveyor of gold coins running between them, cash bags piling up at the studio
+  bidisle(p, rng) {
+    // city hall: white block, columns, flag
+    const ch = p.sub(-0.95, 0, -0.35);
+    ch.box(0, 0.4, 0, 0.8, 0.8, 0.6, 0xe8e4da);
+    ch.box(0, 0.84, 0, 0.88, 0.08, 0.68, 0xc9c3b4);
+    for (let i = 0; i < 4; i++) ch.cyl(-0.27 + i * 0.18, 0.32, 0.32, 0.06, 0.64, 0.06, C.white);
+    ch.gable(0, 0.88, 0.1, 0.9, 0.22, 0.5, 0xc9c3b4);
+    ch.cyl(0.3, 1.15, -0.1, 0.02, 0.6, 0.02, C.metal);
+    ch.box(0.4, 1.35, -0.1, 0.2, 0.13, 0.01, 0x2c6db5);
+    // TV station: dark block, glowing screen, satellite dish, red-lit mast
+    const tv = p.sub(0.9, 0, -0.35);
+    tv.box(0, 0.45, 0, 0.75, 0.9, 0.65, 0x2a2c38);
+    tv.box(0, 0.55, 0.33, 0.5, 0.32, 0.02, 0x7fd3ff, { glow: true });
+    tv.box(0, 0.15, 0.33, 0.2, 0.3, 0.02, C.black);
+    tv.sphere(-0.2, 1.02, 0, 0.36, 0.14, 0.36, 0xdfe3e8, { rx: 0.6 });
+    tv.cyl(-0.2, 0.95, 0, 0.03, 0.12, 0.03, C.metal);
+    tv.cyl(0.22, 1.25, -0.15, 0.03, 0.7, 0.03, C.metal);
+    const beacon = p.dyn(1.12, 1.62, -0.5);
+    const bm = beacon.sphere(0, 0, 0, 0.06, 0.06, 0.06, C.blood, { glow: true, own: true });
+    // conveyor belt with coins sliding from the hall to the station
+    p.box(0, 0.2, 0.15, 1.3, 0.05, 0.22, 0x3a3a40);
+    for (const x of [-0.6, -0.2, 0.2, 0.6]) p.box(x, 0.1, 0.15, 0.05, 0.2, 0.18, C.metal);
+    const coins = [];
+    for (let i = 0; i < 8; i++) {
+      const c = p.dyn(0, 0.26, 0.15);
+      c.cyl(0, 0, 0, 0.12, 0.03, 0.12, 0xffc93a, { glow: true });
+      coins.push({ n: c.node, k: i / 8 });
+    }
+    // cash bags and stacked bills at the station door, a big red envelope
+    for (let i = 0; i < 5; i++) {
+      const b = p.sub(0.7 + (i % 3) * 0.22, 0, 0.35 + Math.floor(i / 3) * 0.25);
+      b.sphere(0, 0.13, 0, 0.24, 0.26, 0.24, 0xd8c08a);
+      b.cone(0, 0.3, 0, 0.1, 0.08, 0.1, 0xd8c08a);
+      b.box(0, 0.14, 0.12, 0.08, 0.08, 0.01, 0x3f8f4a);
+    }
+    for (let i = 0; i < 4; i++) p.box(0.3 + i * 0.03, 0.03 + i * 0.05, 0.75, 0.24, 0.05, 0.12, 0x3f8f4a, { ry: i * 0.2 });
+    const env = p.sub(-0.75, 0, 0.6, 0.3);
+    env.box(0, 0.22, 0, 0.5, 0.36, 0.04, 0xc8102e);
+    env.box(0, 0.32, 0.021, 0.14, 0.14, 0.01, 0xffd23f);
+    // a TV camera on a tripod pointing at the hall
+    const cam = p.sub(-0.15, 0, 0.75, -0.6);
+    for (const r of [0, 2.1, 4.2]) cam.cyl(Math.cos(r) * 0.08, 0.18, Math.sin(r) * 0.08, 0.02, 0.38, 0.02, C.black, { rz: Math.cos(r) * 0.3, rx: Math.sin(r) * 0.3 });
+    cam.box(0, 0.42, 0, 0.12, 0.12, 0.26, 0x2a2c38);
+    cam.cyl(0, 0.42, 0.16, 0.06, 0.08, 0.06, C.black, { rx: Math.PI / 2 });
+    p.anim((t) => {
+      coins.forEach((c) => {
+        const k = (t * 0.18 + c.k) % 1;
+        c.n.position.set(-0.6 + k * 1.2, 0.26, 0.15);
+        c.n.rotation.y = t * 3;
+      });
+      bm.material.userData.flick = Math.sin(t * 4) > 0 ? 1 : 0.15;
+    });
+    return { mist: 2, mistY: 0.25 };
+  },
+
   // 髒川島：a stone-banked canal of murky water with floating trash bags, bottles and belly-up fish, a little arched bridge, an overflowing bin
   riverisle(p, rng) {
     p.box(0, 0.03, 0.15, 3.0, 0.04, 0.9, 0x4f4a26);

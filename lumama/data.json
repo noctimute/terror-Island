@@ -73,6 +73,12 @@
    "name": "環境髒亂",
    "en": "Pollution",
    "color": "#6B8E23"
+  },
+  {
+   "id": "M",
+   "name": "媒體標案",
+   "en": "Media contracts",
+   "color": "#C9A227"
   }
  ],
  "eras": [
@@ -635,19 +641,27 @@
   {
    "id": "lishan",
    "number": 14,
-   "name": "施工中",
-   "model": "construction",
+   "name": "標案島",
+   "model": "bidisle",
    "cell": [
     4,
     1
    ],
-   "ground": "#9A958C",
-   "side": "#5E5A52",
-   "fear": [],
-   "danger": 0,
-   "summary": "這一格還在施工中，新的內容整理好就會開放。",
+   "ground": "#A89A78",
+   "side": "#5E5440",
+   "fear": [
+    "M"
+   ],
+   "danger": 2,
+   "summary": "市府的錢流向哪家媒體？這一格整理政府電子採購網的公開決標資料，看台中市各機關這幾年把多少標案給了哪些電視台與報社。",
    "spots": [],
-   "wip": true
+   "recordsSrc": "bid.json",
+   "news": {
+    "title": "本島取材自政府公開資料",
+    "body": "以下金額都來自政府電子採購網的決標公告，可以點連結查看每一案；統計只呈現公開紀錄，不代表有違法情事。島上的 3D 場景是示意插畫。"
+   },
+   "tlColor": "#C9A227",
+   "tag": "媒體標案"
   },
   {
    "id": "guguan",
