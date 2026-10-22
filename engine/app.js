@@ -943,7 +943,9 @@ try {
     pointer = null;
     setHover(null);
   });
-  renderer.domElement.addEventListener("pointerup", (e) => {
+  // act on "click", not "pointerup": a phone fires its click after the finger lifts, and if the island card
+  // has just opened under the finger that click would land on one of its events and open it
+  renderer.domElement.addEventListener("click", (e) => {
     if (!down || Math.hypot(e.clientX - down.x, e.clientY - down.y) > 6) return;
     down = null;
     const id = pick(e);
