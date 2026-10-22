@@ -401,7 +401,7 @@
    "spots": [
     {
      "id": "xitun-fall",
-     "name": "勤美誠品墜樓事件",
+     "name": "勤美誠品一個半月內 3人墜樓身亡",
      "era": "now",
      "fear": [
       "D"
@@ -435,7 +435,7 @@
     },
     {
      "id": "xitun-abuse",
-     "name": "討薪員工遭凌虐致死案",
+     "name": "討薪員工遭凌虐致死 二審判12年、11年",
      "era": "now",
      "fear": [
       "D"
@@ -491,7 +491,7 @@
    "spots": [
     {
      "id": "beitun-blast",
-     "name": "新光三越中港店氣爆",
+     "name": "台中新光三越氣爆 5死38傷",
      "era": "now",
      "fear": [
       "D"
@@ -535,7 +535,7 @@
     },
     {
      "id": "beitun-fire",
-     "name": "全聯大肚倉儲大火",
+     "name": "台中全聯大肚倉儲大火 9死8傷",
      "era": "now",
      "fear": [
       "D"
