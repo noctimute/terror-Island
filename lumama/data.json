@@ -79,6 +79,18 @@
    "name": "媒體標案",
    "en": "Media contracts",
    "color": "#C9A227"
+  },
+  {
+   "id": "Z",
+   "name": "詐騙洗錢",
+   "en": "Fraud & laundering",
+   "color": "#5B4B8A"
+  },
+  {
+   "id": "X",
+   "name": "毒駕毒品",
+   "en": "Drugs",
+   "color": "#2E8B57"
   }
  ],
  "eras": [
@@ -666,36 +678,52 @@
   {
    "id": "guguan",
    "number": 15,
-   "name": "施工中",
-   "model": "construction",
+   "name": "詐騙島",
+   "model": "scamisle",
    "cell": [
     4,
     2
    ],
-   "ground": "#9A958C",
-   "side": "#5E5A52",
-   "fear": [],
-   "danger": 0,
-   "summary": "這一格還在施工中，新的內容整理好就會開放。",
+   "ground": "#8E8A9E",
+   "side": "#4A465A",
+   "fear": [
+    "Z"
+   ],
+   "danger": 3,
+   "summary": "豪宅機房、水房、博弈金流——這一格收錄在台中被破獲的詐騙集團與洗錢案新聞。",
    "spots": [],
-   "wip": true
+   "recordsSrc": "scam.json",
+   "news": {
+    "title": "本島取材自真實新聞",
+    "body": "以下事件都有新聞報導可查，文字只摘要報導內容、拿掉姓名等個人資訊；多數案件仍在偵查或審理中，以法院判決為準。島上的 3D 場景是示意插畫。"
+   },
+   "tlColor": "#5B4B8A",
+   "tag": "詐騙・洗錢"
   },
   {
    "id": "taiping",
    "number": 16,
-   "name": "施工中",
-   "model": "construction",
+   "name": "毒駕島",
+   "model": "drugisle",
    "cell": [
     2,
     3
    ],
-   "ground": "#9A958C",
-   "side": "#5E5A52",
-   "fear": [],
-   "danger": 0,
-   "summary": "這一格還在施工中，新的內容整理好就會開放。",
+   "ground": "#8A9A84",
+   "side": "#46523F",
+   "fear": [
+    "X"
+   ],
+   "danger": 4,
+   "summary": "毒駕撞人、喪屍煙彈、販毒集團——這一格收錄台中的毒駕與毒品新聞。",
    "spots": [],
-   "wip": true
+   "recordsSrc": "drug.json",
+   "news": {
+    "title": "本島取材自真實新聞",
+    "body": "以下事件都有新聞報導可查，文字只摘要報導內容、拿掉姓名等個人資訊；多數案件仍在偵查或審理中，以法院判決為準。島上的 3D 場景是示意插畫。"
+   },
+   "tlColor": "#2E8B57",
+   "tag": "毒駕・毒品"
   }
  ],
  "wilds": [

@@ -5,6 +5,44 @@
  "updated": "2026-10-22",
  "records": [
   {
+   "id": "k-officer-verdict",
+   "title": "【警察】刑事小隊長供毒給女線民、毒駕上班 台中地院判刑免職",
+   "date": "2026-10-13",
+   "place": "台中",
+   "summary": "第二分局一名偵查隊小隊長在汽車旅館無償提供安非他命給辦案認識的女線民，自己吸毒後還騎車到分局上班；台中地院依轉讓禁藥罪、毒駕罪各判 6 月，警局記兩大過免職，全案可上訴。",
+   "sources": [
+    {
+     "title": "警供毒品給線民、毒駕上班 遭台中地院判刑免職",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/831565"
+    },
+    {
+     "title": "離譜！台中偵查隊小隊長轉讓毒品給女線民「助興」 被免職、判刑 - 臺中市",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/Taichung/breakingnews/5604871"
+    },
+    {
+     "title": "獨／離譜！台中刑事小隊長毒駕 找女線民開房「吸毒」助興下場曝",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7315/9811655"
+    },
+    {
+     "title": "知法犯法！台中刑事小隊長「無償供毒」還毒駕 遭免職、判刑",
+     "outlet": "台視新聞",
+     "url": "https://news.ttv.com.tw/news/11510130003100W"
+    },
+    {
+     "title": "太誇張！台中刑事小隊長約女線民開房「供毒品助興」 毒駕上班下場曝光",
+     "outlet": "FTNN 新聞網",
+     "url": "https://www.ftnn.com.tw/news/586992"
+    }
+   ],
+   "fear": [
+    "K",
+    "X"
+   ]
+  },
+  {
    "id": "k-tax",
    "title": "中區國稅局稽核收賄 查扣現金1280萬、5塊黃金",
    "date": "2026-09",
@@ -54,28 +92,6 @@
    ]
   },
   {
-   "id": "k-shopee",
-   "title": "蝦皮賣場當水房 洗錢17億 19人起訴",
-   "date": "2026-06",
-   "place": "台中",
-   "summary": "集團設在台中、利用蝦皮賣場當水房洗錢約 17 億元，運作約 3 年，由南投警方偵破，19 人被起訴。",
-   "fear": [
-    "K"
-   ],
-   "sources": [
-    {
-     "title": "台中資訊公司掩護洗錢 刑事局：台泰合作破獲",
-     "outlet": "聯合新聞網",
-     "url": "https://udn.com/news/story/124490/9632269"
-    },
-    {
-     "title": "一文看懂「出租蝦皮帳戶」淪洗錢的犯罪模式 - INSIDE",
-     "outlet": "INSIDE",
-     "url": "https://www.inside.com.tw/article/38786-understanding-how-shopee-account-rental-becomes-money-laundering-crime-pattern"
-    }
-   ]
-  },
-  {
    "id": "k-tickets",
    "title": "【警察】12名警員開假罰單 圖利約4400萬",
    "date": "2025-12",
@@ -94,23 +110,6 @@
      "title": "台中12警開假罰單 涉圖利4400萬被起訴",
      "outlet": "公視新聞網",
      "url": "https://news.pts.org.tw/article/784023"
-    }
-   ]
-  },
-  {
-   "id": "k-scam",
-   "title": "七期商辦藏詐團話務機房 4人起訴",
-   "date": "2025-09-25",
-   "place": "西屯",
-   "summary": "2025 年 9 月 25 日檢警搜索七期一處商辦裡的詐騙集團話務機房，4 人被起訴。",
-   "fear": [
-    "K"
-   ],
-   "sources": [
-    {
-     "title": "設新型態話務機房助詐團規避防詐 4嫌遭中檢起訴",
-     "outlet": "聯合新聞網",
-     "url": "https://udn.com/news/story/124490/9282249"
     }
    ]
   },

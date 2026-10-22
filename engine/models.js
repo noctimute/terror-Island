@@ -1191,6 +1191,105 @@ export const MODELS = {
     return { mist: 2, mistY: 0.25 };
   },
 
+  // 詐騙島：a glass office tower full of glowing call-centre screens, a "水房" washing machine spinning banknotes, a police van with flashing lights
+  scamisle(p, rng) {
+    const tw = p.sub(-0.55, 0, -0.45);
+    tw.box(0, 0.95, 0, 0.9, 1.9, 0.7, 0x3d4658);
+    for (let f = 0; f < 6; f++) for (let c = 0; c < 4; c++) tw.box(-0.33 + c * 0.22, 0.25 + f * 0.28, 0.355, 0.16, 0.14, 0.01, rng() < 0.7 ? 0x7fd3ff : 0x2a3440, { glow: true });
+    tw.box(0, 1.93, 0, 0.94, 0.06, 0.74, 0xd9a520);
+    // desks with phones and monitors out front
+    for (let i = 0; i < 3; i++) {
+      const d = p.sub(-0.95 + i * 0.4, 0, 0.25);
+      d.box(0, 0.14, 0, 0.3, 0.04, 0.2, C.wood);
+      d.box(0, 0.07, 0, 0.26, 0.14, 0.02, C.dwood);
+      d.box(0, 0.24, -0.05, 0.16, 0.12, 0.02, 0x7fd3ff, { glow: true });
+      d.box(0.09, 0.18, 0.04, 0.07, 0.03, 0.04, C.black);
+    }
+    // washing machine laundering cash
+    const wm = p.sub(0.75, 0, -0.35);
+    wm.box(0, 0.3, 0, 0.55, 0.6, 0.5, C.white);
+    wm.box(0, 0.56, 0.1, 0.5, 0.06, 0.3, 0xdfe3e8);
+    wm.cyl(0, 0.28, 0.255, 0.36, 0.02, 0.36, 0x2a3440, { rx: Math.PI / 2 });
+    wm.box(0.18, 0.55, 0.255, 0.08, 0.04, 0.01, 0x5eff8a, { glow: true });
+    const drum = p.dyn(0.75, 0.28, -0.08);
+    for (let i = 0; i < 5; i++) {
+      const a = (i / 5) * Math.PI * 2;
+      drum.box(Math.cos(a) * 0.1, Math.sin(a) * 0.1, 0, 0.1, 0.05, 0.01, 0x3f8f4a, { rz: a });
+    }
+    for (let i = 0; i < 6; i++) p.box(0.5 + rng() * 0.6, 0.02, 0.05 + rng() * 0.3, 0.12, 0.02, 0.06, 0x3f8f4a, { ry: rng() * 3 });
+    // police van with a light bar
+    const van = p.sub(0.6, 0, 0.75, 0.2);
+    van.rbox(0, 0.2, 0, 0.75, 0.3, 0.36, C.white);
+    van.box(0, 0.2, 0.182, 0.74, 0.07, 0.01, 0x1f4f9a);
+    van.box(0.2, 0.28, 0.182, 0.25, 0.1, 0.01, C.glass);
+    for (const x of [-0.22, 0.22]) van.cyl(x, 0.05, 0.19, 0.12, 0.05, 0.12, C.black, { rx: Math.PI / 2 });
+    const red = p.dyn(0.52, 0.39, 0.73).box(0, 0, 0, 0.1, 0.05, 0.1, 0xff2f24, { glow: true, own: true });
+    const blue = p.dyn(0.7, 0.39, 0.77).box(0, 0, 0, 0.1, 0.05, 0.1, 0x3a7bff, { glow: true, own: true });
+    // flash-bang burst at the tower door
+    const flash = p.dyn(-0.55, 0.2, 0.0).sphere(0, 0, 0, 0.25, 0.25, 0.25, 0xfff6c8, { glow: true, own: true });
+    p.anim((t) => {
+      drum.node.rotation.z = t * 6;
+      const on = Math.sin(t * 8) > 0;
+      red.material.userData.flick = on ? 1 : 0.1;
+      blue.material.userData.flick = on ? 0.1 : 1;
+      const k = (t * 0.5) % 1;
+      flash.material.userData.flick = k < 0.08 ? 1 : 0;
+      flash.scale.setScalar(k < 0.08 ? 1 + k * 8 : 0.01);
+    });
+    return { mist: 2, mistY: 0.25 };
+  },
+
+  // 毒駕島：a car crashed into a bent lamp post on a strip of road, a police checkpoint with cones, a little drug lab bubbling green, vape pods everywhere
+  drugisle(p, rng) {
+    p.box(0, 0.02, 0.55, 3.0, 0.03, 0.6, 0x3a3a40);
+    for (let i = 0; i < 6; i++) p.box(-1.25 + i * 0.5, 0.04, 0.55, 0.25, 0.01, 0.04, C.white);
+    // crashed car and bent lamp post
+    const car = p.sub(-0.6, 0, 0.55, 0.5);
+    car.rbox(0, 0.13, 0, 0.62, 0.18, 0.32, 0x8e1c16, { rz: 0.08 });
+    car.rbox(-0.05, 0.27, 0, 0.32, 0.12, 0.28, 0x5a1a14, { rz: 0.08 });
+    for (const [x, z] of [[-0.2, 0.17], [0.2, 0.17], [-0.2, -0.17], [0.2, -0.17]]) car.cyl(x, 0.06, z, 0.12, 0.05, 0.12, C.black, { rx: Math.PI / 2 });
+    p.cyl(-0.25, 0.35, 0.78, 0.03, 0.7, 0.03, C.black, { rz: -0.5 });
+    p.sphere(0.0, 0.62, 0.78, 0.09, 0.09, 0.09, C.lamp, { glow: true });
+    const smoke = [];
+    for (let i = 0; i < 3; i++) {
+      const d = p.dyn(-0.4, 0.35, 0.55);
+      d.sphere(0, 0, 0, 0.16, 0.14, 0.16, 0x6a6a70);
+      smoke.push(d.node);
+    }
+    // checkpoint: cones and a sign
+    for (let i = 0; i < 4; i++) p.cone(0.35 + i * 0.22, 0.1, 0.35, 0.1, 0.2, 0.1, 0xff7a1a);
+    p.cyl(1.15, 0.3, 0.3, 0.03, 0.6, 0.03, C.metal);
+    p.box(1.15, 0.6, 0.31, 0.3, 0.2, 0.02, 0x1f4f9a);
+    const siren = p.dyn(1.15, 0.75, 0.3).sphere(0, 0, 0, 0.06, 0.06, 0.06, 0xff2f24, { glow: true, own: true });
+    // drug lab table with bubbling flasks, scattered vape pods and pill bottles
+    const lab = p.sub(-0.4, 0, -0.55);
+    lab.box(0, 0.2, 0, 0.9, 0.04, 0.4, 0xdfe3e8);
+    for (const x of [-0.4, 0.4]) for (const z of [-0.17, 0.17]) lab.box(x, 0.1, z, 0.03, 0.2, 0.03, C.metal);
+    const fl = [];
+    for (let i = 0; i < 4; i++) {
+      lab.cone(-0.3 + i * 0.2, 0.3, 0, 0.12, 0.16, 0.12, 0x9fe8c0, { glow: true });
+      lab.cyl(-0.3 + i * 0.2, 0.42, 0, 0.04, 0.08, 0.04, 0xdfe3e8);
+      const b = p.dyn(-0.7 + i * 0.2, 0.45, -0.55);
+      fl.push({ n: b.node, m: b.sphere(0, 0, 0, 0.04, 0.04, 0.04, 0x5eff8a, { glow: true, own: true }), ph: rng() * 6 });
+    }
+    for (let i = 0; i < 10; i++) p.cyl(0.2 + rng() * 1.0, 0.03, -0.75 + rng() * 0.7, 0.04, 0.12, 0.04, [0x7a4fd0, 0x2c2c33, 0xff6bb5][i % 3], { rz: Math.PI / 2, ry: rng() * 3 });
+    for (let i = 0; i < 4; i++) p.cyl(0.5 + i * 0.15, 0.06, -0.15, 0.06, 0.12, 0.06, 0xff9f2a);
+    p.anim((t) => {
+      smoke.forEach((n, i) => {
+        const k = (t * 0.3 + i / 3) % 1;
+        n.position.set(-0.4 + k * 0.2, 0.35 + k * 0.8, 0.55);
+        n.scale.setScalar(0.5 + k);
+      });
+      siren.material.userData.flick = Math.sin(t * 6) > 0 ? 1 : 0.15;
+      fl.forEach((f) => {
+        const k = (t * 0.8 + f.ph) % 1;
+        f.n.position.y = 0.45 + k * 0.3;
+        f.m.material.userData.flick = 1 - k;
+      });
+    });
+    return { mist: 4, mistY: 0.25 };
+  },
+
   // 髒川島：a stone-banked canal of murky water with floating trash bags, bottles and belly-up fish, a little arched bridge, an overflowing bin
   riverisle(p, rng) {
     p.box(0, 0.03, 0.15, 3.0, 0.04, 0.9, 0x4f4a26);
