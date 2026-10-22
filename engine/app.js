@@ -44,7 +44,7 @@ try {
     import("three/addons/controls/OrbitControls.js"),
     import("three/addons/renderers/CSS2DRenderer.js"),
     // each city page points the shared engine at its own content: <main id="app" data-src="../lumama/data.json">
-    fetch(`${$("#app").dataset.src || "./data.json"}?v=11`)
+    fetch(`${$("#app").dataset.src || "./data.json"}?v=12`)
       .then((r) => {
         if (!r.ok) throw Error(`data.json: ${r.status}`);
         return r.json();
@@ -61,7 +61,7 @@ try {
             for (const r of R.records)
               z.spots.push({
                 id: r.id,
-                name: r.title || r.sources.find((x) => !x.title.endsWith("報導"))?.title || `${r.date} ${r.place} 墜樓`,
+                name: r.title || r.sources.find((x) => !x.title.endsWith("報導"))?.title || `${r.date} ${r.place}`,
                 era: "now",
                 fear: ["D"],
                 danger: 5,
@@ -69,7 +69,7 @@ try {
                 place: r.place,
                 plain: r.summary,
                 facts: [],
-                helpline: true,
+                helpline: r.helpline ?? !!R.helpline,
                 sources: r.sources,
                 pin: false,
               });

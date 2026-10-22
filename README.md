@@ -63,21 +63,34 @@ lumama/data.json    台中內容
 - `dayCycle[]`：「驚魂一夜」各時段會甦醒的地點
 - `tour.cues[]`：64 秒導覽腳本
 
-## 墜落島的新聞紀錄（`lumama/falls.json`）
+## 真實新聞島的事件資料（例如 `lumama/falls.json`）
 
-墜落島的「事件」清單除了 `data.json` 裡的事件，也會讀取 `lumama/falls.json`（`data.json` 裡 `zones[].recordsSrc` 指向它），可以單獨更新，不必動其他檔案。每一筆：
+收錄真實新聞的島，內容一律這樣呈現：點開島，下面是「事件」清單；點進一則事件，才看到摘要和新聞連結。
+
+大量的事件放在獨立的 JSON 檔，`data.json` 裡該島加上 `"recordsSrc": "檔名.json"` 就會讀進來（墜落島用 `falls.json`）。檔案格式：
 
 ```json
 {
-  "id": "fall-119",
-  "date": "2024-11-17",
-  "place": "北屯",
-  "summary": "只摘要報導寫到的事實，不放姓名、病史等個人資訊",
-  "sources": [{ "title": "新聞標題（照原文）", "outlet": "媒體名稱", "url": "https://…" }]
+  "title": "台中墜樓新聞紀錄",
+  "note": "顯示在「事件」標題下方的說明",
+  "helpline": true,
+  "updated": "2026-10-22",
+  "records": [
+    {
+      "id": "fall-119",
+      "date": "2024-11-17",
+      "place": "北屯",
+      "summary": "只摘要報導寫到的事實，不放姓名、病史等個人資訊",
+      "sources": [{ "title": "新聞標題（照原文）", "outlet": "媒體名稱", "url": "https://…" }]
+    }
+  ]
 }
 ```
 
-只收錄查得到新聞報導的案件；查無新聞、或只有推論沒有來源的，不要放進來。資料來源與查證過程放在私人 repo `noctimute/taichung-research`。
+- 事件標題預設用第一則新聞的標題，也可以在該筆加 `"title"` 自訂
+- `helpline: true` 會在每則事件顯示 1925 安心專線（自殺、墜樓相關必開）
+- 只收錄查得到新聞報導的案件；查無新聞、或只有推論沒有來源的，不要放進來
+- 資料來源與查證過程放在私人 repo `noctimute/taichung-research`
 
 ## 網址參數
 
