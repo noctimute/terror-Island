@@ -2,7 +2,6 @@
  "title": "台中垃圾與廢棄物堆置新聞",
  "note": "整理自 Threads 上流傳的台中「垃圾山」九宮格圖片",
  "helpline": false,
- "fear": [],
  "danger": 3,
  "updated": "2026-10-22",
  "records": [
@@ -38,6 +37,9 @@
      "outlet": "遠見雜誌",
      "url": "https://www.gvm.com.tw/article/124605"
     }
+   ],
+   "fear": [
+    "C"
    ]
   },
   {
@@ -68,7 +70,10 @@
      "url": "https://www.rdec.taichung.gov.tw/media/921859/1120418-3-%E8%87%BA%E4%B8%AD%E5%B8%82%E6%AF%8F%E5%B9%B4%E7%88%90%E6%B8%A3%E8%88%87%E9%A3%9B%E7%81%B0%E8%99%95%E7%90%86%E6%96%B9%E5%BC%8F-%E6%88%90%E6%9C%AC%E5%88%86%E6%9E%90%E5%8F%8A%E6%9C%AA%E4%BE%86%E8%A6%8F%E5%8A%83%E5%B0%88%E6%A1%88%E5%A0%B1%E5%91%8A-%E7%92%B0%E4%BF%9D.pdf"
     }
    ],
-   "sort": "2025-10"
+   "sort": "2025-10",
+   "fear": [
+    "C"
+   ]
   },
   {
    "id": "g-tanzi",
@@ -103,7 +108,10 @@
      "url": "https://news.nextapple.com/life/20260916/0BA0D376FDBD5C2107F75EFE62B7FA96"
     }
    ],
-   "sort": "2026-06"
+   "sort": "2026-06",
+   "fear": [
+    "C"
+   ]
   },
   {
    "id": "g-shalu",
@@ -137,6 +145,9 @@
      "outlet": "三立新聞網",
      "url": "https://www.setn.com/News.aspx?NewsID=1851388"
     }
+   ],
+   "fear": [
+    "C"
    ]
   },
   {
@@ -171,6 +182,9 @@
      "outlet": "中廣新聞網",
      "url": "https://bccnews.com.tw/archives/781265"
     }
+   ],
+   "fear": [
+    "C"
    ]
   },
   {
@@ -200,6 +214,9 @@
      "outlet": "壹電視",
      "url": "https://www.nexttv.com.tw/NextTV/News/Home/Politics/2026-05-14/2345046.html"
     }
+   ],
+   "fear": [
+    "I"
    ]
   },
   {
@@ -234,6 +251,9 @@
      "outlet": "三立新聞網",
      "url": "https://www.setn.com/News.aspx?NewsID=1852015"
     }
+   ],
+   "fear": [
+    "I"
    ]
   },
   {
@@ -268,6 +288,9 @@
      "outlet": "知新聞",
      "url": "https://www.knews.com.tw/news/881DFE4ED8571906278F45387640C816"
     }
+   ],
+   "fear": [
+    "I"
    ]
   }
  ]

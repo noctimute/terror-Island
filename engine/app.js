@@ -44,7 +44,7 @@ try {
     import("three/addons/controls/OrbitControls.js"),
     import("three/addons/renderers/CSS2DRenderer.js"),
     // each city page points the shared engine at its own content: <main id="app" data-src="../lumama/data.json">
-    fetch(`${$("#app").dataset.src || "./data.json"}?v=15`)
+    fetch(`${$("#app").dataset.src || "./data.json"}?v=18`)
       .then((r) => {
         if (!r.ok) throw Error(`data.json: ${r.status}`);
         return r.json();
@@ -465,25 +465,27 @@ try {
         <h3>${z.news ? "事件" : "傳說"} <small>${z.spots.length}</small></h3>
         <ol class="spot-list">${z.spots
           .map(
-            (sp) => `<li><button data-spot="${sp.id}"><span class="sp-name">${esc(sp.name)}</span><span class="sp-meta">${esc(eraById.get(sp.era).label)} ${skulls(sp.danger)}</span><span class="sp-plain">${esc(sp.plain)}</span></button></li>`,
+            (sp) => `<li><button data-spot="${sp.id}"><span class="sp-name">${esc(sp.name)}</span><span class="sp-meta">${esc(sp.date || eraById.get(sp.era).label)} ${skulls(sp.danger)}</span><span class="sp-plain">${esc(sp.plain)}</span></button></li>`,
           )
           .join("")}</ol>
-        <h3>詛咒連線 <small>${fl.length}</small></h3>
-        <ul class="flow-list">${fl
-          .map((f) => `<li><button data-flow="${f.id}"><em>${f.id}</em>${icon(f.carry)}<span>${esc(f.text)}</span></button></li>`)
-          .join("")}</ul>
-        <div class="card-actions"><button data-act="prev">← 上一處</button><button data-act="flows" class="primary">看它連到哪</button><button data-act="next">下一處 →</button></div>
+        ${
+          fl.length
+            ? `<h3>詛咒連線 <small>${fl.length}</small></h3>
+        <ul class="flow-list">${fl.map((f) => `<li><button data-flow="${f.id}"><em>${f.id}</em>${icon(f.carry)}<span>${esc(f.text)}</span></button></li>`).join("")}</ul>`
+            : ""
+        }
+        <div class="card-actions"><button data-act="prev">← 上一處</button>${fl.length ? `<button data-act="flows" class="primary">看它連到哪</button>` : ""}<button data-act="next">下一處 →</button></div>
         ${z.spotsNote ? `<p class="rec-note">${esc(z.spotsNote)}</p>` : ""}`;
     } else if (s.type === "spot") {
       const sp = spotById.get(s.id),
         z = zoneById.get(sp.zone);
       html = `<button class="back" data-zone="${z.id}">← ${esc(zoneLabel(z))}</button>
-        <div class="eyebrow">${esc(eraById.get(sp.era).label)}${sp.fear.length ? ` · ${sp.fear.map((f) => esc(fearById.get(f).name)).join(" / ")}` : ""}</div>
+        <div class="eyebrow">${esc(sp.date || eraById.get(sp.era).label)}${sp.fear.length ? ` · ${sp.fear.map((f) => esc(fearById.get(f).name)).join(" / ")}` : ""}</div>
         <h2>${esc(sp.name)}</h2><p class="lead">${esc(sp.plain)}</p>
         ${sp.facts.length ? `<ul class="facts">${sp.facts.map((f) => `<li>${esc(f)}</li>`).join("")}</ul>` : ""}
         ${helpBox(sp)}${sourceList(sp)}
-        <dl class="kv">${sp.date ? `<dt>日期</dt><dd>${esc(sp.date)}</dd>` : ""}${sp.place ? `<dt>地點</dt><dd>${esc(sp.place)}</dd>` : ""}<dt>危險度</dt><dd>${skulls(sp.danger)}</dd><dt>流傳年代</dt><dd>${esc(eraById.get(sp.era).label)}</dd>
-        <dt>所在地</dt><dd>${z.district ? `${esc(z.district)}・` : ""}${esc(z.name)}</dd>${sp.fear.length ? `<dt>恐懼類型</dt><dd>${fearChips(sp.fear)}</dd>` : ""}</dl>
+        <dl class="kv">${sp.date ? `<dt>日期</dt><dd>${esc(sp.date)}</dd>` : ""}${sp.place ? `<dt>地點</dt><dd>${esc(sp.place)}</dd>` : ""}<dt>危險度</dt><dd>${skulls(sp.danger)}</dd>${sp.date ? "" : `<dt>流傳年代</dt><dd>${esc(eraById.get(sp.era).label)}</dd>`}
+        <dt>所在地</dt><dd>${z.district ? `${esc(z.district)}・` : ""}${esc(z.name)}</dd>${sp.fear.length ? `<dt>事件類型</dt><dd>${fearChips(sp.fear)}</dd>` : ""}</dl>
         ${civicBox(z)}${newsBox(z)}
         <div class="card-actions"><button data-act="prev-spot">← 上一則</button><button data-act="next-spot">下一則 →</button></div>`;
     } else if (s.type === "flow") {
@@ -603,8 +605,9 @@ try {
 
   // ---------- sidebar ----------
   $("#disclaimer").textContent = D.meta.disclaimer;
-  $("#side-count").innerHTML = `${openCount} 處開放地點 ／ ${spotCount} 則內容（其餘 ${zones.length - openCount} 處施工中）<br>選一處地點，走進它的恐怖風景。`;
+  $("#side-count").innerHTML = `${openCount} 處開放地點 ／ ${spotCount} 則內容（其餘 ${zones.length - openCount} 處施工中）<br>點開一座島，看看這座城發生過什麼。`;
   $("#tab-flows").textContent = `詛咒連線 ${D.flows.length}`;
+  $("#tab-flows").hidden = !D.flows.length; // no curse links once every open island is real news
   const norm = (s) => String(s || "").toLowerCase();
   function renderTree() {
     const q = norm(state.search.trim());
@@ -619,11 +622,11 @@ try {
           const off = activeSet() && !zoneMatches(z);
           return `<div class="row${open ? " open" : ""}${off ? " off" : ""}${state.sel?.zone === z.id ? " sel" : ""}">
             <button class="zrow" data-zone="${z.id}" aria-expanded="${!!open}"><em>${pad(z.number)}</em><span><b>${esc(z.name)}${z.civic ? `<mark class="tag">市政議題</mark>` : ""}${z.news ? `<mark class="tag news-tag">真實新聞</mark>` : ""}${z.wip ? `<mark class="tag wip-tag">施工中</mark>` : ""}</b>${z.district ? `<small>${esc(z.district)}</small>` : ""}</span><i>${z.spots.length} ↗</i></button>
-            ${open ? `<ul class="spots">${spots.map((s) => `<li><button data-spot="${s.id}" class="${state.sel?.id === s.id ? "sel" : ""}">${esc(s.name)}<small>${esc(eraById.get(s.era).label)}</small></button></li>`).join("")}</ul>` : ""}
+            ${open ? `<ul class="spots">${spots.map((s) => `<li><button data-spot="${s.id}" class="${state.sel?.id === s.id ? "sel" : ""}">${esc(s.name)}<small>${esc(s.date || eraById.get(s.era).label)}</small></button></li>`).join("")}</ul>` : ""}
           </div>`;
         })
         .join("");
-      tree.innerHTML = rows || `<p class="empty">找不到「${esc(state.search)}」相關的傳說。</p>`;
+      tree.innerHTML = rows || `<p class="empty">找不到「${esc(state.search)}」相關的事件。</p>`;
     } else {
       const rows = D.flows
         .filter((f) => !q || [f.text, zoneById.get(f.from).name, zoneById.get(f.to).name, carryLabel(f.carry), roleLabel(f.walker)].some((t) => norm(t).includes(q)))
@@ -850,7 +853,7 @@ try {
     const counts = D.fear.map((f) => ({ f, n: zones.filter((z) => z.fear.includes(f.id)).length }));
     const max = Math.max(...counts.map((c) => c.n));
     $("#overview-panel").innerHTML = `<div class="stats">
-      <div><b>${openCount}</b><span>開放地點</span></div><div><b>${spotCount}</b><span>則傳說</span></div>
+      <div><b>${openCount}</b><span>開放地點</span></div><div><b>${spotCount}</b><span>則事件</span></div>
       <div><b>${D.flows.length}</b><span>詛咒連線</span></div><div><b>${avg}</b><span>平均危險度</span></div></div>
       <h4>現在 ${fmt(state.minute)}・正在甦醒</h4><p>${cy.zones.map((id) => esc(zoneById.get(id).name)).join("、")}<br><small>${esc(cy.label)}</small></p>
       <h4>FEAR 分布</h4>${counts.map((c) => `<div class="bar"><span>${c.f.id} ${esc(c.f.name)}</span><i style="--w:${(c.n / max) * 100}%;--c:${c.f.color}"></i><b>${c.n}</b></div>`).join("")}`;
@@ -1136,5 +1139,5 @@ try {
 } catch (err) {
   console.error(err);
   const l = $("#loading");
-  if (l) l.innerHTML = `<h2>TERROR</h2><p>無法喚醒傳說：${esc(err.message)}<br>請確認瀏覽器支援 WebGL，並透過 http 伺服器開啟。</p>`;
+  if (l) l.innerHTML = `<h2>TERROR</h2><p>無法載入地圖：${esc(err.message)}<br>請確認瀏覽器支援 WebGL，並透過 http 伺服器開啟。</p>`;
 }

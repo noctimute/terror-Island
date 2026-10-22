@@ -10,38 +10,32 @@
    "sea": "west",
    "mountains": "east"
   },
-  "disclaimer": "「墜落島」「氣爆火災島」「垃圾山太空包」「廚餘湖」收錄的是經新聞報導查證的真實事件，文字只摘要報導內容並附上來源；島上的 3D 場景是示意插畫。「漂浮島」等其他內容皆為虛構創作。"
+  "disclaimer": "開放中的五座島收錄的都是經新聞報導查證的真實事件。文字只摘要報導內容、拿掉姓名等個人資訊，並附上原始新聞來源；島上的 3D 場景是示意插畫，不對應任何一位當事人。"
  },
  "fear": [
   {
-   "id": "F",
-   "name": "民俗禁忌",
-   "en": "Folklore",
-   "color": "#C99A2E"
-  },
-  {
-   "id": "E",
-   "name": "異形怪物",
-   "en": "Entity",
-   "color": "#4E7D5B"
-  },
-  {
-   "id": "A",
-   "name": "怨靈現身",
-   "en": "Apparition",
-   "color": "#7F9CC4"
-  },
-  {
-   "id": "R",
-   "name": "詛咒儀式",
-   "en": "Ritual",
-   "color": "#A8201A"
-  },
-  {
    "id": "D",
-   "name": "真實死亡",
-   "en": "Real deaths",
+   "name": "有人死亡",
+   "en": "Fatal",
    "color": "#3B3A40"
+  },
+  {
+   "id": "S",
+   "name": "公安災害",
+   "en": "Public safety",
+   "color": "#E07B24"
+  },
+  {
+   "id": "C",
+   "name": "市府場站",
+   "en": "City-run sites",
+   "color": "#7F8C8D"
+  },
+  {
+   "id": "I",
+   "name": "非法傾倒",
+   "en": "Illegal dumping",
+   "color": "#8E5A2B"
   }
  ],
  "eras": [
@@ -220,224 +214,21 @@
    "ground": "#6E7A80",
    "side": "#3E474C",
    "fear": [
-    "A"
+    "D"
    ],
-   "danger": 4,
-   "summary": "黑水湖的正中央有一座會漂的小島，湖面上浮著一個個閉不上眼的小人。（虛構傳說）",
-   "spots": [
-    {
-     "id": "oldtown-drift",
-     "name": "會漂的小島",
-     "era": "90s",
-     "fear": [
-      "A"
-     ],
-     "danger": 3,
-     "plain": "湖中央的小島沒有根，每天早上都停在不一樣的位置。島上的枯樹下，總點著三根不會熄的蠟燭。",
-     "facts": [
-      "沒有人看過它移動的樣子",
-      "划船靠近，島就會慢慢退開"
-     ]
-    },
-    {
-     "id": "oldtown-float",
-     "name": "浮在湖面的人",
-     "era": "now",
-     "fear": [
-      "A"
-     ],
-     "danger": 4,
-     "plain": "湖面上漂著幾個小小的人，眼睛畫著叉，臉朝著天空。每數一次，數量都不一樣。",
-     "facts": [
-      "撈起來的只有一件濕透的外套",
-      "第一個浮上來的，總是面向你"
-     ]
-    }
-   ],
-   "tlColor": "#7a5fb0"
-  },
-  {
-   "id": "dajia",
-   "number": 3,
-   "name": "施工中",
-   "model": "construction",
-   "cell": [
-    1,
-    0
-   ],
-   "ground": "#9A958C",
-   "side": "#5E5A52",
-   "fear": [],
-   "danger": 0,
-   "summary": "這一格還在施工中，新的內容整理好就會開放。",
+   "danger": 5,
+   "summary": "湖面、大排、港口與水壩——這一格收錄台中真實發生、有新聞報導可查的浮屍與落水事件。",
    "spots": [],
-   "wip": true
-  },
-  {
-   "id": "houli",
-   "number": 4,
-   "name": "垃圾山太空包",
-   "model": "garbage",
-   "cell": [
-    2,
-    0
-   ],
-   "ground": "#9C9584",
-   "side": "#5A5346",
-   "fear": [],
-   "danger": 3,
-   "summary": "太空包、床墊長城、廢土山——這一格收錄台中各地垃圾與廢棄物堆置的真實新聞，有新聞報導可查。",
-   "spots": [],
-   "civic": {
-    "title": "垃圾去化",
-    "body": "當焚化與掩埋量能跟不上垃圾產生的速度，垃圾會被壓縮、以塑膠膜包成「太空包」暫時堆置。堆置時間一長，包膜可能破損、滲出污水，也可能有火災與異味的風險。"
-   },
-   "recordsSrc": "garbage.json",
+   "tlColor": "#7a5fb0",
+   "recordsSrc": "floaters.json",
    "news": {
     "title": "本島取材自真實新聞",
-    "body": "以下事件都有新聞報導可查，文字只摘要報導內容，並標明是市府場站堆置還是業者非法傾倒。島上的 3D 場景是示意插畫，不是真實場址的樣貌。"
-   },
-   "tlColor": "#7f8c8d"
-  },
-  {
-   "id": "fengyuan",
-   "number": 5,
-   "name": "施工中",
-   "model": "construction",
-   "cell": [
-    1,
-    1
-   ],
-   "ground": "#9A958C",
-   "side": "#5E5A52",
-   "fear": [],
-   "danger": 0,
-   "summary": "這一格還在施工中，新的內容整理好就會開放。",
-   "spots": [],
-   "wip": true
-  },
-  {
-   "id": "dongshi",
-   "number": 6,
-   "name": "施工中",
-   "model": "construction",
-   "cell": [
-    2,
-    1
-   ],
-   "ground": "#9A958C",
-   "side": "#5E5A52",
-   "fear": [],
-   "danger": 0,
-   "summary": "這一格還在施工中，新的內容整理好就會開放。",
-   "spots": [],
-   "wip": true
-  },
-  {
-   "id": "lishan",
-   "number": 7,
-   "name": "施工中",
-   "model": "construction",
-   "cell": [
-    4,
-    1
-   ],
-   "ground": "#9A958C",
-   "side": "#5E5A52",
-   "fear": [],
-   "danger": 0,
-   "summary": "這一格還在施工中，新的內容整理好就會開放。",
-   "spots": [],
-   "wip": true
-  },
-  {
-   "id": "port",
-   "number": 8,
-   "name": "施工中",
-   "model": "construction",
-   "cell": [
-    0,
-    1
-   ],
-   "ground": "#9A958C",
-   "side": "#5E5A52",
-   "fear": [],
-   "danger": 0,
-   "summary": "這一格還在施工中，新的內容整理好就會開放。",
-   "spots": [],
-   "wip": true
-  },
-  {
-   "id": "daya",
-   "number": 9,
-   "name": "施工中",
-   "model": "construction",
-   "cell": [
-    1,
-    2
-   ],
-   "ground": "#9A958C",
-   "side": "#5E5A52",
-   "fear": [],
-   "danger": 0,
-   "summary": "這一格還在施工中，新的內容整理好就會開放。",
-   "spots": [],
-   "wip": true
-  },
-  {
-   "id": "xinshe",
-   "number": 10,
-   "name": "施工中",
-   "model": "construction",
-   "cell": [
-    3,
-    2
-   ],
-   "ground": "#9A958C",
-   "side": "#5E5A52",
-   "fear": [],
-   "danger": 0,
-   "summary": "這一格還在施工中，新的內容整理好就會開放。",
-   "spots": [],
-   "wip": true
-  },
-  {
-   "id": "guguan",
-   "number": 11,
-   "name": "施工中",
-   "model": "construction",
-   "cell": [
-    4,
-    2
-   ],
-   "ground": "#9A958C",
-   "side": "#5E5A52",
-   "fear": [],
-   "danger": 0,
-   "summary": "這一格還在施工中，新的內容整理好就會開放。",
-   "spots": [],
-   "wip": true
-  },
-  {
-   "id": "shalu",
-   "number": 12,
-   "name": "施工中",
-   "model": "construction",
-   "cell": [
-    0,
-    2
-   ],
-   "ground": "#9A958C",
-   "side": "#5E5A52",
-   "fear": [],
-   "danger": 0,
-   "summary": "這一格還在施工中，新的內容整理好就會開放。",
-   "spots": [],
-   "wip": true
+    "body": "以下事件都有新聞報導可查，文字只摘要報導內容，不加入未經證實的推論。島上的 3D 人物是通用的示意插畫，不對應任何一位死者。謹向罹難者與家屬致哀。"
+   }
   },
   {
    "id": "beitun",
-   "number": 13,
+   "number": 3,
    "name": "氣爆火災島",
    "model": "disaster",
    "cell": [
@@ -447,7 +238,8 @@
    "ground": "#7E7670",
    "side": "#47403C",
    "fear": [
-    "D"
+    "D",
+    "S"
    ],
    "danger": 5,
    "summary": "一棟建築在爆炸、一座倉庫在燃燒——這一格收錄台中真實發生、有新聞報導可查的氣爆與火災。",
@@ -457,7 +249,8 @@
      "name": "台中新光三越氣爆 5死38傷",
      "era": "now",
      "fear": [
-      "D"
+      "D",
+      "S"
      ],
      "danger": 5,
      "date": "2025-02-13",
@@ -501,7 +294,8 @@
      "name": "台中全聯大肚倉儲大火 9死8傷",
      "era": "now",
      "fear": [
-      "D"
+      "D",
+      "S"
      ],
      "danger": 5,
      "date": "2024-12-19",
@@ -542,25 +336,37 @@
    "tlColor": "#e07b24"
   },
   {
-   "id": "taiping",
-   "number": 14,
-   "name": "施工中",
-   "model": "construction",
+   "id": "houli",
+   "number": 4,
+   "name": "垃圾山太空包",
+   "model": "garbage",
    "cell": [
     2,
-    3
+    0
    ],
-   "ground": "#9A958C",
-   "side": "#5E5A52",
-   "fear": [],
-   "danger": 0,
-   "summary": "這一格還在施工中，新的內容整理好就會開放。",
+   "ground": "#9C9584",
+   "side": "#5A5346",
+   "fear": [
+    "C",
+    "I"
+   ],
+   "danger": 3,
+   "summary": "太空包、床墊長城、廢土山——這一格收錄台中各地垃圾與廢棄物堆置的真實新聞，有新聞報導可查。",
    "spots": [],
-   "wip": true
+   "civic": {
+    "title": "垃圾去化",
+    "body": "當焚化與掩埋量能跟不上垃圾產生的速度，垃圾會被壓縮、以塑膠膜包成「太空包」暫時堆置。堆置時間一長，包膜可能破損、滲出污水，也可能有火災與異味的風險。"
+   },
+   "recordsSrc": "garbage.json",
+   "news": {
+    "title": "本島取材自真實新聞",
+    "body": "以下事件都有新聞報導可查，文字只摘要報導內容，並標明是市府場站堆置還是業者非法傾倒。島上的 3D 場景是示意插畫，不是真實場址的樣貌。"
+   },
+   "tlColor": "#7f8c8d"
   },
   {
    "id": "dadu",
-   "number": 15,
+   "number": 5,
    "name": "廚餘湖",
    "model": "foodlake",
    "cell": [
@@ -569,7 +375,10 @@
    ],
    "ground": "#8C7A55",
    "side": "#54462F",
-   "fear": [],
+   "fear": [
+    "C",
+    "I"
+   ],
    "danger": 3,
    "summary": "非洲豬瘟後禁止廚餘養豬，廚餘該往哪裡去？這一格收錄台中廚餘堆置的真實新聞，有新聞報導可查。",
    "spots": [],
@@ -583,6 +392,176 @@
     "body": "以下事件都有新聞報導可查，文字只摘要報導內容，並標明是市府場站堆置還是業者非法傾倒。島上的 3D 場景是示意插畫，不是真實場址的樣貌。"
    },
    "tlColor": "#2e9e5b"
+  },
+  {
+   "id": "dajia",
+   "number": 6,
+   "name": "施工中",
+   "model": "construction",
+   "cell": [
+    1,
+    0
+   ],
+   "ground": "#9A958C",
+   "side": "#5E5A52",
+   "fear": [],
+   "danger": 0,
+   "summary": "這一格還在施工中，新的內容整理好就會開放。",
+   "spots": [],
+   "wip": true
+  },
+  {
+   "id": "fengyuan",
+   "number": 7,
+   "name": "施工中",
+   "model": "construction",
+   "cell": [
+    1,
+    1
+   ],
+   "ground": "#9A958C",
+   "side": "#5E5A52",
+   "fear": [],
+   "danger": 0,
+   "summary": "這一格還在施工中，新的內容整理好就會開放。",
+   "spots": [],
+   "wip": true
+  },
+  {
+   "id": "dongshi",
+   "number": 8,
+   "name": "施工中",
+   "model": "construction",
+   "cell": [
+    2,
+    1
+   ],
+   "ground": "#9A958C",
+   "side": "#5E5A52",
+   "fear": [],
+   "danger": 0,
+   "summary": "這一格還在施工中，新的內容整理好就會開放。",
+   "spots": [],
+   "wip": true
+  },
+  {
+   "id": "lishan",
+   "number": 9,
+   "name": "施工中",
+   "model": "construction",
+   "cell": [
+    4,
+    1
+   ],
+   "ground": "#9A958C",
+   "side": "#5E5A52",
+   "fear": [],
+   "danger": 0,
+   "summary": "這一格還在施工中，新的內容整理好就會開放。",
+   "spots": [],
+   "wip": true
+  },
+  {
+   "id": "port",
+   "number": 10,
+   "name": "施工中",
+   "model": "construction",
+   "cell": [
+    0,
+    1
+   ],
+   "ground": "#9A958C",
+   "side": "#5E5A52",
+   "fear": [],
+   "danger": 0,
+   "summary": "這一格還在施工中，新的內容整理好就會開放。",
+   "spots": [],
+   "wip": true
+  },
+  {
+   "id": "daya",
+   "number": 11,
+   "name": "施工中",
+   "model": "construction",
+   "cell": [
+    1,
+    2
+   ],
+   "ground": "#9A958C",
+   "side": "#5E5A52",
+   "fear": [],
+   "danger": 0,
+   "summary": "這一格還在施工中，新的內容整理好就會開放。",
+   "spots": [],
+   "wip": true
+  },
+  {
+   "id": "xinshe",
+   "number": 12,
+   "name": "施工中",
+   "model": "construction",
+   "cell": [
+    3,
+    2
+   ],
+   "ground": "#9A958C",
+   "side": "#5E5A52",
+   "fear": [],
+   "danger": 0,
+   "summary": "這一格還在施工中，新的內容整理好就會開放。",
+   "spots": [],
+   "wip": true
+  },
+  {
+   "id": "guguan",
+   "number": 13,
+   "name": "施工中",
+   "model": "construction",
+   "cell": [
+    4,
+    2
+   ],
+   "ground": "#9A958C",
+   "side": "#5E5A52",
+   "fear": [],
+   "danger": 0,
+   "summary": "這一格還在施工中，新的內容整理好就會開放。",
+   "spots": [],
+   "wip": true
+  },
+  {
+   "id": "shalu",
+   "number": 14,
+   "name": "施工中",
+   "model": "construction",
+   "cell": [
+    0,
+    2
+   ],
+   "ground": "#9A958C",
+   "side": "#5E5A52",
+   "fear": [],
+   "danger": 0,
+   "summary": "這一格還在施工中，新的內容整理好就會開放。",
+   "spots": [],
+   "wip": true
+  },
+  {
+   "id": "taiping",
+   "number": 15,
+   "name": "施工中",
+   "model": "construction",
+   "cell": [
+    2,
+    3
+   ],
+   "ground": "#9A958C",
+   "side": "#5E5A52",
+   "fear": [],
+   "danger": 0,
+   "summary": "這一格還在施工中，新的內容整理好就會開放。",
+   "spots": [],
+   "wip": true
   },
   {
    "id": "dali",
@@ -658,10 +637,8 @@
   {
    "from": "00:00",
    "to": "24:00",
-   "zones": [
-    "oldtown"
-   ],
-   "label": "夜裡，漂浮島又漂到了別的位置"
+   "zones": [],
+   "label": "拖動事件時間軸，看每個月發生了什麼"
   }
  ],
  "tour": {
@@ -672,7 +649,7 @@
     "target": "all",
     "time": 1260,
     "flows": [],
-    "caption": "歡迎來到台中恐怖島：大部分的島還在施工中"
+    "caption": "歡迎來到台中恐怖島：每一座開放的島，都是真實新聞"
    },
    {
     "from": 8,
@@ -712,7 +689,7 @@
     "target": "all",
     "time": 1380,
     "flows": [],
-    "caption": "其他島嶼施工中，敬請期待"
+    "caption": "點進事件，看原始新聞；其他島嶼施工中"
    },
    {
     "from": 54,
@@ -720,7 +697,7 @@
     "target": "oldtown",
     "time": 120,
     "flows": [],
-    "caption": "漂浮島：湖面上的小人，每數一次都不一樣"
+    "caption": "漂浮島：台中的浮屍與落水新聞，附新聞來源"
    },
    {
     "from": 60,
@@ -735,19 +712,19 @@
  "ui": {
   "intro": [
    {
-    "title": "每一格，都是一則傳說",
-    "body": "16 個六邊形，拼成一座城。目前開放五座島：整理台中真實新聞、附上新聞來源的「墜落島」「氣爆火災島」「垃圾山太空包」「廚餘湖」，以及虛構傳說「漂浮島」。其他島還在施工中。"
+    "title": "不是傳說，是新聞",
+    "body": "16 個六邊形拼成一座城。開放中的五座島——墜落島、漂浮島、氣爆火災島、垃圾山太空包、廚餘湖——收錄的都是台中真實發生、有新聞報導可查的事件。其他島還在施工中。"
    },
    {
-    "title": "點進事件看新聞",
-    "body": "每座真實新聞島下面都有「事件」清單，點進一則事件，就能看到摘要和原始新聞連結。"
+    "title": "點進事件，看原始報導",
+    "body": "點開一座島，下面是它的事件清單；點進一則事件，就能看到摘要、日期地點與原始新聞連結。"
    },
    {
-    "title": "越晚，越危險",
-    "body": "拖動下方「驚魂一夜」的時間軸，不同時刻會喚醒不同的地點。也可以按「導覽」看 64 秒的故事。"
+    "title": "沿著時間軸往回看",
+    "body": "拖動「事件時間軸」，看每個月發生了什麼、哪幾座島亮了起來；按 ▶ 可以一個月一個月播放。也可以按「導覽」看 64 秒的介紹。"
    }
   ],
-  "mascot": "阿飄 · 點一格，開始探險"
+  "mascot": "阿飄 · 點一座島，看看發生過什麼"
  },
  "helpline": "如果你或身邊的人正感到痛苦、有輕生的念頭，請撥 1925 安心專線（24 小時免付費）或 1995 生命線，你不需要獨自面對。"
 }

@@ -2,7 +2,6 @@
  "title": "台中廚餘堆置新聞",
  "note": "整理自 Threads 上流傳的台中「垃圾山」九宮格圖片",
  "helpline": false,
- "fear": [],
  "danger": 3,
  "updated": "2026-10-22",
  "records": [
@@ -38,6 +37,9 @@
      "outlet": "壹蘋新聞網",
      "url": "https://tw.nextapple.com/life/20251029/2FC73BD569D5EC6708FCFAC0DF9F6AA3"
     }
+   ],
+   "fear": [
+    "C"
    ]
   },
   {
@@ -62,6 +64,9 @@
      "outlet": "工商時報",
      "url": "https://www.ctee.com.tw/news/20260429701653-431401"
     }
+   ],
+   "fear": [
+    "C"
    ]
   },
   {
@@ -97,7 +102,10 @@
      "url": "https://news.ltn.com.tw/news/life/breakingnews/5222503"
     }
    ],
-   "sort": "2025-09"
+   "sort": "2025-09",
+   "fear": [
+    "I"
+   ]
   }
  ]
 }
