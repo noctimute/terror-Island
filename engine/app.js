@@ -657,7 +657,7 @@ try {
           const open = q && spots.length;
           const off = activeSet() && !zoneMatches(z);
           return `<div class="row${open ? " open" : ""}${off ? " off" : ""}${state.sel?.zone === z.id ? " sel" : ""}">
-            <button class="zrow" data-zone="${z.id}" aria-expanded="${!!open}"><em>${pad(z.number)}</em><span><b>${esc(z.name)}${z.civic ? `<mark class="tag">市政議題</mark>` : ""}${z.news ? `<mark class="tag news-tag">真實新聞</mark>` : ""}${z.wip ? `<mark class="tag wip-tag">施工中</mark>` : ""}</b>${z.district ? `<small>${esc(z.district)}</small>` : ""}</span><i>${z.spots.length} ↗</i></button>
+            <button class="zrow" data-zone="${z.id}" aria-expanded="${!!open}"><em>${pad(z.number)}</em><span><b>${esc(z.name)}${z.civic ? `<mark class="tag">市政議題</mark>` : ""}${z.wip ? `<mark class="tag wip-tag">施工中</mark>` : ""}</b>${z.district ? `<small>${esc(z.district)}</small>` : ""}</span><i>${z.spots.length} ↗</i></button>
             ${open ? `<ul class="spots">${spots.map((s) => `<li><button data-spot="${s.id}" class="${state.sel?.id === s.id ? "sel" : ""}">${esc(s.name)}<small>${esc(s.date || eraById.get(s.era).label)}</small></button></li>`).join("")}</ul>` : ""}
           </div>`;
         })
