@@ -1,6 +1,6 @@
 import { TOP, WILD_TOP, layoutZones, buildCity, createHeightAt } from "./world.js?v=1";
 import { createEnvironment, mulberry } from "./environment.js?v=2";
-import { createKit, MODELS, wildForest } from "./models.js?v=13";
+import { createKit, MODELS, wildForest } from "./models.js?v=14";
 import { createPeople, flowCurve } from "./people.js?v=2";
 import { icon, skulls } from "./icons.js?v=1";
 

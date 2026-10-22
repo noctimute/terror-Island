@@ -904,13 +904,30 @@ export const MODELS = {
 
   // 國安島：harbour quay with a cargo ship and containers, a hovering drone, CCTV poles, a beached rubber boat
   natisle(p, rng) {
-    p.box(0, 0.02, 0.6, 3.0, 0.04, 1.1, 0x24434c);
+    p.box(0, 0.02, 0.6, 3.0, 0.04, 1.1, 0xb8b2a6);
     p.box(0, 0.06, -0.05, 3.0, 0.12, 0.25, 0x8a8580);
-    const ship = p.dyn(0, 0.04, 0.65);
-    ship.box(0, 0.15, 0, 2.0, 0.26, 0.5, 0x7a2b2b);
-    ship.box(0, 0.3, 0, 1.9, 0.06, 0.46, 0x3b3436);
-    ship.box(0.75, 0.48, 0, 0.32, 0.32, 0.4, C.white);
-    for (let i = 0; i < 5; i++) ship.box(-0.7 + i * 0.28, 0.42, 0, 0.24, 0.18, 0.4, [0x2c6db5, 0xc9a227, 0x2e9e5b, 0x8e1c16, 0x7f8c8d][i]);
+    // gate-tower hall in a Chinese palace style: red wall with arches, red columns, double golden hip roof
+    const RED = 0xa8201a,
+      GOLD = 0xd9a520;
+    const gt = p.sub(0.15, 0.04, 0.6);
+    gt.box(0, 0.22, 0, 2.0, 0.44, 0.62, RED);
+    for (const x of [-0.55, 0, 0.55]) {
+      gt.box(x, 0.13, 0.31, x ? 0.18 : 0.24, 0.26, 0.02, 0x2a1a14);
+      gt.cyl(x, 0.26, 0.31, x ? 0.18 : 0.24, 0.02, 0.02, 0x2a1a14, { rx: Math.PI / 2 });
+    }
+    gt.box(0, 0.47, 0, 2.06, 0.06, 0.68, 0xe8e2d4);
+    gt.box(0, 0.68, -0.02, 1.5, 0.36, 0.44, 0xb8322a);
+    for (let k = 0; k < 7; k++) gt.cyl(-0.66 + k * 0.22, 0.68, 0.23, 0.04, 0.36, 0.04, 0xc8102e);
+    gt.pyr(0, 0.95, -0.02, 1.95, 0.24, 0.8, GOLD);
+    gt.box(0, 1.1, -0.02, 1.05, 0.14, 0.34, 0xb8322a);
+    gt.pyr(0, 1.27, -0.02, 1.4, 0.24, 0.55, GOLD);
+    gt.box(0, 1.39, -0.02, 0.7, 0.03, 0.05, GOLD);
+    // upturned eave tips
+    for (const [x, z, y] of [[-0.97, 0.38, 0.86], [0.97, 0.38, 0.86], [-0.97, -0.42, 0.86], [0.97, -0.42, 0.86], [-0.7, 0.25, 1.18], [0.7, 0.25, 1.18], [-0.7, -0.29, 1.18], [0.7, -0.29, 1.18]])
+      gt.cone(x, y, z, 0.07, 0.12, 0.07, GOLD);
+    // golden plaque under the upper eave
+    gt.box(0, 1.1, 0.16, 0.22, 0.1, 0.01, GOLD);
+    emblem(gt, 0, 1.1, 0.172, 0.12, 0xc8102e);
     for (let i = 0; i < 6; i++) p.box(-1.0 + (i % 3) * 0.32, 0.12 + Math.floor(i / 3) * 0.2, -0.55, 0.28, 0.18, 0.4, [0x2c6db5, 0xc9a227, 0x8e1c16][i % 3]);
     // crane
     p.box(0.95, 0.7, -0.6, 0.08, 1.4, 0.08, C.yellow);
@@ -946,7 +963,6 @@ export const MODELS = {
       l.box(0, -0.08, 0, 0.05, 0.05, 0.05, 0xffd23f);
     }
     p.anim((t) => {
-      ship.node.position.y = 0.04 + Math.sin(t * 0.8) * 0.015;
       dr.node.position.set(Math.cos(t * 0.5) * 0.9, 1.5 + Math.sin(t * 2) * 0.05, Math.sin(t * 0.5) * 0.5);
       eyes.forEach((e, i) => (e.material.userData.flick = Math.sin(t * 3 + i) > 0 ? 1 : 0.2));
       flag.node.rotation.y = Math.sin(t * 1.6) * 0.18;
