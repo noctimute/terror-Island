@@ -8,7 +8,8 @@
   "welcome": "WELCOME, TAICHUNG",
   "terrain": {
    "sea": "west",
-   "mountains": "east"
+   "mountains": "east",
+   "harbour": "port"
   },
   "disclaimer": "開放中的島嶼收錄的都是經新聞報導查證的真實事件。文字只摘要報導內容、拿掉姓名等個人資訊，並附上原始新聞來源；島上的 3D 場景是示意插畫，不對應任何一位當事人。"
  },

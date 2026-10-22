@@ -173,6 +173,82 @@ export function createEnvironment(THREE, { scene, renderer, centers, bounds, qua
   water.receiveShadow = true;
   if (hasSea) group.add(water);
 
+  // ---- shoreline: tetrapods (消波塊) along the coast, plus an optional moored ship at the harbour zone ----
+  const bobbers = [];
+  if (hasSea) {
+    const arm = (dir) => new THREE.CylinderGeometry(0.02, 0.07, 0.2, 5).translate(0, 0.1, 0).applyMatrix4(new THREE.Matrix4().lookAt(new THREE.Vector3(), dir, new THREE.Vector3(0, 0, 1)).multiply(new THREE.Matrix4().makeRotationX(Math.PI / 2)));
+    const tetraGeo = mergeSimple(THREE, [arm(new THREE.Vector3(0, 1, 0)), ...[0, 1, 2].map((i) => arm(new THREE.Vector3(Math.cos((i * Math.PI * 2) / 3) * 0.943, -0.333, Math.sin((i * Math.PI * 2) / 3) * 0.943)))]);
+    const harbour = shape.harbour && centers.get(shape.harbour);
+    const tetras = [];
+    for (let z = bounds.minZ - 6; z < bounds.maxZ + 6; z += 0.16) {
+      // leave a gap in the wall where the ship's pier meets the shore
+      if (harbour && Math.abs(z - harbour.z) < 0.5) continue;
+      for (let row = 0; row < 2; row++) {
+        if (rng() < 0.25) continue;
+        tetras.push({ x: coastAt(z) - 0.15 - row * 0.2 + (rng() - 0.5) * 0.12, y: WATER_Y + 0.04 + row * -0.02 + rng() * 0.05, z: z + (rng() - 0.5) * 0.08, s: 0.8 + rng() * 0.4, r: rng() * 6, q: rng() * 6 });
+      }
+    }
+    const tetraMat = new THREE.MeshStandardMaterial({ color: 0x9c9a92, roughness: 0.95, flatShading: true });
+    const tim = new THREE.InstancedMesh(tetraGeo, tetraMat, tetras.length);
+    const ob = new THREE.Object3D();
+    tetras.forEach((t, i) => {
+      ob.position.set(t.x, t.y, t.z);
+      ob.rotation.set(t.q, t.r, t.q * 0.5);
+      ob.scale.setScalar(t.s);
+      ob.updateMatrix();
+      tim.setMatrixAt(i, ob.matrix);
+    });
+    tim.castShadow = tim.receiveShadow = true;
+    group.add(tim);
+
+    if (harbour) {
+      // a Hong Kong cargo ship that had joined PLA drills, moored at Taichung Port (see 國安島)
+      const coast = coastAt(harbour.z);
+      const m = (c, o = {}) => new THREE.MeshStandardMaterial({ color: c, roughness: 0.8, flatShading: true, ...o });
+      const add = (g, geo, mat, x, y, z) => {
+        const mesh = new THREE.Mesh(geo, mat);
+        mesh.position.set(x, y, z);
+        mesh.castShadow = mesh.receiveShadow = true;
+        g.add(mesh);
+        return mesh;
+      };
+      const B = (w, h, d) => new THREE.BoxGeometry(w, h, d);
+      // pier from the shore out to the ship
+      add(group, B(1.6, 0.08, 0.36), m(0x8a8580), coast - 0.7, WATER_Y + 0.1, harbour.z);
+      for (let i = 0; i < 4; i++) add(group, B(0.06, 0.4, 0.06), m(0x5a5650), coast - 0.1 - i * 0.45, WATER_Y - 0.05, harbour.z + 0.15);
+      const ship = new THREE.Group();
+      ship.position.set(coast - 1.85, WATER_Y, harbour.z + 0.05);
+      ship.rotation.y = Math.PI / 2;
+      const hull = m(0x8e2420),
+        deck = m(0x3b3436),
+        white = m(0xeeeae2);
+      add(ship, B(3.2, 0.36, 0.7), hull, 0, 0.12, 0);
+      add(ship, B(0.5, 0.3, 0.5), hull, 1.75, 0.16, 0).rotation.y = Math.PI / 4;
+      add(ship, B(3.1, 0.05, 0.66), deck, 0, 0.32, 0);
+      add(ship, B(0.5, 0.55, 0.6), white, -1.25, 0.6, 0);
+      add(ship, B(0.56, 0.06, 0.66), white, -1.25, 0.9, 0);
+      add(ship, B(0.12, 0.3, 0.12), m(0x2b2b2b), -1.35, 1.05, 0);
+      const win = m(0x9fc6e8, { emissive: 0x6fa0d0, emissiveIntensity: 0.4 });
+      for (const zz of [-0.15, 0, 0.15]) add(ship, B(0.02, 0.07, 0.1), win, -0.99, 0.78, zz);
+      const box = [0x2c6db5, 0xc9a227, 0x2e9e5b, 0x7f8c8d, 0xb5502c];
+      for (let i = 0; i < 6; i++) for (let k = 0; k < 2; k++) add(ship, B(0.36, 0.2, 0.28), m(box[(i + k * 2) % box.length]), -0.75 + i * 0.4, 0.45 + (i % 3 === 1 && k ? 0.2 : 0), k ? 0.15 : -0.15);
+      // mast with a small red flag
+      add(ship, new THREE.CylinderGeometry(0.015, 0.015, 0.6, 5), m(0xd0d0d0), 1.35, 0.6, 0);
+      add(ship, B(0.18, 0.11, 0.01), m(0xc8102e), 1.45, 0.82, 0);
+      group.add(ship);
+      bobbers.push(ship);
+      // a coast-guard patrol boat alongside
+      const cg = new THREE.Group();
+      cg.position.set(coast - 1.6, WATER_Y, harbour.z + 1.0);
+      cg.rotation.y = Math.PI / 2 + 0.2;
+      add(cg, B(0.8, 0.16, 0.28), white, 0, 0.06, 0);
+      add(cg, B(0.3, 0.16, 0.22), white, -0.1, 0.22, 0);
+      add(cg, B(0.81, 0.04, 0.29), m(0x1f4f9a), 0, 0.03, 0);
+      group.add(cg);
+      bobbers.push(cg);
+    }
+  }
+
   // ---- trees: pines on the mountains, round trees on the plain, dead trees near the city ----
   const trees = { pine: [], round: [], dead: [] };
   const want = high ? 1700 : 850;
@@ -310,6 +386,7 @@ export function createEnvironment(THREE, { scene, renderer, centers, bounds, qua
 
   function update(t) {
     const n = state.night;
+    if (!reduced) bobbers.forEach((b, i) => (b.position.y = WATER_Y + Math.sin(t * 0.8 + i * 1.7) * 0.02));
     for (const m of mists) {
       const u = m.userData;
       if (!reduced) {
