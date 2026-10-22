@@ -702,6 +702,74 @@ export const MODELS = {
     return { mist: 5, mistY: 0.2 };
   },
 
+  // 12 氣爆火災島（取材自真實新聞；建築與火焰為示意，不對應真實場址樣貌）
+  disaster(p, rng) {
+    // left: department store, its top floor blown out, flashes and debris looping
+    const st = p.sub(-0.75, 0, -0.35);
+    st.box(0, 1.05, 0, 0.95, 2.1, 0.85, 0x9b9488);
+    for (let f = 0; f < 6; f++)
+      for (let c = 0; c < 3; c++) st.box(-0.28 + c * 0.28, 0.3 + f * 0.27, 0.43, 0.2, 0.14, 0.02, f > 4 ? C.black : rng() < 0.3 ? C.warm : C.glass, { glow: f <= 4 && rng() < 0.3 });
+    st.box(0, 2.0, 0.44, 0.95, 0.22, 0.04, 0x2a2224);
+    const flash = p.dyn(-0.75, 1.95, 0.15);
+    const fl = flash.sphere(0, 0, 0, 0.5, 0.35, 0.3, 0xffb347, { glow: true, own: true });
+    const debris = [];
+    for (let i = 0; i < 9; i++) {
+      const d = p.dyn(-0.75, 1.95, 0.1);
+      d.box(0, 0, 0, 0.06, 0.04, 0.05, i % 3 ? C.dstone : C.glass);
+      debris.push({ n: d.node, vx: (rng() - 0.5) * 1.6, vy: 0.6 + rng() * 0.8, vz: 0.3 + rng() * 0.9 });
+    }
+    // right: long warehouse with flames on the roof and black smoke
+    const wh = p.sub(0.7, 0, -0.2);
+    wh.box(0, 0.42, 0, 1.0, 0.84, 1.3, 0x8a8f94);
+    for (let i = 0; i < 7; i++) wh.box(0.505, 0.42, -0.55 + i * 0.18, 0.01, 0.8, 0.02, 0x6f747a);
+    wh.box(0.505, 0.25, 0.3, 0.02, 0.5, 0.4, 0x3a3a3e);
+    const flames = [];
+    for (let i = 0; i < 6; i++) {
+      const f = p.dyn(0.45 + (i % 3) * 0.25, 0.86, -0.6 + Math.floor(i / 3) * 0.55 + rng() * 0.2);
+      const m = f.cone(0, 0.14, 0, 0.2, 0.32, 0.2, i % 2 ? 0xff6a1a : 0xffc23a, { glow: true, own: true });
+      flames.push({ n: f.node, m, ph: rng() * 6 });
+    }
+    const smoke = [];
+    for (let i = 0; i < 8; i++) {
+      const sm = p.dyn(0.7, 1.1, -0.3);
+      sm.sphere(0, 0, 0, 0.34, 0.3, 0.34, 0x262428);
+      smoke.push({ n: sm.node, ph: i / 8, dx: (rng() - 0.5) * 0.5 });
+    }
+    // fire engine and a hose line
+    const tr = p.sub(0.55, 0, 0.95);
+    tr.rbox(0, 0.13, 0, 0.62, 0.2, 0.24, 0xc21f1f);
+    tr.box(0.2, 0.26, 0, 0.18, 0.08, 0.2, 0xc21f1f);
+    tr.box(-0.08, 0.27, 0, 0.42, 0.03, 0.06, C.metal, { rz: 0.35 });
+    const beacon = lantern(p.dyn(0.75, 0.33, 0.95), 0, 0, 0, 0x3a7bff, 0.3, { own: true });
+    p.cyl(0.25, 0.02, 0.62, 0.03, 0.02, 0.6, 0xe0d8c0, { rz: Math.PI / 2, ry: 0.6 });
+    for (const x of [-1.05, -0.35]) p.box(x, 0.12, 0.6, 0.04, 0.24, 0.04, C.yellow);
+    p.box(-0.7, 0.2, 0.6, 0.75, 0.03, 0.01, C.yellow);
+    p.anim((t) => {
+      // explosion loop every 4 s: a fireball swells for about a second, then smoulders
+      const u = (t % 4) / 4;
+      const burst = u < 0.3 ? u / 0.3 : 0;
+      flash.node.scale.setScalar(burst ? 0.6 + Math.sqrt(burst) * 1.6 : 0.45 + Math.sin(t * 7) * 0.05);
+      fl.material.userData.flick = burst ? 1.6 - burst : 0.45;
+      debris.forEach((d) => {
+        const k = Math.min(u, 0.6) * 1.6;
+        d.n.position.set(-0.75 + d.vx * k, 1.95 + d.vy * k - 2.2 * k * k, 0.1 + d.vz * k);
+        d.n.visible = u < 0.6;
+        d.n.rotation.set(k * 6, k * 4, 0);
+      });
+      flames.forEach((f) => {
+        f.n.scale.set(1, 0.75 + Math.sin(t * 9 + f.ph) * 0.25 + Math.sin(t * 23 + f.ph) * 0.1, 1);
+        f.m.material.userData.flick = 0.8 + Math.sin(t * 13 + f.ph) * 0.2;
+      });
+      smoke.forEach((sm) => {
+        const k = (t * 0.18 + sm.ph) % 1;
+        sm.n.position.set(0.7 + sm.dx * k - k * 0.3, 1.0 + k * 2.2, -0.3);
+        sm.n.scale.setScalar(0.4 + k * 1.3);
+      });
+      beacon.material.userData.flick = Math.sin(t * 8) > 0 ? 1 : 0.1;
+    });
+    return { mist: 3, mistY: 0.25 };
+  },
+
   // 12 北屯：第七病棟
   hospital(p, rng) {
     p.box(0, 0.6, -0.5, 1.9, 1.2, 0.7, 0x9aa49c);
