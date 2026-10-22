@@ -232,6 +232,17 @@ function shadowman(d, s = 1) {
 }
 
 // ---------- the 16 legends ----------
+// 國安島 motif: a gold hammer-and-sickle impression laid flat on the x/y plane of g, facing +z
+function emblem(g, x, y, z, s, col = 0xffd23f) {
+  for (let i = 0; i < 9; i++) {
+    const a = -0.9 + (i / 8) * 3.6;
+    g.box(x + Math.cos(a) * 0.3 * s, y + Math.sin(a) * 0.3 * s, z, 0.14 * s, 0.07 * s * (1 - i / 14), 0.01, col, { rz: a + Math.PI / 2 });
+  }
+  g.box(x - 0.3 * s, y - 0.33 * s, z, 0.07 * s, 0.2 * s, 0.01, col, { rz: 0.7 });
+  g.box(x + 0.02 * s, y - 0.02 * s, z + 0.002, 0.06 * s, 0.68 * s, 0.01, col, { rz: 0.785 });
+  g.box(x - 0.2 * s, y + 0.2 * s, z + 0.002, 0.3 * s, 0.1 * s, 0.01, col, { rz: -0.785 });
+}
+
 export const MODELS = {
   // islands still being written: one shared fenced site with a crane
   construction(p) {
@@ -918,10 +929,28 @@ export const MODELS = {
     for (const [x, z] of [[-0.13, -0.13], [0.13, -0.13], [-0.13, 0.13], [0.13, 0.13]]) dr.cyl(x, 0.03, z, 0.12, 0.01, 0.12, 0x5a5a5a);
     // rubber boat on the beach corner
     p.sphere(-1.15, 0.06, 0.25, 0.4, 0.1, 0.22, 0xf06a1e);
+    // red flag with a gold hammer-and-sickle impression, a red container with a star, red lanterns on the crane
+    p.cyl(-0.85, 0.75, -0.2, 0.03, 1.5, 0.03, C.metal);
+    p.sphere(-0.85, 1.52, -0.2, 0.06, 0.06, 0.06, 0xffd23f);
+    const flag = p.dyn(-0.85, 1.25, -0.2);
+    flag.box(0.36, 0, 0, 0.72, 0.48, 0.015, 0xc8102e);
+    emblem(flag, 0.3, 0.02, 0.012, 0.42);
+    emblem(flag, 0.3, 0.02, -0.012, 0.42);
+    p.box(-0.04, 0.12, -0.55, 0.28, 0.18, 0.4, 0xc8102e);
+    p.cone(-0.04, 0.12, -0.34, 0.1, 0.02, 0.1, 0xffd23f, { rx: Math.PI / 2 });
+    const lanterns = [];
+    for (const [x, z] of [[0.6, -0.25], [0.78, -0.43]]) {
+      p.box(x, 1.26, z, 0.01, 0.2, 0.01, C.black);
+      const l = p.dyn(x, 1.1, z);
+      lanterns.push(l.sphere(0, 0, 0, 0.14, 0.12, 0.14, 0xd81e1e, { glow: true, own: true }));
+      l.box(0, -0.08, 0, 0.05, 0.05, 0.05, 0xffd23f);
+    }
     p.anim((t) => {
       ship.node.position.y = 0.04 + Math.sin(t * 0.8) * 0.015;
       dr.node.position.set(Math.cos(t * 0.5) * 0.9, 1.5 + Math.sin(t * 2) * 0.05, Math.sin(t * 0.5) * 0.5);
       eyes.forEach((e, i) => (e.material.userData.flick = Math.sin(t * 3 + i) > 0 ? 1 : 0.2));
+      flag.node.rotation.y = Math.sin(t * 1.6) * 0.18;
+      lanterns.forEach((l, i) => (l.material.userData.flick = 0.8 + Math.sin(t * 2 + i) * 0.2));
     });
     return { mist: 4, mistY: 0.2 };
   },
