@@ -10,7 +10,7 @@
    "sea": "west",
    "mountains": "east"
   },
-  "disclaimer": "除了「死亡島」之外，所有傳說、人物與事件皆為虛構創作，僅借用台中行政區名稱作為地理位置。「死亡島」收錄的是經新聞報導查證的真實事件，文字只摘要報導內容並附上來源。標示「市政議題」的島嶼取材自城市公共議題（垃圾去化、廚餘處理），以恐怖故事手法呈現，情節不代表任何真實場址的狀況。"
+  "disclaimer": "除了「飛翔島」之外，所有傳說、人物與事件皆為虛構創作。「飛翔島」收錄的是經新聞報導查證的真實事件，文字只摘要報導內容並附上來源。標示「市政議題」的島嶼取材自城市公共議題（垃圾去化、廚餘處理），以恐怖故事手法呈現，情節不代表任何真實場址的狀況。"
  },
  "fear": [
   {
@@ -152,7 +152,6 @@
   {
    "id": "dajia",
    "number": 1,
-   "district": "大甲・大安",
    "name": "施工中",
    "model": "construction",
    "cell": [
@@ -170,7 +169,6 @@
   {
    "id": "houli",
    "number": 2,
-   "district": "后里・外埔",
    "name": "垃圾山太空包",
    "model": "garbage",
    "cell": [
@@ -251,7 +249,6 @@
   {
    "id": "fengyuan",
    "number": 3,
-   "district": "豐原・神岡",
    "name": "施工中",
    "model": "construction",
    "cell": [
@@ -269,7 +266,6 @@
   {
    "id": "dongshi",
    "number": 4,
-   "district": "東勢・石岡",
    "name": "施工中",
    "model": "construction",
    "cell": [
@@ -287,7 +283,6 @@
   {
    "id": "lishan",
    "number": 5,
-   "district": "和平・梨山",
    "name": "施工中",
    "model": "construction",
    "cell": [
@@ -305,7 +300,6 @@
   {
    "id": "port",
    "number": 6,
-   "district": "清水・梧棲",
    "name": "施工中",
    "model": "construction",
    "cell": [
@@ -323,7 +317,6 @@
   {
    "id": "daya",
    "number": 7,
-   "district": "大雅・潭子",
    "name": "施工中",
    "model": "construction",
    "cell": [
@@ -341,7 +334,6 @@
   {
    "id": "xinshe",
    "number": 8,
-   "district": "新社",
    "name": "施工中",
    "model": "construction",
    "cell": [
@@ -359,7 +351,6 @@
   {
    "id": "guguan",
    "number": 9,
-   "district": "和平・谷關",
    "name": "施工中",
    "model": "construction",
    "cell": [
@@ -377,7 +368,6 @@
   {
    "id": "shalu",
    "number": 10,
-   "district": "沙鹿・龍井",
    "name": "施工中",
    "model": "construction",
    "cell": [
@@ -395,8 +385,7 @@
   {
    "id": "xitun",
    "number": 11,
-   "district": "西屯・七期",
-   "name": "死亡島",
+   "name": "飛翔島",
    "model": "deathisle",
    "cell": [
     1,
@@ -408,7 +397,7 @@
     "D"
    ],
    "danger": 5,
-   "summary": "七期高樓林立的這一格，收錄的不是傳說，而是台中真實發生、有新聞報導可查的死亡事件。",
+   "summary": "高樓林立的這一格，收錄的不是傳說，而是台中真實發生、有新聞報導可查的死亡事件。",
    "spots": [
     {
      "id": "xitun-blast",
@@ -524,7 +513,6 @@
   {
    "id": "beitun",
    "number": 12,
-   "district": "北屯",
    "name": "施工中",
    "model": "construction",
    "cell": [
@@ -542,7 +530,6 @@
   {
    "id": "taiping",
    "number": 13,
-   "district": "太平",
    "name": "施工中",
    "model": "construction",
    "cell": [
@@ -560,7 +547,6 @@
   {
    "id": "dadu",
    "number": 14,
-   "district": "大肚・烏日",
    "name": "廚餘湖",
    "model": "foodlake",
    "cell": [
@@ -641,7 +627,6 @@
   {
    "id": "oldtown",
    "number": 15,
-   "district": "中區・南屯",
    "name": "漂浮島",
    "model": "floatisle",
    "cell": [
@@ -689,7 +674,6 @@
   {
    "id": "dali",
    "number": 16,
-   "district": "大里・霧峰",
    "name": "施工中",
    "model": "construction",
    "cell": [
@@ -848,7 +832,7 @@
     "target": "xitun",
     "time": 1320,
     "flows": [],
-    "caption": "死亡島：整理自台中真實的死亡新聞，附新聞來源"
+    "caption": "飛翔島：整理自台中真實的死亡新聞，附新聞來源"
    },
    {
     "from": 46,
@@ -882,7 +866,7 @@
   "intro": [
    {
     "title": "每一格，都是一則傳說",
-    "body": "16 個六邊形，拼成台中市的輪廓。目前開放四座島：取材自市政議題的「垃圾山太空包」與「廚餘湖」、虛構傳說「漂浮島」，以及整理台中真實死亡新聞、附上新聞來源的「死亡島」。其他島還在施工中。"
+    "body": "16 個六邊形，拼成一座城。目前開放四座島：取材自市政議題的「垃圾山太空包」與「廚餘湖」、虛構傳說「漂浮島」，以及整理台中真實死亡新聞、附上新聞來源的「飛翔島」。其他島還在施工中。"
    },
    {
     "title": "紅線把恐懼連起來",

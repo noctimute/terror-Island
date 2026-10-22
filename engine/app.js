@@ -1,6 +1,6 @@
 import { TOP, WILD_TOP, layoutZones, buildCity, createHeightAt } from "./world.js?v=1";
 import { createEnvironment, mulberry } from "./environment.js?v=1";
-import { createKit, MODELS, wildForest } from "./models.js?v=6";
+import { createKit, MODELS, wildForest } from "./models.js?v=7";
 import { createPeople, flowCurve } from "./people.js?v=1";
 import { icon, skulls } from "./icons.js?v=1";
 
@@ -44,7 +44,7 @@ try {
     import("three/addons/controls/OrbitControls.js"),
     import("three/addons/renderers/CSS2DRenderer.js"),
     // each city page points the shared engine at its own content: <main id="app" data-src="../lumama/data.json">
-    fetch(`${$("#app").dataset.src || "./data.json"}?v=6`).then((r) => {
+    fetch(`${$("#app").dataset.src || "./data.json"}?v=7`).then((r) => {
       if (!r.ok) throw Error(`data.json: ${r.status}`);
       return r.json();
     }),
@@ -59,6 +59,7 @@ try {
     eraById = new Map(D.eras.map((e) => [e.id, e]));
   const flowsOf = (zid) => D.flows.filter((f) => f.from === zid || f.to === zid);
   const zoneLabel = (z) => `${pad(z.number)} ${z.name}`;
+  const districtSuffix = (z, sep) => (z.district ? `${sep}${esc(z.district)}` : "");
   const roleLabel = (r) => D.roles[r]?.label || r;
   const carryLabel = (c) => D.carry[c] || c;
   const spotCount = zones.reduce((n, z) => n + z.spots.length, 0);
@@ -425,13 +426,13 @@ try {
     let html = "";
     if (s.type === "zone" && zoneById.get(s.id).wip) {
       const z = zoneById.get(s.id);
-      html = `<div class="eyebrow">${pad(z.number)} · ${esc(z.district)}</div>
+      html = `<div class="eyebrow">${pad(z.number)}${districtSuffix(z, " · ")}</div>
         <h2>🚧 ${esc(z.name)}</h2><p class="lead">${esc(z.summary)}</p>
         <div class="card-actions"><button data-act="prev">← 上一處</button><button data-act="next">下一處 →</button></div>`;
     } else if (s.type === "zone") {
       const z = zoneById.get(s.id);
       const fl = flowsOf(z.id);
-      html = `<div class="eyebrow">LEGEND ${pad(z.number)} · ${esc(z.district)}</div>
+      html = `<div class="eyebrow">LEGEND ${pad(z.number)}${districtSuffix(z, " · ")}</div>
         <h2>${esc(z.name)}</h2><p class="lead">${esc(z.summary)}</p>
         <div class="meta-row">${fearChips(z.fear)}${skulls(z.danger)}</div>
         ${civicBox(z)}${newsBox(z)}
@@ -456,7 +457,7 @@ try {
         <ul class="facts">${sp.facts.map((f) => `<li>${esc(f)}</li>`).join("")}</ul>
         ${helpBox(sp)}${sourceList(sp)}
         <dl class="kv">${sp.date ? `<dt>日期</dt><dd>${esc(sp.date)}</dd>` : ""}${sp.place ? `<dt>地點</dt><dd>${esc(sp.place)}</dd>` : ""}<dt>危險度</dt><dd>${skulls(sp.danger)}</dd><dt>流傳年代</dt><dd>${esc(eraById.get(sp.era).label)}</dd>
-        <dt>所在地</dt><dd>${esc(z.district)}・${esc(z.name)}</dd><dt>恐懼類型</dt><dd>${fearChips(sp.fear)}</dd>
+        <dt>所在地</dt><dd>${z.district ? `${esc(z.district)}・` : ""}${esc(z.name)}</dd><dt>恐懼類型</dt><dd>${fearChips(sp.fear)}</dd>
         <dt>活躍時段</dt><dd>${activeWindows(z.id).join("、") || "—"}</dd></dl>
         ${civicBox(z)}${newsBox(z)}
         <div class="card-actions"><button data-act="prev-spot">← 上一則</button><button data-act="next-spot">下一則 →</button></div>`;
@@ -592,7 +593,7 @@ try {
           const open = state.sel?.zone === z.id || (q && spots.length);
           const off = activeSet() && !zoneMatches(z);
           return `<div class="row${open ? " open" : ""}${off ? " off" : ""}${state.sel?.zone === z.id ? " sel" : ""}">
-            <button class="zrow" data-zone="${z.id}" aria-expanded="${!!open}"><em>${pad(z.number)}</em><span><b>${esc(z.name)}${z.civic ? `<mark class="tag">市政議題</mark>` : ""}${z.news ? `<mark class="tag news-tag">真實新聞</mark>` : ""}${z.wip ? `<mark class="tag wip-tag">施工中</mark>` : ""}</b><small>${esc(z.district)}</small></span><i>${z.spots.length} ↗</i></button>
+            <button class="zrow" data-zone="${z.id}" aria-expanded="${!!open}"><em>${pad(z.number)}</em><span><b>${esc(z.name)}${z.civic ? `<mark class="tag">市政議題</mark>` : ""}${z.news ? `<mark class="tag news-tag">真實新聞</mark>` : ""}${z.wip ? `<mark class="tag wip-tag">施工中</mark>` : ""}</b>${z.district ? `<small>${esc(z.district)}</small>` : ""}</span><i>${z.spots.length} ↗</i></button>
             ${open ? `<ul class="spots">${spots.map((s) => `<li><button data-spot="${s.id}" class="${state.sel?.id === s.id ? "sel" : ""}">${esc(s.name)}<small>${esc(eraById.get(s.era).label)}</small></button></li>`).join("")}</ul>` : ""}
           </div>`;
         })
@@ -634,7 +635,7 @@ try {
   mobileMQ.addEventListener("change", (e) => setSidebar(!e.matches));
 
   // ---------- dock ----------
-  $("#dock").innerHTML = zones.map((z) => `<button data-zone="${z.id}" title="${esc(z.district)}・${esc(z.name)}">${pad(z.number)}</button>`).join("");
+  $("#dock").innerHTML = zones.map((z) => `<button data-zone="${z.id}" title="${z.district ? `${esc(z.district)}・` : ""}${esc(z.name)}">${pad(z.number)}</button>`).join("");
   $("#dock").addEventListener("click", onNavClick);
 
   // ---------- controls: day / era / fear ----------
@@ -799,7 +800,7 @@ try {
     state.hover = id;
     renderer.domElement.style.cursor = id ? "pointer" : "";
     const z = id && zoneById.get(id);
-    $("#mascot-text").textContent = z ? `${zoneLabel(z)} · ${z.district}` : D.ui.mascot;
+    $("#mascot-text").textContent = z ? `${zoneLabel(z)}${z.district ? ` · ${z.district}` : ""}` : D.ui.mascot;
     applyLabels();
   }
 
