@@ -21,24 +21,28 @@ export function createGuns(THREE, { scene, centers, CSS2DObject, rng, count = 12
       spots.push({ x, z });
     }
   }
-  for (let i = spots.length - 1; i > 0; i--) {
-    const j = Math.floor(rng() * (i + 1));
-    [spots[i], spots[j]] = [spots[j], spots[i]];
-  }
-
-  // a few lie in the open ground around the city instead of on a road
-  const picks = spots.slice(0, count - outside).map((p) => ({ ...p, y: 0.02 }));
-  for (let tries = 0; picks.length < count && tries < 400; tries++) {
-    const c = centers[Math.floor(rng() * centers.length)];
-    const a = rng() * Math.PI * 2,
-      r = S * (1.3 + rng() * 1.2);
-    const x = c.x + Math.cos(a) * r,
-      z = c.z + Math.sin(a) * r;
-    if (blocked.some((o) => Math.hypot(x - o.x, z - o.z) < S * 1.15)) continue;
-    if (picks.some((o) => Math.hypot(x - o.x, z - o.z) < S)) continue;
-    const y = groundAt ? groundAt(x, z) : 0;
-    if (y < -0.12 || y > 0.9) continue;
-    picks.push({ x, z, y: y + 0.02 });
+  // random spots for n guns: most on the roads, a few in the open ground around the city
+  function placeSpots(n) {
+    const road = [...spots];
+    for (let i = road.length - 1; i > 0; i--) {
+      const j = Math.floor(rng() * (i + 1));
+      [road[i], road[j]] = [road[j], road[i]];
+    }
+    const nOut = Math.round((n * outside) / count);
+    const picks = road.slice(0, n - nOut).map((p) => ({ ...p, y: 0.02 }));
+    for (let tries = 0; picks.length < n && tries < 400; tries++) {
+      const c = centers[Math.floor(rng() * centers.length)];
+      const a = rng() * Math.PI * 2,
+        r = S * (1.3 + rng() * 1.2);
+      const x = c.x + Math.cos(a) * r,
+        z = c.z + Math.sin(a) * r;
+      if (blocked.some((o) => Math.hypot(x - o.x, z - o.z) < S * 1.15)) continue;
+      if (picks.some((o) => Math.hypot(x - o.x, z - o.z) < S)) continue;
+      const y = groundAt ? groundAt(x, z) : 0;
+      if (y < -0.12 || y > 0.9) continue;
+      picks.push({ x, z, y: y + 0.02 });
+    }
+    return picks;
   }
 
   let found = new Set();
@@ -65,42 +69,47 @@ export function createGuns(THREE, { scene, centers, CSS2DObject, rng, count = 12
   const pillarMat = new THREE.MeshBasicMaterial({ color: 0x6fe3ff, transparent: true, opacity: 0.12, side: THREE.DoubleSide, toneMapped: false, depthWrite: false, blending: THREE.AdditiveBlending });
 
   const guns = [];
-  picks.forEach((p, i) => {
-    const id = `g${i}`;
-    if (found.has(id)) return;
-    // GTA-style pickup: the gun floats upright, spinning and bobbing over a glowing ring and a faint light pillar
-    const g = new THREE.Group();
-    const spin = new THREE.Group();
-    g.add(spin);
-    const m = (geo, mat, x, y, z, rz = 0) => {
-      const mesh = new THREE.Mesh(geo, mat);
-      mesh.position.set(x, y, z);
-      mesh.rotation.z = rz;
-      spin.add(mesh);
-    };
-    m(slide, metal, 0, 0.1, 0);
-    m(barrel, metal, 0.2, 0.11, 0);
-    m(handle, grip, -0.11, 0.01, 0, -0.25);
-    m(guard, metal, -0.02, 0.05, 0, Math.PI);
-    const ring = new THREE.Mesh(ringGeo, glowMat);
-    ring.rotation.x = -Math.PI / 2;
-    ring.position.y = 0.02;
-    g.add(ring);
-    const pillar = new THREE.Mesh(pillarGeo, pillarMat);
-    pillar.position.y = 0.35;
-    g.add(pillar);
-    g.position.set(p.x, p.y, p.z);
-    g.scale.setScalar(1.7);
-    const hit = new THREE.Mesh(hitGeo, hitMat);
-    hit.position.y = 0.2;
-    hit.visible = false;
-    hit.userData.gun = id;
-    g.add(hit);
-    scene.add(g);
-    spin.userData.ph = rng() * Math.PI * 2;
-    spin.rotation.y = spin.userData.ph;
-    guns.push({ id, g, hit, spin, ring });
-  });
+  // drop a gun into every slot that has not been collected yet, each at a fresh random spot
+  function spawn() {
+    const slots = Array.from({ length: count }, (_, i) => `g${i}`).filter((id) => !found.has(id));
+    const picks = placeSpots(slots.length);
+    slots.forEach((id, i) => {
+      const p = picks[i];
+      if (!p) return;
+      // GTA-style pickup: the gun floats upright, spinning and bobbing over a glowing ring and a faint light pillar
+      const g = new THREE.Group();
+      const spin = new THREE.Group();
+      g.add(spin);
+      const m = (geo, mat, x, y, z, rz = 0) => {
+        const mesh = new THREE.Mesh(geo, mat);
+        mesh.position.set(x, y, z);
+        mesh.rotation.z = rz;
+        spin.add(mesh);
+      };
+      m(slide, metal, 0, 0.1, 0);
+      m(barrel, metal, 0.2, 0.11, 0);
+      m(handle, grip, -0.11, 0.01, 0, -0.25);
+      m(guard, metal, -0.02, 0.05, 0, Math.PI);
+      const ring = new THREE.Mesh(ringGeo, glowMat);
+      ring.rotation.x = -Math.PI / 2;
+      ring.position.y = 0.02;
+      g.add(ring);
+      const pillar = new THREE.Mesh(pillarGeo, pillarMat);
+      pillar.position.y = 0.35;
+      g.add(pillar);
+      g.position.set(p.x, p.y, p.z);
+      g.scale.setScalar(1.7);
+      const hit = new THREE.Mesh(hitGeo, hitMat);
+      hit.position.y = 0.2;
+      hit.visible = false;
+      g.add(hit);
+      scene.add(g);
+      spin.userData.ph = rng() * Math.PI * 2;
+      spin.rotation.y = spin.userData.ph;
+      guns.push({ id, g, hit, spin, ring });
+    });
+  }
+  spawn();
 
   const toasts = [];
   function toast(at, text) {
@@ -122,9 +131,13 @@ export function createGuns(THREE, { scene, centers, CSS2DObject, rng, count = 12
     hud.classList.toggle("done", !left);
   }
   hud?.querySelector("[data-gun-reset]")?.addEventListener("click", () => {
+    // start over without reloading the page: clear the map and scatter all 12 again
+    for (const gun of guns) scene.remove(gun.g);
+    guns.length = 0;
     found.clear();
     save();
-    location.reload();
+    spawn();
+    renderHud();
   });
   renderHud();
 
