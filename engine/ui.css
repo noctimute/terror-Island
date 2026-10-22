@@ -304,7 +304,8 @@ body.touring .controls, body.touring .dock, body.touring .card, body.touring .ma
   .toolbar { top: max(10px, env(safe-area-inset-top)); right: 10px; flex-direction: column; }
   .toolbar button { height: 40px; padding: 0 12px; font-size: 12px; }
   .toolbar .square { width: 40px; padding: 0; }
-  .chip { font-size: 10.5px; padding: 3px 7px; gap: 4px; }
+  .chip { font-size: 9.5px; padding: 2px 6px; gap: 3px; }
+  .chip b { font-size: 8.5px; }
   .chip.awake::after { width: 5px; height: 5px; }
   .hud { top: auto; left: 10px; right: 10px; bottom: max(10px, env(safe-area-inset-bottom)); }
   .toggles { overflow-x: auto; scrollbar-width: none; }

@@ -199,6 +199,27 @@ function qdead(d, s = 1) {
   d.cyl(0.13 * s, 0.17 * s, 0, 0.04 * s, 0.16 * s, 0.04 * s, 0xf0dcc8, { rz: -0.5 });
 }
 
+// faceless black figure (white eyes with pin pupils, white grin); built facing +z in a dyn group.
+// Returns its two arm pivots so a model can swing them.
+function shadowman(d, s = 1) {
+  const ink = 0x15141a;
+  d.rbox(0, 0.24 * s, 0, 0.26 * s, 0.42 * s, 0.18 * s, ink);
+  d.sphere(0, 0.6 * s, 0, 0.3 * s, 0.32 * s, 0.28 * s, ink);
+  for (const ex of [-0.065, 0.065]) {
+    d.box(ex * s, 0.64 * s, 0.13 * s, 0.09 * s, 0.04 * s, 0.01 * s, C.white, { glow: true, rz: ex < 0 ? -0.25 : 0.25 });
+    d.box(ex * s, 0.64 * s, 0.137 * s, 0.012 * s, 0.012 * s, 0.01 * s, C.black);
+  }
+  d.box(0, 0.52 * s, 0.128 * s, 0.13 * s, 0.03 * s, 0.01 * s, C.white, { glow: true }); // grin
+  const arms = [-0.16, 0.16].map((ax) => {
+    const a = d.dyn(ax * s, 0.4 * s, 0);
+    a.cyl(0, -0.13 * s, 0, 0.05 * s, 0.26 * s, 0.05 * s, ink);
+    return a.node;
+  });
+  d.cyl(-0.07 * s, 0.02 * s, 0, 0.06 * s, 0.06 * s, 0.06 * s, ink);
+  d.cyl(0.07 * s, 0.02 * s, 0, 0.06 * s, 0.06 * s, 0.06 * s, ink);
+  return arms;
+}
+
 // ---------- the 16 legends ----------
 export const MODELS = {
   // islands still being written: one shared fenced site with a crane
@@ -585,6 +606,14 @@ export const MODELS = {
     tw.box(0.16, 2.4, 0.49, 0.5, 0.1, 0.02, 0x2a2224); // soot band
     // rooftop ledge where the little figure stands
     tw.box(0, 3.3, 0.42, 0.95, 0.06, 0.12, 0x8c939b);
+    // two black figures stand back on the roof and only watch (the news says foul play was ruled out)
+    const watchers = [-0.72, 0.02].map((x) => {
+      const w = p.dyn(x, 3.33, -0.62);
+      shadowman(w, 0.7);
+      w.node.rotation.x = 0.2;
+      return w.node;
+    });
+    p.anim((t) => watchers.forEach((n, i) => (n.rotation.z = Math.sin(t * 0.8 + i * 2) * 0.04)));
     // a fallen-then-reset Q figure: stands at the edge, drops, lies on the plaza, repeats
     const faller = p.dyn(-0.35, 3.33, -0.25);
     qdead(faller);
@@ -638,6 +667,59 @@ export const MODELS = {
     });
     for (let i = 0; i < 5; i++) p.cone(1.15 + (i % 2) * 0.12, 0.14, 0.75 + i * 0.1, 0.05, 0.28, 0.05, 0x55704a, { rz: (rng() - 0.5) * 0.5 });
     return { mist: 3, mistY: 0.2 };
+  },
+
+  // 15 中區・南屯：頂樓的黑影（虛構傳說）
+  shadowroof(p, rng) {
+    const bd = p.sub(0, 0, -0.55);
+    bd.box(0, 1.1, 0, 1.3, 2.2, 1.0, 0x7a5a4a);
+    bd.box(0, 2.22, 0, 1.36, 0.06, 1.06, 0x4a3a34);
+    for (let f = 0; f < 6; f++)
+      for (let c = 0; c < 3; c++) {
+        const lit = rng() < 0.25;
+        bd.box(-0.38 + c * 0.38, 0.35 + f * 0.32, 0.505, 0.2, 0.16, 0.02, lit ? C.warm : C.glass, { glow: lit });
+      }
+    bd.box(0, 0.22, 0.51, 0.3, 0.44, 0.02, C.dwood);
+    lantern(bd, -0.55, 0.75, 0.55, C.blood, 0.6);
+    lantern(bd, 0.55, 0.75, 0.55, C.blood, 0.6);
+    const ROOF = 2.25,
+      pair = [-0.24, 0.24].map((x) => {
+        const g = p.dyn(x, ROOF, -0.2);
+        const arms = shadowman(g, 0.75);
+        return { arms, inner: x < 0 ? 1 : 0 };
+      });
+    const victim = p.dyn(0, ROOF + 0.18, 0.0);
+    qdead(victim, 0.75);
+    p.anim((t) => {
+      const u = (t % 6.5) / 6.5,
+        v = victim.node;
+      // arms: held out (0–0.4), swing forward to throw (0.4–0.5), drop back down after
+      const reach = u < 0.4 ? -1.25 : u < 0.5 ? -1.25 - ((u - 0.4) / 0.1) * 0.6 : u < 0.6 ? -1.85 + ((u - 0.5) / 0.1) * 1.85 : 0;
+      for (const pr of pair) for (const a of pr.arms) a.rotation.x = reach;
+      if (u < 0.4) {
+        v.position.set(0, ROOF + 0.18 + Math.sin(t * 6) * 0.01, 0.0);
+        v.rotation.set(0, 0, Math.sin(t * 9) * 0.15);
+      } else if (u < 0.5) {
+        const k = (u - 0.4) / 0.1;
+        v.position.set(0, ROOF + 0.18 + k * 0.12, k * 0.3);
+        v.rotation.set(k * 0.8, 0, 0);
+      } else if (u < 0.72) {
+        const k = (u - 0.5) / 0.22;
+        v.position.set(0, ROOF + 0.3 - (ROOF + 0.25) * k * k, 0.3 + k * 0.45);
+        v.rotation.set(0.8 + k * Math.PI * 1.6, 0, k * 0.5);
+      } else {
+        v.position.set(0, 0.05, 0.75);
+        v.rotation.set(-Math.PI / 2, 0, 0.5);
+      }
+    });
+    // street below: lamp posts and a dark puddle where it lands
+    p.cyl(0, 0.012, 0.8, 0.9, 0.02, 0.6, 0x3a1416);
+    for (const x of [-1.1, 1.1]) {
+      p.cyl(x, 0.45, 0.6, 0.04, 0.9, 0.04, C.black);
+      p.sphere(x, 0.92, 0.6, 0.12, 0.12, 0.12, C.lamp, { glow: true });
+    }
+    deadTree(p, -1.2, -0.8, 1.1);
+    deadTree(p, 1.15, -0.95, 0.9, 1.2);
   },
 
   // 12 北屯：第七病棟
