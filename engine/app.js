@@ -1,6 +1,6 @@
 import { TOP, WILD_TOP, layoutZones, buildCity, createHeightAt } from "./world.js?v=1";
 import { createEnvironment, mulberry } from "./environment.js?v=1";
-import { createKit, MODELS, wildForest } from "./models.js?v=2";
+import { createKit, MODELS, wildForest } from "./models.js?v=3";
 import { createPeople, flowCurve } from "./people.js?v=1";
 import { icon, skulls } from "./icons.js?v=1";
 
@@ -39,7 +39,7 @@ try {
     import("three/addons/controls/OrbitControls.js"),
     import("three/addons/renderers/CSS2DRenderer.js"),
     // each city page points the shared engine at its own content: <main id="app" data-src="../lumama/data.json">
-    fetch(`${$("#app").dataset.src || "./data.json"}?v=2`).then((r) => {
+    fetch(`${$("#app").dataset.src || "./data.json"}?v=3`).then((r) => {
       if (!r.ok) throw Error(`data.json: ${r.status}`);
       return r.json();
     }),
@@ -57,6 +57,7 @@ try {
   const roleLabel = (r) => D.roles[r]?.label || r;
   const carryLabel = (c) => D.carry[c] || c;
   const spotCount = zones.reduce((n, z) => n + z.spots.length, 0);
+  const openCount = zones.filter((z) => !z.wip).length;
   const ONBOARD_KEY = `ti-onboarded-${D.meta.slug || "city"}`;
   $(".brand h1").textContent = D.meta.title;
   $(".hero-note .number").textContent = zones.length;
@@ -411,7 +412,12 @@ try {
       return;
     }
     let html = "";
-    if (s.type === "zone") {
+    if (s.type === "zone" && zoneById.get(s.id).wip) {
+      const z = zoneById.get(s.id);
+      html = `<div class="eyebrow">${pad(z.number)} · ${esc(z.district)}</div>
+        <h2>🚧 ${esc(z.name)}</h2><p class="lead">${esc(z.summary)}</p>
+        <div class="card-actions"><button data-act="prev">← 上一處</button><button data-act="next">下一處 →</button></div>`;
+    } else if (s.type === "zone") {
       const z = zoneById.get(s.id);
       const fl = flowsOf(z.id);
       html = `<div class="eyebrow">LEGEND ${pad(z.number)} · ${esc(z.district)}</div>
@@ -529,7 +535,7 @@ try {
 
   // ---------- sidebar ----------
   $("#disclaimer").textContent = D.meta.disclaimer;
-  $("#side-count").innerHTML = `${zones.length} 處傳說地點 ／ ${spotCount} 則傳說<br>選一處地點，走進它的恐怖風景。`;
+  $("#side-count").innerHTML = `${openCount} 處開放地點 ／ ${spotCount} 則內容（其餘 ${zones.length - openCount} 處施工中）<br>選一處地點，走進它的恐怖風景。`;
   $("#tab-flows").textContent = `詛咒連線 ${D.flows.length}`;
   const norm = (s) => String(s || "").toLowerCase();
   function renderTree() {
@@ -544,7 +550,7 @@ try {
           const open = state.sel?.zone === z.id || (q && spots.length);
           const off = activeSet() && !zoneMatches(z);
           return `<div class="row${open ? " open" : ""}${off ? " off" : ""}${state.sel?.zone === z.id ? " sel" : ""}">
-            <button class="zrow" data-zone="${z.id}" aria-expanded="${!!open}"><em>${pad(z.number)}</em><span><b>${esc(z.name)}${z.civic ? `<mark class="tag">市政議題</mark>` : ""}${z.news ? `<mark class="tag news-tag">真實新聞</mark>` : ""}</b><small>${esc(z.district)}</small></span><i>${z.spots.length} ↗</i></button>
+            <button class="zrow" data-zone="${z.id}" aria-expanded="${!!open}"><em>${pad(z.number)}</em><span><b>${esc(z.name)}${z.civic ? `<mark class="tag">市政議題</mark>` : ""}${z.news ? `<mark class="tag news-tag">真實新聞</mark>` : ""}${z.wip ? `<mark class="tag wip-tag">施工中</mark>` : ""}</b><small>${esc(z.district)}</small></span><i>${z.spots.length} ↗</i></button>
             ${open ? `<ul class="spots">${spots.map((s) => `<li><button data-spot="${s.id}" class="${state.sel?.id === s.id ? "sel" : ""}">${esc(s.name)}<small>${esc(eraById.get(s.era).label)}</small></button></li>`).join("")}</ul>` : ""}
           </div>`;
         })
@@ -690,11 +696,12 @@ try {
   $("#log-list").addEventListener("click", onNavClick);
   function renderOverview() {
     const cy = currentCycle();
-    const avg = (zones.reduce((n, z) => n + z.danger, 0) / zones.length).toFixed(1);
+    const open = zones.filter((z) => !z.wip);
+    const avg = (open.reduce((n, z) => n + z.danger, 0) / open.length).toFixed(1);
     const counts = D.fear.map((f) => ({ f, n: zones.filter((z) => z.fear.includes(f.id)).length }));
     const max = Math.max(...counts.map((c) => c.n));
     $("#overview-panel").innerHTML = `<div class="stats">
-      <div><b>${zones.length}</b><span>傳說地點</span></div><div><b>${spotCount}</b><span>則傳說</span></div>
+      <div><b>${openCount}</b><span>開放地點</span></div><div><b>${spotCount}</b><span>則傳說</span></div>
       <div><b>${D.flows.length}</b><span>詛咒連線</span></div><div><b>${avg}</b><span>平均危險度</span></div></div>
       <h4>現在 ${fmt(state.minute)}・正在甦醒</h4><p>${cy.zones.map((id) => esc(zoneById.get(id).name)).join("、")}<br><small>${esc(cy.label)}</small></p>
       <h4>FEAR 分布</h4>${counts.map((c) => `<div class="bar"><span>${c.f.id} ${esc(c.f.name)}</span><i style="--w:${(c.n / max) * 100}%;--c:${c.f.color}"></i><b>${c.n}</b></div>`).join("")}`;
@@ -715,6 +722,7 @@ try {
     ambientIn = 4 + logRng() * 5;
     const cy = currentCycle();
     const z = zoneById.get(cy.zones[Math.floor(logRng() * cy.zones.length)]);
+    if (!z?.spots.length) return;
     const s = z.spots[Math.floor(logRng() * z.spots.length)];
     pushLog({ text: `${z.name}・${s.name}：${verbs[Math.floor(logRng() * verbs.length)]}`, zone: z.id });
   }

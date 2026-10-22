@@ -201,6 +201,40 @@ function qdead(d, s = 1) {
 
 // ---------- the 16 legends ----------
 export const MODELS = {
+  // islands still being written: one shared fenced site with a crane
+  construction(p) {
+    p.cyl(0, 0.01, 0, 2.7, 0.02, 2.5, 0x8a7a62);
+    // hoarding around the plot, striped panels
+    for (let i = 0; i < 14; i++) {
+      const a = (i / 14) * Math.PI * 2;
+      p.box(Math.cos(a) * 1.45, 0.2, Math.sin(a) * 1.35, 0.62, 0.4, 0.04, i % 2 ? C.white : 0xe07a1f, { ry: -a + Math.PI / 2 });
+    }
+    // tower crane
+    const cr = p.sub(0.55, 0, -0.45);
+    cr.box(0, 1.3, 0, 0.16, 2.6, 0.16, C.yellow);
+    for (let i = 0; i < 6; i++) cr.box(0, 0.2 + i * 0.42, 0.085, 0.16, 0.025, 0.01, 0x8a6a1e, { rz: 0.7 });
+    cr.box(0, 2.62, 0, 0.26, 0.2, 0.26, C.yellow);
+    cr.box(-0.55, 2.78, 0, 1.6, 0.08, 0.1, C.yellow);
+    cr.box(0.38, 2.7, 0, 0.26, 0.2, 0.2, 0x5a5a5a);
+    cr.cyl(-1.1, 2.4, 0, 0.012, 0.7, 0.012, C.black);
+    cr.box(-1.1, 2.03, 0, 0.12, 0.05, 0.12, C.dstone);
+    // half-built frame
+    const fr = p.sub(-0.45, 0, -0.35);
+    for (const [x, z] of [[-0.35, -0.3], [0.35, -0.3], [-0.35, 0.3], [0.35, 0.3]]) fr.box(x, 0.55, z, 0.06, 1.1, 0.06, C.stone);
+    fr.box(0, 0.55, 0, 0.82, 0.05, 0.72, C.stone);
+    fr.box(0, 1.1, 0, 0.82, 0.05, 0.72, C.stone);
+    // sand pile, cones and a striped barrier
+    p.cone(0.25, 0.15, 0.65, 0.6, 0.3, 0.5, 0xc9b07a);
+    for (const [x, z] of [[-0.9, 0.75], [-0.6, 0.95], [0.9, 0.55]]) p.cone(x, 0.11, z, 0.13, 0.22, 0.13, 0xf06a1e);
+    const bar = p.sub(-0.75, 0, 0.45, 0.3);
+    bar.box(-0.25, 0.12, 0, 0.04, 0.24, 0.04, C.white);
+    bar.box(0.25, 0.12, 0, 0.04, 0.24, 0.04, C.white);
+    for (let i = 0; i < 4; i++) bar.box(-0.19 + i * 0.125, 0.22, 0, 0.12, 0.07, 0.02, i % 2 ? C.white : C.red);
+    // blinking warning lamp on top of a cone
+    const lamp = lantern(p.dyn(0.9, 0.27, 0.55), 0, 0, 0, 0xffa21a, 0.4, { own: true });
+    p.anim((t) => (lamp.material.userData.flick = Math.sin(t * 5) > 0 ? 1 : 0.15));
+  },
+
   // 01 大甲・大安：稻草人之田
   scarecrow(p, rng) {
     for (let i = -4; i <= 4; i++) {
