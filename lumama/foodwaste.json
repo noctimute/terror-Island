@@ -1,0 +1,102 @@
+{
+ "title": "台中廚餘堆置新聞",
+ "note": "整理自 Threads 上流傳的台中「垃圾山」九宮格圖片",
+ "helpline": false,
+ "fear": [],
+ "danger": 3,
+ "updated": "2026-10-22",
+ "records": [
+  {
+   "id": "f-wufeng",
+   "title": "霧峰掩埋場挖坑倒廚餘 廚餘水溢流",
+   "date": "2025-10",
+   "place": "霧峰",
+   "summary": "【市府場站】非洲豬瘟禁止廚餘養豬後，環保局在霧峰象鼻坑掩埋場挖坑傾倒熟廚餘，出現廚餘水溢流；環保局長承認第一時間未達中央標準，之後覆土並停用霧峰，改以焚化為主。",
+   "sources": [
+    {
+     "title": "台中130萬人口廚餘埋霧峰 民怒：大里垃圾山、霧峰廚餘坑",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/breakingnews/5223227"
+    },
+    {
+     "title": "台中霧峰掩埋場廚餘水溢流  市府：已加強覆土",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/aloc/202510300315.aspx"
+    },
+    {
+     "title": "台中一桶桶廚餘狂倒進坑 民代揭掩埋場淪廚餘海",
+     "outlet": "華視新聞",
+     "url": "https://news.cts.com.tw/cts/general/202510/202510282526900.html"
+    },
+    {
+     "title": "直擊霧峰廚餘噴泉！江和樹喊「阿娘喂、好噁心」台中市政府這麼說",
+     "outlet": "Newtalk 新聞",
+     "url": "https://newtalk.tw/news/view/2025-11-02/1002255"
+    },
+    {
+     "title": "台中「廚餘大峽谷」震撼畫面曝光 他怒轟：太欺負霧峰人",
+     "outlet": "壹蘋新聞網",
+     "url": "https://tw.nextapple.com/life/20251029/2FC73BD569D5EC6708FCFAC0DF9F6AA3"
+    }
+   ]
+  },
+  {
+   "id": "f-dongshi",
+   "title": "東勢清潔隊後方堆生廚餘 政風室調查",
+   "date": "2026-04",
+   "place": "東勢",
+   "summary": "【市府場站】民眾檢舉東勢清潔隊把生廚餘堆在隊部後方、靠近沙連溪；環保局說是「暫置分類、不是棄置」，下方有防水層，全案由政風室調查。雙方說法不一。",
+   "sources": [
+    {
+     "title": "台中東勢清潔隊疑違規處理生廚餘 民眾質疑環保局包庇",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/Taichung/breakingnews/5419374"
+    },
+    {
+     "title": "東勢民眾爆清潔隊廚餘亂倒 質疑包庇怠惰 環保局：暫置分類非棄置",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7325/9471771"
+    },
+    {
+     "title": "東勢清潔隊遭爆隨意堆置廚餘 台中環保局回應了",
+     "outlet": "工商時報",
+     "url": "https://www.ctee.com.tw/news/20260429701653-431401"
+    }
+   ]
+  },
+  {
+   "id": "f-dajia",
+   "title": "大甲海邊農地堆逾1200噸廚餘殘渣 起訴10人",
+   "date": "2025",
+   "place": "大甲",
+   "summary": "【非法傾倒】大甲海邊農地被一家生物農業公司以「假賣肥料、真堆置」堆了逾 1200 噸廚餘殘渣與蛋殼，中檢 2025 年 9 月起訴 10 人。另外大甲清潔隊掩埋場也是 2025 年 10 月 11 處廚餘臨時堆肥點之一，照片是哪一處無法確認。",
+   "sources": [
+    {
+     "title": "台中大甲驚見「垃圾山」！ 1200噸廚餘、蛋殼堆置 海邊惡臭熏天",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5174694"
+    },
+    {
+     "title": "台中大甲農地非法堆置千噸廚餘 地主、再利用公司業者遭起訴",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/770101"
+    },
+    {
+     "title": "聯合新聞網報導",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7321/8999938"
+    },
+    {
+     "title": "彰化生農公司涉非法堆廢棄物逾千噸 中檢起訴10人",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202509110248.aspx"
+    },
+    {
+     "title": "廚餘大戰一觸即發！台中急設11處「挖坑掩埋」堆肥點曝光",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/breakingnews/5222503"
+    }
+   ]
+  }
+ ]
+}

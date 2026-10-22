@@ -44,7 +44,7 @@ try {
     import("three/addons/controls/OrbitControls.js"),
     import("three/addons/renderers/CSS2DRenderer.js"),
     // each city page points the shared engine at its own content: <main id="app" data-src="../lumama/data.json">
-    fetch(`${$("#app").dataset.src || "./data.json"}?v=13`)
+    fetch(`${$("#app").dataset.src || "./data.json"}?v=14`)
       .then((r) => {
         if (!r.ok) throw Error(`data.json: ${r.status}`);
         return r.json();
@@ -63,8 +63,8 @@ try {
                 id: r.id,
                 name: r.title || r.sources.find((x) => !x.title.endsWith("報導"))?.title || `${r.date} ${r.place}`,
                 era: "now",
-                fear: ["D"],
-                danger: 5,
+                fear: r.fear ?? R.fear ?? ["D"],
+                danger: r.danger ?? R.danger ?? 5,
                 date: r.date,
                 place: r.place,
                 plain: r.summary,
@@ -482,12 +482,12 @@ try {
       const sp = spotById.get(s.id),
         z = zoneById.get(sp.zone);
       html = `<button class="back" data-zone="${z.id}">← ${esc(zoneLabel(z))}</button>
-        <div class="eyebrow">${esc(eraById.get(sp.era).label)} · ${sp.fear.map((f) => esc(fearById.get(f).name)).join(" / ")}</div>
+        <div class="eyebrow">${esc(eraById.get(sp.era).label)}${sp.fear.length ? ` · ${sp.fear.map((f) => esc(fearById.get(f).name)).join(" / ")}` : ""}</div>
         <h2>${esc(sp.name)}</h2><p class="lead">${esc(sp.plain)}</p>
         ${sp.facts.length ? `<ul class="facts">${sp.facts.map((f) => `<li>${esc(f)}</li>`).join("")}</ul>` : ""}
         ${helpBox(sp)}${sourceList(sp)}
         <dl class="kv">${sp.date ? `<dt>日期</dt><dd>${esc(sp.date)}</dd>` : ""}${sp.place ? `<dt>地點</dt><dd>${esc(sp.place)}</dd>` : ""}<dt>危險度</dt><dd>${skulls(sp.danger)}</dd><dt>流傳年代</dt><dd>${esc(eraById.get(sp.era).label)}</dd>
-        <dt>所在地</dt><dd>${z.district ? `${esc(z.district)}・` : ""}${esc(z.name)}</dd><dt>恐懼類型</dt><dd>${fearChips(sp.fear)}</dd>
+        <dt>所在地</dt><dd>${z.district ? `${esc(z.district)}・` : ""}${esc(z.name)}</dd>${sp.fear.length ? `<dt>恐懼類型</dt><dd>${fearChips(sp.fear)}</dd>` : ""}
         <dt>活躍時段</dt><dd>${activeWindows(z.id).join("、") || "—"}</dd></dl>
         ${civicBox(z)}${newsBox(z)}
         <div class="card-actions"><button data-act="prev-spot">← 上一則</button><button data-act="next-spot">下一則 →</button></div>`;

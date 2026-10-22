@@ -1,0 +1,272 @@
+{
+ "title": "台中垃圾與廢棄物堆置新聞",
+ "note": "整理自 Threads 上流傳的台中「垃圾山」九宮格圖片",
+ "helpline": false,
+ "fear": [],
+ "danger": 3,
+ "updated": "2026-10-22",
+ "records": [
+  {
+   "id": "g-dali",
+   "title": "大里掩埋場垃圾山 堆置逾47萬噸",
+   "date": "2025-09",
+   "place": "大里",
+   "summary": "【市府場站】大里掩埋場暫置的垃圾，2025 年 9 月環保局公布約 38.5 萬噸，之後報導已超過 47 萬噸；市府原規劃 2042 年清完，分選工程後稱可提早到 2034 年。環保局表示這是合法暫置場、並未滿載。",
+   "sources": [
+    {
+     "title": "台中大里掩埋場遠眺可見半山腰裸置垃圾 綠議員憂惡夢",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/aloc/202509020121.aspx"
+    },
+    {
+     "title": "大里堆置垃圾逾47萬噸 中市府：焚化爐量能提升一周可多處理千噸",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7325/9717479"
+    },
+    {
+     "title": "台中養出全國最大垃圾山 議員轟：盧秀燕擺爛7年還在做秀",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250912/3032468.htm"
+    },
+    {
+     "title": "台中大里34萬噸垃圾堆成山「18年後才燒完」 議員批盧秀燕：別哭窮擺爛",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1718057"
+    },
+    {
+     "title": "堆置量高達38.5萬噸！台中大里垃圾山爭議一次看！政策缺失？盧秀燕怎麼說？",
+     "outlet": "遠見雜誌",
+     "url": "https://www.gvm.com.tw/article/124605"
+    }
+   ]
+  },
+  {
+   "id": "g-wufeng-ash",
+   "title": "霧峰掩埋場堆置焚化飛灰",
+   "date": "2021～2025",
+   "place": "霧峰",
+   "summary": "【市府場站】霧峰掩埋場被用來掩埋焚化爐飛灰穩定化物：2021 年環保局重啟掩埋、議員反對，2023 年議會報告也寫明可堆置飛灰。但沒有新聞報導過太空包露天堆放的畫面，照片的地點與時間無法確認（部分屬實）。",
+   "sources": [
+    {
+     "title": "中市重啟霧峰掩埋場 議員抨擊",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/newspapers/20210422000674-260107"
+    },
+    {
+     "title": "霧峰掩埋場擬活化再利用 居民有疑慮議員也反對",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/politics/breakingnews/3506824"
+    },
+    {
+     "title": "台中130萬人口廚餘埋霧峰 民怒：大里垃圾山、霧峰廚餘坑",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/breakingnews/5223227"
+    },
+    {
+     "title": "臺中市每年爐渣與飛灰處理方式、成本分析及未來規劃專案報告（2023 議會報告）",
+     "outlet": "台中市政府",
+     "url": "https://www.rdec.taichung.gov.tw/media/921859/1120418-3-%E8%87%BA%E4%B8%AD%E5%B8%82%E6%AF%8F%E5%B9%B4%E7%88%90%E6%B8%A3%E8%88%87%E9%A3%9B%E7%81%B0%E8%99%95%E7%90%86%E6%96%B9%E5%BC%8F-%E6%88%90%E6%9C%AC%E5%88%86%E6%9E%90%E5%8F%8A%E6%9C%AA%E4%BE%86%E8%A6%8F%E5%8A%83%E5%B0%88%E6%A1%88%E5%A0%B1%E5%91%8A-%E7%92%B0%E4%BF%9D.pdf"
+    }
+   ]
+  },
+  {
+   "id": "g-tanzi",
+   "title": "潭子「床墊萬里長城」 3000張廢床墊綿延600公尺",
+   "date": "2026",
+   "place": "潭子",
+   "summary": "【市府場站】潭子清潔隊回收場堆了約 3000 張廢床墊、綿延約 600 公尺，因發包兩度流標；全市一度有約 2 萬張待處理。2026 年 9 月報導已全數清除。",
+   "sources": [
+    {
+     "title": "台中潭子出現「床的世界」3000廢床墊如長城 環保局：11月前去化",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/breakingnews/5441943"
+    },
+    {
+     "title": "恐成老鼠溫床…3000張廢床墊堆如萬里長城 處理時間曝光",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7266/9511288"
+    },
+    {
+     "title": "台中驚見「床墊萬里長城」3千張廢床墊堆8個月 環保局：去化發包作業中",
+     "outlet": "CTWANT",
+     "url": "https://www.ctwant.com/article/481654/"
+    },
+    {
+     "title": "潭子3千張床墊近1年沒人清運 疊成「萬里長城」 議員批：恐成鼠患溫床",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/News.aspx?NewsID=1840358"
+    },
+    {
+     "title": "台中「萬里床城」清空了 增加去化量能！3千廢床墊全數清除",
+     "outlet": "壹蘋新聞網",
+     "url": "https://news.nextapple.com/life/20260916/0BA0D376FDBD5C2107F75EFE62B7FA96"
+    }
+   ]
+  },
+  {
+   "id": "g-shalu",
+   "title": "沙鹿掩埋場堆出「廢木材山」",
+   "date": "2026-06",
+   "place": "沙鹿",
+   "summary": "【市府場站】議員會勘沙鹿掩埋場，大門周邊堆滿廢木材、廢家具與廢床墊；環保局說是清潔隊暫置的回收物與大型廢棄物，已規劃專案清運。",
+   "sources": [
+    {
+     "title": "民代憂大里垃圾山在沙鹿重演 中市環保局：強化分類管理和去化",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7325/9552967"
+    },
+    {
+     "title": "沙鹿掩埋場爆廢棄物群山 議員批去化失靈",
+     "outlet": "NOWnews",
+     "url": "https://www.nownews.com/news/6844499"
+    },
+    {
+     "title": "繼床墊長城！中市議員曝：沙鹿「廢木材山」高聳",
+     "outlet": "工商時報",
+     "url": "https://www.ctee.com.tw/news/20260608701238-431401"
+    },
+    {
+     "title": "民代再爆料 沙鹿有座廢木材山",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/newspapers/20260609000582-260107"
+    },
+    {
+     "title": "回收謊言2／大里垃圾山翻版 直擊暫置變囤積 廢材床墊機車堆成山",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/News.aspx?NewsID=1851388"
+    }
+   ]
+  },
+  {
+   "id": "g-central-market",
+   "title": "中央市場改建工地淪垃圾場 清出133.7公噸",
+   "date": "2026-05",
+   "place": "北區",
+   "summary": "【市府工程工地】北區中央市場拆除改建工地堆出垃圾小山，是攤商遺留的廢棄物，碰上焚化爐歲修無法外運；經發局說 5 月 1 日已清除 133.7 公噸。這裡是工地，不是掩埋場。",
+   "sources": [
+    {
+     "title": "台中北區中央市場改建淪垃圾場 經發局：要求5月底完成清運",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/803743"
+    },
+    {
+     "title": "北區超精華地「中央市場」招商卡關淪垃圾場 挨批無能",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/breakingnews/5434072"
+    },
+    {
+     "title": "精華地淪垃圾場？台中北區「中央市場」招商卡關挨批無能 市府說話了",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7325/9498113"
+    },
+    {
+     "title": "精華地變爛攤子… 台中中央市場淪為垃圾處理場 民眾怨臭氣熏天",
+     "outlet": "壹電視",
+     "url": "https://www.nexttv.com.tw/NextTV/News/Home/Life/2026-06-14/2376913.html"
+    },
+    {
+     "title": "中廣新聞網報導",
+     "outlet": "中廣新聞網",
+     "url": "https://bccnews.com.tw/archives/781265"
+    }
+   ]
+  },
+  {
+   "id": "g-longjing",
+   "title": "中捷藍線機廠預定地挖出垃圾山 清運估破億",
+   "date": "2026-05",
+   "place": "龍井",
+   "summary": "【非法傾倒】中捷藍線龍井機廠預定地（國有地，尚未完成撥用）挖出大量陳年垃圾與廢土，清理費估約 1 億元；環保局說查不到行為人，應由國產署清除。",
+   "sources": [
+    {
+     "title": "中捷藍線預定地變垃圾山！ 綠營批：選址眼瞎還是擺爛？清運恐破億",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7325/9502332"
+    },
+    {
+     "title": "中捷龍井機廠垃圾待清 捷工局︰不影響進度",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/Taichung/paper/1754909"
+    },
+    {
+     "title": "垃圾風暴1／台中捷運工地 赫見垃圾山",
+     "outlet": "三立新聞網",
+     "url": "https://www.mirrormedia.mg/external/setn_1837678"
+    },
+    {
+     "title": "中捷藍線機廠基地變垃圾山？ 遭疑蓋廢土堆上",
+     "outlet": "壹電視",
+     "url": "https://www.nexttv.com.tw/NextTV/News/Home/Politics/2026-05-14/2345046.html"
+    }
+   ]
+  },
+  {
+   "id": "g-dadu-soil",
+   "title": "大肚一夜冒出廢土山 1.8萬噸起訴63人",
+   "date": "2024-05～2026-06",
+   "place": "大肚",
+   "summary": "【非法傾倒】2024 年 5 月大肚一塊私人土地一夜被倒出 10～15 公尺高、約 1.8 萬噸的廢土山，地主清運費估 1.38 億元；中檢 2026 年 6 月起訴土地開發公司負責人等 63 人。這是犯罪集團所為，議員批評的是市府查緝太慢。",
+   "sources": [
+    {
+     "title": "台中大肚山亂倒1萬噸廢土  中檢瓦解環保蟑螂集團起訴63人",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/Taichung/breakingnews/5464751"
+    },
+    {
+     "title": "台中大肚非法傾倒廢土案 檢起訴土地開發商等63人",
+     "outlet": "Newtalk 新聞",
+     "url": "https://newtalk.tw/news/view/2026-06-08/1040034"
+    },
+    {
+     "title": "台中大肚1.38億元廢土案 中檢：已發動2波大搜索、收押2主嫌",
+     "outlet": "鏡新聞",
+     "url": "https://www.mnews.tw/story/mm-20260515-167inv-182455"
+    },
+    {
+     "title": "影音／平地一夜變高山！廢土集團「假聯單、混淆定位」掩護 起訴63人",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/3225230"
+    },
+    {
+     "title": "逾萬噸廢土堆大肚山！洪姓地產商牟取暴利「犯罪鏈」現形 中檢起訴63人",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/News.aspx?NewsID=1852015"
+    }
+   ]
+  },
+  {
+   "id": "g-hanxi",
+   "title": "旱溪邊坡藏垃圾平台 糞水疑排入河道",
+   "date": "2025-09～2026",
+   "place": "大里",
+   "summary": "【非法傾倒】大里吉善路附近旱溪舊河道邊坡被倒建築裝潢廢棄物，業者鋪水泥、搭棧板平台遮掩，糞水疑排入河道；環保局接檢舉後移送中檢，居民批評通報多月仍未清除。",
+   "sources": [
+    {
+     "title": "惡劣！台中旱溪邊坡驚見新「平台」竟藏大量垃圾 市議員要求徹查",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7325/9343370"
+    },
+    {
+     "title": "台中旱溪神秘平台竟是「垃圾山加蓋」！偷藏裝潢廢棄物 居民怒：太惡劣",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1799561"
+    },
+    {
+     "title": "不肖業者旱溪邊坡平台藏垃圾 市議員要求加速徹查",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20260225001618-260402"
+    },
+    {
+     "title": "台中大里河道邊坡遭倒廢棄物 民怨通報政府多月無下文",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/803246"
+    },
+    {
+     "title": "台中旱溪邊坡淪垃圾場 噁心糞水直排河道！居民怒問：何時才清？",
+     "outlet": "知新聞",
+     "url": "https://www.knews.com.tw/news/881DFE4ED8571906278F45387640C816"
+    }
+   ]
+  }
+ ]
+}
