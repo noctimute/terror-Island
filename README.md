@@ -39,7 +39,7 @@ lumama/data.json    台中內容
 - 原生 JavaScript ES Modules + `<script type="importmap">`，無框架、無打包
 - Three.js r160（自架於 `engine/vendor/three/`）：WebGLRenderer、ACES tone mapping、PCF 柔和陰影、OrbitControls、CSS2DRenderer
 - 靜態零件以 `InstancedMesh` 合併繪製；會動的零件（摩天輪、紡車、幽靈船、太空包…）放在每區自己的小群組
-- 內容全部由 `engine/data.json` 驅動
+- 內容由各城市的 `data.json` 驅動（例如 `lumama/data.json`）
 
 | 檔案 | 用途 |
 |---|---|
