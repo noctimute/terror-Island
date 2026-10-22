@@ -66,7 +66,7 @@ try {
     import("three/addons/controls/OrbitControls.js"),
     import("three/addons/renderers/CSS2DRenderer.js"),
     // each city page points the shared engine at its own content: <main id="app" data-src="../lumama/data.json">
-    fetch(`${$("#app").dataset.src || "./data.json"}?v=22`)
+    fetch(`${$("#app").dataset.src || "./data.json"}?v=23`)
       .then((r) => {
         if (!r.ok) throw Error(`data.json: ${r.status}`);
         return r.json();
@@ -650,14 +650,14 @@ try {
     if (state.tab === "zones") {
       const rows = zones
         .map((z) => {
-          const zHit = !q || [z.name, z.district, z.summary, z.civic?.title, z.civic && "市政議題"].some((t) => norm(t).includes(q));
+          const zHit = !q || [z.name, z.tag, z.district, z.summary].some((t) => norm(t).includes(q));
           const spots = z.spots.filter((s) => !q || zHit || [s.name, s.plain, ...s.facts].some((t) => norm(t).includes(q)));
           if (!zHit && !spots.length) return "";
           // events are listed only for search hits; clicking a row just opens the island card
           const open = q && spots.length;
           const off = activeSet() && !zoneMatches(z);
           return `<div class="row${open ? " open" : ""}${off ? " off" : ""}${state.sel?.zone === z.id ? " sel" : ""}">
-            <button class="zrow" data-zone="${z.id}" aria-expanded="${!!open}"><em>${pad(z.number)}</em><span><b>${esc(z.name)}${z.civic ? `<mark class="tag">市政議題</mark>` : ""}${z.wip ? `<mark class="tag wip-tag">施工中</mark>` : ""}</b>${z.district ? `<small>${esc(z.district)}</small>` : ""}</span><i>${z.spots.length} ↗</i></button>
+            <button class="zrow" data-zone="${z.id}" aria-expanded="${!!open}"><em>${pad(z.number)}</em><span><b>${esc(z.name)}${z.tag ? `<mark class="tag isle-tag">${esc(z.tag)}</mark>` : ""}${z.wip ? `<mark class="tag wip-tag">施工中</mark>` : ""}</b>${z.district ? `<small>${esc(z.district)}</small>` : ""}</span><i>${z.spots.length} ↗</i></button>
             ${open ? `<ul class="spots">${spots.map((s) => `<li><button data-spot="${s.id}" class="${state.sel?.id === s.id ? "sel" : ""}">${esc(s.name)}<small>${esc(s.date || eraById.get(s.era).label)}</small></button></li>`).join("")}</ul>` : ""}
           </div>`;
         })

@@ -370,6 +370,7 @@ body.touring .controls, body.touring .dock, body.touring .card, body.touring .ma
 .news b { font-size: 13px; }
 .news p { margin: 4px 0 0; font-size: 12px; line-height: 1.75; }
 .wip-tag { background: #c9861a; }
+.isle-tag { background: #3b3a40; }
 .help { margin-top: 12px; padding: 10px 14px; border-radius: 10px; background: #fff6dc; border: 1px solid #ecd9a0; color: #4a3a10; font-size: 12.5px; line-height: 1.7; }
 .sources { list-style: none; margin: 6px 0 0; padding: 0; }
 .rec-note { margin: 18px 0 0; font-size: 12px; line-height: 1.7; color: #6a6060; }
