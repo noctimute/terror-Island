@@ -1,0 +1,477 @@
+{
+ "title": "台中墜樓新聞紀錄",
+ "note": "整理自 Threads 上流傳的「台中死亡列表」，只收錄查得到新聞報導的墜樓案件，每則附原始報導。文字只摘要報導內容，已拿掉姓名等個人資訊；「排除外力」多為警方初步判斷，最終以檢方相驗為準。",
+ "updated": "2026-10-22",
+ "records": [
+  {
+   "id": "fall-49",
+   "date": "2025-06-16",
+   "place": "東區",
+   "summary": "百貨商場影城一名男子自 4 樓墜落身亡，身分與死因待查。",
+   "sources": [
+    {
+     "title": "台中影城傳憾事！中年男「詭墜4樓」喪命 身分死因待查",
+     "outlet": "CTWANT",
+     "url": "https://www.ctwant.com/article/424553/"
+    }
+   ]
+  },
+  {
+   "id": "fall-50",
+   "date": "2025-06-16",
+   "place": "南區",
+   "summary": "柳川東路一家飯店臨檢時，一名外籍女子自陽台墜落，送醫不治。",
+   "sources": [
+    {
+     "title": "房門遭「鐵鍊反鎖」！台中飯店驚傳1女墜樓身亡 疑似原因曝光",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E6%88%BF%E9%96%80%E9%81%AD-%E9%90%B5%E9%8D%8A%E5%8F%8D%E9%8E%96-%E5%8F%B0%E4%B8%AD%E9%A3%AF%E5%BA%97%E9%A9%9A%E5%82%B31%E5%A5%B3%E5%A2%9C%E6%A8%93%E8%BA%AB%E4%BA%A1-%E7%96%91%E4%BC%BC%E5%8E%9F%E5%9B%A0%E6%9B%9D%E5%85%89-045300161.html"
+    }
+   ]
+  },
+  {
+   "id": "fall-48",
+   "date": "2025-06-13",
+   "place": "西屯",
+   "summary": "台灣大道三段社區一名男子墜落中庭，送醫不治；身上沒有證件，警方逐戶清查身分。",
+   "sources": [
+    {
+     "title": "快訊／台中驚傳墜樓命案！30多歲男躺大樓中庭 全身多處骨折亡",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250613/2977863.htm"
+    },
+    {
+     "title": "聯合新聞網報導",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7320/8804702"
+    },
+    {
+     "title": "台中又傳墜樓！30多歲男子倒臥社區中庭 多處骨折送醫不治",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5073915"
+    }
+   ]
+  },
+  {
+   "id": "fall-47",
+   "date": "2025-05-26",
+   "place": "西區",
+   "summary": "美村路一段一名男子自高處墜落，送醫不治，警方排除外力。",
+   "sources": [
+    {
+     "title": "民視新聞報導",
+     "outlet": "民視新聞",
+     "url": "https://www.ftvnews.com.tw/news/detail/2025526W0339"
+    },
+    {
+     "title": "聯合新聞網報導",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7320/8764921"
+    },
+    {
+     "title": "台中市又傳墜樓案  25歲男6樓墜下送醫不治",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5054952"
+    }
+   ]
+  },
+  {
+   "id": "fall-44",
+   "date": "2025-05-20",
+   "place": "西區",
+   "summary": "美村路一段大樓一名女子墜落身亡，警方初步排除外力介入。",
+   "sources": [
+    {
+     "title": "聯合新聞網報導",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7320/8751368"
+    },
+    {
+     "title": "台中鬧區凌晨命案！34歲女9樓墜落倒臥人行道死亡",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250520/2963575.htm"
+    },
+    {
+     "title": "台中市又爆女子高處墜樓身亡 初步排除外力介入",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20250520003418-260402"
+    }
+   ]
+  },
+  {
+   "id": "fall-36",
+   "date": "2025-03-26",
+   "place": "太平",
+   "summary": "一名外籍男子自大樓墜落至隔壁棟天台，送醫時已無心跳。",
+   "sources": [
+    {
+     "title": "快訊／台中太平墜樓意外！6樓墜落2F天台 外籍男沒了心跳",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2820215"
+    }
+   ]
+  },
+  {
+   "id": "fall-32",
+   "date": "2025-03-10",
+   "place": "西屯",
+   "summary": "一名男子不明原因自高處墜落，送醫後不治，現場沒有打鬥痕跡。",
+   "sources": [
+    {
+     "title": "台中西屯30歲男不明原因高處墜落 搶救後傷重不治",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2803145"
+    }
+   ]
+  },
+  {
+   "id": "fall-25",
+   "date": "2025-02-26",
+   "place": "南區",
+   "summary": "社區大樓一名女子墜落中庭，送醫不治，現場沒有外力介入痕跡。",
+   "sources": [
+    {
+     "title": "快訊／台中38歲女12樓墜中庭送醫不治 巨大聲響嚇壞住戶",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250226/2915689.htm"
+    },
+    {
+     "title": "台中又傳墜樓意外！女子從社區高樓墜落  倒臥中庭身亡",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20250226002700-260402"
+    }
+   ]
+  },
+  {
+   "id": "fall-22",
+   "date": "2025-02-19",
+   "place": "西區",
+   "summary": "某大學校園內一名男子（非在校師生）自高處墜落，送醫不治，警方排除外力。",
+   "sources": [
+    {
+     "title": "新／台中某大學傳墜樓！30歲男頭顱破裂當場慘死 校園師生驚睹意外嚇壞",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/News.aspx?NewsID=1611572"
+    },
+    {
+     "title": "台中某大學傳墜樓！不明人士入校園 男6樓墜下搶救無效",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2783884"
+    },
+    {
+     "title": "快訊／台中某大學驚悚墜樓現場曝 33歲男校友6樓掉落搶救不治",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250219/2911433.htm"
+    }
+   ]
+  },
+  {
+   "id": "fall-19",
+   "date": "2025-02-11",
+   "place": "北區",
+   "summary": "華廈一名男租客自住處墜落，當場死亡，警方初步排除外力。",
+   "sources": [
+    {
+     "title": "快訊／台中北區華廈傳墜樓！男租客5樓墜落當場死亡",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250211/2906932.htm"
+    },
+    {
+     "title": "快訊／台中墜樓意外！男租屋處墜落「當場死亡」…警封鎖現場調查中",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1607791"
+    },
+    {
+     "title": "台中墜樓！60歲男住處5F墜落 未送醫當場死亡",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E5%A2%9C%E6%A8%93-60%E6%AD%B2%E7%94%B7%E4%BD%8F%E8%99%955f%E5%A2%9C%E8%90%BD-%E6%9C%AA%E9%80%81%E9%86%AB%E7%95%B6%E5%A0%B4%E6%AD%BB%E4%BA%A1-091322359.html"
+    }
+   ]
+  },
+  {
+   "id": "fall-14",
+   "date": "2025-02-04",
+   "place": "西區",
+   "summary": "酒店大樓一名女會計凌晨自廁所窗台墜落身亡，警方初步排除外力。",
+   "sources": [
+    {
+     "title": "台中酒店女會計下班墜高樓 「倒血泊慘死」嚇壞路過民眾",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20250204001891-260402"
+    },
+    {
+     "title": "快訊／上廁所後不見人影！台中酒店女會計離奇墜樓 已明顯死亡",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2768418"
+    },
+    {
+     "title": "驚！員警巡邏守望中 台中酒店女會計離奇墜樓亡",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/Taichung/breakingnews/4940759"
+    }
+   ]
+  },
+  {
+   "id": "fall-9",
+   "date": "2025-01-23",
+   "place": "北區",
+   "summary": "女子凌晨自租屋處陽台墜落身亡，現場沒有翻找或打鬥跡象，警方初步排除外力。",
+   "sources": [
+    {
+     "title": "台中深夜傳墜樓！女19F墜下 夫從新竹趕回",
+     "outlet": "東森新聞",
+     "url": "https://news.ebc.net.tw/news/society/467518"
+    },
+    {
+     "title": "暗夜巨響！台中女19樓墜人行道慘死 尪連夜南下趕回認屍",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2759267"
+    }
+   ]
+  },
+  {
+   "id": "fall-117",
+   "date": "2024-11-17",
+   "place": "北屯",
+   "summary": "敦化路華廈一名女子清晨自頂樓墜落，送醫不治，監視器畫面沒有外力介入。",
+   "sources": [
+    {
+     "title": "台中北屯區清晨驚傳巨響 39歲女子墜樓送醫不治",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4865489"
+    }
+   ]
+  },
+  {
+   "id": "fall-119",
+   "date": "2024-11-17",
+   "place": "北屯",
+   "summary": "一名女子自大樓頂樓墜落身亡，檢方排除外力，以意外結案。",
+   "sources": [
+    {
+     "title": "聯合新聞網報導",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7320/8365367"
+    },
+    {
+     "title": "疑找閨密訴苦感情事！台中女13樓墜落 臟器外露倒人行道亡",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2688676"
+    },
+    {
+     "title": "她找閨蜜訴苦、她跟男友吵架 台中30hrs連2起女子墜樓亡",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20241117/2856696.htm"
+    }
+   ]
+  },
+  {
+   "id": "fall-112",
+   "date": "2024-11-11",
+   "place": "東區",
+   "summary": "大智路住商大樓一名女子自高樓墜落，送醫不治，警方排除外力。",
+   "sources": [
+    {
+     "title": "聯合新聞網報導",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7320/8352945"
+    },
+    {
+     "title": "快訊／台中女15樓墜下搶救無效亡 留下印尼文信件",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20241111/2852914.htm"
+    },
+    {
+     "title": "台中傍晚悲劇！印尼新娘15樓頂急墜 卡「大樓夾層」沒救回",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2682388"
+    }
+   ]
+  },
+  {
+   "id": "fall-107",
+   "date": "2024-11-07",
+   "place": "西屯",
+   "summary": "青海路二段大樓一名男子墜落，當場死亡。",
+   "sources": [
+    {
+     "title": "快訊／台中死亡墜樓！男子8F墜下當場喪命…一旁緊鄰超商",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20241107/2850499.htm"
+    },
+    {
+     "title": "聯合新聞網報導",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7320/8344659"
+    }
+   ]
+  },
+  {
+   "id": "fall-105",
+   "date": "2024-10-18",
+   "place": "南區",
+   "summary": "一名男子自社區高樓墜落，當場死亡。",
+   "sources": [
+    {
+     "title": "台中驚傳墜樓！29歲癌男21樓頂墜落社區旁馬路 當場慘死",
+     "outlet": "壹蘋新聞網",
+     "url": "https://news.nextapple.com/local/20241018/F1FBA05D9766BC558F242EA7C59E42BC"
+    },
+    {
+     "title": "快訊／台中高樓社區男子墜落！摔路中央當場死亡 路人直擊嚇壞",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20241018/2837865.htm"
+    }
+   ]
+  },
+  {
+   "id": "fall-98",
+   "date": "2024-10-08",
+   "place": "東區",
+   "summary": "一名女子自住處頂樓墜落，警方初步排除外力；同日台中 20 小時內發生 6 起死亡案件。",
+   "sources": [
+    {
+     "title": "台中15hr內5條人命！墜樓、掛樹、陳屍還有士兵打靶中彈亡",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4824789"
+    },
+    {
+     "title": "台中20小時內6起死亡！墜樓、掛樹、陳屍＋上兵打靶中彈亡…最年輕17歲",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/News.aspx?NewsID=1543956"
+    }
+   ]
+  },
+  {
+   "id": "fall-101",
+   "date": "2024-10-08",
+   "place": "北區",
+   "summary": "一名高中生放學時自校舍墜落，送醫不治。",
+   "sources": [
+    {
+     "title": "台中北區驚傳高中生墜樓 命危送醫搶救",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20241008005258-260402"
+    },
+    {
+     "title": "台中15hr內5條人命！墜樓、掛樹、陳屍還有士兵打靶中彈亡",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4824789"
+    },
+    {
+     "title": "台中20小時內6起死亡！墜樓、掛樹、陳屍＋上兵打靶中彈亡…最年輕17歲",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/News.aspx?NewsID=1543956"
+    }
+   ]
+  },
+  {
+   "id": "fall-92",
+   "date": "2024-09-04",
+   "place": "南屯",
+   "summary": "永春路一名男子自大樓頂樓墜落身亡，警方排除外力。",
+   "sources": [
+    {
+     "title": "台中男獨自拿板凳上頂樓 碰一聲嚇壞路人！墜樓倒臥路邊身亡",
+     "outlet": "壹蘋新聞網",
+     "url": "https://news.nextapple.com/local/20240904/27E3B695EB416FFFEABE5A4E2C7C43B7"
+    }
+   ]
+  },
+  {
+   "id": "fall-89",
+   "date": "2024-08-17",
+   "place": "北屯",
+   "summary": "文心路住商大樓一名女子自頂樓墜落身亡，警方表示沒有外力介入。",
+   "sources": [
+    {
+     "title": "台中深夜巨響！34歲女掛頂樓撐不住急墜亡 鄰居「全錄下」嚇瘋",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2588652"
+    },
+    {
+     "title": "台中KTV住商大樓傳墜樓 34歲女懸掛頂樓不支直墜亡",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4772394"
+    }
+   ]
+  },
+  {
+   "id": "fall-83",
+   "date": "2024-07-28",
+   "place": "大里",
+   "summary": "一名女子自社區大樓墜落，送醫不治，警方表示沒有外力或打鬥痕跡。",
+   "sources": [
+    {
+     "title": "快訊／台中20多歲女7樓墜落 砸中轎車送醫搶救無效亡",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240728/2786039.htm"
+    }
+   ]
+  },
+  {
+   "id": "fall-76",
+   "date": "2024-07-11",
+   "place": "豐原",
+   "summary": "一名男子自社區大樓墜落天井身亡，警方調閱監視器排除他殺。",
+   "sources": [
+    {
+     "title": "台中豐原傳巨響！中漂男闖陌生社區 下秒9樓急墜2樓傷重亡",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2548468"
+    },
+    {
+     "title": "男子至豐原某大樓墜樓亡 同事訝異不捨",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4734253"
+    }
+   ]
+  },
+  {
+   "id": "fall-75",
+   "date": "2024-07-10",
+   "place": "南區",
+   "summary": "社區大樓一名女子與 2 歲女兒墜落，母女身亡；檢方相驗認定為高處墜落致死。",
+   "sources": [
+    {
+     "title": "快訊／台中傳墜樓！44歲母+2歲女身亡 警封鎖現場",
+     "outlet": "東森新聞",
+     "url": "https://news.ebc.net.tw/news/society/430780"
+    },
+    {
+     "title": "妻女墜樓雙亡！副教授夫遠在美國返台至少需40小時…趕不上相驗",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/News.aspx?NewsID=1496993"
+    },
+    {
+     "title": "台中44歲女教師抱2歲女墜樓雙亡 夫和另名女兒在美國",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/Taichung/breakingnews/4731853"
+    },
+    {
+     "title": "聯合新聞網報導",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7320/8086262"
+    },
+    {
+     "title": "世界日報報導",
+     "outlet": "世界日報",
+     "url": "https://www.worldjournal.com/wj/story/121222/8087849"
+    }
+   ]
+  },
+  {
+   "id": "fall-70",
+   "date": "2024-07-04",
+   "place": "北區",
+   "summary": "育樂街社區一名女子墜落至 2 樓露台，頭部重創送醫（報導時命危），警方初步排除外力。",
+   "sources": [
+    {
+     "title": "聯合新聞網報導",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7320/8073641"
+    }
+   ]
+  }
+ ]
+}

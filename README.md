@@ -63,6 +63,22 @@ lumama/data.json    台中內容
 - `dayCycle[]`：「驚魂一夜」各時段會甦醒的地點
 - `tour.cues[]`：64 秒導覽腳本
 
+## 墜落島的新聞紀錄（`lumama/falls.json`）
+
+墜落島卡片下方的「台中墜樓新聞紀錄」讀取 `lumama/falls.json`（`data.json` 裡 `zones[].recordsSrc` 指向它），可以單獨更新，不必動其他檔案。每一筆：
+
+```json
+{
+  "id": "fall-119",
+  "date": "2024-11-17",
+  "place": "北屯",
+  "summary": "只摘要報導寫到的事實，不放姓名、病史等個人資訊",
+  "sources": [{ "title": "新聞標題（照原文）", "outlet": "媒體名稱", "url": "https://…" }]
+}
+```
+
+只收錄查得到新聞報導的案件；查無新聞、或只有推論沒有來源的，不要放進來。資料來源與查證過程放在私人 repo `noctimute/taichung-research`。
+
 ## 網址參數
 
 - 以下都接在城市網址後面，例如 `/lumama/?zone=beitun`

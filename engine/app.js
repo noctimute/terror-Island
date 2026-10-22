@@ -44,10 +44,18 @@ try {
     import("three/addons/controls/OrbitControls.js"),
     import("three/addons/renderers/CSS2DRenderer.js"),
     // each city page points the shared engine at its own content: <main id="app" data-src="../lumama/data.json">
-    fetch(`${$("#app").dataset.src || "./data.json"}?v=10`).then((r) => {
-      if (!r.ok) throw Error(`data.json: ${r.status}`);
-      return r.json();
-    }),
+    fetch(`${$("#app").dataset.src || "./data.json"}?v=11`)
+      .then((r) => {
+        if (!r.ok) throw Error(`data.json: ${r.status}`);
+        return r.json();
+      })
+      .then(async (D) => {
+        // a zone can keep a long list of news records in its own file (zones[].recordsSrc), so it can be updated alone
+        const base = new URL($("#app").dataset.src || "./data.json", document.baseURI);
+        for (const z of D.zones)
+          if (z.recordsSrc) z.records = await fetch(`${new URL(z.recordsSrc, base)}?v=${Math.floor(Date.now() / 36e5)}`).then((r) => (r.ok ? r.json() : null));
+        return D;
+      }),
   ]);
 
   // ---------- data ----------
@@ -410,6 +418,19 @@ try {
           .map((s) => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.title)}</a><small>${esc(s.outlet)}</small></li>`)
           .join("")}</ul>`;
   }
+  function recordList(z) {
+    const R = z.records;
+    if (!R?.records?.length) return "";
+    return `<h3>${esc(R.title)} <small>${R.records.length}</small></h3>
+        <p class="rec-note">${esc(R.note)}</p>
+        ${D.helpline ? `<aside class="help">${esc(D.helpline)}</aside>` : ""}
+        <ol class="records">${R.records
+          .map(
+            (r) => `<li><div class="rec-head"><b>${esc(r.date)}</b><span>${esc(r.place)}</span></div><p>${esc(r.summary)}</p>
+            <ul class="sources">${r.sources.map((s) => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.title)}</a><small>${esc(s.outlet)}</small></li>`).join("")}</ul></li>`,
+          )
+          .join("")}</ol>`;
+  }
   function helpBox(sp) {
     return sp.helpline && D.helpline ? `<aside class="help">${esc(D.helpline)}</aside>` : "";
   }
@@ -442,6 +463,7 @@ try {
             (sp) => `<li><button data-spot="${sp.id}"><span class="sp-name">${esc(sp.name)}</span><span class="sp-meta">${esc(eraById.get(sp.era).label)} ${skulls(sp.danger)}</span><span class="sp-plain">${esc(sp.plain)}</span></button></li>`,
           )
           .join("")}</ol>
+        ${recordList(z)}
         <h3>詛咒連線 <small>${fl.length}</small></h3>
         <ul class="flow-list">${fl
           .map((f) => `<li><button data-flow="${f.id}"><em>${f.id}</em>${icon(f.carry)}<span>${esc(f.text)}</span></button></li>`)
