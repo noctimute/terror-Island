@@ -66,7 +66,7 @@ try {
     import("three/addons/controls/OrbitControls.js"),
     import("three/addons/renderers/CSS2DRenderer.js"),
     // each city page points the shared engine at its own content: <main id="app" data-src="../lumama/data.json">
-    fetch(`${$("#app").dataset.src || "./data.json"}?v=21`)
+    fetch(`${$("#app").dataset.src || "./data.json"}?v=22`)
       .then((r) => {
         if (!r.ok) throw Error(`data.json: ${r.status}`);
         return r.json();
@@ -814,7 +814,7 @@ try {
   });
   $("#fear-buttons").innerHTML = D.fear
     .map((f) => `<button data-fear="${f.id}" aria-pressed="false" style="--c:${f.color}"><b>${f.id}</b><span>${esc(f.name)}</span><small>${esc(f.en)}</small></button>`)
-    .join("") + `<button data-civic aria-pressed="false" style="--c:#2c6db5" class="civic-btn"><b>${icon("civic")}</b><span>只看市政議題</span><small>Civic issues</small></button>`;
+    .join("") + (zones.some((z) => z.civic) ? `<button data-civic aria-pressed="false" style="--c:#2c6db5" class="civic-btn"><b>${icon("civic")}</b><span>只看市政議題</span><small>Civic issues</small></button>` : "");
   $("#fear-buttons").addEventListener("click", (e) => {
     const b = e.target.closest("button");
     if (!b) return;
