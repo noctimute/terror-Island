@@ -1,8 +1,15 @@
 {
  "schemaVersion": "1.0",
  "meta": {
+  "slug": "lumama",
+  "city": "台中",
   "title": "台中驚魂島",
   "eyebrow": "TERROR ISLAND",
+  "welcome": "WELCOME, TAICHUNG",
+  "terrain": {
+   "sea": "west",
+   "mountains": "east"
+  },
   "disclaimer": "所有傳說、人物與事件皆為虛構創作，僅借用台中行政區名稱作為地理位置。標示「市政議題」的島嶼取材自城市公共議題（垃圾去化、廚餘處理），以恐怖故事手法呈現，情節不代表任何真實場址的狀況。"
  },
  "fear": [

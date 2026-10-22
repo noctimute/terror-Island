@@ -36,7 +36,10 @@ const KEYS = [
   [1440, 0x111428, 0x342c4e, 0xa3b2ff, 1.9, 0x8a96c8, 0x3a3040, 2.8, 1, 0x26223a, 30, 95, 0x1a2633],
 ];
 
-export function createEnvironment(THREE, { scene, renderer, centers, bounds, quality, reduced }) {
+// terrain: { sea: "west" | "none", mountains: "east" | "ring" } — set per city in data.json meta.terrain
+export function createEnvironment(THREE, { scene, renderer, centers, bounds, quality, reduced, terrain: shape = {} }) {
+  const hasSea = shape.sea !== "none",
+    ring = shape.mountains === "ring";
   const rng = mulberry(20261031);
   const noise = new SimplexNoise({ random: rng });
   const high = quality === "high";
@@ -108,7 +111,7 @@ export function createEnvironment(THREE, { scene, renderer, centers, bounds, qua
     for (const c of centerList) d = Math.min(d, Math.hypot(x - c.x, z - c.z) - S * 1.05);
     return d;
   };
-  const coastAt = (z) => bounds.minX - 2.6 + noise.noise(z * 0.08, 3.1) * 1.4;
+  const coastAt = hasSea ? (z) => bounds.minX - 2.6 + noise.noise(z * 0.08, 3.1) * 1.4 : () => -1e9;
   const SIZE = 170,
     SEG = high ? 200 : 130;
   const tGeo = new THREE.PlaneGeometry(SIZE, SIZE, SEG, SEG);
@@ -130,9 +133,11 @@ export function createEnvironment(THREE, { scene, renderer, centers, bounds, qua
     const east = smooth(bounds.maxX - 2, bounds.maxX + 16, x) * smooth(0.6, 5, d);
     const north = smooth(bounds.minZ + 1, bounds.minZ - 14, z) * smooth(bounds.minX, bounds.maxX, x) * smooth(0.6, 5, d);
     const ridge = 1 - Math.abs(noise.noise(x * 0.045, z * 0.045));
-    h += Math.max(east, north * 0.7) * (2.5 + ridge * ridge * 9 + noise.noise(x * 0.15, z * 0.15) * 0.8);
-    // low tableland between the city and the sea (Dadu plateau feel)
-    h += smooth(coast + 1, coast + 4, x) * smooth(bounds.minX + 4, bounds.minX + 1, x) * smooth(0.4, 3, d) * 0.9;
+    // "ring" wraps the city in hills on every side (a basin); "east" puts the range on the east only
+    const mount = ring ? smooth(2.5, 14, d) : Math.max(east, north * 0.7);
+    h += mount * (2.5 + ridge * ridge * 9 + noise.noise(x * 0.15, z * 0.15) * 0.8);
+    // low tableland between the city and the sea
+    if (hasSea) h += smooth(coast + 1, coast + 4, x) * smooth(bounds.minX + 4, bounds.minX + 1, x) * smooth(0.4, 3, d) * 0.9;
     if (x < coast) h = Math.min(h, WATER_Y - 0.15 - smooth(0, 6, coast - x) * 1.6);
     else h = Math.max(h, -0.05 + (x < coast + 1.2 ? -0.2 * (1 - (x - coast) / 1.2) : 0));
     return h;
@@ -166,7 +171,7 @@ export function createEnvironment(THREE, { scene, renderer, centers, bounds, qua
   const water = new THREE.Mesh(new THREE.PlaneGeometry(SIZE, SIZE, 1, 1).rotateX(-Math.PI / 2), waterMat);
   water.position.set(bounds.minX - 2.6 - SIZE / 2 + 6, WATER_Y, 0);
   water.receiveShadow = true;
-  group.add(water);
+  if (hasSea) group.add(water);
 
   // ---- trees: pines on the mountains, round trees on the plain, dead trees near the city ----
   const trees = { pine: [], round: [], dead: [] };

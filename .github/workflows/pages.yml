@@ -27,7 +27,12 @@ jobs:
       - name: Assemble site
         run: |
           mkdir -p _site
-          cp -r index.html assets .nojekyll _site/
+          cp -r index.html engine .nojekyll _site/
+          # every top-level folder with its own index.html is a city page (lumama/, taipei/, ...)
+          for d in */; do
+            d=${d%/}
+            if [ "$d" != engine ] && [ -f "$d/index.html" ]; then cp -r "$d" _site/; fi
+          done
           if [ -f CNAME ]; then cp CNAME _site/; fi
       - uses: actions/upload-pages-artifact@v3
         with:

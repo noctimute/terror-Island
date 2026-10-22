@@ -18,7 +18,6 @@ const toMin = (s) => {
 };
 const ease = (t) => (t < 0.5 ? 4 * t * t * t : 1 - (-2 * t + 2) ** 3 / 2);
 const hash = (s) => [...s].reduce((h, c) => (Math.imul(h, 31) + c.charCodeAt(0)) | 0, 7);
-const ONBOARD_KEY = "ti-onboarded";
 const store = {
   get(k) {
     try {
@@ -39,7 +38,8 @@ try {
     import("three"),
     import("three/addons/controls/OrbitControls.js"),
     import("three/addons/renderers/CSS2DRenderer.js"),
-    fetch("./data.json?v=1").then((r) => {
+    // each city page points the shared engine at its own content: <main id="app" data-src="../lumama/data.json">
+    fetch(`${$("#app").dataset.src || "./data.json"}?v=1`).then((r) => {
       if (!r.ok) throw Error(`data.json: ${r.status}`);
       return r.json();
     }),
@@ -57,6 +57,9 @@ try {
   const roleLabel = (r) => D.roles[r]?.label || r;
   const carryLabel = (c) => D.carry[c] || c;
   const spotCount = zones.reduce((n, z) => n + z.spots.length, 0);
+  const ONBOARD_KEY = `ti-onboarded-${D.meta.slug || "city"}`;
+  $(".brand h1").textContent = D.meta.title;
+  $(".hero-note .number").textContent = zones.length;
 
   const debug = params.has("debug");
   const quality = params.get("quality") || (mobileMQ.matches || /Mobi|Android/i.test(navigator.userAgent) ? "medium" : "high");
@@ -92,7 +95,7 @@ try {
   const city = buildCity(THREE, zones, centers, wildCenters);
   scene.add(city.group);
   const allCenters = new Map([...centers, ...wildCenters.map((w, i) => [`wild-${i}`, w])]);
-  const env = createEnvironment(THREE, { scene, renderer, centers: allCenters, bounds, quality, reduced: reduced.matches });
+  const env = createEnvironment(THREE, { scene, renderer, centers: allCenters, bounds, quality, reduced: reduced.matches, terrain: D.meta.terrain });
 
   const kit = createKit(THREE);
   for (const z of zones) {
@@ -740,7 +743,7 @@ try {
     introStep = i;
     const s = D.ui.intro[i],
       last = i === D.ui.intro.length - 1;
-    $("#intro-count").textContent = `WELCOME, TAICHUNG / ${pad(i + 1)}`;
+    $("#intro-count").textContent = `${D.meta.welcome || "WELCOME"} / ${pad(i + 1)}`;
     $("#intro-title").textContent = s.title;
     $("#intro-body").textContent = s.body;
     $("#intro-note").textContent = i === 0 ? D.meta.disclaimer : "";

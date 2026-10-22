@@ -10,33 +10,52 @@
 
 ```bash
 python3 -m http.server 8000
-# 開啟 http://localhost:8000/
+# 首頁 http://localhost:8000/ ，台中 http://localhost:8000/lumama/
 ```
+
+## 多城市結構
+
+```
+index.html          首頁（選城市）     → 網址/
+engine/             共用 3D 引擎、樣式、three.js
+lumama/index.html   台中頁面          → 網址/lumama/
+lumama/data.json    台中內容
+```
+
+新增一座城市（例如台北）：
+
+1. 複製 `lumama/` 成 `taipei/`
+2. 改 `taipei/index.html` 裡的 `data-src="../taipei/data.json"`、`<title>` 與 description
+3. 改 `taipei/data.json`：`meta.slug`、`meta.title`、`meta.welcome`、`meta.terrain`（台北盆地可用 `{ "sea": "none", "mountains": "ring" }`）、`zones`、`flows`…
+4. 新的 3D 模型加到 `engine/models.js` 的 `MODELS`，在 `zones[].model` 指定名稱
+5. 在根目錄 `index.html` 加上城市卡片
+
+部署流程會自動發佈根目錄下所有含 `index.html` 的資料夾。
 
 可直接部署到 GitHub Pages、Cloudflare Pages 等任何靜態主機。
 
 ## 技術架構
 
 - 原生 JavaScript ES Modules + `<script type="importmap">`，無框架、無打包
-- Three.js r160（自架於 `assets/vendor/three/`）：WebGLRenderer、ACES tone mapping、PCF 柔和陰影、OrbitControls、CSS2DRenderer
+- Three.js r160（自架於 `engine/vendor/three/`）：WebGLRenderer、ACES tone mapping、PCF 柔和陰影、OrbitControls、CSS2DRenderer
 - 靜態零件以 `InstancedMesh` 合併繪製；會動的零件（摩天輪、紡車、幽靈船、太空包…）放在每區自己的小群組
-- 內容全部由 `assets/data.json` 驅動
+- 內容全部由 `engine/data.json` 驅動
 
 | 檔案 | 用途 |
 |---|---|
-| `index.html` | 頁面骨架、importmap |
-| `assets/app.js` | 主程式：場景、相機、選取、卡片、清單、篩選、日誌、導覽 |
-| `assets/world.js` | 台中輪廓六邊形排列、道路、路燈、深山森林格 |
-| `assets/environment.js` | 天空、日夜光線、地形（西側海、東側中央山脈）、樹、霧 |
-| `assets/models.js` | 16 座傳說的 3D 小模型與 instancing 零件工具 |
-| `assets/people.js` | 沿詛咒連線搬運物品的小人、幽靈、烏鴉 |
-| `assets/icons.js` | 攜帶物與骷髏圖示 |
-| `assets/ui.css` | 介面樣式（桌面 / 手機 bottom sheet） |
-| `assets/data.json` | 地點、傳說、連線、夜間時刻表、導覽腳本 |
+| `lumama/index.html` | 城市頁面骨架、importmap、`data-src` 指向該城市的 data.json |
+| `engine/app.js` | 主程式：場景、相機、選取、卡片、清單、篩選、日誌、導覽 |
+| `engine/world.js` | 台中輪廓六邊形排列、道路、路燈、深山森林格 |
+| `engine/environment.js` | 天空、日夜光線、地形（西側海、東側中央山脈）、樹、霧 |
+| `engine/models.js` | 16 座傳說的 3D 小模型與 instancing 零件工具 |
+| `engine/people.js` | 沿詛咒連線搬運物品的小人、幽靈、烏鴉 |
+| `engine/icons.js` | 攜帶物與骷髏圖示 |
+| `engine/ui.css` | 介面樣式（桌面 / 手機 bottom sheet） |
+| `lumama/data.json` | 地點、傳說、連線、夜間時刻表、導覽腳本 |
 
 ## 修改內容
 
-編輯 `assets/data.json`：
+編輯各城市的 `data.json`（例如 `lumama/data.json`）：
 
 - `zones[]`：每一格。`cell` 是 odd-row offset 座標 `[col, row]`（奇數列向東偏半格），`model` 對應 `models.js` 裡的 `MODELS`，`civic` 有值時會顯示「現實中的市政議題」區塊並能被「只看市政議題」篩選
 - `wilds[]`：不可點選、只用來補完台中輪廓的和平深山森林格
@@ -46,6 +65,7 @@ python3 -m http.server 8000
 
 ## 網址參數
 
+- 以下都接在城市網址後面，例如 `/lumama/?zone=beitun`
 - `?zone=beitun`、`?spot=dadu-bubbles`、`?flow=F5`：直接開啟某地點／傳說／連線
 - `?tour=1`：直接播放導覽
 - `?time=03:00`：起始時間
@@ -57,7 +77,7 @@ python3 -m http.server 8000
 
 1. repo **Settings → Pages → Build and deployment → Source** 選 **GitHub Actions**
 2. 到 **Actions** 分頁，對「Deploy to GitHub Pages」按 **Run workflow**（或再 push 一次）
-3. 網址：`https://brownrhined.github.io/terror-Island/`
+3. 網址：`https://brownrhined.github.io/terror-Island/`（綁定自訂網域後是 `https://你的網址/lumama/`）
 
 > 私人（private）repo 需要 GitHub Pro / Team 才能開 Pages；免費帳號請先把 repo 改成 public。
 
