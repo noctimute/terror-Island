@@ -116,7 +116,7 @@ export function createGuns(THREE, { scene, centers, CSS2DObject, rng, count = 12
     hud.hidden = found.size === 0;
     const left = count - found.size;
     hud.querySelector("[data-gun-count]").textContent = `${found.size} / ${count}`;
-    hud.querySelector("[data-gun-left]").textContent = left ? `還有 ${left} 把散落在台中各地` : "全部收集完成！台中真的都有槍";
+    hud.querySelector("[data-gun-left]").textContent = left ? `還有 ${left} 把散落在台中各地` : "恭喜全部收集完成！你成為一位合格台中人";
     hud.querySelector("[data-gun-bar]").style.width = `${(found.size / count) * 100}%`;
     hud.classList.toggle("done", !left);
   }
@@ -141,7 +141,7 @@ export function createGuns(THREE, { scene, centers, CSS2DObject, rng, count = 12
     found.add(gun.id);
     save();
     const left = count - found.size;
-    toast(gun.g.position, left ? `恭喜你撿到一把槍！還剩 ${left} 把` : "恭喜你撿到最後一把槍！全部收集完成");
+    toast(gun.g.position, left ? `恭喜你撿到一把槍！還剩 ${left} 把` : "恭喜全部收集完成！你成為一位合格台中人");
     renderHud();
     return true;
   }
