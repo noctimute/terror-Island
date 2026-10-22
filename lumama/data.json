@@ -125,6 +125,11 @@
    "label": "廚餘回收員",
    "color": "#2C6DB5",
    "hat": "#1E2430"
+  },
+  "light": {
+   "label": "光點",
+   "color": "#ffd88f",
+   "hat": "#ffd88f"
   }
  },
  "carry": {
@@ -620,17 +625,13 @@
  ],
  "flows": [],
  "evidence": {
-  "record": {
-   "label": "地方誌記載",
+  "report": {
+   "label": "報導佐證",
    "style": "solid"
   },
-  "witness": {
-   "label": "目擊者證詞",
+  "place": {
+   "label": "同地點",
    "style": "dash"
-  },
-  "rumor": {
-   "label": "坊間謠言",
-   "style": "dot"
   }
  },
  "dayCycle": [
@@ -688,8 +689,10 @@
     "to": 54,
     "target": "all",
     "time": 1380,
-    "flows": [],
-    "caption": "點進事件，看原始新聞；其他島嶼施工中"
+    "flows": [
+     "*"
+    ],
+    "caption": "事件關聯：同一個地區、同一篇報導，把不同島的事件連起來"
    },
    {
     "from": 54,
@@ -726,5 +729,47 @@
   ],
   "mascot": "阿飄 · 點一座島，看看發生過什麼"
  },
- "helpline": "如果你或身邊的人正感到痛苦、有輕生的念頭，請撥 1925 安心專線（24 小時免付費）或 1995 生命線，你不需要獨自面對。"
+ "helpline": "如果你或身邊的人正感到痛苦、有輕生的念頭，請撥 1925 安心專線（24 小時免付費）或 1995 生命線，你不需要獨自面對。",
+ "links": [
+  {
+   "id": "R1",
+   "from": "houli",
+   "to": "dadu",
+   "events": [
+    "g-dali",
+    "f-wufeng"
+   ],
+   "text": "同一篇報導並列：大里垃圾山與霧峰廚餘坑",
+   "sources": [
+    {
+     "title": "台中130萬人口廚餘埋霧峰 民怒：大里垃圾山、霧峰廚餘坑",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/breakingnews/5223227"
+    }
+   ]
+  },
+  {
+   "id": "R2",
+   "from": "xitun",
+   "to": "oldtown",
+   "events": [
+    "fall-117",
+    "fall-119",
+    "float-115"
+   ],
+   "text": "同一波彙整報導：76 小時內台中 6 人死亡",
+   "sources": [
+    {
+     "title": "台中76小時6條人命！墜樓、落水還有陳屍摩鐵、公園長椅",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4865983"
+    },
+    {
+     "title": "76小時6人死亡！台中死亡意外頻傳…旅館2死、公園1死、落水墜樓奪2命",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/News.aspx?NewsID=1565606"
+    }
+   ]
+  }
+ ]
 }

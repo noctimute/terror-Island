@@ -32,7 +32,18 @@ export function createPeople(THREE, { scene, flows, centers, heightAt, roles, rn
     return roleMats.get(hex);
   };
 
+  const lightGeo = new THREE.SphereGeometry(0.07, 10, 8);
+  const lightMat = new THREE.MeshBasicMaterial({ color: 0xffd88f, toneMapped: false });
   function makeFigure(role) {
+    // 事件關聯 use small travelling lights instead of chibi walkers
+    if (role === "light") {
+      const g = new THREE.Group();
+      const m = new THREE.Mesh(lightGeo, lightMat);
+      m.position.y = 0.35;
+      g.add(m);
+      g.userData.light = true;
+      return g;
+    }
     const r = roles[role] || { color: "#777", hat: "#333" };
     const g = new THREE.Group();
     const body = new THREE.Mesh(bodyGeo, matFor(r.color));
@@ -67,6 +78,10 @@ export function createPeople(THREE, { scene, flows, centers, heightAt, roles, rn
       const fig = makeFigure(f.walker);
       fig.scale.setScalar(1.05);
       group.add(fig);
+      if (!f.carry) {
+        walkers.push({ flow: f, curve, length, fig, badge: null, s: k ? 1.15 : 0.1 + rng() * 0.2, y: 0, speed: 0.38 + rng() * 0.12 });
+        continue;
+      }
       const el = document.createElement("div");
       el.className = "badge";
       el.innerHTML = iconFor(f.carry);
@@ -147,6 +162,10 @@ export function createPeople(THREE, { scene, flows, centers, heightAt, roles, rn
       w.fig.position.set(p.x, w.y, p.z);
       if (u > 0 && u < 1) w.fig.rotation.y = Math.atan2(q.x - p.x, q.z - p.z);
       const moving = !frozen && u > 0 && u < 1;
+      if (w.fig.userData.light) {
+        w.fig.children[0].position.y = 0.35 + Math.sin(t * 3 + w.length) * 0.05;
+        continue;
+      }
       const sw = moving ? Math.sin(t * 11 + w.length) * 0.6 : 0;
       w.fig.userData.legs[0].rotation.x = sw;
       w.fig.userData.legs[1].rotation.x = -sw;

@@ -1,7 +1,7 @@
 import { TOP, WILD_TOP, layoutZones, buildCity, createHeightAt } from "./world.js?v=1";
 import { createEnvironment, mulberry } from "./environment.js?v=1";
 import { createKit, MODELS, wildForest } from "./models.js?v=11";
-import { createPeople, flowCurve } from "./people.js?v=1";
+import { createPeople, flowCurve } from "./people.js?v=2";
 import { icon, skulls } from "./icons.js?v=1";
 
 const $ = (s) => document.querySelector(s),
@@ -38,13 +38,35 @@ const store = {
   },
 };
 
+// 事件關聯: islands are linked only for a stated reason — events in the same district (computed),
+// or a news report that covers both sides (data.json "links", with the report as its source)
+const DISTRICTS = ["中區", "東區", "南區", "西區", "北區", "西屯", "南屯", "北屯", "豐原", "東勢", "大甲", "清水", "沙鹿", "梧棲", "后里", "神岡", "潭子", "大雅", "新社", "石岡", "外埔", "大安", "烏日", "大肚", "龍井", "霧峰", "太平", "大里", "和平"];
+function buildLinks(D) {
+  const open = D.zones.filter((z) => !z.wip).sort((a, b) => a.number - b.number);
+  const byDistrict = (z) => {
+    const m = new Map();
+    for (const sp of z.spots) for (const d of DISTRICTS) if (String(sp.place || "").includes(d)) m.set(d, [...(m.get(d) || []), sp.id]);
+    return m;
+  };
+  const dist = new Map(open.map((z) => [z.id, byDistrict(z)]));
+  const links = [];
+  open.forEach((a, i) =>
+    open.slice(i + 1).forEach((b) => {
+      const shared = [...dist.get(a.id).keys()].filter((d) => dist.get(b.id).has(d)).map((d) => ({ d, a: dist.get(a.id).get(d), b: dist.get(b.id).get(d) }));
+      if (shared.length) links.push({ id: `P${links.length + 1}`, from: a.id, to: b.id, evidence: "place", walker: "light", carry: null, text: `同在${shared.map((x) => x.d).join("、")}`, shared });
+    }),
+  );
+  for (const l of D.links || []) links.push({ walker: "light", carry: null, evidence: "report", ...l });
+  return links;
+}
+
 try {
   const [THREE, { OrbitControls }, { CSS2DRenderer, CSS2DObject }, D] = await Promise.all([
     import("three"),
     import("three/addons/controls/OrbitControls.js"),
     import("three/addons/renderers/CSS2DRenderer.js"),
     // each city page points the shared engine at its own content: <main id="app" data-src="../lumama/data.json">
-    fetch(`${$("#app").dataset.src || "./data.json"}?v=18`)
+    fetch(`${$("#app").dataset.src || "./data.json"}?v=19`)
       .then((r) => {
         if (!r.ok) throw Error(`data.json: ${r.status}`);
         return r.json();
@@ -75,6 +97,7 @@ try {
                 pin: false,
               });
           }
+        D.flows = buildLinks(D);
         return D;
       }),
   ]);
@@ -470,8 +493,8 @@ try {
           .join("")}</ol>
         ${
           fl.length
-            ? `<h3>詛咒連線 <small>${fl.length}</small></h3>
-        <ul class="flow-list">${fl.map((f) => `<li><button data-flow="${f.id}"><em>${f.id}</em>${icon(f.carry)}<span>${esc(f.text)}</span></button></li>`).join("")}</ul>`
+            ? `<h3>事件關聯 <small>${fl.length}</small></h3>
+        <ul class="flow-list">${fl.map((f) => `<li><button data-flow="${f.id}"><em>${f.id}</em><span>${esc(f.text)}・${esc(zoneLabel(zoneById.get(f.from === z.id ? f.to : f.from)))}</span></button></li>`).join("")}</ul>`
             : ""
         }
         <div class="card-actions"><button data-act="prev">← 上一處</button>${fl.length ? `<button data-act="flows" class="primary">看它連到哪</button>` : ""}<button data-act="next">下一處 →</button></div>
@@ -492,11 +515,19 @@ try {
       const f = flowById.get(s.id),
         a = zoneById.get(f.from),
         b = zoneById.get(f.to);
-      html = `<div class="eyebrow">CURSE LINK ${f.id} · ${esc(D.evidence[f.evidence].label)}</div>
+      const evBtn = (id) => {
+        const sp = spotById.get(id);
+        return sp ? `<li><button data-spot="${sp.id}"><span class="sp-name">${esc(sp.name)}</span><span class="sp-meta">${esc(sp.date || "")}　${esc(zoneLabel(zoneById.get(sp.zone)))}</span></button></li>` : "";
+      };
+      html = `<div class="eyebrow">事件關聯 ${f.id} · ${esc(D.evidence[f.evidence].label)}</div>
         <h2>${esc(f.text)}</h2>
-        <div class="route"><button data-zone="${a.id}">${esc(zoneLabel(a))}</button><span aria-hidden="true">→</span><button data-zone="${b.id}">${esc(zoneLabel(b))}</button></div>
-        <dl class="kv"><dt>搬運者</dt><dd>${esc(roleLabel(f.walker))}</dd><dt>攜帶物</dt><dd class="carry">${icon(f.carry)} ${esc(carryLabel(f.carry))}</dd>
-        <dt>依據</dt><dd><span class="ev ev-${f.evidence}"></span>${esc(D.evidence[f.evidence].label)}</dd></dl>
+        <div class="route"><button data-zone="${a.id}">${esc(zoneLabel(a))}</button><span aria-hidden="true">↔</span><button data-zone="${b.id}">${esc(zoneLabel(b))}</button></div>
+        ${
+          f.evidence === "place"
+            ? f.shared.map((x) => `<h3>${esc(x.d)} <small>${x.a.length + x.b.length}</small></h3><ol class="spot-list">${[...x.a, ...x.b].map(evBtn).join("")}</ol>`).join("")
+            : `<h3>相關事件 <small>${f.events.length}</small></h3><ol class="spot-list">${f.events.map(evBtn).join("")}</ol>${sourceList(f)}`
+        }
+        <p class="rec-note">${f.evidence === "place" ? "兩座島上都有發生在這些地區的事件；只表示地點相同，不代表事件之間有因果關係。" : "這些事件出現在同一篇（或同一波）新聞報導裡，連結即為該報導。"}</p>
         <div class="card-actions"><button data-act="prev-flow">← 上一條</button><button data-act="next-flow">下一條 →</button></div>`;
     }
     cardContent.innerHTML = html;
@@ -606,7 +637,7 @@ try {
   // ---------- sidebar ----------
   $("#disclaimer").textContent = D.meta.disclaimer;
   $("#side-count").innerHTML = `${openCount} 處開放地點 ／ ${spotCount} 則內容（其餘 ${zones.length - openCount} 處施工中）<br>點開一座島，看看這座城發生過什麼。`;
-  $("#tab-flows").textContent = `詛咒連線 ${D.flows.length}`;
+  $("#tab-flows").textContent = `事件關聯 ${D.flows.length}`;
   $("#tab-flows").hidden = !D.flows.length; // no curse links once every open island is real news
   $$("[data-needs-flows]").forEach((b) => (b.hidden = !D.flows.length));
   const norm = (s) => String(s || "").toLowerCase();
@@ -632,7 +663,7 @@ try {
       const rows = D.flows
         .filter((f) => !q || [f.text, zoneById.get(f.from).name, zoneById.get(f.to).name, carryLabel(f.carry), roleLabel(f.walker)].some((t) => norm(t).includes(q)))
         .map(
-          (f) => `<button class="frow${state.sel?.id === f.id ? " sel" : ""}" data-flow="${f.id}"><em>${f.id}</em><span><b>${esc(f.text)}</b><small>${esc(zoneById.get(f.from).name)} → ${esc(zoneById.get(f.to).name)}・<span class="ev ev-${f.evidence}"></span>${esc(D.evidence[f.evidence].label)}</small></span>${icon(f.carry)}</button>`,
+          (f) => `<button class="frow${state.sel?.id === f.id ? " sel" : ""}" data-flow="${f.id}"><em>${f.id}</em><span><b>${esc(f.text)}</b><small>${esc(zoneById.get(f.from).name)} ↔ ${esc(zoneById.get(f.to).name)}・<span class="ev ev-${f.evidence}"></span>${esc(D.evidence[f.evidence].label)}</small></span>${f.carry ? icon(f.carry) : ""}</button>`,
         )
         .join("");
       tree.innerHTML = rows || `<p class="empty">找不到「${esc(state.search)}」相關的連線。</p>`;
@@ -834,7 +865,7 @@ try {
     if (log.length > 80) log.pop();
     if (state.log) renderLog();
   }
-  $("#log-flow").innerHTML = `<option value="">全部事件</option>` + D.flows.map((f) => `<option value="${f.id}">${f.id}・${esc(zoneById.get(f.from).name)} → ${esc(zoneById.get(f.to).name)}</option>`).join("");
+  $("#log-flow").innerHTML = `<option value="">全部事件</option>` + D.flows.map((f) => `<option value="${f.id}">${f.id}・${esc(zoneById.get(f.from).name)} ↔ ${esc(zoneById.get(f.to).name)}</option>`).join("");
   $("#log-flow").addEventListener("change", renderLog);
   function renderLog() {
     const f = $("#log-flow").value;
