@@ -639,7 +639,7 @@ try {
 
   // ---------- sidebar ----------
   $("#disclaimer").textContent = D.meta.disclaimer;
-  $("#side-count").innerHTML = `${openCount} 處開放地點 ／ ${spotCount} 則內容（其餘 ${zones.length - openCount} 處施工中）<br>點開一座島，看看這座城發生過什麼。`;
+  $("#side-count").innerHTML = `${openCount} 處開放地點 ／ ${spotCount} 則內容${zones.length > openCount ? `（其餘 ${zones.length - openCount} 處施工中）` : ""}<br>點開一座島，看看這座城發生過什麼。`;
   $("#tab-flows").textContent = `事件關聯 ${D.flows.length}`;
   $("#tab-flows").hidden = !D.flows.length; // no curse links once every open island is real news
   $$("[data-needs-flows]").forEach((b) => (b.hidden = !D.flows.length));
@@ -888,9 +888,10 @@ try {
     const counts = D.fear.map((f) => ({ f, n: zones.reduce((n, z) => n + z.spots.filter((s) => s.fear.includes(f.id)).length, 0) }));
     const max = Math.max(1, ...counts.map((c) => c.n));
     const deaths = zones.reduce((n, z) => n + z.spots.filter((s) => s.fear.includes("D")).length, 0);
+    const links = new Set(zones.flatMap((z) => z.spots.flatMap((s) => (s.sources || []).map((x) => x.url)))).size;
     $("#overview-panel").innerHTML = `<div class="stats">
       <div><b>${openCount}</b><span>開放島嶼</span></div><div><b>${spotCount}</b><span>則事件</span></div>
-      <div><b>${deaths}</b><span>有人死亡</span></div><div><b>${zones.length - openCount}</b><span>施工中</span></div></div>
+      <div><b>${deaths}</b><span>有人死亡</span></div><div><b>${links.toLocaleString()}</b><span>篇新聞連結</span></div></div>
       <h4>各島事件數</h4>${open.map((z) => `<div class="bar"><span>${pad(z.number)} ${esc(z.name)}</span><i style="--w:${(z.spots.length / Math.max(...open.map((o) => o.spots.length))) * 100}%;--c:${z.tlColor || "#888"}"></i><b>${z.spots.length}</b></div>`).join("")}
       <h4>事件類型</h4>${counts.map((c) => `<div class="bar"><span>${esc(c.f.name)}</span><i style="--w:${(c.n / max) * 100}%;--c:${c.f.color}"></i><b>${c.n}</b></div>`).join("")}`;
   }
