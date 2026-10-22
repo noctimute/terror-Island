@@ -43,34 +43,47 @@ export function createGuns(THREE, { scene, centers, CSS2DObject, rng, count = 12
   const guard = new THREE.TorusGeometry(0.04, 0.01, 4, 10, Math.PI);
   const hitGeo = new THREE.SphereGeometry(0.45, 8, 6);
   const hitMat = new THREE.MeshBasicMaterial();
+  const ringGeo = new THREE.RingGeometry(0.14, 0.2, 24);
+  const glowMat = new THREE.MeshBasicMaterial({ color: 0x6fe3ff, transparent: true, opacity: 0.85, side: THREE.DoubleSide, toneMapped: false, depthWrite: false });
+  const pillarGeo = new THREE.CylinderGeometry(0.1, 0.15, 0.8, 16, 1, true);
+  const pillarMat = new THREE.MeshBasicMaterial({ color: 0x6fe3ff, transparent: true, opacity: 0.12, side: THREE.DoubleSide, toneMapped: false, depthWrite: false, blending: THREE.AdditiveBlending });
 
   const guns = [];
   spots.slice(0, count).forEach((p, i) => {
     const id = `g${i}`;
     if (found.has(id)) return;
+    // GTA-style pickup: the gun floats upright, spinning and bobbing over a glowing ring and a faint light pillar
     const g = new THREE.Group();
+    const spin = new THREE.Group();
+    g.add(spin);
     const m = (geo, mat, x, y, z, rz = 0) => {
       const mesh = new THREE.Mesh(geo, mat);
       mesh.position.set(x, y, z);
       mesh.rotation.z = rz;
-      mesh.castShadow = true;
-      g.add(mesh);
+      spin.add(mesh);
     };
     m(slide, metal, 0, 0.1, 0);
     m(barrel, metal, 0.2, 0.11, 0);
     m(handle, grip, -0.11, 0.01, 0, -0.25);
     m(guard, metal, -0.02, 0.05, 0, Math.PI);
-    // lying on its side on the asphalt
-    g.rotation.order = "YXZ";
-    g.rotation.set(-Math.PI / 2, rng() * Math.PI * 2, 0);
-    g.position.set(p.x + (rng() - 0.5) * 0.2, 0.08, p.z + (rng() - 0.5) * 0.2);
-    g.scale.setScalar(2.2);
+    const ring = new THREE.Mesh(ringGeo, glowMat);
+    ring.rotation.x = -Math.PI / 2;
+    ring.position.y = 0.02;
+    g.add(ring);
+    const pillar = new THREE.Mesh(pillarGeo, pillarMat);
+    pillar.position.y = 0.35;
+    g.add(pillar);
+    g.position.set(p.x + (rng() - 0.5) * 0.2, 0.02, p.z + (rng() - 0.5) * 0.2);
+    g.scale.setScalar(1.7);
     const hit = new THREE.Mesh(hitGeo, hitMat);
+    hit.position.y = 0.2;
     hit.visible = false;
     hit.userData.gun = id;
     g.add(hit);
     scene.add(g);
-    guns.push({ id, g, hit });
+    spin.userData.ph = rng() * Math.PI * 2;
+    spin.rotation.y = spin.userData.ph;
+    guns.push({ id, g, hit, spin, ring });
   });
 
   const toasts = [];
@@ -119,7 +132,13 @@ export function createGuns(THREE, { scene, centers, CSS2DObject, rng, count = 12
   }
   const isGun = (ray) => ray.intersectObjects(guns.map((g) => g.hit), false).length > 0;
 
-  function update(dt) {
+  function update(dt, t = 0) {
+    for (const gun of guns) {
+      gun.spin.rotation.y = gun.spin.userData.ph + t * 1.6;
+      gun.spin.position.y = 0.22 + Math.sin(t * 2.4 + gun.spin.userData.ph) * 0.05;
+      const k = 1 + Math.sin(t * 3 + gun.spin.userData.ph) * 0.12;
+      gun.ring.scale.set(k, k, 1);
+    }
     for (let i = toasts.length - 1; i >= 0; i--) {
       const q = toasts[i];
       q.age += Math.max(dt, 1 / 60);
