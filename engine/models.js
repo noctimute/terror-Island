@@ -645,14 +645,47 @@ export const MODELS = {
     const b2 = p.sub(0.85, 0, -0.85);
     b2.box(0, 0.8, 0, 0.6, 1.6, 0.6, 0x7d7470);
     for (let f = 0; f < 5; f++) b2.box(0, 0.3 + f * 0.28, 0.305, 0.4, 0.12, 0.02, f === 2 ? C.blood : C.glass, { glow: f === 2 });
-    // dark lake in front with floating figures
-    for (let i = 0; i < 18; i++) {
-      const a = (i / 18) * Math.PI * 2;
-      p.ico(Math.cos(a) * 1.05, 0.05, 0.95 + Math.sin(a) * 0.52, 0.22, 0.12, 0.18, i % 2 ? C.dstone : C.stone, { ry: a });
+    // city road in front of the tower: asphalt, lane dashes, a zebra crossing and a passing car
+    p.box(0, 0.015, 0.95, 3.0, 0.03, 0.75, 0x2b2a2e);
+    p.box(0, 0.04, 0.56, 3.0, 0.05, 0.06, 0x9a958c);
+    p.box(0, 0.04, 1.34, 2.6, 0.05, 0.06, 0x9a958c);
+    for (let i = 0; i < 6; i++) p.box(-1.25 + i * 0.5, 0.034, 0.95, 0.24, 0.01, 0.035, C.white);
+    for (let i = 0; i < 5; i++) p.box(0.75, 0.034, 0.69 + i * 0.13, 0.42, 0.01, 0.07, C.white);
+    const car = p.dyn(0, 0, 1.12);
+    car.rbox(0, 0.1, 0, 0.42, 0.13, 0.2, 0x8e1c16);
+    car.rbox(-0.02, 0.2, 0, 0.24, 0.1, 0.18, 0x4d5f6a);
+    car.box(0.215, 0.1, 0.06, 0.01, 0.04, 0.04, C.lamp, { glow: true });
+    car.box(0.215, 0.1, -0.06, 0.01, 0.04, 0.04, C.lamp, { glow: true });
+    p.anim((t) => {
+      const x = ((t * 0.35) % 1) * 3.6 - 1.8;
+      car.node.position.x = x;
+      car.node.visible = Math.abs(x) < 1.4;
+    });
+    lantern(p, 1.25, 0.6, 0.5, C.lamp, 0.5);
+    p.cyl(1.25, 0.25, 0.5, 0.03, 0.5, 0.03, C.black);
+    return { mist: 3, mistY: 0.2 };
+  },
+
+  // 15 中區・南屯：漂浮島（虛構傳說）——黑水湖中央的小島會飄，四周浮著 ✕✕ 小人
+  floatisle(p, rng) {
+    for (let i = 0; i < 22; i++) {
+      const a = (i / 22) * Math.PI * 2;
+      p.ico(Math.cos(a) * 1.55, 0.05, Math.sin(a) * 1.4, 0.3, 0.14, 0.24, i % 2 ? C.dstone : C.stone, { ry: a });
     }
-    p.cyl(0, 0.03, 0.95, 2.0, 0.04, 1.0, 0x1b2e36);
+    p.cyl(0, 0.03, 0, 3.1, 0.04, 2.8, 0x16262d);
+    // the islet bobs and drifts in a slow circle
+    const isl = p.dyn(0, 0.05, -0.15);
+    isl.cone(0, -0.08, 0, 0.9, 0.3, 0.8, 0x5a4a3a, { rx: Math.PI });
+    isl.cyl(0, 0.03, 0, 0.92, 0.06, 0.82, 0x4f6a3e);
+    deadTree(isl, -0.12, 0.05, 0.9);
+    for (let i = 0; i < 3; i++) isl.cyl(0.18 + i * 0.07, 0.08, 0.15, 0.03, 0.06, 0.03, C.lamp, { glow: true });
+    p.anim((t) => {
+      isl.node.position.y = 0.05 + Math.sin(t * 0.9) * 0.03;
+      isl.node.position.x = Math.sin(t * 0.15) * 0.12;
+      isl.node.rotation.y = t * 0.05;
+    });
     const floaters = [];
-    for (const [x, z, r] of [[-0.55, 0.9, 0.4], [0.1, 1.15, -0.8], [0.6, 0.85, 2.1]]) {
+    for (const [x, z, r] of [[-0.95, 0.55, 0.4], [-0.2, 0.95, -0.8], [0.7, 0.7, 2.1], [0.95, -0.55, 1.2], [-0.85, -0.6, -2.3]]) {
       const f = p.dyn(x, 0.07, z);
       qdead(f, 0.8);
       f.node.rotation.set(-Math.PI / 2, 0, r);
@@ -662,11 +695,11 @@ export const MODELS = {
       for (const f of floaters) {
         f.n.position.y = 0.07 + Math.sin(t * 1.1 + f.ph) * 0.015;
         f.n.rotation.z = f.r + Math.sin(t * 0.3 + f.ph) * 0.25;
-        f.n.position.x = f.x + Math.sin(t * 0.2 + f.ph) * 0.05;
+        f.n.position.x = f.x + Math.sin(t * 0.2 + f.ph) * 0.06;
       }
     });
-    for (let i = 0; i < 5; i++) p.cone(1.15 + (i % 2) * 0.12, 0.14, 0.75 + i * 0.1, 0.05, 0.28, 0.05, 0x55704a, { rz: (rng() - 0.5) * 0.5 });
-    return { mist: 3, mistY: 0.2 };
+    for (let i = 0; i < 7; i++) p.cone(1.3 + (i % 2) * 0.1, 0.14, -0.3 + i * 0.12, 0.05, 0.28, 0.05, 0x55704a, { rz: (rng() - 0.5) * 0.5 });
+    return { mist: 5, mistY: 0.2 };
   },
 
   // 12 北屯：第七病棟
