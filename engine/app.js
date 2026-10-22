@@ -2,7 +2,7 @@ import { TOP, WILD_TOP, layoutZones, buildCity, createHeightAt } from "./world.j
 import { createEnvironment, mulberry } from "./environment.js?v=2";
 import { createKit, MODELS, wildForest } from "./models.js?v=19";
 import { createPeople, flowCurve } from "./people.js?v=2";
-import { createLumama } from "./lumama.js?v=4";
+import { createLumama } from "./lumama.js?v=5";
 import { icon, skulls } from "./icons.js?v=1";
 
 const $ = (s) => document.querySelector(s),

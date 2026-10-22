@@ -35,6 +35,7 @@ export function createLumama(THREE, { scene, centers, CSS2DObject, rng }) {
   const ink = new THREE.MeshBasicMaterial({ color: 0x1a0f0c });
   const mouthIn = new THREE.MeshBasicMaterial({ color: 0x3a0f10 });
   const pants = mat(0x2c2a30);
+  const palm = new THREE.MeshStandardMaterial({ color: 0xe6efb8, emissive: 0x7aa040, emissiveIntensity: 0.4, roughness: 0.6 });
   const add = (geo, m, x, y, z, s = [1, 1, 1], r = [0, 0, 0], parent = g) => {
     const mesh = new THREE.Mesh(geo, m);
     mesh.position.set(x, y, z);
@@ -58,6 +59,8 @@ export function createLumama(THREE, { scene, centers, CSS2DObject, rng }) {
     pivot.position.set(x, 0.6, 0);
     g.add(pivot);
     add(new THREE.BoxGeometry(0.09, 0.28, 0.09).translate(0, -0.14, 0), shirt, 0, 0, 0, [1, 1, 1], [0, 0, x > 0 ? -0.15 : 0.15], pivot);
+    // open palm at the end of the arm, slapping the drum head
+    add(sph, palm, x > 0 ? -0.04 : 0.04, -0.3, 0.01, [0.1, 0.05, 0.12], [0, 0, 0], pivot);
     return pivot;
   });
   const head = new THREE.Group();
@@ -95,7 +98,6 @@ export function createLumama(THREE, { scene, centers, CSS2DObject, rng }) {
   add(new THREE.CylinderGeometry(0.15, 0.15, 0.13, 18), mat(0xc8102e), 0, 0, 0, [1, 1, 1], [0, 0, 0], drum);
   add(new THREE.CylinderGeometry(0.152, 0.152, 0.012, 18), mat(0xf4f1ea), 0, 0.068, 0, [1, 1, 1], [0, 0, 0], drum);
   add(new THREE.CylinderGeometry(0.155, 0.155, 0.02, 18), mat(0xd9a520), 0, -0.06, 0, [1, 1, 1], [0, 0, 0], drum);
-  for (const x of [-0.12, 0.12]) add(new THREE.BoxGeometry(0.02, 0.32, 0.02), mat(0x2c2a30), x, 0.2, -0.12, [1, 1, 1], [0.6, 0, 0], drum);
   // a faint halo of light around the face
   const glow = new THREE.PointLight(0xb8ff7a, 1.4, 2.4, 2);
   glow.position.set(0, 1.25, 0.9);
