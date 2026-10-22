@@ -204,12 +204,23 @@ function qdead(d, s = 1) {
 function shadowman(d, s = 1) {
   const ink = 0x15141a;
   d.rbox(0, 0.24 * s, 0, 0.26 * s, 0.42 * s, 0.18 * s, ink);
-  d.sphere(0, 0.6 * s, 0, 0.3 * s, 0.32 * s, 0.28 * s, ink);
-  for (const ex of [-0.065, 0.065]) {
-    d.box(ex * s, 0.64 * s, 0.13 * s, 0.09 * s, 0.04 * s, 0.01 * s, C.white, { glow: true, rz: ex < 0 ? -0.25 : 0.25 });
-    d.box(ex * s, 0.64 * s, 0.137 * s, 0.012 * s, 0.012 * s, 0.01 * s, C.black);
+  // tall bald head tapering to a pointed chin, with small ears
+  d.sphere(0, 0.64 * s, 0, 0.28 * s, 0.36 * s, 0.28 * s, ink);
+  d.cone(0, 0.47 * s, 0.01 * s, 0.2 * s, 0.16 * s, 0.2 * s, ink, { rx: Math.PI });
+  for (const ex of [-1, 1]) d.sphere(ex * 0.145 * s, 0.64 * s, -0.01 * s, 0.05 * s, 0.1 * s, 0.05 * s, ink);
+  // slanted, half-lidded white eyes with tiny pupils glancing sideways
+  for (const ex of [-1, 1]) {
+    const x = ex * 0.065 * s,
+      y = 0.665 * s,
+      rz = ex * 0.38;
+    d.sphere(x, y, 0.126 * s, 0.1 * s, 0.05 * s, 0.03 * s, C.white, { glow: true, rz });
+    d.sphere(x - ex * 0.006 * s, y + 0.024 * s, 0.13 * s, 0.112 * s, 0.05 * s, 0.032 * s, ink, { rz }); // heavy lid
+    d.sphere(x + 0.012 * s, y - 0.004 * s, 0.142 * s, 0.014 * s, 0.014 * s, 0.006 * s, C.black);
   }
-  d.box(0, 0.52 * s, 0.128 * s, 0.13 * s, 0.03 * s, 0.01 * s, C.white, { glow: true }); // grin
+  // wide, crooked grin: a white crescent cut by a lopsided black upper lip
+  d.sphere(0.01 * s, 0.54 * s, 0.116 * s, 0.19 * s, 0.075 * s, 0.03 * s, C.white, { glow: true, rz: -0.08 });
+  d.sphere(0.0, 0.568 * s, 0.122 * s, 0.205 * s, 0.06 * s, 0.032 * s, ink, { rz: -0.12 }); // upper lip carves a smile
+  d.box(0.01 * s, 0.53 * s, 0.132 * s, 0.11 * s, 0.005 * s, 0.004 * s, 0x3a3a40, { rz: -0.06 }); // teeth line
   const arms = [-0.16, 0.16].map((ax) => {
     const a = d.dyn(ax * s, 0.4 * s, 0);
     a.cyl(0, -0.13 * s, 0, 0.05 * s, 0.26 * s, 0.05 * s, ink);
@@ -609,7 +620,7 @@ export const MODELS = {
     // two black figures stand back on the roof and only watch (the news says foul play was ruled out)
     const watchers = [-0.72, 0.02].map((x) => {
       const w = p.dyn(x, 3.33, -0.62);
-      shadowman(w, 0.7);
+      shadowman(w, 0.85);
       w.node.rotation.x = 0.2;
       return w.node;
     });
