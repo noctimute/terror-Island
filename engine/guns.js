@@ -5,7 +5,7 @@ import { S, hexVertex } from "./world.js?v=1";
 
 const KEY = "taichung-guns-v1";
 
-export function createGuns(THREE, { scene, centers, CSS2DObject, rng, count = 12, outside = 4, groundAt, blocked = centers, hud }) {
+export function createGuns(THREE, { scene, centers, CSS2DObject, rng, count = 12, outside = 4, groundAt, blocked = centers, hud, onCollect }) {
   // candidate spots: midpoints of the road edges between hex corners
   const seen = new Set(),
     spots = [];
@@ -155,6 +155,7 @@ export function createGuns(THREE, { scene, centers, CSS2DObject, rng, count = 12
     found.add(gun.id);
     save();
     const left = count - found.size;
+    onCollect?.(left);
     toast(gun.g.position, left ? `恭喜你撿到一把槍！還剩 ${left} 把` : "恭喜全部收集完成！你成為一位合格台中人");
     renderHud();
     return true;

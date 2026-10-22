@@ -3,7 +3,7 @@
 import { RoundedBoxGeometry } from "three/addons/geometries/RoundedBoxGeometry.js";
 import { S, hexVertex } from "./world.js?v=1";
 
-export function createLumama(THREE, { scene, centers, CSS2DObject, rng }) {
+export function createLumama(THREE, { scene, centers, CSS2DObject, rng, onCelebrate }) {
   // ---- road graph from hex corners ----
   const key = (x, z) => `${Math.round(x * 100)}|${Math.round(z * 100)}`;
   const nodes = new Map();
@@ -126,6 +126,7 @@ export function createLumama(THREE, { scene, centers, CSS2DObject, rng }) {
   const coins = [];
   const pops = [];
   function celebrate(onClick) {
+    onCelebrate?.();
     for (let i = 0; i < 14; i++) {
       const c = new THREE.Mesh(coinGeo, coinMat);
       c.position.set(g.position.x, 1.9 * g.scale.y, g.position.z);
