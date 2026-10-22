@@ -31,7 +31,7 @@ jobs:
           # every top-level folder with its own index.html is a city page (lumama/, taipei/, ...)
           for d in */; do
             d=${d%/}
-            if [ "$d" != engine ] && [ -f "$d/index.html" ]; then cp -r "$d" _site/; fi
+            if [ "$d" != engine ] && [ "$d" != _site ] && [ -f "$d/index.html" ]; then cp -r "$d" _site/; fi
           done
           if [ -f CNAME ]; then cp CNAME _site/; fi
       - uses: actions/upload-pages-artifact@v3
