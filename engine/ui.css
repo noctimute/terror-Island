@@ -330,7 +330,8 @@ body.touring .controls, body.touring .dock, body.touring .card, body.touring .ma
   .toggles { overflow-x: auto; scrollbar-width: none; }
   .hud .seg:first-child { display: none; }
   body.time-open .hud .seg:first-child { display: flex; }
-  .hud .seg2 { flex: 1; justify-content: space-between; }
+  .hud .seg2 { flex: 1; justify-content: space-around; }
+  .hud .seg2 button:not([hidden]) { flex: 1; }
   .hud .seg2 button span { display: block; }
   .hud .seg2 button { padding: 7px 8px; }
   .controls { display: none; left: 10px; right: 10px; width: auto; min-width: 0; bottom: 84px; }
