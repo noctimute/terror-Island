@@ -1,7 +1,7 @@
 import { TOP, WILD_TOP, layoutZones, buildCity, createHeightAt } from "./world.js?v=1";
 import { createEnvironment, mulberry } from "./environment.js?v=2";
 import { createKit, MODELS, wildForest } from "./models.js?v=19";
-import { createPeople, flowCurve } from "./people.js?v=2";
+import { createPeople, flowCurve } from "./people.js?v=3";
 import { createLumama } from "./lumama.js?v=8";
 import { createGuns } from "./guns.js?v=8";
 import { createMusic } from "./music.js?v=1";
@@ -842,6 +842,7 @@ try {
     if (name === "flows") applyFlows();
     if (name === "names") applyLabels();
     if (name === "badges") people.setBadges(on);
+    if (name === "frozen") document.body.classList.toggle("frozen", on);
     if (name === "bird") state.sel?.zone ? zoneView(state.sel.zone) : homeView();
     if (name === "log") {
       document.body.classList.toggle("log-open", on);
@@ -851,8 +852,9 @@ try {
       }
     }
   }
-  $$(".tg").forEach((b) => b.addEventListener("click", () => toggle(b.dataset.toggle)));
-  $$(".tg").forEach((b) => b.setAttribute("aria-pressed", !!state[b.dataset.toggle]));
+  $$(".tg[data-toggle]").forEach((b) => b.addEventListener("click", () => toggle(b.dataset.toggle)));
+  $$(".tg[data-toggle]").forEach((b) => b.setAttribute("aria-pressed", !!state[b.dataset.toggle]));
+  document.body.classList.toggle("frozen", state.frozen);
   $("#mob-time").addEventListener("click", () => {
     const on = !document.body.classList.contains("time-open");
     document.body.classList.toggle("time-open", on);

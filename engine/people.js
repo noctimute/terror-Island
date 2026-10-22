@@ -176,7 +176,7 @@ export function createPeople(THREE, { scene, flows, centers, heightAt, roles, rn
     const n = env.night;
     for (const g of ghosts) {
       const u = g.userData;
-      const a = (frozen ? 0 : t) * u.sp + u.ph;
+      const a = t * u.sp + u.ph; // t stops advancing while paused, so ghosts hold their place
       g.position.set(u.home.x + Math.cos(a) * u.r, TOP + 0.35 + Math.sin(t * 1.3 + u.ph) * 0.12, u.home.z + Math.sin(a) * u.r);
       g.rotation.y = Math.atan2(-Math.sin(a) * Math.sign(u.sp), Math.cos(a) * Math.sign(u.sp));
       const op = Math.max(0, n - 0.15) * 0.85;

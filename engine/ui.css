@@ -239,6 +239,7 @@ input[type="range"] { flex: 1; accent-color: var(--accent); height: 24px; }
 body.log-open .log { display: flex; }
 .log-head { display: flex; justify-content: space-between; align-items: flex-start; padding: 16px 18px 8px; }
 .log-head h3 { margin: 4px 0 0; font: 900 19px var(--serif); }
+.log-head .log-sub { margin: 4px 0 0; font-size: 12px; color: var(--accent2); letter-spacing: 0.08em; }
 .log-head button { border: 0; background: var(--paper2); width: 30px; height: 30px; border-radius: 50%; font-size: 18px; }
 .log-tabs { display: flex; gap: 4px; padding: 0 18px; border-bottom: 1px solid var(--line); }
 .log-tabs button { border: 0; background: none; padding: 8px 6px; font-size: 12px; color: var(--muted); border-bottom: 2px solid transparent; margin-bottom: -1px; }
@@ -399,3 +400,6 @@ body.touring .controls, body.touring .dock, body.touring .card, body.touring .ma
 .gun-hud.done .gun-ico { background: #d9a520; }
 body.touring .gun-hud { display: none; }
 @media (max-width: 760px) { .gun-hud { left: 10px; right: 10px; bottom: 10px; max-width: none; } }
+
+/* 暫停 also holds the page's own CSS loops, like the floating mascot face */
+body.frozen .mascot .face { animation-play-state: paused; }
