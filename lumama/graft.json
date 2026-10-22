@@ -1,0 +1,197 @@
+{
+ "title": "台中貪瀆與犯罪新聞",
+ "note": "整理自 Threads 上的台中相關貼文所提到的新聞",
+ "helpline": false,
+ "updated": "2026-10-22",
+ "records": [
+  {
+   "id": "k-tax",
+   "title": "中區國稅局稽核收賄 查扣現金1280萬、5塊黃金",
+   "date": "2026-09",
+   "place": "南屯",
+   "summary": "中區國稅局一名簡任稽核涉收賄，查到現金 1280 萬元、5 塊黃金，並以兒子名義支付南屯 4340 萬元豪宅的 500 萬元頭期款。",
+   "fear": [
+    "K"
+   ],
+   "sources": [
+    {
+     "title": "中區國稅局簡任稽核遭控收賄案 3人收押",
+     "outlet": "中央社",
+     "url": "https://cna.com.tw/news/asoc/202609030148.aspx"
+    },
+    {
+     "title": "涉貪擁4000萬豪宅…國稅局高官仍「全部否認犯行」聲請停押遭駁",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7321/9820409"
+    },
+    {
+     "title": "收現金、黃金、買4000萬豪宅 最貪國稅局稽核聲請停押被打臉",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/Taichung/breakingnews/5609384"
+    }
+   ]
+  },
+  {
+   "id": "k-officer",
+   "title": "第二分局偵查小隊長涉毒、性侵 羈押禁見",
+   "date": "2026-06",
+   "place": "台中",
+   "summary": "台中市警察局第二分局一名偵查小隊長涉毒品與性侵案，遭羈押禁見，已記兩大過免職。",
+   "fear": [
+    "K"
+   ],
+   "sources": [
+    {
+     "title": "獨／遭女線人控性侵！台中偵查小隊長還被搜出安非他命",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260630/3192513.htm"
+    },
+    {
+     "title": "台中警界驚爆醜聞    偵查隊小隊長疑涉毒遭聲押獲准",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/Taichung/breakingnews/5488620"
+    }
+   ]
+  },
+  {
+   "id": "k-shopee",
+   "title": "蝦皮賣場當水房 洗錢17億 19人起訴",
+   "date": "2026-06",
+   "place": "台中",
+   "summary": "集團設在台中、利用蝦皮賣場當水房洗錢約 17 億元，運作約 3 年，由南投警方偵破，19 人被起訴。",
+   "fear": [
+    "K"
+   ],
+   "sources": [
+    {
+     "title": "台中資訊公司掩護洗錢 刑事局：台泰合作破獲",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/124490/9632269"
+    },
+    {
+     "title": "一文看懂「出租蝦皮帳戶」淪洗錢的犯罪模式 - INSIDE",
+     "outlet": "INSIDE",
+     "url": "https://www.inside.com.tw/article/38786-understanding-how-shopee-account-rental-becomes-money-laundering-crime-pattern"
+    }
+   ]
+  },
+  {
+   "id": "k-tickets",
+   "title": "12名警員開假罰單 圖利約4400萬",
+   "date": "2025-12",
+   "place": "台中",
+   "summary": "12 名警員涉開立不實罰單，檢方認定沒有收賄，但圖利金額約 4400 萬元。",
+   "fear": [
+    "K"
+   ],
+   "sources": [
+    {
+     "title": "開不實罰單吊銷牌照圖利 台中警員與業者29人遭訴",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202512020061.aspx"
+    },
+    {
+     "title": "台中12警開假罰單 涉圖利4400萬被起訴",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/784023"
+    }
+   ]
+  },
+  {
+   "id": "k-scam",
+   "title": "七期商辦藏詐團話務機房 4人起訴",
+   "date": "2025-09-25",
+   "place": "西屯",
+   "summary": "2025 年 9 月 25 日檢警搜索七期一處商辦裡的詐騙集團話務機房，4 人被起訴。",
+   "fear": [
+    "K"
+   ],
+   "sources": [
+    {
+     "title": "設新型態話務機房助詐團規避防詐 4嫌遭中檢起訴",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/124490/9282249"
+    }
+   ]
+  },
+  {
+   "id": "k-sewage",
+   "title": "「黑水專案」偷排上千噸水肥 有人判3年2月",
+   "date": "2025",
+   "place": "台中",
+   "summary": "「黑水專案」業者偷排上千噸水肥進下水道，是刑事案件，有人被判 3 年 2 月；網傳「只罰 6000 元」的是另一件北屯垃圾車倒餿水案。",
+   "fear": [
+    "K"
+   ],
+   "sources": [
+    {
+     "title": "聯合新聞網報導",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7321/8955744"
+    },
+    {
+     "title": "勾結工程公司違規排放水肥污水 2環保業者遭判刑",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7321/9287749"
+    },
+    {
+     "title": "台中2環保公司涉偷排水肥油汙 數量逾1千公噸遭檢起訴",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/766981"
+    },
+    {
+     "title": "非法水肥灌入中市下水道 中檢「黑水專案」起訴13人",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/story/20250822edi040"
+    },
+    {
+     "title": "千噸屎尿偷排台中下水道／勾結重劃區污水工程包商",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/paper/1721244"
+    },
+    {
+     "title": "偷排1280噸「糞水」進台中下水道！無良業者勾結 狂撈517萬下場曝",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1786378"
+    }
+   ]
+  },
+  {
+   "id": "k-lin",
+   "title": "前刑事局警政監收賄4451萬 中檢起訴32人",
+   "date": "2024-06",
+   "place": "台中",
+   "summary": "前刑事局警政監涉嫌收賄 4451 萬元，台中地檢署搜索、羈押並起訴 32 人；線索來自 2021 年橋頭與嘉義地檢偵辦高雄博弈案時發現，再移交中檢。",
+   "fear": [
+    "K"
+   ],
+   "sources": [
+    {
+     "title": "自由時報報導",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/Taichung/breakingnews/5492364"
+    },
+    {
+     "title": "刑事局警政監林明佐涉洩密收賄 依《貪污治罪條例》起訴",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/711483"
+    },
+    {
+     "title": "林明佐傳命危 昔刑事戰將走歪、涉貪6616萬時間軸一次看",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2902634"
+    },
+    {
+     "title": "【新聞內幕】高階警官涉護航百億賭王 神祕博弈教父陳政谷落網內幕",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/story/amp/20240603inv001"
+    },
+    {
+     "title": "聯合新聞網報導",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7321/8979372"
+    }
+   ]
+  }
+ ]
+}

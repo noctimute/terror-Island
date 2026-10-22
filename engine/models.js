@@ -781,6 +781,232 @@ export const MODELS = {
     return { mist: 3, mistY: 0.25 };
   },
 
+  // ---------- real-news islands added from the research repo (scenes are generic illustrations) ----------
+  // 公安災害島：row houses on fire, fireworks over a plaza, a flooded car park ramp
+  safetyisle(p, rng) {
+    const flames = [];
+    for (let i = 0; i < 3; i++) {
+      house(p, -1.0 + i * 0.5, -0.75, 0.42, 0.5, 0.55, i % 2 ? 0x8a6e5a : 0x9a8070, C.roof, 0, C.warm);
+      for (let k = 0; k < 2; k++) {
+        const f = p.dyn(-1.08 + i * 0.5 + k * 0.16, 0.78, -0.75);
+        flames.push({ n: f.node, m: f.cone(0, 0.1, 0, 0.16, 0.26, 0.16, k ? 0xffc23a : 0xff6a1a, { glow: true, own: true }), ph: rng() * 6 });
+      }
+    }
+    // fireworks: a few sparks burst and fall on a loop
+    const sparks = [];
+    for (let i = 0; i < 10; i++) {
+      const sp = p.dyn(0.75, 2.2, -0.4);
+      sparks.push({ n: sp.node, m: sp.sphere(0, 0, 0, 0.07, 0.07, 0.07, [0xff4d6d, 0xffd166, 0x5ec8ff][i % 3], { glow: true, own: true }), a: (i / 10) * Math.PI * 2 });
+    }
+    p.cyl(0.75, 0.15, -0.4, 0.12, 0.3, 0.12, C.dstone);
+    // flooded underground car park: ramp, water and a half-sunk car roof
+    p.box(0.55, 0.02, 0.75, 1.1, 0.04, 0.7, 0x3a3a40);
+    p.box(0.55, 0.05, 0.75, 1.0, 0.03, 0.6, 0x3f6f8f, { glow: false });
+    p.rbox(0.45, 0.08, 0.72, 0.36, 0.08, 0.2, 0xc9c2b6);
+    p.box(1.05, 0.35, 0.45, 0.04, 0.7, 0.04, C.metal);
+    p.box(1.05, 0.66, 0.45, 0.26, 0.16, 0.02, 0x2c6db5);
+    // fallen rebar cage at a construction edge
+    for (let i = 0; i < 6; i++) p.cyl(-0.7 + i * 0.06, 0.05, 0.75, 0.02, 0.9, 0.02, 0x8a4a2a, { rz: Math.PI / 2 - 0.25, ry: 0.4 });
+    for (const x of [-1.1, -0.3]) p.cone(x, 0.11, 1.0, 0.13, 0.22, 0.13, 0xf06a1e);
+    p.anim((t) => {
+      for (const f of flames) {
+        f.n.scale.set(1, 0.7 + Math.sin(t * 9 + f.ph) * 0.3, 1);
+        f.m.material.userData.flick = 0.8 + Math.sin(t * 13 + f.ph) * 0.2;
+      }
+      const u = (t % 3.2) / 3.2;
+      for (const s of sparks) {
+        const r = u * 0.9;
+        s.n.position.set(0.75 + Math.cos(s.a) * r, 2.2 + Math.sin(s.a) * r * 0.8 - u * u * 0.8, -0.4);
+        s.m.material.userData.flick = u < 0.85 ? 1 - u : 0;
+      }
+    });
+    return { mist: 3, mistY: 0.3 };
+  },
+
+  // 食安島：night-market stalls, a big oil drum with a warning label, a quarantined pig pen
+  foodisle(p, rng) {
+    for (let i = 0; i < 3; i++) {
+      const st = p.sub(-0.9 + i * 0.6, 0, -0.75);
+      st.box(0, 0.18, 0, 0.5, 0.36, 0.34, 0x8a6a4a);
+      st.gable(0, 0.45, 0, 0.6, 0.2, 0.44, [C.red, C.yellow, 0x2e9e5b][i]);
+      for (let k = 0; k < 3; k++) st.cyl(-0.15 + k * 0.15, 0.39, 0.06, 0.1, 0.05, 0.1, C.white);
+      lantern(st, 0, 0.42, 0.22, C.warm, 0.4);
+    }
+    // oil drum with a black warning band
+    const drum = p.sub(0.95, 0, -0.2);
+    drum.cyl(0, 0.32, 0, 0.42, 0.64, 0.42, 0xc9a227);
+    drum.cyl(0, 0.32, 0, 0.43, 0.14, 0.43, C.black);
+    drum.box(0, 0.32, 0.215, 0.16, 0.08, 0.01, C.blood, { glow: true });
+    // pig pen with red quarantine tape
+    const pen = p.sub(-0.35, 0, 0.6);
+    for (const [x, z, ry] of [[-0.55, 0, Math.PI / 2], [0.55, 0, Math.PI / 2], [0, -0.38, 0], [0, 0.38, 0]]) pen.box(x, 0.12, z, ry ? 0.76 : 1.1, 0.06, 0.03, C.wood, { ry });
+    for (const x of [-0.55, 0.55]) for (const z of [-0.38, 0.38]) pen.cyl(x, 0.14, z, 0.04, 0.28, 0.04, C.dwood);
+    pen.box(0, 0.26, 0.4, 1.15, 0.03, 0.01, C.blood);
+    const pigs = [];
+    for (const [x, z] of [[-0.25, -0.1], [0.15, 0.12], [0.3, -0.15]]) {
+      const g = p.dyn(-0.35 + x, 0, 0.6 + z, rng() * 6);
+      g.sphere(0, 0.11, 0, 0.26, 0.18, 0.18, 0xf2b8c0);
+      g.sphere(0.14, 0.13, 0, 0.12, 0.11, 0.12, 0xf2b8c0);
+      g.cyl(0.2, 0.13, 0, 0.05, 0.03, 0.05, 0xe09aa6, { rz: Math.PI / 2 });
+      pigs.push({ n: g.node, ph: rng() * 6 });
+    }
+    // a cup of tea on a table
+    p.cyl(0.95, 0.2, 0.7, 0.36, 0.04, 0.36, C.wood);
+    p.cyl(0.95, 0.1, 0.7, 0.04, 0.2, 0.04, C.dwood);
+    p.cyl(0.95, 0.28, 0.7, 0.08, 0.12, 0.08, C.white);
+    p.anim((t) => pigs.forEach((g) => (g.n.rotation.y += Math.sin(t * 0.7 + g.ph) * 0.004)));
+    return { mist: 2, mistY: 0.25 };
+  },
+
+  // 貪瀆島：police station, sacks of cash and gold bars, a phone-scam server room
+  graftisle(p, rng) {
+    const ps = p.sub(-0.55, 0, -0.65);
+    ps.box(0, 0.45, 0, 1.0, 0.9, 0.7, 0xdfe3e8);
+    ps.box(0, 0.93, 0, 1.06, 0.08, 0.76, 0x2c4f8a);
+    ps.box(0, 0.7, 0.36, 0.7, 0.12, 0.02, 0x2c4f8a);
+    for (let i = 0; i < 4; i++) ps.box(-0.33 + i * 0.22, 0.4, 0.355, 0.14, 0.16, 0.02, C.glass);
+    const siren = lantern(p.dyn(-0.55, 1.05, -0.65), 0, 0, 0, 0xff2f24, 0.45, { own: true });
+    // cash sacks and gold bars
+    for (let i = 0; i < 4; i++) {
+      const b = p.sub(0.55 + (i % 2) * 0.32, 0, -0.55 + Math.floor(i / 2) * 0.34);
+      b.sphere(0, 0.16, 0, 0.3, 0.32, 0.3, 0xd8c08a);
+      b.cyl(0, 0.33, 0, 0.08, 0.06, 0.08, 0x9a8050);
+      b.box(0, 0.17, 0.15, 0.12, 0.08, 0.01, 0x2e7d32);
+    }
+    for (let i = 0; i < 6; i++) p.box(0.2 + (i % 3) * 0.16, 0.04 + Math.floor(i / 3) * 0.07, 0.2, 0.14, 0.06, 0.08, C.yellow, { glow: i === 5 });
+    // server racks with blinking lights
+    const lights = [];
+    for (let i = 0; i < 3; i++) {
+      const r = p.sub(-0.8 + i * 0.3, 0, 0.6);
+      r.box(0, 0.35, 0, 0.24, 0.7, 0.3, 0x2a2c33);
+      for (let k = 0; k < 4; k++) {
+        const l = p.dyn(-0.8 + i * 0.3 - 0.06, 0.15 + k * 0.15, 0.755);
+        lights.push({ m: l.box(0, 0, 0, 0.04, 0.03, 0.01, k % 2 ? 0x5eff8a : 0xffc23a, { glow: true, own: true }), ph: rng() * 6 });
+      }
+    }
+    p.anim((t) => {
+      siren.material.userData.flick = Math.sin(t * 6) > 0 ? 1 : 0.1;
+      for (const l of lights) l.m.material.userData.flick = Math.sin(t * 7 + l.ph * 3) > 0.2 ? 1 : 0.15;
+    });
+    return { mist: 2, mistY: 0.3 };
+  },
+
+  // 國安島：harbour quay with a cargo ship and containers, a hovering drone, CCTV poles, a beached rubber boat
+  natisle(p, rng) {
+    p.box(0, 0.02, 0.6, 3.0, 0.04, 1.1, 0x24434c);
+    p.box(0, 0.06, -0.05, 3.0, 0.12, 0.25, 0x8a8580);
+    const ship = p.dyn(0, 0.04, 0.65);
+    ship.box(0, 0.15, 0, 2.0, 0.26, 0.5, 0x7a2b2b);
+    ship.box(0, 0.3, 0, 1.9, 0.06, 0.46, 0x3b3436);
+    ship.box(0.75, 0.48, 0, 0.32, 0.32, 0.4, C.white);
+    for (let i = 0; i < 5; i++) ship.box(-0.7 + i * 0.28, 0.42, 0, 0.24, 0.18, 0.4, [0x2c6db5, 0xc9a227, 0x2e9e5b, 0x8e1c16, 0x7f8c8d][i]);
+    for (let i = 0; i < 6; i++) p.box(-1.0 + (i % 3) * 0.32, 0.12 + Math.floor(i / 3) * 0.2, -0.55, 0.28, 0.18, 0.4, [0x2c6db5, 0xc9a227, 0x8e1c16][i % 3]);
+    // crane
+    p.box(0.95, 0.7, -0.6, 0.08, 1.4, 0.08, C.yellow);
+    p.box(0.75, 1.38, -0.4, 0.6, 0.06, 0.06, C.yellow, { ry: 0.8 });
+    // CCTV poles with a red blinking eye
+    const eyes = [];
+    for (const x of [-1.25, 0.4]) {
+      p.cyl(x, 0.4, -0.2, 0.03, 0.8, 0.03, C.metal);
+      p.box(x, 0.8, -0.14, 0.08, 0.06, 0.14, 0xdfe3e8);
+      const e = p.dyn(x, 0.8, -0.06);
+      eyes.push(e.sphere(0, 0, 0, 0.03, 0.03, 0.03, C.blood, { glow: true, own: true }));
+    }
+    // drone circling above
+    const dr = p.dyn(0, 1.5, 0);
+    dr.box(0, 0, 0, 0.2, 0.05, 0.2, C.black);
+    for (const [x, z] of [[-0.13, -0.13], [0.13, -0.13], [-0.13, 0.13], [0.13, 0.13]]) dr.cyl(x, 0.03, z, 0.12, 0.01, 0.12, 0x5a5a5a);
+    // rubber boat on the beach corner
+    p.sphere(-1.15, 0.06, 0.25, 0.4, 0.1, 0.22, 0xf06a1e);
+    p.anim((t) => {
+      ship.node.position.y = 0.04 + Math.sin(t * 0.8) * 0.015;
+      dr.node.position.set(Math.cos(t * 0.5) * 0.9, 1.5 + Math.sin(t * 2) * 0.05, Math.sin(t * 0.5) * 0.5);
+      eyes.forEach((e, i) => (e.material.userData.flick = Math.sin(t * 3 + i) > 0 ? 1 : 0.2));
+    });
+    return { mist: 4, mistY: 0.2 };
+  },
+
+  // 無聲島：a hushed corner of the city — park benches under a banyan, a hotel with one dark window, a parked car, candles
+  quietisle(p, rng) {
+    const ht = p.sub(-0.6, 0, -0.7);
+    ht.box(0, 0.8, 0, 0.8, 1.6, 0.6, 0x7d7a86);
+    for (let f = 0; f < 5; f++) for (let c = 0; c < 3; c++) ht.box(-0.24 + c * 0.24, 0.3 + f * 0.28, 0.305, 0.14, 0.12, 0.02, f === 3 && c === 1 ? C.black : rng() < 0.5 ? C.warm : C.glass, { glow: !(f === 3 && c === 1) && rng() < 0.5 });
+    // banyan tree
+    const tr = p.sub(0.6, 0, -0.35);
+    tr.cyl(0, 0.4, 0, 0.18, 0.8, 0.18, C.dwood);
+    for (let i = 0; i < 5; i++) tr.ico(Math.cos(i * 1.3) * 0.3, 0.95 + (i % 2) * 0.12, Math.sin(i * 1.3) * 0.25, 0.6, 0.4, 0.55, i % 2 ? C.dleaf : C.leaf);
+    // benches
+    for (const [x, z, ry] of [[0.2, 0.5, 0], [0.95, 0.45, -0.6]]) {
+      const b = p.sub(x, 0, z, ry);
+      b.box(0, 0.14, 0, 0.5, 0.04, 0.16, C.wood);
+      b.box(0, 0.24, -0.07, 0.5, 0.14, 0.03, C.wood);
+      for (const bx of [-0.2, 0.2]) b.box(bx, 0.07, 0, 0.03, 0.14, 0.14, C.metal);
+    }
+    // parked car
+    const car = p.sub(-0.7, 0, 0.55, 0.2);
+    car.rbox(0, 0.12, 0, 0.6, 0.16, 0.3, 0x4a5a6a);
+    car.rbox(-0.03, 0.26, 0, 0.34, 0.12, 0.27, 0x2a3440);
+    // street lamps and a few candles
+    for (const x of [-0.15, 1.2]) {
+      p.cyl(x, 0.45, -0.05, 0.03, 0.9, 0.03, C.black);
+      p.sphere(x, 0.92, -0.05, 0.1, 0.1, 0.1, C.lamp, { glow: true });
+    }
+    const candles = [];
+    for (let i = 0; i < 5; i++) {
+      p.cyl(0.05 + i * 0.09, 0.04, 0.85, 0.04, 0.08, 0.04, C.white);
+      const c = p.dyn(0.05 + i * 0.09, 0.11, 0.85);
+      candles.push({ m: c.sphere(0, 0, 0, 0.03, 0.05, 0.03, C.lamp, { glow: true, own: true }), ph: rng() * 6 });
+    }
+    p.anim((t) => candles.forEach((c) => (c.m.material.userData.flick = 0.75 + Math.sin(t * 9 + c.ph) * 0.25)));
+    return { mist: 6, mistY: 0.2 };
+  },
+
+  // 兒少島：a bright little amusement park — carousel, tiny ferris wheel, slide, balloons and bunting
+  kidsisle(p, rng) {
+    const PAL = [0xff6b8b, 0xffd166, 0x5ec8ff, 0x7bd389, 0xb48cff, 0xff9f5a];
+    p.cyl(0, 0.01, 0.1, 2.9, 0.02, 2.6, 0x8fd48f);
+    // carousel
+    const car = p.dyn(-0.55, 0, 0.35);
+    car.cyl(0, 0.05, 0, 1.0, 0.1, 1.0, 0xfff1c9);
+    car.cyl(0, 0.4, 0, 0.08, 0.7, 0.08, 0xffd166);
+    car.cone(0, 0.88, 0, 1.1, 0.35, 1.1, 0xff6b8b);
+    for (let i = 0; i < 6; i++) {
+      const a = (i / 6) * Math.PI * 2;
+      car.cyl(Math.cos(a) * 0.38, 0.45, Math.sin(a) * 0.38, 0.02, 0.8, 0.02, C.white);
+      car.rbox(Math.cos(a) * 0.38, 0.3, Math.sin(a) * 0.38, 0.12, 0.1, 0.2, PAL[i], { ry: -a });
+    }
+    // small ferris wheel
+    p.box(0.75, 0.55, -0.75, 0.05, 1.1, 0.05, C.white, { rz: 0.2 });
+    p.box(1.05, 0.55, -0.75, 0.05, 1.1, 0.05, C.white, { rz: -0.2 });
+    const wheel = p.dyn(0.9, 1.05, -0.72);
+    wheel.torus(0, 0, 0, 1.0, 1.0, 1.4, 0xffd166);
+    for (let i = 0; i < 6; i++) {
+      const a = (i / 6) * Math.PI * 2;
+      wheel.box(Math.cos(a) * 0.25, Math.sin(a) * 0.25, 0, 0.5, 0.02, 0.02, C.white, { rz: a });
+      wheel.rbox(Math.cos(a) * 0.5, Math.sin(a) * 0.5, 0.04, 0.13, 0.12, 0.12, PAL[i]);
+    }
+    // slide
+    p.box(0.85, 0.3, 0.55, 0.05, 0.6, 0.05, PAL[2]);
+    p.box(0.85, 0.62, 0.55, 0.3, 0.04, 0.3, PAL[3]);
+    p.box(1.12, 0.33, 0.55, 0.62, 0.03, 0.22, PAL[0], { rz: -0.75 });
+    // bunting between two poles
+    for (const x of [-1.2, 0.2]) p.cyl(x, 0.6, -0.85, 0.03, 1.2, 0.03, C.white);
+    for (let i = 0; i < 9; i++) p.cone(-1.13 + i * 0.16, 1.08 - Math.sin((i / 8) * Math.PI) * 0.12, -0.85, 0.08, 0.12, 0.02, PAL[i % 6], { rx: Math.PI });
+    // balloons drifting
+    const balloons = [];
+    for (let i = 0; i < 6; i++) {
+      const b = p.dyn(-0.2 + (rng() - 0.5) * 1.6, 1.4, (rng() - 0.5) * 1.2);
+      b.sphere(0, 0, 0, 0.14, 0.17, 0.14, PAL[i], { glow: true });
+      b.cyl(0, -0.25, 0, 0.005, 0.35, 0.005, C.white);
+      balloons.push({ n: b.node, y: 1.3 + rng() * 0.5, ph: rng() * 6 });
+    }
+    p.anim((t) => {
+      car.node.rotation.y = t * 0.5;
+      wheel.node.rotation.z = t * 0.3;
+      for (const b of balloons) b.n.position.y = b.y + Math.sin(t * 1.2 + b.ph) * 0.08;
+    });
+  },
+
   // 12 北屯：第七病棟
   hospital(p, rng) {
     p.box(0, 0.6, -0.5, 1.9, 1.2, 0.7, 0x9aa49c);

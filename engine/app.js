@@ -1,6 +1,6 @@
 import { TOP, WILD_TOP, layoutZones, buildCity, createHeightAt } from "./world.js?v=1";
 import { createEnvironment, mulberry } from "./environment.js?v=1";
-import { createKit, MODELS, wildForest } from "./models.js?v=11";
+import { createKit, MODELS, wildForest } from "./models.js?v=12";
 import { createPeople, flowCurve } from "./people.js?v=2";
 import { icon, skulls } from "./icons.js?v=1";
 
@@ -66,7 +66,7 @@ try {
     import("three/addons/controls/OrbitControls.js"),
     import("three/addons/renderers/CSS2DRenderer.js"),
     // each city page points the shared engine at its own content: <main id="app" data-src="../lumama/data.json">
-    fetch(`${$("#app").dataset.src || "./data.json"}?v=19`)
+    fetch(`${$("#app").dataset.src || "./data.json"}?v=20`)
       .then((r) => {
         if (!r.ok) throw Error(`data.json: ${r.status}`);
         return r.json();
@@ -399,7 +399,8 @@ try {
       a.mesh.visible = v.show.has(id);
       a.mat.uniforms.opacity.value = v.emph.has(id) ? 0.95 : 0.18;
     }
-    people.setFilter(v.walk);
+    // travelling lights only run along links that are on screen
+    people.setFilter(v.walk || v.show);
     $("#legend").hidden = !v.show.size;
   }
 
@@ -463,7 +464,9 @@ try {
           .join("")}</ul>`;
   }
   function helpBox(sp) {
-    return sp.helpline && D.helpline ? `<aside class="help">${esc(D.helpline)}</aside>` : "";
+    if (!sp.helpline) return "";
+    const line = sp.fear.includes("Y") ? D.helplineKids : D.helpline; // child victims get the 113 protection line
+    return line ? `<aside class="help">${esc(line)}</aside>` : "";
   }
   function renderCard() {
     const s = state.sel;

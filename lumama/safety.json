@@ -1,0 +1,189 @@
+{
+ "title": "台中公安災害新聞",
+ "note": "整理自 Threads 上的台中相關貼文所提到的新聞",
+ "helpline": false,
+ "updated": "2026-10-22",
+ "records": [
+  {
+   "id": "s-beitun-flood",
+   "title": "北屯大雷雨 多處淹水",
+   "date": "2026-04-04",
+   "place": "北屯",
+   "summary": "2026 年 4 月 4 日北屯一帶大雷雨，多處道路淹水。",
+   "fear": [
+    "S"
+   ],
+   "sources": [
+    {
+     "title": "影／大雷雨狂炸台中！北屯多處淹水「水溝魚沖進廟門」 廟方忙救魚",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/124823/9422111"
+    }
+   ]
+  },
+  {
+   "id": "s-wuri-fire",
+   "title": "烏日民宅火警延燒12間房 1人死亡",
+   "date": "2026-01-15",
+   "place": "烏日",
+   "summary": "烏日一處民宅火警延燒 12 間房屋，造成 1 人死亡。",
+   "fear": [
+    "S",
+    "D"
+   ],
+   "sources": [
+    {
+     "title": "影／台中烏日暗夜惡火連燒12戶驚慌逃生 50歲單親媽遭重物壓住慘死",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7320/9268848"
+    },
+    {
+     "title": "台中烏日透天厝大火波及11戶 1女遭重物壓住搶救不治",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/790950"
+    },
+    {
+     "title": "民視新聞報導",
+     "outlet": "民視新聞",
+     "url": "https://www.ftvnews.com.tw/news/detail/2026116W0027"
+    },
+    {
+     "title": "好房網報導",
+     "outlet": "好房網",
+     "url": "https://news.housefun.com.tw/news/article/174583480341.html"
+    }
+   ]
+  },
+  {
+   "id": "s-taiping-fire",
+   "title": "太平光興路住宅火警延燒8戶",
+   "date": "2026-01-05",
+   "place": "太平",
+   "summary": "太平光興路民宅火警延燒 8 戶，2 人送醫、5 人安置。",
+   "fear": [
+    "S"
+   ],
+   "sources": [
+    {
+     "title": "影／台中太平火警 8戶遭波及2人送醫 5住戶受安置",
+     "outlet": "聯合新聞網",
+     "url": "https://video.udn.com/news/1317339"
+    },
+    {
+     "title": "台中市太平區發生住宅火警 (圖)",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E5%B8%82%E5%A4%AA%E5%B9%B3%E5%8D%80%E7%99%BC%E7%94%9F%E4%BD%8F%E5%AE%85%E7%81%AB%E8%AD%A6-%E5%9C%96-161139821.html"
+    }
+   ]
+  },
+  {
+   "id": "s-dali-parking",
+   "title": "大里運動公園地下停車場淹水 車泡水13小時",
+   "date": "2025-07",
+   "place": "大里",
+   "summary": "2025 年 7 月豪雨，大里運動公園地下停車場淹水，車輛泡水約 13 小時；這座停車場 2019 年就有漏水的報導。",
+   "fear": [
+    "S"
+   ],
+   "sources": [
+    {
+     "title": "地下停車場得加遮雨罩 室內狂漏水如瀑布",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/life/1193899"
+    },
+    {
+     "title": "台中暴雨直下！ 大里運動公園地下停車場淹水畫面曝光",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/breakingnews/5102713"
+    },
+    {
+     "title": "台中大里收費停車場B2大淹水 抽水機狂轉15小時抽不完慘況曝",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250710/2993634.htm"
+    },
+    {
+     "title": "民視新聞報導",
+     "outlet": "民視新聞",
+     "url": "https://www.ftvnews.com.tw/news/detail/2025710C04M1"
+    }
+   ]
+  },
+  {
+   "id": "s-firework",
+   "title": "跨年煙火燒傷日本女童 消防局罰廠商10萬",
+   "date": "2025-01-01",
+   "place": "西屯",
+   "summary": "2025 年跨年煙火施放時，火花造成一名來台的日本女童燒傷；市長稱是「小意外」引發批評，消防局依法裁罰施放廠商 10 萬元。",
+   "fear": [
+    "S"
+   ],
+   "sources": [
+    {
+     "title": "台中跨年煙火落焰疑傷女童 市府：調查若屬施作問題究責廠商",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202501010079.aspx"
+    },
+    {
+     "title": "台中跨年煙火落焰6歲童燙傷 金門無人機秀因強風圖案零落",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/731564"
+    },
+    {
+     "title": "台中跨年晚會出事 日本6歲女童看煙火落焰襲臉「燒燙傷傷及右眼」",
+     "outlet": "Newtalk 新聞",
+     "url": "https://newtalk.tw/news/view/2025-01-01/951242"
+    },
+    {
+     "title": "台中跨年煙火炮管鬆脫射偏 落焰傷日籍女童 三立電視：負擔醫療費並配合調查",
+     "outlet": "台灣英文新聞",
+     "url": "https://www.taiwannews.com.tw/zh/news/6005468"
+    }
+   ]
+  },
+  {
+   "id": "s-highway4",
+   "title": "國道4號延伸工程鋼筋倒塌 壓死移工",
+   "date": "2024-08-18",
+   "place": "石岡",
+   "summary": "國道 4 號延伸工程的墩柱鋼筋倒塌，壓死一名越南籍移工；勞動部職安署有正式災害通報。",
+   "fear": [
+    "S",
+    "D"
+   ],
+   "sources": [
+    {
+     "title": "113 年 8 月 19 日媒體報導「無防護措施！國 4 延伸東豐快工程大量 鋼筋倒塌 1 移工當場死亡」",
+     "outlet": "新聞",
+     "url": "https://www.osha.gov.tw/48110/48417/162283/162286/177562/post"
+    },
+    {
+     "title": "新／國4延伸工程爆意外 工人遭鋼筋掩埋「當場慘死」",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E6%96%B0-%E5%9C%8B4%E5%BB%B6%E4%BC%B8%E5%B7%A5%E7%A8%8B%E7%88%86%E6%84%8F%E5%A4%96-%E5%B7%A5%E4%BA%BA%E9%81%AD%E9%8B%BC%E7%AD%8B%E6%8E%A9%E5%9F%8B-%E7%95%B6%E5%A0%B4%E6%85%98%E6%AD%BB-023600073.html"
+    },
+    {
+     "title": "聯合新聞網報導",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7321/8171031"
+    }
+   ]
+  },
+  {
+   "id": "s-scaffold",
+   "title": "外牆拉皮工程浪板掉落砸傷祖孫 罰1.8萬",
+   "date": "2024-04-30",
+   "place": "中區",
+   "summary": "中區台灣大道一處外牆拉皮工程，浪板掉落砸傷一對祖孫；市府依建築法裁罰 1 萬 8 千元。",
+   "fear": [
+    "S"
+   ],
+   "sources": [
+    {
+     "title": "台中鷹架浪板掉落砸傷2人 市府開罰施工廠商1.8萬",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202404300444.aspx"
+    }
+   ]
+  }
+ ]
+}

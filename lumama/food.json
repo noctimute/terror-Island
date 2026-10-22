@@ -1,0 +1,190 @@
+{
+ "title": "台中食安新聞",
+ "note": "整理自 Threads 上的台中相關貼文所提到的新聞",
+ "helpline": false,
+ "updated": "2026-10-22",
+ "records": [
+  {
+   "id": "f-oil",
+   "title": "致癌油事件 17縣市開反毒油會議",
+   "date": "2026-07",
+   "place": "台中",
+   "summary": "2026 年 7 月爆發致癌油事件，市長批評中央「蓋牌」，並與 17 縣市召開反毒油會議；雙方仍在政治攻防中。",
+   "fear": [
+    "F"
+   ],
+   "sources": [
+    {
+     "title": "「毒媽媽」對決「賴友友」！中市議員扛鏡子嗆盧秀燕：門神就是妳",
+     "outlet": "NOWnews",
+     "url": "https://www.nownews.com/news/6862667"
+    },
+    {
+     "title": "在野痛批…毒油起點 5月知情的台糖",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/124940/9666576"
+    },
+    {
+     "title": "綠營首長全缺席！盧秀燕號召「反毒油國是會議」：中央補償受害店家",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260721/3205101.htm"
+    },
+    {
+     "title": "台糖5月知情 在野痛批「毒油起點」盧秀燕：蓋牌吃案 胡作非為",
+     "outlet": "世界日報",
+     "url": "https://www.worldjournal.com/wj/story/121218/9666802"
+    }
+   ]
+  },
+  {
+   "id": "f-tea",
+   "title": "手搖飲店誤用去漬粉 3名顧客喝下灼傷",
+   "date": "2025-11-30",
+   "place": "台中",
+   "summary": "一家連鎖茶飲店誤把酵素去漬粉（碳酸氫鈉，弱鹼）當成原料，3 名顧客喝下後口腔不適，都無大礙。",
+   "fear": [
+    "F"
+   ],
+   "sources": [
+    {
+     "title": "春水堂誤把清潔液當茶！3人喉嚨灼傷…醫揭「食道恐遭強鹼腐蝕」食安處火速移送地檢偵辦",
+     "outlet": "風傳媒",
+     "url": "https://www.storm.mg/article/11084903"
+    },
+    {
+     "title": "員工誤拿裝清潔劑保溫瓶回沖 春水堂公益店3顧客送醫",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/783836"
+    },
+    {
+     "title": "春水堂公益店出包！顧客喝到工業用清潔水 毒物醫揭嚴重後果",
+     "outlet": "NOWnews",
+     "url": "https://www.nownews.com/news/6760143"
+    },
+    {
+     "title": "春水堂回沖茶飲搞錯熱水瓶 害3顧客喝清潔液",
+     "outlet": "世界日報",
+     "url": "https://www.worldjournal.com/wj/story/121222/9176502"
+    }
+   ]
+  },
+  {
+   "id": "f-asf",
+   "title": "梧棲養豬場驗出非洲豬瘟",
+   "date": "2025-10-21",
+   "place": "梧棲",
+   "summary": "2025 年 10 月 21 日梧棲一處養豬場驗出非洲豬瘟陽性；市府 10 月 14 日訪視時未採樣遭批評，行政院調查防疫疏失。",
+   "fear": [
+    "F"
+   ],
+   "sources": [
+    {
+     "title": "政院查非洲豬瘟疏失 盧秀燕：絕不寬貸",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/124635/9105460"
+    },
+    {
+     "title": "梧棲豬農住家採檢陰性 全台禁宰禁運令解除仍待評估",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/779261"
+    },
+    {
+     "title": "又是台中！繼去年瘦肉精疑雲重創豬農 多年非洲豬瘟防守恐破功",
+     "outlet": "NOWnews",
+     "url": "https://www.nownews.com/news/6745255"
+    },
+    {
+     "title": "非洲豬瘟疫情爆發 他列時間序怒斥盧秀燕至今都還在扯謊",
+     "outlet": "Newtalk 新聞",
+     "url": "https://newtalk.tw/news/view/2025-10-27/1001153"
+    },
+    {
+     "title": "時事焦點／圍堵非洲豬瘟中市府3漏接 盧秀燕防疫戰聲望拉警報",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/story/amp/20251027inv005"
+    }
+   ]
+  },
+  {
+   "id": "f-asf-stall",
+   "title": "非洲豬瘟 全國禁宰禁運 肉攤停業",
+   "date": "2025-10",
+   "place": "台中",
+   "summary": "非洲豬瘟爆發後，中央農業部宣布全國豬隻禁宰禁運，台中肉攤停業；經濟部補助每攤 3 萬元。",
+   "fear": [
+    "F"
+   ],
+   "sources": [
+    {
+     "title": "非洲豬瘟來襲...全台豬隻禁宰禁運5天 環南市場：太倉促還沒配套",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/124635/9088873"
+    },
+    {
+     "title": "非洲豬瘟衝擊全台！還吃得到豬肉嗎？餐飲、攤商影響總整理",
+     "outlet": "遠見雜誌",
+     "url": "https://city.gvm.com.tw/article/125409"
+    },
+    {
+     "title": "活豬禁宰禁運令延長10天 小吃店庫存緊張部分停業",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/778264"
+    },
+    {
+     "title": "疑非洲豬瘟，農業部：豬肉暫停出口、庫存豬肉調節",
+     "outlet": "科技新報",
+     "url": "https://technews.tw/2025/10/22/african-swine-fever-taiwan-rumor/"
+    }
+   ]
+  },
+  {
+   "id": "f-scale",
+   "title": "果菜市場批發商控短秤 西洋芹一箱少3～8公斤",
+   "date": "2025-08",
+   "place": "西屯",
+   "summary": "台中果菜市場一名批發商指控供應商短秤，一箱 30 公斤的西洋芹少了 3～8 公斤；果菜公司表示會加強抽驗。",
+   "fear": [
+    "F"
+   ],
+   "sources": [
+    {
+     "title": "民視新聞報導",
+     "outlet": "民視新聞",
+     "url": "https://www.ftvnews.com.tw/news/detail/2025813C12M1"
+    },
+    {
+     "title": "Yahoo 新聞報導",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E9%A2%B1%E9%A2%A8%E8%87%B4%E8%8F%9C%E5%83%B9%E4%B8%8A%E6%BC%B2-%E5%8F%B0%E4%B8%AD%E6%9E%9C%E8%8F%9C%E5%B8%82%E5%A0%B4%E7%88%86-%E8%94%AC%E8%8F%9C%E9%87%8D%E9%87%8F%E9%80%A0%E5%81%87-%E6%89%B9%E7%99%BC%E5%95%86%E6%80%92%E5%96%8A%E6%8A%93%E5%8C%85-115450687.html"
+    }
+   ]
+  },
+  {
+   "id": "f-duck",
+   "title": "豐原烤鴨店集體食物中毒 驗出沙門氏菌",
+   "date": "2025-07",
+   "place": "豐原",
+   "summary": "豐原一家烤鴨店爆發集體食物中毒，驗出沙門氏菌；民代說收到近 350 人投訴，衛生局正式通報的人數少很多。",
+   "fear": [
+    "F"
+   ],
+   "sources": [
+    {
+     "title": "烤鴨店食物中毒350人受害 業者鞠躬允賠償",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/766871"
+    },
+    {
+     "title": "台中知名烤鴨店出事了！國三生吃完「2天拉41次」慘包紙尿褲上課，6月就曾爆食安問題",
+     "outlet": "風傳媒",
+     "url": "https://www.storm.mg/article/11055137"
+    },
+    {
+     "title": "（影）一個月內兩度爆發嚴重食安 謝志忠要求中市消保官主動介入",
+     "outlet": "Newtalk 新聞",
+     "url": "https://newtalk.tw/news/view/2025-07-24/983733"
+    }
+   ]
+  }
+ ]
+}

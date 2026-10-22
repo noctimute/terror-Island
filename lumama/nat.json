@@ -1,0 +1,259 @@
+{
+ "title": "台中國安新聞",
+ "note": "整理自 Threads 上的台中相關貼文所提到的新聞",
+ "helpline": false,
+ "updated": "2026-10-22",
+ "records": [
+  {
+   "id": "n-drone",
+   "title": "中國零件冒充國造無人機 負責人羈押",
+   "date": "2026-08",
+   "place": "梧棲",
+   "summary": "一家無人機公司涉以中國零件冒充國造無人機，在梧棲設有空殼據點；是國防無人機案中第一件涉國安法的，負責人被羈押。",
+   "fear": [
+    "N"
+   ],
+   "sources": [
+    {
+     "title": "拿中國貨混充「國造無人機」 航見科技梧棲空殼據點曝光",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/Taichung/breakingnews/5543957"
+    },
+    {
+     "title": "涉用中國製晶片組國防無人機 「航見科技」負責人遭羈押",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/823019"
+    },
+    {
+     "title": "軍購爆洗產地！陸軍無人機竟裝「中國心」 黑心業者被收押",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260818/3221055.htm"
+    },
+    {
+     "title": "紅色供應鏈滲透國軍？航見科技無人機爆用中國晶片 負責人羈押禁見",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/story/20260818edi071"
+    }
+   ]
+  },
+  {
+   "id": "n-vest",
+   "title": "清潔隊裝備標台灣製 包裝印簡體字",
+   "date": "2025-04",
+   "place": "台中",
+   "summary": "環保局 2024 年採購的反光背心、雨衣等，標案寫產地中華民國，包裝卻印簡體字；環保局說是文書疏失，議員質疑「洗產地」，送驗結果除女雨鞋外都合格。",
+   "fear": [
+    "N"
+   ],
+   "sources": [
+    {
+     "title": "遭控親換裝備簡體包裝洗產地 台中環局：廠商人手不足",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/748983"
+    },
+    {
+     "title": "台中清潔隊裝備被踢爆劣質中國貨混台製 再爆環保局帶頭換包裝「洗產地」",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/breakingnews/5027896"
+    },
+    {
+     "title": "採購陸製清潔隊裝備遭爆換包裝 中市府說原因 - 寶島",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20250430002281-260421"
+    },
+    {
+     "title": "聯合新聞網報導",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/6656/8708064"
+    }
+   ]
+  },
+  {
+   "id": "n-ship",
+   "title": "曾參與共軍演習的香港船停靠台中港",
+   "date": "2024-12",
+   "place": "梧棲",
+   "summary": "一艘 2022 年參與過共軍演習的香港籍貨船停靠台中港；港務公司說依法停靠卸貨，海巡登檢沒有發現異狀。",
+   "fear": [
+    "N"
+   ],
+   "sources": [
+    {
+     "title": "曾參與中國軍演香港民船泊台中港 交長：已駛離",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/ahel/202412090031.aspx"
+    },
+    {
+     "title": "捌參與中國軍演 香港貨船停佇臺中港引爭議",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/728030"
+    },
+    {
+     "title": "香港民用船隻停靠台中港  前駐台記者踢爆：曾參與中共軍演",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/politics/breakingnews/4887463"
+    },
+    {
+     "title": "天下雜誌報導",
+     "outlet": "天下雜誌",
+     "url": "https://www.cw.com.tw/article/5136313"
+    }
+   ]
+  },
+  {
+   "id": "n-bytedance",
+   "title": "字節跳動關係企業在台中設分公司 陸委會查處",
+   "date": "2022-12",
+   "place": "東區",
+   "summary": "2022 年一家疑似與字節跳動有關的公司登記在台中東區，陸委會查處；TikTok 否認有關。",
+   "fear": [
+    "N"
+   ],
+   "sources": [
+    {
+     "title": "抖音在台設立分公司 官員：沒北京允許能用「字節跳動」登記？",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/politics/breakingnews/4158725"
+    },
+    {
+     "title": "【資安風險】抖音疑設台分公司「違法經營」 學者：讓民眾提高警覺更重要",
+     "outlet": "自由亞洲電台",
+     "url": "https://www.rfa.org/cantonese/news/htm/tw-douyin-12202022085223.html"
+    },
+    {
+     "title": "抖音疑在台設分公司違法經營！陸委會：司法機關偵辦中 - INSIDE",
+     "outlet": "INSIDE",
+     "url": "https://www.inside.com.tw/article/30157-mac-suspected-TikTok-taiwan-branch"
+    }
+   ]
+  },
+  {
+   "id": "n-boat",
+   "title": "大安海岸擱淺無人快艇 有簡體字物資",
+   "date": "2021-08-09",
+   "place": "大安",
+   "summary": "大安南莊里海岸發現擱淺的無人快艇，船上有救生衣與簡體字物資；監視器沒拍到人，始終未證實有人上岸。",
+   "fear": [
+    "N"
+   ],
+   "sources": [
+    {
+     "title": "海防洞開 大安海灘驚見不明大陸快艇疑陸客偷渡",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20210810002361-260402"
+    },
+    {
+     "title": "台中大安海域發現擱淺快艇 船上遺留救生衣、物資疑似偷渡客",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/539439"
+    },
+    {
+     "title": "台中大安海域傳聞偷渡客上岸 海巡查緝中",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/3633220"
+    },
+    {
+     "title": "台中又有偷渡客？大安海域驚見不明快艇、陸物資",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/1562618"
+    },
+    {
+     "title": "大安海邊傳有偷渡客 民眾憂防疫破口",
+     "outlet": "華視新聞",
+     "url": "https://news.cts.com.tw/cts/life/202108/202108102052497.html"
+    }
+   ]
+  },
+  {
+   "id": "n-harbor",
+   "title": "美智庫報告：台中港是主要潛在登陸目標",
+   "date": "2021-07",
+   "place": "梧棲",
+   "summary": "美國智庫 2049 計畫協會研究員易思安 2021 年的《Hostile Harbors》報告，把台中港列為解放軍主要潛在登陸目標之一。",
+   "fear": [
+    "N"
+   ],
+   "sources": [
+    {
+     "title": "華府智庫學者示警 台中港恐成共軍目標",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/aipl/202108030230.aspx"
+    },
+    {
+     "title": "關鍵評論網報導",
+     "outlet": "關鍵評論網",
+     "url": "https://www.thenewslens.com/article/162914"
+    },
+    {
+     "title": "國台辦批重金收買華府智庫 民進黨團駁：沒錢沒預算收買",
+     "outlet": "Newtalk 新聞",
+     "url": "https://newtalk.tw/news/view/2021-07-14/604150"
+    },
+    {
+     "title": "世界日報報導",
+     "outlet": "世界日報",
+     "url": "https://www.worldjournal.com/wj/story/121220/8720794"
+    }
+   ]
+  },
+  {
+   "id": "n-raft",
+   "title": "中國男子搭橡皮艇偷渡台中港 依國安法移送",
+   "date": "2021-04-30",
+   "place": "梧棲",
+   "summary": "一名中國男子搭乘橡皮艇偷渡到台中港，被依國安法等罪移送。",
+   "fear": [
+    "N"
+   ],
+   "sources": [
+    {
+     "title": "中國偷渡客駕橡皮艇來台 海軍、海巡、岸巡查不到？國防部曝雷達偵蒐缺點",
+     "outlet": "Newtalk 新聞",
+     "url": "https://newtalk.tw/news/view/2021-05-04/570024"
+    },
+    {
+     "title": "【違反國安法】中國男子駕淘寶網購橡皮艇偷渡來台灣 自稱要投奔自由",
+     "outlet": "台灣英文新聞",
+     "url": "https://www.taiwannews.com.tw/ch/news/4193405"
+    },
+    {
+     "title": "連續出現中國偷渡客台灣應強化海巡能力 - 今周刊",
+     "outlet": "今周刊",
+     "url": "https://www.businesstoday.com.tw/article/category/183027/post/202106210015/"
+    }
+   ]
+  },
+  {
+   "id": "n-cctv",
+   "title": "校園與地下道用中國製監視器 34校1599支",
+   "date": "2019-07",
+   "place": "台中",
+   "summary": "2019 年議員揭發台灣大道地下道裝設中國廠牌海康威視監視器，市府承諾一週內汰換；後續盤點出 34 所學校共 1599 支。",
+   "fear": [
+    "N"
+   ],
+   "sources": [
+    {
+     "title": "中市34校用中國製監視器 引資安疑慮",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/445560"
+    },
+    {
+     "title": "臺中34間學校的監視器 煞嘛是中國海康威視",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/445531"
+    },
+    {
+     "title": "驚！台中竟有34校1599支中國製監視器 學生隱私全都露？",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/breakingnews/2910145"
+    },
+    {
+     "title": "地下道監視器中國製造 中市府：一週內全面汰換",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/firstnews/201907180155.aspx"
+    }
+   ]
+  }
+ ]
+}

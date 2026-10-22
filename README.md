@@ -67,7 +67,7 @@ lumama/data.json    台中內容
 
 收錄真實新聞的島，內容一律這樣呈現：點開島，下面是「事件」清單；點進一則事件，才看到摘要和新聞連結。
 
-大量的事件放在獨立的 JSON 檔，`data.json` 裡該島加上 `"recordsSrc": "檔名.json"` 就會讀進來（墜落島 `falls.json`、垃圾山太空包 `garbage.json`、廚餘湖 `foodwaste.json`）。檔案格式：
+大量的事件放在獨立的 JSON 檔，`data.json` 裡該島加上 `"recordsSrc": "檔名.json"` 就會讀進來（例如墜落島 `falls.json`、漂浮島 `floaters.json`、垃圾山 `garbage.json`、廚餘湖 `foodwaste.json`、公安災害 `safety.json`、食安 `food.json`、貪瀆 `graft.json`、國安 `nat.json`、無聲 `quiet.json`、兒少 `kids.json`）。檔案格式：
 
 ```json
 {

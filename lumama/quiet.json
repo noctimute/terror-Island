@@ -1,0 +1,971 @@
+{
+ "title": "台中其他死亡事件新聞",
+ "note": "整理自 Threads 上流傳的「台中死亡列表」",
+ "helpline": true,
+ "updated": "2026-10-22",
+ "records": [
+  {
+   "id": "q-35",
+   "title": "七期豪宅租客陳屍屋內 相驗為一氧化碳中毒",
+   "date": "2025-03-21",
+   "place": "西屯",
+   "summary": "七期一處豪宅的租客被發現陳屍屋內；檢方相驗非他殺，死因為一氧化碳中毒。",
+   "fear": [
+    "D"
+   ],
+   "sources": [
+    {
+     "title": "聯合新聞網報導",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7315/8626400"
+    },
+    {
+     "title": "民視新聞報導",
+     "outlet": "民視新聞",
+     "url": "https://www.ftvnews.com.tw/news/detail/2025323W0227"
+    },
+    {
+     "title": "台中七期豪宅驚傳命案！ 女員工見老闆陳屍 遺留大量借據與大麻",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4988968"
+    },
+    {
+     "title": "台中七期豪宅租客陳屍屋內！打掃女忙報警 現場有大量借據+大麻",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250323/2930219.htm"
+    },
+    {
+     "title": "台中豪宅大樓陳屍悲劇！43歲男窒息亡 身旁留借據、大麻",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2817239"
+    }
+   ]
+  },
+  {
+   "id": "q-34",
+   "title": "虹揚橋維修平台 男子身亡",
+   "date": "2025-03-20",
+   "place": "西屯",
+   "summary": "西屯朝馬路虹揚橋的維修平台發現一名男子身亡，警方初判排除外力。",
+   "fear": [
+    "D"
+   ],
+   "sources": [
+    {
+     "title": "台中虹揚橋死亡悲劇！58歲攤販陳屍橋下38分鐘 疑有家庭糾紛",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2814106"
+    },
+    {
+     "title": "中市虹揚橋驚傳男子上吊 議員批淪為事故死亡之都？",
+     "outlet": "NOWnews",
+     "url": "https://www.nownews.com/news/6661321"
+    },
+    {
+     "title": "快訊／台中虹揚橋維修平台1男死亡 警報驗釐清死因",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250320/2928522.htm"
+    },
+    {
+     "title": "聯合新聞網報導",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7320/8620128"
+    },
+    {
+     "title": "驚見男子吊掛台中虹揚橋 消防助脫困但已明顯死亡",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20250320002239-260402"
+    },
+    {
+     "title": "台中虹揚橋下驚見遺體！ 民眾驚嚇急報警消",
+     "outlet": "CTWANT",
+     "url": "https://www.ctwant.com/article/403990/"
+    }
+   ]
+  },
+  {
+   "id": "q-31",
+   "title": "文心森林公園捷運站後方 女子陳屍",
+   "date": "2025-03-05",
+   "place": "南屯",
+   "summary": "南屯文心森林公園捷運站後方坡地發現一名女子身亡，無打鬥痕跡，警方排除他殺。",
+   "fear": [
+    "D"
+   ],
+   "sources": [
+    {
+     "title": "女陳屍台中文心森林公園捷運站後方坡地 排除他殺",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202503050052.aspx"
+    },
+    {
+     "title": "29歲女陳屍台中文心森林公園  晨運民眾驚嚇",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4970098"
+    },
+    {
+     "title": "嚇壞！文心森林公園傳命案 民眾一早晨運驚見28歲女「陳屍斜坡」",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/story/20250305edi013"
+    },
+    {
+     "title": "聯合新聞網報導",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7320/8586723"
+    },
+    {
+     "title": "快訊／台中文心森林公園驚傳死亡案 28歲女陳屍捷運後方坡地",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250305/2919562.htm"
+    }
+   ]
+  },
+  {
+   "id": "q-29",
+   "title": "男子陳屍住家樓梯間",
+   "date": "2025-03-04",
+   "place": "北屯",
+   "summary": "北屯一名年輕男子被母親發現在住家樓梯間身亡；警方未見外力或打鬥痕跡，報請相驗。",
+   "fear": [
+    "D"
+   ],
+   "sources": [
+    {
+     "title": "台中北屯驚悚命案！男陳屍梯間有勒痕 同住母發現崩潰",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4969242"
+    },
+    {
+     "title": "快訊／台中22歲無業男陳屍家中 母親目睹心碎",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2797272"
+    }
+   ]
+  },
+  {
+   "id": "q-30",
+   "title": "連兩日房東報案 破門發現房客身亡",
+   "date": "2025-03-04",
+   "place": "西屯",
+   "summary": "西屯連續兩天各有一起房東報案、破門發現房客身亡，這是其中第二起。",
+   "fear": [
+    "D"
+   ],
+   "sources": [
+    {
+     "title": "聯合新聞網報導",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7320/8583668"
+    },
+    {
+     "title": "台中西屯連兩日房東報案求助 破門驚見房客命喪租處",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/Taichung/breakingnews/4968503"
+    }
+   ]
+  },
+  {
+   "id": "q-27",
+   "title": "廣吉一街休旅車內 男子身亡",
+   "date": "2025-03-03",
+   "place": "西屯",
+   "summary": "西屯廣吉一街附近一輛休旅車內發現一名高齡男子身亡，是 24 小時內第二起；無外傷，初步排除他殺。",
+   "fear": [
+    "D"
+   ],
+   "sources": [
+    {
+     "title": "快訊／24小時內第二起！台中男「車內猝死」…友揪吃飯驚見他陳屍駕駛座",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/News.aspx?NewsID=1617591"
+    },
+    {
+     "title": "台中西屯不到24hrs第2起！ 友人揪老翁吃飯驚見無生命跡象 猝死休旅車上",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/Taichung/breakingnews/4968331"
+    }
+   ]
+  },
+  {
+   "id": "q-28",
+   "title": "房東破門 租屋處發現房客身亡",
+   "date": "2025-03-03",
+   "place": "西屯",
+   "summary": "西屯一處租屋，房東破門發現房客身亡，初步排除外力；同一區連續兩天都有房東破門發現房客死亡。",
+   "fear": [
+    "D"
+   ],
+   "sources": [
+    {
+     "title": "聯合新聞網報導",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7320/8583668"
+    },
+    {
+     "title": "剛搬來四個月！台中男屋內飄異臭無動靜 破門見臉發黑陳屍亡",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2796202"
+    },
+    {
+     "title": "台中西屯連兩日房東報案求助 破門驚見房客命喪租處",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/Taichung/breakingnews/4968503"
+    }
+   ]
+  },
+  {
+   "id": "q-26",
+   "title": "停車場違停轎車 車內男子已身亡",
+   "date": "2025-03-02",
+   "place": "西屯",
+   "summary": "西屯一處停車場一輛違停轎車內發現一名男子身亡，車子從 2 月 28 日就停在那裡；疑身體狀況猝逝，無外力。",
+   "fear": [
+    "D"
+   ],
+   "sources": [
+    {
+     "title": "聯合新聞網報導",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7320/8581230"
+    },
+    {
+     "title": "台中詭異死亡案！男子陳屍車內「車門沒關」 路人嚇壞急報警",
+     "outlet": "FTNN 新聞網",
+     "url": "https://www.ftnn.com.tw/news/526695"
+    }
+   ]
+  },
+  {
+   "id": "q-20",
+   "title": "車站旁飯店 男子逾退房身亡",
+   "date": "2025-02-11",
+   "place": "中區",
+   "summary": "台中車站附近一家飯店，一名男子逾退房時間被發現身亡；監視器排除外力，疑因疾病。",
+   "fear": [
+    "D"
+   ],
+   "sources": [
+    {
+     "title": "時間到未退房！台中30歲男陳屍飯店房間 房務開門嚇壞",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20250211003096-260402"
+    },
+    {
+     "title": "快訊／台中車站旁飯店驚傳死亡案 30歲男叫不醒…警方調查中",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250211/2906711.htm"
+    },
+    {
+     "title": "台中車站旁飯店驚見男陳屍「30歲男時間到未退房」警封鎖採證釐清死因",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E6%96%B0-%E5%8F%B0%E4%B8%AD%E8%BB%8A%E7%AB%99%E6%97%81%E9%A3%AF%E5%BA%97%E9%A9%9A%E8%A6%8B%E7%94%B7%E9%99%B3%E5%B1%8D-30%E6%AD%B2%E7%94%B7%E6%99%82%E9%96%93%E5%88%B0%E6%9C%AA%E9%80%80%E6%88%BF-%E8%AD%A6%E5%B0%81%E9%8E%96%E6%8E%A1%E8%AD%89%E4%B8%AD-061800245.html"
+    }
+   ]
+  },
+  {
+   "id": "q-16",
+   "title": "男子陳屍自己的廂型車內",
+   "date": "2025-02-05",
+   "place": "北區",
+   "summary": "一名男子被發現在自己的廂型車內身亡，車子停在前女友住處附近。",
+   "fear": [
+    "D"
+   ],
+   "sources": [
+    {
+     "title": "台中離奇命案！前女友家外「車內搭帳篷」亡 友人驚覺異狀報警仍救不回",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/story/20250205edi005"
+    }
+   ]
+  },
+  {
+   "id": "q-12",
+   "title": "大年初一山區景點 男子與愛犬陳屍車內",
+   "date": "2025-01-29",
+   "place": "新社",
+   "summary": "大年初一，新社山區景點發現一名男子與愛犬在車內身亡，家屬對死因無異議。",
+   "fear": [
+    "D"
+   ],
+   "sources": [
+    {
+     "title": "聯合新聞網報導",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7320/8518919"
+    },
+    {
+     "title": "台中新社熱門景點驚傳命案！男和法鬥陳屍車內 民眾嚇壞報警",
+     "outlet": "CTWANT",
+     "url": "https://www.ctwant.com/article/393064/"
+    },
+    {
+     "title": "台中熱門走春景點驚傳命案 男子與狗「陳屍車內」嚇壞遊客",
+     "outlet": "新聞",
+     "url": "https://www.taisounds.com/news/content/96/170928"
+    }
+   ]
+  },
+  {
+   "id": "q-8",
+   "title": "租客多日未現身 房東報警破門",
+   "date": "2025-01-14",
+   "place": "東區",
+   "summary": "一名租客多日未現身，房東報警破門發現他已身亡；現場無外力，初判非他殺。",
+   "fear": [
+    "D"
+   ],
+   "sources": [
+    {
+     "title": "快訊／房客失聯多日大門緊鎖房東報警   破門驚見男子陳屍房內疑自然死亡",
+     "outlet": "CTWANT",
+     "url": "https://www.ctwant.com/article/389808/"
+    }
+   ]
+  },
+  {
+   "id": "q-1",
+   "title": "大學生倒臥宿舍浴室猝逝",
+   "date": "2025-01-02",
+   "place": "大里",
+   "summary": "一名大學生被發現倒臥宿舍浴室，相驗無外力，死因為休克併心肺衰竭。",
+   "fear": [
+    "D"
+   ],
+   "sources": [
+    {
+     "title": "聯合新聞網報導",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7320/8466075"
+    },
+    {
+     "title": "台中23歲男大生「浴室待1小時」昏迷 送醫不治死因曝光",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250103/2885830.htm"
+    },
+    {
+     "title": "快訊／台中男大生深夜倒臥浴室 送醫宣告不治",
+     "outlet": "CTWANT",
+     "url": "https://www.ctwant.com/article/387254/"
+    },
+    {
+     "title": "台中男大生寒夜倒臥浴室「室友發現無呼吸心跳」 送醫搶救仍不治",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/News.aspx?NewsID=1589102"
+    }
+   ]
+  },
+  {
+   "id": "q-123",
+   "title": "討薪員工遭凌虐致死 二審判12年、11年",
+   "date": "2024-11-27",
+   "place": "梧棲",
+   "summary": "一名男子向從事博弈的老闆討薪，遭囚禁、凌虐並餵毒致死；台中高分院二審仍判主嫌 12 年、同夥 11 年，可上訴。",
+   "fear": [
+    "D"
+   ],
+   "sources": [
+    {
+     "title": "不滿員工討薪水！台中博弈老闆夥友燒他肛門、餵毒致死 下場曝光",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7321/9657563"
+    },
+    {
+     "title": "台中男燒肛門、餵毒虐死討薪員工！喊冤辯稱「見他吸毒才教訓」",
+     "outlet": "NOWnews",
+     "url": "https://www.nownews.com/news/6764395"
+    },
+    {
+     "title": "台中男欠債沒還…被帶到住處「下半身遭凌虐」死了！現場7人全被逮",
+     "outlet": "風傳媒",
+     "url": "https://www.storm.mg/lifestyle/5281968"
+    },
+    {
+     "title": "手腳上銬火燒肛門耳朵！博弈員工帶女友領薪...竟被老闆殘虐喪命",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260729/3209517.htm"
+    }
+   ]
+  },
+  {
+   "id": "q-121",
+   "title": "旱溪堤防 男子陳屍",
+   "date": "2024-11-24",
+   "place": "東區",
+   "summary": "東區旱溪東路一段堤防發現一名中年男子身亡，無打鬥掙扎痕跡，初判無外力。",
+   "fear": [
+    "D"
+   ],
+   "sources": [
+    {
+     "title": "聯合新聞網報導",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7320/8381433"
+    },
+    {
+     "title": "民視新聞報導",
+     "outlet": "民視新聞",
+     "url": "https://www.ftvnews.com.tw/news/detail/2024B24W0143"
+    },
+    {
+     "title": "中市旱溪驚見男屍 頭套塑膠死狀詭異",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20241124002859-260402"
+    },
+    {
+     "title": "台中旱溪堤防出現男屍「頭套塑膠袋」詭死 里長發現嚇壞",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2696787"
+    },
+    {
+     "title": "台中旱溪旁驚見男屍 塑膠袋套頭",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4873701"
+    }
+   ]
+  },
+  {
+   "id": "q-122",
+   "title": "台74線橋下停車場 男子陳屍車內",
+   "date": "2024-11-24",
+   "place": "潭子",
+   "summary": "台 74 線潭子段橋下停車場，一名男子被胞姊發現在車內身亡，無外力及打鬥痕跡。",
+   "fear": [
+    "D"
+   ],
+   "sources": [
+    {
+     "title": "聯合新聞網報導",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7320/8381314"
+    },
+    {
+     "title": "快訊／台中台74線橋下男子陳屍BMW！胞姊聯絡不上急報警",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20241124/2861028.htm"
+    },
+    {
+     "title": "PChome 新聞（轉載）報導",
+     "outlet": "PChome 新聞（轉載）",
+     "url": "https://news.pchome.com.tw/society/ctinews/20241124/index-73242505117441309002.html"
+    }
+   ]
+  },
+  {
+   "id": "q-118",
+   "title": "大福公園 遊民坐臥長椅身亡",
+   "date": "2024-11-17",
+   "place": "西屯",
+   "summary": "西屯大福公園，一名高齡遊民被發現坐臥在長椅上身亡，初步無他殺跡象。",
+   "fear": [
+    "D"
+   ],
+   "sources": [
+    {
+     "title": "聯合新聞網報導",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7320/8365527"
+    },
+    {
+     "title": "嚇！台中西屯大福公園享暖陽 他躺椅上竟氣絕多時已屍僵",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4865597"
+    },
+    {
+     "title": "快訊／台中大福公園男子倒長椅死亡 民眾嚇壞急報警",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20241117/2856558.htm"
+    }
+   ]
+  },
+  {
+   "id": "q-116",
+   "title": "旅順路飯店 男子陳屍床上",
+   "date": "2024-11-16",
+   "place": "北屯",
+   "summary": "北屯旅順路一家飯店，一名男子逾退房時間被發現陳屍床上，無外傷，初判無外力。",
+   "fear": [
+    "D"
+   ],
+   "sources": [
+    {
+     "title": "快訊／台中知名飯店傳命案 電話沒人接！開門驚見男子陳屍床上",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20241116/2856176.htm"
+    },
+    {
+     "title": "台中北屯旅館驚傳命案！6旬男退房未現身 員工查看驚見陳屍床上",
+     "outlet": "NOWnews",
+     "url": "https://www.nownews.com/news/6584572"
+    },
+    {
+     "title": "快訊／台中知名飯店傳命案！退房時間不見人…員工開門驚見他陳屍床上",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1564933"
+    }
+   ]
+  },
+  {
+   "id": "q-114",
+   "title": "汽車旅館女住客死亡 同房男子依過失致死送辦",
+   "date": "2024-11-14",
+   "place": "北屯",
+   "summary": "北屯一家汽車旅館，一名女住客死亡，同房男子依過失致死罪送辦、以 1 萬元交保，安排解剖釐清死因。",
+   "fear": [
+    "D"
+   ],
+   "sources": [
+    {
+     "title": "聯合新聞網報導",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7320/8359004"
+    },
+    {
+     "title": "台中女離奇陳屍摩鐵 同房「黑豹男」被帶回稱：幫忙喬債",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2685377"
+    },
+    {
+     "title": "台中詭異命案！男偕朋友前妻入住摩鐵  睡醒驚見女子已死亡",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4862435"
+    },
+    {
+     "title": "汽車旅館傳離奇命案！ 房內女子不明原因死亡",
+     "outlet": "東森新聞",
+     "url": "https://news.ebc.net.tw/news/society/454014"
+    }
+   ]
+  },
+  {
+   "id": "q-113",
+   "title": "廢棄卡多里樂園 大學生夜遊發現女屍",
+   "date": "2024-11-13",
+   "place": "北屯",
+   "summary": "4 名大學生夜遊北屯廢棄的卡多里樂園，在舊宿舍發現一名女子遺體；相驗為心肺衰竭，排除他殺。",
+   "fear": [
+    "D"
+   ],
+   "sources": [
+    {
+     "title": "夜探「猛鬼樂園」驚見女屍 驗屍結果出爐",
+     "outlet": "東森新聞",
+     "url": "https://news.ebc.net.tw/news/society/453685"
+    },
+    {
+     "title": "台中廢棄「卡多里樂園」女腐屍死因出爐！2周前離家孤獨離世",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20241113002619-260402"
+    },
+    {
+     "title": "2週前離家！台中女陳屍「猛鬼樂園」卡多里 死因曝：心肺衰竭",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2684178"
+    },
+    {
+     "title": "獨／台中廢棄「猛鬼樂園」有女屍！4男探險嚇尿...死者身分曝",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20241111/2852671.htm"
+    }
+   ]
+  },
+  {
+   "id": "q-111",
+   "title": "旅館女子逾退房身亡",
+   "date": "2024-11-08",
+   "place": "中區",
+   "summary": "中區一家旅館，一名女子逾退房時間被發現在房內身亡，監視器排除外力。",
+   "fear": [
+    "D"
+   ],
+   "sources": [
+    {
+     "title": "旅館命案！台中女「時間到未退房」員工開門驚見陳屍床上",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20241108003049-260402"
+    },
+    {
+     "title": "時間到了沒退房！台中女陳屍旅館 工作人員嚇傻",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2679265"
+    },
+    {
+     "title": "快訊／時間到了沒退房 台中29歲女陳屍旅館",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20241108/2851057.htm"
+    }
+   ]
+  },
+  {
+   "id": "q-106",
+   "title": "七期豪宅男子遭拘禁凌虐致死 主嫌一審判無期",
+   "date": "2024-10-20",
+   "place": "西屯",
+   "summary": "七期一處豪宅，一名男子因債務糾紛遭拘禁凌虐約 48 小時致死；3 人被羈押起訴，國民法庭一審判主嫌無期徒刑、2 名同夥 12 年與 13 年 6 月，可上訴。",
+   "fear": [
+    "D"
+   ],
+   "sources": [
+    {
+     "title": "台中七期重劃區命案！27歲男疑遭凌虐致死 全身多處瘀青",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/story/20241020edi005"
+    },
+    {
+     "title": "台中七期豪宅驚傳命案 27歲男遇惡煞疑遭凌虐致死",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4836450"
+    },
+    {
+     "title": "台中七期豪宅虐死27歲男 3煞收押、1未成年裁定收容",
+     "outlet": "中天新聞網",
+     "url": "https://ctinews.com/news/items/8knJd7Vdao"
+    },
+    {
+     "title": "台中七期豪宅虐殺案…狠以「十大酷刑」虐死人 男「抄佛經」無效判無期",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7315/9255466"
+    }
+   ]
+  },
+  {
+   "id": "q-104",
+   "title": "進業公園 男子身亡",
+   "date": "2024-10-14",
+   "place": "東區",
+   "summary": "東區進業公園發現一名高齡男子身亡，無明顯外傷；是一週內第三起公園死亡案。",
+   "fear": [
+    "D"
+   ],
+   "sources": [
+    {
+     "title": "1週內第3起！台中再傳男子吊掛公園樹上死亡 民眾心驚驚",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4830062"
+    },
+    {
+     "title": "一周內第3起！台中男陳屍公園 晨運長輩被人形嚇壞",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20241014/2834679.htm"
+    },
+    {
+     "title": "7天內第3起！台中男子陳屍公園樹上 晨運民眾驚見慌忙報警處理",
+     "outlet": "NOWnews",
+     "url": "https://www.nownews.com/news/6552278"
+    },
+    {
+     "title": "聯合新聞網報導",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7320/8289979"
+    }
+   ]
+  },
+  {
+   "id": "q-103",
+   "title": "豐年公園 男子身亡",
+   "date": "2024-10-13",
+   "place": "太平",
+   "summary": "太平豐年公園發現一名男子身亡，排除外力、家屬無意見；是一週內第二起公園死亡案。",
+   "fear": [
+    "D"
+   ],
+   "sources": [
+    {
+     "title": "不到1週第二起！ 台中男掛公園樹上已死亡 嚇壞晨運民眾",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4829270"
+    },
+    {
+     "title": "快訊／一周內第二起！台中男陳屍公園 嚇壞晨運民眾",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20241013/2834252.htm"
+    },
+    {
+     "title": "台中清晨驚傳憾事！63歲男子陳屍大樹上   警方初步排除外力介入",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E6%B8%85%E6%99%A8%E9%A9%9A%E5%82%B3%E6%86%BE%E4%BA%8B-63%E6%AD%B2%E7%94%B7%E5%AD%90%E9%99%B3%E5%B1%8D%E5%A4%A7%E6%A8%B9%E4%B8%8A-%E8%AD%A6%E6%96%B9%E5%88%9D%E6%AD%A5%E6%8E%92%E9%99%A4%E5%A4%96%E5%8A%9B%E4%BB%8B%E5%85%A5-083958191.html"
+    }
+   ]
+  },
+  {
+   "id": "q-99",
+   "title": "英士公園 男子身亡",
+   "date": "2024-10-08",
+   "place": "北區",
+   "summary": "北區英士公園發現一名男子身亡，初步排除外力；是 20 小時內 6 起死亡案件之一。",
+   "fear": [
+    "D"
+   ],
+   "sources": [
+    {
+     "title": "台中15hr內5條人命！墜樓、掛樹、陳屍還有士兵打靶中彈亡",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4824789"
+    },
+    {
+     "title": "台中20小時內6起死亡！墜樓、掛樹、陳屍＋上兵打靶中彈亡…最年輕17歲",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/News.aspx?NewsID=1543956"
+    },
+    {
+     "title": "台中又傳命案！中年男掛「5樓高榕樹」斷魂 警：釐清身分中",
+     "outlet": "CTWANT",
+     "url": "https://www.ctwant.com/article/367925/"
+    }
+   ]
+  },
+  {
+   "id": "q-100",
+   "title": "飯店員工休息室 男子陳屍",
+   "date": "2024-10-08",
+   "place": "西區",
+   "summary": "西區忠明南路一家飯店的員工休息室內，一名員工被發現身亡，初步排除外力。",
+   "fear": [
+    "D"
+   ],
+   "sources": [
+    {
+     "title": "快訊／35歲男員工陳屍台中某飯店休息室 現場遺留一水果刀",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2644458"
+    },
+    {
+     "title": "台中某飯店命案！男員工倒臥血泊、陳屍休息室 警排除外力介入",
+     "outlet": "NOWnews",
+     "url": "https://www.nownews.com/news/6547296"
+    },
+    {
+     "title": "悚！男員工飯店「倒臥血泊」 遺留一水果刀",
+     "outlet": "新聞",
+     "url": "https://www.taisounds.com/news/content/96/151221"
+    },
+    {
+     "title": "台中西區商旅驚傳死亡案件 35歲打工男陳屍員工休息室",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4824411"
+    }
+   ]
+  },
+  {
+   "id": "q-97",
+   "title": "梅川東路公寓 男子陳屍臥室",
+   "date": "2024-10-07",
+   "place": "北屯",
+   "summary": "北屯梅川東路一處公寓，一名男子被發現陳屍床上，初步排除外力；是 20 小時內 6 起死亡案件之一。",
+   "fear": [
+    "D"
+   ],
+   "sources": [
+    {
+     "title": "台中15hr內5條人命！墜樓、掛樹、陳屍還有士兵打靶中彈亡",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4824789"
+    },
+    {
+     "title": "台中20小時內6起死亡！墜樓、掛樹、陳屍＋上兵打靶中彈亡…最年輕17歲",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/News.aspx?NewsID=1543956"
+    },
+    {
+     "title": "中市發生4起意外  陳屍臥室、上吊、墜樓",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E4%B8%AD%E5%B8%82%E7%99%BC%E7%94%9F4%E8%B5%B7%E6%84%8F%E5%A4%96-%E9%99%B3%E5%B1%8D%E8%87%A5%E5%AE%A4-%E4%B8%8A%E5%90%8A-%E5%A2%9C%E6%A8%93-131616078.html"
+    }
+   ]
+  },
+  {
+   "id": "q-95",
+   "title": "購物中心男廁 男子倒臥送醫不治",
+   "date": "2024-09-23",
+   "place": "東區",
+   "summary": "東區一家購物中心的男廁內，一名男子倒臥送醫不治；無外力，研判急病。",
+   "fear": [
+    "D"
+   ],
+   "sources": [
+    {
+     "title": "自由時報報導",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4809862"
+    },
+    {
+     "title": "離奇！台中Lalaport顧客反鎖男廁 送醫搶救不治身亡",
+     "outlet": "東森新聞",
+     "url": "https://news.ebc.net.tw/news/society/444127"
+    },
+    {
+     "title": "台中LaLaport驚見男子倒臥廁所 送醫搶救不治",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240923/2822310.htm"
+    },
+    {
+     "title": "台中男反鎖三井LaLaport廁所無回應 嚇壞清潔工！救出送醫不治",
+     "outlet": "壹蘋新聞網",
+     "url": "https://news.nextapple.com/local/20240923/DD02076715103DB4A47836F3FF5A592C"
+    },
+    {
+     "title": "反鎖廁所無回應！Lalaport清潔員急破門 驚見男離奇死亡",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2627845"
+    },
+    {
+     "title": "上廁所昏倒！男倒臥台中LaLaport廁間無生命跡象…送醫不治",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/News.aspx?NewsID=1535427"
+    }
+   ]
+  },
+  {
+   "id": "q-71",
+   "title": "東協廣場附近商旅 男子未退房身亡",
+   "date": "2024-07-04",
+   "place": "中區",
+   "summary": "東協廣場附近一家商旅，一名男子未退房，被發現在房內身亡。",
+   "fear": [
+    "D"
+   ],
+   "sources": [
+    {
+     "title": "快訊／台中東協商圈驚傳命案 34歲男未退房被發現陳屍旅館內",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240704/2770657.htm"
+    }
+   ]
+  },
+  {
+   "id": "q-63",
+   "title": "獨居男子陳屍家中",
+   "date": "2024-06-17",
+   "place": "東區",
+   "summary": "東區大智路一名獨居男子被發現在家中身亡；門窗未遭破壞，初步排除外力。",
+   "fear": [
+    "D"
+   ],
+   "sources": [
+    {
+     "title": "台中東區獨居男陳屍屋內 身上有「窗簾拉繩」明顯死亡",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4708278"
+    },
+    {
+     "title": "台中大樓飄異味！六旬男「跪臥窗邊椅」 死亡多日現屍斑",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2520695"
+    },
+    {
+     "title": "PChome 新聞（轉載）報導",
+     "outlet": "PChome 新聞（轉載）",
+     "url": "https://news.pchome.com.tw/society/ctinews/20240618/index-71866804959656309002.html"
+    },
+    {
+     "title": "快訊／緊貼窗邊！台中男跪臥椅上亡 陳屍多天已有屍斑",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/News.aspx?NewsID=1485569&Area=3"
+    }
+   ]
+  },
+  {
+   "id": "q-62",
+   "title": "世貿公園 女子陳屍樹旁",
+   "date": "2024-06-16",
+   "place": "西屯",
+   "summary": "西屯世貿公園發現一名女子身亡，無明顯傷痕，初步無外力。",
+   "fear": [
+    "D"
+   ],
+   "sources": [
+    {
+     "title": "沒事別靠近！台中女陳屍世貿公園 里長證實6/23園內辦頭七",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2525736"
+    },
+    {
+     "title": "台中女陳屍世貿公園「子時現場辦頭七」 公告曝光兩派吵翻天",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240622/2763076.htm"
+    },
+    {
+     "title": "台中人注意！世貿公園明晚辦頭七科儀 里長籲請居民勿靠近",
+     "outlet": "NOWnews",
+     "url": "https://www.nownews.com/news/6454925"
+    }
+   ]
+  },
+  {
+   "id": "q-60",
+   "title": "豐原民宅男子身亡 警方認定非他殺",
+   "date": "2024-06-09",
+   "place": "豐原",
+   "summary": "豐原豐勢路二段一處民宅，一名男子身亡，警方認定非他殺。",
+   "fear": [
+    "D"
+   ],
+   "sources": [
+    {
+     "title": "聯合新聞網報導",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7315/8019714"
+    },
+    {
+     "title": "台中豐原驚傳槍響！43歲男「頭部中彈」送醫不治 疑債務纏身引憾事",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/m/ampnews.aspx?NewsID=1481663"
+    },
+    {
+     "title": "台中豐原深夜憾事！43歲男「頭部中彈亡」 疑債務纏身想不開",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2512020"
+    }
+   ]
+  },
+  {
+   "id": "q-52",
+   "title": "文心森林公園樹林 男子身亡",
+   "date": "2024-05-26",
+   "place": "南屯",
+   "summary": "南屯文心森林公園圓滿劇場旁樹林發現一名男子身亡，警方排除外力。",
+   "fear": [
+    "D"
+   ],
+   "sources": [
+    {
+     "title": "台中文心森林公園爆命案！29歲男無呼吸心跳 家屬急北上認屍",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2497816"
+    },
+    {
+     "title": "快訊／台中文心森林公園29歲男死亡 警封鎖現場家屬北上認屍",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240526/2746172.htm"
+    },
+    {
+     "title": "自由時報報導",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4684805"
+    }
+   ]
+  },
+  {
+   "id": "q-53",
+   "title": "台中監獄附近轎車內 男子死亡多日",
+   "date": "2024-05-26",
+   "place": "南屯",
+   "summary": "台中監獄附近永春南路一輛轎車內，發現一名男子已死亡多日，報請相驗。",
+   "fear": [
+    "D"
+   ],
+   "sources": [
+    {
+     "title": "聯合新聞網報導",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7320/7989326"
+    },
+    {
+     "title": "停放多日未動！台中監獄旁赫見40歲男陳屍白色轎車內",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4685063"
+    }
+   ]
+  }
+ ]
+}

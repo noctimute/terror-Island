@@ -10,7 +10,7 @@
    "sea": "west",
    "mountains": "east"
   },
-  "disclaimer": "開放中的五座島收錄的都是經新聞報導查證的真實事件。文字只摘要報導內容、拿掉姓名等個人資訊，並附上原始新聞來源；島上的 3D 場景是示意插畫，不對應任何一位當事人。"
+  "disclaimer": "開放中的島嶼收錄的都是經新聞報導查證的真實事件。文字只摘要報導內容、拿掉姓名等個人資訊，並附上原始新聞來源；島上的 3D 場景是示意插畫，不對應任何一位當事人。"
  },
  "fear": [
   {
@@ -36,6 +36,30 @@
    "name": "非法傾倒",
    "en": "Illegal dumping",
    "color": "#8E5A2B"
+  },
+  {
+   "id": "F",
+   "name": "食品安全",
+   "en": "Food safety",
+   "color": "#16A085"
+  },
+  {
+   "id": "K",
+   "name": "貪瀆犯罪",
+   "en": "Graft & crime",
+   "color": "#B8860B"
+  },
+  {
+   "id": "N",
+   "name": "國家安全",
+   "en": "National security",
+   "color": "#2C6DB5"
+  },
+  {
+   "id": "Y",
+   "name": "兒少受害",
+   "en": "Child victims",
+   "color": "#E84393"
   }
  ],
  "eras": [
@@ -399,8 +423,152 @@
    "tlColor": "#2e9e5b"
   },
   {
-   "id": "dajia",
+   "id": "dali",
    "number": 6,
+   "name": "公安災害島",
+   "model": "safetyisle",
+   "cell": [
+    2,
+    4
+   ],
+   "ground": "#8C8478",
+   "side": "#4E4842",
+   "fear": [
+    "S"
+   ],
+   "danger": 4,
+   "summary": "跨年煙火、民宅火警、地下停車場淹水、工地意外——這一格收錄台中真實發生的公安災害新聞。",
+   "spots": [],
+   "recordsSrc": "safety.json",
+   "tlColor": "#C9A227",
+   "news": {
+    "title": "本島取材自真實新聞",
+    "body": "以下事件都有新聞報導可查，文字只摘要報導內容，不加入未經證實的推論；島上的 3D 場景是示意插畫，不是真實場址的樣貌。"
+   }
+  },
+  {
+   "id": "fengyuan",
+   "number": 7,
+   "name": "食安島",
+   "model": "foodisle",
+   "cell": [
+    1,
+    1
+   ],
+   "ground": "#8A8F78",
+   "side": "#4C5044",
+   "fear": [
+    "F"
+   ],
+   "danger": 3,
+   "summary": "致癌油、食物中毒、誤用清潔劑、非洲豬瘟——這一格收錄台中真實發生的食安新聞。",
+   "spots": [],
+   "recordsSrc": "food.json",
+   "tlColor": "#16A085",
+   "news": {
+    "title": "本島取材自真實新聞",
+    "body": "以下事件都有新聞報導可查，文字只摘要報導內容，不加入未經證實的推論；島上的 3D 場景是示意插畫，不是真實場址的樣貌。"
+   }
+  },
+  {
+   "id": "daya",
+   "number": 8,
+   "name": "貪瀆島",
+   "model": "graftisle",
+   "cell": [
+    1,
+    2
+   ],
+   "ground": "#857F74",
+   "side": "#4A463F",
+   "fear": [
+    "K"
+   ],
+   "danger": 3,
+   "summary": "收賄、圖利、洗錢、詐團機房——這一格收錄台中真實發生、已進入司法程序的貪瀆與犯罪新聞。",
+   "spots": [],
+   "recordsSrc": "graft.json",
+   "tlColor": "#B8860B",
+   "news": {
+    "title": "本島取材自真實新聞",
+    "body": "以下事件都有新聞報導可查，文字只摘要報導內容，不加入未經證實的推論；島上的 3D 場景是示意插畫，不是真實場址的樣貌。案件多仍在偵查或審理中，以報導當時的司法進度為準。"
+   }
+  },
+  {
+   "id": "port",
+   "number": 9,
+   "name": "國安島",
+   "model": "natisle",
+   "cell": [
+    0,
+    1
+   ],
+   "ground": "#7C8086",
+   "side": "#43474C",
+   "fear": [
+    "N"
+   ],
+   "danger": 3,
+   "summary": "港口、偷渡、無人機、監視器與產地——這一格收錄和台中有關的國安新聞。",
+   "spots": [],
+   "recordsSrc": "nat.json",
+   "tlColor": "#2C6DB5",
+   "news": {
+    "title": "本島取材自真實新聞",
+    "body": "以下事件都有新聞報導可查，文字只摘要報導內容，不加入未經證實的推論；島上的 3D 場景是示意插畫，不是真實場址的樣貌。"
+   }
+  },
+  {
+   "id": "shalu",
+   "number": 10,
+   "name": "無聲島",
+   "model": "quietisle",
+   "cell": [
+    0,
+    2
+   ],
+   "ground": "#78767E",
+   "side": "#424046",
+   "fear": [
+    "D"
+   ],
+   "danger": 5,
+   "summary": "旅館、公園、租屋處、車內——這一格收錄台中其他有新聞報導可查的死亡事件。",
+   "spots": [],
+   "recordsSrc": "quiet.json",
+   "tlColor": "#5D6D7E",
+   "news": {
+    "title": "本島取材自真實新聞",
+    "body": "以下事件都有新聞報導可查，文字只摘要報導內容，不加入未經證實的推論；島上的 3D 場景是示意插畫，不是真實場址的樣貌。其中多數案件警方初判無外力；文字不描述死亡方式，也拿掉了姓名等個人資訊。謹向逝者與家屬致哀。"
+   }
+  },
+  {
+   "id": "xinshe",
+   "number": 11,
+   "name": "兒少島",
+   "model": "kidsisle",
+   "cell": [
+    3,
+    2
+   ],
+   "ground": "#9AD39A",
+   "side": "#5A8A5A",
+   "fear": [
+    "Y"
+   ],
+   "danger": 5,
+   "summary": "旋轉木馬、氣球和摩天輪——但這一格收錄的，是台中兒童受虐、受害的真實新聞。孩子的安全，值得所有人一起關注。",
+   "spots": [],
+   "recordsSrc": "kids.json",
+   "tlColor": "#E84393",
+   "news": {
+    "title": "本島取材自真實新聞",
+    "body": "以下事件都有新聞報導可查，文字只摘要報導內容，不加入未經證實的推論；島上的 3D 場景是示意插畫，不是真實場址的樣貌。報導中的孩子都不揭露任何可辨識身分的資訊。"
+   }
+  },
+  {
+   "id": "dajia",
+   "number": 12,
    "name": "施工中",
    "model": "construction",
    "cell": [
@@ -416,25 +584,8 @@
    "wip": true
   },
   {
-   "id": "fengyuan",
-   "number": 7,
-   "name": "施工中",
-   "model": "construction",
-   "cell": [
-    1,
-    1
-   ],
-   "ground": "#9A958C",
-   "side": "#5E5A52",
-   "fear": [],
-   "danger": 0,
-   "summary": "這一格還在施工中，新的內容整理好就會開放。",
-   "spots": [],
-   "wip": true
-  },
-  {
    "id": "dongshi",
-   "number": 8,
+   "number": 13,
    "name": "施工中",
    "model": "construction",
    "cell": [
@@ -451,63 +602,12 @@
   },
   {
    "id": "lishan",
-   "number": 9,
+   "number": 14,
    "name": "施工中",
    "model": "construction",
    "cell": [
     4,
     1
-   ],
-   "ground": "#9A958C",
-   "side": "#5E5A52",
-   "fear": [],
-   "danger": 0,
-   "summary": "這一格還在施工中，新的內容整理好就會開放。",
-   "spots": [],
-   "wip": true
-  },
-  {
-   "id": "port",
-   "number": 10,
-   "name": "施工中",
-   "model": "construction",
-   "cell": [
-    0,
-    1
-   ],
-   "ground": "#9A958C",
-   "side": "#5E5A52",
-   "fear": [],
-   "danger": 0,
-   "summary": "這一格還在施工中，新的內容整理好就會開放。",
-   "spots": [],
-   "wip": true
-  },
-  {
-   "id": "daya",
-   "number": 11,
-   "name": "施工中",
-   "model": "construction",
-   "cell": [
-    1,
-    2
-   ],
-   "ground": "#9A958C",
-   "side": "#5E5A52",
-   "fear": [],
-   "danger": 0,
-   "summary": "這一格還在施工中，新的內容整理好就會開放。",
-   "spots": [],
-   "wip": true
-  },
-  {
-   "id": "xinshe",
-   "number": 12,
-   "name": "施工中",
-   "model": "construction",
-   "cell": [
-    3,
-    2
    ],
    "ground": "#9A958C",
    "side": "#5E5A52",
@@ -519,28 +619,11 @@
   },
   {
    "id": "guguan",
-   "number": 13,
+   "number": 15,
    "name": "施工中",
    "model": "construction",
    "cell": [
     4,
-    2
-   ],
-   "ground": "#9A958C",
-   "side": "#5E5A52",
-   "fear": [],
-   "danger": 0,
-   "summary": "這一格還在施工中，新的內容整理好就會開放。",
-   "spots": [],
-   "wip": true
-  },
-  {
-   "id": "shalu",
-   "number": 14,
-   "name": "施工中",
-   "model": "construction",
-   "cell": [
-    0,
     2
    ],
    "ground": "#9A958C",
@@ -553,29 +636,12 @@
   },
   {
    "id": "taiping",
-   "number": 15,
-   "name": "施工中",
-   "model": "construction",
-   "cell": [
-    2,
-    3
-   ],
-   "ground": "#9A958C",
-   "side": "#5E5A52",
-   "fear": [],
-   "danger": 0,
-   "summary": "這一格還在施工中，新的內容整理好就會開放。",
-   "spots": [],
-   "wip": true
-  },
-  {
-   "id": "dali",
    "number": 16,
    "name": "施工中",
    "model": "construction",
    "cell": [
     2,
-    4
+    3
    ],
    "ground": "#9A958C",
    "side": "#5E5A52",
@@ -716,7 +782,7 @@
   "intro": [
    {
     "title": "不是傳說，是新聞",
-    "body": "16 個六邊形拼成一座城。開放中的五座島——墜落島、漂浮島、氣爆火災島、垃圾山太空包、廚餘湖——收錄的都是台中真實發生、有新聞報導可查的事件。其他島還在施工中。"
+    "body": "16 個六邊形拼成一座城。開放中的 11 座島——墜落、漂浮、氣爆火災、垃圾山、廚餘、公安災害、食安、貪瀆、國安、無聲、兒少——收錄的都是台中真實發生、有新聞報導可查的事件。"
    },
    {
     "title": "點進事件，看原始報導",
@@ -771,5 +837,6 @@
     }
    ]
   }
- ]
+ ],
+ "helplineKids": "如果你知道有孩子正在受到傷害，請撥 113 保護專線（24 小時免付費）。"
 }

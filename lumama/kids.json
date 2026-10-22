@@ -1,0 +1,220 @@
+{
+ "title": "台中兒少受害新聞",
+ "note": "整理自台中兒少受害相關新聞報導",
+ "helpline": true,
+ "updated": "2026-10-22",
+ "records": [
+  {
+   "id": "y-kinder",
+   "title": "西屯幼兒園4歲女童全身瘀傷 教保員停職",
+   "date": "2026-08",
+   "place": "西屯",
+   "summary": "一名 4 歲女童入園不到三週，家長發現全身瘀青、出現夜驚等反應；教保員已停職，教育局受理調查，議員批評調查延遲。",
+   "fear": [
+    "Y"
+   ],
+   "sources": [
+    {
+     "title": "台中幼兒園疑不當對待小孩  議員要求教育局調查",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/aloc/202608200124.aspx"
+    },
+    {
+     "title": "家長控台中幼兒園不當管教 教育局遭民代質疑調查延宕",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/823375"
+    },
+    {
+     "title": "台中幼園爆虐童疑雲！議員質疑教育局調查慢半拍、證據恐難保",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/Taichung/breakingnews/5546104"
+    },
+    {
+     "title": "台中某私立幼兒園遭控不當管教 4歲女童被按掐、拖拽全身傷",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/6885/9702949"
+    }
+   ]
+  },
+  {
+   "id": "y-spin",
+   "title": "教保員不當對待6名幼童 罰6萬不服敗訴",
+   "date": "2026-06",
+   "place": "台中",
+   "summary": "一名教保員被認定對 6 名幼童不當管教，包括將未滿 3 歲幼童倒立旋轉；市府裁罰 6 萬元，她提起行政訴訟，台中高等行政法院判她敗訴。",
+   "fear": [
+    "Y"
+   ],
+   "sources": [
+    {
+     "title": "不到3歲幼童被倒立甩轉！台中教保員不當對待6童 遭罰6萬不服敗訴",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7321/9569629"
+    }
+   ]
+  },
+  {
+   "id": "y-taiping",
+   "title": "太平私立幼兒園不當管教、聘無照教師 罰36萬",
+   "date": "2026-01",
+   "place": "太平",
+   "summary": "太平一所私立幼兒園被查出不當管教，並聘用 4 名不具教保資格的人員，合計被罰 36 萬元。",
+   "fear": [
+    "Y"
+   ],
+   "sources": [
+    {
+     "title": "台中市幼兒園不當管教、又聘無照師 教育局共重罰36萬",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/6885/9264626"
+    }
+   ]
+  },
+  {
+   "id": "y-fengyuan",
+   "title": "豐原私立托嬰中心 多名嬰幼兒受虐",
+   "date": "2025-05",
+   "place": "豐原",
+   "summary": "豐原一家私立托嬰中心被揭露至少 14 名嬰幼兒受虐；市府認定 3 名托育人員施虐，合計開罰 129 萬元並勒令停辦，相關人員禁止從事托育工作 20～30 年。",
+   "fear": [
+    "Y"
+   ],
+   "sources": [
+    {
+     "title": "豐原私托3托育人員涉虐童 中市府開罰129萬、勒令停辦",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/753140"
+    },
+    {
+     "title": "嬰兒被當「抹布」清地板！中市托嬰中心爆14孩受虐 家長控社會局消極",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5043634"
+    },
+    {
+     "title": "影／托嬰中心14名嬰幼兒被虐 媽媽們集體控訴請媽媽市長盧秀燕給公道",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/6885/8741095"
+    },
+    {
+     "title": "台中托嬰中心涉虐童8人受害 市府：最重罰60萬並勒令停辦",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/750833"
+    }
+   ]
+  },
+  {
+   "id": "y-south",
+   "title": "南區私立托嬰中心托育員涉虐童 依傷害罪移送",
+   "date": "2025-05",
+   "place": "南區",
+   "summary": "南區一家私立托嬰中心的托育人員涉嫌虐童，家長發現孩子身上多處瘀青、抓痕；警方依傷害罪函送台中地檢署。",
+   "fear": [
+    "Y"
+   ],
+   "sources": [
+    {
+     "title": "台中私立托嬰中心疑虐童 托育員涉傷害遭法辦",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202505210181.aspx"
+    },
+    {
+     "title": "台中私立托嬰中心涉虐童 家長控小孩身上多處瘀青、抓痕",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/752328"
+    }
+   ]
+  },
+  {
+   "id": "y-pubcare",
+   "title": "準公共托育人員虐童影片曝光 市府追究延遲通報",
+   "date": "2025-05",
+   "place": "台中",
+   "summary": "一家準公共化托育單位的虐童影片曝光，涉案托育人員已離職；市府追究單位延遲通報的管理疏失。",
+   "fear": [
+    "Y"
+   ],
+   "sources": [
+    {
+     "title": "台中準公托虐童影片曝光！她抓幼童頭狂搖 拉腳害摔腦撞地",
+     "outlet": "壹蘋新聞網",
+     "url": "https://news.nextapple.com/local/20250512/FB22817C4BEAAAD823587283A4369761"
+    },
+    {
+     "title": "台中托育人員涉虐童已離職 市府追究延遲通報管理疏失",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/aloc/202505130116.aspx"
+    }
+   ]
+  },
+  {
+   "id": "y-coach",
+   "title": "國小棒球隊教練性侵多名學童 監察院糾正學校與教育局",
+   "date": "2024-12",
+   "place": "台中",
+   "summary": "台中一所國小的棒球隊教練被控性侵、猥褻多名學童，被害人數累計數十人；一審已就 90 項罪行判刑。監察院 2026 年 5 月糾正校方漏查教練前科、教育局監督不周，教育局懲處前後任校長等 8 人。",
+   "fear": [
+    "Y"
+   ],
+   "sources": [
+    {
+     "title": "【時事焦點】中市府把關失能釀31童受害 少棒教練2猥褻前科竟未揪出",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/story/20241223inv002"
+    },
+    {
+     "title": "台中某國小棒球隊教練遭控性侵 至少31人受害最小僅2年級",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/729202"
+    },
+    {
+     "title": "台中棒球教練性侵案 第二波起訴宣判19年",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/814581"
+    },
+    {
+     "title": "棒球教練性侵案遭監院糾正 盧秀燕喊話重判、改革良民證制度",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7325/9523920"
+    },
+    {
+     "title": "關鍵評論網報導",
+     "outlet": "關鍵評論網",
+     "url": "https://www.thenewslens.com/article/267972"
+    }
+   ]
+  },
+  {
+   "id": "y-baby",
+   "title": "10個月大男嬰遭父親虐待致死 一審判15年",
+   "date": "2024-08",
+   "place": "東區",
+   "summary": "2024 年 8 月，一名 10 個月大的男嬰遭父親長時間虐待後送醫不治；台中地院國民法庭 2026 年 5 月一審判處父親 15 年徒刑，可上訴。",
+   "fear": [
+    "Y",
+    "D"
+   ],
+   "sources": [
+    {
+     "title": "台中父虐10月大男嬰塞木箱致死 國民法庭判15年",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202605070224.aspx"
+    },
+    {
+     "title": "台中父狠虐10月大男嬰...塞進木箱發黑慘死 國民法官痛斥不人道判15年",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7321/9488731"
+    },
+    {
+     "title": "塞10月大兒木箱內罰站11小時慘死   冷血父一審判15年",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20260507002618-260402"
+    },
+    {
+     "title": "虐打10月兒撞頭「塞木箱罰站」11小時慘亡 台中狠父翻供判決15年",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/News.aspx?NewsID=1834835"
+    }
+   ]
+  }
+ ]
+}
