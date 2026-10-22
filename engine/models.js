@@ -874,16 +874,28 @@ export const MODELS = {
     for (const [x, z, ry] of [[-0.55, 0, Math.PI / 2], [0.55, 0, Math.PI / 2], [0, -0.38, 0], [0, 0.38, 0]]) pen.box(x, 0.12, z, ry ? 0.76 : 1.1, 0.06, 0.03, C.wood, { ry });
     for (const x of [-0.55, 0.55]) for (const z of [-0.38, 0.38]) pen.cyl(x, 0.14, z, 0.04, 0.28, 0.04, C.dwood);
     pen.box(0, 0.26, 0.4, 1.15, 0.03, 0.01, C.blood);
-    const pigs = [];
-    for (const [x, z] of [[-0.25, -0.1], [0.15, 0.12], [0.3, -0.15]]) {
-      const g = p.dyn(-0.35 + x, 0, 0.6 + z, rng() * 6);
-      g.sphere(0, 0.11, 0, 0.26, 0.18, 0.18, 0xf2b8c0);
-      g.sphere(0.14, 0.13, 0, 0.12, 0.11, 0.12, 0xf2b8c0);
-      g.cyl(0.2, 0.13, 0, 0.05, 0.03, 0.05, 0xe09aa6, { rz: Math.PI / 2 });
-      pigs.push({ n: g.node, ph: rng() * 6 });
+    // dead pigs and chickens lying on their sides, legs up, ✕✕ eyes
+    const xx = (g, x, y, z, w) => {
+      for (const dz of [-w, w]) for (const ry of [0.785, -0.785]) g.box(x, y, z + dz, w * 1.4, 0.008, w * 0.35, C.black, { ry });
+    };
+    for (const [x, z, ry] of [[-0.25, -0.1, 0.3], [0.15, 0.15, 2.6], [0.3, -0.15, -0.9]]) {
+      const g = p.sub(-0.35 + x, 0, 0.6 + z, ry);
+      g.sphere(0, 0.1, 0, 0.28, 0.17, 0.2, 0xf2b8c0);
+      g.sphere(0.15, 0.09, 0, 0.13, 0.13, 0.13, 0xf2b8c0);
+      g.cyl(0.22, 0.08, 0, 0.05, 0.03, 0.05, 0xe09aa6, { rz: Math.PI / 2 });
+      for (const lx of [-0.08, 0.07]) for (const lz of [0.03, 0.08]) g.cyl(lx, 0.2, lz, 0.035, 0.13, 0.035, 0xe8a8b2, { rx: -0.5 });
+      xx(g, 0.17, 0.158, 0, 0.022);
+    }
+    for (const [x, z, ry] of [[-1.1, -0.2, 0.4], [-0.55, -0.3, 2.1], [0.05, -0.28, -1.2], [-1.05, 0.25, 1.4]]) {
+      const c = p.sub(x, 0, z, ry);
+      c.sphere(0, 0.05, 0, 0.13, 0.09, 0.1, C.white);
+      c.sphere(0.08, 0.06, 0, 0.06, 0.06, 0.06, C.white);
+      c.box(0.09, 0.095, 0, 0.04, 0.025, 0.012, C.blood);
+      c.cone(0.12, 0.06, 0, 0.02, 0.03, 0.02, C.yellow, { rz: -Math.PI / 2 });
+      for (const lz of [-0.02, 0.02]) c.cyl(-0.01, 0.13, lz, 0.01, 0.09, 0.01, C.yellow, { rx: lz * 8 });
+      xx(c, 0.085, 0.092, 0, 0.012);
     }
     p.anim((t) => {
-      pigs.forEach((g) => (g.n.rotation.y += Math.sin(t * 0.7 + g.ph) * 0.004));
       smoke.forEach((n, i) => {
         const k = (t * 0.25 + i / 4) % 1;
         n.position.set(1.13 + k * 0.35, 1.3 + k * 0.9, -0.33 - k * 0.1);
