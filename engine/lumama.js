@@ -117,8 +117,8 @@ export function createLumama(THREE, { scene, centers, CSS2DObject, rng }) {
   });
 
   // invisible hit box for clicks, and a gold-coin burst with a floating "民調第一名 +1"
-  const hit = new THREE.Mesh(new THREE.BoxGeometry(0.7, 1.4, 0.6), new THREE.MeshBasicMaterial());
-  hit.position.y = 0.7;
+  const hit = new THREE.Mesh(new THREE.BoxGeometry(1.0, 1.7, 0.9), new THREE.MeshBasicMaterial());
+  hit.position.y = 0.8;
   hit.visible = false;
   g.add(hit);
   const coinGeo = new THREE.CylinderGeometry(0.09, 0.09, 0.025, 16);

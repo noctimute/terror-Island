@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Noto+Serif+TC:wght@700;900&display=swap">
 <base href="../engine/">
-<link rel="stylesheet" href="./ui.css?v=24">
+<link rel="stylesheet" href="./ui.css?v=25">
 <script type="importmap">{"imports":{"three":"./vendor/three/build/three.module.min.js","three/addons/":"./vendor/three/examples/jsm/"}}</script>
 </head>
 <body><main id="app" data-src="../lumama/data.json">
@@ -95,6 +95,7 @@
 <div class="panel" id="panel-fear" role="tabpanel"><div class="heart-buttons" id="fear-buttons"></div><p class="control-note">可複選。依事件類型篩選島嶼，未符合的島嶼會褪色。</p></div>
 </section>
 
+<div id="gun-hud" class="gun-hud" hidden><b class="gun-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M2 8h16l1-2h3v4h-3l-1 1h-4l-1 2h-3l-1 6H5l1-6H3z" fill="currentColor"/></svg></b><div><strong>台中都有槍 <span data-gun-count></span></strong><small data-gun-left></small><i><em data-gun-bar></em></i></div><button data-gun-reset title="重新開始收集">重來</button></div>
 <div id="tour-caption" class="tour-caption" aria-live="polite"></div>
 <div class="tour-controls"><span id="tour-time">00 / 64</span><button id="tour-pause">暫停</button><button id="tour-replay">重播</button><button id="tour-exit">離開</button></div>
 
@@ -102,4 +103,4 @@
 <div id="loading" class="loading" role="status"><h2>TERROR</h2><p>正在載入事件…</p></div>
 <noscript><p class="nojs">這個互動地圖需要啟用 JavaScript 與 WebGL。</p></noscript>
 </main>
-<script type="module" src="./app.js?v=52"></script></body></html>
+<script type="module" src="./app.js?v=54"></script></body></html>
