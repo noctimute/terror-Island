@@ -73,7 +73,7 @@ lumama/data.json    台中內容
 
 ## 部署到 GitHub Pages
 
-`.github/workflows/pages.yml` 會在每次 push 到 `main` 或 `claude/awesome-cannon-q4axxh` 時自動部署。第一次需要手動開啟：
+`.github/workflows/pages.yml` 會在每次 push 到 `main` 時自動部署。第一次需要手動開啟：
 
 1. repo **Settings → Pages → Build and deployment → Source** 選 **GitHub Actions**
 2. 到 **Actions** 分頁，對「Deploy to GitHub Pages」按 **Run workflow**（或再 push 一次）
