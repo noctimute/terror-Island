@@ -77,7 +77,7 @@ lumama/data.json    台中內容
 
 1. repo **Settings → Pages → Build and deployment → Source** 選 **GitHub Actions**
 2. 到 **Actions** 分頁，對「Deploy to GitHub Pages」按 **Run workflow**（或再 push 一次）
-3. 網址：`https://brownrhined.github.io/terror-Island/`（綁定自訂網域後是 `https://你的網址/lumama/`）
+3. 網址：`https://noctimute.github.io/terror-Island/`（綁定自訂網域後是 `https://你的網址/lumama/`）
 
 > 私人（private）repo 需要 GitHub Pro / Team 才能開 Pages；免費帳號請先把 repo 改成 public。
 
@@ -85,5 +85,5 @@ lumama/data.json    台中內容
 
 在 **Settings → Pages → Custom domain** 填入網域並勾選 **Enforce HTTPS**，然後在網域的 DNS 設定：
 
-- 子網域（例如 `terror.example.com`）：新增 `CNAME` 記錄指向 `brownrhined.github.io`
+- 子網域（例如 `terror.example.com`）：新增 `CNAME` 記錄指向 `noctimute.github.io`
 - 根網域（例如 `example.com`）：新增 4 筆 `A` 記錄：`185.199.108.153`、`185.199.109.153`、`185.199.110.153`、`185.199.111.153`（若要 IPv6，再加 `AAAA`：`2606:50c0:8000::153` ～ `2606:50c0:8003::153`）
