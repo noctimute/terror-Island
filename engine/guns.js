@@ -141,7 +141,7 @@ export function createGuns(THREE, { scene, centers, CSS2DObject, rng, count = 12
     found.add(gun.id);
     save();
     const left = count - found.size;
-    toast(gun.g.position, left ? `成功收集！還剩 ${left} 把` : "全部收集完成！");
+    toast(gun.g.position, left ? `恭喜你撿到一把槍！還剩 ${left} 把` : "恭喜你撿到最後一把槍！全部收集完成");
     renderHud();
     return true;
   }
