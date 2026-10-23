@@ -2,15 +2,14 @@ import { S, TOP, WILD_TOP, layoutZones, buildCity, createHeightAt } from "./worl
 import { createEnvironment, mulberry } from "./environment.js?v=6";
 import { createKit, MODELS, wildForest } from "./models.js?v=22";
 import { createPeople, flowCurve } from "./people.js?v=3";
-import { createLumama } from "./lumama.js?v=10";
+import { createLumama } from "./lumama.js?v=12";
 import { createGuns } from "./guns.js?v=11";
 import { createMusic } from "./music.js?v=1";
 import { sfx } from "./sfx.js?v=10";
 import { createShore } from "./shore.js?v=1";
 import { createTreeEgg } from "./treeegg.js?v=2";
 import { createMemes } from "./memes.js?v=10";
-import { createEggs } from "./eggs.js?v=9";
-import { mountAirGift } from "./airgift.js?v=1";
+import { createEggs } from "./eggs.js?v=10";
 import { icon, skulls } from "./icons.js?v=1";
 
 const $ = (s) => document.querySelector(s),
@@ -314,16 +313,11 @@ try {
   });
 
   createMusic($("#music-toggle"));
-  let unmountGift;
-  const eggs = createEggs({
-    root: $("#eggs"),
-    onGift: (el) => (sfx.air(), (unmountGift = mountAirGift(THREE, el))),
-    onGiftClose: () => unmountGift?.(),
-  });
+  const eggs = createEggs({ root: $("#eggs") });
   // each easter egg reports itself once to the tracker, then plays its sound as before
   const egg = (k, fn) => (...a) => (eggs.found(k), fn?.(...a));
-  let lumaTaps = 0; // the 谷關空氣 gift comes on the tenth tap
-  const lumama = createLumama(THREE, { scene, centers: [...centers.values()], CSS2DObject, rng: mulberry(7), onCelebrate: (...a) => (egg("lumama", sfx.lumama)(...a), ++lumaTaps >= 10 && setTimeout(() => eggs.gift(), 1600)) });
+  let lumaTaps = 0; // on the tenth tap a 谷關空氣 bottle drops out of her
+  const lumama = createLumama(THREE, { scene, centers: [...centers.values()], CSS2DObject, rng: mulberry(7), onCelebrate: (...a) => (egg("lumama", sfx.lumama)(...a), ++lumaTaps >= 10 && !eggs.has("air") && lumama.dropGift(egg("air", sfx.air))) });
   const shore = createShore({ hits: env.shoreHits || [], onWhisper: egg("shore", sfx.shore) });
   const treeEgg = createTreeEgg(THREE, { scene, CSS2DObject, pines: env.pines, onClick: egg("tree", sfx.tree) });
   const memes = createMemes(THREE, { scene, centers: [...centers.values()], bounds: zoneBox, nests: [centers.get("dadu"), centers.get("houli")], westEndZ: D.meta.terrain?.harbour && centers.get(D.meta.terrain.harbour) ? centers.get(D.meta.terrain.harbour).z - S * 0.9 : undefined, outer: new THREE.Box3().setFromPoints([...allCenters.values()].map((c) => new THREE.Vector3(c.x, 0, c.z))), say: treeEgg.say, CSS2DObject, groundAt: (x, z) => env.heightAtTerrain(x, z) - 0.03, sfx: { ...sfx, bus: egg("bus", sfx.bus), stop: egg("stop", sfx.stop), jam: egg("jam", sfx.jam), rats: egg("rats", sfx.rats), shutter: egg("camera", sfx.shutter), tbm: egg("tbm", sfx.tbm) } });
@@ -1076,6 +1070,7 @@ try {
     const id = pick(e);
     // the easter eggs sit on top of the islands, so they win over the island under them
     if (guns.tryCollect(ray)) return;
+    if (lumama.tryGift(ray)) return;
     if (ray.intersectObject(lumama.hit, false).length) return lumama.celebrate();
     if (state.tour) return;
     if (memes.tryClick(ray)) return;
@@ -1388,7 +1383,7 @@ try {
     if (!state.tour && !frozen) ambientLog(dt);
     if (pointer && !fly) {
       setHover(pick(pointer));
-      if (guns.isGun(ray) || ray.intersectObject(lumama.hit, false).length || memes.isHit(ray) || (!state.hover && (shore.isShore(ray) || treeEgg.isTree(ray) || (env.ship && ray.intersectObject(env.ship, true).length)))) renderer.domElement.style.cursor = "pointer";
+      if (guns.isGun(ray) || ray.intersectObject(lumama.hit, false).length || lumama.isGift(ray) || memes.isHit(ray) || (!state.hover && (shore.isShore(ray) || treeEgg.isTree(ray) || (env.ship && ray.intersectObject(env.ship, true).length)))) renderer.domElement.style.cursor = "pointer";
       pointer = null;
     }
     if (!renderer.shadowMap.autoUpdate && ++shadowTick % 6 === 0) renderer.shadowMap.needsUpdate = true;

@@ -2,6 +2,7 @@
 // The roads are the edges of the layout hexes (radius S) around every cell, so she never walks through a model.
 import { RoundedBoxGeometry } from "three/addons/geometries/RoundedBoxGeometry.js";
 import { S, hexVertex } from "./world.js?v=1";
+import { makeAirBottle } from "./airgift.js?v=3";
 
 export function createLumama(THREE, { scene, centers, CSS2DObject, rng, onCelebrate }) {
   // ---- road graph from hex corners ----
@@ -145,6 +146,77 @@ export function createLumama(THREE, { scene, centers, CSS2DObject, rng, onCelebr
     onClick?.();
   }
 
+  // ---- 谷關空氣: after enough taps a souvenir bottle tumbles out of her and waits on the road to be picked up ----
+  let gift = null;
+  function dropGift(onTake) {
+    if (gift) return;
+    // the holder moves and carries the tag; only the bottle inside it tumbles, so the tag stays upright above it
+    const holder = new THREE.Group();
+    const bottle = makeAirBottle(THREE);
+    bottle.scale.setScalar(0.75);
+    holder.add(bottle);
+    holder.position.set(g.position.x, 1.9 * g.scale.y, g.position.z);
+    // it tumbles toward the camera (south), so it lands in front of the buildings rather than behind them
+    const a = Math.PI / 2 + (rng() - 0.5) * 0.8;
+    const hitBox = new THREE.Mesh(new THREE.BoxGeometry(1.1, 2.0, 1.1), new THREE.MeshBasicMaterial());
+    hitBox.position.y = 0.9;
+    hitBox.visible = false;
+    holder.add(hitBox);
+    const el = document.createElement("div");
+    el.innerHTML = '<button class="air-tag" type="button"><b>谷關空氣</b><small>送給市民的第一份禮物・點我收下</small></button>';
+    const tag = new CSS2DObject(el);
+    tag.position.set(0, 2.1, 0);
+    holder.add(tag);
+    scene.add(holder);
+    gift = { holder, bottle, hitBox, tag, vx: Math.cos(a) * 0.9, vz: Math.sin(a) * 0.9, vy: 3.2, spin: 7, onTake, settled: false };
+    el.firstChild.addEventListener("click", (e) => {
+      e.stopPropagation();
+      takeGift();
+    });
+  }
+  function takeGift() {
+    if (!gift) return;
+    const { holder, bottle, tag, onTake } = gift;
+    gift = null;
+    tag.element.remove();
+    scene.remove(holder);
+    bottle.userData.dispose();
+    const t = document.createElement("div");
+    t.innerHTML = '<span class="lumama-pop">收下了！內容物：空氣</span>';
+    const pop = new CSS2DObject(t);
+    pop.position.set(0, 1.85, 0);
+    g.add(pop);
+    pops.push({ obj: pop, span: t.firstChild, age: 0 });
+    onTake?.();
+  }
+  const isGift = (ray) => !!gift && ray.intersectObject(gift.hitBox, false).length > 0;
+  const tryGift = (ray) => isGift(ray) && (takeGift(), true);
+  function updateGift(t, dt) {
+    if (!gift) return;
+    const q = gift,
+      h = q.holder,
+      b = q.bottle;
+    if (!q.settled) {
+      q.vy -= 9 * dt;
+      h.position.x += q.vx * dt;
+      h.position.z += q.vz * dt;
+      h.position.y += q.vy * dt;
+      b.rotation.z += q.spin * dt * 0.2;
+      if (h.position.y <= 0.02) {
+        // bounce a few times, losing height, then stand upright
+        h.position.y = 0.02;
+        q.vy = -q.vy * 0.45;
+        q.vx *= 0.5;
+        q.vz *= 0.5;
+        if (q.vy < 0.6) q.settled = true;
+      }
+    } else {
+      b.rotation.z *= Math.max(0, 1 - dt * 8);
+      h.position.y = 0.02 + Math.abs(Math.sin(t * 2.2)) * 0.05; // a little hop so it reads as something to pick up
+      b.rotation.y += dt * 0.8;
+    }
+  }
+
   // ---- wandering ----
   const list = [...nodes.values()];
   let from = list[Math.floor(rng() * list.length)];
@@ -161,6 +233,7 @@ export function createLumama(THREE, { scene, centers, CSS2DObject, rng, onCelebr
     k = 0;
   }
   function update(t, dt) {
+    updateGift(t, dt);
     for (let i = pops.length - 1; i >= 0; i--) {
       const q = pops[i];
       q.age += Math.max(dt, 1 / 60);
@@ -209,5 +282,5 @@ export function createLumama(THREE, { scene, centers, CSS2DObject, rng, onCelebr
     head.rotation.z = Math.sin(t * 3.5) * 0.08;
     glow.intensity = 0.9 + Math.sin(t * 2) * 0.3;
   }
-  return { group: g, hit, update, celebrate };
+  return { group: g, hit, update, celebrate, dropGift, tryGift, isGift };
 }
