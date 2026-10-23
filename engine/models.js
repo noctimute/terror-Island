@@ -1201,6 +1201,68 @@ export const MODELS = {
 
   // 購物島 (DLC)：a stage with a giant screen, a lottery drum spinning prize balls, a NT$10-million prize house with a gold bow,
   // giant red envelopes, shopping bags, a steaming hot pot (鍋烤節) and fireworks; a tarp with a padlock hides it all until unlocked
+  // 空城島：a smoking power plant, a dried-up reservoir, a row of stumps, an empty transit hall and an idle crane
+  emptyisle(p, rng) {
+    // the coal plant: two red-and-white stacks over a boiler hall, grey smog drifting off
+    const pl = p.sub(-0.75, 0, -0.55);
+    pl.box(0, 0.25, 0.1, 0.8, 0.5, 0.5, 0x7d7f84);
+    pl.box(0, 0.52, 0.1, 0.84, 0.04, 0.54, 0x5f6166);
+    for (const x of [-0.22, 0.22]) for (let k = 0; k < 6; k++) pl.cyl(x, 0.55 + k * 0.22, -0.2, 0.16 - k * 0.008, 0.22, 0.16 - k * 0.008, k % 2 ? 0xe8e4da : 0xb3261e);
+    const smog = [];
+    for (let i = 0; i < 12; i++) {
+      const sm = p.dyn(-0.75, 1.9, -0.75);
+      sm.sphere(0, 0, 0, 0.4, 0.3, 0.4, i % 2 ? 0x8a8780 : 0x6f6c66);
+      smog.push({ n: sm.node, ph: i / 12, x0: i % 2 ? -0.22 : 0.22 });
+    }
+    // the reservoir run dry: cracked mud and one last puddle, a depth gauge left standing
+    const rs = p.sub(0.7, 0, -0.5);
+    rs.cyl(0, 0.02, 0, 1.0, 0.04, 0.8, 0x9b7b55);
+    for (let i = 0; i < 9; i++) rs.box(-0.35 + rng() * 0.7, 0.045, -0.3 + rng() * 0.6, 0.18 + rng() * 0.15, 0.01, 0.012, 0x5e4630, { ry: rng() * 3 });
+    rs.cyl(0.12, 0.042, 0.1, 0.18, 0.01, 0.12, C.water);
+    rs.box(-0.35, 0.3, -0.25, 0.04, 0.6, 0.04, C.white);
+    for (let k = 0; k < 5; k++) rs.box(-0.32, 0.12 + k * 0.1, -0.25, 0.04, 0.01, 0.045, C.red);
+    // a row of fresh stumps where street trees stood, sawdust and one cut trunk on the ground
+    for (let i = 0; i < 5; i++) {
+      const st = p.sub(-1.05 + i * 0.26, 0, 0.55);
+      st.cyl(0, 0.05, 0, 0.11, 0.1, 0.11, C.wood);
+      st.cyl(0, 0.102, 0, 0.09, 0.005, 0.09, 0xd9b77a);
+    }
+    p.cyl(-0.4, 0.06, 0.82, 0.09, 0.85, 0.09, C.wood, { rz: Math.PI / 2, ry: 0.15 });
+    p.ico(-0.2, 0.05, 0.86, 0.25, 0.08, 0.2, C.dleaf);
+    // the empty transit hall: big glass box, lights on, nobody inside, a mosquito cloud at the door
+    const hl = p.sub(0.65, 0, 0.55);
+    hl.box(0, 0.32, 0, 0.9, 0.64, 0.55, 0xb9c4c8);
+    for (let f = 0; f < 3; f++) hl.box(0, 0.12 + f * 0.2, 0.28, 0.84, 0.12, 0.01, C.glass);
+    for (let f = 0; f < 3; f++) hl.box(-0.3 + f * 0.3, 0.12 + 0.2, 0.285, 0.08, 0.06, 0.005, C.lamp, { glow: true });
+    hl.box(0, 0.68, 0, 0.95, 0.06, 0.6, 0x8d979b);
+    hl.box(0, 0.76, 0.28, 0.5, 0.1, 0.02, 0x2c6db5);
+    const bugs = [];
+    for (let i = 0; i < 14; i++) {
+      const b = p.dyn(0.65, 0.4, 0.95);
+      b.box(0, 0, 0, 0.03, 0.02, 0.03, C.black);
+      bugs.push({ n: b.node, ph: rng() * 6, r: 0.1 + rng() * 0.18, sp: 2 + rng() * 3 });
+    }
+    // an idle tower crane over a fenced, empty pit
+    const cr = p.sub(0.05, 0, 0.1);
+    cr.box(0, 0.01, 0, 0.5, 0.02, 0.4, 0x4a3f33);
+    for (const [x, z] of [[-0.25, -0.2], [0.25, -0.2], [-0.25, 0.2], [0.25, 0.2]]) cr.box(x, 0.08, z, 0.02, 0.16, 0.02, C.yellow);
+    cr.box(0, 0.75, 0, 0.06, 1.5, 0.06, C.yellow);
+    const jib = p.dyn(0.05, 1.5, 0.1);
+    jib.box(0.25, 0, 0, 0.9, 0.05, 0.05, C.yellow);
+    jib.box(-0.25, 0, 0, 0.12, 0.1, 0.1, C.dstone);
+    jib.cyl(0.6, -0.35, 0, 0.005, 0.7, 0.005, C.black);
+    p.anim((t) => {
+      smog.forEach((sm) => {
+        const k = (t * 0.12 + sm.ph) % 1;
+        sm.n.position.set(-0.75 + sm.x0 + k * 1.6, 1.85 + k * 0.6, -0.75 + Math.sin(k * 5 + sm.ph) * 0.15);
+        sm.n.scale.setScalar(0.5 + k * 1.6);
+      });
+      bugs.forEach((b) => b.n.position.set(0.65 + Math.cos(t * b.sp + b.ph) * b.r, 0.35 + Math.sin(t * b.sp * 1.3 + b.ph) * 0.08, 0.95 + Math.sin(t * b.sp + b.ph) * b.r * 0.6));
+      jib.node.rotation.y = Math.sin(t * 0.08) * 0.4; // barely moving
+    });
+    return { mist: 2, mistY: 0.25 };
+  },
+
   // 火燒山島：a hill burning up from the cemetery at its foot, half charred and half still green, a water-bucket helicopter circling
   wildfireisle(p, rng) {
     // the hill: stacked flattened domes, scorched on the west face

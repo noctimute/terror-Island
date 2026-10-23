@@ -150,6 +150,11 @@ const ISLAND = {
     tone({ type: "triangle", f0: 1568, at: 0.35, dur: 0.5, vol: 0.1 });
     tone({ type: "triangle", f0: 2093, at: 0.45, dur: 0.6, vol: 0.08 });
   },
+  // 空城島: a hollow wind through an empty hall, then one last drip into a dry reservoir
+  wuri() {
+    noise({ dur: 0.9, vol: 0.12, type: "bandpass", freq: 400, f1: 900, q: 2 });
+    tone({ type: "sine", f0: 1400, f1: 700, at: 0.65, dur: 0.18, vol: 0.12 });
+  },
   // 火燒山島: brush crackling, a low whoosh of flame, then a helicopter's rotor thumping past
   dakeng() {
     for (let i = 0; i < 9; i++) noise({ at: Math.random() * 0.5, dur: 0.03, vol: 0.2, freq: 1500 + Math.random() * 3000, q: 6 });
