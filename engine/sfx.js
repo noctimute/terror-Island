@@ -200,6 +200,37 @@ export const sfx = {
     [523, 659, 784, 1046, 784, 1046, 1318].forEach((f, i) => tone({ type: "square", f0: f, at: 0.5 + i * 0.1, dur: 0.3, vol: 0.05 }));
     for (let i = 0; i < 4; i++) noise({ at: 1.3 + i * 0.22, dur: 0.25, vol: 0.25, type: "lowpass", freq: 2500, f1: 300 });
   },
+  // ghost bus: a long, detuned horn sagging out of tune, then a breath of wind
+  bus() {
+    ac();
+    tone({ type: "sawtooth", f0: 233, f1: 180, dur: 1.2, vol: 0.05, glide: 1.1 });
+    tone({ type: "sawtooth", f0: 277, f1: 214, dur: 1.2, vol: 0.04, glide: 1.1 });
+    noise({ at: 0.6, dur: 1.2, vol: 0.06, freq: 700, f1: 300 });
+  },
+  // bus stop: a flat departure-board chime
+  stop() {
+    ac();
+    tone({ type: "triangle", f0: 659, dur: 0.35, vol: 0.08 });
+    tone({ type: "triangle", f0: 523, at: 0.25, dur: 0.5, vol: 0.08 });
+  },
+  // Route 74: a chorus of car horns
+  jam() {
+    ac();
+    [[392, 0], [349, 0.18], [415, 0.32], [370, 0.55]].forEach(([f, at]) => tone({ type: "square", f0: f, at, dur: 0.3, vol: 0.04 }));
+  },
+  // rats: a burst of high squeaks
+  rats() {
+    ac();
+    for (let i = 0; i < 6; i++) tone({ f0: 2600 + Math.random() * 1400, f1: 3400 + Math.random() * 1400, at: i * 0.07 + Math.random() * 0.03, dur: 0.08, vol: 0.05, glide: 0.06 });
+    noise({ dur: 0.5, vol: 0.06, freq: 4000, q: 1 });
+  },
+  // traffic camera: a shutter click and a flash whine
+  shutter() {
+    ac();
+    noise({ dur: 0.03, vol: 0.4, freq: 3000, q: 1 });
+    noise({ at: 0.06, dur: 0.04, vol: 0.3, freq: 1800, q: 2 });
+    tone({ f0: 1800, f1: 4200, at: 0.08, dur: 0.4, vol: 0.03, glide: 0.35 });
+  },
   // Lumama: a slap on her drum and a shower of coins
   lumama() {
     ac();

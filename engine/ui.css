@@ -429,3 +429,9 @@ body.dread::after { opacity: 1; }
 .dlc-price b { font: 900 30px/1.1 var(--serif); color: #ffd23f; }
 .dlc-price small { font-size: 11px; opacity: 0.75; }
 .chip .dlc-lock { margin-left: 4px; padding: 0 5px; border-radius: 4px; background: #ffd23f; color: #1b1517; font-size: 9px; font-weight: 900; letter-spacing: 0.05em; }
+
+/* reader-suggested memes: the 74 sign and the traffic camera's flash */
+.hwy-tag { display: inline-block; padding: 2px 8px; border-radius: 6px; background: #1f7a3f; border: 2px solid #f4f1ea; color: #fff; font: 900 13px/1.2 ui-monospace, monospace; pointer-events: none; }
+body::before { content: ""; position: fixed; inset: 0; background: #fff; opacity: 0; pointer-events: none; z-index: 8; }
+body.flash::before { animation: camflash 0.45s ease-out; }
+@keyframes camflash { 0% { opacity: 0.85; } 100% { opacity: 0; } }

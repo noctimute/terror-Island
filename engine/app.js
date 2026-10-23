@@ -5,9 +5,10 @@ import { createPeople, flowCurve } from "./people.js?v=3";
 import { createLumama } from "./lumama.js?v=10";
 import { createGuns } from "./guns.js?v=11";
 import { createMusic } from "./music.js?v=1";
-import { sfx } from "./sfx.js?v=5";
+import { sfx } from "./sfx.js?v=6";
 import { createShore } from "./shore.js?v=1";
 import { createTreeEgg } from "./treeegg.js?v=2";
+import { createMemes } from "./memes.js?v=3";
 import { icon, skulls } from "./icons.js?v=1";
 
 const $ = (s) => document.querySelector(s),
@@ -72,7 +73,7 @@ try {
     import("three/addons/controls/OrbitControls.js"),
     import("three/addons/renderers/CSS2DRenderer.js"),
     // each city page points the shared engine at its own content: <main id="app" data-src="../lumama/data.json">
-    fetch(`${$("#app").dataset.src || "./data.json"}?v=29`)
+    fetch(`${$("#app").dataset.src || "./data.json"}?v=30`)
       .then((r) => {
         if (!r.ok) throw Error(`data.json: ${r.status}`);
         return r.json();
@@ -302,6 +303,7 @@ try {
   const lumama = createLumama(THREE, { scene, centers: [...centers.values()], CSS2DObject, rng: mulberry(7), onCelebrate: sfx.lumama });
   const shore = createShore({ hits: env.shoreHits || [], onWhisper: sfx.shore });
   const treeEgg = createTreeEgg(THREE, { scene, CSS2DObject, pines: env.pines, onClick: sfx.tree });
+  const memes = createMemes(THREE, { scene, centers: [...centers.values()], bounds: zoneBox, say: treeEgg.say, CSS2DObject, sfx });
   const guns = createGuns(THREE, { scene, centers: [...centers.values()], CSS2DObject, rng: Math.random, groundAt: (x, z) => env.heightAtTerrain(x, z) - 0.03, blocked: [...allCenters.values()], hud: $("#gun-hud"), onCollect: (left) => sfx.gun(!left), onReset: sfx.reset });
 
   // ---------- camera ----------
@@ -993,6 +995,7 @@ try {
     if (guns.tryCollect(ray)) return;
     if (ray.intersectObject(lumama.hit, false).length) return lumama.celebrate();
     if (state.tour) return;
+    if (memes.tryClick(ray)) return;
     if (!id && shore.tryWhisper(ray)) return;
     if (!id && treeEgg.tryClick(ray)) return;
     if (!id && env.ship && ray.intersectObject(env.ship, true).length) {
@@ -1238,6 +1241,7 @@ try {
     guns.update(dt, at);
     shore.update(dt);
     treeEgg.update(dt);
+    memes.update(at, frozen ? 0 : dt);
     city.lamps.mat.color.setHex(0xffd38a).multiplyScalar(0.25 + envCtx.night * 1.6);
     const cy = currentCycle();
     for (const [id, g] of city.glows) g.material.opacity = cy.zones.includes(id) ? (0.32 + Math.sin(at * 2.4) * 0.14) * (0.5 + envCtx.night * 0.5) : 0;
@@ -1245,7 +1249,7 @@ try {
     if (!state.tour && !frozen) ambientLog(dt);
     if (pointer && !fly) {
       setHover(pick(pointer));
-      if (guns.isGun(ray) || ray.intersectObject(lumama.hit, false).length || (!state.hover && (shore.isShore(ray) || treeEgg.isTree(ray) || (env.ship && ray.intersectObject(env.ship, true).length)))) renderer.domElement.style.cursor = "pointer";
+      if (guns.isGun(ray) || ray.intersectObject(lumama.hit, false).length || memes.isHit(ray) || (!state.hover && (shore.isShore(ray) || treeEgg.isTree(ray) || (env.ship && ray.intersectObject(env.ship, true).length)))) renderer.domElement.style.cursor = "pointer";
       pointer = null;
     }
     renderer.render(scene, camera);
