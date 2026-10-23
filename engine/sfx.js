@@ -144,6 +144,12 @@ const ISLAND = {
     noise({ at: 0.45, dur: 0.4, vol: 0.4, type: "lowpass", freq: 2500, f1: 200 });
     thud(0.45, 0.4);
   },
+  // 購物島: a lottery drum rattling, then a prize bell
+  shop() {
+    for (let i = 0; i < 6; i++) noise({ at: i * 0.05, dur: 0.04, vol: 0.18, freq: 2200 + Math.random() * 1500, q: 4 });
+    tone({ type: "triangle", f0: 1568, at: 0.35, dur: 0.5, vol: 0.1 });
+    tone({ type: "triangle", f0: 2093, at: 0.45, dur: 0.6, vol: 0.08 });
+  },
 };
 
 export const sfx = {
@@ -185,6 +191,14 @@ export const sfx = {
     tone({ type: "sawtooth", f0: 70, f1: 140, at: 0.35, dur: 0.7, vol: 0.06, glide: 0.4 });
     tone({ type: "square", f0: 72, f1: 143, at: 0.35, dur: 0.7, vol: 0.03, glide: 0.4 });
     noise({ at: 0.35, dur: 0.7, vol: 0.05, freq: 900, q: 2 });
+  },
+  // 購物島 DLC unlocked: a cash-register ka-ching, then a bright fanfare and fireworks pops
+  dlc() {
+    ac();
+    noise({ dur: 0.05, vol: 0.3, freq: 2000, q: 3 });
+    tone({ type: "triangle", f0: 2637, at: 0.08, dur: 0.6, vol: 0.12 });
+    [523, 659, 784, 1046, 784, 1046, 1318].forEach((f, i) => tone({ type: "square", f0: f, at: 0.5 + i * 0.1, dur: 0.3, vol: 0.05 }));
+    for (let i = 0; i < 4; i++) noise({ at: 1.3 + i * 0.22, dur: 0.25, vol: 0.25, type: "lowpass", freq: 2500, f1: 300 });
   },
   // Lumama: a slap on her drum and a shower of coins
   lumama() {

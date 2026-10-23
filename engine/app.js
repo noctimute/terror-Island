@@ -1,11 +1,11 @@
 import { TOP, WILD_TOP, layoutZones, buildCity, createHeightAt } from "./world.js?v=1";
 import { createEnvironment, mulberry } from "./environment.js?v=5";
-import { createKit, MODELS, wildForest } from "./models.js?v=19";
+import { createKit, MODELS, wildForest } from "./models.js?v=20";
 import { createPeople, flowCurve } from "./people.js?v=3";
 import { createLumama } from "./lumama.js?v=10";
 import { createGuns } from "./guns.js?v=11";
 import { createMusic } from "./music.js?v=1";
-import { sfx } from "./sfx.js?v=4";
+import { sfx } from "./sfx.js?v=5";
 import { createShore } from "./shore.js?v=1";
 import { createTreeEgg } from "./treeegg.js?v=2";
 import { icon, skulls } from "./icons.js?v=1";
@@ -72,7 +72,7 @@ try {
     import("three/addons/controls/OrbitControls.js"),
     import("three/addons/renderers/CSS2DRenderer.js"),
     // each city page points the shared engine at its own content: <main id="app" data-src="../lumama/data.json">
-    fetch(`${$("#app").dataset.src || "./data.json"}?v=28`)
+    fetch(`${$("#app").dataset.src || "./data.json"}?v=29`)
       .then((r) => {
         if (!r.ok) throw Error(`data.json: ${r.status}`);
         return r.json();
@@ -167,10 +167,12 @@ try {
   const env = createEnvironment(THREE, { scene, renderer, centers: allCenters, bounds, quality, reduced: reduced.matches, terrain: D.meta.terrain });
 
   const kit = createKit(THREE);
+  const covers = new Map(); // DLC islands hidden under a tarp until unlocked
   for (const z of zones) {
     const c = centers.get(z.id);
     const p = kit.zone(z.id, c.x, c.z);
     const res = MODELS[z.model]?.(p, mulberry(hash(z.id))) || {};
+    if (res.cover) covers.set(z.id, res.cover);
     if (res.mist) env.addMist(c.x, c.z, res.mist, 1.3, TOP + (res.mistY ?? 0.45), 2.4, 1.35);
   }
   wildCenters.forEach((w, i) => {
@@ -226,7 +228,7 @@ try {
     const el = document.createElement("button");
     el.className = "chip";
     el.type = "button";
-    el.innerHTML = `<b>${pad(z.number)}</b><span class="nm">${esc(z.name)}</span>${z.civic ? `<span class="civ" title="市政議題">${icon("civic")}</span>` : ""}`;
+    el.innerHTML = `<b>${pad(z.number)}</b><span class="nm">${esc(z.name)}</span>${z.civic ? `<span class="civ" title="市政議題">${icon("civic")}</span>` : ""}${z.dlc ? `<span class="dlc-lock">🔒 DLC</span>` : ""}`;
     el.setAttribute("aria-label", zoneLabel(z));
     el.addEventListener("click", (e) => {
       e.stopPropagation();
@@ -577,7 +579,43 @@ try {
     }
     if (mobileMQ.matches && sel) closeSidebarMobile();
   }
-  const selectZone = (id, o) => setSel({ type: "zone", id, zone: id }, o);
+  const selectZone = (id, o) => (zoneById.get(id)?.dlc && !dlcOpen() ? openDlc(id) : setSel({ type: "zone", id, zone: id }, o));
+
+  // ---------- 購物島 DLC: locked under a tarp until the viewer "buys" it (free, per browser) ----------
+  const DLC_KEY = "terror-island-dlc";
+  const dlcOpen = () => {
+    try {
+      return localStorage.getItem(DLC_KEY) === "1";
+    } catch {
+      return dlcUnlocked;
+    }
+  };
+  let dlcUnlocked = false,
+    dlcTarget = null,
+    dlcLift = null;
+  const dlcLocks = () => $$(".chip .dlc-lock").forEach((e) => (e.hidden = dlcOpen()));
+  if (dlcOpen()) for (const c of covers.values()) c.userData.lift = 1;
+  dlcLocks();
+  function openDlc(id) {
+    dlcTarget = id;
+    $("#dlc").hidden = false;
+    $("#dlc-buy").focus();
+  }
+  $("#dlc-later").addEventListener("click", () => ($("#dlc").hidden = true));
+  $("#dlc").addEventListener("click", (e) => e.target.id === "dlc" && ($("#dlc").hidden = true));
+  $("#dlc-buy").addEventListener("click", () => {
+    $("#dlc").hidden = true;
+    dlcUnlocked = true;
+    try {
+      localStorage.setItem(DLC_KEY, "1");
+    } catch {}
+    dlcLocks();
+    sfx.dlc();
+    const id = dlcTarget;
+    zoneView(id);
+    // the tarp floats off once the camera has arrived, then the island card opens
+    setTimeout(() => (dlcLift = { id, k: 0 }), 900);
+  });
   const selectSpot = (id, o) => setSel({ type: "spot", id, zone: spotById.get(id).zone }, o);
   const selectFlow = (id, o) => setSel({ type: "flow", id, zone: null }, o);
   function step(list, cur, d) {
@@ -1168,6 +1206,16 @@ try {
     applyViewShift(dt);
     // camera flights and time tweens also use wall-clock time (capped) so slow GPUs don't drag them out
     const wall = Math.min(0.25, raw);
+    if (dlcLift) {
+      dlcLift.k += wall / 1.6;
+      const c = covers.get(dlcLift.id);
+      if (c) c.userData.lift = Math.min(1, dlcLift.k);
+      if (dlcLift.k >= 1) {
+        const id = dlcLift.id;
+        dlcLift = null;
+        selectZone(id);
+      }
+    }
     if (timeTween) {
       timeTween.t = Math.min(1, timeTween.t + wall / 1.4);
       setTime(timeTween.from + (timeTween.to - timeTween.from) * ease(timeTween.t));

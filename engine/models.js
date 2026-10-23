@@ -1191,6 +1191,91 @@ export const MODELS = {
     return { mist: 2, mistY: 0.25 };
   },
 
+  // 購物島 (DLC)：a stage with a giant screen, a lottery drum spinning prize balls, a NT$10-million prize house with a gold bow,
+  // giant red envelopes, shopping bags, a steaming hot pot (鍋烤節) and fireworks; a tarp with a padlock hides it all until unlocked
+  shopisle(p, rng) {
+    // stage with a big glowing screen and spotlights
+    const st = p.sub(-0.75, 0, -0.55);
+    st.box(0, 0.12, 0, 1.1, 0.24, 0.6, 0x7a1f2b);
+    st.box(0, 0.75, -0.25, 1.0, 0.9, 0.06, 0x1d1d24);
+    st.box(0, 0.78, -0.21, 0.88, 0.66, 0.02, 0xffd36a, { glow: true });
+    st.box(0, 0.78, -0.2, 0.42, 0.42, 0.01, 0xc8102e, { glow: true });
+    for (const x of [-0.5, 0.5]) st.cyl(x, 0.75, -0.25, 0.04, 1.3, 0.04, C.metal);
+    st.box(0, 1.38, -0.25, 1.1, 0.06, 0.06, C.metal);
+    // the NT$10-million prize house, tied with a gold bow
+    const hs = p.sub(0.85, 0, -0.45);
+    hs.box(0, 0.35, 0, 0.6, 0.7, 0.5, 0xf2ece0);
+    hs.gable(0, 0.7, 0, 0.7, 0.3, 0.6, 0x3b3436);
+    for (const x of [-0.15, 0.15]) hs.box(x, 0.45, 0.26, 0.12, 0.14, 0.01, 0xffd38a, { glow: true });
+    hs.box(0, 0.4, 0.255, 0.62, 0.06, 0.01, 0xd9a520);
+    hs.box(0, 0.4, 0, 0.06, 0.72, 0.52, 0xd9a520);
+    hs.torus(-0.08, 1.05, 0.0, 0.16, 0.16, 0.16, 0xd9a520, { ry: Math.PI / 2 });
+    hs.torus(0.08, 1.05, 0.0, 0.16, 0.16, 0.16, 0xd9a520, { ry: Math.PI / 2 });
+    // lottery drum spinning on a stand, prize balls inside
+    p.box(0, 0.2, 0.25, 0.08, 0.4, 0.5, C.metal);
+    const drum = p.dyn(0, 0.5, 0.25);
+    drum.cyl6(0, 0, 0, 0.5, 0.5, 0.5, 0xd9a520, { rz: Math.PI / 2 });
+    const balls = [];
+    for (let i = 0; i < 6; i++) balls.push(drum.sphere(Math.cos(i) * 0.1, Math.sin(i * 2) * 0.12, Math.sin(i) * 0.12, 0.09, 0.09, 0.09, [0xc8102e, 0xffd23f, 0x2c6db5, 0xffffff][i % 4], { glow: true }));
+    // giant red envelopes and shopping bags
+    for (const [x, z, ry] of [[-1.15, 0.35, 0.4], [-0.85, 0.75, -0.3]]) {
+      const e = p.sub(x, 0, z, ry);
+      e.box(0, 0.28, 0, 0.36, 0.52, 0.05, 0xc8102e);
+      e.box(0, 0.36, 0.03, 0.14, 0.14, 0.01, 0xffd23f);
+    }
+    for (let i = 0; i < 4; i++) {
+      const b = p.sub(0.55 + (i % 2) * 0.28, 0, 0.45 + Math.floor(i / 2) * 0.3, rng() * 1.5);
+      b.box(0, 0.16, 0, 0.2, 0.3, 0.1, [0xe84393, 0x2e9e5b, 0xffd23f, 0x2c6db5][i]);
+      b.torus(0, 0.33, 0, 0.12, 0.12, 0.12, C.black);
+    }
+    // the hot pot (鍋烤節): a big pot with rising steam
+    const pot = p.sub(-0.2, 0, 0.85);
+    pot.cyl(0, 0.08, 0, 0.42, 0.16, 0.42, C.metal);
+    pot.cyl(0, 0.17, 0, 0.36, 0.02, 0.36, 0xb5502c);
+    const steam = [];
+    for (let i = 0; i < 3; i++) {
+      const s = p.dyn(-0.2 + (i - 1) * 0.1, 0.3, 0.85);
+      s.sphere(0, 0, 0, 0.14, 0.14, 0.14, 0xeeeeee, { own: true });
+      steam.push({ n: s.node, k: i / 3 });
+    }
+    // fireworks bursting overhead
+    const fw = [];
+    for (let i = 0; i < 3; i++) {
+      const f = p.dyn((i - 1) * 0.8, 2.2 + i * 0.2, -0.6);
+      for (let k = 0; k < 8; k++) f.sphere(Math.cos((k / 8) * Math.PI * 2) * 0.3, Math.sin((k / 8) * Math.PI * 2) * 0.3, 0, 0.06, 0.06, 0.06, [0xffd23f, 0xff5a7a, 0x7fd3ff][i], { glow: true });
+      fw.push({ n: f.node, k: i / 3 });
+    }
+    // DLC cover: a tarp over the whole plateau with caution stripes and a glowing padlock
+    const cover = p.dyn(0, 0, 0);
+    cover.rbox(0, 0.85, 0, 3.0, 1.7, 2.6, 0x2b2e38);
+    cover.box(0, 0.25, 1.31, 3.0, 0.14, 0.02, 0xffd23f);
+    cover.box(0, 0.25, -1.31, 3.0, 0.14, 0.02, 0xffd23f);
+    cover.box(0, 1.72, 0, 0.6, 0.04, 0.6, 0x1d1d24);
+    cover.torus(0, 2.12, 0, 0.36, 0.42, 0.36, 0xffd23f, { glow: true });
+    cover.box(0, 1.92, 0, 0.5, 0.36, 0.16, 0xffd23f, { glow: true });
+    cover.box(0, 1.92, 0.09, 0.08, 0.14, 0.01, C.black);
+    p.anim((t) => {
+      drum.node.rotation.x = t * 2.5;
+      steam.forEach((s) => {
+        const k = (t * 0.35 + s.k) % 1;
+        s.n.position.y = 0.3 + k * 0.7;
+        s.n.scale.setScalar(0.6 + k * 1.2);
+      });
+      fw.forEach((f) => {
+        const k = (t * 0.4 + f.k) % 1;
+        f.n.scale.setScalar(k < 0.7 ? 0.2 + k * 1.6 : 0.01);
+        f.n.visible = !cover.node.visible; // the fireworks would poke out above the tarp
+      });
+      if (cover.node.userData.lift != null) {
+        const k = Math.min(1, cover.node.userData.lift);
+        cover.node.position.y = k * k * 4;
+        cover.node.scale.setScalar(1 - k * 0.6);
+        cover.node.visible = k < 1;
+      }
+    });
+    return { mist: 1, mistY: 0.2, cover: cover.node };
+  },
+
   // 詐騙島：a glass office tower full of glowing call-centre screens, a "水房" washing machine spinning banknotes, a police van with flashing lights
   scamisle(p, rng) {
     const tw = p.sub(-0.55, 0, -0.45);

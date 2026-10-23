@@ -91,6 +91,12 @@
    "name": "毒駕毒品",
    "en": "Drugs",
    "color": "#2E8B57"
+  },
+  {
+   "id": "P",
+   "name": "購物撒幣",
+   "en": "Shopping festival",
+   "color": "#D6336C"
   }
  ],
  "eras": [
@@ -724,6 +730,32 @@
    },
    "tlColor": "#2E8B57",
    "tag": "毒駕・毒品"
+  },
+  {
+   "id": "shop",
+   "number": 17,
+   "name": "購物島",
+   "model": "shopisle",
+   "cell": [
+    3,
+    3
+   ],
+   "ground": "#B9A7B4",
+   "side": "#5E4A58",
+   "fear": [
+    "P"
+   ],
+   "danger": 2,
+   "summary": "抽豪宅、撒紅包、鍋烤節——這一格收錄台中購物節與鍋烤節的預算、抽獎與標案爭議。本島為追加下載內容（DLC）。",
+   "recordsSrc": "shop.json",
+   "dlc": true,
+   "news": {
+    "title": "本島取材自真實新聞",
+    "body": "以下事件都有新聞報導可查，文字只摘要報導內容、拿掉姓名等個人資訊；爭議多為議員質疑與市府回應，未經司法認定。島上的 3D 場景是示意插畫。"
+   },
+   "tlColor": "#D6336C",
+   "tag": "購物節・DLC",
+   "spots": []
   }
  ],
  "wilds": [
@@ -922,7 +954,15 @@
    },
    {
     "from": 86,
-    "to": 93,
+    "to": 91,
+    "target": "shop",
+    "time": 1200,
+    "flows": [],
+    "caption": "17 購物島——追加下載內容。煙火很亮、獎品很大，帳單，會寄到每個人家裡。"
+   },
+   {
+    "from": 91,
+    "to": 98,
     "target": "all",
     "time": 1380,
     "flows": [
@@ -931,8 +971,8 @@
     "caption": "這些島並不孤單——同一個地區、同一篇報導，把它們一條一條連在一起。"
    },
    {
-    "from": 93,
-    "to": 98,
+    "from": 98,
+    "to": 103,
     "target": "all",
     "time": 330,
     "flows": [],
