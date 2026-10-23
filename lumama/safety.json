@@ -215,47 +215,6 @@
    ]
   },
   {
-   "id": "s-h20240112a",
-   "title": "2024/1/12 台中意外事故",
-   "date": "2024-01-12",
-   "place": "台中",
-   "summary": "台中發生意外事故，一人身亡。",
-   "sources": [
-    {
-     "title": "台中二寶媽停車遭夾死…遺體今相驗死因曝光！家屬心碎布置靈位",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20240112/2662914.htm"
-    }
-   ],
-   "fear": [
-    "D",
-    "S"
-   ]
-  },
-  {
-   "id": "s-h20240112b",
-   "title": "2024/1/12 台中意外事故",
-   "date": "2024-01-12",
-   "place": "台中",
-   "summary": "台中發生意外事故，一人身亡。",
-   "sources": [
-    {
-     "title": "獨／台中二寶媽遭夾死！姊夫淚曝「半年前曾出事」轟：很爛的機械",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20240112/2662891.htm"
-    },
-    {
-     "title": "獨／台中二寶媽遭夾死！夫曝「不追究責任」悲吐：太太無法活過來",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20240112/2662875.htm"
-    }
-   ],
-   "fear": [
-    "D",
-    "S"
-   ]
-  },
-  {
    "id": "s-h20240111a",
    "title": "女子遭機械車位夾住送醫不治　中市府勒令停止使用",
    "date": "2024-01-11",
@@ -266,24 +225,26 @@
      "title": "女子遭機械車位夾住送醫不治 中市府勒令停止使用",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20240111/2662232.htm"
-    }
-   ],
-   "fear": [
-    "D",
-    "S"
-   ]
-  },
-  {
-   "id": "s-h20240111b",
-   "title": "2024/1/11 台中意外事故",
-   "date": "2024-01-11",
-   "place": "台中",
-   "summary": "台中發生意外事故，一人身亡。",
-   "sources": [
+    },
     {
      "title": "台中女停車遭夾死！疑「探頭暴衝」喪命 鄰居驚：夾1hr才被發現",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20240111/2662156.htm"
+    },
+    {
+     "title": "台中二寶媽停車遭夾死…遺體今相驗死因曝光！家屬心碎布置靈位",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240112/2662914.htm"
+    },
+    {
+     "title": "獨／台中二寶媽遭夾死！姊夫淚曝「半年前曾出事」轟：很爛的機械",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240112/2662891.htm"
+    },
+    {
+     "title": "獨／台中二寶媽遭夾死！夫曝「不追究責任」悲吐：太太無法活過來",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240112/2662875.htm"
     }
    ],
    "fear": [
@@ -364,24 +325,6 @@
    ]
   },
   {
-   "id": "s-h20230513a",
-   "title": "2023/5/13 台中意外事故",
-   "date": "2023-05-13",
-   "place": "台中",
-   "summary": "台中發生工安意外，一人身亡。",
-   "sources": [
-    {
-     "title": "吊臂砸落釀1死！中市府突襲檢查捷運沿線5工地 違規恐罰30萬",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20230513/2498212.htm"
-    }
-   ],
-   "fear": [
-    "D",
-    "S"
-   ]
-  },
-  {
    "id": "s-mrt",
    "title": "建案吊臂掉落砸中捷運列車 1死8傷",
    "date": "2023-05-10",
@@ -407,47 +350,31 @@
      "title": "中捷意外／凌晨完成巡軌 今晨6時恢復全線營運",
      "outlet": "公視新聞網",
      "url": "https://news.pts.org.tw/article/636276"
+    },
+    {
+     "title": "搭中捷遇死劫！林淑雅5家人接噩耗痛心趕台中認屍 親弟說話了",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230510/2496582.htm"
+    },
+    {
+     "title": "快訊／吊臂砸中捷釀1死9傷 建商「台中9建案」遭勒令全面停工",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230510/2496563.htm"
+    },
+    {
+     "title": "快訊／大樓高空吊臂墜落貫穿台中捷運車廂 1人當場死亡",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230510/2496263.htm"
+    },
+    {
+     "title": "吊臂砸落釀1死！中市府突襲檢查捷運沿線5工地 違規恐罰30萬",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230513/2498212.htm"
     }
    ],
    "fear": [
     "S",
     "D"
-   ]
-  },
-  {
-   "id": "s-h20230510a",
-   "title": "搭中捷遇死劫！林淑雅5家人接噩耗痛心趕台中認屍　親弟說話了",
-   "date": "2023-05-10",
-   "place": "台中",
-   "summary": "台中發生意外事故，一人身亡。",
-   "sources": [
-    {
-     "title": "搭中捷遇死劫！林淑雅5家人接噩耗痛心趕台中認屍 親弟說話了",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20230510/2496582.htm"
-    }
-   ],
-   "fear": [
-    "D",
-    "S"
-   ]
-  },
-  {
-   "id": "s-h20230510b",
-   "title": "2023/5/10 台中意外事故",
-   "date": "2023-05-10",
-   "place": "台中",
-   "summary": "台中發生意外事故，一人身亡。",
-   "sources": [
-    {
-     "title": "快訊／吊臂砸中捷釀1死9傷 建商「台中9建案」遭勒令全面停工",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20230510/2496563.htm"
-    }
-   ],
-   "fear": [
-    "D",
-    "S"
    ]
   },
   {
@@ -461,69 +388,6 @@
      "title": "斜坡忘拉手煞車！台中公車司機下車買便當「被前後2車夾中間」亡",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20230406/2474211.htm"
-    }
-   ],
-   "fear": [
-    "D",
-    "S"
-   ]
-  },
-  {
-   "id": "s-h20230330a",
-   "title": "無良老闆曝！台中老屋倒塌奪命　3工人枉死「全沒勞保」",
-   "date": "2023-03-30",
-   "place": "台中",
-   "summary": "台中發生工安意外， 3 人身亡。",
-   "sources": [
-    {
-     "title": "快訊／台中老屋崩塌活埋2死 第3名工人找到「腳部露出」無反應",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20230330/2470517.htm"
-    },
-    {
-     "title": "快訊／台中房屋倒塌！挖出第二名工人頭部 無生命跡象",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20230330/2470477.htm"
-    },
-    {
-     "title": "二度倒塌畫面曝！台中老屋活埋3人 他生前「最後掙扎」仍不治",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20230330/2470235.htm"
-    },
-    {
-     "title": "台中老屋倒塌1死2活埋！市府緊急勒令停工 曝釀災奪命2原因",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20230330/2470154.htm"
-    },
-    {
-     "title": "快訊／台中老屋倒塌1人不治！2人仍受困 96歲嬤目擊愛孫遭埋",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20230330/2470091.htm"
-    },
-    {
-     "title": "快訊／台中百年老屋倒塌活埋3人 1人救出無生命跡象2待援",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20230330/2470049.htm"
-    },
-    {
-     "title": "快訊／無良老闆曝！台中老屋倒塌奪命 3工人枉死「全沒勞保」",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20230331/2470906.htm"
-    },
-    {
-     "title": "台中老屋倒塌3工人死因曝！最先救出1人大出血 2人被活活悶死",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20230331/2470795.htm"
-    },
-    {
-     "title": "「直立式埋3米土推」 台中老屋崩塌活埋3死",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20230331/2470582.htm"
-    },
-    {
-     "title": "快訊／台中老屋活埋3工人 3人尋獲皆不幸身亡",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20230331/2470530.htm"
     }
    ],
    "fear": [
@@ -590,7 +454,7 @@
    "title": "2022/8/7 台中意外事故",
    "date": "2022-08-07",
    "place": "台中",
-   "summary": "台中發生工安意外， 6 人身亡。",
+   "summary": "台中發生工安意外，一人身亡。",
    "sources": [
     {
      "title": "台中吊車吊臂傾倒砸中天車 工人解開安全掛鉤欲逃墜6公尺亡",
@@ -748,29 +612,6 @@
    ]
   },
   {
-   "id": "s-h20210629a",
-   "title": "台中7歲柔道童枉死相驗！解剖查關聯　摔人小學長下場曝光",
-   "date": "2021-06-29",
-   "place": "台中",
-   "summary": "台中發生意外事故，一名幼童身亡。",
-   "sources": [
-    {
-     "title": "快訊／台中7歲柔道童「住院苦撐70天」 今晚拔管宣告不治",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20210629/2018808.htm"
-    },
-    {
-     "title": "快訊／台中7歲柔道童枉死相驗！解剖查關聯 摔人小學長下場曝光",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20210630/2019491.htm"
-    }
-   ],
-   "fear": [
-    "D",
-    "S"
-   ]
-  },
-  {
    "id": "s-h20210503a",
    "title": "台中3歲童遭麻將桌夾胸亡　房東驚曝父母「一關鍵壞習慣」害命",
    "date": "2021-05-03",
@@ -781,29 +622,6 @@
      "title": "台中3歲童遭麻將桌夾胸亡 房東驚曝父母「一關鍵壞習慣」害命",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20210503/1973596.htm"
-    }
-   ],
-   "fear": [
-    "D",
-    "S"
-   ]
-  },
-  {
-   "id": "s-h20210424a",
-   "title": "教練摔7歲童害腦死！台中市柔道委員會：我們也是這樣學過來的啊",
-   "date": "2021-04-24",
-   "place": "台中",
-   "summary": "台中發生意外事故，一名幼童身亡。",
-   "sources": [
-    {
-     "title": "教練摔7歲童害腦死！台中市柔道委員會：我們也是這樣學過來的啊",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20210424/1967523.htm"
-    },
-    {
-     "title": "7歲柔道童被黑牌教練摔腦死 台中柔道協會：跟沒有教練證無關",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20210424/1967473.htm"
     }
    ],
    "fear": [
@@ -865,59 +683,6 @@
      "title": "Dailymotion",
      "outlet": "dailymotion.com",
      "url": "https://www.dailymotion.com/video/x7zjemv"
-    }
-   ],
-   "fear": [
-    "D",
-    "S"
-   ]
-  },
-  {
-   "id": "s-h20201223a",
-   "title": "台中啃老男「水泥石墩」當街砸死爸！外婆遭甩巴掌倒地…媽目擊哭暈",
-   "date": "2020-12-23",
-   "place": "台中",
-   "summary": "台中發生意外事故，一人身亡。",
-   "sources": [
-    {
-     "title": "台中啃老男「水泥石墩」當街砸死爸！外婆遭甩巴掌倒地…媽目擊哭暈",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20201223/1882603.htm"
-    },
-    {
-     "title": "台中啃老男討千萬不成！竟拿「水泥石墩」砸死爸 媽目睹嚇暈",
-     "outlet": "東森新聞",
-     "url": "https://news.ebc.net.tw/news/society/242224"
-    },
-    {
-     "title": "台中啃老男討千萬不成！竟拿「水泥石墩」砸死爸 媽目睹嚇暈",
-     "outlet": "Yahoo 新聞",
-     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E5%95%83%E8%80%81%E7%94%B7%E8%A8%8E%E5%8D%83%E8%90%AC%E4%B8%8D%E6%88%90-%E7%AB%9F%E6%8B%BF-%E6%B0%B4%E6%B3%A5%E7%9F%B3%E5%A2%A9-%E7%A0%B8%E6%AD%BB%E7%88%B8-%E5%AA%BD%E7%9B%AE%E7%9D%B9%E5%9A%87%E6%9A%88-132500504.html"
-    },
-    {
-     "title": "啃老男「15公斤水泥石墩」砸死老父 猛甩外婆巴掌",
-     "outlet": "LINE TODAY（轉載）",
-     "url": "https://today.line.me/tw/v3/article/xoQ2RP"
-    },
-    {
-     "title": "啃老男討錢失敗 「15公斤水泥塊」砸死老父！外婆也重傷",
-     "outlet": "三立新聞網",
-     "url": "https://www.setn.com/news/870383"
-    },
-    {
-     "title": "啃老男討不到錢 扛水泥墩大街砸死老父 罹精神病逃死",
-     "outlet": "中天新聞網",
-     "url": "https://ctinews.com/news/items/9pWzrbegWv"
-    },
-    {
-     "title": "啃老男「15公斤水泥石墩」砸死老父 猛甩外婆巴掌",
-     "outlet": "TVBS",
-     "url": "https://news.tvbs.com.tw/local/1437623"
-    },
-    {
-     "title": "啃老男討不到錢 扛水泥墩大街砸死老父 罹精神病逃死",
-     "outlet": "中時新聞網",
-     "url": "https://www.chinatimes.com/realtimenews/20201223005710-260402"
     }
    ],
    "fear": [
@@ -1005,34 +770,6 @@
      "title": "台中2歲女童慘死輪下！肇事吊車竟相關證照「攏嘸」就上路",
      "outlet": "三立新聞網",
      "url": "https://www.setn.com/news/800134"
-    }
-   ],
-   "fear": [
-    "D",
-    "S"
-   ]
-  },
-  {
-   "id": "s-h20200723a",
-   "title": "台中女突昏迷亡！他「3貼夾屍」丟急診室　院方：死2小時了",
-   "date": "2020-07-23",
-   "place": "台中",
-   "summary": "台中發生意外事故， 3 人身亡。",
-   "sources": [
-    {
-     "title": "台中女突昏迷亡！他「3貼夾屍」丟急診室 院方：死2小時了",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20200723/1767970.htm"
-    },
-    {
-     "title": "台中女疑吸毒暴斃 前男友「三貼夾屍」丟包急診室落跑",
-     "outlet": "Yahoo 新聞",
-     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E5%A5%B3%E7%96%91%E5%90%B8%E6%AF%92%E6%9A%B4%E6%96%83-%E5%89%8D%E7%94%B7%E5%8F%8B-%E4%B8%89%E8%B2%BC%E5%A4%BE%E5%B1%8D-%E4%B8%9F%E5%8C%85%E6%80%A5%E8%A8%BA%E5%AE%A4%E8%90%BD%E8%B7%91-234427736.html"
-    },
-    {
-     "title": "死2小時！台中女疑吸毒暴斃 友三貼夾屍丟急診落跑",
-     "outlet": "東森新聞",
-     "url": "https://news.ebc.net.tw/news/society/219586"
     }
    ],
    "fear": [
@@ -1167,6 +904,11 @@
      "url": "https://www.ettoday.net/news/20190725/1498125.htm"
     },
     {
+     "title": "老農捲入耕耘機亡...妻崩潰痛哭，中市府：若投保農職災有30月津貼 - a885勞動生活法律網",
+     "outlet": "a885.com.tw",
+     "url": "https://www.a885.com.tw/m/2001-1159-825401,c22374-1.php"
+    },
+    {
      "title": "老農透早耕田出意外 捲入耕耘機身亡",
      "outlet": "LINE TODAY（轉載）",
      "url": "https://today.line.me/tw/v3/article/YO6EE8"
@@ -1180,44 +922,6 @@
      "title": "疑駕駛不慎 老農遭耕耘機捲死",
      "outlet": "中時新聞網",
      "url": "https://www.chinatimes.com/realtimenews/20190725001693-260402"
-    },
-    {
-     "title": "老農捲入耕耘機亡...妻崩潰痛哭，中市府：若投保農職災有30月津貼 - a885勞動生活法律網",
-     "outlet": "a885.com.tw",
-     "url": "https://www.a885.com.tw/m/2001-1159-825401,c22374-1.php"
-    }
-   ],
-   "fear": [
-    "D",
-    "S"
-   ]
-  },
-  {
-   "id": "s-h20190610a",
-   "title": "霧峰棧道崩塌釀13傷！木頭斷面「爬滿白蟻」　7旬嬤骨斷4根怒轟：害死人",
-   "date": "2019-06-10",
-   "place": "霧峰",
-   "summary": "霧峰發生意外事故，一名女子身亡。",
-   "sources": [
-    {
-     "title": "霧峰棧道崩塌釀13傷！木頭斷面「爬滿白蟻」 7旬嬤骨斷4根怒轟：害死人",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20190610/1464296.htm"
-    },
-    {
-     "title": "霧峰青桐林生態園區 棧道崩塌13人傷",
-     "outlet": "公視新聞網",
-     "url": "https://news.pts.org.tw/article/434157"
-    },
-    {
-     "title": "生態園區觀景台崩塌 7旬嬤轟害死人",
-     "outlet": "Yahoo 新聞",
-     "url": "https://tw.news.yahoo.com/%E7%94%9F%E6%85%8B%E5%9C%92%E5%8D%80%E8%A7%80%E6%99%AF%E5%8F%B0%E5%B4%A9%E5%A1%8C-7%E6%97%AC%E5%AC%A4%E8%BD%9F%E5%AE%B3%E6%AD%BB%E4%BA%BA-091059756.html"
-    },
-    {
-     "title": "白蟻蛀蝕釀木棧道崩塌 台中14人受傷送醫",
-     "outlet": "Newtalk 新聞",
-     "url": "https://newtalk.tw/news/view/2019-06-10/257972"
     }
    ],
    "fear": [

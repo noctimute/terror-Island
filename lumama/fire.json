@@ -36,20 +36,6 @@
    ]
   },
   {
-   "id": "fire-h20231127a",
-   "title": "2023/11/27 台中火災",
-   "date": "2023-11-27",
-   "place": "台中",
-   "summary": "台中發生火警，一人罹難。",
-   "sources": [
-    {
-     "title": "台中倉庫暗夜大火波及鴿舍 名貴賽鴿慘死數量難估！飼主臉綠了",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20231127/2631327.htm"
-    }
-   ]
-  },
-  {
    "id": "fire-h20231116a",
    "title": "台中舊城區民宅大火　20多歲腦麻女送醫不治！父趕回家難置信",
    "date": "2023-11-16",
@@ -352,7 +338,7 @@
    "title": "台中工廠大火釀4死2傷！空拍對比圖曝　2層樓鐵皮建築燒到焦黑",
    "date": "2022-12-29",
    "place": "豐原",
-   "summary": "豐原發生火警，造成 33 人罹難。",
+   "summary": "豐原發生火警，造成 4 人罹難。",
    "sources": [
     {
      "title": "台中工廠大火4死！33歲死者留下1歲小孩 媽見焦屍認不出哽咽哭了",
@@ -781,7 +767,7 @@
    "title": "台中大火奪3童命…消防達人曝「做到關鍵5點」：小孩一定不會死！",
    "date": "2021-04-23",
    "place": "台中",
-   "summary": "台中發生火警，造成 3 人罹難。",
+   "summary": "台中發生火警，一名幼童罹難。",
    "sources": [
     {
      "title": "台中大火奪3童命…消防達人曝「做到關鍵5點」：小孩一定不會死！",
@@ -863,7 +849,7 @@
    "title": "台中3童命喪火窟！爸淚曝「剛剛還在這裡玩」：還有跟我說爸爸再見",
    "date": "2021-04-18",
    "place": "大甲",
-   "summary": "大甲發生火警，造成 3 人罹難。",
+   "summary": "大甲發生火警，一名幼童罹難。",
    "sources": [
     {
      "title": "快訊／台中中華夜市深夜惡火 2女1男童均宣告不治",
@@ -906,6 +892,11 @@
      "url": "https://www.ettoday.net/news/20210419/1963077.htm"
     },
     {
+     "title": "台中民宅暗夜惡火 3童命喪火窟",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/zpymz7"
+    },
+    {
      "title": "[新聞] 台中中華夜市深夜惡火 2女1男童均宣告不治-寧威科技",
      "outlet": "niwei.com.tw",
      "url": "https://www.niwei.com.tw/news/ins.php?index_m_id=22&index_id=88"
@@ -934,11 +925,6 @@
      "title": "台中市中華路夜市民宅惡火 3童無生命跡象1男嗆傷",
      "outlet": "台視新聞",
      "url": "https://news.ttv.com.tw/news/11004190000100W"
-    },
-    {
-     "title": "台中民宅暗夜惡火 3童命喪火窟",
-     "outlet": "LINE TODAY（轉載）",
-     "url": "https://today.line.me/tw/v3/article/zpymz7"
     },
     {
      "title": "台中大火3童死！女童父質疑「打火機釀禍」、煩惱怎麼賠償",
@@ -1292,6 +1278,21 @@
      "url": "https://www.ettoday.net/news/20200402/1682421.htm"
     },
     {
+     "title": "台中接連2起縱火焦屍之一不排除是嫌疑人",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/3120667"
+    },
+    {
+     "title": "台中離奇縱火2焦屍！一小時內「太平、西屯」接連燃燒 嫌疑人已失蹤",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/wy63Gw"
+    },
+    {
+     "title": "台中2火警2焦屍2傷 警疑失蹤何男縱火",
+     "outlet": "中天新聞網",
+     "url": "https://ctinews.com/news/items/4bnbGB7ZWP"
+    },
+    {
      "title": "台中太平透天民宅凌晨火警 屋內發現2焦屍",
      "outlet": "Yahoo 新聞",
      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E5%A4%AA%E5%B9%B3%E9%80%8F%E5%A4%A9%E6%B0%91%E5%AE%85%E5%87%8C%E6%99%A8%E7%81%AB%E8%AD%A6-%E5%B1%8B%E5%85%A7%E7%99%BC%E7%8F%BE2%E7%84%A6%E5%B1%8D-012230368.html"
@@ -1310,21 +1311,6 @@
      "title": "台中凌晨民宅火警 2焦屍陳屍屋內",
      "outlet": "Newtalk 新聞",
      "url": "https://newtalk.tw/news/view/2020-04-01/384502"
-    },
-    {
-     "title": "台中接連2起縱火焦屍之一不排除是嫌疑人",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/society/breakingnews/3120667"
-    },
-    {
-     "title": "台中離奇縱火2焦屍！一小時內「太平、西屯」接連燃燒 嫌疑人已失蹤",
-     "outlet": "LINE TODAY（轉載）",
-     "url": "https://today.line.me/tw/v3/article/wy63Gw"
-    },
-    {
-     "title": "台中2火警2焦屍2傷 警疑失蹤何男縱火",
-     "outlet": "中天新聞網",
-     "url": "https://ctinews.com/news/items/4bnbGB7ZWP"
     }
    ]
   },
@@ -1462,7 +1448,7 @@
    "title": "大雅惡火2消死／妻懷雙胞胎挺肚認屍淚崩…1歲兒見不到爸",
    "date": "2019-10-03",
    "place": "大雅",
-   "summary": "大雅發生火警，造成 2 人罹難。",
+   "summary": "大雅發生火警，一人罹難。",
    "sources": [
     {
      "title": "影／大雅2消死／工廠老闆：會負起「道義上的責任」 辯工廠有登記",

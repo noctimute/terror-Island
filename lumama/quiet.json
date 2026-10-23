@@ -4406,7 +4406,7 @@
    "title": "2023/10/13 台中死亡事件",
    "date": "2023-10-13",
    "place": "台中",
-   "summary": "台中發生命案， 2 人遇害身亡，警方偵辦。",
+   "summary": "台中發生命案，一人遇害身亡，警方偵辦。",
    "sources": [
     {
      "title": "剪刀刺心臟開槍爆頭！ 台中恐怖雙桶屍案...兇手判賠家屬1257萬",
@@ -4804,6 +4804,65 @@
    ]
   },
   {
+   "id": "q-h20230330a",
+   "title": "無良老闆曝！台中老屋倒塌奪命　3工人枉死「全沒勞保」",
+   "date": "2023-03-30",
+   "place": "台中",
+   "summary": "台中發生命案， 3 人遇害身亡，警方偵辦。",
+   "sources": [
+    {
+     "title": "快訊／台中老屋崩塌活埋2死 第3名工人找到「腳部露出」無反應",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230330/2470517.htm"
+    },
+    {
+     "title": "快訊／台中房屋倒塌！挖出第二名工人頭部 無生命跡象",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230330/2470477.htm"
+    },
+    {
+     "title": "二度倒塌畫面曝！台中老屋活埋3人 他生前「最後掙扎」仍不治",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230330/2470235.htm"
+    },
+    {
+     "title": "台中老屋倒塌1死2活埋！市府緊急勒令停工 曝釀災奪命2原因",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230330/2470154.htm"
+    },
+    {
+     "title": "快訊／台中老屋倒塌1人不治！2人仍受困 96歲嬤目擊愛孫遭埋",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230330/2470091.htm"
+    },
+    {
+     "title": "快訊／台中百年老屋倒塌活埋3人 1人救出無生命跡象2待援",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230330/2470049.htm"
+    },
+    {
+     "title": "快訊／無良老闆曝！台中老屋倒塌奪命 3工人枉死「全沒勞保」",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230331/2470906.htm"
+    },
+    {
+     "title": "台中老屋倒塌3工人死因曝！最先救出1人大出血 2人被活活悶死",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230331/2470795.htm"
+    },
+    {
+     "title": "「直立式埋3米土推」 台中老屋崩塌活埋3死",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230331/2470582.htm"
+    },
+    {
+     "title": "快訊／台中老屋活埋3工人 3人尋獲皆不幸身亡",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230331/2470530.htm"
+    }
+   ]
+  },
+  {
    "id": "q-h20230328a",
    "title": "台中高中生疑遭霸凌逼死！　學務主任致歉了：無迫害強迫退學",
    "date": "2023-03-28",
@@ -5174,7 +5233,7 @@
    "title": "2022/10/27 台中死亡事件",
    "date": "2022-10-27",
    "place": "台中",
-   "summary": "台中發現 2 人身亡，死因待查。",
+   "summary": "台中發現一人身亡，死因待查。",
    "sources": [
     {
      "title": "台中「水泥灌桶封屍」2年！死者前女友疑涉案 警追共犯",
@@ -5486,7 +5545,7 @@
    "title": "駕駛必看！科技執法減少2成6交通死傷　台中再增3處...地點曝光",
    "date": "2022-06-29",
    "place": "台中",
-   "summary": "台中發現 6 人身亡，死因待查。",
+   "summary": "台中發現一人身亡，死因待查。",
    "sources": [
     {
      "title": "駕駛必看！科技執法減少2成6交通死傷 台中再增3處...地點曝光",
@@ -5570,7 +5629,7 @@
    "title": "2022/5/30 台中死亡事件",
    "date": "2022-05-30",
    "place": "台中",
-   "summary": "台中發生命案， 10 人遇害身亡，警方偵辦。",
+   "summary": "台中發生命案，一人遇害身亡，警方偵辦。",
    "sources": [
     {
      "title": "台中老闆14年前遭砍10刀慘死家門 警鎖定小兒子！真凶曝光",
@@ -6201,7 +6260,7 @@
    "title": "台中一天傳2起猝死！妻報案「叫不醒丈夫」　離奇巧合皆死因不明",
    "date": "2021-10-04",
    "place": "台中",
-   "summary": "台中 2 人突然倒下身亡，疑似因病。",
+   "summary": "台中一人突然倒下身亡，疑似因病。",
    "sources": [
     {
      "title": "台中一天傳2起猝死！妻報案「叫不醒丈夫」 離奇巧合皆死因不明",
@@ -6243,7 +6302,7 @@
    "title": "台中第2例疑打高端死亡個案！　53歲男「心臟不適」急救19天亡",
    "date": "2021-10-01",
    "place": "台中",
-   "summary": "台中發現 19 人身亡，死因待查。",
+   "summary": "台中發現一名男子身亡，死因待查。",
    "sources": [
     {
      "title": "台中第2例疑打高端死亡個案！ 53歲男「心臟不適」急救19天亡",
@@ -6375,20 +6434,6 @@
      "title": "快訊／台中婦買菜回家 開門見夫靠椅背「纏繞電線」亡",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20210815/2056363.htm"
-    }
-   ]
-  },
-  {
-   "id": "q-h20210630a",
-   "title": "台中柔道童撐70天心臟衰竭亡　無良教練聽到消息反應曝",
-   "date": "2021-06-30",
-   "place": "台中",
-   "summary": "台中發現一名幼童身亡，死因待查。",
-   "sources": [
-    {
-     "title": "獨／台中柔道童撐70天心臟衰竭亡 無良教練聽到消息反應曝",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20210630/2019067.htm"
     }
    ]
   },
@@ -6579,7 +6624,7 @@
    "title": "2021/5/6 台中死亡事件",
    "date": "2021-05-06",
    "place": "台中",
-   "summary": "台中發生命案， 11 人遇害身亡，警方偵辦。",
+   "summary": "台中發生命案，一人遇害身亡，警方偵辦。",
    "sources": [
     {
      "title": "11刀砍死好友！台中男「扮目擊者」報警…1原因認了殺人：睡不著",
@@ -6613,6 +6658,40 @@
      "title": "台中計程車司機違停！警察敲門叫不醒...破窗才驚見「已有屍斑」",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20210426/1968727.htm"
+    }
+   ]
+  },
+  {
+   "id": "q-h20210424a",
+   "title": "7歲柔道童被黑牌教練摔腦死　台中柔道協會：跟沒有教練證無關",
+   "date": "2021-04-24",
+   "place": "台中",
+   "summary": "台中發生命案，一名幼童遇害身亡，警方偵辦。",
+   "sources": [
+    {
+     "title": "教練摔7歲童害腦死！台中市柔道委員會：我們也是這樣學過來的啊",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20210424/1967523.htm"
+    },
+    {
+     "title": "7歲柔道童被黑牌教練摔腦死 台中柔道協會：跟沒有教練證無關",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20210424/1967473.htm"
+    },
+    {
+     "title": "快訊／台中7歲柔道童「住院苦撐70天」 今晚拔管宣告不治",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20210629/2018808.htm"
+    },
+    {
+     "title": "快訊／台中7歲柔道童枉死相驗！解剖查關聯 摔人小學長下場曝光",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20210630/2019491.htm"
+    },
+    {
+     "title": "獨／台中柔道童撐70天心臟衰竭亡 無良教練聽到消息反應曝",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20210630/2019067.htm"
     }
    ]
   },
@@ -6784,6 +6863,21 @@
      "url": "https://www.ettoday.net/news/20210312/1936662.htm"
     },
     {
+     "title": "案情大逆轉！台中夫失業悶殺妻 塞行李箱棄屍再輕生 | EBC 東森新聞",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/jxakvD"
+    },
+    {
+     "title": "新／台中望高寮2屍命案！夫殺妻裝行李箱棄屍 畏罪走絕路",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/909536"
+    },
+    {
+     "title": "案情大逆轉！台中夫失業悶殺妻 塞行李箱棄屍再輕生",
+     "outlet": "東森新聞",
+     "url": "https://news.ebc.net.tw/news/society/252713"
+    },
+    {
      "title": "1年2親人離世 梧棲今祭空棺 請迴避 | 中華日報|中華新聞雲",
      "outlet": "中華日報",
      "url": "https://www.cdns.com.tw/articles/372002"
@@ -6814,26 +6908,6 @@
      "url": "https://www.cdns.com.tw/articles/372727"
     },
     {
-     "title": "快訊／台中夫妻沒回家兒急報警 望高寮後樹林找到雙屍",
-     "outlet": "東森新聞",
-     "url": "https://news.ebc.net.tw/news/society/252683"
-    },
-    {
-     "title": "案情大逆轉！台中夫失業悶殺妻 塞行李箱棄屍再輕生 | EBC 東森新聞",
-     "outlet": "LINE TODAY（轉載）",
-     "url": "https://today.line.me/tw/v3/article/jxakvD"
-    },
-    {
-     "title": "新／台中望高寮2屍命案！夫殺妻裝行李箱棄屍 畏罪走絕路",
-     "outlet": "三立新聞網",
-     "url": "https://www.setn.com/news/909536"
-    },
-    {
-     "title": "案情大逆轉！台中夫失業悶殺妻 塞行李箱棄屍再輕生",
-     "outlet": "東森新聞",
-     "url": "https://news.ebc.net.tw/news/society/252713"
-    },
-    {
      "title": "台中夫殺妻藏屍行李箱雙屍命案兒：父親有情緒精神困擾曾就醫",
      "outlet": "自由時報",
      "url": "https://news.ltn.com.tw/news/society/breakingnews/3465093"
@@ -6842,6 +6916,11 @@
      "title": "快新聞／望高寮雙屍命案！ 台中夫殺妻塞行李箱丟棄再尋短",
      "outlet": "民視新聞",
      "url": "https://finance.ftvnews.com.tw/news/detail/2021312W0119"
+    },
+    {
+     "title": "快訊／台中夫妻沒回家兒急報警 望高寮後樹林找到雙屍",
+     "outlet": "東森新聞",
+     "url": "https://news.ebc.net.tw/news/society/252683"
     }
    ]
   },
@@ -6931,7 +7010,7 @@
    "title": "2021/2/14 台中死亡事件",
    "date": "2021-02-14",
    "place": "台中",
-   "summary": "台中發生命案， 2 人遇害身亡，警方偵辦。",
+   "summary": "台中發生命案，一人遇害身亡，警方偵辦。",
    "sources": [
     {
      "title": "快訊／雪白車身悚留「血掌印」！台中男身中2刀亡 警研判輕生",
@@ -6955,7 +7034,7 @@
    "title": "台中角頭遭刺4刀斃命！警逮2嫌到案　推稱：只開車、沒動手",
    "date": "2021-02-13",
    "place": "台中",
-   "summary": "台中發生命案， 4 人遇害身亡，警方偵辦。",
+   "summary": "台中發生命案，一人遇害身亡，警方偵辦。",
    "sources": [
     {
      "title": "快訊／台中角頭遭刺4刀斃命！警逮2嫌到案　推稱：只開車、沒動手",
@@ -7495,6 +7574,55 @@
    ]
   },
   {
+   "id": "q-h20201223a",
+   "title": "台中啃老男「水泥石墩」當街砸死爸！外婆遭甩巴掌倒地…媽目擊哭暈",
+   "date": "2020-12-23",
+   "place": "台中",
+   "summary": "台中發生命案，一人遇害身亡，警方偵辦。",
+   "sources": [
+    {
+     "title": "台中啃老男「水泥石墩」當街砸死爸！外婆遭甩巴掌倒地…媽目擊哭暈",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20201223/1882603.htm"
+    },
+    {
+     "title": "台中啃老男討千萬不成！竟拿「水泥石墩」砸死爸 媽目睹嚇暈",
+     "outlet": "東森新聞",
+     "url": "https://news.ebc.net.tw/news/society/242224"
+    },
+    {
+     "title": "台中啃老男討千萬不成！竟拿「水泥石墩」砸死爸 媽目睹嚇暈",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E5%95%83%E8%80%81%E7%94%B7%E8%A8%8E%E5%8D%83%E8%90%AC%E4%B8%8D%E6%88%90-%E7%AB%9F%E6%8B%BF-%E6%B0%B4%E6%B3%A5%E7%9F%B3%E5%A2%A9-%E7%A0%B8%E6%AD%BB%E7%88%B8-%E5%AA%BD%E7%9B%AE%E7%9D%B9%E5%9A%87%E6%9A%88-132500504.html"
+    },
+    {
+     "title": "啃老男「15公斤水泥石墩」砸死老父 猛甩外婆巴掌",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/xoQ2RP"
+    },
+    {
+     "title": "啃老男討錢失敗 「15公斤水泥塊」砸死老父！外婆也重傷",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/870383"
+    },
+    {
+     "title": "啃老男討不到錢 扛水泥墩大街砸死老父 罹精神病逃死",
+     "outlet": "中天新聞網",
+     "url": "https://ctinews.com/news/items/9pWzrbegWv"
+    },
+    {
+     "title": "啃老男「15公斤水泥石墩」砸死老父 猛甩外婆巴掌",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/1437623"
+    },
+    {
+     "title": "啃老男討不到錢 扛水泥墩大街砸死老父 罹精神病逃死",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20201223005710-260402"
+    }
+   ]
+  },
+  {
    "id": "q-h20201205a",
    "title": "2020/12/5 台中死亡事件",
    "date": "2020-12-05",
@@ -7661,6 +7789,16 @@
      "url": "https://www.ettoday.net/news/20201124/1861243.htm"
     },
     {
+     "title": "台中桶屍／「16歲少女遭強酸溶屍」 6兇手被逮聲押禁見",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/8oEGYK?utm_source=amp"
+    },
+    {
+     "title": "台中少女遭「強酸溶屍」裝桶遇害原因曝！傳男友全程目睹",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/852924"
+    },
+    {
      "title": "台中2桶屍相驗 男頭部中槍少女左胸插有剪刀",
      "outlet": "中央社",
      "url": "https://www.cna.com.tw/news/firstnews/202011240192.aspx"
@@ -7679,16 +7817,6 @@
      "title": "台中桶屍案少女慘死 男友目睹殺害過程",
      "outlet": "中央社",
      "url": "https://www.cna.com.tw/news/firstnews/202011230277.aspx"
-    },
-    {
-     "title": "台中桶屍／「16歲少女遭強酸溶屍」 6兇手被逮聲押禁見",
-     "outlet": "LINE TODAY（轉載）",
-     "url": "https://today.line.me/tw/v3/article/8oEGYK?utm_source=amp"
-    },
-    {
-     "title": "台中少女遭「強酸溶屍」裝桶遇害原因曝！傳男友全程目睹",
-     "outlet": "三立新聞網",
-     "url": "https://www.setn.com/news/852924"
     }
    ]
   },
@@ -7811,6 +7939,11 @@
      "url": "https://www.ettoday.net/news/20200906/1802461.htm"
     },
     {
+     "title": "殘虐討債1死1殘！中警聲明5煞未強擄 金錢豹：無異狀會配合調查",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20200906/1802680.htm"
+    },
+    {
      "title": "快訊／台中2男踏出金錢豹…遭群煞擄走痛毆！1人慘死、另1人遭丟包",
      "outlet": "LINE TODAY（轉載）",
      "url": "https://today.line.me/tw/v3/article/3YZgQv"
@@ -7819,11 +7952,6 @@
      "title": "快訊／台中2男踏出金錢豹遭擄走 載到南投群毆1死1傷",
      "outlet": "東森新聞",
      "url": "https://news.ebc.net.tw/news/society/225686"
-    },
-    {
-     "title": "殘虐討債1死1殘！中警聲明5煞未強擄 金錢豹：無異狀會配合調查",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20200906/1802680.htm"
     }
    ]
   },
@@ -7928,6 +8056,30 @@
      "title": "情財爆殺機！15cm水果刀狂刺人妻上半身慘死 香腸攤老闆逃逢甲夜市落網",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20200725/1769159.htm"
+    }
+   ]
+  },
+  {
+   "id": "q-h20200723a",
+   "title": "台中女突昏迷亡！他「3貼夾屍」丟急診室　院方：死2小時了",
+   "date": "2020-07-23",
+   "place": "台中",
+   "summary": "台中發現一人身亡，死因待查。",
+   "sources": [
+    {
+     "title": "台中女突昏迷亡！他「3貼夾屍」丟急診室 院方：死2小時了",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20200723/1767970.htm"
+    },
+    {
+     "title": "台中女疑吸毒暴斃 前男友「三貼夾屍」丟包急診室落跑",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E5%A5%B3%E7%96%91%E5%90%B8%E6%AF%92%E6%9A%B4%E6%96%83-%E5%89%8D%E7%94%B7%E5%8F%8B-%E4%B8%89%E8%B2%BC%E5%A4%BE%E5%B1%8D-%E4%B8%9F%E5%8C%85%E6%80%A5%E8%A8%BA%E5%AE%A4%E8%90%BD%E8%B7%91-234427736.html"
+    },
+    {
+     "title": "死2小時！台中女疑吸毒暴斃 友三貼夾屍丟急診落跑",
+     "outlet": "東森新聞",
+     "url": "https://news.ebc.net.tw/news/society/219586"
     }
    ]
   },
@@ -8446,16 +8598,6 @@
      "url": "https://www.ettoday.net/news/20191121/1584602.htm"
     },
     {
-     "title": "三姊弟只有他全身傷 台中3歲男童遭虐死案檢警解剖查真相",
-     "outlet": "LINE TODAY（轉載）",
-     "url": "https://today.line.me/tw/v3/article/Lj1ojl"
-    },
-    {
-     "title": "台中3歲男童疑遭虐死 生父遭檢方聲押",
-     "outlet": "中央社",
-     "url": "https://www.cna.com.tw/news/asoc/201911190167.aspx"
-    },
-    {
      "title": "父母相差17歲！9月剛交回雙親照顧 3歲男童頭骨凹陷亡",
      "outlet": "三立新聞網",
      "url": "https://www.setn.com/news/638532"
@@ -8476,9 +8618,19 @@
      "url": "https://news.ltn.com.tw/news/society/breakingnews/2982753"
     },
     {
+     "title": "台中3歲男童疑遭虐死 生父遭檢方聲押",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/201911190167.aspx"
+    },
+    {
      "title": "快訊／台中3歲男童疑遭虐死！臉燙傷、頭骨凹陷不治",
      "outlet": "Yahoo 新聞",
      "url": "https://tw.news.yahoo.com/%E5%BF%AB%E8%A8%8A-%E5%8F%B0%E4%B8%AD3%E6%AD%B2%E7%94%B7%E7%AB%A5%E7%96%91%E9%81%AD%E8%99%90%E6%AD%BB-%E8%87%89%E7%87%99%E5%82%B7-%E9%A0%AD%E9%AA%A8%E5%87%B9%E9%99%B7%E4%B8%8D%E6%B2%BB-061500221.html"
+    },
+    {
+     "title": "三姊弟只有他全身傷 台中3歲男童遭虐死案檢警解剖查真相",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/Lj1ojl"
     }
    ]
   },
@@ -8598,46 +8750,6 @@
      "url": "https://www.ettoday.net/news/20191113/1578543.htm"
     },
     {
-     "title": "母子3屍案解剖熱心民眾送玩具、玩偶到靈堂",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/society/breakingnews/2975157"
-    },
-    {
-     "title": "3屍命案不捨幼兒喪命 民眾送玩具布偶",
-     "outlet": "LINE TODAY（轉載）",
-     "url": "https://today.line.me/tw/v3/article/G6jzDQ"
-    },
-    {
-     "title": "3屍命案不捨幼兒喪命 民眾送玩具布偶",
-     "outlet": "TVBS",
-     "url": "https://news.tvbs.com.tw/local/1233642"
-    },
-    {
-     "title": "3屍命案不捨幼兒喪命 民眾送玩具布偶",
-     "outlet": "Yahoo 新聞",
-     "url": "https://tw.news.yahoo.com/3%E5%B1%8D%E5%91%BD%E6%A1%88%E4%B8%8D%E6%8D%A8%E5%B9%BC%E5%85%92%E5%96%AA%E5%91%BD-%E6%B0%91%E7%9C%BE%E9%80%81%E7%8E%A9%E5%85%B7%E5%B8%83%E5%81%B6-040534287.html"
-    },
-    {
-     "title": "母子3屍案解剖熱心民眾送玩具、玩偶到靈堂",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/Taichung/breakingnews/2975157"
-    },
-    {
-     "title": "母子三屍命案 母手機錢包消失恐朝他殺偵辦",
-     "outlet": "中天新聞網",
-     "url": "https://ctinews.com/news/items/vNWOepzZxw"
-    },
-    {
-     "title": "三屍案疑點多 逆轉！朝他殺偵辦",
-     "outlet": "LINE TODAY（轉載）",
-     "url": "https://today.line.me/tw/v3/article/NPGjkZ"
-    },
-    {
-     "title": "台中套房母子3屍命案-檢警-朝他殺偵辦-中視新聞-20191108 - 中視全球資訊網",
-     "outlet": "ctv.com.tw",
-     "url": "https://www.ctv.com.tw/Article/%E5%8F%B0%E4%B8%AD%E5%A5%97%E6%88%BF%E6%AF%8D%E5%AD%903%E5%B1%8D%E5%91%BD%E6%A1%88-%E6%AA%A2%E8%AD%A6-%E6%9C%9D%E4%BB%96%E6%AE%BA%E5%81%B5%E8%BE%A6-%E4%B8%AD%E8%A6%96%E6%96%B0%E8%81%9E-20191108"
-    },
-    {
      "title": "台中母子3屍／家人神隱！警聯繫等整夜「僅1男現身」 死者背景曝光",
      "outlet": "LINE TODAY（轉載）",
      "url": "https://today.line.me/tw/v3/article/vrOmkK"
@@ -8646,46 +8758,6 @@
      "title": "台中母子3屍命案！少婦最後身影曝光",
      "outlet": "LINE TODAY（轉載）",
      "url": "https://today.line.me/tw/v3/article/1Bew29"
-    },
-    {
-     "title": "台中母子3屍／口鼻、臉部異常出血！狠男「勒斃她」悶殺雙子 解剖結果13時出爐",
-     "outlet": "LINE TODAY（轉載）",
-     "url": "https://today.line.me/tw/v3/article/vrJoM3"
-    },
-    {
-     "title": "台中3屍狠父殺女友後還餵奶陪雙胞胎玩 6小時後丟洗衣機悶死「哭聲沒了才抱出來」",
-     "outlet": "LINE TODAY（轉載）",
-     "url": "https://today.line.me/tw/v3/article/nkxkQM"
-    },
-    {
-     "title": "台中3屍狠父殺子！陪玩6hr還餵奶…轉身丟洗衣機悶死",
-     "outlet": "Yahoo 新聞",
-     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD3%E5%B1%8D%E7%8B%A0%E7%88%B6%E6%AE%BA%E5%AD%90-%E9%99%AA%E7%8E%A96hr%E9%82%84%E9%A4%B5%E5%A5%B6-%E8%BD%89%E8%BA%AB%E4%B8%9F%E6%B4%97%E8%A1%A3%E6%A9%9F%E6%82%B6%E6%AD%BB-013600512.html"
-    },
-    {
-     "title": "快訊／少婦與1歲嬰陳屍台中公寓 「棉被裹屍」已現屍斑",
-     "outlet": "Yahoo 新聞",
-     "url": "https://tw.news.yahoo.com/%E5%BF%AB%E8%A8%8A-%E5%B0%91%E5%A9%A6%E8%88%871%E6%AD%B2%E5%AC%B0%E9%99%B3%E5%B1%8D%E5%8F%B0%E4%B8%AD%E5%85%AC%E5%AF%93-%E6%A3%89%E8%A2%AB%E8%A3%B9%E5%B1%8D-%E5%B7%B2%E7%8F%BE%E5%B1%8D%E6%96%91-122245265.html"
-    },
-    {
-     "title": "兇嫌疑戴綠帽釀母子3屍命案 DNA鑑定出爐！",
-     "outlet": "CTWANT",
-     "url": "https://www.ctwant.com/article/13968/"
-    },
-    {
-     "title": "台中冷血男殺死3母子！DNA鑑定出爐 驚人真相曝光",
-     "outlet": "Yahoo 新聞",
-     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E5%86%B7%E8%A1%80%E7%94%B7%E6%AE%BA%E6%AD%BB3%E6%AF%8D%E5%AD%90-dna%E9%91%91%E5%AE%9A%E5%87%BA%E7%88%90-%E9%A9%9A%E4%BA%BA%E7%9C%9F%E7%9B%B8%E6%9B%9D%E5%85%89-122500422.html"
-    },
-    {
-     "title": "中市光復路驚傳「裹屍」 竟是一大兩小3屍命案",
-     "outlet": "LINE TODAY（轉載）",
-     "url": "https://today.line.me/tw/v3/article/BkqjRG"
-    },
-    {
-     "title": "中市光復路驚傳「裹屍」 竟是一大兩小3屍命案",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/society/breakingnews/2970962"
     },
     {
      "title": "台中母子3屍！洗衣機悶殺「親生雙胞胎兒」 冷血男：孩子沒媽可憐",
@@ -8713,6 +8785,71 @@
      "url": "https://www.pttweb.cc/bbs/Gossiping/M.1573262379.A.B12"
     },
     {
+     "title": "中市光復路驚傳「裹屍」 竟是一大兩小3屍命案",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/BkqjRG"
+    },
+    {
+     "title": "中市光復路驚傳「裹屍」 竟是一大兩小3屍命案",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/2970962"
+    },
+    {
+     "title": "兇嫌疑戴綠帽釀母子3屍命案 DNA鑑定出爐！",
+     "outlet": "CTWANT",
+     "url": "https://www.ctwant.com/article/13968/"
+    },
+    {
+     "title": "台中冷血男殺死3母子！DNA鑑定出爐 驚人真相曝光",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E5%86%B7%E8%A1%80%E7%94%B7%E6%AE%BA%E6%AD%BB3%E6%AF%8D%E5%AD%90-dna%E9%91%91%E5%AE%9A%E5%87%BA%E7%88%90-%E9%A9%9A%E4%BA%BA%E7%9C%9F%E7%9B%B8%E6%9B%9D%E5%85%89-122500422.html"
+    },
+    {
+     "title": "母子三屍命案 母手機錢包消失恐朝他殺偵辦",
+     "outlet": "中天新聞網",
+     "url": "https://ctinews.com/news/items/vNWOepzZxw"
+    },
+    {
+     "title": "三屍案疑點多 逆轉！朝他殺偵辦",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/NPGjkZ"
+    },
+    {
+     "title": "台中套房母子3屍命案-檢警-朝他殺偵辦-中視新聞-20191108 - 中視全球資訊網",
+     "outlet": "ctv.com.tw",
+     "url": "https://www.ctv.com.tw/Article/%E5%8F%B0%E4%B8%AD%E5%A5%97%E6%88%BF%E6%AF%8D%E5%AD%903%E5%B1%8D%E5%91%BD%E6%A1%88-%E6%AA%A2%E8%AD%A6-%E6%9C%9D%E4%BB%96%E6%AE%BA%E5%81%B5%E8%BE%A6-%E4%B8%AD%E8%A6%96%E6%96%B0%E8%81%9E-20191108"
+    },
+    {
+     "title": "母子3屍案解剖熱心民眾送玩具、玩偶到靈堂",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/2975157"
+    },
+    {
+     "title": "3屍命案不捨幼兒喪命 民眾送玩具布偶",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/G6jzDQ"
+    },
+    {
+     "title": "3屍命案不捨幼兒喪命 民眾送玩具布偶",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/1233642"
+    },
+    {
+     "title": "3屍命案不捨幼兒喪命 民眾送玩具布偶",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/3%E5%B1%8D%E5%91%BD%E6%A1%88%E4%B8%8D%E6%8D%A8%E5%B9%BC%E5%85%92%E5%96%AA%E5%91%BD-%E6%B0%91%E7%9C%BE%E9%80%81%E7%8E%A9%E5%85%B7%E5%B8%83%E5%81%B6-040534287.html"
+    },
+    {
+     "title": "母子3屍案解剖熱心民眾送玩具、玩偶到靈堂",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/Taichung/breakingnews/2975157"
+    },
+    {
+     "title": "台中母子3屍／口鼻、臉部異常出血！狠男「勒斃她」悶殺雙子 解剖結果13時出爐",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/vrJoM3"
+    },
+    {
      "title": "【母子3屍案】勒斃女友再悶死雙胞胎親兒 同居男友認情緒失控",
      "outlet": "鏡週刊",
      "url": "https://www.mirrormedia.mg/story/20191108edi006"
@@ -8726,6 +8863,21 @@
      "title": "台中母子3屍命案同居男友坦承殺人",
      "outlet": "Yahoo 新聞",
      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E6%AF%8D%E5%AD%903%E5%B1%8D%E5%91%BD%E6%A1%88-%E5%90%8C%E5%B1%85%E7%94%B7%E5%8F%8B%E5%9D%A6%E6%89%BF%E6%AE%BA%E4%BA%BA-112700212.html"
+    },
+    {
+     "title": "快訊／少婦與1歲嬰陳屍台中公寓 「棉被裹屍」已現屍斑",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%BF%AB%E8%A8%8A-%E5%B0%91%E5%A9%A6%E8%88%871%E6%AD%B2%E5%AC%B0%E9%99%B3%E5%B1%8D%E5%8F%B0%E4%B8%AD%E5%85%AC%E5%AF%93-%E6%A3%89%E8%A2%AB%E8%A3%B9%E5%B1%8D-%E5%B7%B2%E7%8F%BE%E5%B1%8D%E6%96%91-122245265.html"
+    },
+    {
+     "title": "台中3屍狠父殺女友後還餵奶陪雙胞胎玩 6小時後丟洗衣機悶死「哭聲沒了才抱出來」",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/nkxkQM"
+    },
+    {
+     "title": "台中3屍狠父殺子！陪玩6hr還餵奶…轉身丟洗衣機悶死",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD3%E5%B1%8D%E7%8B%A0%E7%88%B6%E6%AE%BA%E5%AD%90-%E9%99%AA%E7%8E%A96hr%E9%82%84%E9%A4%B5%E5%A5%B6-%E8%BD%89%E8%BA%AB%E4%B8%9F%E6%B4%97%E8%A1%A3%E6%A9%9F%E6%82%B6%E6%AD%BB-013600512.html"
     }
    ]
   },
@@ -8785,24 +8937,9 @@
      "url": "https://www.ettoday.net/news/20191022/1562915.htm"
     },
     {
-     "title": "陸軍裝甲586旅傳意外！資深上士墜樓亡 同袍晨運嚇傻",
-     "outlet": "三立新聞網",
-     "url": "https://www.setn.com/news/621781"
-    },
-    {
      "title": "陸軍裝甲586旅驚傳事故 資深士官墜樓亡",
      "outlet": "LINE TODAY（轉載）",
      "url": "https://today.line.me/tw/v3/article/8PEJ0Z"
-    },
-    {
-     "title": "台中陸軍裝甲586旅上士墜樓！倒臥草皮亡 同袍經過嚇傻",
-     "outlet": "Yahoo 新聞",
-     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E9%99%B8%E8%BB%8D%E8%A3%9D%E7%94%B2586%E6%97%85-%E4%B8%8A%E5%A3%AB%E5%A2%9C%E6%A8%93%E4%BA%A1-%E5%90%8C%E8%A2%8D%E7%B6%93%E9%81%8E%E5%9A%87%E5%82%BB-022910949.html"
-    },
-    {
-     "title": "陸軍裝甲586旅傳意外 上士清晨墜樓不治",
-     "outlet": "中時新聞網",
-     "url": "https://www.chinatimes.com/realtimenews/20191021001240-260402"
     },
     {
      "title": "陸軍裝甲586旅驚傳事故 資深士官墜樓亡",
@@ -8818,6 +8955,21 @@
      "title": "陸軍裝甲586旅驚傳事故 資深士官墜樓亡",
      "outlet": "Yahoo 新聞",
      "url": "https://tw.news.yahoo.com/%E9%99%B8%E8%BB%8D%E8%A3%9D%E7%94%B2586%E6%97%85%E9%A9%9A%E5%82%B3%E4%BA%8B%E6%95%85-%E8%B3%87%E6%B7%B1%E4%B8%8A%E5%A3%AB%E5%A2%9C%E6%A8%93%E9%80%81%E9%86%AB%E4%B8%8D%E6%B2%BB-031612700.html"
+    },
+    {
+     "title": "陸軍裝甲586旅傳意外！資深上士墜樓亡 同袍晨運嚇傻",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/621781"
+    },
+    {
+     "title": "台中陸軍裝甲586旅上士墜樓！倒臥草皮亡 同袍經過嚇傻",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E9%99%B8%E8%BB%8D%E8%A3%9D%E7%94%B2586%E6%97%85-%E4%B8%8A%E5%A3%AB%E5%A2%9C%E6%A8%93%E4%BA%A1-%E5%90%8C%E8%A2%8D%E7%B6%93%E9%81%8E%E5%9A%87%E5%82%BB-022910949.html"
+    },
+    {
+     "title": "陸軍裝甲586旅傳意外 上士清晨墜樓不治",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20191021001240-260402"
     }
    ]
   },
@@ -9722,7 +9874,7 @@
    "title": "2019/5/15 台中死亡事件",
    "date": "2019-05-15",
    "place": "台中",
-   "summary": "台中發生命案， 36 人遇害身亡，警方偵辦。",
+   "summary": "台中發生命案，一人遇害身亡，警方偵辦。",
    "sources": [
     {
      "title": "36刀刺死酒友 兩公約讓他免死",
@@ -9880,7 +10032,7 @@
    "title": "久病纏身厭世！台中男「回診後失聯」墜15F亡　被發現時血水已半乾",
    "date": "2019-04-09",
    "place": "台中",
-   "summary": "台中發現 15 人身亡，死因待查。",
+   "summary": "台中發現一人身亡，死因待查。",
    "sources": [
     {
      "title": "快訊／久病纏身厭世！台中男「回診後失聯」墜15F亡 被發現時血水已半乾",
@@ -10098,7 +10250,7 @@
    "title": "「殺子自殺」半年釀8孩童喪命 家扶籲共同建立保護網",
    "date": "2019-02-21",
    "place": "太平",
-   "summary": "太平發生命案， 8 人遇害身亡，警方偵辦。",
+   "summary": "太平發生命案，一名幼童遇害身亡，警方偵辦。",
    "sources": [
     {
      "title": "「殺子自殺」半年釀8孩童喪命 家扶籲共同建立保護網",
@@ -10412,6 +10564,21 @@
      "url": "https://news.ltn.com.tw/news/society/paper/1258787"
     },
     {
+     "title": "台中機場前行刑式槍擊 凶嫌投案淚別父母",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E6%A9%9F%E5%A0%B4%E5%89%8D%E8%A1%8C%E5%88%91%E5%BC%8F%E6%A7%8D%E6%93%8A-%E5%87%B6%E5%AB%8C%E6%8A%95%E6%A1%88%E6%B7%9A%E5%88%A5%E7%88%B6%E6%AF%8D-105923721.html"
+    },
+    {
+     "title": "台中機場附近槍擊案嫌犯逃亡十天投案",
+     "outlet": "peponews.tw",
+     "url": "https://www.peponews.tw/2019/01/03/386/"
+    },
+    {
+     "title": "台中機場前行刑式槍擊凶嫌投案淚別父母",
+     "outlet": "民視新聞",
+     "url": "https://www.ftvnews.com.tw/news/detail/2019103C08M1"
+    },
+    {
      "title": "台中機場旁行刑式槍擊殺人案 逃亡10天凶嫌落網",
      "outlet": "Newtalk 新聞",
      "url": "https://newtalk.tw/news/view/2019-01-03/189150"
@@ -10432,24 +10599,9 @@
      "url": "https://finance.ftvnews.com.tw/news/detail/2019103C08M1"
     },
     {
-     "title": "台中機場附近槍擊案嫌犯逃亡十天投案",
-     "outlet": "peponews.tw",
-     "url": "https://www.peponews.tw/2019/01/03/386/"
-    },
-    {
      "title": "影／台中機場外連開5槍奪命 「沙鹿槍手」躲10天父親家落網",
      "outlet": "LINE TODAY（轉載）",
      "url": "https://today.line.me/tw/v3/article/z0gJ27"
-    },
-    {
-     "title": "台中機場前行刑式槍擊 凶嫌投案淚別父母",
-     "outlet": "Yahoo 新聞",
-     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E6%A9%9F%E5%A0%B4%E5%89%8D%E8%A1%8C%E5%88%91%E5%BC%8F%E6%A7%8D%E6%93%8A-%E5%87%B6%E5%AB%8C%E6%8A%95%E6%A1%88%E6%B7%9A%E5%88%A5%E7%88%B6%E6%AF%8D-105923721.html"
-    },
-    {
-     "title": "台中機場前行刑式槍擊凶嫌投案淚別父母",
-     "outlet": "民視新聞",
-     "url": "https://www.ftvnews.com.tw/news/detail/2019103C08M1"
     }
    ]
   },
