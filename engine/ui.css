@@ -512,8 +512,8 @@ body.lowfx *, body.lowfx *::before, body.lowfx *::after { backdrop-filter: none 
 body.lowfx { --glass: rgba(245, 240, 232, 0.96); }
 
 /* ---------- text size picker ---------- */
-/* the map chrome keeps its size so it never collides; the reading panels follow --fs */
-.brand, .toolbar, .hud, .chip, .legend, .dock, .mascot, .hero-note { --fs: 1; }
+/* the map chrome keeps its size so it never collides; the reading panels and the island name tags follow --fs */
+.brand, .toolbar, .hud, .legend, .dock, .mascot, .hero-note { --fs: 1; }
 .fs-wrap { position: relative; display: flex; }
 .fs-pop { position: absolute; top: 0; right: calc(100% + 8px); z-index: 8; display: flex; flex-direction: column; gap: 4px; padding: 8px; border-radius: 14px; background: var(--paper); box-shadow: var(--shadow); min-width: 112px; }
 .fs-pop[hidden] { display: none; }
