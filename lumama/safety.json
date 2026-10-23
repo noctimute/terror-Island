@@ -291,6 +291,36 @@
      "title": "巨業司機撞死女大生疑2度輾壓 警再偵訊同行學生等人釐清案情",
      "outlet": "公視新聞網",
      "url": "https://news.pts.org.tw/article/716977"
+    },
+    {
+     "title": "快訊／下一站終點站！　台中公車晚間撞死女行人「白衣染紅」",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240922/2821775.htm"
+    },
+    {
+     "title": "快訊／台中2行人被公車撞！20歲女遭捲車輪...無生命跡象",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240922/2821772.htm"
+    },
+    {
+     "title": "台中宮原眼科旁車禍！2東海女大生過馬路遭公車撞　1女捲輪下不治",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1534956"
+    },
+    {
+     "title": "台中女大生過馬路「遭公車撞死」　東海大學發譴責聲明",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240923/2821794.htm"
+    },
+    {
+     "title": "台中公車轉彎猛撞行人「1死1傷」　2人都是東海女大生",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240923/2821791.htm"
+    },
+    {
+     "title": "台中頻傳公車撞死行人！作家指1法規釀「全台脾氣最壞的公車司機」",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1535949"
     }
    ]
   },
@@ -655,6 +685,26 @@
      "title": "豐原客運左轉「撞死走斑馬線母子」夫目睹崩潰　司機下場曝",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20230909/2578941.htm"
+    },
+    {
+     "title": "台中公車左轉高速撞一家3口！丈夫親眼目睹「嬰兒車被輾爆」母子雙亡",
+     "outlet": "DailyView",
+     "url": "https://dailyview.tw/popular/detail/19363"
+    },
+    {
+     "title": "台中公車撞一家3口母子亡倖存伊拉克籍丈夫：司機速度很快",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202212280110.aspx"
+    },
+    {
+     "title": "台中夫妻推嬰兒車走斑馬線遭公車撞 母嬰雙亡獨留伊拉克籍父存活",
+     "outlet": "民視新聞",
+     "url": "https://finance.ftvnews.com.tw/news/detail/2022C28C01M1"
+    },
+    {
+     "title": "影／台中公車輾斃行走斑馬線母子 客運業者籲：轉彎慢、看、停",
+     "outlet": "聯合新聞網",
+     "url": "https://autos.udn.com/autos/story/12168/6871177"
     }
    ]
   },
@@ -1281,7 +1331,7 @@
   },
   {
    "id": "s-h20190725a",
-   "title": "老農捲入耕耘機亡...妻崩潰痛哭　中市府：若投保農職災有30月津貼",
+   "title": "老農透早耕田出意外 捲入耕耘機身亡",
    "date": "2019-07-25",
    "place": "大雅",
    "summary": "大雅發生意外事故，一人身亡。",
@@ -1290,16 +1340,6 @@
      "title": "老農透早耕田出意外 捲入耕耘機身亡",
      "outlet": "自由時報",
      "url": "https://news.ltn.com.tw/news/society/breakingnews/2863272"
-    },
-    {
-     "title": "老農捲入耕耘機亡...妻崩潰痛哭 中市府：若投保農職災有30月津貼",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20190725/1498125.htm"
-    },
-    {
-     "title": "老農捲入耕耘機亡...妻崩潰痛哭，中市府：若投保農職災有30月津貼 - a885勞動生活法律網",
-     "outlet": "a885.com.tw",
-     "url": "https://www.a885.com.tw/m/2001-1159-825401,c22374-1.php"
     },
     {
      "title": "老農透早耕田出意外 捲入耕耘機身亡",
@@ -1315,6 +1355,30 @@
      "title": "疑駕駛不慎 老農遭耕耘機捲死",
      "outlet": "中時新聞網",
      "url": "https://www.chinatimes.com/realtimenews/20190725001693-260402"
+    },
+    {
+     "title": "老農捲入耕耘機亡...妻崩潰痛哭，中市府：若投保農職災有30月津貼 - a885勞動生活法律網",
+     "outlet": "a885.com.tw",
+     "url": "https://www.a885.com.tw/m/2001-1159-825401,c22374-1.php"
+    }
+   ],
+   "deaths": 1,
+   "fear": [
+    "D",
+    "S"
+   ]
+  },
+  {
+   "id": "s-h20190725b",
+   "title": "老農捲入耕耘機亡...妻崩潰痛哭　中市府：若投保農職災有30月津貼",
+   "date": "2019-07-25",
+   "place": "台中",
+   "summary": "台中發生意外事故，一人身亡。",
+   "sources": [
+    {
+     "title": "老農捲入耕耘機亡...妻崩潰痛哭 中市府：若投保農職災有30月津貼",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20190725/1498125.htm"
     }
    ],
    "deaths": 1,
@@ -1370,6 +1434,44 @@
    "fear": [
     "D",
     "S"
+   ]
+  },
+  {
+   "id": "s-bus-2024b",
+   "title": "公車專用道撞闖紅燈過馬路行人 送醫不治",
+   "date": "2024-02-13",
+   "place": "龍井",
+   "summary": "龍井區台灣大道五段公車專用道，一名行人疑闖紅燈穿越台灣大道，直行的公車煞車不及撞上，行人送醫搶救後不治；警方調查肇事原因。",
+   "fear": [
+    "S",
+    "D"
+   ],
+   "deaths": 1,
+   "sources": [
+    {
+     "title": "快訊／台中臺灣大道死亡車禍！行人闖紅燈 公車「煞不住」撞飛",
+     "outlet": "TVBS新聞網",
+     "url": "https://news.tvbs.com.tw/local/2395541"
+    }
+   ]
+  },
+  {
+   "id": "s-bus-2026",
+   "title": "外籍旅客走斑馬線遭轉彎客運撞輾 不治",
+   "date": "2026-09-16",
+   "place": "台中",
+   "summary": "一名來台旅遊的外籍婦人與家人走斑馬線過馬路，落在最後面時，緩慢轉彎的國光客運疑未停讓，將她撞倒輾過，送醫搶救兩天後不治。",
+   "fear": [
+    "S",
+    "D"
+   ],
+   "deaths": 1,
+   "sources": [
+    {
+     "title": "新加坡阿嬤台中旅遊過馬路遭國光客運撞輾成重傷 今晨不治",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7320/9762269"
+    }
    ]
   }
  ]
