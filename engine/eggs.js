@@ -26,7 +26,7 @@ export function createEggs({ root, onFound }) {
   } catch {}
 
   root.innerHTML = `<button class="egg-pill" aria-expanded="false"><span class="egg-ico">🥚</span><span class="egg-count"></span></button>
-<div class="egg-panel" hidden><div class="egg-head"><b>彩蛋任務</b><span class="egg-left"></span></div><div class="egg-bar"><i></i></div><ul></ul><button class="egg-reset">歸零重找</button></div>
+<div class="egg-panel" hidden><div class="egg-head"><b>彩蛋任務</b><span class="egg-left"></span></div><div class="egg-bar"><i></i></div><ul></ul><div class="egg-foot"><button class="egg-reset">歸零重找</button><span class="egg-ask" hidden>紀錄全部歸零？<button class="egg-yes">歸零</button><button class="egg-no">取消</button></span></div></div>
 <div class="egg-toast" aria-live="polite"></div>
 <div class="egg-done" hidden role="dialog" aria-modal="true" aria-label="彩蛋全破"><div class="egg-done-card"><img src="../lumama/eggs-done.jpg" alt="漫畫：「……我最討厭像你這樣直覺敏銳的小鬼」" width="800" height="800"><div class="egg-done-text"><small>ALL EASTER EGGS FOUND</small><b>彩蛋全破 ${EGGS.length} / ${EGGS.length}</b><button>關閉</button></div></div></div>`;
   const pill = root.querySelector(".egg-pill"),
@@ -57,7 +57,17 @@ export function createEggs({ root, onFound }) {
 
   panel.addEventListener("click", (e) => {
     if (e.target.closest(".egg-again")) showDone();
-    if (e.target.closest(".egg-reset") && confirm("彩蛋紀錄要全部歸零嗎？")) {
+    // the reset asks inside the panel, in the panel's own style, instead of a browser dialog
+    const ask = panel.querySelector(".egg-ask"),
+      reset = panel.querySelector(".egg-reset");
+    if (e.target.closest(".egg-reset") || e.target.closest(".egg-no")) {
+      const asking = !!e.target.closest(".egg-reset");
+      ask.hidden = !asking;
+      reset.hidden = asking;
+    }
+    if (e.target.closest(".egg-yes")) {
+      ask.hidden = true;
+      reset.hidden = false;
       got.clear();
       try {
         localStorage.removeItem(KEY);
@@ -68,6 +78,8 @@ export function createEggs({ root, onFound }) {
   });
   pill.addEventListener("click", () => {
     panel.hidden = !panel.hidden;
+    panel.querySelector(".egg-ask").hidden = true;
+    panel.querySelector(".egg-reset").hidden = false;
     pill.setAttribute("aria-expanded", !panel.hidden);
   });
   document.addEventListener("pointerdown", (e) => {

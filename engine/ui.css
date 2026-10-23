@@ -493,3 +493,10 @@ body.touring .eggs { display: none; }
 @keyframes eggslam { from { transform: scale(1.25) rotate(-2deg); opacity: 0; } }
 .egg-reset { display: block; margin: 10px 0 0 auto; border: 1px solid rgba(255, 255, 255, 0.25); background: none; color: rgba(255, 255, 255, 0.6); border-radius: 999px; padding: 3px 10px; font-size: 11px; cursor: pointer; }
 .egg-reset:hover { color: #fff; border-color: #fff; }
+.egg-foot { display: flex; justify-content: flex-end; margin-top: 10px; }
+.egg-foot .egg-reset { margin: 0; }
+.egg-ask { display: flex; align-items: center; gap: 6px; font-size: 12px; color: #f5f0e8; }
+.egg-ask[hidden], .egg-reset[hidden] { display: none; }
+.egg-ask button { border: 0; border-radius: 999px; padding: 4px 12px; font-size: 11px; font-weight: 700; cursor: pointer; }
+.egg-ask .egg-yes { background: #c8102e; color: #fff; }
+.egg-ask .egg-no { background: rgba(255, 255, 255, 0.15); color: #f5f0e8; }
