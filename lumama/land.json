@@ -1,6 +1,6 @@
 {
  "title": "台中賣地與建商爭議新聞",
- "updated": "2026-10-22",
+ "updated": "2026-10-23",
  "records": [
   {
    "id": "l-dome",
@@ -119,6 +119,75 @@
      "title": "地王每坪101.1萬！中市重劃區抵費地標售率不到4成 溢價僅7% | 政治快訊",
      "outlet": "NOWnews",
      "url": "https://www.nownews.com/news/6378213"
+    }
+   ]
+  },
+  {
+   "id": "l-thugs",
+   "title": "自辦重劃會理事長買兇 毆打市府地政官員",
+   "date": "2023-07",
+   "place": "台中",
+   "summary": "一個自辦重劃會的理事長因重劃案審查不如己意，花錢找打手，2023 年 7、8 月先後持球棒、鋁棒襲擊市府地政局重劃科科長與大里地政事務所主任，還全程錄影回報。事件到 2025 年一審判決才曝光，理事長依傷害罪被判 2 年（上訴中），被害官員拒絕和解。",
+   "sources": [
+    {
+     "title": "台中重劃會理事長花15萬買兇！乩童當街毒打地政主任 打到鋁棒斷掉",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1870134"
+    },
+    {
+     "title": "1案15萬元棒打2官員！疑不滿卡關土地重劃審查案 幕後黑手「層層發包」買兇全曝光",
+     "outlet": "鏡報",
+     "url": "https://www.mirrordaily.news/story/72167"
+    },
+    {
+     "title": "1案15萬元棒打2官員！疑不滿卡關土地重劃審查案 幕後黑手「層層發包」買兇全曝光",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/1%E6%A1%8815%E8%90%AC%E5%85%83%E6%A3%92%E6%89%932%E5%AE%98%E5%93%A1-%E7%96%91%E4%B8%8D%E6%BB%BF%E5%8D%A1%E9%97%9C%E5%9C%9F%E5%9C%B0%E9%87%8D%E5%8A%83%E5%AF%A9%E6%9F%A5%E6%A1%88-%E5%B9%95%E5%BE%8C%E9%BB%91%E6%89%8B-%E5%B1%A4%E5%B1%A4%E7%99%BC%E5%8C%85-%E8%B2%B7%E5%85%87%E5%85%A8%E6%9B%9D%E5%85%89-095700613.html"
+    },
+    {
+     "title": "長春自辦重劃理事長花30萬買兇「教訓」台中市府2官員還錄影",
+     "outlet": "中華日報",
+     "url": "https://www.cdns.com.tw/articles/1245635"
+    },
+    {
+     "title": "台中重劃會理事長花15萬買兇！乩童當街毒打地政主任 打到鋁棒斷掉",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E9%87%8D%E5%8A%83%E6%9C%83%E7%90%86%E4%BA%8B%E9%95%B7%E8%8A%B115%E8%90%AC%E8%B2%B7%E5%85%87-%E4%B9%A9%E7%AB%A5%E7%95%B6%E8%A1%97%E6%AF%92%E6%89%93%E5%9C%B0%E6%94%BF%E4%B8%BB%E4%BB%BB-%E6%89%93%E5%88%B0%E9%8B%81%E6%A3%92%E6%96%B7%E6%8E%89-012300288.html"
+    },
+    {
+     "title": "台中地政局官員遭伏擊「乩童」收3萬打到鋁棒斷裂 判刑6月",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260709/3198226.htm"
+    },
+    {
+     "title": "沒王法！台中2地政官員連遭業者「教訓」 埋伏家門亂棍毆傷",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20250702002633-260402"
+    },
+    {
+     "title": "土地重劃糾紛！台中地政局官員遭棍棒「教訓」 小弟遭判6個月",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/3253235"
+    },
+    {
+     "title": "獨／扯！台中市府2官員接連遭「教訓」 出門遭亂棍毆傷",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/perrxOG"
+    },
+    {
+     "title": "1案15萬元棒打2官員！疑不滿卡關土地重劃審查案 幕後黑手「層層發包」買兇全曝光",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/eLKy2lD"
+    },
+    {
+     "title": "找人毆傷台中市府2官員 重劃會理事長一審判2年",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E6%89%BE%E4%BA%BA%E6%AF%86%E5%82%B7%E5%8F%B0%E4%B8%AD%E5%B8%82%E5%BA%9C2%E5%AE%98%E5%93%A1-%E9%87%8D%E5%8A%83%E6%9C%83%E7%90%86%E4%BA%8B%E9%95%B7-%E5%AF%A9%E5%88%A42%E5%B9%B4-144730132.html"
+    },
+    {
+     "title": "好房網報導",
+     "outlet": "好房網",
+     "url": "https://news.housefun.com.tw/news/article/100245467442.html"
     }
    ]
   },

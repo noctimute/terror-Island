@@ -296,6 +296,7 @@
   },
   {
    "id": "beitun",
+   "recordsSrc": "fire.json",
    "number": 3,
    "name": "氣爆火災島",
    "model": "disaster",
