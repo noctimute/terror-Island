@@ -163,7 +163,7 @@ export function createLumama(THREE, { scene, centers, CSS2DObject, rng, onCelebr
     hitBox.visible = false;
     holder.add(hitBox);
     const el = document.createElement("div");
-    el.innerHTML = '<button class="air-tag" type="button"><b>谷關空氣</b><small>送給市民的第一份禮物・點我收下</small></button>';
+    el.innerHTML = '<button class="air-tag" type="button"><b>谷關空氣瓶</b><small>送給市民的第一份禮物・點我收下</small></button>';
     const tag = new CSS2DObject(el);
     tag.position.set(0, 2.1, 0);
     holder.add(tag);

@@ -2,14 +2,14 @@ import { S, TOP, WILD_TOP, layoutZones, buildCity, createHeightAt } from "./worl
 import { createEnvironment, mulberry } from "./environment.js?v=6";
 import { createKit, MODELS, wildForest } from "./models.js?v=22";
 import { createPeople, flowCurve } from "./people.js?v=3";
-import { createLumama } from "./lumama.js?v=12";
+import { createLumama } from "./lumama.js?v=13";
 import { createGuns } from "./guns.js?v=11";
 import { createMusic } from "./music.js?v=1";
 import { sfx } from "./sfx.js?v=10";
 import { createShore } from "./shore.js?v=1";
 import { createTreeEgg } from "./treeegg.js?v=2";
 import { createMemes } from "./memes.js?v=10";
-import { createEggs } from "./eggs.js?v=10";
+import { createEggs } from "./eggs.js?v=11";
 import { icon, skulls } from "./icons.js?v=1";
 
 const $ = (s) => document.querySelector(s),
