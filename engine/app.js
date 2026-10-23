@@ -1,4 +1,4 @@
-import { TOP, WILD_TOP, layoutZones, buildCity, createHeightAt } from "./world.js?v=1";
+import { S, TOP, WILD_TOP, layoutZones, buildCity, createHeightAt } from "./world.js?v=1";
 import { createEnvironment, mulberry } from "./environment.js?v=5";
 import { createKit, MODELS, wildForest } from "./models.js?v=20";
 import { createPeople, flowCurve } from "./people.js?v=3";
@@ -8,7 +8,7 @@ import { createMusic } from "./music.js?v=1";
 import { sfx } from "./sfx.js?v=7";
 import { createShore } from "./shore.js?v=1";
 import { createTreeEgg } from "./treeegg.js?v=2";
-import { createMemes } from "./memes.js?v=5";
+import { createMemes } from "./memes.js?v=6";
 import { icon, skulls } from "./icons.js?v=1";
 
 const $ = (s) => document.querySelector(s),
@@ -303,7 +303,7 @@ try {
   const lumama = createLumama(THREE, { scene, centers: [...centers.values()], CSS2DObject, rng: mulberry(7), onCelebrate: sfx.lumama });
   const shore = createShore({ hits: env.shoreHits || [], onWhisper: sfx.shore });
   const treeEgg = createTreeEgg(THREE, { scene, CSS2DObject, pines: env.pines, onClick: sfx.tree });
-  const memes = createMemes(THREE, { scene, centers: [...centers.values()], bounds: zoneBox, outer: new THREE.Box3().setFromPoints([...allCenters.values()].map((c) => new THREE.Vector3(c.x, 0, c.z))), say: treeEgg.say, CSS2DObject, groundAt: (x, z) => env.heightAtTerrain(x, z) - 0.03, sfx });
+  const memes = createMemes(THREE, { scene, centers: [...centers.values()], bounds: zoneBox, westEndZ: D.meta.terrain?.harbour && centers.get(D.meta.terrain.harbour) ? centers.get(D.meta.terrain.harbour).z - S * 0.9 : undefined, outer: new THREE.Box3().setFromPoints([...allCenters.values()].map((c) => new THREE.Vector3(c.x, 0, c.z))), say: treeEgg.say, CSS2DObject, groundAt: (x, z) => env.heightAtTerrain(x, z) - 0.03, sfx });
   const guns = createGuns(THREE, { scene, centers: [...centers.values()], CSS2DObject, rng: Math.random, groundAt: (x, z) => env.heightAtTerrain(x, z) - 0.03, blocked: [...allCenters.values()], hud: $("#gun-hud"), onCollect: (left) => sfx.gun(!left), onReset: sfx.reset });
 
   // ---------- camera ----------

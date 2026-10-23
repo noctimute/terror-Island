@@ -3,7 +3,7 @@
 // and a traffic-enforcement camera beside wobbly lane markings. Clicking one pops a line via `say`.
 import { S, hexVertex } from "./world.js?v=1";
 
-export function createMemes(THREE, { scene, centers, bounds, outer, say, CSS2DObject, groundAt = () => 0, rng = Math.random, sfx = {} }) {
+export function createMemes(THREE, { scene, centers, bounds, outer, westEndZ, say, CSS2DObject, groundAt = () => 0, rng = Math.random, sfx = {} }) {
   const hits = []; // [mesh, handler]
   const V = (x, y, z) => new THREE.Vector3(x, y, z);
   const mat = (color, o = {}) => new THREE.MeshStandardMaterial({ color, roughness: 0.75, ...o });
@@ -90,10 +90,12 @@ export function createMemes(THREE, { scene, centers, bounds, outer, say, CSS2DOb
     Rx = o.max.x + m,
     Tz = o.min.z - m,
     Bz = bounds.max.z + S * 0.6,
-    r = S * 1.2;
+    r = S * 1.2,
+    WB = Math.max(Tz + r * 2, Math.min(Bz, westEndZ ?? Bz));
   const route = new THREE.CatmullRomCurve3(
     [
-      [Lx, Bz], [Lx, (Bz + Tz) / 2], [Lx, Tz + r], [Lx + r * 0.3, Tz + r * 0.3], [Lx + r, Tz],
+      // the west leg stops north of the harbour so the pier and the ship stay clear
+      [Lx, WB], [Lx, (WB + Tz + r) / 2], [Lx, Tz + r], [Lx + r * 0.3, Tz + r * 0.3], [Lx + r, Tz],
       [(Lx + Rx) / 2, Tz], [Rx - r, Tz], [Rx - r * 0.3, Tz + r * 0.3], [Rx, Tz + r], [Rx, (Bz + Tz) / 2], [Rx, Bz],
     ].map(([x, z]) => V(x, 0, z)),
     false,
