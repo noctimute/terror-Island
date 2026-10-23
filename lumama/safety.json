@@ -5,6 +5,23 @@
  "updated": "2026-10-23",
  "records": [
   {
+   "id": "s-mrt-outage",
+   "title": "台中捷運尖峰大當機 上萬通勤族受困 21 分鐘",
+   "date": "2026-06-03",
+   "place": "北屯",
+   "summary": "早上通勤尖峰，北屯機廠號誌卡片故障，中捷綠線 7:23 到 7:44 全線停擺 21 分鐘，上萬名通勤族受困車站與車廂。",
+   "fear": [
+    "S"
+   ],
+   "sources": [
+    {
+     "title": "台中捷運尖峰時刻大當機！上萬通勤族被困21分鐘",
+     "outlet": "蕃新聞",
+     "url": "https://n.yam.com/Article/20260603324436"
+    }
+   ]
+  },
+  {
    "id": "s-beitun-flood",
    "title": "北屯大雷雨 多處淹水",
    "date": "2026-04-04",
@@ -627,6 +644,26 @@
      "title": "驚悚！台中自來水工程意外 廠商證實工人和空氣被吸進下水道致死",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20211130/2135318.htm"
+    },
+    {
+     "title": "臺中自來水工程1工人被吸入水管送院救無起",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/556428"
+    },
+    {
+     "title": "[新聞] 驚悚！台中自來水工程意外廠商證實工人和空氣被吸進 ...",
+     "outlet": "disp.cc",
+     "url": "https://disp.cc/b/Gossiping/enl3"
+    },
+    {
+     "title": "台中自來水工程意外工人被吸進水管送醫不治",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/firstnews/202111300175.aspx"
+    },
+    {
+     "title": "自來水工程發生意外50歲曾姓工人被吸進水管中不治",
+     "outlet": "dailymotion.com",
+     "url": "https://www.dailymotion.com/video/x85ymnx"
     }
    ],
    "deaths": 1,
@@ -646,6 +683,21 @@
      "title": "驚悚畫面曝！台中工人下水道施工 下秒跌入水道…頭部重創慘死",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20211130/2135143.htm"
+    },
+    {
+     "title": "台中工人下水道施工敲擊突跌入水道…頭部重摔慘死",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/wJeVRya"
+    },
+    {
+     "title": "驚悚畫面曝！台中工人換管線下秒遭水管吸入慘死",
+     "outlet": "東森新聞",
+     "url": "https://news.ebc.net.tw/news/society/290492"
+    },
+    {
+     "title": "快訊／驚悚畫面曝！50歲工人換水管遭負壓「瞬吸」撞頭死",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1034515"
     }
    ],
    "deaths": 1,
@@ -844,6 +896,43 @@
    ]
   },
   {
+   "id": "s-mrt-axle",
+   "title": "中捷綠線試營運第 6 天軸心斷裂 停駛 127 天",
+   "date": "2020-11-21",
+   "place": "北屯・南屯",
+   "summary": "中捷綠線 2020 年 11 月 16 日試營運，第 6 天檢修發現列車連結器牽引裝置軸心斷裂，臨時停駛不載客，一停就是 127 天；原廠調查歸因組裝不良，市府後來向北捷局求償 1.8 億多元。",
+   "fear": [
+    "S"
+   ],
+   "sources": [
+    {
+     "title": "試營運才6天就出包 台中捷運檢修暫不載客",
+     "outlet": "工商時報",
+     "url": "https://www.ctee.com.tw/news/20201121700296-430104"
+    },
+    {
+     "title": "連接器軸心斷裂 中捷臨時宣布停駛",
+     "outlet": "華視新聞",
+     "url": "https://news.cts.com.tw/cts/local/202011/202011222021490.html"
+    },
+    {
+     "title": "中捷試營運故障 立委爆料：沒備品",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20201125002850-260508"
+    },
+    {
+     "title": "台中捷運綠線停駛原因揭曉 無關零件「中國貨、法國貨」",
+     "outlet": "NOWnews",
+     "url": "https://www.nownews.com/news/5144124"
+    },
+    {
+     "title": "中捷綠線試營運時軸心斷裂 台中市府向北捷求償1.8億",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/576969"
+    }
+   ]
+  },
+  {
    "id": "s-h20201026a",
    "title": "2020/10/26 台中意外事故",
    "date": "2020-10-26",
@@ -952,9 +1041,19 @@
    "summary": "台中發生工安意外，一人身亡。",
    "sources": [
     {
+     "title": "矽品爆工安意外1工程師遭機台夾死疑移工誤觸開關所致",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/3036906"
+    },
+    {
      "title": "台中矽品工程師遭機台夾入慘亡！疑員工誤觸開關…檢警調查",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20200111/1623051.htm"
+    },
+    {
+     "title": "沒依SOP！ 移工突開電機台夾死工程師",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/paper/1345286"
     },
     {
      "title": "疑移工誤觸開關 矽品工程師慘遭機台夾死",
@@ -970,11 +1069,6 @@
      "title": "矽品爆工安意外 1工程師遭機台夾死 疑移工誤觸開關所致",
      "outlet": "she.nfu.edu.tw",
      "url": "https://she.nfu.edu.tw/zh_tw/links/oshcases/%E7%9F%BD%E5%93%81%E7%88%86%E5%B7%A5%E5%AE%89%E6%84%8F%E5%A4%96-1%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%81%AD%E6%A9%9F%E5%8F%B0%E5%A4%BE%E6%AD%BB-%E7%96%91%E7%A7%BB%E5%B7%A5%E8%AA%A4%E8%A7%B8%E9%96%8B%E9%97%9C%E6%89%80%E8%87%B4-5156888"
-    },
-    {
-     "title": "矽品爆工安意外1工程師遭機台夾死疑移工誤觸開關所致",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/society/breakingnews/3036906"
     },
     {
      "title": "疑員工誤觸開關 矽品工程師上半身遭夾機台不治",
@@ -1045,6 +1139,11 @@
      "url": "https://www.ettoday.net/news/20190725/1498125.htm"
     },
     {
+     "title": "老農捲入耕耘機亡...妻崩潰痛哭，中市府：若投保農職災有30月津貼 - a885勞動生活法律網",
+     "outlet": "a885.com.tw",
+     "url": "https://www.a885.com.tw/m/2001-1159-825401,c22374-1.php"
+    },
+    {
      "title": "老農透早耕田出意外 捲入耕耘機身亡",
      "outlet": "LINE TODAY（轉載）",
      "url": "https://today.line.me/tw/v3/article/YO6EE8"
@@ -1058,11 +1157,6 @@
      "title": "疑駕駛不慎 老農遭耕耘機捲死",
      "outlet": "中時新聞網",
      "url": "https://www.chinatimes.com/realtimenews/20190725001693-260402"
-    },
-    {
-     "title": "老農捲入耕耘機亡...妻崩潰痛哭，中市府：若投保農職災有30月津貼 - a885勞動生活法律網",
-     "outlet": "a885.com.tw",
-     "url": "https://www.a885.com.tw/m/2001-1159-825401,c22374-1.php"
     }
    ],
    "deaths": 1,
@@ -1118,60 +1212,6 @@
    "fear": [
     "D",
     "S"
-   ]
-  },
-  {
-   "id": "s-mrt-axle",
-   "title": "中捷綠線試營運第 6 天軸心斷裂 停駛 127 天",
-   "date": "2020-11-21",
-   "place": "北屯・南屯",
-   "summary": "中捷綠線 2020 年 11 月 16 日試營運，第 6 天檢修發現列車連結器牽引裝置軸心斷裂，臨時停駛不載客，一停就是 127 天；原廠調查歸因組裝不良，市府後來向北捷局求償 1.8 億多元。",
-   "fear": [
-    "S"
-   ],
-   "sources": [
-    {
-     "title": "試營運才6天就出包 台中捷運檢修暫不載客",
-     "outlet": "工商時報",
-     "url": "https://www.ctee.com.tw/news/20201121700296-430104"
-    },
-    {
-     "title": "連接器軸心斷裂 中捷臨時宣布停駛",
-     "outlet": "華視新聞",
-     "url": "https://news.cts.com.tw/cts/local/202011/202011222021490.html"
-    },
-    {
-     "title": "中捷試營運故障 立委爆料：沒備品",
-     "outlet": "中時新聞網",
-     "url": "https://www.chinatimes.com/realtimenews/20201125002850-260508"
-    },
-    {
-     "title": "台中捷運綠線停駛原因揭曉 無關零件「中國貨、法國貨」",
-     "outlet": "NOWnews",
-     "url": "https://www.nownews.com/news/5144124"
-    },
-    {
-     "title": "中捷綠線試營運時軸心斷裂 台中市府向北捷求償1.8億",
-     "outlet": "公視新聞網",
-     "url": "https://news.pts.org.tw/article/576969"
-    }
-   ]
-  },
-  {
-   "id": "s-mrt-outage",
-   "title": "台中捷運尖峰大當機 上萬通勤族受困 21 分鐘",
-   "date": "2026-06-03",
-   "place": "北屯",
-   "summary": "早上通勤尖峰，北屯機廠號誌卡片故障，中捷綠線 7:23 到 7:44 全線停擺 21 分鐘，上萬名通勤族受困車站與車廂。",
-   "fear": [
-    "S"
-   ],
-   "sources": [
-    {
-     "title": "台中捷運尖峰時刻大當機！上萬通勤族被困21分鐘",
-     "outlet": "蕃新聞",
-     "url": "https://n.yam.com/Article/20260603324436"
-    }
    ]
   }
  ]

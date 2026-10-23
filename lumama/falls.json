@@ -3815,7 +3815,7 @@
    "id": "fall-75",
    "date": "2024-07-10",
    "place": "南區",
-   "summary": "社區大樓一名女子與 2 歲女兒墜落，母女身亡；檢方相驗認定為高處墜落致死。",
+   "summary": "社區大樓一名女子與幼童墜落，母女身亡；檢方相驗認定為高處墜落致死。",
    "sources": [
     {
      "title": "快訊／台中傳墜樓！44歲母+2歲女身亡 警封鎖現場",
@@ -4720,6 +4720,31 @@
      "title": "快訊／台中25歲女「當母親面」12樓頂墜下 送醫不治",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20211022/2107177.htm"
+    },
+    {
+     "title": "快訊／台中25歲女「當媽面前」12樓墜落！疑心情不好…傷重 ...",
+     "outlet": "中天新聞網",
+     "url": "https://ctinews.com/news/items/4bnbNoK6nP"
+    },
+    {
+     "title": "快訊／台中25歲女「當母親面」12樓頂墜下送醫不治",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20211022/2107177.htm/1000"
+    },
+    {
+     "title": "25歲女心情差「當母親面」跳樓輕生傷重送醫不治",
+     "outlet": "CTWANT",
+     "url": "https://www.ctwant.com/article/146584/"
+    },
+    {
+     "title": "台中25歲女「當媽面前」12樓墜落！疑心情不好…傷重送醫不治",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%BF%AB%E8%A8%8A-%E5%8F%B0%E4%B8%AD25%E6%AD%B2%E5%A5%B3-%E7%95%B6%E5%AA%BD%E9%9D%A2%E5%89%8D-12%E6%A8%93%E5%A2%9C%E8%90%BD-%E7%96%91%E5%BF%83%E6%83%85%E4%B8%8D%E5%A5%BD-070130080.html"
+    },
+    {
+     "title": "快訊／台中25歲女「當母親面」12樓頂墜下無生命跡象搶救中",
+     "outlet": "99k.tw",
+     "url": "https://99k.tw/2021/10/22/%E5%BF%AB%E8%A8%8A%EF%BC%8F%E5%8F%B0%E4%B8%AD25%E6%AD%B2%E5%A5%B3%E3%80%8C%E7%95%B6%E6%AF%8D%E8%A6%AA%E9%9D%A2%E3%80%8D12%E6%A8%93%E9%A0%82%E5%A2%9C%E4%B8%8B%E3%80%80%E7%84%A1%E7%94%9F%E5%91%BD/"
     }
    ],
    "deaths": 1
@@ -4827,16 +4852,6 @@
      "url": "https://www.ettoday.net/news/20210706/2023614.htm"
     },
     {
-     "title": "快訊／台中女突墜樓...「頭身分離」躺人行道上！路人嚇傻急報警",
-     "outlet": "中天新聞網",
-     "url": "https://ctinews.com/news/items/KwnKzp2mxY"
-    },
-    {
-     "title": "台中女子墜樓重擊「頭身分離」倒臥人行道路人嚇呆",
-     "outlet": "中時新聞網",
-     "url": "https://www.chinatimes.com/realtimenews/20210705001902-260402"
-    },
-    {
      "title": "快訊／台中女墜樓！「頭身分離」血濺人行道詭異死狀「離奇50 ...",
      "outlet": "中天新聞網",
      "url": "https://ctinews.com/news/items/gzaeLgeLWm"
@@ -4850,6 +4865,16 @@
      "title": "台中婦人墜樓身首異處慘死「相離50公分」離奇原因曝光",
      "outlet": "CTWANT",
      "url": "https://www.ctwant.com/article/127060/"
+    },
+    {
+     "title": "快訊／台中女突墜樓...「頭身分離」躺人行道上！路人嚇傻急報警",
+     "outlet": "中天新聞網",
+     "url": "https://ctinews.com/news/items/KwnKzp2mxY"
+    },
+    {
+     "title": "台中女子墜樓重擊「頭身分離」倒臥人行道路人嚇呆",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20210705001902-260402"
     }
    ],
    "deaths": 1
@@ -5400,6 +5425,21 @@
    "deaths": 1
   },
   {
+   "id": "fall-h20191122a",
+   "title": "台中工地意外工人4米高墜地送醫不治",
+   "date": "2019-11-22",
+   "place": "台中",
+   "summary": "台中發生墜樓事件，一人身亡。",
+   "sources": [
+    {
+     "title": "台中工地意外工人4米高墜地送醫不治",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/2986157"
+    }
+   ],
+   "deaths": 1
+  },
+  {
    "id": "fall-h20191121a",
    "title": "2019/11/21 台中墜樓事件",
    "date": "2019-11-21",
@@ -5416,6 +5456,21 @@
   },
   {
    "id": "fall-h20191120a",
+   "title": "台中科大學生墜樓亡近年已3起居民盼校方加強安全維護",
+   "date": "2019-11-20",
+   "place": "台中",
+   "summary": "台中發生墜樓事件，一名學生身亡。",
+   "sources": [
+    {
+     "title": "台中科大學生墜樓亡近年已3起居民盼校方加強安全維護",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/2984407"
+    }
+   ],
+   "deaths": 1
+  },
+  {
+   "id": "fall-h20191120b",
    "title": "台中科大驚傳墜樓意外！男大生「中正大樓」四肢挫傷亡",
    "date": "2019-11-20",
    "place": "台中",
