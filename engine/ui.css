@@ -537,3 +537,6 @@ body.lowfx { --glass: rgba(245, 240, 232, 0.96); }
 .hot-bars button:hover b { color: var(--accent); }
 .hot-bars i { height: 8px; border-radius: 4px; background: linear-gradient(90deg, var(--accent2) var(--w), rgba(0, 0, 0, 0.06) var(--w)); }
 .hot-bars span { color: var(--muted); text-align: right; font-variant-numeric: tabular-nums; }
+
+/* the 島名 toggle hides the island name tags so the scenes can be seen whole */
+body.no-chips .chip { display: none !important; }

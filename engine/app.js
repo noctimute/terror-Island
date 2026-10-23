@@ -283,6 +283,7 @@ try {
     tl: null, // month index on the event timeline, or null for "all"
     tlCum: false,
     names: false,
+    chips: true, // island name tags on the map
     badges: true,
     flows: false,
     frozen: reduced.matches,
@@ -942,6 +943,7 @@ try {
     $(`.tg[data-toggle="${name}"]`)?.setAttribute("aria-pressed", on);
     if (name === "flows") applyFlows();
     if (name === "names") applyLabels();
+    if (name === "chips") document.body.classList.toggle("no-chips", !on);
     if (name === "badges") people.setBadges(on);
     if (name === "frozen") document.body.classList.toggle("frozen", on);
     if (name === "bird") state.sel?.zone ? zoneView(state.sel.zone) : homeView();
