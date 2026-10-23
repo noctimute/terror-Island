@@ -3,7 +3,7 @@
 // and a traffic-enforcement camera beside wobbly lane markings. Clicking one pops a line via `say`.
 import { S, hexVertex } from "./world.js?v=1";
 
-export function createMemes(THREE, { scene, centers, bounds, outer, westEndZ, say, CSS2DObject, groundAt = () => 0, rng = Math.random, sfx = {} }) {
+export function createMemes(THREE, { scene, centers, bounds, outer, westEndZ, nests = [], top = 0.32, say, CSS2DObject, groundAt = () => 0, rng = Math.random, sfx = {} }) {
   const hits = []; // [mesh, handler]
   const V = (x, y, z) => new THREE.Vector3(x, y, z);
   const mat = (color, o = {}) => new THREE.MeshStandardMaterial({ color, roughness: 0.75, ...o });
@@ -218,6 +218,38 @@ export function createMemes(THREE, { scene, centers, bounds, outer, westEndZ, sa
     sfx.rats?.();
   });
 
+  // rats that live by the food-waste lake and the garbage mountain: they sit and sniff, scatter when clicked, then creep back
+  const nestMat = mat(0x9a918a);
+  const ratNests = nests.filter(Boolean).map((c) => {
+    const g = new THREE.Group();
+    // on the plateau just in front of the lake / garbage pile, behind the island name tag; drawn larger so they read from afar
+    g.position.set(c.x + 0.35, top + 0.01, c.z + 1.2);
+    g.scale.setScalar(1.7);
+    const list = [];
+    for (let i = 0; i < 6; i++) {
+      const r = new THREE.Group();
+      box(r, 0.16, 0.07, 0.08, nestMat, 0, 0.04, 0);
+      const head = box(r, 0.06, 0.05, 0.06, nestMat, 0.1, 0.05, 0);
+      box(r, 0.02, 0.02, 0.07, glow(0xff4a4a), 0.13, 0.065, 0);
+      box(r, 0.14, 0.012, 0.012, tailMat, -0.14, 0.03, 0);
+      const home = V((rng() - 0.5) * 0.6, 0, (rng() - 0.5) * 0.25);
+      r.position.copy(home);
+      r.rotation.y = rng() * Math.PI * 2;
+      g.add(r);
+      list.push({ r, head, home, ry: r.rotation.y, ph: rng() * 6, v: V() });
+    }
+    scene.add(g);
+    const nest = { g, list, away: 0 };
+    hitBox(g, 1.1, 0.5, 0.7, 0, 0.15, 0, () => {
+      if (nest.away > 0) return;
+      nest.away = 4;
+      for (const x of list) x.v.set((rng() - 0.5) * 3, 0, (rng() - 0.5) * 3);
+      say(g.position.clone().add(V(0, 0.8, 0)), "老鼠大軍 +1");
+      sfx.rats?.();
+    });
+    return nest;
+  });
+
   // ---- 4. traffic-enforcement camera beside wobbly lane markings ----
   // a junction in the middle of the city, where it isn't hidden behind the 74 viaduct
   const mid = V((bounds.min.x + bounds.max.x) / 2, 0, bounds.max.z - S * 0.9);
@@ -259,7 +291,7 @@ export function createMemes(THREE, { scene, centers, bounds, outer, westEndZ, sa
   const tx = bounds.max.x + S * 1.2,
     tz = bounds.max.z - S * 0.2;
   tbm.position.set(tx, groundAt(tx, tz), tz);
-  tbm.rotation.y = -0.5;
+  tbm.rotation.y = -2.36; // cutter head toward the lower left, facing the city it never dug into
   // the pit, its fence and a faded sign
   box(tbm, 2.4, 0.04, 1.4, mat(0x4a3f36), 0, 0.01, 0);
   for (let i = 0; i < 12; i++) {
@@ -411,6 +443,26 @@ export function createMemes(THREE, { scene, centers, bounds, outer, westEndZ, sa
     }
 
     camLed.visible = Math.sin(t * 5) > 0;
+
+    for (const n of ratNests) {
+      if (n.away > 0) {
+        n.away -= Math.max(d, 1 / 60);
+        const out = n.away > 2.6; // run off, wait out of sight, then sneak back home
+        for (const x of n.list) {
+          if (out) {
+            x.r.position.addScaledVector(x.v, d);
+            x.r.rotation.y = -Math.atan2(x.v.z, x.v.x);
+          } else x.r.visible = n.away < 1.2;
+          if (!out && n.away < 1.2) x.r.position.lerpVectors(x.r.position, x.home, Math.min(1, d * 3));
+        }
+        if (n.away <= 0) for (const x of n.list) (x.r.visible = true), x.r.position.copy(x.home), (x.r.rotation.y = x.ry);
+      } else
+        for (const x of n.list) {
+          // idle: noses twitching, the odd small turn
+          x.head.position.y = 0.05 + Math.max(0, Math.sin(t * 9 + x.ph)) * 0.015;
+          x.r.rotation.y = x.ry + Math.sin(t * 0.7 + x.ph) * 0.4;
+        }
+    }
 
     if (spin > 0) {
       spin = Math.max(0, spin - Math.max(d, 1 / 60));
