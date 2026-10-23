@@ -1,5 +1,5 @@
 import { S, TOP, WILD_TOP, layoutZones, buildCity, createHeightAt } from "./world.js?v=1";
-import { createEnvironment, mulberry } from "./environment.js?v=5";
+import { createEnvironment, mulberry } from "./environment.js?v=6";
 import { createKit, MODELS, wildForest } from "./models.js?v=22";
 import { createPeople, flowCurve } from "./people.js?v=3";
 import { createLumama } from "./lumama.js?v=10";
@@ -130,17 +130,23 @@ try {
   $(".hero-note .number").textContent = zones.length;
 
   const debug = params.has("debug");
-  const quality = params.get("quality") || (mobileMQ.matches || /Mobi|Android/i.test(navigator.userAgent) ? "medium" : "high");
+  // in-app browsers (Threads, Instagram, Facebook, LINE) run WebGL on a tight budget, so they start on the light setting
+  const inApp = /Barcelona|Instagram|FBAN|FBAV|FB_IAB|Line\//i.test(navigator.userAgent);
+  const quality = params.get("quality") || (inApp ? "low" : mobileMQ.matches || /Mobi|Android/i.test(navigator.userAgent) ? "medium" : "high");
+  if (quality === "low") document.body.classList.add("lowfx");
 
   // ---------- renderer / scene ----------
   const stage = $("#stage");
-  const renderer = new THREE.WebGLRenderer({ antialias: true, powerPreference: "high-performance", preserveDrawingBuffer: debug });
-  renderer.setPixelRatio(Math.min(devicePixelRatio, quality === "high" ? 1.75 : 1.35));
+  const renderer = new THREE.WebGLRenderer({ antialias: quality !== "low", powerPreference: "high-performance", preserveDrawingBuffer: debug });
+  let pixelRatio = Math.min(devicePixelRatio, quality === "high" ? 1.75 : quality === "medium" ? 1.35 : 1);
+  renderer.setPixelRatio(pixelRatio);
   renderer.outputColorSpace = THREE.SRGBColorSpace;
   renderer.toneMapping = THREE.ACESFilmicToneMapping;
   renderer.toneMappingExposure = 1.0;
   renderer.shadowMap.enabled = true;
-  renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+  renderer.shadowMap.type = quality === "low" ? THREE.PCFShadowMap : THREE.PCFSoftShadowMap;
+  // on the light setting the shadow map is redrawn every few frames instead of every frame
+  if (quality === "low") renderer.shadowMap.autoUpdate = false;
   stage.appendChild(renderer.domElement);
   const labelRenderer = new CSS2DRenderer();
   labelRenderer.domElement.className = "labels";
@@ -1223,6 +1229,32 @@ try {
   $("#loading").classList.add("done");
   setTimeout(() => $("#loading").remove(), 900);
 
+  // if a phone still can't keep up, step the render resolution down (to 1, or 0.75 on the light setting) and drop the glass blur
+  let shadowTick = 0,
+    slowT = 0,
+    slowN = 0,
+    settle = 3;
+  function adapt(raw) {
+    if (document.hidden || raw > 0.5) return; // tab switches and stalls are not slowness
+    settle -= raw;
+    if (settle > 0) return; // ignore the first seconds while everything warms up
+    slowT += raw;
+    slowN++;
+    if (slowT < 2) return;
+    const fps = slowN / slowT;
+    slowT = slowN = 0;
+    // under 28 fps, not 30, so a phone in power-saving mode (capped at 30) is left alone
+    const floor = quality === "low" ? 0.75 : 1;
+    if (fps < 28 && pixelRatio > floor) {
+      pixelRatio = Math.max(floor, +(pixelRatio - 0.25).toFixed(2));
+      renderer.setPixelRatio(pixelRatio);
+      resize();
+      document.body.classList.add("lowfx");
+      renderer.shadowMap.autoUpdate = false;
+      settle = 1.5;
+    }
+  }
+
   function frame() {
     requestAnimationFrame(frame);
     const raw = clock.getDelta(),
@@ -1277,8 +1309,10 @@ try {
       if (guns.isGun(ray) || ray.intersectObject(lumama.hit, false).length || memes.isHit(ray) || (!state.hover && (shore.isShore(ray) || treeEgg.isTree(ray) || (env.ship && ray.intersectObject(env.ship, true).length)))) renderer.domElement.style.cursor = "pointer";
       pointer = null;
     }
+    if (!renderer.shadowMap.autoUpdate && ++shadowTick % 6 === 0) renderer.shadowMap.needsUpdate = true;
     renderer.render(scene, camera);
     labelRenderer.render(scene, camera);
+    adapt(raw);
     if (debug) {
       fpsN++;
       fpsT += dt;

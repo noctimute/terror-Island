@@ -42,7 +42,8 @@ export function createEnvironment(THREE, { scene, renderer, centers, bounds, qua
     ring = shape.mountains === "ring";
   const rng = mulberry(20261031);
   const noise = new SimplexNoise({ random: rng });
-  const high = quality === "high";
+  const high = quality === "high",
+    low = quality === "low";
   const group = new THREE.Group();
   group.name = "environment";
   scene.add(group);
@@ -91,7 +92,7 @@ export function createEnvironment(THREE, { scene, renderer, centers, bounds, qua
   const hemi = new THREE.HemisphereLight(0xffffff, 0x444444, 1);
   const sun = new THREE.DirectionalLight(0xffffff, 2);
   sun.castShadow = true;
-  sun.shadow.mapSize.set(high ? 2048 : 1024, high ? 2048 : 1024);
+  sun.shadow.mapSize.set(high ? 2048 : low ? 768 : 1024, high ? 2048 : low ? 768 : 1024);
   const sc = sun.shadow.camera;
   sc.left = -22;
   sc.right = 22;
@@ -113,7 +114,7 @@ export function createEnvironment(THREE, { scene, renderer, centers, bounds, qua
   };
   const coastAt = hasSea ? (z) => bounds.minX - 2.6 + noise.noise(z * 0.08, 3.1) * 1.4 : () => -1e9;
   const SIZE = 170,
-    SEG = high ? 200 : 130;
+    SEG = high ? 200 : low ? 96 : 130;
   const tGeo = new THREE.PlaneGeometry(SIZE, SIZE, SEG, SEG);
   tGeo.rotateX(-Math.PI / 2);
   const pos = tGeo.attributes.position;
@@ -264,7 +265,7 @@ export function createEnvironment(THREE, { scene, renderer, centers, bounds, qua
 
   // ---- trees: pines on the mountains, round trees on the plain, dead trees near the city ----
   const trees = { pine: [], round: [], dead: [] };
-  const want = high ? 1700 : 850;
+  const want = high ? 1700 : low ? 520 : 850;
   for (let tries = 0; tries < want * 6 && trees.pine.length + trees.round.length + trees.dead.length < want; tries++) {
     const x = (rng() - 0.5) * SIZE * 0.82,
       z = (rng() - 0.5) * SIZE * 0.82;
