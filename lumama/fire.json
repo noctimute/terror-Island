@@ -759,6 +759,11 @@
      "title": "快訊／台中工廠晚間火警！廠房一片焦黑 男員工無生命跡象",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20210619/2010978.htm"
+    },
+    {
+     "title": "台中工廠火警1死救出時已無生命跡象",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/yM2OKy"
     }
    ]
   },
@@ -892,11 +897,6 @@
      "url": "https://www.ettoday.net/news/20210419/1963077.htm"
     },
     {
-     "title": "台中民宅暗夜惡火 3童命喪火窟",
-     "outlet": "LINE TODAY（轉載）",
-     "url": "https://today.line.me/tw/v3/article/zpymz7"
-    },
-    {
      "title": "[新聞] 台中中華夜市深夜惡火 2女1男童均宣告不治-寧威科技",
      "outlet": "niwei.com.tw",
      "url": "https://www.niwei.com.tw/news/ins.php?index_m_id=22&index_id=88"
@@ -925,6 +925,11 @@
      "title": "台中市中華路夜市民宅惡火 3童無生命跡象1男嗆傷",
      "outlet": "台視新聞",
      "url": "https://news.ttv.com.tw/news/11004190000100W"
+    },
+    {
+     "title": "台中民宅暗夜惡火 3童命喪火窟",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/zpymz7"
     },
     {
      "title": "台中大火3童死！女童父質疑「打火機釀禍」、煩惱怎麼賠償",
@@ -1652,7 +1657,7 @@
   },
   {
    "id": "fire-h20190529a",
-   "title": "燒死前老闆父親、大伯 油漆工李昆霖暫逃死",
+   "title": "2019/5/29 台中火災",
    "date": "2019-05-29",
    "place": "台中",
    "summary": "台中發生火警，一名男子罹難。",

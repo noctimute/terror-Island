@@ -585,6 +585,36 @@
      "title": "快訊／台中工人遭重物壓住！ 「頭頸斷裂」當場死亡",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20210712/2028405.htm"
+    },
+    {
+     "title": "快訊／被重物壓住！台中工人「頭頸斷裂」...當場死亡",
+     "outlet": "中天新聞網",
+     "url": "https://ctinews.com/news/items/BexXY9k7nb"
+    },
+    {
+     "title": "快訊／台中工人遭重物猛壓頭頸斷裂慘死",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/Ma3aJM"
+    },
+    {
+     "title": "台中工人遭重物猛壓頭頸斷裂慘死",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/external/ebc_269462"
+    },
+    {
+     "title": "台中大雅工地意外工人遭重物壓斷頭頸不治",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E5%A4%A7%E9%9B%85%E5%B7%A5%E5%9C%B0%E6%84%8F%E5%A4%96-%E5%B7%A5%E4%BA%BA%E9%81%AD%E9%87%8D%E7%89%A9%E5%A3%93%E6%96%B7%E9%A0%AD%E9%A0%B8%E4%B8%8D%E6%B2%BB-015531325.html"
+    },
+    {
+     "title": "快訊／台中工人遭重物猛壓頭頸斷裂慘死",
+     "outlet": "東森新聞",
+     "url": "https://news.ebc.net.tw/news/society/269462"
+    },
+    {
+     "title": "台中工人遭重物壓住不治",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202107120035.aspx"
     }
    ],
    "fear": [
@@ -603,6 +633,11 @@
      "title": "去年辦婚禮今年遇房屋倒塌！潭子苦命鴛鴦死裡逃生近況曝光",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20210707/2024735.htm"
+    },
+    {
+     "title": "潭子苦命鴛鴦租屋處倒塌各界獻愛關心",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/3594617"
     }
    ],
    "fear": [
@@ -621,6 +656,21 @@
      "title": "台中3歲童遭麻將桌夾胸亡 房東驚曝父母「一關鍵壞習慣」害命",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20210503/1973596.htm"
+    },
+    {
+     "title": "台中3歲童遭折疊桌夾胸亡房東曝父母「壞習慣」害命",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/934066"
+    },
+    {
+     "title": "3歲童玩摺疊桌遭夾胸送命！房東揭父母「一要命習慣」害命醫 ...",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/ZM3N0X"
+    },
+    {
+     "title": "折疊桌夾死人台中3歲男童遭桌夾胸殞命",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E6%8A%98%E7%96%8A%E6%A1%8C%E5%A4%BE%E6%AD%BB%E4%BA%BA-%E5%8F%B0%E4%B8%AD3%E6%AD%B2%E7%94%B7%E7%AB%A5%E9%81%AD%E6%A1%8C%E5%A4%BE%E8%83%B8%E6%AE%9E%E5%91%BD-153224484.html"
     }
    ],
    "fear": [
@@ -903,11 +953,6 @@
      "url": "https://www.ettoday.net/news/20190725/1498125.htm"
     },
     {
-     "title": "老農捲入耕耘機亡...妻崩潰痛哭，中市府：若投保農職災有30月津貼 - a885勞動生活法律網",
-     "outlet": "a885.com.tw",
-     "url": "https://www.a885.com.tw/m/2001-1159-825401,c22374-1.php"
-    },
-    {
      "title": "老農透早耕田出意外 捲入耕耘機身亡",
      "outlet": "LINE TODAY（轉載）",
      "url": "https://today.line.me/tw/v3/article/YO6EE8"
@@ -921,6 +966,11 @@
      "title": "疑駕駛不慎 老農遭耕耘機捲死",
      "outlet": "中時新聞網",
      "url": "https://www.chinatimes.com/realtimenews/20190725001693-260402"
+    },
+    {
+     "title": "老農捲入耕耘機亡...妻崩潰痛哭，中市府：若投保農職災有30月津貼 - a885勞動生活法律網",
+     "outlet": "a885.com.tw",
+     "url": "https://www.a885.com.tw/m/2001-1159-825401,c22374-1.php"
     }
    ],
    "fear": [
