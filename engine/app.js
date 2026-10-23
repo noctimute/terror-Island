@@ -1077,6 +1077,35 @@ try {
     if (last) startTour();
   });
   $("#help").addEventListener("click", () => showIntro(0));
+  // 文字大小：讀者自選百分比，記在這個瀏覽器
+  const FS_KEY = "terror-island-fs",
+    FS_STEPS = [80, 90, 100, 115, 130, 150],
+    fsPop = $("#fs-pop"),
+    fsOpen = $("#fs-open");
+  function setFs(pct) {
+    document.documentElement.style.setProperty("--fs", pct / 100);
+    fsPop.querySelectorAll("button").forEach((b) => b.setAttribute("aria-pressed", +b.dataset.fs === pct));
+  }
+  fsPop.insertAdjacentHTML("beforeend", FS_STEPS.map((p) => `<button data-fs="${p}">${p}%</button>`).join(""));
+  setFs(FS_STEPS.includes(+store.get(FS_KEY)) ? +store.get(FS_KEY) : 100);
+  fsPop.addEventListener("click", (e) => {
+    const b = e.target.closest("button[data-fs]");
+    if (!b) return;
+    setFs(+b.dataset.fs);
+    store.set(FS_KEY, b.dataset.fs);
+  });
+  fsOpen.addEventListener("click", () => {
+    fsPop.hidden = !fsPop.hidden;
+    fsOpen.setAttribute("aria-expanded", !fsPop.hidden);
+  });
+  document.addEventListener("pointerdown", (e) => {
+    if (!fsPop.hidden && !e.target.closest(".fs-wrap")) {
+      fsPop.hidden = true;
+      fsOpen.setAttribute("aria-expanded", "false");
+    }
+  });
+  addEventListener("keydown", (e) => e.key === "Escape" && (fsPop.hidden = true));
+
   // 關於作者
   const about = $("#about");
   $("#about-open").addEventListener("click", () => {
