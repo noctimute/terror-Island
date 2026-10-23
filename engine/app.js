@@ -9,6 +9,7 @@ import { sfx } from "./sfx.js?v=7";
 import { createShore } from "./shore.js?v=1";
 import { createTreeEgg } from "./treeegg.js?v=2";
 import { createMemes } from "./memes.js?v=9";
+import { createEggs } from "./eggs.js?v=2";
 import { icon, skulls } from "./icons.js?v=1";
 
 const $ = (s) => document.querySelector(s),
@@ -300,11 +301,14 @@ try {
   });
 
   createMusic($("#music-toggle"));
-  const lumama = createLumama(THREE, { scene, centers: [...centers.values()], CSS2DObject, rng: mulberry(7), onCelebrate: sfx.lumama });
-  const shore = createShore({ hits: env.shoreHits || [], onWhisper: sfx.shore });
-  const treeEgg = createTreeEgg(THREE, { scene, CSS2DObject, pines: env.pines, onClick: sfx.tree });
-  const memes = createMemes(THREE, { scene, centers: [...centers.values()], bounds: zoneBox, nests: [centers.get("dadu"), centers.get("houli")], westEndZ: D.meta.terrain?.harbour && centers.get(D.meta.terrain.harbour) ? centers.get(D.meta.terrain.harbour).z - S * 0.9 : undefined, outer: new THREE.Box3().setFromPoints([...allCenters.values()].map((c) => new THREE.Vector3(c.x, 0, c.z))), say: treeEgg.say, CSS2DObject, groundAt: (x, z) => env.heightAtTerrain(x, z) - 0.03, sfx });
-  const guns = createGuns(THREE, { scene, centers: [...centers.values()], CSS2DObject, rng: Math.random, groundAt: (x, z) => env.heightAtTerrain(x, z) - 0.03, blocked: [...allCenters.values()], hud: $("#gun-hud"), onCollect: (left) => sfx.gun(!left), onReset: sfx.reset });
+  const eggs = createEggs({ root: $("#eggs") });
+  // each easter egg reports itself once to the tracker, then plays its sound as before
+  const egg = (k, fn) => (...a) => (eggs.found(k), fn?.(...a));
+  const lumama = createLumama(THREE, { scene, centers: [...centers.values()], CSS2DObject, rng: mulberry(7), onCelebrate: egg("lumama", sfx.lumama) });
+  const shore = createShore({ hits: env.shoreHits || [], onWhisper: egg("shore", sfx.shore) });
+  const treeEgg = createTreeEgg(THREE, { scene, CSS2DObject, pines: env.pines, onClick: egg("tree", sfx.tree) });
+  const memes = createMemes(THREE, { scene, centers: [...centers.values()], bounds: zoneBox, nests: [centers.get("dadu"), centers.get("houli")], westEndZ: D.meta.terrain?.harbour && centers.get(D.meta.terrain.harbour) ? centers.get(D.meta.terrain.harbour).z - S * 0.9 : undefined, outer: new THREE.Box3().setFromPoints([...allCenters.values()].map((c) => new THREE.Vector3(c.x, 0, c.z))), say: treeEgg.say, CSS2DObject, groundAt: (x, z) => env.heightAtTerrain(x, z) - 0.03, sfx: { ...sfx, bus: egg("bus", sfx.bus), stop: egg("stop", sfx.stop), jam: egg("jam", sfx.jam), rats: egg("rats", sfx.rats), shutter: egg("camera", sfx.shutter), tbm: egg("tbm", sfx.tbm) } });
+  const guns = createGuns(THREE, { scene, centers: [...centers.values()], CSS2DObject, rng: Math.random, groundAt: (x, z) => env.heightAtTerrain(x, z) - 0.03, blocked: [...allCenters.values()], hud: $("#gun-hud"), onCollect: egg("gun", (left) => sfx.gun(!left)), onReset: sfx.reset });
 
   // ---------- camera ----------
   let fly = null;
@@ -604,6 +608,7 @@ try {
     $("#dlc").hidden = true;
     dlcUnlocked = true;
     dlcLocks();
+    eggs.found("dlc");
     sfx.dlc();
     const id = dlcTarget;
     zoneView(id);
@@ -1002,6 +1007,7 @@ try {
     if (!id && treeEgg.tryClick(ray)) return;
     if (!id && env.ship && ray.intersectObject(env.ship, true).length) {
       sfx.island("port");
+      eggs.found("ship");
       return treeEgg.say(env.ship.getWorldPosition(new THREE.Vector3()).add(new THREE.Vector3(0, 1.5, 0)), "曾參與共軍演習的香港船<br>停靠台中港");
     }
     if (id) {
