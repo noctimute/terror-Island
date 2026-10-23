@@ -150,6 +150,12 @@ const ISLAND = {
     tone({ type: "triangle", f0: 1568, at: 0.35, dur: 0.5, vol: 0.1 });
     tone({ type: "triangle", f0: 2093, at: 0.45, dur: 0.6, vol: 0.08 });
   },
+  // 火燒山島: brush crackling, a low whoosh of flame, then a helicopter's rotor thumping past
+  dakeng() {
+    for (let i = 0; i < 9; i++) noise({ at: Math.random() * 0.5, dur: 0.03, vol: 0.2, freq: 1500 + Math.random() * 3000, q: 6 });
+    noise({ dur: 0.7, vol: 0.18, type: "lowpass", freq: 600, f1: 250 });
+    for (let i = 0; i < 6; i++) noise({ at: 0.25 + i * 0.09, dur: 0.06, vol: 0.12 * (1 - i / 7), type: "lowpass", freq: 180 });
+  },
 };
 
 export const sfx = {

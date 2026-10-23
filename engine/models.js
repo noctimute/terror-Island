@@ -156,6 +156,14 @@ export function createKit(THREE) {
 }
 
 // ---------- shared little builders ----------
+// surface height of 火燒山島's hill (three stacked half-ellipsoids centred at -0.1, -0.15)
+function hill_y(x, z) {
+  const layer = (cx, cz, y0, rx, ry, rz) => {
+    const u = ((x - cx) / rx) ** 2 + ((z - cz) / rz) ** 2;
+    return u < 1 ? y0 + ry * Math.sqrt(1 - u) : 0;
+  };
+  return Math.max(layer(-0.1, -0.15, 0, 1.15, 1.0, 0.95), layer(0.05, -0.2, 0.75, 0.75, 0.65, 0.625), layer(0.15, -0.25, 1.4, 0.4, 0.4, 0.35)) - 0.03;
+}
 function house(p, x, z, w, d, h, wall, roof, ry = 0, lit = C.warm) {
   const s = p.sub(x, 0, z, ry);
   s.box(0, h / 2, 0, w, h, d, wall);
@@ -1193,6 +1201,89 @@ export const MODELS = {
 
   // 購物島 (DLC)：a stage with a giant screen, a lottery drum spinning prize balls, a NT$10-million prize house with a gold bow,
   // giant red envelopes, shopping bags, a steaming hot pot (鍋烤節) and fireworks; a tarp with a padlock hides it all until unlocked
+  // 火燒山島：a hill burning up from the cemetery at its foot, half charred and half still green, a water-bucket helicopter circling
+  wildfireisle(p, rng) {
+    // the hill: stacked flattened domes, scorched on the west face
+    const hill = p.sub(-0.1, 0, -0.15);
+    hill.dome(0, 0, 0, 2.3, 2.0, 1.9, 0x4a3f33);
+    hill.dome(0.15, 0.75, -0.05, 1.5, 1.3, 1.25, 0x3d352c);
+    hill.dome(0.25, 1.4, -0.1, 0.8, 0.8, 0.7, 0x2f2924);
+    // the green side that has not burned yet (east), the scorched side with dead trunks (west)
+    for (const [x, z, sc] of [[0.85, -0.55, 0.8], [0.95, 0.05, 0.7], [0.7, 0.45, 0.65], [0.55, -0.95, 0.7], [1.1, -0.3, 0.6]]) pine(p.sub(x, hill_y(x, z), z), 0, 0, sc);
+    for (const [x, z, sc] of [[-0.75, -0.4, 0.9], [-0.5, 0.25, 0.8], [-0.95, 0.15, 0.7], [-0.3, -0.75, 0.75], [-0.15, 0.55, 0.7], [-0.6, -0.95, 0.6]]) {
+      const t = p.sub(x, hill_y(x, z), z, rng() * 6);
+      t.cyl(0, 0.25 * sc, 0, 0.06 * sc, 0.5 * sc, 0.06 * sc, C.black);
+      t.cyl(0.08 * sc, 0.42 * sc, 0, 0.03 * sc, 0.26 * sc, 0.03 * sc, C.black, { rz: -0.8 });
+    }
+    // glowing embers on the burned slope
+    const embers = [];
+    for (let i = 0; i < 9; i++) {
+      const x = -1.0 + rng() * 0.9, z = -0.9 + rng() * 1.5;
+      const e = p.dyn(x, hill_y(x, z) + 0.01, z);
+      embers.push({ m: e.ico(0, 0, 0, 0.12, 0.04, 0.1, 0xff4a12, { glow: true, own: true }), ph: rng() * 6 });
+    }
+    // the fire line, creeping up between the burned and the green halves
+    const flames = [];
+    for (let i = 0; i < 11; i++) {
+      const z = -1.0 + i * 0.2, x = 0.15 + Math.sin(i * 1.7) * 0.2;
+      const f = p.dyn(x, hill_y(x, z), z);
+      const m = f.cone(0, 0.26, 0, 0.3, 0.55, 0.3, i % 2 ? 0xff6a1a : 0xffc23a, { glow: true, own: true });
+      flames.push({ n: f.node, m, ph: rng() * 6 });
+    }
+    const smoke = [];
+    for (let i = 0; i < 10; i++) {
+      const sm = p.dyn(0.2, 1.5, -0.2);
+      sm.sphere(0, 0, 0, 0.36, 0.3, 0.36, i % 3 ? 0x3a3532 : 0x5a524c);
+      smoke.push({ n: sm.node, ph: i / 10, dx: (rng() - 0.5) * 0.6, dz: (rng() - 0.5) * 0.9 });
+    }
+    // the cemetery at the foot of the hill, where tomb-sweeping fires so often start
+    const cm = p.sub(-0.45, 0, 1.05);
+    for (let r = 0; r < 2; r++)
+      for (let c = 0; c < 5; c++) {
+        cm.box(-0.5 + c * 0.25, 0.05, r * 0.24, 0.18, 0.1, 0.14, C.dstone);
+        cm.box(-0.5 + c * 0.25, 0.16, r * 0.24 - 0.05, 0.14, 0.18, 0.03, c % 2 ? C.stone : C.bone);
+      }
+    const joss = cm.dyn(0.55, 0.06, 0.12);
+    joss.cyl(0, 0, 0, 0.16, 0.12, 0.16, 0x5a4a3a);
+    const jflame = joss.cone(0, 0.12, 0, 0.12, 0.18, 0.12, 0xffa23a, { glow: true, own: true });
+    // a bare firebreak strip
+    p.box(0.55, 0.012, 0.75, 1.0, 0.02, 0.16, 0xa88a5a, { ry: -0.5 });
+    // water-bucket helicopter circling the fire
+    const heli = p.dyn(0, 2.6, 0);
+    heli.rbox(0, 0, 0, 0.5, 0.2, 0.2, 0xc8c2b4);
+    heli.box(0.32, 0.02, 0, 0.36, 0.06, 0.06, 0xc8c2b4);
+    heli.box(0.5, 0.1, 0, 0.04, 0.16, 0.03, 0xc21f1f);
+    heli.box(-0.12, 0.03, 0.105, 0.16, 0.08, 0.01, C.glass);
+    const rotor = heli.dyn(0, 0.14, 0);
+    rotor.box(0, 0, 0, 0.9, 0.01, 0.05, C.black);
+    rotor.box(0, 0, 0, 0.05, 0.01, 0.9, C.black);
+    heli.cyl(0, -0.3, 0, 0.005, 0.4, 0.005, C.black);
+    heli.cyl(0, -0.55, 0, 0.12, 0.14, 0.12, 0xd96a1a);
+    const drop = heli.dyn(0, -0.65, 0);
+    const water = drop.cyl(0, -0.5, 0, 0.06, 1.0, 0.06, 0x8fc6ff, { glow: true, own: true });
+    p.anim((t) => {
+      flames.forEach((f) => {
+        f.n.scale.set(1, 0.7 + Math.sin(t * 9 + f.ph) * 0.25 + Math.sin(t * 21 + f.ph) * 0.1, 1);
+        f.m.material.userData.flick = 0.8 + Math.sin(t * 13 + f.ph) * 0.2;
+      });
+      embers.forEach((e) => (e.m.material.userData.flick = 0.55 + Math.sin(t * 3 + e.ph) * 0.35));
+      jflame.material.userData.flick = 0.8 + Math.sin(t * 17) * 0.2;
+      smoke.forEach((sm) => {
+        const k = (t * 0.16 + sm.ph) % 1;
+        sm.n.position.set(0.2 + sm.dx * k - k * 0.5, 1.3 + k * 2.0, -0.2 + sm.dz * k);
+        sm.n.scale.setScalar(0.4 + k * 1.4);
+      });
+      // a slow loop over the hill; it drops water while passing over the fire line
+      const a = t * 0.35;
+      heli.node.position.set(Math.cos(a) * 0.9 + 0.1, 2.6 + Math.sin(t * 1.3) * 0.05, Math.sin(a) * 0.8 - 0.15);
+      heli.node.rotation.y = -a - Math.PI / 2;
+      rotor.node.rotation.y = t * 30;
+      drop.node.visible = Math.cos(a) > 0.2 && Math.cos(a) < 0.95;
+      water.material.userData.flick = 0.6 + Math.sin(t * 25) * 0.2;
+    });
+    return { mist: 3, mistY: 0.3 };
+  },
+
   shopisle(p, rng) {
     // stage with a big glowing screen and spotlights
     const st = p.sub(-0.75, 0, -0.55);
