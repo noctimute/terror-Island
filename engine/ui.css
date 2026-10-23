@@ -425,6 +425,11 @@ body.frozen .mascot .face { animation-play-state: paused; }
 .about-box h3 { margin: 22px 0 8px; font-size: 13px; color: var(--muted); }
 .about-handle { display: inline-block; margin-bottom: 14px; padding: 6px 12px; border-radius: 999px; background: var(--ink); color: #fff; font-size: 13px; text-decoration: none; }
 .about-box blockquote { margin: 0; padding: 4px 0 4px 14px; border-left: 3px solid var(--accent2); font: 600 15px/1.9 var(--serif); color: var(--ink); }
+.about-box { max-height: calc(100dvh - 36px); overflow-y: auto; overscroll-behavior: contain; }
+.about-press { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.about-press a { display: block; padding: 10px 12px; border: 1px solid var(--line); border-radius: 10px; background: #fff; color: var(--ink); font-size: 13px; line-height: 1.6; text-decoration: none; }
+.about-press a:hover { border-color: var(--accent2); }
+.about-press small { display: block; color: var(--muted); font-size: 11px; }
 .about-follow { display: inline-flex; align-items: center; border: 1px solid var(--line); background: #fff; border-radius: 10px; height: 44px; padding: 0 16px; font-size: 14px; color: inherit; text-decoration: none; }
 
 /* 海邊的肉粽: a pale, bleeding whisper and the screen edges closing in */
