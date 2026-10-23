@@ -583,20 +583,15 @@ try {
   }
   const selectZone = (id, o) => (zoneById.get(id)?.dlc && !dlcOpen() ? openDlc(id) : setSel({ type: "zone", id, zone: id }, o));
 
-  // ---------- 購物島 DLC: locked under a tarp until the viewer "buys" it (free, per browser) ----------
-  const DLC_KEY = "terror-island-dlc";
-  const dlcOpen = () => {
-    try {
-      return localStorage.getItem(DLC_KEY) === "1";
-    } catch {
-      return dlcUnlocked;
-    }
-  };
+  // ---------- 購物島 DLC: locked under a tarp until the viewer "buys" it; kept only in memory, so every reload locks it again ----------
+  try {
+    localStorage.removeItem("terror-island-dlc"); // an earlier version remembered the unlock
+  } catch {}
   let dlcUnlocked = false,
     dlcTarget = null,
     dlcLift = null;
+  const dlcOpen = () => dlcUnlocked;
   const dlcLocks = () => $$(".chip .dlc-lock").forEach((e) => (e.hidden = dlcOpen()));
-  if (dlcOpen()) for (const c of covers.values()) c.userData.lift = 1;
   dlcLocks();
   function openDlc(id) {
     dlcTarget = id;
@@ -608,9 +603,6 @@ try {
   $("#dlc-buy").addEventListener("click", () => {
     $("#dlc").hidden = true;
     dlcUnlocked = true;
-    try {
-      localStorage.setItem(DLC_KEY, "1");
-    } catch {}
     dlcLocks();
     sfx.dlc();
     const id = dlcTarget;
