@@ -84,11 +84,10 @@ export function createLumama(THREE, { scene, centers, CSS2DObject, rng, onCelebr
   add(sph, noseMat, 0, -0.03, 0.245, [0.15, 0.13, 0.13], [0, 0, 0], head);
   add(sph, noseMat, 0, 0.03, 0.235, [0.06, 0.1, 0.06], [0, 0, 0], head);
   for (const x of [-0.035, 0.035]) add(sph, ink, x, -0.075, 0.272, [0.05, 0.028, 0.03], [0, 0, x > 0 ? -0.3 : 0.3], head);
-  add(sph, shade, 0, -0.095, 0.23, [0.16, 0.03, 0.04], [0, 0, 0], head);
-  // wide-open laugh: dark mouth, upper teeth, a lower lip
-  add(sph, mouthIn, 0, -0.165, 0.19, [0.17, 0.12, 0.08], [0, 0, 0], head);
-  add(new THREE.BoxGeometry(0.1, 0.03, 0.01), mat(0xffffff, { emissive: 0x777777 }), 0, -0.12, 0.236, [1, 1, 1], [0, 0, 0], head);
-  add(sph, shade, 0, -0.215, 0.2, [0.1, 0.02, 0.03], [0, 0, 0], head);
+  // wide-open laugh, set into the face rather than stuck on it, so from the side it doesn't read as a moustache
+  add(sph, mouthIn, 0, -0.175, 0.168, [0.14, 0.1, 0.05], [-0.25, 0, 0], head);
+  add(new THREE.BoxGeometry(0.075, 0.022, 0.01), mat(0xffffff, { emissive: 0x777777 }), 0, -0.147, 0.184, [1, 1, 1], [-0.35, 0, 0], head);
+  add(sph, shade, 0, -0.228, 0.165, [0.09, 0.018, 0.025], [-0.3, 0, 0], head);
   // shirt collar
   for (const x of [-0.06, 0.06]) add(new THREE.BoxGeometry(0.12, 0.05, 0.02), shirt, x, 0.64, 0.155, [1, 1, 1], [0, 0, x > 0 ? -0.5 : 0.5]);
   // a little drum hung in front of her, played with both hands

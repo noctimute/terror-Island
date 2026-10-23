@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Noto+Serif+TC:wght@700;900&display=swap">
 <base href="../engine/">
-<link rel="stylesheet" href="./ui.css?v=29">
+<link rel="stylesheet" href="./ui.css?v=30">
 <script type="importmap">{"imports":{"three":"./vendor/three/build/three.module.min.js","three/addons/":"./vendor/three/examples/jsm/"}}</script>
 </head>
 <body><main id="app" data-src="../lumama/data.json">
@@ -22,6 +22,7 @@
 <button id="tour-start" title="播放導覽"><svg class="tb-ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M5 3.5v9l7-4.5z"/></svg> 導覽</button>
 <button id="home" title="回到全景"><svg class="tb-ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M5 11 11 5M6 5h5v5"/></svg> 全景</button>
 <button id="sidebar-toggle" aria-expanded="true">☰ 清單</button>
+<button id="about-open" title="關於作者">作者</button>
 <button id="help" class="square" aria-label="操作說明">?</button>
 </nav>
 
@@ -101,7 +102,13 @@
 <div class="tour-controls"><span id="tour-time">00 / 64</span><button id="tour-pause">暫停</button><button id="tour-replay">重播</button><button id="tour-exit">離開</button></div>
 
 <div class="intro" id="intro" hidden><div class="intro-box" role="dialog" aria-modal="true" aria-labelledby="intro-title"><div class="eyebrow" id="intro-count">WELCOME, TAICHUNG / 01</div><h2 id="intro-title"></h2><p id="intro-body"></p><p class="intro-note" id="intro-note"></p><div class="intro-actions"><button id="intro-skip">略過</button><button id="intro-next" class="next">下一步 →</button></div></div></div>
+<div class="intro" id="about" hidden><div class="intro-box about-box" role="dialog" aria-modal="true" aria-labelledby="about-title"><div class="eyebrow">ABOUT THE AUTHOR</div><h2 id="about-title">關於作者</h2>
+<a class="about-handle" href="https://www.threads.com/@a728728728" target="_blank" rel="noopener">Threads　@a728728728 ↗</a>
+<p>網上第一個整理台中S亡列表<br>因而被台中市證明查水表中...</p>
+<h3>作者想說的話</h3>
+<blockquote>「在富裕時付出，並不足夠，堅持真理、正義得原則，並非只因其有利，更是因為，我們的良知，使我們不得不如此。」</blockquote>
+<div class="intro-actions"><a class="about-follow" href="https://www.threads.com/@a728728728" target="_blank" rel="noopener">前往脆</a><button id="about-close" class="next">關閉</button></div></div></div>
 <div id="loading" class="loading" role="status"><h2>TERROR</h2><p>正在載入事件…</p></div>
 <noscript><p class="nojs">這個互動地圖需要啟用 JavaScript 與 WebGL。</p></noscript>
 </main>
-<script type="module" src="./app.js?v=68"></script></body></html>
+<script type="module" src="./app.js?v=69"></script></body></html>

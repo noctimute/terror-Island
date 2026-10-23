@@ -2,7 +2,7 @@ import { TOP, WILD_TOP, layoutZones, buildCity, createHeightAt } from "./world.j
 import { createEnvironment, mulberry } from "./environment.js?v=2";
 import { createKit, MODELS, wildForest } from "./models.js?v=19";
 import { createPeople, flowCurve } from "./people.js?v=3";
-import { createLumama } from "./lumama.js?v=9";
+import { createLumama } from "./lumama.js?v=10";
 import { createGuns } from "./guns.js?v=11";
 import { createMusic } from "./music.js?v=1";
 import { sfx } from "./sfx.js?v=2";
@@ -991,6 +991,15 @@ try {
     if (last) startTour();
   });
   $("#help").addEventListener("click", () => showIntro(0));
+  // 關於作者
+  const about = $("#about");
+  $("#about-open").addEventListener("click", () => {
+    about.hidden = false;
+    $("#about-close").focus();
+  });
+  $("#about-close").addEventListener("click", () => (about.hidden = true));
+  about.addEventListener("click", (e) => e.target === about && (about.hidden = true));
+  addEventListener("keydown", (e) => e.key === "Escape" && (about.hidden = true));
 
   // ---------- tour ----------
   const cues = D.tour.cues,
