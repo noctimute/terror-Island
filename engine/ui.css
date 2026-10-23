@@ -491,3 +491,5 @@ body.touring .eggs { display: none; }
 .egg-done-text button { margin-left: auto; border: 0; border-radius: 999px; padding: 8px 18px; background: #f5f0e8; color: #111; font-weight: 700; cursor: pointer; }
 @keyframes eggfade { from { opacity: 0; } }
 @keyframes eggslam { from { transform: scale(1.25) rotate(-2deg); opacity: 0; } }
+.egg-reset { display: block; margin: 10px 0 0 auto; border: 1px solid rgba(255, 255, 255, 0.25); background: none; color: rgba(255, 255, 255, 0.6); border-radius: 999px; padding: 3px 10px; font-size: 11px; cursor: pointer; }
+.egg-reset:hover { color: #fff; border-color: #fff; }

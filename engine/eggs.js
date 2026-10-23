@@ -26,7 +26,7 @@ export function createEggs({ root, onFound }) {
   } catch {}
 
   root.innerHTML = `<button class="egg-pill" aria-expanded="false"><span class="egg-ico">🥚</span><span class="egg-count"></span></button>
-<div class="egg-panel" hidden><div class="egg-head"><b>彩蛋任務</b><span class="egg-left"></span></div><div class="egg-bar"><i></i></div><ul></ul></div>
+<div class="egg-panel" hidden><div class="egg-head"><b>彩蛋任務</b><span class="egg-left"></span></div><div class="egg-bar"><i></i></div><ul></ul><button class="egg-reset">歸零重找</button></div>
 <div class="egg-toast" aria-live="polite"></div>
 <div class="egg-done" hidden role="dialog" aria-modal="true" aria-label="彩蛋全破"><div class="egg-done-card"><img src="../lumama/eggs-done.jpg" alt="漫畫：「……我最討厭像你這樣直覺敏銳的小鬼」" width="800" height="800"><div class="egg-done-text"><small>ALL EASTER EGGS FOUND</small><b>彩蛋全破 ${EGGS.length} / ${EGGS.length}</b><button>關閉</button></div></div></div>`;
   const pill = root.querySelector(".egg-pill"),
@@ -55,7 +55,17 @@ export function createEggs({ root, onFound }) {
     ).join("");
   }
 
-  panel.addEventListener("click", (e) => e.target.closest(".egg-again") && showDone());
+  panel.addEventListener("click", (e) => {
+    if (e.target.closest(".egg-again")) showDone();
+    if (e.target.closest(".egg-reset") && confirm("彩蛋紀錄要全部歸零嗎？")) {
+      got.clear();
+      try {
+        localStorage.removeItem(KEY);
+      } catch {}
+      panel.hidden = true;
+      render(); // with nothing found the tracker hides itself again until the next egg
+    }
+  });
   pill.addEventListener("click", () => {
     panel.hidden = !panel.hidden;
     pill.setAttribute("aria-expanded", !panel.hidden);
