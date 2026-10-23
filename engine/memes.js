@@ -3,7 +3,7 @@
 // and a traffic-enforcement camera beside wobbly lane markings. Clicking one pops a line via `say`.
 import { S, hexVertex } from "./world.js?v=1";
 
-export function createMemes(THREE, { scene, centers, bounds, say, CSS2DObject, groundAt = () => 0, rng = Math.random, sfx = {} }) {
+export function createMemes(THREE, { scene, centers, bounds, outer, say, CSS2DObject, groundAt = () => 0, rng = Math.random, sfx = {} }) {
   const hits = []; // [mesh, handler]
   const V = (x, y, z) => new THREE.Vector3(x, y, z);
   const mat = (color, o = {}) => new THREE.MeshStandardMaterial({ color, roughness: 0.75, ...o });
@@ -82,48 +82,115 @@ export function createMemes(THREE, { scene, centers, bounds, say, CSS2DObject, g
     sfx.stop?.();
   });
 
-  // ---- 2. Route 74, jammed: an elevated road along the south edge with cars barely moving ----
+  // ---- 2. Route 74, jammed: like the real 台74 it wraps the city in a U (west, north, east), open to the south ----
   const hwy = new THREE.Group();
-  const hz = bounds.max.z + S * 1.7,
-    x0 = bounds.min.x - 3,
-    x1 = bounds.max.x + 3,
-    L = x1 - x0,
-    H = 0.95;
-  box(hwy, L, 0.1, 0.8, mat(0x5a5a62), (x0 + x1) / 2, H, hz);
-  box(hwy, L, 0.12, 0.04, mat(0x8a8a90), (x0 + x1) / 2, H + 0.1, hz + 0.4);
-  box(hwy, L, 0.12, 0.04, mat(0x8a8a90), (x0 + x1) / 2, H + 0.1, hz - 0.4);
-  for (let x = x0 + 0.6; x < x1; x += 1.8) box(hwy, 0.14, H, 0.14, mat(0x6e6e74), x, H / 2, hz);
-  for (let x = x0 + 0.3; x < x1; x += 0.5) box(hwy, 0.2, 0.005, 0.03, glow(0xe8e2c8), x, H + 0.055, hz);
-  // a green 74 gantry sign
-  const gx = (x0 + x1) / 2 - 2;
-  for (const dz of [-0.45, 0.45]) box(hwy, 0.04, 0.6, 0.04, mat(0x9aa0a8), gx, H + 0.35, hz + dz);
-  box(hwy, 0.04, 0.04, 0.94, mat(0x9aa0a8), gx, H + 0.65, hz);
-  box(hwy, 0.03, 0.26, 0.5, mat(0x1f7a3f), gx + 0.02, H + 0.52, hz);
-  const tag = document.createElement("div");
-  tag.innerHTML = `<span class="hwy-tag">74</span>`;
-  const tagObj = new CSS2DObject(tag);
-  tagObj.position.set(gx, H + 0.95, hz);
-  hwy.add(tagObj);
+  const o = outer || bounds,
+    m = S * 1.5,
+    Lx = o.min.x - m,
+    Rx = o.max.x + m,
+    Tz = o.min.z - m,
+    Bz = bounds.max.z + S * 0.6,
+    r = S * 1.2;
+  const route = new THREE.CatmullRomCurve3(
+    [
+      [Lx, Bz], [Lx, (Bz + Tz) / 2], [Lx, Tz + r], [Lx + r * 0.3, Tz + r * 0.3], [Lx + r, Tz],
+      [(Lx + Rx) / 2, Tz], [Rx - r, Tz], [Rx - r * 0.3, Tz + r * 0.3], [Rx, Tz + r], [Rx, (Bz + Tz) / 2], [Rx, Bz],
+    ].map(([x, z]) => V(x, 0, z)),
+    false,
+    "centripetal",
+  );
+  const L = route.getLength(),
+    N = Math.ceil(L / 0.3);
+  // deck height follows the ground loosely so it stays a viaduct over hills and the coast
+  const lift = [];
+  for (let i = 0; i <= N; i++) {
+    const p = route.getPointAt(i / N);
+    lift.push(Math.max(0.95, groundAt(p.x, p.z) + 0.75));
+  }
+  const smooth = lift.map((_, i) => {
+    let sum = 0,
+      n = 0;
+    for (let k = -6; k <= 6; k++) if (lift[i + k] != null) (sum += lift[i + k]), n++;
+    return sum / n;
+  });
+  const at = (u) => {
+    const p = route.getPointAt(Math.min(1, Math.max(0, u)));
+    const f = u * N,
+      i = Math.min(N - 1, Math.floor(f));
+    p.y = smooth[i] + (smooth[i + 1] - smooth[i]) * (f - i);
+    return p;
+  };
+  const dm = new THREE.Matrix4(),
+    dq = new THREE.Quaternion(),
+    up = V(0, 1, 0);
+  const place = (im, i, p, ang, sx = 1, sy = 1, sz = 1) => {
+    dq.setFromAxisAngle(up, ang);
+    dm.compose(p, dq, V(sx, sy, sz));
+    im.setMatrixAt(i, dm);
+  };
+  const unit = new THREE.BoxGeometry(1, 1, 1);
+  const deck = new THREE.InstancedMesh(unit, mat(0x5a5a62), N);
+  const rails = new THREE.InstancedMesh(unit, mat(0x8a8a90), N * 2);
+  const dashes = new THREE.InstancedMesh(unit, glow(0xe8e2c8), N);
+  const pillarCount = Math.floor(N / 6);
+  const pillars = new THREE.InstancedMesh(unit, mat(0x6e6e74), pillarCount);
+  const nrm = (u) => {
+    const t = route.getTangentAt(Math.min(1, Math.max(0, u)));
+    return { ang: -Math.atan2(t.z, t.x), nx: -t.z, nz: t.x };
+  };
+  for (let i = 0; i < N; i++) {
+    const u = (i + 0.5) / N,
+      p = at(u),
+      { ang, nx, nz } = nrm(u);
+    place(deck, i, p, ang, (L / N) * 1.05, 0.1, 0.8);
+    place(rails, i * 2, V(p.x + nx * 0.4, p.y + 0.1, p.z + nz * 0.4), ang, (L / N) * 1.05, 0.12, 0.04);
+    place(rails, i * 2 + 1, V(p.x - nx * 0.4, p.y + 0.1, p.z - nz * 0.4), ang, (L / N) * 1.05, 0.12, 0.04);
+    place(dashes, i, V(p.x, p.y + 0.055, p.z), ang, 0.18, 0.005, 0.03);
+  }
+  for (let i = 0; i < pillarCount; i++) {
+    const p = at((i * 6 + 3) / N),
+      g = groundAt(p.x, p.z);
+    place(pillars, i, V(p.x, (p.y + g) / 2, p.z), 0, 0.14, p.y - g, 0.14);
+  }
+  for (const im of [deck, rails, dashes, pillars]) hwy.add(im);
+  // green 74 signs on the west and east legs
+  for (const u of [0.12, 0.88]) {
+    const tag = document.createElement("div");
+    tag.innerHTML = `<span class="hwy-tag">74</span>`;
+    const obj = new CSS2DObject(tag);
+    obj.position.copy(at(u)).add(V(0, 0.55, 0));
+    hwy.add(obj);
+  }
   scene.add(hwy);
+  // the cars: two lanes bumper to bumper, as instanced bodies and cabins
+  const carCols = [0xc8102e, 0xf4f1ea, 0x2c6db5, 0x2b2b2b, 0xd9a520, 0x7f8c8d].map((c) => new THREE.Color(c));
   const cars = [];
-  const carCols = [0xc8102e, 0xf4f1ea, 0x2c6db5, 0x2b2b2b, 0xd9a520, 0x7f8c8d];
-  for (const lane of [-0.2, 0.2])
-    for (let i = 0; i * 0.42 < L; i++) {
-      const c = new THREE.Group();
-      box(c, 0.32, 0.1, 0.18, mat(carCols[Math.floor(rng() * carCols.length)]), 0, 0.07, 0);
-      box(c, 0.16, 0.08, 0.16, mat(0x2a2c38), -0.02, 0.15, 0);
-      box(c, 0.02, 0.04, 0.05, glow(0xff2a2a), lane > 0 ? 0.16 : -0.16, 0.08, 0.06);
-      box(c, 0.02, 0.04, 0.05, glow(0xff2a2a), lane > 0 ? 0.16 : -0.16, 0.08, -0.06);
-      c.position.set(0, H + 0.05, hz + lane);
-      hwy.add(c);
-      cars.push({ c, base: i * 0.42 + rng() * 0.08, dir: lane > 0 ? -1 : 1 });
-    }
+  for (const lane of [-0.2, 0.2]) for (let i = 0; i * 0.42 < L; i++) cars.push({ lane, base: i * 0.42 + rng() * 0.08, dir: lane > 0 ? -1 : 1 });
+  const bodies = new THREE.InstancedMesh(unit, new THREE.MeshStandardMaterial({ roughness: 0.6 }), cars.length);
+  const cabins = new THREE.InstancedMesh(unit, mat(0x2a2c38), cars.length);
+  cars.forEach((c, i) => bodies.setColorAt(i, carCols[Math.floor(rng() * carCols.length)]));
+  hwy.add(bodies, cabins);
   let crawl = 0;
+  const placeCars = () => {
+    cars.forEach((c, i) => {
+      const s = (((c.base + crawl * c.dir) % L) + L) % L,
+        u = s / L,
+        p = at(u),
+        { ang, nx, nz } = nrm(u),
+        a = ang + (c.dir > 0 ? 0 : Math.PI);
+      place(bodies, i, V(p.x + nx * c.lane, p.y + 0.12, p.z + nz * c.lane), a, 0.32, 0.1, 0.18);
+      place(cabins, i, V(p.x + nx * c.lane, p.y + 0.2, p.z + nz * c.lane), a, 0.16, 0.08, 0.16);
+    });
+    bodies.instanceMatrix.needsUpdate = cabins.instanceMatrix.needsUpdate = true;
+  };
+  placeCars();
+  for (const im of [deck, bodies, cabins]) im.computeBoundingSphere();
   const ETA = ["明年", "下個月", "退休前", "下輩子", "等捷運藍線通車"];
-  hitBox(hwy, L, 0.5, 1.0, (x0 + x1) / 2, H + 0.2, hz, (h) => {
+  const jam = (h) => {
     say(h.point.clone().add(V(0, 0.8, 0)), `距離目的地 3 公里<br>預計抵達：${ETA[Math.floor(rng() * ETA.length)]}`);
     sfx.jam?.();
-  });
+  };
+  for (const im of [deck, bodies, cabins]) hits.push([im, jam]);
 
   // ---- 3. the rat army: a pack that dashes along the roads every so often ----
   const ratMat = mat(0x6b6560),
@@ -288,11 +355,10 @@ export function createMemes(THREE, { scene, centers, bounds, say, CSS2DObject, g
     bus.visible = b.fade > 0.02;
 
     // 74: stop, creep a few centimetres, stop again
-    crawl += d * 0.08 * Math.pow(Math.max(0, Math.sin(t * 0.6)), 6);
-    for (const c of cars) {
-      const u = (((c.base + crawl * c.dir) % L) + L) % L;
-      c.c.position.x = x0 + u;
-      c.c.rotation.y = c.dir > 0 ? 0 : Math.PI;
+    const creep = d * 0.08 * Math.pow(Math.max(0, Math.sin(t * 0.6)), 6);
+    if (creep > 1e-5) {
+      crawl += creep;
+      placeCars();
     }
 
     // rats: wait, then dash along four road edges; scatter when clicked
