@@ -1,12 +1,13 @@
 import { TOP, WILD_TOP, layoutZones, buildCity, createHeightAt } from "./world.js?v=1";
-import { createEnvironment, mulberry } from "./environment.js?v=3";
+import { createEnvironment, mulberry } from "./environment.js?v=4";
 import { createKit, MODELS, wildForest } from "./models.js?v=19";
 import { createPeople, flowCurve } from "./people.js?v=3";
 import { createLumama } from "./lumama.js?v=10";
 import { createGuns } from "./guns.js?v=11";
 import { createMusic } from "./music.js?v=1";
-import { sfx } from "./sfx.js?v=3";
+import { sfx } from "./sfx.js?v=4";
 import { createShore } from "./shore.js?v=1";
+import { createTreeEgg } from "./treeegg.js?v=1";
 import { icon, skulls } from "./icons.js?v=1";
 
 const $ = (s) => document.querySelector(s),
@@ -298,6 +299,7 @@ try {
   createMusic($("#music-toggle"));
   const lumama = createLumama(THREE, { scene, centers: [...centers.values()], CSS2DObject, rng: mulberry(7), onCelebrate: sfx.lumama });
   const shore = createShore({ hits: env.shoreHits || [], onWhisper: sfx.shore });
+  const treeEgg = createTreeEgg(THREE, { scene, CSS2DObject, pines: env.pines, onClick: sfx.tree });
   const guns = createGuns(THREE, { scene, centers: [...centers.values()], CSS2DObject, rng: Math.random, groundAt: (x, z) => env.heightAtTerrain(x, z) - 0.03, blocked: [...allCenters.values()], hud: $("#gun-hud"), onCollect: (left) => sfx.gun(!left), onReset: sfx.reset });
 
   // ---------- camera ----------
@@ -954,6 +956,7 @@ try {
     if (ray.intersectObject(lumama.hit, false).length) return lumama.celebrate();
     if (state.tour) return;
     if (!id && shore.tryWhisper(ray)) return;
+    if (!id && treeEgg.tryClick(ray)) return;
     if (id) {
       sfx.island(id);
       selectZone(id);
@@ -1182,6 +1185,7 @@ try {
     lumama.update(at, frozen ? 0 : dt);
     guns.update(dt, at);
     shore.update(dt);
+    treeEgg.update(dt);
     city.lamps.mat.color.setHex(0xffd38a).multiplyScalar(0.25 + envCtx.night * 1.6);
     const cy = currentCycle();
     for (const [id, g] of city.glows) g.material.opacity = cy.zones.includes(id) ? (0.32 + Math.sin(at * 2.4) * 0.14) * (0.5 + envCtx.night * 0.5) : 0;
@@ -1189,7 +1193,7 @@ try {
     if (!state.tour && !frozen) ambientLog(dt);
     if (pointer && !fly) {
       setHover(pick(pointer));
-      if (guns.isGun(ray) || ray.intersectObject(lumama.hit, false).length || (!state.hover && shore.isShore(ray))) renderer.domElement.style.cursor = "pointer";
+      if (guns.isGun(ray) || ray.intersectObject(lumama.hit, false).length || (!state.hover && (shore.isShore(ray) || treeEgg.isTree(ray)))) renderer.domElement.style.cursor = "pointer";
       pointer = null;
     }
     renderer.render(scene, camera);

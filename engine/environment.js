@@ -300,7 +300,7 @@ export function createEnvironment(THREE, { scene, renderer, centers, bounds, qua
     o.scale.setScalar(t.s);
     o.rotation.set(0, t.r, 0);
   });
-  instanced(new THREE.ConeGeometry(0.34, 1.1, 6), pineMat, trees.pine, (o, t) => {
+  const pines = instanced(new THREE.ConeGeometry(0.34, 1.1, 6), pineMat, trees.pine, (o, t) => {
     o.position.set(t.x, t.y + 0.85 * t.s, t.z);
     o.scale.set(t.s, t.s * (1 + (t.r % 1) * 0.4), t.s);
     o.rotation.set(0, t.r, 0);
@@ -409,7 +409,7 @@ export function createEnvironment(THREE, { scene, renderer, centers, bounds, qua
     }
   }
 
-  return { group, sun, hemi, state, setTime, update, addMist, heightAtTerrain, shoreHits };
+  return { group, sun, hemi, state, setTime, update, addMist, heightAtTerrain, shoreHits, pines };
 }
 
 function radialTexture(THREE, stops) {

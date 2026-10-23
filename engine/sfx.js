@@ -178,6 +178,14 @@ export const sfx = {
     thud(1.6, 0.35);
     thud(1.95, 0.25);
   },
+  // pine tree: branches rustling, then a chainsaw revving up in the distance
+  tree() {
+    ac();
+    for (let i = 0; i < 5; i++) noise({ at: i * 0.05, dur: 0.12, vol: 0.12, freq: 3500 + Math.random() * 2000, q: 1.5 });
+    tone({ type: "sawtooth", f0: 70, f1: 140, at: 0.35, dur: 0.7, vol: 0.06, glide: 0.4 });
+    tone({ type: "square", f0: 72, f1: 143, at: 0.35, dur: 0.7, vol: 0.03, glide: 0.4 });
+    noise({ at: 0.35, dur: 0.7, vol: 0.05, freq: 900, q: 2 });
+  },
   // Lumama: a slap on her drum and a shower of coins
   lumama() {
     ac();
