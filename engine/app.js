@@ -9,7 +9,7 @@ import { sfx } from "./sfx.js?v=7";
 import { createShore } from "./shore.js?v=1";
 import { createTreeEgg } from "./treeegg.js?v=2";
 import { createMemes } from "./memes.js?v=10";
-import { createEggs } from "./eggs.js?v=4";
+import { createEggs } from "./eggs.js?v=5";
 import { icon, skulls } from "./icons.js?v=1";
 
 const $ = (s) => document.querySelector(s),
