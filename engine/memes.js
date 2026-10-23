@@ -51,7 +51,7 @@ export function createMemes(THREE, { scene, centers, bounds, outer, westEndZ, ne
 
   // ---- 1. ghost bus ----
   const bus = new THREE.Group();
-  const ghostMat = new THREE.MeshStandardMaterial({ color: 0xcfe8ff, emissive: 0x6fa8d8, emissiveIntensity: 0.6, transparent: true, opacity: 0.5, depthWrite: false });
+  const ghostMat = new THREE.MeshStandardMaterial({ color: 0xcfe8ff, emissive: 0x7fc4ff, emissiveIntensity: 1.1, transparent: true, opacity: 0.8, depthWrite: false });
   const winMat = new THREE.MeshBasicMaterial({ color: 0xbff0ff, transparent: true, opacity: 0.8, toneMapped: false, depthWrite: false });
   box(bus, 1.0, 0.36, 0.36, ghostMat, 0, 0.24, 0);
   box(bus, 0.86, 0.1, 0.37, winMat, 0, 0.32, 0);
@@ -59,7 +59,9 @@ export function createMemes(THREE, { scene, centers, bounds, outer, westEndZ, ne
   const sign = box(bus, 0.3, 0.07, 0.01, glow(0xff9a3a), 0.35, 0.39, 0.19);
   sign.material.transparent = true;
   for (const x of [-0.32, 0.32]) for (const z of [-0.18, 0.18]) box(bus, 0.14, 0.14, 0.04, ghostMat, x, 0.07, z);
-  bus.scale.setScalar(0.9);
+  // headlights, so it reads as a bus from across the map even at night
+  for (const z of [-0.12, 0.12]) box(bus, 0.03, 0.06, 0.07, glow(0xfff2b0), 0.51, 0.13, z);
+  bus.scale.setScalar(1.7);
   scene.add(bus);
   const busState = { from: front[0], to: [...front[0].next][0], prev: null, k: 0, fade: 1, gone: 0 };
   hitBox(bus, 1.2, 0.6, 0.5, 0, 0.25, 0, (h) => {
@@ -382,8 +384,8 @@ export function createMemes(THREE, { scene, centers, bounds, outer, westEndZ, ne
     }
     bus.position.set(b.from.x + (b.to.x - b.from.x) * b.k, 0.02 + Math.sin(t * 2) * 0.03, b.from.z + (b.to.z - b.from.z) * b.k);
     bus.rotation.y = -Math.atan2(b.to.z - b.from.z, b.to.x - b.from.x);
-    const flick = 0.75 + Math.sin(t * 13) * 0.15 + (Math.sin(t * 3.1) > 0.95 ? -0.5 : 0);
-    ghostMat.opacity = 0.5 * b.fade * flick;
+    const flick = 0.85 + Math.sin(t * 13) * 0.1 + (Math.sin(t * 3.1) > 0.95 ? -0.45 : 0);
+    ghostMat.opacity = 0.8 * b.fade * flick;
     winMat.opacity = 0.8 * b.fade * flick;
     sign.material.opacity = b.fade;
     bus.visible = b.fade > 0.02;
