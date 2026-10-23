@@ -1,5 +1,5 @@
 import { TOP, WILD_TOP, layoutZones, buildCity, createHeightAt } from "./world.js?v=1";
-import { createEnvironment, mulberry } from "./environment.js?v=4";
+import { createEnvironment, mulberry } from "./environment.js?v=5";
 import { createKit, MODELS, wildForest } from "./models.js?v=19";
 import { createPeople, flowCurve } from "./people.js?v=3";
 import { createLumama } from "./lumama.js?v=10";
@@ -7,7 +7,7 @@ import { createGuns } from "./guns.js?v=11";
 import { createMusic } from "./music.js?v=1";
 import { sfx } from "./sfx.js?v=4";
 import { createShore } from "./shore.js?v=1";
-import { createTreeEgg } from "./treeegg.js?v=1";
+import { createTreeEgg } from "./treeegg.js?v=2";
 import { icon, skulls } from "./icons.js?v=1";
 
 const $ = (s) => document.querySelector(s),
@@ -957,6 +957,10 @@ try {
     if (state.tour) return;
     if (!id && shore.tryWhisper(ray)) return;
     if (!id && treeEgg.tryClick(ray)) return;
+    if (!id && env.ship && ray.intersectObject(env.ship, true).length) {
+      sfx.island("port");
+      return treeEgg.say(env.ship.getWorldPosition(new THREE.Vector3()).add(new THREE.Vector3(0, 1.5, 0)), "曾參與共軍演習的香港船<br>停靠台中港");
+    }
     if (id) {
       sfx.island(id);
       selectZone(id);
@@ -1193,7 +1197,7 @@ try {
     if (!state.tour && !frozen) ambientLog(dt);
     if (pointer && !fly) {
       setHover(pick(pointer));
-      if (guns.isGun(ray) || ray.intersectObject(lumama.hit, false).length || (!state.hover && (shore.isShore(ray) || treeEgg.isTree(ray)))) renderer.domElement.style.cursor = "pointer";
+      if (guns.isGun(ray) || ray.intersectObject(lumama.hit, false).length || (!state.hover && (shore.isShore(ray) || treeEgg.isTree(ray) || (env.ship && ray.intersectObject(env.ship, true).length)))) renderer.domElement.style.cursor = "pointer";
       pointer = null;
     }
     renderer.render(scene, camera);

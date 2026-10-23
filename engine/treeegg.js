@@ -20,18 +20,21 @@ export function createTreeEgg(THREE, { scene, CSS2DObject, pines, onClick }) {
     pines.getMatrixAt(id, m);
     m.decompose(p, q, sc);
     // one bubble per tree at a time
-    if (!pops.some((x) => x.id === id)) {
-      const wrap = document.createElement("div");
-      wrap.innerHTML = `<span class="tree-pop">${TEXT}</span>`;
-      const o = new CSS2DObject(wrap);
-      o.position.set(p.x, p.y + 0.9 * sc.y, p.z);
-      scene.add(o);
-      pops.push({ id, o, span: wrap.firstChild, age: 0 });
-    }
+    if (!pops.some((x) => x.id === id)) say(new THREE.Vector3(p.x, p.y + 0.9 * sc.y, p.z), TEXT, id);
     if (shake) pines.setMatrixAt(shake.id, shake.base);
     shake = { id, base: m.clone(), age: 0 };
     onClick?.();
     return true;
+  }
+
+  // a dark speech bubble over a point in the scene; also used for the ship in the harbour
+  function say(at, html, id = null) {
+    const wrap = document.createElement("div");
+    wrap.innerHTML = `<span class="tree-pop">${html}</span>`;
+    const o = new CSS2DObject(wrap);
+    o.position.copy(at);
+    scene.add(o);
+    pops.push({ id, o, span: wrap.firstChild, age: 0 });
   }
 
   function update(dt) {
@@ -63,5 +66,5 @@ export function createTreeEgg(THREE, { scene, CSS2DObject, pines, onClick }) {
     }
   }
 
-  return { tryClick, isTree: (ray) => !!hit(ray), update };
+  return { tryClick, isTree: (ray) => !!hit(ray), say, update };
 }

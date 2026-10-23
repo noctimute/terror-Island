@@ -176,6 +176,7 @@ export function createEnvironment(THREE, { scene, renderer, centers, bounds, qua
   // ---- shoreline: tetrapods (消波塊) along the coast, plus an optional moored ship at the harbour zone ----
   const bobbers = [];
   const shoreHits = [];
+  let shipObj = null;
   if (hasSea) {
     const arm = (dir) => new THREE.CylinderGeometry(0.02, 0.07, 0.2, 5).translate(0, 0.1, 0).applyMatrix4(new THREE.Matrix4().lookAt(new THREE.Vector3(), dir, new THREE.Vector3(0, 0, 1)).multiply(new THREE.Matrix4().makeRotationX(Math.PI / 2)));
     const tetraGeo = mergeSimple(THREE, [arm(new THREE.Vector3(0, 1, 0)), ...[0, 1, 2].map((i) => arm(new THREE.Vector3(Math.cos((i * Math.PI * 2) / 3) * 0.943, -0.333, Math.sin((i * Math.PI * 2) / 3) * 0.943)))]);
@@ -248,6 +249,7 @@ export function createEnvironment(THREE, { scene, renderer, centers, bounds, qua
       add(ship, B(0.18, 0.11, 0.01), m(0xc8102e), 1.45, 0.82, 0);
       group.add(ship);
       bobbers.push(ship);
+      shipObj = ship;
       // a coast-guard patrol boat alongside
       const cg = new THREE.Group();
       cg.position.set(coast - 1.6, WATER_Y, harbour.z + 1.0);
@@ -409,7 +411,7 @@ export function createEnvironment(THREE, { scene, renderer, centers, bounds, qua
     }
   }
 
-  return { group, sun, hemi, state, setTime, update, addMist, heightAtTerrain, shoreHits, pines };
+  return { group, sun, hemi, state, setTime, update, addMist, heightAtTerrain, shoreHits, pines, ship: shipObj };
 }
 
 function radialTexture(THREE, stops) {
