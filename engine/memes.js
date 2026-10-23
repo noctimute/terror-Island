@@ -3,7 +3,7 @@
 // and a traffic-enforcement camera beside wobbly lane markings. Clicking one pops a line via `say`.
 import { S, hexVertex } from "./world.js?v=1";
 
-export function createMemes(THREE, { scene, centers, bounds, say, CSS2DObject, rng = Math.random, sfx = {} }) {
+export function createMemes(THREE, { scene, centers, bounds, say, CSS2DObject, groundAt = () => 0, rng = Math.random, sfx = {} }) {
   const hits = []; // [mesh, handler]
   const V = (x, y, z) => new THREE.Vector3(x, y, z);
   const mat = (color, o = {}) => new THREE.MeshStandardMaterial({ color, roughness: 0.75, ...o });
@@ -185,6 +185,58 @@ export function createMemes(THREE, { scene, centers, bounds, say, CSS2DObject, r
     sfx.shutter?.();
   });
 
+  // ---- 5. the Blue Line's tunnel boring machine: parked in a fenced pit, rusting, cutter head not turning ----
+  const tbm = new THREE.Group();
+  const tx = bounds.max.x + S * 1.2,
+    tz = bounds.max.z - S * 0.2;
+  tbm.position.set(tx, groundAt(tx, tz), tz);
+  tbm.rotation.y = -0.5;
+  // the pit, its fence and a faded sign
+  box(tbm, 2.4, 0.04, 1.4, mat(0x4a3f36), 0, 0.01, 0);
+  for (let i = 0; i < 12; i++) {
+    const a = (i / 12) * Math.PI * 2;
+    box(tbm, 0.04, 0.3, 0.04, mat(0xd9a520), Math.cos(a) * 1.35, 0.15, Math.sin(a) * 0.85);
+  }
+  const rust = mat(0x8a5a3a, { roughness: 0.95 }),
+    blue = mat(0x2c6db5, { roughness: 0.6 });
+  const shell = new THREE.Mesh(new THREE.CylinderGeometry(0.42, 0.42, 1.7, 18).rotateZ(Math.PI / 2), blue);
+  shell.position.set(0, 0.42, 0);
+  tbm.add(shell);
+  for (const x of [-0.5, 0, 0.5]) {
+    const band = new THREE.Mesh(new THREE.CylinderGeometry(0.43, 0.43, 0.08, 18).rotateZ(Math.PI / 2), rust);
+    band.position.set(x, 0.42, 0);
+    tbm.add(band);
+  }
+  // cutter head: a disc with spokes and teeth
+  const head = new THREE.Group();
+  head.position.set(0.88, 0.42, 0);
+  const disc = new THREE.Mesh(new THREE.CylinderGeometry(0.46, 0.46, 0.08, 18).rotateZ(Math.PI / 2), rust);
+  head.add(disc);
+  for (let i = 0; i < 6; i++) {
+    const sp = box(head, 0.03, 0.86, 0.06, mat(0x5a4a40), 0.05, 0, 0);
+    sp.rotation.x = (i / 6) * Math.PI;
+  }
+  for (let i = 0; i < 10; i++) {
+    const a = (i / 10) * Math.PI * 2;
+    box(head, 0.06, 0.05, 0.05, mat(0x9aa0a8, { metalness: 0.5 }), 0.06, Math.cos(a) * 0.36, Math.sin(a) * 0.36);
+  }
+  tbm.add(head);
+  // cobwebs and weeds say how long it has been waiting
+  for (let i = 0; i < 6; i++) box(tbm, 0.03, 0.12 + rng() * 0.12, 0.03, mat(0x4e6b3a), -0.9 + rng() * 1.8, 0.08, 0.5 + rng() * 0.15);
+  box(tbm, 0.5, 0.26, 0.02, mat(0x9a9488), -0.5, 0.95, 0.2);
+  const tbmTag = document.createElement("div");
+  tbmTag.innerHTML = `<span class="hwy-tag tbm-tag">捷運藍線</span>`;
+  const tbmObj = new CSS2DObject(tbmTag);
+  tbmObj.position.set(0, 1.25, 0);
+  tbm.add(tbmObj);
+  scene.add(tbm);
+  let spin = 0;
+  hitBox(tbm, 2.2, 1.1, 1.2, 0.1, 0.45, 0, () => {
+    spin = 2.2; // the head lurches a quarter turn, coughs, and stops again
+    say(tbm.position.clone().add(V(0, 1.6, 0)), `中捷藍線<br>8 年沒動工 1 公分<br>預算再增 1300 億`);
+    sfx.tbm?.();
+  });
+
   // ---- shared click and update ----
   // the hit boxes themselves are invisible, so skip only those whose prop is hidden (the bus while gone, rats off-screen)
   const shown = (o) => {
@@ -291,6 +343,12 @@ export function createMemes(THREE, { scene, centers, bounds, say, CSS2DObject, r
     }
 
     camLed.visible = Math.sin(t * 5) > 0;
+
+    if (spin > 0) {
+      spin = Math.max(0, spin - Math.max(d, 1 / 60));
+      head.rotation.x += d * 3 * Math.min(1, spin) * (spin > 1.6 ? 1 : 0.4);
+      tbm.position.y = groundAt(tx, tz) + (spin > 0.6 ? Math.sin(t * 60) * 0.008 : 0);
+    }
   }
 
   return { tryClick, isHit: (ray) => !!hitTest(ray), update };

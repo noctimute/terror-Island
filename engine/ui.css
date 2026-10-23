@@ -435,3 +435,4 @@ body.dread::after { opacity: 1; }
 body::before { content: ""; position: fixed; inset: 0; background: #fff; opacity: 0; pointer-events: none; z-index: 8; }
 body.flash::before { animation: camflash 0.45s ease-out; }
 @keyframes camflash { 0% { opacity: 0.85; } 100% { opacity: 0; } }
+.tbm-tag { background: #2c6db5; }

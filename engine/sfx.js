@@ -231,6 +231,14 @@ export const sfx = {
     noise({ at: 0.06, dur: 0.04, vol: 0.3, freq: 1800, q: 2 });
     tone({ f0: 1800, f1: 4200, at: 0.08, dur: 0.4, vol: 0.03, glide: 0.35 });
   },
+  // the Blue Line boring machine: a motor groaning up, sputtering, and dying out
+  tbm() {
+    ac();
+    tone({ type: "sawtooth", f0: 40, f1: 90, dur: 1.0, vol: 0.12, glide: 0.8 });
+    tone({ type: "square", f0: 42, f1: 92, dur: 1.0, vol: 0.05, glide: 0.8 });
+    for (let i = 0; i < 4; i++) noise({ at: 0.9 + i * 0.18, dur: 0.1, vol: 0.25 - i * 0.05, type: "lowpass", freq: 600 });
+    tone({ type: "sawtooth", f0: 90, f1: 30, at: 1.0, dur: 1.2, vol: 0.08, glide: 1.1 });
+  },
   // Lumama: a slap on her drum and a shower of coins
   lumama() {
     ac();
