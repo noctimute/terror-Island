@@ -15,7 +15,7 @@
   color-scheme: light;
 }
 * { box-sizing: border-box; }
-html, body { margin: 0; height: 100%; overflow: hidden; }
+html, body { margin: 0; height: 100%; overflow: hidden; overscroll-behavior: none; }
 body {
   font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
   color: var(--ink);
@@ -31,7 +31,7 @@ button:focus-visible, input:focus-visible, select:focus-visible { outline: 2px s
 .ico { width: 18px; height: 18px; flex: none; }
 
 /* ---------- stage ---------- */
-#stage { position: fixed; top: 0; left: 0; bottom: 0; right: var(--side); transition: right 0.35s ease; overflow: hidden; }
+#stage { touch-action: none; position: fixed; top: 0; left: 0; bottom: 0; right: var(--side); transition: right 0.35s ease; overflow: hidden; }
 #stage canvas { display: block; touch-action: none; }
 .labels { position: absolute; inset: 0; pointer-events: none; }
 .chip {

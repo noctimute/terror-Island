@@ -154,6 +154,10 @@ try {
 
   const scene = new THREE.Scene();
   const camera = new THREE.PerspectiveCamera(34, 1, 0.1, 900);
+  // in-app webviews (Threads, Instagram) ignore touch-action and take a sideways swipe for their own page scroll or
+  // back gesture, cancelling the drag; claiming touchmove on the map keeps the gesture for the camera. touchstart is
+  // left alone so taps still turn into clicks.
+  stage.addEventListener("touchmove", (e) => e.cancelable && e.preventDefault(), { passive: false });
   const controls = new OrbitControls(camera, renderer.domElement);
   controls.enableDamping = true;
   controls.dampingFactor = 0.08;
