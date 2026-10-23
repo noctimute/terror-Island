@@ -250,6 +250,13 @@ export const sfx = {
     for (let i = 0; i < 4; i++) noise({ at: 0.9 + i * 0.18, dur: 0.1, vol: 0.25 - i * 0.05, type: "lowpass", freq: 600 });
     tone({ type: "sawtooth", f0: 90, f1: 30, at: 1.0, dur: 1.2, vol: 0.08, glide: 1.1 });
   },
+  // 谷關空氣: a lid twisting open, a pop, and a sigh of nothing
+  air() {
+    ac();
+    noise({ dur: 0.12, vol: 0.12, freq: 2500, q: 3 });
+    tone({ f0: 620, f1: 240, at: 0.14, dur: 0.12, vol: 0.2, glide: 0.1 });
+    noise({ at: 0.2, dur: 0.9, vol: 0.08, type: "lowpass", freq: 900 });
+  },
   // Lumama: a slap on her drum and a shower of coins
   lumama() {
     ac();

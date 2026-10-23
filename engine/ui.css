@@ -494,6 +494,7 @@ body.touring .eggs { display: none; }
 .egg-done-text { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; padding: 12px 14px; color: #f5f0e8; }
 .egg-done-text small { flex-basis: 100%; font: 700 calc(10px * var(--fs)) ui-monospace, monospace; letter-spacing: 0.2em; color: #f2c94c; }
 .egg-done-text b { font: 900 calc(20px * var(--fs)) var(--serif); letter-spacing: 0.06em; }
+.egg-done-text p { flex-basis: 100%; margin: 0; font-size: calc(13px * var(--fs)); line-height: 1.7; color: #cfc8bc; }
 .egg-done-text button { margin-left: auto; border: 0; border-radius: 999px; padding: 8px 18px; background: #f5f0e8; color: #111; font-weight: 700; cursor: pointer; }
 @keyframes eggfade { from { opacity: 0; } }
 @keyframes eggslam { from { transform: scale(1.25) rotate(-2deg); opacity: 0; } }

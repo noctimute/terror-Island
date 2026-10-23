@@ -5,11 +5,11 @@ import { createPeople, flowCurve } from "./people.js?v=3";
 import { createLumama } from "./lumama.js?v=10";
 import { createGuns } from "./guns.js?v=11";
 import { createMusic } from "./music.js?v=1";
-import { sfx } from "./sfx.js?v=9";
+import { sfx } from "./sfx.js?v=10";
 import { createShore } from "./shore.js?v=1";
 import { createTreeEgg } from "./treeegg.js?v=2";
 import { createMemes } from "./memes.js?v=10";
-import { createEggs } from "./eggs.js?v=6";
+import { createEggs } from "./eggs.js?v=7";
 import { icon, skulls } from "./icons.js?v=1";
 
 const $ = (s) => document.querySelector(s),
@@ -313,10 +313,10 @@ try {
   });
 
   createMusic($("#music-toggle"));
-  const eggs = createEggs({ root: $("#eggs") });
+  const eggs = createEggs({ root: $("#eggs"), onGift: () => sfx.air() });
   // each easter egg reports itself once to the tracker, then plays its sound as before
   const egg = (k, fn) => (...a) => (eggs.found(k), fn?.(...a));
-  const lumama = createLumama(THREE, { scene, centers: [...centers.values()], CSS2DObject, rng: mulberry(7), onCelebrate: egg("lumama", sfx.lumama) });
+  const lumama = createLumama(THREE, { scene, centers: [...centers.values()], CSS2DObject, rng: mulberry(7), onCelebrate: (...a) => (egg("lumama", sfx.lumama)(...a), setTimeout(() => eggs.gift(), 1600)) });
   const shore = createShore({ hits: env.shoreHits || [], onWhisper: egg("shore", sfx.shore) });
   const treeEgg = createTreeEgg(THREE, { scene, CSS2DObject, pines: env.pines, onClick: egg("tree", sfx.tree) });
   const memes = createMemes(THREE, { scene, centers: [...centers.values()], bounds: zoneBox, nests: [centers.get("dadu"), centers.get("houli")], westEndZ: D.meta.terrain?.harbour && centers.get(D.meta.terrain.harbour) ? centers.get(D.meta.terrain.harbour).z - S * 0.9 : undefined, outer: new THREE.Box3().setFromPoints([...allCenters.values()].map((c) => new THREE.Vector3(c.x, 0, c.z))), say: treeEgg.say, CSS2DObject, groundAt: (x, z) => env.heightAtTerrain(x, z) - 0.03, sfx: { ...sfx, bus: egg("bus", sfx.bus), stop: egg("stop", sfx.stop), jam: egg("jam", sfx.jam), rats: egg("rats", sfx.rats), shutter: egg("camera", sfx.shutter), tbm: egg("tbm", sfx.tbm) } });
