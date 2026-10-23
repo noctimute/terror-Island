@@ -266,6 +266,35 @@
    ]
   },
   {
+   "id": "s-bus-2024",
+   "title": "公車左轉撞走斑馬線女大生 1死1傷",
+   "date": "2024-09",
+   "place": "中區",
+   "summary": "中區中山路、綠川東街口，一輛客運公車左轉時撞上走斑馬線的 2 名大學生，1 死 1 傷，司機疑兩度輾壓；市府對業者開罰 120 萬元，警方辦理駕駛安全講習。",
+   "fear": [
+    "S",
+    "D"
+   ],
+   "deaths": 1,
+   "sources": [
+    {
+     "title": "女大生走斑馬線遭巨業客運公車撞死！東海大學：感到震驚難過憤怒",
+     "outlet": "Newtalk新聞",
+     "url": "https://newtalk.tw/news/view/2024-09-23/937336"
+    },
+    {
+     "title": "台中公車撞死女大生  警方辦理駕駛安全講習",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202409240209.aspx"
+    },
+    {
+     "title": "巨業司機撞死女大生疑2度輾壓 警再偵訊同行學生等人釐清案情",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/716977"
+    }
+   ]
+  },
+  {
    "id": "s-highway4",
    "title": "國道4號延伸工程鋼筋倒塌 壓死移工",
    "date": "2024-08-18",
@@ -578,6 +607,55 @@
    "fear": [
     "D",
     "S"
+   ]
+  },
+  {
+   "id": "s-bus-2022",
+   "title": "公車左轉撞走斑馬線一家三口 母親與幼童不治",
+   "date": "2022-12-27",
+   "place": "北區",
+   "summary": "北區學士路、英才路口，一輛客運公車左轉時撞上走斑馬線過馬路的一家三口，母親與幼童不治、父親輕傷；司機稱路口光線昏暗沒注意到行人，市府建設局稱該路段沒有路燈故障通報，議員要求會勘。",
+   "fear": [
+    "S",
+    "D"
+   ],
+   "deaths": 2,
+   "sources": [
+    {
+     "title": "公車撞一家三口2死1傷疑路口光線昏暗肇禍 中市議員將會勘",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4167825"
+    },
+    {
+     "title": "中市公車肇禍釀重大事故　盧秀燕慰問家屬允全力協助",
+     "outlet": "風傳媒",
+     "url": "https://www.storm.mg/article/4676258"
+    },
+    {
+     "title": "台中公車撞死母嬰》為何交通悲劇一再重演？他揭3點亂象，難怪台灣被外媒認證「行人地獄」",
+     "outlet": "風傳媒",
+     "url": "https://www.storm.mg/lifestyle/4676950"
+    },
+    {
+     "title": "快訊／台中公車深夜過彎撞死母子！司機出面：感到很抱歉",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20221228/2410559.htm"
+    },
+    {
+     "title": "台中公車過彎撞斃母子！老父淚曝「最後對話」：女兒說想要開公司",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20221228/2410531.htm"
+    },
+    {
+     "title": "肇事影像曝光！台中公車撞死母子　她本能推夫護子…下秒慘遭撞斃",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20221231/2413055.htm"
+    },
+    {
+     "title": "豐原客運左轉「撞死走斑馬線母子」夫目睹崩潰　司機下場曝",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230909/2578941.htm"
+    }
    ]
   },
   {
@@ -1292,64 +1370,6 @@
    "fear": [
     "D",
     "S"
-   ]
-  },
-  {
-   "id": "s-bus-2022",
-   "title": "公車左轉撞走斑馬線一家三口 母親與幼童不治",
-   "date": "2022-12-27",
-   "place": "北區",
-   "summary": "北區學士路、英才路口，一輛客運公車左轉時撞上走斑馬線過馬路的一家三口，母親與幼童不治、父親輕傷；司機稱路口光線昏暗沒注意到行人，市府建設局稱該路段沒有路燈故障通報，議員要求會勘。",
-   "fear": [
-    "S",
-    "D"
-   ],
-   "deaths": 2,
-   "sources": [
-    {
-     "title": "公車撞一家三口2死1傷疑路口光線昏暗肇禍 中市議員將會勘",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/society/breakingnews/4167825"
-    },
-    {
-     "title": "中市公車肇禍釀重大事故　盧秀燕慰問家屬允全力協助",
-     "outlet": "風傳媒",
-     "url": "https://www.storm.mg/article/4676258"
-    },
-    {
-     "title": "台中公車撞死母嬰》為何交通悲劇一再重演？他揭3點亂象，難怪台灣被外媒認證「行人地獄」",
-     "outlet": "風傳媒",
-     "url": "https://www.storm.mg/lifestyle/4676950"
-    }
-   ]
-  },
-  {
-   "id": "s-bus-2024",
-   "title": "公車左轉撞走斑馬線女大生 1死1傷",
-   "date": "2024-09",
-   "place": "中區",
-   "summary": "中區中山路、綠川東街口，一輛客運公車左轉時撞上走斑馬線的 2 名大學生，1 死 1 傷，司機疑兩度輾壓；市府對業者開罰 120 萬元，警方辦理駕駛安全講習。",
-   "fear": [
-    "S",
-    "D"
-   ],
-   "deaths": 1,
-   "sources": [
-    {
-     "title": "女大生走斑馬線遭巨業客運公車撞死！東海大學：感到震驚難過憤怒",
-     "outlet": "Newtalk新聞",
-     "url": "https://newtalk.tw/news/view/2024-09-23/937336"
-    },
-    {
-     "title": "台中公車撞死女大生  警方辦理駕駛安全講習",
-     "outlet": "中央社",
-     "url": "https://www.cna.com.tw/news/asoc/202409240209.aspx"
-    },
-    {
-     "title": "巨業司機撞死女大生疑2度輾壓 警再偵訊同行學生等人釐清案情",
-     "outlet": "公視新聞網",
-     "url": "https://news.pts.org.tw/article/716977"
-    }
    ]
   }
  ]

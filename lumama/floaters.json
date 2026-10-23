@@ -2510,81 +2510,6 @@
      "url": "https://www.ettoday.net/news/20200716/1762028.htm"
     },
     {
-     "title": "生死劫難！台中港墜海4死 罹難司機、船員最後身影曝光",
-     "outlet": "三立新聞網",
-     "url": "https://www.setn.com/news/780173"
-    },
-    {
-     "title": "台中港落海最後身影曝 KTV續攤完遇劫",
-     "outlet": "LINE TODAY（轉載）",
-     "url": "https://today.line.me/tw/v3/article/GmegxQ"
-    },
-    {
-     "title": "4船員搭計程車墜台中港最後身影曝光",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/society/breakingnews/3229371"
-    },
-    {
-     "title": "台中港墜海4死 罹難者最後身影曝光",
-     "outlet": "Yahoo 新聞",
-     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E6%B8%AF%E5%A2%9C%E6%B5%B74%E6%AD%BB-%E7%BD%B9%E9%9B%A3%E8%80%85%E6%9C%80%E5%BE%8C%E8%BA%AB%E5%BD%B1%E6%9B%9D%E5%85%89-140017881.html"
-    },
-    {
-     "title": "台中港落海最後身影曝 KTV續攤完遇劫",
-     "outlet": "TVBS",
-     "url": "https://news.tvbs.com.tw/local/1354889"
-    },
-    {
-     "title": "疑大雨視線不清釀禍 計程車台中港墜海4死",
-     "outlet": "LINE TODAY（轉載）",
-     "url": "https://today.line.me/tw/v3/article/792g6k"
-    },
-    {
-     "title": "4船員搭小黃墜港3死 KTV續攤最後身影曝光",
-     "outlet": "中時新聞網",
-     "url": "https://www.chinatimes.com/realtimenews/20200715005831-260402"
-    },
-    {
-     "title": "中港計程車凌晨墜海 ４死１逃生 | 中華日報|中華新聞雲",
-     "outlet": "中華日報",
-     "url": "https://www.cdns.com.tw/articles/220921"
-    },
-    {
-     "title": "台中計程車「深夜衝梧棲漁港」 4人死亡、1人逃生報警",
-     "outlet": "三立新聞網",
-     "url": "https://www.setn.com/news/779669"
-    },
-    {
-     "title": "【計程車深夜墜海】4死1人成功脫逃 肇因疑暴雨視線不良",
-     "outlet": "LINE TODAY（轉載）",
-     "url": "https://today.line.me/tw/v3/article/Oyaq6m"
-    },
-    {
-     "title": "小黃離奇墜海 台中港4死1逃生",
-     "outlet": "Yahoo 新聞",
-     "url": "https://tw.news.yahoo.com/%E5%B0%8F%E9%BB%83%E9%9B%A2%E5%A5%87%E5%A2%9C%E6%B5%B7-%E5%8F%B0%E4%B8%AD%E6%B8%AF4%E6%AD%BB1%E9%80%83%E7%94%9F-201000029.html"
-    },
-    {
-     "title": "計程車疑視線昏暗墜海4死1逃生",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/society/breakingnews/3228733"
-    },
-    {
-     "title": "計程車4死墜海瞬間曝！開到岸邊倒頭栽落海…呈90度下沉",
-     "outlet": "三立新聞網",
-     "url": "https://www.setn.com/news/779683"
-    },
-    {
-     "title": "計程車墜台中港4死影像曝光 倒頭栽90度下沉",
-     "outlet": "LINE TODAY（轉載）",
-     "url": "https://today.line.me/tw/v3/article/KzaEWo"
-    },
-    {
-     "title": "台中計程車90度衝入海 4死1生還關鍵曝光",
-     "outlet": "東森新聞",
-     "url": "https://news.ebc.net.tw/news/society/218411"
-    },
-    {
      "title": "台中港小黃落海釀4死...車行老闆出面說話了：司機不投保，我沒有強制力",
      "outlet": "LINE TODAY（轉載）",
      "url": "https://today.line.me/tw/v3/article/qL55mW"
@@ -2635,9 +2560,39 @@
      "url": "https://www.chinatimes.com/realtimenews/20200715006363-260402"
     },
     {
+     "title": "台中計程車「深夜衝梧棲漁港」 4人死亡、1人逃生報警",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/779669"
+    },
+    {
+     "title": "【計程車深夜墜海】4死1人成功脫逃 肇因疑暴雨視線不良",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/Oyaq6m"
+    },
+    {
+     "title": "小黃離奇墜海 台中港4死1逃生",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%B0%8F%E9%BB%83%E9%9B%A2%E5%A5%87%E5%A2%9C%E6%B5%B7-%E5%8F%B0%E4%B8%AD%E6%B8%AF4%E6%AD%BB1%E9%80%83%E7%94%9F-201000029.html"
+    },
+    {
+     "title": "中港計程車凌晨墜海 ４死１逃生 | 中華日報|中華新聞雲",
+     "outlet": "中華日報",
+     "url": "https://www.cdns.com.tw/articles/220921"
+    },
+    {
+     "title": "計程車疑視線昏暗墜海4死1逃生",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/3228733"
+    },
+    {
      "title": "快訊／台中計程車墜港4死畫面曝 閃燈緩慢開進海「90度垂直下沉」",
      "outlet": "LINE TODAY（轉載）",
      "url": "https://today.line.me/tw/v3/article/Y5DqPa"
+    },
+    {
+     "title": "計程車4死墜海瞬間曝！開到岸邊倒頭栽落海…呈90度下沉",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/779683"
     },
     {
      "title": "台中計程車90度衝入海 4死1生還關鍵曝光",
@@ -2648,6 +2603,51 @@
      "title": "計程車墜台中港4死影像曝光 倒頭栽90度下沉",
      "outlet": "CTWANT",
      "url": "https://www.ctwant.com/article/61948/"
+    },
+    {
+     "title": "計程車墜台中港4死影像曝光 倒頭栽90度下沉",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/KzaEWo"
+    },
+    {
+     "title": "台中計程車90度衝入海 4死1生還關鍵曝光",
+     "outlet": "東森新聞",
+     "url": "https://news.ebc.net.tw/news/society/218411"
+    },
+    {
+     "title": "生死劫難！台中港墜海4死 罹難司機、船員最後身影曝光",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/780173"
+    },
+    {
+     "title": "台中港落海最後身影曝 KTV續攤完遇劫",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/GmegxQ"
+    },
+    {
+     "title": "4船員搭計程車墜台中港最後身影曝光",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/3229371"
+    },
+    {
+     "title": "台中港墜海4死 罹難者最後身影曝光",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E6%B8%AF%E5%A2%9C%E6%B5%B74%E6%AD%BB-%E7%BD%B9%E9%9B%A3%E8%80%85%E6%9C%80%E5%BE%8C%E8%BA%AB%E5%BD%B1%E6%9B%9D%E5%85%89-140017881.html"
+    },
+    {
+     "title": "台中港落海最後身影曝 KTV續攤完遇劫",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/1354889"
+    },
+    {
+     "title": "疑大雨視線不清釀禍 計程車台中港墜海4死",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/792g6k"
+    },
+    {
+     "title": "4船員搭小黃墜港3死 KTV續攤最後身影曝光",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20200715005831-260402"
     }
    ],
    "deaths": 4
