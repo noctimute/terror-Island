@@ -3,7 +3,7 @@
 // browser so it survives a reload.
 
 export const EGGS = [
-  ["gun", "撿到槍", "路上好像掉了什麼"],
+  ["gun", "台中撿到槍", "路上掉的東西，全部撿回來"],
   ["lumama", "Lumama", "那個一直在城裡晃的人"],
   ["shore", "海景第一排", "海邊的消波塊"],
   ["tree", "太高的樹", "長得特別高的樹"],

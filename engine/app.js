@@ -9,7 +9,7 @@ import { sfx } from "./sfx.js?v=7";
 import { createShore } from "./shore.js?v=1";
 import { createTreeEgg } from "./treeegg.js?v=2";
 import { createMemes } from "./memes.js?v=10";
-import { createEggs } from "./eggs.js?v=5";
+import { createEggs } from "./eggs.js?v=6";
 import { icon, skulls } from "./icons.js?v=1";
 
 const $ = (s) => document.querySelector(s),
@@ -308,7 +308,7 @@ try {
   const shore = createShore({ hits: env.shoreHits || [], onWhisper: egg("shore", sfx.shore) });
   const treeEgg = createTreeEgg(THREE, { scene, CSS2DObject, pines: env.pines, onClick: egg("tree", sfx.tree) });
   const memes = createMemes(THREE, { scene, centers: [...centers.values()], bounds: zoneBox, nests: [centers.get("dadu"), centers.get("houli")], westEndZ: D.meta.terrain?.harbour && centers.get(D.meta.terrain.harbour) ? centers.get(D.meta.terrain.harbour).z - S * 0.9 : undefined, outer: new THREE.Box3().setFromPoints([...allCenters.values()].map((c) => new THREE.Vector3(c.x, 0, c.z))), say: treeEgg.say, CSS2DObject, groundAt: (x, z) => env.heightAtTerrain(x, z) - 0.03, sfx: { ...sfx, bus: egg("bus", sfx.bus), stop: egg("stop", sfx.stop), jam: egg("jam", sfx.jam), rats: egg("rats", sfx.rats), shutter: egg("camera", sfx.shutter), tbm: egg("tbm", sfx.tbm) } });
-  const guns = createGuns(THREE, { scene, centers: [...centers.values()], CSS2DObject, rng: Math.random, groundAt: (x, z) => env.heightAtTerrain(x, z) - 0.03, blocked: [...allCenters.values()], hud: $("#gun-hud"), onCollect: egg("gun", (left) => sfx.gun(!left)), onReset: sfx.reset });
+  const guns = createGuns(THREE, { scene, centers: [...centers.values()], CSS2DObject, rng: Math.random, groundAt: (x, z) => env.heightAtTerrain(x, z) - 0.03, blocked: [...allCenters.values()], hud: $("#gun-hud"), onCollect: (left) => (left || eggs.found("gun"), sfx.gun(!left)), onReset: sfx.reset });
 
   // ---------- camera ----------
   let fly = null;
