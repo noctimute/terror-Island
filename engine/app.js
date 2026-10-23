@@ -946,11 +946,27 @@ try {
     // count events (not islands) per event type
     const counts = D.fear.map((f) => ({ f, n: zones.reduce((n, z) => n + z.spots.filter((s) => s.fear.includes(f.id)).length, 0) }));
     const max = Math.max(1, ...counts.map((c) => c.n));
-    const deaths = zones.reduce((n, z) => n + z.spots.filter((s) => s.fear.includes("D")).length, 0);
+    // people, not events: the death toll is read off the event's own headline ("6死", "奪4命", "雙屍"), then its
+    // summary ("造成 6 人罹難"); an event that names no number counts as one. Other reports' headlines are not used,
+    // since round-ups ("76小時6條人命") get attached to single events.
+    const deathNums = (t) => {
+      const ns = [...t.matchAll(/(\d+)\s*(?:人|名|位)?\s*(?:死亡|身亡|罹難|遇害|喪生|枉死|死(?!角)|屍)/g), ...t.matchAll(/奪(\d+)命/g)].map((m) => +m[1]).filter((n) => n > 0 && n < 100);
+      if (/雙(亡|屍)/.test(t)) ns.push(2);
+      return ns;
+    };
+    const toll = (s) => {
+      if (s.deaths != null) return s.deaths;
+      for (const t of [s.name || "", s.plain || ""]) {
+        const ns = deathNums(t);
+        if (ns.length) return Math.max(...ns);
+      }
+      return 1;
+    };
+    const deaths = zones.reduce((n, z) => n + z.spots.filter((s) => s.fear.includes("D")).reduce((m, s) => m + toll(s), 0), 0);
     const links = new Set(zones.flatMap((z) => z.spots.flatMap((s) => (s.sources || []).map((x) => x.url)))).size;
     $("#overview-panel").innerHTML = `<div class="stats">
       <div><b>${openCount}</b><span>開放島嶼</span></div><div><b>${spotCount}</b><span>則事件</span></div>
-      <div><b>${deaths}</b><span>有人死亡</span></div><div><b>${links.toLocaleString()}</b><span>篇新聞連結</span></div></div>
+      <div><b>${deaths.toLocaleString()}</b><span>人死亡</span></div><div><b>${links.toLocaleString()}</b><span>篇新聞連結</span></div></div>
       <h4>各島事件數</h4>${open.map((z) => `<div class="bar"><span>${pad(z.number)} ${esc(z.name)}</span><i style="--w:${(z.spots.length / Math.max(...open.map((o) => o.spots.length))) * 100}%;--c:${z.tlColor || "#888"}"></i><b>${z.spots.length}</b></div>`).join("")}
       <h4>事件類型</h4>${counts.map((c) => `<div class="bar"><span>${esc(c.f.name)}</span><i style="--w:${(c.n / max) * 100}%;--c:${c.f.color}"></i><b>${c.n}</b></div>`).join("")}`;
   }
