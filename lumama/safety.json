@@ -211,20 +211,6 @@
    ]
   },
   {
-   "id": "s-h20240329a",
-   "title": "2024/3/29 霧峰工安意外",
-   "date": "2024-03-29",
-   "place": "霧峰",
-   "summary": "霧峰發生工安意外，一名男子身亡。",
-   "sources": [
-    {
-     "title": "快訊／霧峰傳命案！30歲工人「腹部中1刀」慘死 同事行兇後投案",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20240329/2709688.htm"
-    }
-   ]
-  },
-  {
    "id": "s-h20240112a",
    "title": "2024/1/12 台中工安意外",
    "date": "2024-01-12",
@@ -268,6 +254,20 @@
      "title": "台中女停車遭夾死！疑「探頭暴衝」喪命 鄰居驚：夾1hr才被發現",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20240111/2662156.htm"
+    }
+   ]
+  },
+  {
+   "id": "s-h20230914a",
+   "title": "2023/9/14 台中工安意外",
+   "date": "2023-09-14",
+   "place": "台中",
+   "summary": "台中發生工安意外，一名女子身亡。",
+   "sources": [
+    {
+     "title": "快訊／台中驚傳恐怖活埋 1女被土石深埋1公尺明顯死亡",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230914/2582523.htm"
     }
    ]
   },
@@ -347,12 +347,70 @@
    ]
   },
   {
-   "id": "s-h20230331a",
-   "title": "無良老闆曝！台中老屋倒塌奪命　3工人枉死「全沒勞保」",
-   "date": "2023-03-31",
+   "id": "s-h20230510a",
+   "title": "搭中捷遇死劫！林淑雅5家人接噩耗痛心趕台中認屍　親弟說話了",
+   "date": "2023-05-10",
+   "place": "台中",
+   "summary": "台中發生工安意外，一人身亡。",
+   "sources": [
+    {
+     "title": "搭中捷遇死劫！林淑雅5家人接噩耗痛心趕台中認屍 親弟說話了",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230510/2496582.htm"
+    }
+   ]
+  },
+  {
+   "id": "s-h20230510b",
+   "title": "2023/5/10 台中工安意外",
+   "date": "2023-05-10",
+   "place": "台中",
+   "summary": "台中發生工安意外，一人身亡。",
+   "sources": [
+    {
+     "title": "快訊／吊臂砸中捷釀1死9傷 建商「台中9建案」遭勒令全面停工",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230510/2496563.htm"
+    }
+   ]
+  },
+  {
+   "id": "s-h20230330a",
+   "title": "台中房屋倒塌！挖出第二名工人頭部　無生命跡象",
+   "date": "2023-03-30",
    "place": "台中",
    "summary": "台中發生工安意外， 3 人身亡。",
    "sources": [
+    {
+     "title": "快訊／台中老屋崩塌活埋2死 第3名工人找到「腳部露出」無反應",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230330/2470517.htm"
+    },
+    {
+     "title": "快訊／台中房屋倒塌！挖出第二名工人頭部 無生命跡象",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230330/2470477.htm"
+    },
+    {
+     "title": "二度倒塌畫面曝！台中老屋活埋3人 他生前「最後掙扎」仍不治",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230330/2470235.htm"
+    },
+    {
+     "title": "台中老屋倒塌1死2活埋！市府緊急勒令停工 曝釀災奪命2原因",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230330/2470154.htm"
+    },
+    {
+     "title": "快訊／台中老屋倒塌1人不治！2人仍受困 96歲嬤目擊愛孫遭埋",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230330/2470091.htm"
+    },
+    {
+     "title": "快訊／台中百年老屋倒塌活埋3人 1人救出無生命跡象2待援",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230330/2470049.htm"
+    },
     {
      "title": "快訊／無良老闆曝！台中老屋倒塌奪命 3工人枉死「全沒勞保」",
      "outlet": "ETtoday",
@@ -364,37 +422,14 @@
      "url": "https://www.ettoday.net/news/20230331/2470795.htm"
     },
     {
+     "title": "「直立式埋3米土推」 台中老屋崩塌活埋3死",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230331/2470582.htm"
+    },
+    {
      "title": "快訊／台中老屋活埋3工人 3人尋獲皆不幸身亡",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20230331/2470530.htm"
-    }
-   ]
-  },
-  {
-   "id": "s-h20230330a",
-   "title": "2023/3/30 台中工安意外",
-   "date": "2023-03-30",
-   "place": "台中",
-   "summary": "台中發生工安意外， 2 人身亡。",
-   "sources": [
-    {
-     "title": "快訊／台中老屋崩塌活埋2死 第3名工人找到「腳部露出」無反應",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20230330/2470517.htm"
-    }
-   ]
-  },
-  {
-   "id": "s-h20230330b",
-   "title": "台中房屋倒塌！挖出第二名工人頭部　無生命跡象",
-   "date": "2023-03-30",
-   "place": "台中",
-   "summary": "台中發生工安意外，一名男子身亡。",
-   "sources": [
-    {
-     "title": "快訊／台中房屋倒塌！挖出第二名工人頭部 無生命跡象",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20230330/2470477.htm"
     }
    ]
   },
@@ -469,20 +504,6 @@
    ]
   },
   {
-   "id": "s-h20220317a",
-   "title": "台中狠夫一刀穿心殺妻　「跳蛙」逃亡2天躲寺廟工地落網",
-   "date": "2022-03-17",
-   "place": "台中",
-   "summary": "台中發生工安意外，一人身亡。",
-   "sources": [
-    {
-     "title": "快訊／台中狠夫一刀穿心殺妻 「跳蛙」逃亡2天躲寺廟工地落網",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20220317/2210130.htm"
-    }
-   ]
-  },
-  {
    "id": "s-h20211208a",
    "title": "2021/12/8 新社工安意外",
    "date": "2021-12-08",
@@ -535,6 +556,20 @@
      "title": "快訊／台中工人遭重物壓住！ 「頭頸斷裂」當場死亡",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20210712/2028405.htm"
+    }
+   ]
+  },
+  {
+   "id": "s-h20210707a",
+   "title": "去年辦婚禮今年遇房屋倒塌！潭子苦命鴛鴦死裡逃生近況曝光",
+   "date": "2021-07-07",
+   "place": "潭子",
+   "summary": "潭子發生工安意外，一人身亡。",
+   "sources": [
+    {
+     "title": "去年辦婚禮今年遇房屋倒塌！潭子苦命鴛鴦死裡逃生近況曝光",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20210707/2024735.htm"
     }
    ]
   },
@@ -592,40 +627,11 @@
    ]
   },
   {
-   "id": "s-h20201224a",
-   "title": "台中七期豪宅水溝「驚見男屍」！工人聞臭味掀蓋見蛆嚇傻",
-   "date": "2020-12-24",
-   "place": "台中",
-   "summary": "台中發生工安意外，一名男子身亡。",
-   "sources": [
-    {
-     "title": "快訊／台中七期豪宅水溝「驚見男屍」！工人聞臭味掀蓋見蛆嚇傻",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20201224/1883499.htm"
-    },
-    {
-     "title": "「45歲男通緝犯」陳屍台中豪宅水溝 工人掀蓋見蛆嚇呆",
-     "outlet": "LINE TODAY（轉載）",
-     "url": "https://today.line.me/tw/v3/article/QWDYz0"
-    },
-    {
-     "title": "台中七期豪宅區水溝卡男屍 維修工人忍惡臭掀蓋：差點嚇死",
-     "outlet": "三立新聞網",
-     "url": "https://www.setn.com/news/870685"
-    },
-    {
-     "title": "快訊／台中七期豪宅水溝驚見男屍 工人開蓋聞惡臭全是蛆",
-     "outlet": "東森新聞",
-     "url": "https://news.ebc.net.tw/news/society/242282"
-    }
-   ]
-  },
-  {
    "id": "s-h20201026a",
-   "title": "2020/10/26 台中工安意外",
+   "title": "2020/10/26 后里工安意外",
    "date": "2020-10-26",
-   "place": "台中",
-   "summary": "台中發生工安意外，一名男子身亡。",
+   "place": "后里",
+   "summary": "后里發生工安意外，一名男子身亡。",
    "sources": [
     {
      "title": "快訊／台中工安意外！ 工人開工程車倒車「輾死同事」",
@@ -638,7 +644,7 @@
      "url": "https://today.line.me/tw/v3/article/oK3apj"
     },
     {
-     "title": "自由時報報導",
+     "title": "台中后里區發生工安意外！工程車駕駛倒車輾死工人",
      "outlet": "自由時報",
      "url": "https://news.ltn.com.tw/news/society/breakingnews/3332584"
     }
@@ -688,45 +694,6 @@
    ]
   },
   {
-   "id": "s-h20200630a",
-   "title": "2020/6/30 梧棲工安意外",
-   "date": "2020-06-30",
-   "place": "梧棲",
-   "summary": "梧棲發生工安意外，一名男子身亡。",
-   "sources": [
-    {
-     "title": "探頭查看被捲入…梧棲工人墜「1.5m深煤渣攪拌爐」！頭顱遭翻攪變形慘死",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20200630/1749350.htm"
-    },
-    {
-     "title": "悚！摔1.5米深煤渣攪拌爐 台中工人頭顱變形慘死",
-     "outlet": "三立新聞網",
-     "url": "https://www.setn.com/news/770087"
-    },
-    {
-     "title": "鑄鐵廠工人摔進攪拌爐 頭顱變形慘死",
-     "outlet": "Yahoo 新聞",
-     "url": "https://tw.news.yahoo.com/%E9%91%84%E9%90%B5%E5%BB%A0%E5%B7%A5%E4%BA%BA%E6%91%94%E9%80%B2%E6%94%AA%E6%8B%8C%E7%88%90-%E9%A0%AD%E9%A1%B1%E8%AE%8A%E5%BD%A2%E6%85%98%E6%AD%BB-032400404.html"
-    },
-    {
-     "title": "失足跌進煤渣攪拌爐 台中鑄鐵廠工人「頭顱變形」搶救不治",
-     "outlet": "LINE TODAY（轉載）",
-     "url": "https://today.line.me/tw/v3/article/e0J6XJ"
-    },
-    {
-     "title": "鑄鐵廠工人摔進攪拌爐 頭顱變形慘死",
-     "outlet": "CTWANT",
-     "url": "https://www.ctwant.com/article/59264/"
-    },
-    {
-     "title": "驚！台中工人跌落攪拌爐…頭顱變形慘死",
-     "outlet": "東森新聞",
-     "url": "https://news.ebc.net.tw/news/society/216305"
-    }
-   ]
-  },
-  {
    "id": "s-h20190725a",
    "title": "老農透早耕田出意外 捲入耕耘機身亡",
    "date": "2019-07-25",
@@ -766,6 +733,35 @@
    ]
   },
   {
+   "id": "s-h20190610a",
+   "title": "霧峰棧道崩塌釀13傷！木頭斷面「爬滿白蟻」　7旬嬤骨斷4根怒轟：害死人",
+   "date": "2019-06-10",
+   "place": "霧峰",
+   "summary": "霧峰發生工安意外，一名女子身亡。",
+   "sources": [
+    {
+     "title": "霧峰棧道崩塌釀13傷！木頭斷面「爬滿白蟻」 7旬嬤骨斷4根怒轟：害死人",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20190610/1464296.htm"
+    },
+    {
+     "title": "霧峰青桐林生態園區 棧道崩塌13人傷",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/434157"
+    },
+    {
+     "title": "生態園區觀景台崩塌 7旬嬤轟害死人",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E7%94%9F%E6%85%8B%E5%9C%92%E5%8D%80%E8%A7%80%E6%99%AF%E5%8F%B0%E5%B4%A9%E5%A1%8C-7%E6%97%AC%E5%AC%A4%E8%BD%9F%E5%AE%B3%E6%AD%BB%E4%BA%BA-091059756.html"
+    },
+    {
+     "title": "白蟻蛀蝕釀木棧道崩塌 台中14人受傷送醫",
+     "outlet": "Newtalk 新聞",
+     "url": "https://newtalk.tw/news/view/2019-06-10/257972"
+    }
+   ]
+  },
+  {
    "id": "s-h20190524a",
    "title": "苗縣長慰問觸電死亡家屬 母喪兒重申盼台電還公道",
    "date": "2019-05-24",
@@ -776,25 +772,6 @@
      "title": "苗縣長慰問觸電死亡家屬 母喪兒重申盼台電還公道",
      "outlet": "自由時報",
      "url": "https://news.ltn.com.tw/news/society/breakingnews/2800504"
-    }
-   ]
-  },
-  {
-   "id": "s-h20190518a",
-   "title": "台中港碼頭施工3工人落海 1人斷腿身亡",
-   "date": "2019-05-18",
-   "place": "台中",
-   "summary": "台中發生工安意外，一名男子身亡。",
-   "sources": [
-    {
-     "title": "台中港碼頭施工3工人落海 1人斷腿身亡",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/society/breakingnews/2794540"
-    },
-    {
-     "title": "台中港碼頭工安意外 工人落海1死2傷",
-     "outlet": "Newtalk 新聞",
-     "url": "https://newtalk.tw/news/view/2019-05-18/248319"
     }
    ]
   },
@@ -845,7 +822,7 @@
      "url": "https://tw.news.yahoo.com/%E5%BF%AB%E8%A8%8A-%E5%A0%86%E9%AB%98%E6%A9%9F%E5%A3%93%E5%82%B7%E4%BA%BA-%E5%8F%B0%E4%B8%AD7%E6%AD%B2%E5%A5%B3%E7%AB%A5%E5%82%B7%E5%8B%A2%E5%9A%B4%E9%87%8D-%E9%80%81%E9%86%AB%E5%91%BD%E5%8D%B1-065600720.html"
     },
     {
-     "title": "自由時報報導",
+     "title": "影片曝光！台中7歲女童坐堆高機鐵叉跌落遭輾送醫不治",
      "outlet": "自由時報",
      "url": "https://news.ltn.com.tw/news/society/breakingnews/2669810"
     },

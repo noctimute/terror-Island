@@ -726,16 +726,11 @@
   },
   {
    "id": "fall-dm376",
-   "title": "台中北區驚悚一幕！女子墜樓命危 機車遭重砸畫面曝光",
+   "title": "台中市45歲女子墜樓 無呼吸心跳、多處骨折搶救中",
    "date": "2026-06-18",
    "place": "北區",
    "summary": "北區一處大樓發生墜樓事件，一名女子身亡。",
    "sources": [
-    {
-     "title": "台中北區驚悚一幕！女子墜樓命危 機車遭重砸畫面曝光",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/society/breakingnews/5476187"
-    },
     {
      "title": "台中市45歲女子墜樓 無呼吸心跳、多處骨折搶救中",
      "outlet": "TVBS",
@@ -2409,11 +2404,6 @@
      "title": "聯合新聞網報導",
      "outlet": "聯合新聞網",
      "url": "https://udn.com/news/story/7320/8764921"
-    },
-    {
-     "title": "台中市又傳墜樓案  25歲男6樓墜下送醫不治",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/society/breakingnews/5054952"
     }
    ]
   },
@@ -3478,11 +3468,6 @@
      "title": "台中深夜巨響！34歲女掛頂樓撐不住急墜亡 鄰居「全錄下」嚇瘋",
      "outlet": "TVBS",
      "url": "https://news.tvbs.com.tw/local/2588652"
-    },
-    {
-     "title": "台中KTV住商大樓傳墜樓 34歲女懸掛頂樓不支直墜亡",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/society/breakingnews/4772394"
     }
    ]
   },
@@ -3943,7 +3928,7 @@
   },
   {
    "id": "fall-61",
-   "title": "台中北屯大樓傳女子墜樓亡 住戶驚：她不住這裡",
+   "title": "6/10 北屯墜樓事件",
    "date": "2024-06-10",
    "place": "北屯",
    "summary": "北屯一處住宅發生墜樓事件，一名女子身亡。",
@@ -3952,11 +3937,6 @@
      "title": "聯合新聞網報導（原文已下架）",
      "outlet": "聯合新聞網（原文已下架・網頁存檔）",
      "url": "https://web.archive.org/web/20250527041907/https://udn.com/news/story/7320/8021205"
-    },
-    {
-     "title": "台中北屯大樓傳女子墜樓亡 住戶驚：她不住這裡",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/society/breakingnews/4700897"
     }
    ]
   },
@@ -4043,20 +4023,6 @@
   },
   {
    "id": "fall-h20240228a",
-   "title": "台中女7樓墜河「被沖進地下涵洞」　警消出動救生艇尋獲遺體",
-   "date": "2024-02-28",
-   "place": "台中",
-   "summary": "台中發生墜樓事件，一名女子身亡。",
-   "sources": [
-    {
-     "title": "台中女7樓墜河「被沖進地下涵洞」 警消出動救生艇尋獲遺體",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20240228/2690817.htm"
-    }
-   ]
-  },
-  {
-   "id": "fall-h20240228b",
    "title": "台中28歲女「住家7樓墜落河川」　警消搜尋3小時找到遺體",
    "date": "2024-02-28",
    "place": "台中",
@@ -4244,20 +4210,6 @@
   },
   {
    "id": "fall-h20230830a",
-   "title": "對面就是醫院！食安處員工上班時間墜樓亡　台中市府回應了",
-   "date": "2023-08-30",
-   "place": "台中",
-   "summary": "台中發生墜樓事件，一人身亡。",
-   "sources": [
-    {
-     "title": "對面就是醫院！食安處員工上班時間墜樓亡 台中市府回應了",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20230830/2571671.htm"
-    }
-   ]
-  },
-  {
-   "id": "fall-h20230830b",
    "title": "獨／台中食安處員工「辦公室頂樓墜落」身亡！　同事震驚",
    "date": "2023-08-30",
    "place": "台中",
@@ -4285,20 +4237,6 @@
    ]
   },
   {
-   "id": "fall-h20230802a",
-   "title": "2023/8/2 台中墜樓事件",
-   "date": "2023-08-02",
-   "place": "台中",
-   "summary": "台中發生墜樓事件，一名男子身亡。",
-   "sources": [
-    {
-     "title": "台中七期豪宅驚傳命案 當天要退租...男18樓墜樓頭身分離慘死",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20230802/2552790.htm"
-    }
-   ]
-  },
-  {
    "id": "fall-h20230714a",
    "title": "2023/7/14 台中墜樓事件",
    "date": "2023-07-14",
@@ -4314,20 +4252,6 @@
   },
   {
    "id": "fall-h20230521a",
-   "title": "高大成調查墜亡現場提3疑點！台中地檢署回應了",
-   "date": "2023-05-21",
-   "place": "台中",
-   "summary": "台中發生墜樓事件，一人身亡。",
-   "sources": [
-    {
-     "title": "高大成調查墜亡現場提3疑點！台中地檢署回應了",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20230521/2503727.htm"
-    }
-   ]
-  },
-  {
-   "id": "fall-h20230521b",
    "title": "2023/5/21 台中墜樓事件",
    "date": "2023-05-21",
    "place": "台中",
@@ -4537,20 +4461,6 @@
    ]
   },
   {
-   "id": "fall-h20220325a",
-   "title": "台中國一男生墜樓亡...網傳曾遭霸凌　校長：人緣很好的小老師",
-   "date": "2022-03-25",
-   "place": "台中",
-   "summary": "台中發生墜樓事件，一名男子身亡。",
-   "sources": [
-    {
-     "title": "台中國一男生墜樓亡...網傳曾遭霸凌 校長：人緣很好的小老師",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20220325/2215734.htm"
-    }
-   ]
-  },
-  {
    "id": "fall-h20220324a",
    "title": "第一天段考剛結束...台中某國中男生5樓墜落亡　教育局說話了",
    "date": "2022-03-24",
@@ -4645,20 +4555,6 @@
    ]
   },
   {
-   "id": "fall-h20211116a",
-   "title": "2021/11/16 台中墜樓事件",
-   "date": "2021-11-16",
-   "place": "台中",
-   "summary": "台中發生墜樓事件，一名女子身亡。",
-   "sources": [
-    {
-     "title": "遺書留教室課桌 台中國一女「上課鐘響後」墜樓亡",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20211116/2124557.htm"
-    }
-   ]
-  },
-  {
    "id": "fall-h20211022a",
    "title": "台中25歲女「當母親面」12樓頂墜下　送醫不治",
    "date": "2021-10-22",
@@ -4716,20 +4612,6 @@
      "title": "快訊／台中夜間驚傳「女子墜14樓」 頭顱破裂、臟器外露慘死",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20210817/2058213.htm"
-    }
-   ]
-  },
-  {
-   "id": "fall-h20210817b",
-   "title": "停課2個多月首次返校暑輔　台中國三生4樓墜落不治",
-   "date": "2021-08-17",
-   "place": "台中",
-   "summary": "台中發生墜樓事件，一名學生身亡。",
-   "sources": [
-    {
-     "title": "快訊／停課2個多月首次返校暑輔 台中國三生4樓墜落不治",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20210817/2057630.htm"
     }
    ]
   },
@@ -4805,25 +4687,6 @@
      "title": "快訊／台中男不明原因從7樓住家墜落中庭 當場死亡",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20210608/2002243.htm"
-    }
-   ]
-  },
-  {
-   "id": "fall-h20210530a",
-   "title": "新北夫妻住台中旅館　隔天妻子陳屍房內！丈夫墜樓不治",
-   "date": "2021-05-30",
-   "place": "台中",
-   "summary": "台中發生墜樓事件，一人身亡。",
-   "sources": [
-    {
-     "title": "快訊／新北夫妻住台中旅館 隔天妻子陳屍房內！丈夫墜樓不治",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20210530/1994893.htm"
-    },
-    {
-     "title": "快訊／新北夫妻到台中看病 丈夫墜樓命危、妻陳屍旅館客房",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20210530/1994707.htm"
     }
    ]
   },
@@ -5037,7 +4900,7 @@
      "url": "https://www.ettoday.net/news/20201110/1851511.htm"
     },
     {
-     "title": "news.housefun.com.tw報導",
+     "title": "10米高工地綁鋼筋沒護欄工人才上班二天疑手滑摔死",
      "outlet": "news.housefun.com.tw",
      "url": "https://news.housefun.com.tw/news/article/261208276666.html"
     }
@@ -5080,7 +4943,7 @@
      "url": "https://ctinews.com/news/items/kRxAv3DQnD"
     },
     {
-     "title": "自由時報報導",
+     "title": "女子坐豪宅15樓陽台閨密來不及制止目睹墜樓亡",
      "outlet": "自由時報",
      "url": "https://news.ltn.com.tw/news/society/breakingnews/3324997"
     },
@@ -5117,20 +4980,50 @@
   },
   {
    "id": "fall-h20200630a",
-   "title": "2020/6/30 台中墜樓事件",
+   "title": "2020/6/30 梧棲墜樓事件",
    "date": "2020-06-30",
-   "place": "台中",
-   "summary": "台中發生墜樓事件，一名男子身亡。",
+   "place": "梧棲",
+   "summary": "梧棲發生墜樓事件，一名男子身亡。",
    "sources": [
+    {
+     "title": "探頭查看被捲入…梧棲工人墜「1.5m深煤渣攪拌爐」！頭顱遭翻攪變形慘死",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20200630/1749350.htm"
+    },
     {
      "title": "快訊／台中鑄鐵廠工人「跌落煤渣攪拌爐」 頭顱變形重傷慘死",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20200630/1749018.htm"
     },
     {
+     "title": "鑄鐵廠工人摔進攪拌爐 頭顱變形慘死",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E9%91%84%E9%90%B5%E5%BB%A0%E5%B7%A5%E4%BA%BA%E6%91%94%E9%80%B2%E6%94%AA%E6%8B%8C%E7%88%90-%E9%A0%AD%E9%A1%B1%E8%AE%8A%E5%BD%A2%E6%85%98%E6%AD%BB-032400404.html"
+    },
+    {
+     "title": "失足跌進煤渣攪拌爐 台中鑄鐵廠工人「頭顱變形」搶救不治",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/e0J6XJ"
+    },
+    {
+     "title": "鑄鐵廠工人摔進攪拌爐 頭顱變形慘死",
+     "outlet": "CTWANT",
+     "url": "https://www.ctwant.com/article/59264/"
+    },
+    {
+     "title": "悚！摔1.5米深煤渣攪拌爐 台中工人頭顱變形慘死",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/770087"
+    },
+    {
      "title": "失足跌進煤渣攪拌爐 台中鑄鐵廠工人「頭顱變形」搶救不治",
      "outlet": "鏡週刊",
      "url": "https://www.mirrormedia.mg/story/20200630edi012"
+    },
+    {
+     "title": "驚！台中工人跌落攪拌爐…頭顱變形慘死",
+     "outlet": "東森新聞",
+     "url": "https://news.ebc.net.tw/news/society/216305"
     }
    ]
   },
@@ -5176,7 +5069,7 @@
      "url": "https://www.ettoday.net/news/20200513/1713385.htm"
     },
     {
-     "title": "自由時報報導",
+     "title": "全裸男逢甲商圈離奇墜樓亡死因待檢警釐清",
      "outlet": "自由時報",
      "url": "https://news.ltn.com.tw/news/society/breakingnews/3164168"
     }
@@ -5234,7 +5127,7 @@
      "url": "https://today.line.me/tw/v3/article/amVGgG"
     },
     {
-     "title": "news.housefun.com.tw報導",
+     "title": "台中科大驚傳墜樓男學生送中國醫急救不治",
      "outlet": "news.housefun.com.tw",
      "url": "https://news.housefun.com.tw/news/article/652057242084.html"
     },
@@ -5301,63 +5194,9 @@
      "url": "https://news.ltn.com.tw/news/society/breakingnews/2952508"
     },
     {
-     "title": "自由時報報導",
+     "title": "沈姓上士墜樓死亡案 未發現積極外力介入情形",
      "outlet": "自由時報",
      "url": "https://news.ltn.com.tw/news/society/breakingnews/2954207"
-    }
-   ]
-  },
-  {
-   "id": "fall-h20191021b",
-   "title": "台中陸軍裝甲586旅「資深上士墜樓亡」全身多處傷！　官兵晨運目睹嚇傻",
-   "date": "2019-10-21",
-   "place": "台中",
-   "summary": "台中發生墜樓事件，一人身亡。",
-   "sources": [
-    {
-     "title": "快訊／台中陸軍裝甲586旅「資深上士墜樓亡」全身多處傷！ 官兵晨運目睹嚇傻",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20191021/1561595.htm"
-    },
-    {
-     "title": "陸軍裝甲586旅驚傳事故 資深士官墜樓亡",
-     "outlet": "LINE TODAY（轉載）",
-     "url": "https://today.line.me/tw/v3/article/8PEJ0Z"
-    },
-    {
-     "title": "陸軍裝甲586旅驚傳事故 資深士官墜樓亡",
-     "outlet": "TVBS",
-     "url": "https://news.tvbs.com.tw/local/1220540"
-    },
-    {
-     "title": "陸軍裝甲586旅傳意外 上士清晨墜樓不治",
-     "outlet": "中天新聞網",
-     "url": "https://ctinews.com/news/items/GVxoBBw6a8"
-    },
-    {
-     "title": "陸軍裝甲586旅驚傳事故 資深士官墜樓亡",
-     "outlet": "Yahoo 新聞",
-     "url": "https://tw.news.yahoo.com/%E9%99%B8%E8%BB%8D%E8%A3%9D%E7%94%B2586%E6%97%85%E9%A9%9A%E5%82%B3%E4%BA%8B%E6%95%85-%E8%B3%87%E6%B7%B1%E4%B8%8A%E5%A3%AB%E5%A2%9C%E6%A8%93%E9%80%81%E9%86%AB%E4%B8%8D%E6%B2%BB-031612700.html"
-    },
-    {
-     "title": "586旅資深上士疑墜樓亡 台中檢：全案朝自殺或意外方向偵查",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20191022/1562915.htm"
-    },
-    {
-     "title": "陸軍裝甲586旅傳意外！資深上士墜樓亡 同袍晨運嚇傻",
-     "outlet": "三立新聞網",
-     "url": "https://www.setn.com/news/621781"
-    },
-    {
-     "title": "台中陸軍裝甲586旅上士墜樓！倒臥草皮亡 同袍經過嚇傻",
-     "outlet": "Yahoo 新聞",
-     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E9%99%B8%E8%BB%8D%E8%A3%9D%E7%94%B2586%E6%97%85-%E4%B8%8A%E5%A3%AB%E5%A2%9C%E6%A8%93%E4%BA%A1-%E5%90%8C%E8%A2%8D%E7%B6%93%E9%81%8E%E5%9A%87%E5%82%BB-022910949.html"
-    },
-    {
-     "title": "陸軍裝甲586旅傳意外 上士清晨墜樓不治",
-     "outlet": "中時新聞網",
-     "url": "https://www.chinatimes.com/realtimenews/20191021001240-260402"
     }
    ]
   },
@@ -5366,7 +5205,7 @@
    "title": "母子墜樓身亡 死者哥哥怒斥丈夫「你怎麼交代？」",
    "date": "2019-08-27",
    "place": "北區",
-   "summary": "北區發生墜樓事件，一名幼童身亡。",
+   "summary": "北區發生墜樓事件， 2 人身亡。",
    "sources": [
     {
      "title": "母子墜樓身亡 死者哥哥怒斥丈夫「你怎麼交代？」",
@@ -5374,17 +5213,17 @@
      "url": "https://news.ltn.com.tw/news/society/breakingnews/2897955"
     },
     {
-     "title": "自由時報報導",
+     "title": "妻抱5歲兒墜樓亡 丈夫哽咽：我對不起她...",
      "outlet": "自由時報",
      "url": "https://news.ltn.com.tw/news/society/breakingnews/2897337"
     },
     {
-     "title": "自由時報報導",
+     "title": "為孩子教養問題與夫吵架？母抱5歲兒子墜樓",
      "outlet": "自由時報",
      "url": "https://news.ltn.com.tw/news/society/breakingnews/2897145"
     },
     {
-     "title": "自由時報報導",
+     "title": "妻攜5歲兒豪宅墜樓 富二代夫：她跟著我，很辛苦…",
      "outlet": "自由時報",
      "url": "https://news.ltn.com.tw/news/society/paper/1313813"
     },
@@ -5392,16 +5231,7 @@
      "title": "悲！台中市傳出母子墜樓雙亡憾事",
      "outlet": "Yahoo 新聞",
      "url": "https://tw.news.yahoo.com/%E6%82%B2-%E5%8F%B0%E4%B8%AD%E5%B8%82%E5%82%B3%E5%87%BA%E6%AF%8D%E5%AD%90%E5%A2%9C%E6%A8%93%E9%9B%99%E4%BA%A1%E6%86%BE%E4%BA%8B-035859045.html"
-    }
-   ]
-  },
-  {
-   "id": "fall-h20190827b",
-   "title": "台中墜樓雙屍！母與4歲幼子「21F墜下」　倒臥3F露天平台亡",
-   "date": "2019-08-27",
-   "place": "台中",
-   "summary": "台中發生墜樓事件， 2 人身亡。",
-   "sources": [
+    },
     {
      "title": "快訊／台中墜樓雙屍！母與4歲幼子「21F墜下」 倒臥3F露天平台亡",
      "outlet": "ETtoday",
@@ -5437,7 +5267,7 @@
      "url": "https://news.ltn.com.tw/news/society/paper/1306668"
     },
     {
-     "title": "archive.chinesedaily.com報導",
+     "title": "友人墜樓3男「快閃」見死不救",
      "outlet": "archive.chinesedaily.com",
      "url": "https://archive.chinesedaily.com/focus_list.php?no=c228587.txt&catid=3&lanmu=T17&readdate=7-29-2019"
     },
@@ -5449,35 +5279,11 @@
    ]
   },
   {
-   "id": "fall-h20190728a",
-   "title": "台中驚悚命案 警初查：死者訪友變墜樓身亡！",
-   "date": "2019-07-28",
-   "place": "台中",
-   "summary": "台中發生墜樓事件，一人身亡。",
-   "sources": [
-    {
-     "title": "台中驚悚命案 警初查：死者訪友變墜樓身亡！",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/society/breakingnews/2866376"
-    },
-    {
-     "title": "自由時報報導",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/Taichung/breakingnews/2866376"
-    },
-    {
-     "title": "中市北屯一天一命案！30歲男訪友變墜樓",
-     "outlet": "中天新聞網",
-     "url": "https://ctinews.com/news/items/BexX9zmPnb"
-    }
-   ]
-  },
-  {
    "id": "fall-h20190524a",
    "title": "小貨車停放邊坡未熄火 駕駛墜谷身亡",
    "date": "2019-05-24",
    "place": "新社",
-   "summary": "新社發生墜樓事件，一人身亡。",
+   "summary": "新社發生墜樓事件，一名男子身亡。",
    "sources": [
     {
      "title": "小貨車停放邊坡未熄火 駕駛墜谷身亡",
@@ -5488,25 +5294,6 @@
      "title": "車怠速不見駕駛 男疑不慎墜谷身亡",
      "outlet": "中天新聞網",
      "url": "https://ctinews.com/news/items/KwnKMb4GaY"
-    }
-   ]
-  },
-  {
-   "id": "fall-h20190519a",
-   "title": "黑道處死行動 疑用M4A1突擊步槍逞凶",
-   "date": "2019-05-19",
-   "place": "台中",
-   "summary": "台中發生墜樓事件，一人身亡。",
-   "sources": [
-    {
-     "title": "黑道處死行動 疑用M4A1突擊步槍逞凶",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/society/paper/1289650"
-    },
-    {
-     "title": "自由時報報導",
-     "outlet": "自由時報",
-     "url": "https://features.ltn.com.tw/english/article/paper/1289650"
     }
    ]
   },
@@ -5542,7 +5329,7 @@
      "url": "https://news.ltn.com.tw/news/society/breakingnews/2786411"
     },
     {
-     "title": "自由時報報導",
+     "title": "驚悚！故障電梯「自由落體」 23歲電梯工直墜地下7樓身亡",
      "outlet": "自由時報",
      "url": "https://news.ltn.com.tw/news/society/breakingnews/2786479"
     },
@@ -5583,25 +5370,6 @@
      "title": "快訊／台中大遠百驚傳墜樓！女子摔13樓身亡 群眾目擊嚇報案",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20190407/1416684.htm"
-    }
-   ]
-  },
-  {
-   "id": "fall-h20190403a",
-   "title": "2019/4/3 台中墜樓事件",
-   "date": "2019-04-03",
-   "place": "台中",
-   "summary": "台中發生墜樓事件，一人身亡。",
-   "sources": [
-    {
-     "title": "不滿分手 60多歲老翁殺女友、伴屍6小時跳樓自殺不成骨折",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/society/breakingnews/2747510"
-    },
-    {
-     "title": "不滿提分手 離婚男手刃女友伴屍6小時再跳樓自殺",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20190403/1414537.htm"
     }
    ]
   },
@@ -5661,7 +5429,7 @@
      "url": "https://news.ltn.com.tw/news/society/breakingnews/2694244"
     },
     {
-     "title": "自由時報報導",
+     "title": "飯店欄杆太寬 2歲娃墜8樓 摔落河床亡",
      "outlet": "自由時報",
      "url": "https://news.ltn.com.tw/news/focus/paper/1266435"
     },
@@ -5679,30 +5447,6 @@
      "title": "過年出遊釀悲劇 谷關飯店觀景台1歲女童墜溪亡",
      "outlet": "中天新聞網",
      "url": "https://ctinews.com/news/items/gOnLLYOpnk"
-    }
-   ]
-  },
-  {
-   "id": "fall-h20190116a",
-   "title": "女遊客登玉山八通關 墜百米斷崖身亡",
-   "date": "2019-01-16",
-   "place": "台中",
-   "summary": "台中發生墜樓事件，一人身亡。",
-   "sources": [
-    {
-     "title": "走八通關墜父子斷崖 女拍照滑落百米爆頭亡",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/society/paper/1261616"
-    },
-    {
-     "title": "快訊／女遊客登玉山八通關 墜百米斷崖身亡",
-     "outlet": "華視新聞",
-     "url": "https://news.cts.com.tw/cts/society/201901/201901151949029.html"
-    },
-    {
-     "title": "玉山父子斷崖「女遊客墜百米山谷」 頭骨碎裂身亡",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20190115/1356875.htm"
     }
    ]
   }
