@@ -167,6 +167,17 @@ export const sfx = {
     noise({ at: 0.22, dur: 0.05, vol: 0.35, freq: 2600, q: 3 });
     [1175, 988, 784, 659].forEach((f, i) => tone({ type: "square", f0: f, at: 0.32 + i * 0.06, dur: 0.18, vol: 0.04 }));
   },
+  // 海邊的肉粽: waves sucking back, a low dissonant swell, a breath of whisper-noise and two slow heartbeats
+  shore() {
+    ac();
+    noise({ dur: 1.6, vol: 0.18, type: "lowpass", freq: 900, f1: 200 });
+    tone({ f0: 55, f1: 49, dur: 3.2, vol: 0.28, glide: 3 });
+    tone({ type: "sawtooth", f0: 58.3, f1: 52, dur: 3.2, vol: 0.05, glide: 3 });
+    tone({ type: "triangle", f0: 466, f1: 440, at: 0.5, dur: 2.4, vol: 0.04, glide: 2 });
+    noise({ at: 0.9, dur: 1.4, vol: 0.06, freq: 2600, f1: 1400, q: 6 });
+    thud(1.6, 0.35);
+    thud(1.95, 0.25);
+  },
   // Lumama: a slap on her drum and a shower of coins
   lumama() {
     ac();
