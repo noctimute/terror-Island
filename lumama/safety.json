@@ -246,6 +246,7 @@
      "url": "https://www.ettoday.net/news/20240112/2662875.htm"
     }
    ],
+   "deaths": 1,
    "fear": [
     "D",
     "S"
@@ -264,6 +265,7 @@
      "url": "https://www.ettoday.net/news/20240109/2660194.htm"
     }
    ],
+   "deaths": 1,
    "fear": [
     "D",
     "S"
@@ -282,6 +284,7 @@
      "url": "https://www.ettoday.net/news/20230914/2582523.htm"
     }
    ],
+   "deaths": 1,
    "fear": [
     "D",
     "S"
@@ -300,6 +303,7 @@
      "url": "https://www.ettoday.net/news/20230713/2539557.htm"
     }
    ],
+   "deaths": 1,
    "fear": [
     "D",
     "S"
@@ -318,6 +322,7 @@
      "url": "https://www.ettoday.net/news/20230706/2534451.htm"
     }
    ],
+   "deaths": 1,
    "fear": [
     "D",
     "S"
@@ -389,6 +394,71 @@
      "url": "https://www.ettoday.net/news/20230406/2474211.htm"
     }
    ],
+   "deaths": 1,
+   "fear": [
+    "D",
+    "S"
+   ]
+  },
+  {
+   "id": "s-h20230330a",
+   "title": "無良老闆曝！台中老屋倒塌奪命　3工人枉死「全沒勞保」",
+   "date": "2023-03-30",
+   "place": "台中",
+   "summary": "台中發生工安意外， 3 人身亡。",
+   "sources": [
+    {
+     "title": "快訊／台中老屋崩塌活埋2死 第3名工人找到「腳部露出」無反應",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230330/2470517.htm"
+    },
+    {
+     "title": "快訊／台中房屋倒塌！挖出第二名工人頭部 無生命跡象",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230330/2470477.htm"
+    },
+    {
+     "title": "二度倒塌畫面曝！台中老屋活埋3人 他生前「最後掙扎」仍不治",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230330/2470235.htm"
+    },
+    {
+     "title": "台中老屋倒塌1死2活埋！市府緊急勒令停工 曝釀災奪命2原因",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230330/2470154.htm"
+    },
+    {
+     "title": "快訊／台中老屋倒塌1人不治！2人仍受困 96歲嬤目擊愛孫遭埋",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230330/2470091.htm"
+    },
+    {
+     "title": "快訊／台中百年老屋倒塌活埋3人 1人救出無生命跡象2待援",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230330/2470049.htm"
+    },
+    {
+     "title": "快訊／無良老闆曝！台中老屋倒塌奪命 3工人枉死「全沒勞保」",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230331/2470906.htm"
+    },
+    {
+     "title": "台中老屋倒塌3工人死因曝！最先救出1人大出血 2人被活活悶死",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230331/2470795.htm"
+    },
+    {
+     "title": "「直立式埋3米土推」 台中老屋崩塌活埋3死",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230331/2470582.htm"
+    },
+    {
+     "title": "快訊／台中老屋活埋3工人 3人尋獲皆不幸身亡",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230331/2470530.htm"
+    }
+   ],
+   "deaths": 3,
    "fear": [
     "D",
     "S"
@@ -407,6 +477,7 @@
      "url": "https://www.ettoday.net/news/20230206/2434927.htm"
     }
    ],
+   "deaths": 1,
    "fear": [
     "D",
     "S"
@@ -425,6 +496,7 @@
      "url": "https://www.ettoday.net/news/20221216/2402753.htm"
     }
    ],
+   "deaths": 1,
    "fear": [
     "D",
     "S"
@@ -443,6 +515,7 @@
      "url": "https://www.ettoday.net/news/20221009/2354715.htm"
     }
    ],
+   "deaths": 1,
    "fear": [
     "D",
     "S"
@@ -461,6 +534,7 @@
      "url": "https://www.ettoday.net/news/20220807/2311221.htm"
     }
    ],
+   "deaths": 1,
    "fear": [
     "D",
     "S"
@@ -479,6 +553,7 @@
      "url": "https://www.ettoday.net/news/20220708/2289897.htm"
     }
    ],
+   "deaths": 1,
    "fear": [
     "D",
     "S"
@@ -497,6 +572,7 @@
      "url": "https://www.ettoday.net/news/20220613/2271687.htm"
     }
    ],
+   "deaths": 1,
    "fear": [
     "D",
     "S"
@@ -515,6 +591,7 @@
      "url": "https://www.ettoday.net/news/20220529/2261569.htm"
     }
    ],
+   "deaths": 1,
    "fear": [
     "D",
     "S"
@@ -533,6 +610,7 @@
      "url": "https://www.ettoday.net/news/20211208/2141227.htm"
     }
    ],
+   "deaths": 1,
    "fear": [
     "D",
     "S"
@@ -551,6 +629,7 @@
      "url": "https://www.ettoday.net/news/20211130/2135318.htm"
     }
    ],
+   "deaths": 1,
    "fear": [
     "D",
     "S"
@@ -569,6 +648,7 @@
      "url": "https://www.ettoday.net/news/20211130/2135143.htm"
     }
    ],
+   "deaths": 1,
    "fear": [
     "D",
     "S"
@@ -617,6 +697,7 @@
      "url": "https://www.cna.com.tw/news/asoc/202107120035.aspx"
     }
    ],
+   "deaths": 1,
    "fear": [
     "D",
     "S"
@@ -640,6 +721,7 @@
      "url": "https://news.ltn.com.tw/news/society/breakingnews/3594617"
     }
    ],
+   "deaths": 1,
    "fear": [
     "D",
     "S"
@@ -673,6 +755,7 @@
      "url": "https://tw.news.yahoo.com/%E6%8A%98%E7%96%8A%E6%A1%8C%E5%A4%BE%E6%AD%BB%E4%BA%BA-%E5%8F%B0%E4%B8%AD3%E6%AD%B2%E7%94%B7%E7%AB%A5%E9%81%AD%E6%A1%8C%E5%A4%BE%E8%83%B8%E6%AE%9E%E5%91%BD-153224484.html"
     }
    ],
+   "deaths": 1,
    "fear": [
     "D",
     "S"
@@ -691,6 +774,7 @@
      "url": "https://www.ettoday.net/news/20210310/1935259.htm"
     }
    ],
+   "deaths": 1,
    "fear": [
     "D",
     "S"
@@ -734,6 +818,7 @@
      "url": "https://www.dailymotion.com/video/x7zjemv"
     }
    ],
+   "deaths": 1,
    "fear": [
     "D",
     "S"
@@ -752,6 +837,7 @@
      "url": "https://www.ettoday.net/news/20201201/1866873.htm"
     }
    ],
+   "deaths": 1,
    "fear": [
     "D",
     "S"
@@ -780,6 +866,7 @@
      "url": "https://news.ltn.com.tw/news/society/breakingnews/3332584"
     }
    ],
+   "deaths": 1,
    "fear": [
     "D",
     "S"
@@ -798,6 +885,7 @@
      "url": "https://www.ettoday.net/news/20200928/1819672.htm"
     }
    ],
+   "deaths": 1,
    "fear": [
     "D",
     "S"
@@ -821,6 +909,7 @@
      "url": "https://www.setn.com/news/800134"
     }
    ],
+   "deaths": 1,
    "fear": [
     "D",
     "S"
@@ -849,6 +938,7 @@
      "url": "https://www.chinatimes.com/realtimenews/20200702003719-260402"
     }
    ],
+   "deaths": 1,
    "fear": [
     "D",
     "S"
@@ -859,7 +949,7 @@
    "title": "台中矽品工程師遭機台夾入慘亡！疑員工誤觸開關…檢警調查",
    "date": "2020-01-11",
    "place": "台中",
-   "summary": "台中發生意外事故，一人身亡。",
+   "summary": "台中發生工安意外，一人身亡。",
    "sources": [
     {
      "title": "台中矽品工程師遭機台夾入慘亡！疑員工誤觸開關…檢警調查",
@@ -902,6 +992,7 @@
      "url": "https://forum.gamer.com.tw/Co.php?bsn=60561&sn=130142"
     }
    ],
+   "deaths": 1,
    "fear": [
     "D",
     "S"
@@ -930,6 +1021,7 @@
      "url": "https://news.ltn.com.tw/news/society/breakingnews/2923440"
     }
    ],
+   "deaths": 1,
    "fear": [
     "D",
     "S"
@@ -973,6 +1065,7 @@
      "url": "https://www.a885.com.tw/m/2001-1159-825401,c22374-1.php"
     }
    ],
+   "deaths": 1,
    "fear": [
     "D",
     "S"
@@ -1021,6 +1114,7 @@
      "url": "https://www.setn.com/news/484030"
     }
    ],
+   "deaths": 1,
    "fear": [
     "D",
     "S"

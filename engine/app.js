@@ -99,6 +99,7 @@ try {
                 sort: r.sort, // month used to place a range/year-only date on the timeline
                 place: r.place,
                 plain: r.summary,
+                deaths: r.deaths, // the research data's own count, when it has one
                 facts: [],
                 helpline: r.helpline ?? !!R.helpline,
                 sources: r.sources,
