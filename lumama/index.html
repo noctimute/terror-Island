@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Noto+Serif+TC:wght@700;900&display=swap">
 <base href="../engine/">
-<link rel="stylesheet" href="./ui.css?v=52">
+<link rel="stylesheet" href="./ui.css?v=53">
 <script type="importmap">{"imports":{"three":"./vendor/three/build/three.module.min.js","three/addons/":"./vendor/three/examples/jsm/"}}</script>
 <script data-goatcounter="https://terrorisland.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </head>
@@ -33,7 +33,7 @@
 <div class="side-head">
 <div class="eyebrow">THE EVENT INDEX</div>
 <h2>這座城，發生過什麼。</h2>
-<button id="mobile-close" class="mobile-close" aria-label="關閉清單">✕</button>
+<button id="mobile-close" class="mobile-close" aria-label="關閉清單">✕</button><div class="fs-step" role="group" aria-label="文字大小"><button data-fs-step="-1" aria-label="文字縮小">A−</button><span aria-live="polite">100%</span><button data-fs-step="1" aria-label="文字放大">A+</button></div>
 <p id="side-count">5 處開放地點</p>
 <input id="search" class="search" type="search" aria-label="搜尋島嶼或事件" placeholder="搜尋島嶼、事件、關鍵字…">
 <div class="side-tabs"><button id="tab-zones" class="active">島嶼與事件</button><button id="tab-flows">詛咒連線</button><button id="tab-hot">事件熱點</button></div>
@@ -45,6 +45,7 @@
 <article id="card" class="card" hidden aria-label="選取項目詳細資料">
 <button id="card-handle" class="sheet-handle mob-only" aria-label="切換全視窗或 1/3 視窗"><i></i></button>
 <button class="close" id="card-close" aria-label="關閉詳細資料">×</button>
+<div class="fs-step" role="group" aria-label="文字大小"><button data-fs-step="-1" aria-label="文字縮小">A−</button><span aria-live="polite">100%</span><button data-fs-step="1" aria-label="文字放大">A+</button></div>
 <div id="card-content"></div>
 </article>
 
@@ -126,4 +127,4 @@
 <div id="loading" class="loading" role="status"><h2>TERROR</h2><p>正在載入事件…</p></div>
 <noscript><p class="nojs">這個互動地圖需要啟用 JavaScript 與 WebGL。</p></noscript>
 </main>
-<script type="module" src="./app.js?v=108"></script></body></html>
+<script type="module" src="./app.js?v=109"></script></body></html>

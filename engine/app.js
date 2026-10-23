@@ -1129,7 +1129,19 @@ try {
   function setFs(pct) {
     document.documentElement.style.setProperty("--fs", pct / 100);
     fsPop.querySelectorAll("button").forEach((b) => b.setAttribute("aria-pressed", +b.dataset.fs === pct));
+    $$(".fs-step span").forEach((s) => (s.textContent = `${pct}%`));
+    $$(".fs-step [data-fs-step]").forEach((b) => (b.disabled = pct === FS_STEPS[+b.dataset.fsStep < 0 ? 0 : FS_STEPS.length - 1]));
+    fsNow = pct;
   }
+  let fsNow = 100;
+  // the A− / A+ steppers at the top of the list and of the island card
+  document.addEventListener("click", (e) => {
+    const b = e.target.closest("[data-fs-step]");
+    if (!b) return;
+    const i = Math.max(0, Math.min(FS_STEPS.length - 1, FS_STEPS.indexOf(fsNow) + +b.dataset.fsStep));
+    setFs(FS_STEPS[i]);
+    store.set(FS_KEY, FS_STEPS[i]);
+  });
   fsPop.insertAdjacentHTML("beforeend", FS_STEPS.map((p) => `<button data-fs="${p}">${p}%</button>`).join(""));
   setFs(FS_STEPS.includes(+store.get(FS_KEY)) ? +store.get(FS_KEY) : 100);
   fsPop.addEventListener("click", (e) => {

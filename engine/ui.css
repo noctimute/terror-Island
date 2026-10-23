@@ -103,7 +103,7 @@ body.side-closed .sidebar { transform: translateX(100%); }
 .mobile-close { display: none; position: absolute; top: 18px; right: 18px; border: 0; background: none; font-size: calc(18px * var(--fs)); }
 .search { width: 100%; height: 42px; border: 1px solid var(--line); border-radius: 10px; padding: 0 14px; font: inherit; font-size: calc(13px * var(--fs)); background: #fbf8f3; color: var(--ink); }
 .side-tabs { display: grid; grid-template-columns: repeat(auto-fit, minmax(0, 1fr)); gap: 6px; margin-top: 12px; }
-.side-tabs button { border: 1px solid var(--line); background: #fbf8f3; border-radius: 10px; height: 42px; font-size: calc(13px * var(--fs)); }
+.side-tabs button { border: 1px solid var(--line); background: #fbf8f3; border-radius: 10px; min-height: 42px; padding: 4px 6px; line-height: 1.25; font-size: calc(13px * var(--fs)); }
 .side-tabs button.active { background: var(--ink); border-color: var(--ink); color: #fff; }
 .tree { flex: 1; overflow: auto; padding: 4px 12px 12px; overscroll-behavior: contain; }
 .row { border-bottom: 1px solid var(--line); }
@@ -546,3 +546,16 @@ body.no-chips .chip { display: none !important; }
 .air-tag b { font: 900 calc(15px * var(--fs))/1.1 var(--serif); letter-spacing: 0.08em; }
 .air-tag small { font-size: calc(11px * var(--fs)); color: #4a5a8a; }
 @keyframes airbob { 50% { transform: translateY(-4px); } }
+
+/* quick A− / A+ text size stepper at the top of the list and of the island card (fixed size, so it never moves under the finger) */
+.fs-step { --fs: 1; position: absolute; top: 14px; display: flex; align-items: center; gap: 2px; padding: 2px; border-radius: 999px; background: var(--paper2); z-index: 2; }
+.fs-step button { border: 0; background: none; width: 32px; height: 30px; border-radius: 999px; font: 700 13px/1 var(--serif); color: var(--ink); cursor: pointer; }
+.fs-step button:hover:not(:disabled) { background: #fff; }
+.fs-step button:disabled { opacity: 0.3; cursor: default; }
+.fs-step span { min-width: 38px; text-align: center; font: 600 11px/1 ui-monospace, monospace; color: var(--muted); }
+.sidebar > .side-head .fs-step, .side-head .fs-step { right: 18px; }
+.card > .fs-step { right: 56px; top: 14px; }
+@media (max-width: 800px) {
+  .side-head .fs-step { right: 52px; top: 12px; }
+  .card > .fs-step { position: sticky; top: 6px; margin: -32px 0 10px; width: max-content; }
+}
