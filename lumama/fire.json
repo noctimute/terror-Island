@@ -26,7 +26,7 @@
    "title": "台中太平3樓透天厝起火　濃煙狂竄1女陳屍1樓地板",
    "date": "2023-12-21",
    "place": "太平",
-   "summary": "太平發生火警，一名女子罹難。",
+   "summary": "太平發生火警，一人罹難。",
    "sources": [
     {
      "title": "快訊／台中太平3樓透天厝起火 濃煙狂竄1女陳屍1樓地板",
@@ -54,12 +54,17 @@
    "title": "台中舊城區民宅大火　20多歲腦麻女送醫不治！父趕回家難置信",
    "date": "2023-11-16",
    "place": "台中",
-   "summary": "台中發生火警，一人罹難。",
+   "summary": "台中發生火警，一名幼童罹難。",
    "sources": [
     {
      "title": "台中舊城區民宅大火 20多歲腦麻女送醫不治！父趕回家難置信",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20231116/2624289.htm"
+    },
+    {
+     "title": "快訊／濃煙衝天！台中夾娃娃機店二樓大火 一女救出無生命跡象",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20231116/2624222.htm"
     },
     {
      "title": "快訊／找到了！台中工廠大火失蹤男遭鋼材壓住 尋獲已成焦屍",
@@ -70,29 +75,20 @@
   },
   {
    "id": "fire-h20231103a",
-   "title": "2023/11/3 台中火災",
+   "title": "雜物阻斷逃生路！台中太平民宅大火　老夫妻同葬身火窟",
    "date": "2023-11-03",
-   "place": "台中",
-   "summary": "台中發生火警，一人罹難。",
+   "place": "太平",
+   "summary": "太平發生火警，一人罹難。",
    "sources": [
+    {
+     "title": "快訊／雜物阻斷逃生路！台中太平民宅大火　老夫妻同葬身火窟",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20231103/2615365.htm"
+    },
     {
      "title": "快訊／屋內堆滿資收物！台中民宅大火夫妻未逃出 警消尋獲1焦屍",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20231103/2615211.htm"
-    }
-   ]
-  },
-  {
-   "id": "fire-h20230826a",
-   "title": "姐弟戀破局！台中女遭削鼻猛砍12刀　男友竟還潑汽油想燒死她",
-   "date": "2023-08-26",
-   "place": "台中",
-   "summary": "台中發生火警，一人罹難。",
-   "sources": [
-    {
-     "title": "姐弟戀破局！台中女遭削鼻猛砍12刀 男友竟還潑汽油想燒死她",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20230826/2569163.htm"
     }
    ]
   },
@@ -115,7 +111,7 @@
    "title": "2023/6/7 台中火災",
    "date": "2023-06-07",
    "place": "台中",
-   "summary": "台中發生火警，一名男子罹難。",
+   "summary": "台中發生火警，一人罹難。",
    "sources": [
     {
      "title": "快訊／台中公寓火警「3樓發現遺體」 獨居男行動不便困火場慘死",
@@ -129,7 +125,7 @@
    "title": "2023/3/28 台中火災",
    "date": "2023-03-28",
    "place": "台中",
-   "summary": "台中發生火警，一名男子罹難。",
+   "summary": "台中發生火警，一人罹難。",
    "sources": [
     {
      "title": "台中驚悚火警！行動不便男「燒到碳化」難認屍 爬到客廳仍身亡",
@@ -182,11 +178,16 @@
   },
   {
    "id": "fire-h20230304a",
-   "title": "台中3死惡火！倖存男聽「爆炸聲」驚逃　見親友被抬出崩潰抱頭蹲地",
+   "title": "台中透天厝惡火3死1傷！　木造隔間奪命「祖孫三代」睡夢中不治",
    "date": "2023-03-04",
-   "place": "台中",
-   "summary": "台中發生火警，造成 3 人罹難。",
+   "place": "后里",
+   "summary": "后里發生火警，造成 3 人罹難。",
    "sources": [
+    {
+     "title": "后里惡火奪3命！他工作逃一劫…父母愛兒葬火窟　慟：阿嬤剛走半年",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230304/2452275.htm"
+    },
     {
      "title": "台中透天厝惡火！樓上二哥一家3口慘死 樓下三弟全家幸運逃劫",
      "outlet": "ETtoday",
@@ -242,7 +243,7 @@
    "title": "台中後站民宅惡火！獨居包租婆來不及逃　倒1樓娃娃機店身亡",
    "date": "2023-02-20",
    "place": "台中",
-   "summary": "台中發生火警，一人罹難。",
+   "summary": "台中發生火警，一名幼童罹難。",
    "sources": [
     {
      "title": "台中後站民宅惡火！獨居包租婆來不及逃 倒1樓娃娃機店身亡",
@@ -267,20 +268,6 @@
   },
   {
    "id": "fire-h20230128a",
-   "title": "年假9天...台中19件火警4死6傷　18件天冷用電超載釀",
-   "date": "2023-01-28",
-   "place": "台中",
-   "summary": "台中發生火警，造成 4 人罹難。",
-   "sources": [
-    {
-     "title": "年假9天...台中19件火警4死6傷 18件天冷用電超載釀",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20230128/2429404.htm"
-    }
-   ]
-  },
-  {
-   "id": "fire-h20230128b",
    "title": "台中透天厝凌晨惡火！兒大腿燒燙傷、母受困送醫不治",
    "date": "2023-01-28",
    "place": "台中",
@@ -295,24 +282,29 @@
   },
   {
    "id": "fire-h20230121a",
-   "title": "除夕夜傳憾事　台中民宅火警「1人身亡」",
+   "title": "初三凌晨傳憾事！台中烏日民宅大火　獨居男葬身火窟",
    "date": "2023-01-21",
-   "place": "台中",
-   "summary": "台中發生火警，一人罹難。",
+   "place": "烏日",
+   "summary": "烏日發生火警，一人罹難。",
    "sources": [
     {
      "title": "快訊／除夕夜傳憾事 台中民宅火警「1人身亡」",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20230121/2427422.htm"
+    },
+    {
+     "title": "快訊／初三凌晨傳憾事！台中烏日民宅大火　獨居男葬身火窟",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230124/2428022.htm"
     }
    ]
   },
   {
    "id": "fire-h20230121b",
-   "title": "2023/1/21 南屯火災",
+   "title": "2023/1/21 台中火災",
    "date": "2023-01-21",
-   "place": "南屯",
-   "summary": "南屯發生火警，一名男子罹難。",
+   "place": "台中",
+   "summary": "台中發生火警，一人罹難。",
    "sources": [
     {
      "title": "快訊／南屯交流道清晨火燒車！ 車下驚見無名男焦屍",
@@ -323,7 +315,7 @@
   },
   {
    "id": "fire-h20230106a",
-   "title": "台中5死惡火！起火點在倖存阿公床旁　他洗完腎縱火罪移送地檢署",
+   "title": "台中大里惡火致命5原因曝光　3代5口睡夢中遭濃煙嗆死",
    "date": "2023-01-06",
    "place": "大里",
    "summary": "大里發生火警，造成 5 人罹難。",
@@ -344,6 +336,11 @@
      "url": "https://www.ettoday.net/news/20230106/2416844.htm"
     },
     {
+     "title": "快訊／自家人燒屋！ 台中凌晨惡火「三代六口」5人無生命跡象",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230106/2416818.htm"
+    },
+    {
      "title": "台中大里惡火致命5原因曝光 3代5口睡夢中遭濃煙嗆死",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20230107/2417657.htm"
@@ -352,10 +349,10 @@
   },
   {
    "id": "fire-h20221229a",
-   "title": "台中工廠惡火「增至4死」！單親爸獨留2幼孩　家屬哭癱",
+   "title": "台中工廠大火釀4死2傷！空拍對比圖曝　2層樓鐵皮建築燒到焦黑",
    "date": "2022-12-29",
    "place": "豐原",
-   "summary": "豐原發生火警，造成 4 人罹難。",
+   "summary": "豐原發生火警，造成 33 人罹難。",
    "sources": [
     {
      "title": "台中工廠大火4死！33歲死者留下1歲小孩 媽見焦屍認不出哽咽哭了",
@@ -373,9 +370,24 @@
      "url": "https://www.ettoday.net/news/20221229/2411960.htm"
     },
     {
+     "title": "快訊／台中豐原工廠大火！多人受困「1重傷4無生命跡象」",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20221229/2411945.htm"
+    },
+    {
+     "title": "台中雅速達大火奪4命　倖存員工回憶「轟一聲火就來了」急逃離",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20221230/2412195.htm"
+    },
+    {
      "title": "台中工廠大火釀4死2傷！空拍對比圖曝 2層樓鐵皮建築燒到焦黑",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20221230/2412115.htm"
+    },
+    {
+     "title": "豐原工廠大火奪4命！一查「是違建」　台中市府：限期改善或拆除",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20221230/2411998.htm"
     }
    ]
   },
@@ -384,7 +396,7 @@
    "title": "台中工寮火警！1男倒臥門外「無呼吸心跳」　送醫不治",
    "date": "2022-10-21",
    "place": "台中",
-   "summary": "台中發生火警，一名男子罹難。",
+   "summary": "台中發生火警，一人罹難。",
    "sources": [
     {
      "title": "快訊／台中工寮火警！1男倒臥門外「無呼吸心跳」 送醫不治",
@@ -408,16 +420,40 @@
    ]
   },
   {
+   "id": "fire-h20220905a",
+   "title": "台中民宅凌晨惡火！1翁受困閣樓　尋獲已無生命跡象",
+   "date": "2022-09-05",
+   "place": "台中",
+   "summary": "台中發生火警，一名男子罹難。",
+   "sources": [
+    {
+     "title": "快訊／台中民宅凌晨惡火！1翁受困閣樓 尋獲已無生命跡象",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20220905/2331364.htm"
+    }
+   ]
+  },
+  {
    "id": "fire-h20220622a",
-   "title": "2022/6/22 台中火災",
+   "title": "台中老議長之子與外傭命喪火場　兒招魂保證照顧好母妹才獲允杯",
    "date": "2022-06-22",
    "place": "台中",
    "summary": "台中發生火警，造成 2 人罹難。",
    "sources": [
     {
+     "title": "台中老議長之子與外傭命喪火場　兒招魂保證照顧好母妹才獲允杯",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20220622/2278610.htm"
+    },
+    {
      "title": "台中深夜大火2死！倖存母女「跳樓逃生」 躲陽台求救驚險畫面曝",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20220622/2278173.htm"
+    },
+    {
+     "title": "台中民宅大火　老議長之子、看護喪生",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20220622/2277978.htm"
     }
    ]
   },
@@ -440,7 +476,7 @@
    "title": "2022/3/17 台中火災",
    "date": "2022-03-17",
    "place": "台中",
-   "summary": "台中發生火警，一名男子罹難。",
+   "summary": "台中發生火警，一人罹難。",
    "sources": [
     {
      "title": "台中男「掃墓慘成焦屍」！疑被煙霧嗆暈 遭大火活活燒死",
@@ -451,7 +487,7 @@
   },
   {
    "id": "fire-h20220306a",
-   "title": "台中惡火再添1死！7層樓41間套房6死6傷",
+   "title": "台中惡火6死！房東「17房隔成41間套房」　都發局將依法重罰",
    "date": "2022-03-06",
    "place": "台中",
    "summary": "台中發生火警，造成 6 人罹難。",
@@ -482,6 +518,16 @@
      "url": "https://www.ettoday.net/news/20220307/2203136.htm"
     },
     {
+     "title": "快訊／台中惡火奪6命疑男租客放火！　警拘1人到案說明",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20220307/2203112.htm"
+    },
+    {
+     "title": "快訊／台中惡火奪6命疑人為縱火！　檢掌握身分開拘票逮人",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20220307/2203073.htm"
+    },
+    {
      "title": "台中惡火奪6命！3遺體嚴重燒焦身分難辨 1女急奔殯儀館尋母",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20220307/2203022.htm"
@@ -507,6 +553,11 @@
      "url": "https://www.ettoday.net/news/20220307/2202788.htm"
     },
     {
+     "title": "台中惡火奪6命！環保局才清除女房東1.1噸雜物　恐怖垃圾山畫面曝",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20220307/2202758.htm"
+    },
+    {
      "title": "不斷更新／台中惡火6人1羊亡！8樓加蓋尋獲嬌小女屍、焦黑羊屍",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20220307/2202678.htm"
@@ -525,6 +576,11 @@
      "title": "台中大火6死樓層曝 3樓到8樓都有",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20220307/2202613.htm"
+    },
+    {
+     "title": "台中大火奪6命　里長目睹奇怪1幕「多樓層同時燒起來」",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20220307/2202608.htm"
     },
     {
      "title": "台中6死大火難救援 消防員「還原內部情況」嘆：很難抉擇",
@@ -577,6 +633,11 @@
      "url": "https://www.ettoday.net/news/20220309/2204680.htm"
     },
     {
+     "title": "台中惡火奪6命！　家屬返現場哀慟引魂：帶祢們離開這裡",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20220309/2204410.htm"
+    },
+    {
      "title": "快訊／台中惡火6死！17房隔成41間套房 房東遭重罰144萬",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20220309/2204318.htm"
@@ -585,6 +646,11 @@
      "title": "台中惡火6死！房東「17房隔成41間套房」 都發局將依法重罰",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20220309/2204244.htm"
+    },
+    {
+     "title": "台中惡火奪6命！超有錢房東愛囤物　連Google街景都拍到垃圾山",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20220310/2205467.htm"
     }
    ]
   },
@@ -626,7 +692,7 @@
    "title": "台中民宅深夜惡火　1男受困救出不治",
    "date": "2021-12-09",
    "place": "台中",
-   "summary": "台中發生火警，一名男子罹難。",
+   "summary": "台中發生火警，一人罹難。",
    "sources": [
     {
      "title": "快訊／台中民宅深夜惡火 1男受困救出不治",
@@ -637,6 +703,20 @@
   },
   {
    "id": "fire-h20211001a",
+   "title": "台中1家5口午夜火劫　1死3命危！鄰居外傭也送加護病房",
+   "date": "2021-10-01",
+   "place": "台中",
+   "summary": "台中發生火警，造成 3 人罹難。",
+   "sources": [
+    {
+     "title": "台中1家5口午夜火劫 1死3命危！鄰居外傭也送加護病房",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20211001/2091952.htm"
+    }
+   ]
+  },
+  {
+   "id": "fire-h20211001b",
    "title": "台中暗夜火警1死！「騎樓堆滿雜物」畫面曝　里長：勸過很多次",
    "date": "2021-10-01",
    "place": "台中",
@@ -650,7 +730,7 @@
    ]
   },
   {
-   "id": "fire-h20211001b",
+   "id": "fire-h20211001c",
    "title": "台中透天厝凌晨惡火！屋主妻困2F「救出無心跳」送醫不治",
    "date": "2021-10-01",
    "place": "台中",
@@ -660,6 +740,11 @@
      "title": "快訊／台中透天厝凌晨惡火！屋主妻困2F「救出無心跳」送醫不治",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20211001/2091277.htm"
+    },
+    {
+     "title": "快訊／台中透天厝清晨惡火 8人送醫1無生命跡象",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20211001/2091262.htm"
     }
    ]
   },
@@ -668,7 +753,7 @@
    "title": "台中民宅清晨惡火！1男受困3樓　被尋獲時已死亡",
    "date": "2021-07-21",
    "place": "台中",
-   "summary": "台中發生火警，一名男子罹難。",
+   "summary": "台中發生火警，一人罹難。",
    "sources": [
     {
      "title": "快訊／台中民宅清晨惡火！1男受困3樓 被尋獲時已死亡",
@@ -678,11 +763,25 @@
    ]
   },
   {
+   "id": "fire-h20210619a",
+   "title": "台中工廠晚間火警！廠房一片焦黑　男員工無生命跡象",
+   "date": "2021-06-19",
+   "place": "台中",
+   "summary": "台中發生火警，一人罹難。",
+   "sources": [
+    {
+     "title": "快訊／台中工廠晚間火警！廠房一片焦黑 男員工無生命跡象",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20210619/2010978.htm"
+    }
+   ]
+  },
+  {
    "id": "fire-h20210423a",
    "title": "台中大火奪3童命…消防達人曝「做到關鍵5點」：小孩一定不會死！",
    "date": "2021-04-23",
    "place": "台中",
-   "summary": "台中發生火警，一名幼童罹難。",
+   "summary": "台中發生火警，造成 3 人罹難。",
    "sources": [
     {
      "title": "台中大火奪3童命…消防達人曝「做到關鍵5點」：小孩一定不會死！",
@@ -722,29 +821,10 @@
   },
   {
    "id": "fire-h20210419b",
-   "title": "台中惡火3童亡「平面位置圖」曝！鄰曝：爸曾放任小兄妹玩瓦斯爐",
-   "date": "2021-04-19",
-   "place": "台中",
-   "summary": "台中發生火警，一名幼童罹難。",
-   "sources": [
-    {
-     "title": "台中惡火3童亡「平面位置圖」曝！鄰曝：爸曾放任小兄妹玩瓦斯爐",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20210419/1963301.htm"
-    },
-    {
-     "title": "台中民宅暗夜惡火 3童命喪火窟",
-     "outlet": "LINE TODAY（轉載）",
-     "url": "https://today.line.me/tw/v3/article/zpymz7"
-    }
-   ]
-  },
-  {
-   "id": "fire-h20210419c",
    "title": "台中3童疑玩打火機！5歲女被燒死　父：我唯一的孩子，還沒唸書耶",
    "date": "2021-04-19",
    "place": "台中",
-   "summary": "台中發生火警，造成 3 人罹難。",
+   "summary": "台中發生火警，一名幼童罹難。",
    "sources": [
     {
      "title": "台中3童疑玩打火機！5歲女被燒死 父：我唯一的孩子，還沒唸書耶",
@@ -775,11 +855,85 @@
      "title": "【台中惡火】3童疑玩打火機喪命 5歲女童父慟：我唯一的孩子還沒念書",
      "outlet": "中時新聞網",
      "url": "https://www.chinatimes.com/realtimenews/20210419001407-260402"
+    }
+   ]
+  },
+  {
+   "id": "fire-h20210418a",
+   "title": "台中3童命喪火窟！爸淚曝「剛剛還在這裡玩」：還有跟我說爸爸再見",
+   "date": "2021-04-18",
+   "place": "大甲",
+   "summary": "大甲發生火警，造成 3 人罹難。",
+   "sources": [
+    {
+     "title": "快訊／台中中華夜市深夜惡火 2女1男童均宣告不治",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20210418/1963066.htm"
+    },
+    {
+     "title": "外出看熱鬧？台中3童命喪火窟　友澄清：3大人到大甲媽當「雜工」",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20210419/1963675.htm"
+    },
+    {
+     "title": "台中3童命喪火窟！3歲女童「生日成忌日」　招魂聽媽呼喊才聖杯",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20210419/1963588.htm"
+    },
+    {
+     "title": "台中3童命喪火窟！爸淚曝「剛剛還在這裡玩」：還有跟我說爸爸再見",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20210419/1963361.htm"
+    },
+    {
+     "title": "台中惡火3童亡「平面位置圖」曝！鄰曝：爸曾放任小兄妹玩瓦斯爐",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20210419/1963301.htm"
+    },
+    {
+     "title": "疑玩打火機釀禍…台中3童葬身火窟！市府第一時間到場：盡力協助",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20210419/1963125.htm"
+    },
+    {
+     "title": "台中火警3童命喪樓梯間　鄰居控「媽媽疑在2樓只顧滑手機」",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20210419/1963095.htm"
     },
     {
      "title": "快訊／台中深夜惡火！3幼童倒臥樓梯間不治 疑玩打火機釀禍",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20210419/1963077.htm"
+    },
+    {
+     "title": "[新聞] 台中中華夜市深夜惡火 2女1男童均宣告不治-寧威科技",
+     "outlet": "niwei.com.tw",
+     "url": "https://www.niwei.com.tw/news/ins.php?index_m_id=22&index_id=88"
+    },
+    {
+     "title": "台中中華夜市深夜惡火 3幼童困樓梯間喪命 - TDN台灣生活新聞",
+     "outlet": "news.st-media.com.tw",
+     "url": "https://news.st-media.com.tw/news/3489"
+    },
+    {
+     "title": "台中深夜奪命惡火！中華夜市鐵皮加蓋民宅樓梯間救出3童 送醫不治",
+     "outlet": "Newtalk 新聞",
+     "url": "https://newtalk.tw/news/view/2021-04-19/565392"
+    },
+    {
+     "title": "台中深夜惡火3童無生命跡象",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/Taichung/paper/1443880"
+    },
+    {
+     "title": "台中暗夜惡火噬民宅 3童命喪火場",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/XorQ19"
+    },
+    {
+     "title": "台中市中華路夜市民宅惡火 3童無生命跡象1男嗆傷",
+     "outlet": "台視新聞",
+     "url": "https://news.ttv.com.tw/news/11004190000100W"
     },
     {
      "title": "台中大火3童死！女童父質疑「打火機釀禍」、煩惱怎麼賠償",
@@ -800,6 +954,11 @@
      "title": "【台中惡火】疑玩打火機惹禍2家3童喪命 父悲慟還煩惱賠償",
      "outlet": "中時新聞網",
      "url": "https://www.chinatimes.com/realtimenews/20210419000949-260402"
+    },
+    {
+     "title": "台中民宅暗夜惡火 3童命喪火窟",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/zpymz7"
     }
    ]
   },
@@ -808,7 +967,7 @@
    "title": "2021/4/12 台中火災",
    "date": "2021-04-12",
    "place": "台中",
-   "summary": "台中發生火警，一名男子罹難。",
+   "summary": "台中發生火警，一人罹難。",
    "sources": [
     {
      "title": "台中23歲男報案「火燒起來了」斷訊！消防6進火場…驚見他慘成焦屍",
@@ -826,8 +985,8 @@
    "id": "fire-h20210327a",
    "title": "台中深夜惡火奪2命！男全身焦黑、母僅剩臉可辨別　家屬悲慟認屍",
    "date": "2021-03-27",
-   "place": "清水",
-   "summary": "清水發生火警，造成 2 人罹難。",
+   "place": "台中",
+   "summary": "台中發生火警，造成 2 人罹難。",
    "sources": [
     {
      "title": "台中深夜惡火奪2命！男全身焦黑、母僅剩臉可辨別 家屬悲慟認屍",
@@ -875,8 +1034,8 @@
    "id": "fire-h20210301a",
    "title": "台中透天厝火警！視障女喪命、移工逃生　姊蹲地痛哭",
    "date": "2021-03-01",
-   "place": "太平",
-   "summary": "太平發生火警，一人罹難。",
+   "place": "台中",
+   "summary": "台中發生火警，一人罹難。",
    "sources": [
     {
      "title": "快訊／台中透天厝火警！視障女喪命、移工逃生 姊蹲地痛哭",
@@ -897,10 +1056,10 @@
   },
   {
    "id": "fire-h20210228a",
-   "title": "2021/2/28 石岡火災",
+   "title": "2021/2/28 台中火災",
    "date": "2021-02-28",
-   "place": "石岡",
-   "summary": "石岡發生火警，一人罹難。",
+   "place": "台中",
+   "summary": "台中發生火警，一人罹難。",
    "sources": [
     {
      "title": "快訊／台中第四公墓起火！驚見「一具焦屍」全身燒到焦黑",
@@ -925,35 +1084,11 @@
    ]
   },
   {
-   "id": "fire-h20210126a",
-   "title": "不甘酒後被毆打　台中女燒死男街友…跑8公里外報案",
-   "date": "2021-01-26",
-   "place": "台中",
-   "summary": "台中發生火警，一人罹難。",
-   "sources": [
-    {
-     "title": "不甘酒後被毆打 台中女燒死男街友…跑8公里外報案",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20210126/1907830.htm"
-    },
-    {
-     "title": "狠燒死街友逃8公里報案 台中女見「悽慘死狀」才認罪",
-     "outlet": "LINE TODAY（轉載）",
-     "url": "https://today.line.me/tw/v3/article/LenkLz"
-    },
-    {
-     "title": "狠燒死街友逃8公里報案 台中女見「悽慘死狀」才認罪",
-     "outlet": "TVBS",
-     "url": "https://news.tvbs.com.tw/local/1455099"
-    }
-   ]
-  },
-  {
    "id": "fire-h20210124a",
    "title": "2021/1/24 龍井火災",
    "date": "2021-01-24",
    "place": "龍井",
-   "summary": "龍井發生火警，一名男子罹難。",
+   "summary": "龍井發生火警，一人罹難。",
    "sources": [
     {
      "title": "快訊／台中龍井住宅火警！「1男慘成焦屍」倒臥床邊地面…屋頂燒塌",
@@ -974,10 +1109,10 @@
   },
   {
    "id": "fire-h20210118a",
-   "title": "2021/1/18 北屯火災",
+   "title": "2021/1/18 台中火災",
    "date": "2021-01-18",
-   "place": "北屯",
-   "summary": "北屯發生火警，一名女子罹難。",
+   "place": "台中",
+   "summary": "台中發生火警，一人罹難。",
    "sources": [
     {
      "title": "快訊／台中某公園凌晨火警！女焦屍倒地冒煙 下半身還有殘火",
@@ -1030,7 +1165,7 @@
    "title": "2020/11/9 台中火災",
    "date": "2020-11-09",
    "place": "台中",
-   "summary": "台中發生火警，一名男子罹難。",
+   "summary": "台中發生火警，一人罹難。",
    "sources": [
     {
      "title": "台中男望高寮跌倒…「來不及逃」 詭火燒成焦屍",
@@ -1044,7 +1179,7 @@
    "title": "台中父子整地燒雜草！82歲翁疑被嗆昏...全身燒燙傷送醫不治",
    "date": "2020-10-28",
    "place": "台中",
-   "summary": "台中發生火警，一人罹難。",
+   "summary": "台中發生火警，一名男子罹難。",
    "sources": [
     {
      "title": "快訊／台中父子整地燒雜草！82歲翁疑被嗆昏...全身燒燙傷送醫不治",
@@ -1060,7 +1195,7 @@
   },
   {
    "id": "fire-h20201025a",
-   "title": "「妹妹還沒出來」台中深夜惡火噬民宅老母求救！女兒困臥室 ...",
+   "title": "2020/10/25 台中火災",
    "date": "2020-10-25",
    "place": "台中",
    "summary": "台中發生火警，一人罹難。",
@@ -1102,7 +1237,7 @@
    "title": "2020/7/1 台中火災",
    "date": "2020-07-01",
    "place": "台中",
-   "summary": "台中發生火警，一名男子罹難。",
+   "summary": "台中發生火警，一人罹難。",
    "sources": [
     {
      "title": "台中第9公墓旁停車場「火燒車」！民眾聽「轟」一聲巨響嚇傻 1男燒成焦屍",
@@ -1130,7 +1265,7 @@
    "title": "2020/4/2 台中火災",
    "date": "2020-04-02",
    "place": "台中",
-   "summary": "台中發生火警，一人罹難。",
+   "summary": "台中發生火警，一名男子罹難。",
    "sources": [
     {
      "title": "台中離奇焦屍案 檢警懷疑男子2處縱火再與女友玉石俱焚",
@@ -1157,6 +1292,21 @@
      "url": "https://www.ettoday.net/news/20200402/1682421.htm"
     },
     {
+     "title": "台中接連2起縱火焦屍之一不排除是嫌疑人",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/3120667"
+    },
+    {
+     "title": "台中離奇縱火2焦屍！一小時內「太平、西屯」接連燃燒 嫌疑人已失蹤",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/wy63Gw"
+    },
+    {
+     "title": "台中2火警2焦屍2傷 警疑失蹤何男縱火",
+     "outlet": "中天新聞網",
+     "url": "https://ctinews.com/news/items/4bnbGB7ZWP"
+    },
+    {
      "title": "台中太平透天民宅凌晨火警 屋內發現2焦屍",
      "outlet": "Yahoo 新聞",
      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E5%A4%AA%E5%B9%B3%E9%80%8F%E5%A4%A9%E6%B0%91%E5%AE%85%E5%87%8C%E6%99%A8%E7%81%AB%E8%AD%A6-%E5%B1%8B%E5%85%A7%E7%99%BC%E7%8F%BE2%E7%84%A6%E5%B1%8D-012230368.html"
@@ -1175,30 +1325,15 @@
      "title": "台中凌晨民宅火警 2焦屍陳屍屋內",
      "outlet": "Newtalk 新聞",
      "url": "https://newtalk.tw/news/view/2020-04-01/384502"
-    },
-    {
-     "title": "台中接連2起縱火焦屍之一不排除是嫌疑人",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/society/breakingnews/3120667"
-    },
-    {
-     "title": "台中離奇縱火2焦屍！一小時內「太平、西屯」接連燃燒 嫌疑人已失蹤",
-     "outlet": "LINE TODAY（轉載）",
-     "url": "https://today.line.me/tw/v3/article/wy63Gw"
-    },
-    {
-     "title": "台中2火警2焦屍2傷 警疑失蹤何男縱火",
-     "outlet": "中天新聞網",
-     "url": "https://ctinews.com/news/items/4bnbGB7ZWP"
     }
    ]
   },
   {
    "id": "fire-h20200322a",
-   "title": "台中工廠惡火3死！工人受困2樓宿舍　尋獲時明顯死亡",
+   "title": "台中工廠惡火3死！老闆回火場上香「看最後一面」　同事見屍崩潰",
    "date": "2020-03-22",
-   "place": "大肚",
-   "summary": "大肚發生火警，造成 3 人罹難。",
+   "place": "台中",
+   "summary": "台中發生火警，造成 3 人罹難。",
    "sources": [
     {
      "title": "快訊／台中工廠惡火3死！工人受困2樓宿舍 尋獲時明顯死亡",
@@ -1227,7 +1362,7 @@
    "title": "2020/1/28 沙鹿火災",
    "date": "2020-01-28",
    "place": "沙鹿",
-   "summary": "沙鹿發生火警，一名女子罹難。",
+   "summary": "沙鹿發生火警，一人罹難。",
    "sources": [
     {
      "title": "台中年初四大火奪命！沙鹿民宅竄濃煙 女成焦屍橫躺床上...1消防員送醫",
@@ -1324,10 +1459,10 @@
   },
   {
    "id": "fire-h20191003a",
-   "title": "大雅2消死／工廠老闆：會負起「道義上的責任」　辯工廠有登記",
+   "title": "大雅惡火2消死／妻懷雙胞胎挺肚認屍淚崩…1歲兒見不到爸",
    "date": "2019-10-03",
    "place": "大雅",
-   "summary": "大雅發生火警，一人罹難。",
+   "summary": "大雅發生火警，造成 2 人罹難。",
    "sources": [
     {
      "title": "影／大雅2消死／工廠老闆：會負起「道義上的責任」 辯工廠有登記",
@@ -1397,6 +1532,34 @@
    ]
   },
   {
+   "id": "fire-h20191001a",
+   "title": "梧棲透天厝凌晨竄火舌　婦人葬身火窟",
+   "date": "2019-10-01",
+   "place": "梧棲",
+   "summary": "梧棲發生火警，一名女子罹難。",
+   "sources": [
+    {
+     "title": "梧棲透天厝凌晨竄火舌　婦人葬身火窟",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20191001/1546816.htm"
+    }
+   ]
+  },
+  {
+   "id": "fire-h20190923a",
+   "title": "大里民宅火警 火勢猛烈嚇壞居民",
+   "date": "2019-09-23",
+   "place": "大里",
+   "summary": "大里發生火警，一人罹難。",
+   "sources": [
+    {
+     "title": "大里民宅火警 火勢猛烈嚇壞居民",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/2924630"
+    }
+   ]
+  },
+  {
    "id": "fire-h20190907a",
    "title": "2019/9/7 西區火災",
    "date": "2019-09-07",
@@ -1407,7 +1570,16 @@
      "title": "台中女子疑似輕生 民眾見橋下焦屍嚇壞",
      "outlet": "自由時報",
      "url": "https://news.ltn.com.tw/news/society/breakingnews/2908603"
-    },
+    }
+   ]
+  },
+  {
+   "id": "fire-h20190907b",
+   "title": "2019/9/7 台中火災",
+   "date": "2019-09-07",
+   "place": "台中",
+   "summary": "台中發生火警，一人罹難。",
+   "sources": [
     {
      "title": "台中驚見「女焦屍」！全身黑「雙手高舉屈膝」倒臥橋下...路人經過一瞧嚇壞",
      "outlet": "ETtoday",
@@ -1449,6 +1621,50 @@
    ]
   },
   {
+   "id": "fire-h20190731a",
+   "title": "玩命？台中夜店X-CUBE玩明火調酒 吧檯宛如起火燃燒",
+   "date": "2019-07-31",
+   "place": "台中",
+   "summary": "台中發生火警，一人罹難。",
+   "sources": [
+    {
+     "title": "玩命？台中夜店X-CUBE玩明火調酒 吧檯宛如起火燃燒",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/2868962"
+    },
+    {
+     "title": "玩命？台中夜店X-CUBE玩明火調酒 吧檯宛如起火燃燒",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/VJwgXR"
+    },
+    {
+     "title": "Dailymotion",
+     "outlet": "dailymotion.com",
+     "url": "https://www.dailymotion.com/video/x7esm7z"
+    },
+    {
+     "title": "夜店X",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/2869815"
+    },
+    {
+     "title": "台中知名夜店X-CUBE再惹議 調酒師室內表演明火調酒",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/578429"
+    },
+    {
+     "title": "中市夜店表演「明火調酒」 消防局稽查告發",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/440165"
+    },
+    {
+     "title": "台中X-CUBE夜店 再傳違法玩火",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20190731001247-260402"
+    }
+   ]
+  },
+  {
    "id": "fire-h20190721a",
    "title": "台中環保公司大火 警消到場灌救",
    "date": "2019-07-21",
@@ -1467,7 +1683,7 @@
    "title": "燒死前老闆父親、大伯 油漆工李昆霖暫逃死",
    "date": "2019-05-29",
    "place": "台中",
-   "summary": "台中發生火警，一人罹難。",
+   "summary": "台中發生火警，一名男子罹難。",
    "sources": [
     {
      "title": "燒死前老闆父親、大伯 油漆工李昆霖暫逃死",
@@ -1502,7 +1718,7 @@
   },
   {
    "id": "fire-h20190425a",
-   "title": "台中大里透天厝火警 鄰居老翁昏倒不治",
+   "title": "台中大里住宅火警撲滅　隔壁7旬老翁驚嚇過度心臟病發不治",
    "date": "2019-04-25",
    "place": "大里",
    "summary": "大里發生火警，一名男子罹難。",
@@ -1516,11 +1732,6 @@
      "title": "台中大里住宅火警撲滅 隔壁7旬老翁驚嚇過度心臟病發不治",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20190426/1431346.htm"
-    },
-    {
-     "title": "好心鄰伯拿梯火場救人 倒地猝死",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/society/paper/1284419"
     }
    ]
   },
@@ -1554,10 +1765,10 @@
   },
   {
    "id": "fire-h20190413a",
-   "title": "2019/4/13 梧棲火災",
+   "title": "2019/4/13 台中火災",
    "date": "2019-04-13",
-   "place": "梧棲",
-   "summary": "梧棲發生火警，一名男子罹難。",
+   "place": "台中",
+   "summary": "台中發生火警，一名男子罹難。",
    "sources": [
     {
      "title": "梧棲貨櫃場死亡火警 男子疑似開瓦斯自焚",
@@ -1578,7 +1789,16 @@
      "title": "梧棲貨櫃場死亡火警男子疑似開瓦斯自焚",
      "outlet": "自由時報",
      "url": "https://news.ltn.com.tw/news/Taichung/breakingnews/2758135"
-    },
+    }
+   ]
+  },
+  {
+   "id": "fire-h20190413b",
+   "title": "2019/4/13 梧棲火災",
+   "date": "2019-04-13",
+   "place": "梧棲",
+   "summary": "梧棲發生火警，一人罹難。",
+   "sources": [
     {
      "title": "快訊／梧棲貨櫃屋竄火！警消急援灌救…清查火場見「床上躺焦屍」",
      "outlet": "ETtoday",
@@ -1631,6 +1851,20 @@
    ]
   },
   {
+   "id": "fire-h20190331b",
+   "title": "台中清水暗夜惡火 一家5口2死3重傷",
+   "date": "2019-03-31",
+   "place": "清水",
+   "summary": "清水發生火警，造成 5 人罹難。",
+   "sources": [
+    {
+     "title": "台中清水暗夜惡火 一家5口2死3重傷",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/2744470"
+    }
+   ]
+  },
+  {
    "id": "fire-h20190329a",
    "title": "2019/3/29 台中火災",
    "date": "2019-03-29",
@@ -1659,7 +1893,7 @@
    "title": "無須考量「教化可能性」 燒死前老闆無辜2親人油漆工再判死",
    "date": "2019-03-21",
    "place": "台中",
-   "summary": "台中發生火警，造成 3 人罹難。",
+   "summary": "台中發生火警，一人罹難。",
    "sources": [
     {
      "title": "無須考量「教化可能性」 燒死前老闆無辜2親人油漆工再判死",
