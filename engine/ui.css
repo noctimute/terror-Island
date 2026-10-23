@@ -204,10 +204,10 @@ body.time-open .controls { display: block; }
 #tl-month { font: 700 20px ui-monospace, monospace; color: var(--accent); min-width: 88px; }
 .tl-chip { border: 1px solid var(--line); background: #fbf8f3; border-radius: 999px; padding: 5px 12px; font-size: 12px; }
 .tl-chip[aria-pressed="true"] { background: var(--ink); color: #fff; border-color: var(--ink); }
-.tl-track { position: relative; margin-top: 8px; padding-top: 26px; }
+.tl-track { position: relative; margin-top: 8px; padding-top: 66px; }
 .tl-track input[type="range"] { width: 100%; display: block; margin: 0; }
-.tl-dots { position: absolute; left: 9px; right: 9px; top: 0; height: 24px; pointer-events: none; }
-.tl-dots i { position: absolute; width: 5px; height: 5px; margin-left: -2.5px; border-radius: 50%; background: var(--c); opacity: 0.22; transition: opacity 0.2s; }
+.tl-dots { position: absolute; left: 9px; right: 9px; top: 0; height: 64px; pointer-events: none; }
+.tl-dots i { position: absolute; width: var(--d, 5px); height: var(--d, 5px); margin-left: calc(var(--d, 5px) / -2); border-radius: 50%; background: var(--c); opacity: 0.22; transition: opacity 0.2s; }
 .tl-dots i.on { opacity: 1; }
 #tl-ticks { position: relative; height: 14px; margin: 2px 9px 0; display: block; }
 #tl-ticks span { position: absolute; transform: translateX(-50%); }
@@ -334,8 +334,16 @@ body.touring .controls, body.touring .dock, body.touring .card, body.touring .ma
   .hud .seg2 button:not([hidden]) { flex: 1; }
   .hud .seg2 button span { display: block; }
   .hud .seg2 button { padding: 7px 8px; }
-  .controls { display: none; left: 10px; right: 10px; width: auto; min-width: 0; bottom: 84px; }
-  body.time-open .controls { display: block; }
+  .controls { display: none; left: 10px; right: 10px; width: auto; min-width: 0; bottom: 84px; padding: 4px 14px 12px; }
+  body.time-open .controls { display: block; bottom: calc(max(10px, env(safe-area-inset-bottom)) + 136px); }
+  /* the time-of-day buttons get their own row above the layer buttons, so neither row squeezes its labels */
+  body.time-open .toggles { flex-wrap: wrap; gap: 8px; }
+  body.time-open .hud .seg:first-child { flex-basis: 100%; justify-content: space-around; }
+  .hud .seg2 button { white-space: nowrap; }
+  .control-tabs { flex-wrap: wrap; }
+  .control-tabs button { white-space: nowrap; padding: 10px 6px; }
+  .status { order: -1; flex-basis: 100%; text-align: right; padding-top: 6px; }
+  .tl-list { max-height: 120px; }
   .ticks { margin-left: 0; }
   .mascot, .dock, .legend { display: none; }
   .sidebar { top: auto; height: 82vh; width: 100%; border-radius: 20px 20px 0 0; z-index: 12; }

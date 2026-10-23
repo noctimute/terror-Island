@@ -777,16 +777,26 @@ try {
   }
   {
     const stack = new Map();
+    // squeeze the stacks so the busiest month still fits the 64px strip
+    const per = new Map();
+    for (const e of tlEvents) per.set(e.m, (per.get(e.m) || 0) + 1);
+    const step = Math.min(5, 62 / Math.max(1, ...per.values()));
+    $("#tl-dots").style.setProperty("--d", `${Math.max(2.5, step)}px`);
     $("#tl-dots").innerHTML = tlEvents
       .map((e) => {
         const n = stack.get(e.m) || 0;
         stack.set(e.m, n + 1);
-        return `<i data-m="${e.m}" data-z="${e.z.id}" style="left:${((e.m - tlStart) / tlSpan) * 100}%;bottom:${n * 5}px;--c:${isleColor.get(e.z.id) || "#888"}"></i>`;
+        return `<i data-m="${e.m}" data-z="${e.z.id}" style="left:${((e.m - tlStart) / tlSpan) * 100}%;bottom:${(n * step).toFixed(2)}px;--c:${isleColor.get(e.z.id) || "#888"}"></i>`;
       })
       .join("");
     const years = [];
     for (let y = Math.floor(tlStart / 12); y <= Math.floor(tlEnd / 12); y++) years.push(y);
-    $("#tl-ticks").innerHTML = years.map((y) => `<span style="left:${(Math.max(0, y * 12 - tlStart) / tlSpan) * 100}%">${y}</span>`).join("");
+    const at = (y) => Math.max(0, y * 12 - tlStart) / tlSpan;
+    // drop a year whose label would sit on top of the next one (a partial first year)
+    $("#tl-ticks").innerHTML = years
+      .filter((y, i) => i === years.length - 1 || at(years[i + 1]) - at(y) > 0.09)
+      .map((y) => `<span style="left:${at(y) * 100}%">${y}</span>`)
+      .join("");
     $("#tl").max = tlSpan;
     $("#tl").value = tlSpan;
   }
