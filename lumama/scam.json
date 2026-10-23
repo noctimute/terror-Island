@@ -1,6 +1,6 @@
 {
  "title": "台中詐騙與洗錢新聞",
- "updated": "2026-10-22",
+ "updated": "2026-10-24",
  "records": [
   {
    "id": "x-shop40",
@@ -25,6 +25,84 @@
    ]
   },
   {
+   "id": "x-i20261018a",
+   "title": "台中男當車手收145萬 製造斷點沒用判1年10月",
+   "date": "2026-10-18",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中24歲男當車手收145萬 製造斷點沒用判1年10月",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5609983"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20261018b",
+   "title": "【警察】誤打誤撞！台中婦捧500萬現金珠寶到警局求轉交 警驚：是詐騙- 社會新聞",
+   "date": "2026-10-18",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "誤打誤撞！台中婦捧500萬現金珠寶到警局求轉交 警驚：是詐騙- 社會新聞",
+     "outlet": "PChome 新聞（轉載）",
+     "url": "https://news.pchome.com.tw/society/ctinews/20261018/index-79230909015869309002.html"
+    },
+    {
+     "title": "誤打誤撞！台中婦捧500萬現金珠寶到警局求轉交 警驚：是詐騙",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E8%AA%A4%E6%89%93%E8%AA%A4%E6%92%9E-%E5%8F%B0%E4%B8%AD%E5%A9%A6%E6%8D%A7500%E8%90%AC%E7%8F%BE%E9%87%91%E7%8F%A0%E5%AF%B6%E5%88%B0%E8%AD%A6%E5%B1%80%E6%B1%82%E8%BD%89%E4%BA%A4-%E8%AD%A6%E7%B6%93-%E6%98%AF%E8%A9%90%E9%A8%99-073810261.html"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20261016a",
+   "title": "中職總冠軍賽開打前夕「小心有詐」！20案被騙匯款 台中男買門票慘噴15萬元",
+   "date": "2026-10-16",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "職棒冠軍賽門票成詐騙陷阱　全台20人受害　台中女球迷遭騙15萬元",
+     "outlet": "NOWnews",
+     "url": "https://www.nownews.com/news/6883999"
+    },
+    {
+     "title": "中職總冠軍賽開打前夕「小心有詐」！20案被騙匯款 台中男買門票慘噴15萬元",
+     "outlet": "鏡報",
+     "url": "https://www.mirrordaily.news/story/91906"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20261009a",
+   "title": "台中警攔查抽菸騎士卻查無個資 意外逮通緝13年詐欺竊盜犯",
+   "date": "2026-10-09",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中警攔查抽菸騎士卻查無個資 意外逮通緝13年詐欺竊盜犯",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/830607"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
    "id": "x-drone",
    "title": "台中刑大破詐團洗錢機房 無人機追捕首腦",
    "date": "2026-09-30",
@@ -42,6 +120,306 @@
    ]
   },
   {
+   "id": "x-i20260930a",
+   "title": "中市刑大破獲詐欺集團逮卅人 一名受害人被騙一千四百萬元",
+   "date": "2026-09-30",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "科技偵查建功 台中警善用無人機逮詐欺集團主嫌",
+     "outlet": "cnews.com.tw",
+     "url": "https://cnews.com.tw/204260930a20/"
+    },
+    {
+     "title": "中市刑大破獲詐欺集團逮卅人 一名受害人被騙一千四百萬元",
+     "outlet": "focus.586.com.tw",
+     "url": "https://focus.586.com.tw/2026/09/30/p405178/"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260929a",
+   "title": "逃進新竹山區也難跑！台中警無人機鎖定路線 活逮詐團主嫌、30人遭起訴",
+   "date": "2026-09-29",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "逃進新竹山區也難跑！台中警無人機鎖定路線 活逮詐團主嫌、30人遭起訴",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E9%80%83%E9%80%B2%E6%96%B0%E7%AB%B9%E5%B1%B1%E5%8D%80%E4%B9%9F%E9%9B%A3%E8%B7%91-%E5%8F%B0%E4%B8%AD%E8%AD%A6%E7%84%A1%E4%BA%BA%E6%A9%9F%E9%8E%96%E5%AE%9A%E8%B7%AF%E7%B7%9A-%E6%B4%BB%E9%80%AE%E8%A9%90%E5%9C%98%E4%B8%BB%E5%AB%8C-30%E4%BA%BA%E9%81%AD%E8%B5%B7%E8%A8%B4-023718892.html"
+    },
+    {
+     "title": "詐團水房主嫌隱匿新竹山區　台中警無人機監控陸空夾擊逮人",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260930/3246309.htm"
+    },
+    {
+     "title": "無人機ATAK陸空夾擊逮在逃主嫌 台中警破獲新竹山區水房跨境詐團",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E7%84%A1%E4%BA%BA%E6%A9%9Fatak%E9%99%B8%E7%A9%BA%E5%A4%BE%E6%93%8A%E9%80%AE%E5%9C%A8%E9%80%83%E4%B8%BB%E5%AB%8C-%E5%8F%B0%E4%B8%AD%E8%AD%A6%E7%A0%B4%E7%8D%B2%E6%96%B0%E7%AB%B9%E5%B1%B1%E5%8D%80%E6%B0%B4%E6%88%BF%E8%B7%A8%E5%A2%83%E8%A9%90%E5%9C%98-025800457.html"
+    },
+    {
+     "title": "逃進山區也沒用！詐團主嫌開車狂逃 台中警無人機「天眼」陸空夾擊逮人",
+     "outlet": "台灣好新聞",
+     "url": "https://www.taiwanhot.net/news/focus/1149581/%E9%80%83%E9%80%B2%E5%B1%B1%E5%8D%80%E4%B9%9F%E6%B2%92%E7%94%A8%EF%BC%81%E8%A9%90%E5%9C%98%E4%B8%BB%E5%AB%8C%E9%96%8B%E8%BB%8A%E7%8B%82%E9%80%83+%E5%8F%B0%E4%B8%AD%E8%AD%A6%E7%84%A1%E4%BA%BA%E6%A9%9F%E3%80%8C%E5%A4%A9%E7%9C%BC%E3%80%8D%E9%99%B8%E7%A9%BA%E5%A4%BE%E6%93%8A%E9%80%AE%E4%BA%BA/94/%E5%8F%B0%E4%B8%AD"
+    },
+    {
+     "title": "逃進新竹山區也難跑！台中警無人機鎖定路線　活逮詐團主嫌、30人遭起訴",
+     "outlet": "CTWANT",
+     "url": "https://www.ctwant.com/article/500233/"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260927a",
+   "title": "台中詐團扮假公安騙星國學生赴越南 拍片勒贖4kg黃金獲利近2千萬",
+   "date": "2026-09-27",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中詐團扮假公安騙星國學生赴越南 拍片勒贖4kg黃金獲利近2千萬",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/4028258"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260923a",
+   "title": "台中北區詐騙財損降近4成 假投資最傷…女信貸押房買金條慘賠1500萬",
+   "date": "2026-09-23",
+   "place": "北區",
+   "summary": "北區發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中北區詐騙財損降近4成 假投資最傷…女信貸押房買金條慘賠1500萬",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/124490/9772455"
+    },
+    {
+     "title": "台中女信貸、押房買金條換 USDT，出金才知被騙 1500 萬",
+     "outlet": "blocktempo.com",
+     "url": "https://www.blocktempo.com/taichung-woman-loses-nt15-million-gold-bar-usdt-dealer-scam/"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260918a",
+   "title": "台中癡情男遇愛情詐騙！想見女神「砸4958萬」一場空…車手判賠2617萬",
+   "date": "2026-09-18",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中癡情男遇愛情詐騙！想見女神「砸4958萬」一場空…車手判賠2617萬",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1909043"
+    },
+    {
+     "title": "想見女神要先付錢！台中男18天上供2617萬元醒了 車手慘了",
+     "outlet": "鏡報",
+     "url": "https://www.mirrordaily.news/story/86707"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260916a",
+   "title": "吸收6幹部狂洗36億！台中銀洗錢案富商關5個月「500萬交保」",
+   "date": "2026-09-16",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "吸收6幹部狂洗36億！台中銀洗錢案富商關5個月「500萬交保」",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260916/3238795.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260910a",
+   "title": "提供3帳戶給詐團！台中退休巡佐稱申辦補助遭騙　害10人被詐16萬",
+   "date": "2026-09-10",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中30年資歷老巡佐...退休竟淪詐團幫助犯 交付帳戶釀10人被騙",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/124490/9746364"
+    },
+    {
+     "title": "提供3帳戶給詐團！台中退休巡佐稱申辦補助遭騙　害10人被詐16萬",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260911/3235412.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260908a",
+   "title": "台中租車行老闆暗助詐團遭羈押 南警查扣保時捷",
+   "date": "2026-09-08",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中租車行老闆暗助詐團遭羈押 南警查扣保時捷",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5566449"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260905a",
+   "title": "中市輔導教師調動學校竟從正式變代理 教育工會批教育局詐騙集團",
+   "date": "2026-09-05",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中正式教師調動後竟變代理！工會怒轟教育局「詐騙集團」",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E6%AD%A3%E5%BC%8F%E6%95%99%E5%B8%AB%E8%AA%BF%E5%8B%95%E5%BE%8C%E7%AB%9F%E8%AE%8A%E4%BB%A3%E7%90%86-%E5%B7%A5%E6%9C%83%E6%80%92%E8%BD%9F%E6%95%99%E8%82%B2%E5%B1%80-%E8%A9%90%E9%A8%99%E9%9B%86%E5%9C%98-104650740.html"
+    },
+    {
+     "title": "中市輔導教師調動學校竟從正式變代理 教育工會批教育局詐騙集團",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/6885/9736555"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260901a",
+   "title": "台中警跟監查獲詐團收水車 車藏768萬鉅款秒變「行動ATM」",
+   "date": "2026-09-01",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "影／台中警跟監查獲詐團收水車 車藏768萬鉅款秒變「行動ATM」",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/124490/9726368"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260831a",
+   "title": "台中北屯、西屯淪詐團肥羊！一年被騙27億...各區挨詐慘況曝",
+   "date": "2026-08-31",
+   "place": "西屯",
+   "summary": "西屯發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中北屯、西屯淪詐團肥羊！一年被騙27億...各區挨詐慘況曝",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260831/3228738.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260831b",
+   "title": "台中詐騙案多 13區損失金額都破億",
+   "date": "2026-08-31",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中詐騙案多 13區損失金額都破億",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E8%A9%90%E9%A8%99%E6%A1%88%E5%A4%9A-13%E5%8D%80%E6%90%8D%E5%A4%B1%E9%87%91%E9%A1%8D%E9%83%BD%E7%A0%B4%E5%84%84-213000078.html"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260831c",
+   "title": "台中男大生遭詐35萬！「假房東+假客服」租屋連環詐騙",
+   "date": "2026-08-31",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中男大生遭詐35萬！「假房東+假客服」租屋連環詐騙",
+     "outlet": "Newtalk 新聞",
+     "url": "https://newtalk.tw/news/view/2026-08-31/1056856"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260830a",
+   "title": "台中男涉詐剛執行完3月又當車手 法院認證「累犯」判1年7月",
+   "date": "2026-08-30",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中男涉詐剛執行完3月又當車手 法院認證「累犯」判1年7月",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5556832"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260824a",
+   "title": "詐騙集團奢華物資曝光　中檢9月1日拍賣2千萬RM名錶、藍寶堅尼",
+   "date": "2026-08-24",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "詐騙集團奢華物資曝光　中檢9月1日拍賣2千萬RM名錶、藍寶堅尼",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/external/mirrordaily_81416"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
    "id": "x-yd",
    "title": "台中「YD支付」跨境博弈洗錢 廈門設據點 半年洗13億",
    "date": "2026-08-19",
@@ -52,6 +430,57 @@
      "title": "影／廈門設據點地產公司掩護 檢警破「YD支付」13億跨境博弈洗錢水房",
      "outlet": "聯合新聞網",
      "url": "https://udn.com/news/story/7321/9700556"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260819a",
+   "title": "主謀逍遙他全扛！水電工成假幣商車手判2年 台中高分院再判賠299萬",
+   "date": "2026-08-19",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "主謀逍遙他全扛！水電工成假幣商車手判2年 台中高分院再判賠299萬",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/124490/9700668"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260818a",
+   "title": "從台中開車到彰化提款借給網友救急？婦人當車手被重判",
+   "date": "2026-08-18",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "從台中開車到彰化提款借給網友救急？婦人當車手被重判",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/124490/9699559"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260818b",
+   "title": "比詐騙集團還可惡！中檢起訴引古籍 批4大油廠高層「見毒不報」籲重判",
+   "date": "2026-08-18",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "比詐騙集團還可惡！中檢起訴引古籍 批4大油廠高層「見毒不報」籲重判",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/124940/9699023"
     }
    ],
    "fear": [
@@ -96,6 +525,356 @@
    ]
   },
   {
+   "id": "x-i20260816a",
+   "title": "女兒、姪女結婚分不清？台中婦要領40萬說詞反覆露餡 警揪出詐騙",
+   "date": "2026-08-16",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "女兒、姪女結婚分不清？台中婦要領40萬說詞反覆露餡 警揪出詐騙",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/124490/9694340"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260816b",
+   "title": "台中男當車手沒領半毛錢 關1年4月還要吐出50萬",
+   "date": "2026-08-16",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中男當車手沒領半毛錢 關1年4月還要吐出50萬",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5541663"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260805a",
+   "title": "【警察】台中市警局長吳敬田女兒淪詐欺共犯遭判刑 本人今回應了",
+   "date": "2026-08-05",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中警局長女兒淪詐欺犯　吳敬田尊重判決：她已學到教訓",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260805/3213613.htm"
+    },
+    {
+     "title": "台中市警局長吳敬田女兒淪詐欺共犯遭判刑 本人今回應了",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7321/9671413"
+    },
+    {
+     "title": "「警界神鵰俠侶」女兒淪詐騙集團共犯！台中警局長、信義分局長今發聲",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/zN8z12k"
+    },
+    {
+     "title": "女兒涉詐團人頭戶遭判刑 台中市警局長吳敬田：我更能苦民所苦",
+     "outlet": "中華日報",
+     "url": "https://www.cdns.com.tw/articles/1440174"
+    },
+    {
+     "title": "警界震撼！台中警局長吳敬田愛女捲詐團帳戶案「判5月可易科罰金」 夫妻首度回應",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/ML75gLM"
+    },
+    {
+     "title": "台中警局長愛女淪詐團幫兇！寄提款卡遭判5月 吳敬田：非常慚愧",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/4002647"
+    },
+    {
+     "title": "女兒淪詐欺共犯遭判刑 中市警察局長吳敬田說話了",
+     "outlet": "壹蘋新聞網",
+     "url": "https://news.nextapple.com/local/20260805/1468F77DEB5F5DAFC45FA34D5B122F07"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260805b",
+   "title": "台中商銀36億洗錢案首波交保！ 「熟客介紹爛客」經理喊冤：以為丟丟妹、蹦闆要帶貨",
+   "date": "2026-08-05",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中商銀36億洗錢案首波交保！ 「熟客介紹爛客」經理喊冤：以為丟丟妹、蹦闆要帶貨",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E5%95%86%E9%8A%8036%E5%84%84%E6%B4%97%E9%8C%A2%E6%A1%88%E9%A6%96%E6%B3%A2%E4%BA%A4%E4%BF%9D-%E7%86%9F%E5%AE%A2%E4%BB%8B%E7%B4%B9%E7%88%9B%E5%AE%A2-%E7%B6%93%E7%90%86%E5%96%8A%E5%86%A4-%E4%BB%A5%E7%82%BA%E4%B8%9F%E4%B8%9F%E5%A6%B9-%E8%B9%A6%E9%97%86%E8%A6%81%E5%B8%B6%E8%B2%A8-071600200.html"
+    },
+    {
+     "title": "台中商銀36億洗錢案首波交保！　「熟客介紹爛客」經理喊冤：以為丟丟妹、蹦闆要帶貨",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/external/mirrordaily_77655"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260801a",
+   "title": "遭指認是車手　台中男靠「髮型」逆轉獲無罪",
+   "date": "2026-08-01",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "遭指認是車手　台中男靠「髮型」逆轉獲無罪",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260801/3211460.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260727a",
+   "title": "台中女公務員遇「桃花劫」損274萬 車手拜九天玄女託夢勸善仍不聽",
+   "date": "2026-07-27",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "假冒幣商誘被害人交付274萬 台中詐團3成員遭檢方起訴",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/819499"
+    },
+    {
+     "title": "影／台中女公務員遇「桃花劫」損274萬 車手拜九天玄女託夢勸善仍不聽",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/124490/9652876"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260727b",
+   "title": "中市警破假幣商洗錢集團 偽裝假幣商及面交車手起訴",
+   "date": "2026-07-27",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "中市警破假幣商洗錢集團 偽裝假幣商及面交車手起訴",
+     "outlet": "中華日報",
+     "url": "https://www.cdns.com.tw/articles/1435804"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260724a",
+   "title": "網戀變惡夢！台中男誤信女網友險噴30萬 警揭3大詐騙劇本",
+   "date": "2026-07-24",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "網戀變惡夢！台中男誤信女網友險噴30萬 警揭3大詐騙劇本",
+     "outlet": "蕃新聞（轉載）",
+     "url": "https://n.yam.com/Article/20260723988588"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260722a",
+   "title": "假虛擬資產交易所詐騙逾億元！台中警破獲17人詐團 婦人遭騙8千萬元",
+   "date": "2026-07-22",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "假虛擬資產交易所詐騙逾億元！台中警破獲17人詐團 婦人遭騙8千萬元",
+     "outlet": "蕃新聞（轉載）",
+     "url": "https://n.yam.com/Article/20260722912266"
+    },
+    {
+     "title": "影／假虛擬資產交易所躲台中民宅…詐騙逾億 一婦痛失8000萬 3人落網",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/124490/9643061"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260720a",
+   "title": "假投資詐百萬！台中車手僅拿2千判賠「要賠100萬」倒賠98.8萬",
+   "date": "2026-07-20",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中 車手取款賺2000 被逮判賠100萬",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD-%E8%BB%8A%E6%89%8B%E5%8F%96%E6%AC%BE%E8%B3%BA2000-%E8%A2%AB%E9%80%AE%E5%88%A4%E8%B3%A0100%E8%90%AC-201000691.html"
+    },
+    {
+     "title": "假投資詐百萬！台中車手僅拿2千判賠「要賠100萬」倒賠98.8萬",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1875327"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260719a",
+   "title": "影音／詐團連車手也壓榨！台中警查獲外籍車手 報酬比本國車手少一半",
+   "date": "2026-07-19",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "影音／詐團連車手也壓榨！台中警查獲外籍車手 報酬比本國車手少一半",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/3261243"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260715a",
+   "title": "台中環保局稽查餐廳遭控「態度惡劣像收保護費」！主廚怒轟：以為是詐騙集團！",
+   "date": "2026-07-15",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "影/台中環保局稽查餐廳遭控「態度惡劣像收保護費」！主廚怒轟：以為是詐騙集團！",
+     "outlet": "中天新聞網",
+     "url": "https://ctinews.com/news/items/ogxw11EqWG"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260713a",
+   "title": "詐欺判太輕遭詬病！港車手4天狂領百萬贓款 台中地院判6年8月",
+   "date": "2026-07-13",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "詐欺判太輕遭詬病！港車手4天狂領百萬贓款 台中地院判6年8月",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/124490/9624280"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260707a",
+   "title": "逼死豐原一家五口「李團長」詐騙犯行再多一條 衛生棉團購狠詐百萬",
+   "date": "2026-07-07",
+   "place": "豐原",
+   "summary": "豐原發生詐騙案件。",
+   "sources": [
+    {
+     "title": "逼死豐原一家五口「李團長」詐騙犯行再多一條 衛生棉團購狠詐百萬",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/124490/9611524"
+    }
+   ],
+   "fear": [
+    "Z",
+    "D"
+   ]
+  },
+  {
+   "id": "x-i20260703a",
+   "title": "台中詐團車手超商領金融卡包裹見警拔腿逃仍落網",
+   "date": "2026-07-03",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中詐團車手超商領金融卡包裹見警拔腿逃仍落網",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/124490/9605567"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260625a",
+   "title": "台中女一口氣被騙2103萬！釣出小咖車手沒用　錢仍在藏鏡人手裡",
+   "date": "2026-06-25",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中女一口氣被騙2103萬！釣出小咖車手沒用　錢仍在藏鏡人手裡",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260625/3189828.htm"
+    },
+    {
+     "title": "台中女一口氣被騙2103萬！釣出小咖車手沒用 錢仍在藏鏡人手裡",
+     "outlet": "facebook.com",
+     "url": "https://www.facebook.com/ETtoday/posts/%E5%8F%B0%E4%B8%AD%E5%A5%B3%E4%B8%80%E5%8F%A3%E6%B0%A3%E8%A2%AB%E9%A8%992103%E8%90%AC%E9%87%A3%E5%87%BA%E5%B0%8F%E5%92%96%E8%BB%8A%E6%89%8B%E6%B2%92%E7%94%A8-%E9%8C%A2%E4%BB%8D%E5%9C%A8%E8%97%8F%E9%8F%A1%E4%BA%BA%E6%89%8B%E8%A3%A1/1474420884716992/"
+    },
+    {
+     "title": "台中婦手捧2103萬給詐團！警釣出車手法院1原因判不用賠錢",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1862607"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260625b",
+   "title": "直擊霹靂小組攻堅台中機房！懷胎6月孕婦疑受驚「撞到腹部」送醫",
+   "date": "2026-06-25",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "直擊霹靂小組攻堅台中機房！懷胎6月孕婦疑受驚「撞到腹部」送醫",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260625/3189577.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
    "id": "x-police",
    "title": "台中假冒公安騙海外華人 詐團租7間豪宅當機房",
    "date": "2026-06-24",
@@ -113,6 +892,23 @@
    ]
   },
   {
+   "id": "x-i20260616a",
+   "title": "勾結台中商銀洗錢　銀行主管妻哭暈法庭",
+   "date": "2026-06-16",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "勾結台中商銀洗錢　銀行主管妻哭暈法庭",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/external/setn_1856308"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
    "id": "x-casino13",
    "title": "刑事局破台中博弈集團 1年賭資1.3億24人遭訴",
    "date": "2026-06-10",
@@ -123,6 +919,314 @@
      "title": "刑事局破台中博弈集團 1年賭資1.3億24人遭訴",
      "outlet": "中央社",
      "url": "https://www.cna.com.tw/news/asoc/202606100062.aspx"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260610a",
+   "title": "台中7警圍捕破窗拉出車手　目擊者驚嚇：以為車禍打群架",
+   "date": "2026-06-10",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中7警圍捕破窗拉出車手　目擊者驚嚇：以為車禍打群架",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260610/3181052.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260608a",
+   "title": "涉台中商銀洗錢36億再添一樁…地產大亨成環保蟑螂 濫倒萬噸廢土遭訴",
+   "date": "2026-06-08",
+   "place": "大肚",
+   "summary": "大肚發生詐騙案件。",
+   "sources": [
+    {
+     "title": "大肚山廢土真兇！環保蟑螂63人被抓　藏鏡人涉勾台中銀洗錢36億",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260608/3179699.htm"
+    },
+    {
+     "title": "涉台中商銀洗錢36億再添一樁…地產大亨成環保蟑螂 濫倒萬噸廢土遭訴",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7321/9552679"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260606a",
+   "title": "影音／台中警創「掃碼報案」2週攔504萬 超商店員抓車手爽領1萬",
+   "date": "2026-06-06",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "影音／台中警創「掃碼報案」2週攔504萬 超商店員抓車手爽領1萬",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/3223461"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260603a",
+   "title": "台中 投資詐騙 逾300人受害 火鍋店負責人捲數億跑路",
+   "date": "2026-06-03",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中 投資詐騙 逾300人受害 火鍋店負責人捲數億跑路",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD-%E6%8A%95%E8%B3%87%E8%A9%90%E9%A8%99-%E9%80%BE300%E4%BA%BA%E5%8F%97%E5%AE%B3-%E7%81%AB%E9%8D%8B%E5%BA%97%E8%B2%A0%E8%B2%AC%E4%BA%BA%E6%8D%B2%E6%95%B8%E5%84%84%E8%B7%91%E8%B7%AF-201000648.html"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260601a",
+   "title": "警台中破獲詐團逮18人女陷網戀陷阱遭吸收成車手",
+   "date": "2026-06-01",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "警台中破獲詐團逮18人女陷網戀陷阱遭吸收成車手",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202606010123.aspx"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260531a",
+   "title": "台中2逾期居留越南移工淪車手！超商連續提款被活逮",
+   "date": "2026-05-31",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中2逾期居留移工淪車手　超商連續提款被逮",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260531/3175199.htm"
+    },
+    {
+     "title": "逃逸移工變車手 台中超商領款可疑被逮",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/124490/9536910"
+    },
+    {
+     "title": "台中2逾期居留越南移工淪車手！超商連續提款被活逮",
+     "outlet": "壹蘋新聞網",
+     "url": "https://news.nextapple.com/local/20260531/65290B5347A159CFC185B3FEB77D39F6"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260531b",
+   "title": "同鄉介紹當車手2越籍逾期移工騎車流竄台中落網",
+   "date": "2026-05-31",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "同鄉介紹當車手2越籍逾期移工騎車流竄台中落網",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/124490/9536628"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260527a",
+   "title": "台股4萬點...台中熟女要領200萬繳稅？警一查才知深陷投資詐騙",
+   "date": "2026-05-27",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台股4萬點...台中熟女要領200萬繳稅？警一查才知深陷投資詐騙",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/124490/9527916"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260525a",
+   "title": "台中年輕夫妻離世獨留4月大女嬰 家屬悲控：罪魁禍首是詐騙集團",
+   "date": "2026-05-25",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "家屬相當悲痛...(#01J) 【台中年輕夫妻離世獨留4月大女嬰 家屬悲控：罪魁禍首是詐騙集團】",
+     "outlet": "facebook.com",
+     "url": "https://www.facebook.com/ETtoday/posts/%E5%AE%B6%E5%B1%AC%E7%9B%B8%E7%95%B6%E6%82%B2%E7%97%9B01j%E5%8F%B0%E4%B8%AD%E5%B9%B4%E8%BC%95%E5%A4%AB%E5%A6%BB%E9%9B%A2%E4%B8%96%E7%8D%A8%E7%95%994%E6%9C%88%E5%A4%A7%E5%A5%B3%E5%AC%B0-%E5%AE%B6%E5%B1%AC%E6%82%B2%E6%8E%A7%E7%BD%AA%E9%AD%81%E7%A6%8D%E9%A6%96%E6%98%AF%E8%A9%90%E9%A8%99%E9%9B%86%E5%9C%98/1443510141141400/"
+    },
+    {
+     "title": "獨留4月大女嬰！21歲夫妻台中租屋處去世 親哥痛揭內幕：「詐騙集團」是罪魁禍首",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E7%8D%A8%E7%95%994%E6%9C%88%E5%A4%A7%E5%A5%B3%E5%AC%B0-21%E6%AD%B2%E5%A4%AB%E5%A6%BB%E5%8F%B0%E4%B8%AD%E7%A7%9F%E5%B1%8B%E8%99%95%E5%8E%BB%E4%B8%96-%E8%A6%AA%E5%93%A5%E7%97%9B%E6%8F%AD%E5%85%A7%E5%B9%95-%E8%A9%90%E9%A8%99%E9%9B%86%E5%9C%98-%E6%98%AF%E7%BD%AA%E9%AD%81%E7%A6%8D%E9%A6%96-032200107.html"
+    },
+    {
+     "title": "台中年輕夫妻離世獨留4月大女嬰　家屬悲控：罪魁禍首是詐騙集團",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260526/3172086.htm"
+    },
+    {
+     "title": "台中年輕夫妻雙亡獨留嫩嬰！大伯痛揭黑幕：詐騙集團害的- 社會",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20260526001456-260402"
+    },
+    {
+     "title": "曾生過2胎都送養...台中21歲小夫妻租屋輕生掀輿論　親哥痛揭內幕：詐騙集團害了他",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/story/20260526edi020"
+    }
+   ],
+   "fear": [
+    "Z",
+    "D"
+   ]
+  },
+  {
+   "id": "x-i20260520a",
+   "title": "詐騙逼死豐原一家五口「李團長」判11年 律師：對家屬不公平",
+   "date": "2026-05-20",
+   "place": "豐原",
+   "summary": "豐原發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中豐原5口命案，團購主李女涉詐欺和恐嚇取財等罪，一審判11年",
+     "outlet": "關鍵評論網",
+     "url": "https://www.thenewslens.com/article/267833"
+    },
+    {
+     "title": "詐騙逼死豐原王家一家五口 「李團長」詐欺重判11年",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/124490/9513691"
+    },
+    {
+     "title": "詐騙逼死豐原一家五口「李團長」判11年 律師：對家屬不公平",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/124490/9513768"
+    },
+    {
+     "title": "詐騙1536萬害死台中豐原五口 「李團長」一審重判11年",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5442873"
+    }
+   ],
+   "fear": [
+    "Z",
+    "D"
+   ]
+  },
+  {
+   "id": "x-i20260512a",
+   "title": "台中銀6內鬼助詐團洗錢逾36億元 金管會重罰3200萬 創銀行業最高罰款",
+   "date": "2026-05-12",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中銀行員幫詐團洗錢 重罰3200萬史上最重",
+     "outlet": "cardu.com.tw",
+     "url": "https://www.cardu.com.tw/news/detail.php"
+    },
+    {
+     "title": "史上最重！台中銀勾結詐團洗錢36億元遭重罰3200萬元",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.stock.yahoo.com/news/%E5%8F%B2%E4%B8%8A%E6%9C%80%E9%87%8D%EF%BC%81%E5%8F%B0%E4%B8%AD%E9%8A%80%E5%8B%BE%E7%B5%90%E8%A9%90%E5%9C%98%E6%B4%97%E9%8C%A236%E5%84%84%E5%85%83%E9%81%AD%E9%87%8D%E7%BD%B03200%E8%90%AC%E5%85%83-082319288.html"
+    },
+    {
+     "title": "台中銀6內鬼助詐團洗錢逾36億元 金管會重罰3200萬 創銀行業最高罰款",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E9%8A%806%E5%85%A7%E9%AC%BC%E5%8A%A9%E8%A9%90%E5%9C%98%E6%B4%97%E9%8C%A2%E9%80%BE36%E5%84%84%E5%85%83-%E9%87%91%E7%AE%A1%E6%9C%83%E9%87%8D%E7%BD%B03200%E8%90%AC-%E5%89%B5%E9%8A%80%E8%A1%8C%E6%A5%AD%E6%9C%80%E9%AB%98%E7%BD%B0%E6%AC%BE-084520149.html"
+    },
+    {
+     "title": "涉勾結詐團！內控、洗錢防制爆重大疏失 台中銀遭金管會重罰3200萬元",
+     "outlet": "news.cnyes.com",
+     "url": "https://news.cnyes.com/news/id/6455076"
+    },
+    {
+     "title": "台中銀涉勾結詐團內控失靈金管會罰3200萬創銀行業新高",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/afe/202605120218.aspx"
+    },
+    {
+     "title": "金管會祭史上最重罰款 台中商銀內鬼助詐團洗錢 遭罰3200萬",
+     "outlet": "自由時報",
+     "url": "https://ec.ltn.com.tw/article/paper/1754582"
+    },
+    {
+     "title": "「一個拉一個」開綠燈洗錢36億 台中商銀2高層裁定駁回停押聲請",
+     "outlet": "自由時報",
+     "url": "https://ec.ltn.com.tw/article/breakingnews/5437838"
+    },
+    {
+     "title": "台中銀高層涉洗錢36億！幫詐團開人頭帳戶 「聲請停押」遭駁回",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/3205675"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260508a",
+   "title": "社群平台高薪職缺有鬼！ 台中女上工首日先收2000元 險淪詐騙車手",
+   "date": "2026-05-08",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "社群平台高薪職缺有鬼！ 台中女上工首日先收2000元 險淪詐騙車手",
+     "outlet": "台灣好新聞",
+     "url": "https://www.taiwanhot.net/news/1136079/%E7%A4%BE%E7%BE%A4%E5%B9%B3%E5%8F%B0%E9%AB%98%E8%96%AA%E8%81%B7%E7%BC%BA%E6%9C%89%E9%AC%BC%EF%BC%81+%E5%8F%B0%E4%B8%AD%E5%A5%B3%E4%B8%8A%E5%B7%A5%E9%A6%96%E6%97%A5%E5%85%88%E6%94%B62000%E5%85%83+%E9%9A%AA%E6%B7%AA%E8%A9%90%E9%A8%99%E8%BB%8A%E6%89%8B"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260430a",
+   "title": "台中男當車手害婦人慘遭詐3594萬 下場判5年6月並「全額賠償」",
+   "date": "2026-04-30",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中22歲男當車手害婦人慘遭詐3594萬 下場判5年6月並「全額賠償」",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/124490/9474400"
     }
    ],
    "fear": [
@@ -152,6 +1256,23 @@
    ]
   },
   {
+   "id": "x-i20260429a",
+   "title": "洗錢54億！台中水房遭破獲9人收押　收購老酒名義轉移款項",
+   "date": "2026-04-29",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "洗錢54億！台中水房遭破獲9人收押　收購老酒名義轉移款項",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260429/3157316.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
    "id": "x-bank",
    "title": "分行主管涉勾結博弈詐團洗錢逾36億元 台中銀三點聲明回應",
    "date": "2026-04-23",
@@ -162,6 +1283,593 @@
      "title": "分行主管涉勾結博弈詐團洗錢逾36億元 台中銀三點聲明回應",
      "outlet": "聯合新聞網",
      "url": "https://udn.com/news/story/7239/9460284"
+    },
+    {
+     "title": "地產大亨勾結台中商銀洗錢36億　中檢聲押准3人交保3人今起訴擴大追查",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/story/20260423inv001"
+    },
+    {
+     "title": "台中銀大門貼「勿落洗錢幫兇」海報　6幹部變內鬼護航狂洗36億",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260423/3154394.htm"
+    },
+    {
+     "title": "台中商銀又出事！6高階幹部「一個拉一個」幫地產大亨洗錢36億",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260423/3154134.htm"
+    },
+    {
+     "title": "台中銀爆行員勾結詐騙集團！ 2襄理、4經理護航幫洗錢高達36億元",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/124490/9459421"
+    },
+    {
+     "title": "台中商銀6高層勾結詐團洗錢36億元 金管會震怒將找總經理「喝咖啡」",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E4%B8%AD%E5%95%86%E9%8A%806%E9%AB%98%E5%B1%A4%E5%8B%BE%E7%B5%90%E8%A9%90%E5%9C%98%E6%B4%97%E9%8C%A236%E5%84%84%E5%85%83-%E9%87%91%E7%AE%A1%E6%9C%83%E9%9C%87%E6%80%92%E5%B0%87%E6%89%BE%E7%B8%BD%E7%B6%93%E7%90%86%E3%80%8C%E5%96%9D%E5%92%96%E5%95%A1%E3%80%8D-084921623.html"
+    },
+    {
+     "title": "台中銀行員涉及勾結詐騙集團金管會：「不能容忍」 台中銀也回應了- 金融",
+     "outlet": "ctee.com.tw",
+     "url": "https://www.ctee.com.tw/news/20260423701995-430301"
+    },
+    {
+     "title": "台中商銀又爆弊案 員工勾結詐團洗錢逾36億元",
+     "outlet": "eNews",
+     "url": "https://www.peoplenews.tw/articles/economic-news/28232"
+    },
+    {
+     "title": "台中銀行爆內鬼勾結詐團洗錢逾36億 7人遭起訴",
+     "outlet": "上報",
+     "url": "https://www.upmedia.mg/tw/focus/society/257000"
+    },
+    {
+     "title": "台中銀六高層涉勾結博弈詐團洗錢逾36億 中檢起訴七人",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E9%8A%80%E5%85%AD%E9%AB%98%E5%B1%A4%E6%B6%89%E5%8B%BE%E7%B5%90%E5%8D%9A%E5%BC%88%E8%A9%90%E5%9C%98%E6%B4%97%E9%8C%A2%E9%80%BE36%E5%84%84-%E4%B8%AD%E6%AA%A2%E8%B5%B7%E8%A8%B4%E4%B8%83%E4%BA%BA-055209853.html"
+    },
+    {
+     "title": "台中銀行4分行主管勾結詐團！協助洗錢逾36億 檢今起訴7人",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E9%8A%80%E8%A1%8C4%E5%88%86%E8%A1%8C%E4%B8%BB%E7%AE%A1%E5%8B%BE%E7%B5%90%E8%A9%90%E5%9C%98-%E5%8D%94%E5%8A%A9%E6%B4%97%E9%8C%A2%E9%80%BE36%E5%84%84-%E6%AA%A2%E4%BB%8A%E8%B5%B7%E8%A8%B47%E4%BA%BA-051923264.html"
+    },
+    {
+     "title": "辯「洪董大客戶」台中銀爆內鬼洗錢36億 沒KYC就給最高2千萬轉帳額",
+     "outlet": "聯合新聞網",
+     "url": "https://money.udn.com/money/story/5613/9460010"
+    },
+    {
+     "title": "台中商銀爆36億洗錢黑洞！6高層「一個拉一個」開綠燈 淪地產大亨詐團內鬼",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5413485"
+    },
+    {
+     "title": "台中銀爆行員勾結詐團洗錢 金管會：檢查局主動移送 將找總座「喝咖啡」究責",
+     "outlet": "Yahoo 新聞",
+     "url": "https://hk.finance.yahoo.com/news/%E5%8F%B0%E4%B8%AD%E9%8A%80%E7%88%86%E8%A1%8C%E5%93%A1%E5%8B%BE%E7%B5%90%E8%A9%90%E5%9C%98%E6%B4%97%E9%8C%A2-%E9%87%91%E7%AE%A1%E6%9C%83-%E6%AA%A2%E6%9F%A5%E5%B1%80%E4%B8%BB%E5%8B%95%E7%A7%BB%E9%80%81-%E5%B0%87%E6%89%BE%E7%B8%BD%E5%BA%A7-%E5%96%9D%E5%92%96%E5%95%A1-101501983.html"
+    },
+    {
+     "title": "台中銀行爆內鬼！4分行6主管勾結大地主 助洗錢36億",
+     "outlet": "華視新聞",
+     "url": "https://news.cts.com.tw/cts/society/202604/202604233023276.html"
+    },
+    {
+     "title": "集團涉勾結銀行6主管洗錢36億 台中商銀：配合調查、營運正常",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/805138"
+    },
+    {
+     "title": "台中銀2襄理、4經理涉勾結博弈詐團洗錢逾36億元 中檢起訴7人",
+     "outlet": "中華日報",
+     "url": "https://www.cdns.com.tw/articles/1391194"
+    },
+    {
+     "title": "幫「洪董大客戶」洗錢36億！台中商銀6主管開後門未審核給轉帳額2千萬",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/Zar8xJe"
+    },
+    {
+     "title": "幫地產大亨洗錢36億！台中商銀6高階主管「1個拉1個」護航隱匿詐欺金流",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1826790"
+    },
+    {
+     "title": "銀行主管涉勾結博弈詐團洗錢逾36億 中檢起訴7人",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202604230124.aspx"
+    },
+    {
+     "title": "高層涉勾結詐團洗錢36億、2經理收押 台中銀：全力配合調查",
+     "outlet": "台視新聞",
+     "url": "https://news.ttv.com.tw/news/11504230030000L"
+    },
+    {
+     "title": "詐團勾結台中商銀主管涉洗錢逾36億！7人被起訴",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5413246"
+    },
+    {
+     "title": "台中銀爆6內鬼勾結詐團洗錢36億！　公司：全力配合司法調查",
+     "outlet": "ETtoday",
+     "url": "https://finance.ettoday.net/news/3154389"
+    },
+    {
+     "title": "內鬼護航 台中商銀爆詐團洗錢36億",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/124490/9461108"
+    },
+    {
+     "title": "台中銀護航詐團洗錢36億 金管會要找高層「喝咖啡」",
+     "outlet": "東森新聞",
+     "url": "https://fnc.ebc.net.tw/fncnews/headline/209691"
+    },
+    {
+     "title": "台中銀助洗錢36億「延誤8個月才通報」？金管會：絕無此事",
+     "outlet": "三立新聞網",
+     "url": "https://inews.setn.com/news/1827872"
+    },
+    {
+     "title": "台中銀內鬼洗錢爆延誤通報　金管會急澄清",
+     "outlet": "ETtoday",
+     "url": "https://finance.ettoday.net/news/3155312"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260423a",
+   "title": "台中台74驚傳槍響！車手「衝撞警車」狂逃5km　警轟1槍制伏",
+   "date": "2026-04-23",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中台74驚傳槍響！20歲車手「衝撞警車」狂逃5km　警轟1槍制伏",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260423/3154529.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260423b",
+   "title": "台中銀經理洗錢案外案！土地大亨主導重劃案…自救會長北捷縱火抗議",
+   "date": "2026-04-23",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中銀經理洗錢案外案！土地大亨主導重劃案…自救會長北捷縱火抗議",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7315/9459765"
+    },
+    {
+     "title": "台中銀經理洗錢案外案 土地大亨主導自辦重劃",
+     "outlet": "台灣時報",
+     "url": "https://www.taiwantimes.com.tw/app-container/app-content/new/new-content-detail"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260423c",
+   "title": "台中傳槍響！詐騙集團拒盤查衝撞逃逸 警匪追逐開槍圍捕",
+   "date": "2026-04-23",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "快訊／台中傳槍響！詐騙集團拒盤查衝撞逃逸 警匪追逐開槍圍捕",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/3186428"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260423d",
+   "title": "中市警圍捕詐團車手開槍制伏衝撞拒捕嫌犯法辦",
+   "date": "2026-04-23",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "中市警圍捕詐團車手開槍制伏衝撞拒捕嫌犯法辦",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202604230365.aspx"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260422a",
+   "title": "公安制服+簡體字標語！台中詐團AI視訊騙港人狂削3千萬 18人落網",
+   "date": "2026-04-22",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "公安制服+簡體字標語！台中詐團AI視訊騙港人狂削3千萬 18人落網",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5412101"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260416a",
+   "title": "台中男貪千元報酬「提供手機門號」淪幫助詐欺犯...慘遭判賠4330萬",
+   "date": "2026-04-16",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中男辦手機門號賣詐團賺1千　害人遭詐4330萬！他要連帶賠",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260416/3150135.htm"
+    },
+    {
+     "title": "台中男貪千元報酬「提供手機門號」淪幫助詐欺犯...慘遭判賠4330萬",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/124490/9444840"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260416b",
+   "title": "台中婦銀行欲解200萬定存 警銀合阻投資詐騙",
+   "date": "2026-04-16",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中婦銀行欲解200萬定存 警銀合阻投資詐騙",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/803924"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260415a",
+   "title": "詐團誘截圖電支付款碼詐財台中檢警逮6嫌收押",
+   "date": "2026-04-15",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "詐團誘截圖電支付款碼詐財台中檢警逮6嫌收押",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/124490/9444055"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260415b",
+   "title": "小心LINE「派對」變陷阱！分享QR Code付款碼慘遭盜刷 台中6人詐騙集團落網",
+   "date": "2026-04-15",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "小心LINE「派對」變陷阱！分享QR Code付款碼慘遭盜刷 台中6人詐騙集團落網",
+     "outlet": "知新聞",
+     "url": "https://www.knews.com.tw/news/F63DD04AB3D1110C8115BBD275582067"
+    },
+    {
+     "title": "中檢破網購騙「QR Code付款碼」買點數洗錢 聲押6人獲准",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5405111"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260409a",
+   "title": "詐團成員及車手內鬨爆贓款糾紛 台中警逮３人法辦",
+   "date": "2026-04-09",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "詐團成員及車手內鬨爆贓款糾紛 台中警逮３人法辦",
+     "outlet": "中華日報",
+     "url": "https://www.cdns.com.tw/articles/1384581"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260409b",
+   "title": "詐團台中街頭「收水」150萬爆內訌 車手捧錢想跑鈔票掉滿地",
+   "date": "2026-04-09",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "詐團台中街頭「收水」150萬爆內訌 車手捧錢想跑鈔票掉滿地",
+     "outlet": "壹蘋新聞網",
+     "url": "https://news.nextapple.com/local/20260409/B834EAC45C0B7F4E6447570E896BEB67"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260401a",
+   "title": "台中民眾遭投資詐騙2塊黃金警方查獲車手尋回",
+   "date": "2026-04-01",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "民眾遭投資詐騙２塊黃金 台中警查獲車手尋回",
+     "outlet": "中華日報",
+     "url": "https://www.cdns.com.tw/articles/1381394"
+    },
+    {
+     "title": "台中民眾遭投資詐騙2塊黃金警方查獲車手尋回",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202604010073.aspx"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260401b",
+   "title": "台中惡女摑掌律師、揚言殺人「我是在教訓詐騙集團！」　中檢偵結起訴建請法官不宜停押",
+   "date": "2026-04-01",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中惡女摑掌律師、揚言殺人「我是在教訓詐騙集團！」　中檢偵結起訴建請法官不宜停押",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/story/20260402inv001"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260401c",
+   "title": "詐團假冒胞弟借款投資醫材台中男險匯200萬",
+   "date": "2026-04-01",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "詐團假冒胞弟借款投資醫材台中男險匯200萬",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/124490/9416847"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260330a",
+   "title": "台中「借錢哥」又犯案！謊稱手機反鎖特斯拉內 騙走2千元",
+   "date": "2026-03-30",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中「借錢哥」又犯案！謊稱手機反鎖特斯拉內 騙走2千元",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5387565"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260327a",
+   "title": "「趴引擎蓋1.5KM」抓詐騙！台中孝女遭輾險死…車手殺人未遂重判8年9月",
+   "date": "2026-03-27",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中親友團出動抓詐團！她趴引擎蓋慘被甩落輾重傷 惡男判8年9月",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/124490/9406285"
+    },
+    {
+     "title": "「趴引擎蓋1.5KM」抓詐騙！台中孝女遭輾險死…車手殺人未遂重判8年9月",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1813614"
+    }
+   ],
+   "fear": [
+    "Z",
+    "D"
+   ]
+  },
+  {
+   "id": "x-i20260319a",
+   "title": "詐團假扮老闆指示匯款台中會計險賠1400萬",
+   "date": "2026-03-19",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "詐團假扮老闆指示匯款台中會計險賠1400萬",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/124490/9390642"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260315a",
+   "title": "豐原情殺案反轉？兇嫌家屬曝「死者長期涉詐欺」：近3千萬遭掏空",
+   "date": "2026-03-15",
+   "place": "豐原",
+   "summary": "豐原發生詐騙案件。",
+   "sources": [
+    {
+     "title": "豐原情殺案反轉？兇嫌家屬曝「死者長期涉詐欺」：近3千萬遭掏空",
+     "outlet": "台視新聞",
+     "url": "https://news.ttv.com.tw/news/11503150025100L"
+    }
+   ],
+   "fear": [
+    "Z",
+    "D"
+   ]
+  },
+  {
+   "id": "x-i20260311a",
+   "title": "影音／假徵臨演真詐騙！台中萬春宮遭冒名「開2100酬勞」 廟方急澄清",
+   "date": "2026-03-11",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "傳拍短劇徵臨演 台中萬春宮澄清疑為詐騙",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/798511"
+    },
+    {
+     "title": "影音／假徵臨演真詐騙！台中萬春宮遭冒名「開2100酬勞」 廟方急澄清",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/3148596"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260305a",
+   "title": "投資古董「穩賺不賠」台中女衝銀行急匯300萬　警鷹眼揪詐團1句話露餡",
+   "date": "2026-03-05",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "投資古董「穩賺不賠」台中女衝銀行急匯300萬　警鷹眼揪詐團1句話露餡",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1802736"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260218a",
+   "title": "誤信財神爺發50萬過年補助　台中女大生交帳戶淪洗錢共犯",
+   "date": "2026-02-18",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "誤信財神爺發50萬過年補助　台中女大生交帳戶淪洗錢共犯",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260218/3108432.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260206a",
+   "title": "台中警首創「詐騙模擬器」 手法全上線讓民眾「安全被騙一次」",
+   "date": "2026-02-06",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中警首創「詐騙模擬器」 手法全上線讓民眾「安全被騙一次」",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5334460"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260201a",
+   "title": "馬斯克「星鏈」網路服務成詐團工具　中檢警偵破跨國詐團不法逾2億元",
+   "date": "2026-02-01",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "馬斯克「星鏈」網路服務成詐團工具　中檢警偵破跨國詐團不法逾2億元",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/story/20260202inv006"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260130a",
+   "title": "詐團利用「貓池」收發簡訊 台中男海撈480萬",
+   "date": "2026-01-30",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "詐團利用「貓池」收發簡訊 台中男海撈480萬",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/124490/9298801"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260126a",
+   "title": "台中房仲非法吸金詐騙23億元41人受害！ 台中地檢署起訴求處重刑",
+   "date": "2026-01-26",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中房仲非法吸金詐騙23億元41人受害！ 台中地檢署起訴求處重刑",
+     "outlet": "台灣新聞雲報",
+     "url": "https://www.tcpttw.com/other/other_local/2026/01/26/240906/"
     }
    ],
    "fear": [
@@ -184,6 +1892,124 @@
      "title": "破門直擊！七期落地窗豪景詐騙機房曝光 「多層轉接」騙倒9人",
      "outlet": "TVBS",
      "url": "https://news.tvbs.com.tw/local/3107604"
+    },
+    {
+     "title": "台中七期設機房轉接規避警示音詐騙9人賺千萬 警攻堅抓人",
+     "outlet": "中華日報",
+     "url": "https://www.cdns.com.tw/articles/1351776"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260122a",
+   "title": "詐騙1536餘萬害死台中豐原五口「李團長」當庭改口認罪- 社會",
+   "date": "2026-01-22",
+   "place": "豐原",
+   "summary": "豐原發生詐騙案件。",
+   "sources": [
+    {
+     "title": "詐騙1536餘萬害死台中豐原五口「李團長」當庭改口認罪- 社會",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5318824"
+    }
+   ],
+   "fear": [
+    "Z",
+    "D"
+   ]
+  },
+  {
+   "id": "x-i20260121a",
+   "title": "投資夢碎又卡債！ 台中檢警偵破「假投資軟體」結合「刷卡換現」不法資產1億7千餘萬元",
+   "date": "2026-01-21",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "中檢偵破「刷卡換現金」洗錢鏈　保全不法所得逾17億元",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/story/20260122inv001"
+    },
+    {
+     "title": "投資夢碎又卡債！ 台中檢警偵破「假投資軟體」結合「刷卡換現」不法資產1億7千餘萬元",
+     "outlet": "台灣新聞雲報",
+     "url": "https://www.tcpttw.com/other/other_local/2026/01/22/239812/"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260120a",
+   "title": "台中警尾牙場揭假投資「養套殺」 民眾喊「過年不要被騙」",
+   "date": "2026-01-20",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中警尾牙場揭假投資「養套殺」 民眾喊「過年不要被騙」",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/Taichung/breakingnews/5315396"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260119a",
+   "title": "擱是你！6天2度抓同一車手　台中警喊太誇張",
+   "date": "2026-01-19",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "擱是你！6天2度抓同一車手　台中警喊太誇張",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260119/3103721.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260114a",
+   "title": "假交友真詐財！台中銀樓小開被騙5000萬 車手第8次取款被逮",
+   "date": "2026-01-14",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "假交友真詐財！台中銀樓小開被騙5000萬 車手第8次取款被逮",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%81%87%E4%BA%A4%E5%8F%8B%E7%9C%9F%E8%A9%90%E8%B2%A1-%E5%8F%B0%E4%B8%AD%E9%8A%80%E6%A8%93%E5%B0%8F%E9%96%8B%E8%A2%AB%E9%A8%995000%E8%90%AC-%E8%BB%8A%E6%89%8B%E7%AC%AC8%E6%AC%A1%E5%8F%96%E6%AC%BE%E8%A2%AB%E9%80%AE-072400512.html"
+    },
+    {
+     "title": "假交友詐騙近5000萬元 台中警逮車手移送檢起訴",
+     "outlet": "中華日報",
+     "url": "https://www.cdns.com.tw/articles/1348413"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20260108a",
+   "title": "台中女「趴引擎蓋1.5km」阻逃慘遭兩度輾壓　車手拒認殺人未遂",
+   "date": "2026-01-08",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中女「趴引擎蓋1.5km」阻逃慘遭兩度輾壓　車手拒認殺人未遂",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260108/3097726.htm"
     }
    ],
    "fear": [
@@ -208,6 +2034,509 @@
    ]
   },
   {
+   "id": "x-i20251218a",
+   "title": "台中婦人當詐團車手 出任務一毛沒領到…入獄還慘遭判賠803萬",
+   "date": "2025-12-18",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中53歲婦人當詐團車手 出任務一毛沒領到…入獄還慘遭判賠803萬",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/124490/9211262"
+    },
+    {
+     "title": "發財夢碎！台中婦才當車手就被抓 入獄還要賠803萬",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/3076623"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20251217a",
+   "title": "台中人11月被騙7億！最詐社群「脆超FB登頂」 小紅書掛0",
+   "date": "2025-12-17",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中人11月被騙7億！最詐社群「脆超FB登頂」 小紅書掛0",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/3075370"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20251214a",
+   "title": "台中女陷加密貨幣詐騙 向人頭戶索償388.5萬 法官判只需賠2％理由曝",
+   "date": "2025-12-14",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中女陷加密貨幣詐騙 向人頭戶索償388.5萬 法官判只需賠2％理由曝",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/124490/9201881"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20251208a",
+   "title": "台中軍人給帳戶幫領13.6萬給詐團 檢起訴法官認無犯意判無罪",
+   "date": "2025-12-08",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中軍人給帳戶幫領13.6萬給詐團 檢起訴法官認無犯意判無罪",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/124490/9189213"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20251208b",
+   "title": "台中11個月詐騙案逾2萬件假投資財損金額最高",
+   "date": "2025-12-08",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中11個月詐騙案逾2萬件假投資財損金額最高",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/aloc/202512080088.aspx"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20251203a",
+   "title": "「財經女神」邱沁宜遭詐團冒名！台中女老師遭騙2500萬",
+   "date": "2025-12-03",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "「財經女神」邱沁宜遭詐團冒名！台中女老師遭騙2500萬",
+     "outlet": "Newtalk 新聞",
+     "url": "https://newtalk.tw/news/view/2025-12-03/1007826"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20251202a",
+   "title": "女車手扮外務員取款！遭台中警逮捕檢方起訴",
+   "date": "2025-12-02",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "70歲女車手扮外務員取款！遭台中警逮捕檢方起訴",
+     "outlet": "pinview.com.tw",
+     "url": "https://pinview.com.tw/News/52037.html"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20251201a",
+   "title": "台中男子遭投資詐騙22萬偕同警方逮獲取款車手",
+   "date": "2025-12-01",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中男子遭投資詐騙22萬偕同警方逮獲取款車手",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202512010073.aspx"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20251121a",
+   "title": "新聞內幕／詐投752萬用夫帳戶洗錢　揭蛇蠍女團長逼死豐原5口",
+   "date": "2025-11-21",
+   "place": "豐原",
+   "summary": "豐原發生詐騙案件。",
+   "sources": [
+    {
+     "title": "新聞內幕／詐投752萬用夫帳戶洗錢　揭蛇蠍女團長逼死豐原5口",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/story/20251117inv008"
+    }
+   ],
+   "fear": [
+    "Z",
+    "D"
+   ]
+  },
+  {
+   "id": "x-i20251120a",
+   "title": "境外機房訊號偽台灣市話...台中詐團發話40萬通騙3億 19人落網",
+   "date": "2025-11-20",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "影／境外機房訊號偽台灣市話...台中詐團發話40萬通騙3億 19人落網",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/124490/9151367"
+    },
+    {
+     "title": "73人頭市話4個月發出近40萬通詐騙電話 台中逮19人",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202511200064.aspx"
+    },
+    {
+     "title": "中市刑大破獲2類電信詐團 近300人受害、財損逾3億",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/782137"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20251117a",
+   "title": "台中詐騙男謊稱「預約轉帳」騙走iPhone 匯款截圖全是假",
+   "date": "2025-11-17",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "獨／台中詐騙男謊稱「預約轉帳」騙走iPhone 匯款截圖全是假",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/3047253"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20251114a",
+   "title": "台中豐原5口命案 團購主涉詐騙遭起訴求刑15年",
+   "date": "2025-11-14",
+   "place": "豐原",
+   "summary": "豐原發生詐騙案件。",
+   "sources": [
+    {
+     "title": "恐怖金流曝！女惡魔榨乾豐原5口　幼兒帳戶也拿去洗錢+還高利貸",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20251114/3067583.htm"
+    },
+    {
+     "title": "台中豐原5口命案 團購主涉詐騙遭起訴求刑逾15年",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202511140053.aspx"
+    },
+    {
+     "title": "台中豐原5口遭詐騙命案 檢起訴李姓主謀求刑15年",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/781388"
+    },
+    {
+     "title": "台中豐原一家五口命案 李姓團購主涉詐騙不認罪 遭起訴求處重刑",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E8%B1%90%E5%8E%9F%E4%B8%80%E5%AE%B6%E4%BA%94%E5%8F%A3%E5%91%BD%E6%A1%88-%E6%9D%8E%E5%A7%93%E5%9C%98%E8%B3%BC%E4%B8%BB%E6%B6%89%E8%A9%90%E9%A8%99%E4%B8%8D%E8%AA%8D%E7%BD%AA-%E9%81%AD%E8%B5%B7%E8%A8%B4%E6%B1%82%E8%99%95%E9%87%8D%E5%88%91-025657308.html"
+    },
+    {
+     "title": "台中豐原5口命案 團購主涉詐騙遭起訴求刑15年",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/781268"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20251113a",
+   "title": "警破台中假投資群組詐團 2嫌一審判7年",
+   "date": "2025-11-13",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "警破台中假投資群組詐團 2嫌一審判7年",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202511130162.aspx"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20251113b",
+   "title": "「孝女救母」竟是養套殺劇本！台中10粉領被詐500萬 2男開機房判7年",
+   "date": "2025-11-13",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "「孝女救母」竟是養套殺劇本！台中10粉領被詐500萬 2男開機房判7年",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5244671"
+    },
+    {
+     "title": "影／詐團裝孝女編「母得腎炎」劇本…台中10粉領族被騙500萬 警抓2人",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/124490/9136453"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20251111a",
+   "title": "詐團搭頑童演唱會熱潮！稱贈送偶像周邊騙個資 台中男險失3萬",
+   "date": "2025-11-11",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "詐團搭頑童演唱會熱潮！稱贈送偶像周邊騙個資 台中男險失3萬",
+     "outlet": "Newtalk 新聞",
+     "url": "https://newtalk.tw/news/view/2025-11-11/1003919"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20251109a",
+   "title": "豐原一家五口被詐騙走絕路 市議員謝志忠以此法宣戰詐團",
+   "date": "2025-11-09",
+   "place": "豐原",
+   "summary": "豐原發生詐騙案件。",
+   "sources": [
+    {
+     "title": "豐原一家五口被詐騙走絕路 市議員謝志忠以此法宣戰詐團",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/124490/9127548"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20251022a",
+   "title": "為償賭債淪車手！IG大馬旅遊網紅大甲落網：不知怎跟女友說",
+   "date": "2025-10-22",
+   "place": "大甲",
+   "summary": "大甲發生詐騙案件。",
+   "sources": [
+    {
+     "title": "為償賭債淪車手！IG大馬旅遊網紅大甲落網：不知怎跟女友說",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/124490/9087372"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20251021a",
+   "title": "冒一卡通、街口支付狂發詐騙簡訊！竟是台中男載假基地台趴趴走 慘遭收押",
+   "date": "2025-10-21",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中男開權利車設「偽基站」 傳普發1萬詐騙簡訊 騙12人賺40萬遭押",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7321/9084254"
+    },
+    {
+     "title": "冒一卡通、街口支付狂發詐騙簡訊！竟是台中男載假基地台趴趴走 慘遭收押",
+     "outlet": "知新聞",
+     "url": "https://www.knews.com.tw/news/C2DDBEB7B5773E00E006AAEBF036F799"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20251019a",
+   "title": "台中男被騙「黃金投資」險噴630萬 幸籤詩暗示「貴人」在身旁",
+   "date": "2025-10-19",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中男被騙「黃金投資」險噴630萬 幸籤詩暗示「貴人」在身旁",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5216416"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20251015a",
+   "title": "【警察】台中車手郵局ATM提款共提領21萬 不知背後是警察被逮羈押",
+   "date": "2025-10-15",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "影／台中車手郵局ATM提款共提領21萬 不知背後是警察被逮羈押",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/124490/9070868"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20251008a",
+   "title": "失聯移工車手清水提領10萬 遭警方埋伏逮個正著",
+   "date": "2025-10-08",
+   "place": "清水",
+   "summary": "清水發生詐騙案件。",
+   "sources": [
+    {
+     "title": "失聯移工當車手中秋前夕台中ATM領現金遭逮並羈押",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202510080063.aspx"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20251004a",
+   "title": "長髮女應徵當車手南北取款 台中高鐵站被攔截狂喊「要打給我老闆」",
+   "date": "2025-10-04",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "長髮女應徵當車手南北取款 台中高鐵站被攔截狂喊「要打給我老闆」",
+     "outlet": "自由時報",
+     "url": "https://video.ltn.com.tw/article/LOEkZdM3UqU/PLI7xntdRxhw0VRxm8nImOBCW2OZN7Ktws"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20251001a",
+   "title": "台中黑幫尊鎮會搞假公安詐騙！機房藏透天厝爽開賓士　300人受害",
+   "date": "2025-10-01",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中黑幫尊鎮會搞假公安詐騙！機房藏透天厝爽開賓士　300人受害",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20251001/3043287.htm"
+    },
+    {
+     "title": "台中陣頭幫派「尊鎮會」 扮假公安詐騙香港、海外華人2.3億",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5197260"
+    },
+    {
+     "title": "台中陣頭扮「中國公安」視訊詐騙賺進2.3億 300人受害遍及港美加",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E9%99%A3%E9%A0%AD%E6%89%AE-%E4%B8%AD%E5%9C%8B%E5%85%AC%E5%AE%89-%E8%A6%96%E8%A8%8A%E8%A9%90%E9%A8%99%E8%B3%BA%E9%80%B22-3%E5%84%84-300%E5%90%8D%E5%8F%97%E5%AE%B3%E4%BA%BA%E9%81%8D%E5%8F%8A%E6%B8%AF%E7%BE%8E%E5%8A%A0-105600181.html"
+    },
+    {
+     "title": "台中黑幫尊鎮會設機房…穿公安制服視訊騙全球華人 20人遭詐1.7億",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/0MmNeZp"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250929a",
+   "title": "應徵外務員卻成車手 7旬婦台中收款遭逮",
+   "date": "2025-09-29",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "應徵外務員卻成車手 7旬婦台中收款遭逮",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/772695"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250929b",
+   "title": "女車手扮外務員取款遭台中警逮捕檢方起訴",
+   "date": "2025-09-29",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "70歲女車手扮外務員取款遭台中警逮捕檢方起訴",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202509290124.aspx"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250928a",
+   "title": "加盟店變詐騙基地！台中黑房仲吸金10億落網 檢警追查幕後共犯集團",
+   "date": "2025-09-28",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "加盟店變詐騙基地！台中黑房仲吸金10億落網 檢警追查幕後共犯集團",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.stock.yahoo.com/news/%E5%8A%A0%E7%9B%9F%E5%BA%97%E8%AE%8A%E8%A9%90%E9%A8%99%E5%9F%BA%E5%9C%B0%EF%BC%81%E5%8F%B0%E4%B8%AD%E9%BB%91%E6%88%BF%E4%BB%B2%E5%90%B8%E9%87%9110%E5%84%84%E8%90%BD%E7%B6%B2-%E6%AA%A2%E8%AD%A6%E8%BF%BD%E6%9F%A5%E5%B9%95%E5%BE%8C%E5%85%B1%E7%8A%AF%E9%9B%86%E5%9C%98-005626370.html"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
    "id": "k-scam",
    "title": "台中七期商辦藏詐團話務機房 4人起訴",
    "date": "2025-09-25",
@@ -222,6 +2551,1511 @@
      "outlet": "聯合新聞網",
      "url": "https://udn.com/news/story/124490/9282249"
     }
+   ]
+  },
+  {
+   "id": "x-i20250922a",
+   "title": "投資詐騙「吸金20億」！台中惡房仲鎖定親友下手…狂騙50多人捲款落跑",
+   "date": "2025-09-22",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "投資詐騙「吸金20億」！台中惡房仲鎖定親友下手…狂騙50多人捲款落跑",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E6%8A%95%E8%B3%87%E8%A9%90%E9%A8%99-%E5%90%B8%E9%87%9120%E5%84%84-%E5%8F%B0%E4%B8%AD%E6%83%A1%E6%88%BF%E4%BB%B2%E9%8E%96%E5%AE%9A%E8%A6%AA%E5%8F%8B%E4%B8%8B%E6%89%8B-%E7%8B%82%E9%A8%9950%E5%A4%9A%E4%BA%BA%E6%8D%B2%E6%AC%BE%E8%90%BD%E8%B7%91-141900620.html"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250920a",
+   "title": "通訊行供4千門號結詐團「騙250人拐走5億」　台中警逮25人",
+   "date": "2025-09-20",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "通訊行供4千門號結詐團「騙250人拐走5億」　台中警逮25人",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250920/3037060.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250919a",
+   "title": "台中通訊行掛鉤詐團賣４０００人頭門號 ２５０人被詐損５億元",
+   "date": "2025-09-19",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中通訊行掛鉤詐團賣４０００人頭門號 ２５０人被詐損５億元",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E9%80%9A%E8%A8%8A%E8%A1%8C%E6%8E%9B%E9%89%A4%E8%A9%90%E5%9C%98%E8%B3%A3-%E4%BA%BA%E9%A0%AD%E9%96%80%E8%99%9F-%E4%BA%BA%E8%A2%AB%E8%A9%90%E6%90%8D-%E5%84%84%E5%85%83-130210162.html"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250910a",
+   "title": "台中婦遭騙340萬詐團不放手　白目車手挑鎮瀾宮面交狼狽落網",
+   "date": "2025-09-10",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中婦遭騙340萬詐團不放手　白目車手挑鎮瀾宮面交狼狽落網",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250910/3031022.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250907a",
+   "title": "詐騙話術全曝光！網友號稱「日息5%」 台中婦險失40萬退休金",
+   "date": "2025-09-07",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "詐騙話術全曝光！網友號稱「日息5%」 台中婦險失40萬退休金",
+     "outlet": "壹蘋新聞網",
+     "url": "https://news.nextapple.com/local/20250907/5B7E96AF4132B16EC1D5645FF828A585"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250831a",
+   "title": "台中翁才被騙百萬 又領30萬遇阻氣噗噗！女兒「這招」超前部署奏效",
+   "date": "2025-08-31",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "才被騙100萬！台中男又要「領30萬當家用」　警到場他氣炸走人",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250831/3025219.htm"
+    },
+    {
+     "title": "台中翁才被騙百萬 又領30萬遇阻氣噗噗！女兒「這招」超前部署奏效",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5162387"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250829a",
+   "title": "台中「界王」搞大型水房遭逮！萬事通集團洗錢52億　15人起訴",
+   "date": "2025-08-29",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中「界王」搞大型水房遭逮！萬事通集團洗錢52億　15人起訴",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250829/3024236.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250829b",
+   "title": "「假交易、真洗錢」中檢偵破中部最大水房洗錢集團　不法金流規模破52億元",
+   "date": "2025-08-29",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "「假交易、真洗錢」中檢偵破中部最大水房洗錢集團　不法金流規模破52億元",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/story/20250829inv003"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250829c",
+   "title": "台中豪宅藏「貓池」！南投警方查扣價值9億虛擬貨幣詐團7人起訴- 社會",
+   "date": "2025-08-29",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中豪宅藏「貓池」！南投警方查扣價值9億虛擬貨幣詐團7人起訴- 社會",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5160227"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250825a",
+   "title": "「台中大金主」曝光！ 助風飛砂幫洗詐團贓款落網",
+   "date": "2025-08-25",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "「台中大金主」曝光！ 助風飛砂幫洗詐團贓款落網",
+     "outlet": "東森新聞",
+     "url": "https://news.ebc.net.tw/news/society/508804"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250824a",
+   "title": "趁8/23投票日一路往北提領上百萬　烏日警逮橫行中部3車手",
+   "date": "2025-08-24",
+   "place": "烏日",
+   "summary": "烏日發生詐騙案件。",
+   "sources": [
+    {
+     "title": "趁8/23投票日一路往北提領上百萬　烏日警逮橫行中部3車手",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250824/3020995.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250824b",
+   "title": "【警察】以為投票日警察忙顧票所無暇兼顧治安 烏日隊長一舉擒獲3名詐欺車手",
+   "date": "2025-08-24",
+   "place": "烏日",
+   "summary": "烏日發生詐騙案件。",
+   "sources": [
+    {
+     "title": "以為投票日警察忙顧票所無暇兼顧治安 烏日隊長一舉擒獲3名詐欺車手",
+     "outlet": "台灣好新聞",
+     "url": "https://www.taiwanhot.net/news/1112109/%E4%BB%A5%E7%82%BA%E6%8A%95%E7%A5%A8%E6%97%A5%E8%AD%A6%E5%AF%9F%E5%BF%99%E9%A1%A7%E7%A5%A8%E6%89%80%E7%84%A1%E6%9A%87%E5%85%BC%E9%A1%A7%E6%B2%BB%E5%AE%89+%E7%83%8F%E6%97%A5%E9%9A%8A%E9%95%B7%E4%B8%80%E8%88%89%E6%93%92%E7%8D%B23%E5%90%8D%E8%A9%90%E6%AC%BA%E8%BB%8A%E6%89%8B"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250815a",
+   "title": "台中阿北衝苗栗...幫女友拿包裹　成史上最老車手慘被逮",
+   "date": "2025-08-15",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中87歲阿北衝苗栗...幫女友拿包裹　成史上最老車手慘被逮",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250815/3015809.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250803a",
+   "title": "台中男誤信「穩賺不賠」遭詐180萬　車手竟是現役軍人",
+   "date": "2025-08-03",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中男誤信「穩賺不賠」遭詐180萬　車手竟是22歲現役軍人",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250803/3008165.htm"
+    },
+    {
+     "title": "台中現役軍人為賺外快淪詐團車手依法起訴",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202508030036.aspx"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250802a",
+   "title": "打擊詐團！台中警祭4奇招奏效　逢甲商圈1個月逮38車手",
+   "date": "2025-08-02",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "打擊詐團！台中警祭4奇招奏效　逢甲商圈1個月逮38車手",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250802/3007754.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250802b",
+   "title": "台中月薪6萬白牌車司機二度當車手　北上取詐款賺3萬獎金被羈押",
+   "date": "2025-08-02",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中月薪6萬白牌車司機二度當車手　北上取詐款賺3萬獎金被羈押",
+     "outlet": "NOWnews",
+     "url": "https://www.nownews.com/news/6714878"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250801a",
+   "title": "台中 黑幫赴柬國設詐騙機房 220人被騙財損逾1.5億",
+   "date": "2025-08-01",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中 黑幫赴柬國設詐騙機房 220人被騙財損逾1.5億",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/newspapers/20250801000582-260107"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250731a",
+   "title": "掃機房積水遭電擊！霧峰區水利署外包員工手臂、後背燒傷送醫",
+   "date": "2025-07-31",
+   "place": "霧峰",
+   "summary": "霧峰發生詐騙案件。",
+   "sources": [
+    {
+     "title": "掃機房積水遭電擊！霧峰區水利署外包員工手臂、後背燒傷送醫",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250731/3006568.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250730a",
+   "title": "台中北屯爆假投資天價詐騙案／退休師、醫生 遭「拔插頭」詐1.4億",
+   "date": "2025-07-30",
+   "place": "北屯",
+   "summary": "北屯發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中驚爆天價詐騙案 退休老師、醫生被「拔插頭」噴飛1.4億",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5125974"
+    },
+    {
+     "title": "台中北屯爆假投資天價詐騙案／退休師、醫生 遭「拔插頭」詐1.4億",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/paper/1718252"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250719a",
+   "title": "報案證明單超級像「真實度90%」　台中婦險被假警騙走10萬",
+   "date": "2025-07-19",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "報案證明單超級像「真實度90%」　台中婦險被假警騙走10萬",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250719/2999366.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250716a",
+   "title": "台中醫師挨詐 2200萬 家人報警仍拖滿箱現金面交 車手現身遭逮",
+   "date": "2025-07-16",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "堅信中籤新股非詐騙！台中醫捧2200萬家中面交　真相讓他崩潰",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250716/2997181.htm"
+    },
+    {
+     "title": "台中醫師挨詐 2200萬 家人報警仍拖滿箱現金面交 車手現身遭逮",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20250716002023-260402"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250712a",
+   "title": "台中男交往爆乳辣妹！砸474萬成VIP還沒見到面　險再被騙226萬",
+   "date": "2025-07-12",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中男交往爆乳辣妹！砸474萬成VIP還沒見到面　險再被騙226萬",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250712/2995037.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250709a",
+   "title": "台中待退女教師有祖產遇假投資被騙上億 刑事局破洗錢詐團29人起訴",
+   "date": "2025-07-09",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中待退女教師有祖產遇假投資被騙上億 刑事局破洗錢詐團29人起訴",
+     "outlet": "中華日報",
+     "url": "https://www.cdns.com.tw/articles/1249381"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250708a",
+   "title": "台中市刑大攻堅破獲詐騙水房 7詐團成員訊後交保",
+   "date": "2025-07-08",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中市刑大攻堅破獲詐騙水房 7詐團成員訊後交保",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20250708003913-260402"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250706a",
+   "title": "台中豐原一家5口遭詐騙逼上絕路李姓團購主15萬交保限制出境出海",
+   "date": "2025-07-06",
+   "place": "豐原",
+   "summary": "豐原發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中豐原一家5口遭詐騙逼上絕路李姓團購主15萬交保限制出境出海",
+     "outlet": "Newtalk 新聞",
+     "url": "https://newtalk.tw/news/view/2025-07-06/980160"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250703a",
+   "title": "豐原五口陷詐騙陷阱，刷卡買金豆賺3千、1個月倒欠500萬！母：我通通完了，求助內容、詐團手法曝光",
+   "date": "2025-07-03",
+   "place": "豐原",
+   "summary": "豐原發生詐騙案件。",
+   "sources": [
+    {
+     "title": "先給甜頭再推坑　台中又一起700萬元詐騙案",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/story/20250704inv002"
+    },
+    {
+     "title": "1家5口輕生！台中又見「虛幣買黃金」詐騙　婦25萬血汗錢險沒了",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250704/2990062.htm"
+    },
+    {
+     "title": "豐原5口輕生！母曾任白沙屯媽祖志工　不信詐案頻傳「怎會被騙」",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250704/2990017.htm"
+    },
+    {
+     "title": "豐原5口被詐騙枉死 台中家庭主婦受騙700萬元誓言「抓到騙子」",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5096165"
+    },
+    {
+     "title": "豐原五口陷詐騙陷阱，刷卡買金豆賺3千、1個月倒欠500萬！母：我通通完了，求助內容、詐團手法曝光",
+     "outlet": "businesstoday.com.tw",
+     "url": "https://www.businesstoday.com.tw/article/category/183027/post/202507030033/"
+    },
+    {
+     "title": "台中一家五口輕生…「代購黃金→被逼刷卡」欠債千萬才知是詐騙！遭暴力討債絕望同亡",
+     "outlet": "風傳媒",
+     "url": "https://www.storm.mg/article/11050211"
+    },
+    {
+     "title": "台中爆五口命案！遇黃金詐騙欠債千萬台幣 死前求助：通通都完了",
+     "outlet": "hk01.com",
+     "url": "https://www.hk01.com/%E5%8F%B0%E7%81%A3%E6%96%B0%E8%81%9E/60253492/%E5%8F%B0%E4%B8%AD%E7%88%86%E4%BA%94%E5%8F%A3%E5%91%BD%E6%A1%88-%E9%81%87%E9%BB%83%E9%87%91%E8%A9%90%E9%A8%99%E6%AC%A0%E5%82%B5%E5%8D%83%E8%90%AC%E5%8F%B0%E5%B9%A3-%E6%AD%BB%E5%89%8D%E6%B1%82%E5%8A%A9-%E9%80%9A%E9%80%9A%E9%83%BD%E5%AE%8C%E4%BA%86"
+    },
+    {
+     "title": "台中婦疑陷黃金詐騙2年抵押4房產換回千萬債務",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202507040115.aspx"
+    },
+    {
+     "title": "黃金詐騙又一樁！台中小吃攤父女「抵押4間房、揹2300萬債」、和地下錢莊借錢…詐團手法曝光",
+     "outlet": "businesstoday.com.tw",
+     "url": "https://www.businesstoday.com.tw/article/category/183027/post/202507050007/"
+    }
+   ],
+   "fear": [
+    "Z",
+    "D"
+   ]
+  },
+  {
+   "id": "x-i20250702a",
+   "title": "誤信假檢警交出6張卡　台中退休女400萬沒了！866萬驚險保住",
+   "date": "2025-07-02",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "誤信假檢警交出6張卡　台中退休女400萬沒了！866萬驚險保住",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250702/2988769.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250626a",
+   "title": "兒不撫養缺錢花！台中婦求溫飽淪車手 遭設局上銬傻了",
+   "date": "2025-06-26",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "兒不撫養缺錢花！台中75歲婦求溫飽淪車手 遭設局上銬傻了",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2914619"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250623a",
+   "title": "詐騙車手也高齡化？ 台中獨居嬤缺錢淪為車手",
+   "date": "2025-06-23",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "詐騙車手也高齡化？ 台中75歲獨居嬤缺錢淪為車手",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20250623003351-260402"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250621a",
+   "title": "詐團冒名「台中地檢署檢察長」 退休男痛失約3000萬存款、不動產",
+   "date": "2025-06-21",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "詐團冒名「台中地檢署檢察長」 退休男痛失約3000萬存款、不動產",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5082352"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250619a",
+   "title": "要蓋貴族幼兒園全是唬爛！台中男吸金詐騙上億　教育局回應了",
+   "date": "2025-06-19",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "要蓋貴族幼兒園全是唬爛！台中男吸金詐騙上億　教育局回應了",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250619/2981612.htm"
+    },
+    {
+     "title": "蓋貴族幼兒園是唬爛!? 台中男涉吸金詐騙上億「連使用權都沒」",
+     "outlet": "台視新聞",
+     "url": "https://news.ttv.com.tw/news/11406200032600L"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250610a",
+   "title": "台中7旬翁砸895萬投資虛幣被詐警百萬餌鈔誘捕、車手演技上身裝蒜- 社會",
+   "date": "2025-06-10",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中7旬翁砸895萬投資虛幣被詐警百萬餌鈔誘捕、車手演技上身裝蒜- 社會",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5069833"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250609a",
+   "title": "台中男遭假投資詐騙近900萬配合警誘出車手逮人",
+   "date": "2025-06-09",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中男遭假投資詐騙近900萬配合警誘出車手逮人",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202506090081.aspx"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250608a",
+   "title": "台中2女大生被騙至柬埔寨 關鍵在誤信網路徵人廣告",
+   "date": "2025-06-08",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中2女大生被騙至柬埔寨 關鍵在誤信網路徵人廣告",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5068000"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250605a",
+   "title": "拍賣詐團千萬麥拉倫、賓利台中豪車法拍史上最貴",
+   "date": "2025-06-05",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "拍賣詐團千萬麥拉倫、賓利台中豪車法拍史上最貴",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/7Nle7ek"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250521a",
+   "title": "台中女被騙8萬後報警誘捕大賣場面交逮車手送辦",
+   "date": "2025-05-21",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中女被騙8萬後報警誘捕大賣場面交逮車手送辦",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202505210085.aspx"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250520a",
+   "title": "台中OL網戀「晚風」投資虛幣噴45萬 裝暈船設局逮車手止損",
+   "date": "2025-05-20",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中OL網戀「晚風」投資虛幣噴45萬 裝暈船設局逮車手止損",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5048590"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250518a",
+   "title": "台中女誤信「吳淡如」遭詐1979萬　車手竟是補教師！被逮哭癱了",
+   "date": "2025-05-18",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中女誤信「吳淡如」遭詐1979萬　車手竟是補教師！被逮哭癱了",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250518/2962554.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250517a",
+   "title": "首期賠5萬變5千！台中詐欺犯「假和解、騙法官」 求減刑踢鐵板",
+   "date": "2025-05-17",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "首期賠5萬變5千！台中詐欺犯「假和解、騙法官」 求減刑踢鐵板",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5046446"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250514a",
+   "title": "詐騙集團奢侈品拍賣！台中潮男砸3900萬標RM粉鑽錶…全身精品曝光",
+   "date": "2025-05-14",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "詐騙集團奢侈品拍賣！台中潮男砸3900萬標RM粉鑽錶…全身精品曝光",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E8%A9%90%E9%A8%99%E9%9B%86%E5%9C%98%E5%A5%A2%E4%BE%88%E5%93%81%E6%8B%8D%E8%B3%A3-%E5%8F%B0%E4%B8%AD%E6%BD%AE%E7%94%B7%E7%A0%B83900%E8%90%AC%E6%A8%99rm%E7%B2%89%E9%91%BD%E9%8C%B6-%E5%85%A8%E8%BA%AB%E7%B2%BE%E5%93%81%E6%9B%9D%E5%85%89-090400924.html"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250514b",
+   "title": "台中女看護轉行當詐騙車手！　情緒崩潰差點撞階梯被逮捕",
+   "date": "2025-05-14",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中女看護轉行當詐騙車手！　情緒崩潰差點撞階梯被逮捕",
+     "outlet": "CTWANT",
+     "url": "https://www.ctwant.com/article/416543/"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250514c",
+   "title": "中檢拍賣詐團Richard Mille鑽錶、虛幣 共拍得8993萬創紀錄 - 社會",
+   "date": "2025-05-14",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "中檢拍賣詐團Richard Mille鑽錶、虛幣 共拍得8993萬創紀錄 - 社會",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5043245"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250510a",
+   "title": "嫌開怪手太累轉當車手　桃園男台中取款被逮.....結果倒貼4千元",
+   "date": "2025-05-10",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "嫌開怪手太累轉當車手　桃園男台中取款被逮.....結果倒貼4千元",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250510/2958134.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250508a",
+   "title": "全球限量7支！台中法拍詐團3千萬RM粉鑽錶　先砸15萬原廠鑑定",
+   "date": "2025-05-08",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "全球限量7支！台中法拍詐團3千萬RM粉鑽錶　先砸15萬原廠鑑定",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250508/2957105.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250508b",
+   "title": "詐團查扣物價值連城！　台中分署將法拍價值逾3000萬Richard Mille粉鑽錶",
+   "date": "2025-05-08",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "詐團查扣物價值連城！　台中分署將法拍價值逾3000萬Richard Mille粉鑽錶",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/story/20250508inv004"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250504a",
+   "title": "台中男誤信虛擬幣詐團砸90萬險再跳坑 警急搬媽媽「救錢又救子」",
+   "date": "2025-05-04",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中男誤信虛擬幣詐團砸90萬險再跳坑 警急搬媽媽「救錢又救子」",
+     "outlet": "民視新聞",
+     "url": "https://finance.ftvnews.com.tw/news/detail/2025504W0125"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250429a",
+   "title": "「我的錢還要你管？」台中嬤堅領錢用途說不清　400萬險被騙",
+   "date": "2025-04-29",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "「我的錢還要你管？」台中嬤堅領錢用途說不清　400萬險被騙",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250429/2951702.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250426a",
+   "title": "台中女遭詐7次匯款430萬　聯手警逮車手...拿回5萬檢舉獎金",
+   "date": "2025-04-26",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中女遭詐7次匯款430萬　聯手警逮車手...拿回5萬檢舉獎金",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250426/2950125.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250423a",
+   "title": "政府舉辦的單身聯誼活動可能被詐騙集團盯上 國民黨台中市議員張瀞分要求民政局要謹慎安排相關活動的報名流程",
+   "date": "2025-04-23",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "政府舉辦的單身聯誼活動可能被詐騙集團盯上 國民黨台中市議員張瀞分要求民政局要謹慎安排相關活動的報名流程",
+     "outlet": "遠方新聞",
+     "url": "https://www.yuanfengmedia.tw/detail.php"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250423b",
+   "title": "車手假冒兒子陪婦人提款台中警識破帶回偵辦",
+   "date": "2025-04-23",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "車手假冒兒子陪婦人提款台中警識破帶回偵辦",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202504230238.aspx"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250422a",
+   "title": "逃逸移工涉詐團糾紛遭毒打勒贖　中檢緝獲連同被害人一併起訴",
+   "date": "2025-04-22",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "逃逸移工涉詐團糾紛遭毒打勒贖　中檢緝獲連同被害人一併起訴",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/story/20250422inv006"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250403a",
+   "title": "台中1轄區幫抓車手有獎金！超商店員掃QR Code檢舉：真的領到5000元",
+   "date": "2025-04-03",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中人掃QR Code幫抓車手領5千　超商店員搶頭香：真的領到了",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250403/2936854.htm"
+    },
+    {
+     "title": "台中1轄區幫抓車手有獎金！超商店員掃QR Code檢舉：真的領到5000元",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1634218"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250401a",
+   "title": "遭誘下載假投資App被騙500萬中市警逮車手送辦",
+   "date": "2025-04-01",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "遭誘下載假投資App被騙500萬中市警逮車手送辦",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202504010068.aspx"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250328a",
+   "title": "神鬼女騙子詐富商50億開店洗錢　竟是台中「勞斯萊斯級」火鍋名店",
+   "date": "2025-03-28",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "神鬼女騙子詐富商50億開店洗錢　竟是台中「勞斯萊斯級」火鍋名店",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250328/2933538.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250325a",
+   "title": "台中7期豪宅「新朗日匯」爆詐騙吸金10億 中檢出手查了",
+   "date": "2025-03-25",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中7期豪宅「新朗日匯」爆詐騙吸金10億 中檢出手查了",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20250325002499-260402"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250325b",
+   "title": "台中七期白派豪宅怎麼了？醫生富商6折入手「1戶都拿不到」 這步驟卡住才驚覺被騙",
+   "date": "2025-03-25",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中七期白派豪宅怎麼了？醫生富商6折入手「1戶都拿不到」 這步驟卡住才驚覺被騙",
+     "outlet": "風傳媒",
+     "url": "https://www.storm.mg/lifestyle/5344992"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250324a",
+   "title": "【新聞傳真】狂賣台中豪宅吸10億無法交屋　天空塔案主謀涉詐騙遭偵辦",
+   "date": "2025-03-24",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "【新聞傳真】狂賣台中豪宅吸10億無法交屋　天空塔案主謀涉詐騙遭偵辦",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/story/20250323inv001"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250323a",
+   "title": "詐騙65億遭逮！台積電前工程師　西屯2戶新成屋沒住過淪法拍",
+   "date": "2025-03-23",
+   "place": "西屯",
+   "summary": "西屯發生詐騙案件。",
+   "sources": [
+    {
+     "title": "詐騙65億遭逮！台積電前工程師　西屯2戶新成屋沒住過淪法拍",
+     "outlet": "ETtoday",
+     "url": "https://house.ettoday.net/news/2928191"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250320a",
+   "title": "台中2個月被詐走22億5千萬元 一張海報破解3大詐騙手法",
+   "date": "2025-03-20",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中2個月被詐走22億5千萬元 一張海報破解3大詐騙手法",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD2%E5%80%8B%E6%9C%88%E8%A2%AB%E8%A9%90%E8%B5%B022%E5%84%845%E5%8D%83%E8%90%AC%E5%85%83-%E5%BC%B5%E6%B5%B7%E5%A0%B1%E7%A0%B4%E8%A7%A33%E5%A4%A7%E8%A9%90%E9%A8%99%E6%89%8B%E6%B3%95-095700512.html"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250319a",
+   "title": "首腦爽住七期豪宅台中車手集團以車行做掩護海撈2億被殲滅- 社會",
+   "date": "2025-03-19",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "29歲首腦爽住七期豪宅台中車手集團以車行做掩護海撈2億被殲滅- 社會",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4984725"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250317a",
+   "title": "涉洗錢破400億！九州博弈總裁陳政谷多次求交保　台中地院今裁定2億天價",
+   "date": "2025-03-17",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "涉洗錢破400億！九州博弈總裁陳政谷多次求交保　台中地院今裁定2億天價",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/external/ftnn_405926"
+    },
+    {
+     "title": "涉洗錢破400億！九州博弈總裁陳政谷多次求交保 台中地院今裁定2億天價",
+     "outlet": "FTNN 新聞網",
+     "url": "https://www.ftnn.com.tw/news/405926"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250314a",
+   "title": "台中男設話務轉接機房詐印度民眾涉案10人遭訴",
+   "date": "2025-03-14",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中男設話務轉接機房詐印度民眾涉案10人遭訴",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202503140069.aspx"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250312a",
+   "title": "詐團招數升級！合約書加現場照 台中婦按指示騙警險失300萬",
+   "date": "2025-03-12",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "詐團招數升級！合約書加現場照 台中婦按指示騙警險失300萬",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4977435"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250306a",
+   "title": "台中人2個月被騙20億！每小時噴160萬 車手長相曝光",
+   "date": "2025-03-06",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中人2個月被騙20億！每小時噴160萬 車手長相曝光",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2799522"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250303a",
+   "title": "詐團車手長這樣！台中警揭「外觀5特徵」 掃QR Code檢舉有機會賺5千",
+   "date": "2025-03-03",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中人ATM領錢多看幾眼！發現車手...掃QR Code通報可賺5千元",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250303/2918376.htm"
+    },
+    {
+     "title": "詐團車手長這樣！台中警揭「外觀5特徵」 掃QR Code檢舉有機會賺5千",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/nXrWlOx"
+    },
+    {
+     "title": "詐騙集團手法多台中警提供掃QRCode快速檢舉",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202503030082.aspx"
+    },
+    {
+     "title": "詐團車手長這樣！台中警：有這5特徵注意 成功舉報發5千獎金",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2796373"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250219a",
+   "title": "女聽網路男友指示搭高鐵到台中取款　慘淪車手遭判半年",
+   "date": "2025-02-19",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "女聽網路男友指示搭高鐵到台中取款　慘淪車手遭判半年",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250219/2911722.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250217a",
+   "title": "攻堅「連破三道門」！刑事局破獲台中詐欺機房 查扣逾11億元",
+   "date": "2025-02-17",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "攻堅「連破三道門」！刑事局破獲台中詐欺機房 查扣逾11億元",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2781756"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250212a",
+   "title": "台中婦險遭詐助警逮人勸年輕車手應走正途",
+   "date": "2025-02-12",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中婦險遭詐助警逮人勸年輕車手應走正途",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202502120207.aspx"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250203a",
+   "title": "台灣人在泰國被捕！當詐騙集團主管收入曝　台中男背景起底",
+   "date": "2025-02-03",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台灣人在泰國被捕！當詐騙集團主管收入曝　37歲台中男背景起底",
+     "outlet": "NOWnews",
+     "url": "https://www.nownews.com/news/6641598"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250124a",
+   "title": "穿制服假冒中國公安詐騙在日華人　刑事局衝台中機房拘捕4台人",
+   "date": "2025-01-24",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "穿制服假冒中國公安詐騙在日華人　刑事局衝台中機房拘捕4台人",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250124/2898577.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20250120a",
+   "title": "向表哥「擋鎯」被要求提供帳戶提款卡幫領款 台中男淪車手",
+   "date": "2025-01-20",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "向表哥「擋鎯」被要求提供帳戶提款卡幫領款 台中男淪車手",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4928953"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20241226a",
+   "title": "台中人12月被詐騙12.6億「全國第二多」　假投資佔71%",
+   "date": "2024-12-26",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中人12月被騙12.6億 警公布「5大詐騙交友軟體」",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E4%BA%BA12%E6%9C%88%E8%A2%AB%E9%A8%9912-6%E5%84%84-%E8%AD%A6%E5%85%AC%E5%B8%83-5%E5%A4%A7%E8%A9%90%E9%A8%99%E4%BA%A4%E5%8F%8B%E8%BB%9F%E9%AB%94-070000480.html"
+    },
+    {
+     "title": "台中人12月被詐騙12.6億「全國第二多」　假投資佔71%",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20241227/2881769.htm"
+    },
+    {
+     "title": "台中12月詐騙近2千件 受詐金額逾12.6億",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2731734"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20241214a",
+   "title": "【警察】魔鬼藏細節！台中男收警局「非詐團」證明公文：正派經營100萬險沒了",
+   "date": "2024-12-14",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "魔鬼藏細節！台中男收警局「非詐團」證明公文：正派經營100萬險沒了",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/GgWlQj5"
+    },
+    {
+     "title": "魔鬼藏細節！台中男收警局「非詐團」證明公文：正派經營　100萬險沒了",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1578898"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20241206a",
+   "title": "籌錢會「蒙古情郎」？台中嫩妹淪車手 超商面交被逮羈押",
+   "date": "2024-12-06",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "籌錢會「蒙古情郎」？台中18歲嫩妹淪車手 超商面交被逮羈押",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4885741"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20241127a",
+   "title": "警攻堅沙鹿透天厝逮詐團 突傳巨響澄清無開槍",
+   "date": "2024-11-27",
+   "place": "沙鹿",
+   "summary": "沙鹿發生詐騙案件。",
+   "sources": [
+    {
+     "title": "警攻堅沙鹿透天厝逮詐團 突傳巨響澄清無開槍",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/726238"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20241120a",
+   "title": "台積電前工程師離職搞詐騙！5年吸金近66億…名下台中5間豪宅全遭法拍，誇張手法曝光",
+   "date": "2024-11-20",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台積電前工程師離職搞詐騙！5年吸金近66億…名下台中5間豪宅全遭法拍，誇張手法曝光",
+     "outlet": "businesstoday.com.tw",
+     "url": "https://www.businesstoday.com.tw/article/category/183027/post/202411200049/"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20241109a",
+   "title": "超狠！詐團私吞100萬曝光「當街3打2」　台中警3小時逮惡徒",
+   "date": "2024-11-09",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "超狠！詐團私吞100萬曝光「當街3打2」　台中警3小時逮惡徒",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20241109/2851524.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20241109b",
+   "title": "台中深夜驚傳暴力砸車擄人 警漏夜逮到4嫌竟是詐團內鬨反目",
+   "date": "2024-11-09",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中深夜驚傳暴力砸車擄人 警漏夜逮到4嫌竟是詐團內鬨反目",
+     "outlet": "台灣新聞雲報",
+     "url": "https://www.tcpttw.com/other/other_local/2024/11/09/138723/"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20241107a",
+   "title": "詐團首腦妻竟有共犯口卡照片 台中兩律師被控洩密法院判無罪",
+   "date": "2024-11-07",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "詐團首腦妻竟有共犯口卡照片 台中兩律師被控洩密法院判無罪",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4855584"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20241104a",
+   "title": "美女圖假交友真詐騙中市警攻堅機房逮6人送辦",
+   "date": "2024-11-04",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "美女圖假交友真詐騙中市警攻堅機房逮6人送辦",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202411040084.aspx"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20241021a",
+   "title": "台中水房吸收記帳士申設32人頭戶 替假投資詐團洗錢逾1.3億",
+   "date": "2024-10-21",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中水房吸收記帳士申設人頭戶 詐騙所得逾1.3億",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202410210238.aspx"
+    },
+    {
+     "title": "台中水房吸收記帳士申設32人頭戶 替假投資詐團洗錢逾1.3億",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4837401"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20241019a",
+   "title": "交40萬給襯衫男險遭搶...台中婦狂逃　真相曝光：休假警逮車手",
+   "date": "2024-10-19",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "交40萬給襯衫男險遭搶...台中婦狂逃　真相曝光：休假警逮車手",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20241019/2838159.htm"
+    }
+   ],
+   "fear": [
+    "Z"
    ]
   },
   {
@@ -242,6 +4076,633 @@
    ]
   },
   {
+   "id": "x-i20240928a",
+   "title": "台中F1賽車／角田裕毅脾氣火爆！罵陸車手「白癡」遭罰140萬",
+   "date": "2024-09-28",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中F1賽車／角田裕毅脾氣火爆！罵陸車手「白癡」遭罰140萬",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/world/2633476"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20240925a",
+   "title": "苗栗女遭騙36萬怕家人罵...跑到台中報案　警跨縣逮2車手",
+   "date": "2024-09-25",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "苗栗女遭騙36萬怕家人罵...跑到台中報案　警跨縣逮2車手",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240925/2823278.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20240902a",
+   "title": "中檢辦「愛情機房」詐騙集團 律師涉洩密遭起訴",
+   "date": "2024-09-02",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "中檢辦「愛情機房」詐騙集團 律師涉洩密遭起訴",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4787891"
+    },
+    {
+     "title": "台中律師為詐團成員辯護 竟利用閱卷洩密遭起訴",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20240902002442-260402"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20240828a",
+   "title": "【警察】就是他！台中女驚覺遭騙馬上衝派出所　警隔壁街抓到西裝車手",
+   "date": "2024-08-28",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "就是他！台中女驚覺遭騙馬上衝派出所　警隔壁街抓到西裝車手",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240828/2806234.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20240826a",
+   "title": "台中夫妻洗錢16億！家中「名牌包牆」曝...7千萬身家遭查扣",
+   "date": "2024-08-26",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中30歲夫妻洗錢16億！家中「名牌包牆」曝...7千萬身家遭查扣",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240826/2804466.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20240820a",
+   "title": "台中男租10房擺詐騙神器「月入600萬」　13人遭詐1500萬飛了",
+   "date": "2024-08-20",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中男租10房擺詐騙神器「月入600萬」　13人遭詐1500萬飛了",
+     "outlet": "CTWANT",
+     "url": "https://www.ctwant.com/article/357384/"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20240804a",
+   "title": "台中女教師誤信「吳淡如」投資詐騙　狂投400萬打水漂",
+   "date": "2024-08-04",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中女教師誤信「吳淡如」投資詐騙　狂投400萬打水漂",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240804/2790799.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20240731a",
+   "title": "2個月匯245萬不手軟！台中男成VIP　車手「厚禮數」收款前先送燕窩",
+   "date": "2024-07-31",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "2個月匯245萬不手軟！台中男成VIP　車手「厚禮數」收款前先送燕窩",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240731/2788298.htm"
+    },
+    {
+     "title": "台中男子被騙245萬元 派出所長扮「單車阿伯」逮送燕窩車手",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4754293"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20240711a",
+   "title": "台中婦為愛被騙33萬　大齡女被逮...迷戀軍醫淪車手",
+   "date": "2024-07-11",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "74歲台中婦為愛被騙33萬　71歲大齡女被逮...迷戀軍醫淪車手",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240711/2775209.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20240711b",
+   "title": "台中7旬伯遭詐百萬 甜美警特生揪逮車手",
+   "date": "2024-07-11",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中7旬伯遭詐百萬 23歲甜美警特生揪逮車手",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4733507"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20240706a",
+   "title": "為愛當車手！雲林無業男騎百公里台中取款　被逮大哭",
+   "date": "2024-07-06",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "為愛當車手！雲林36歲無業男騎百公里台中取款　被逮大哭",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240706/2771833.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20240705a",
+   "title": "峇里島押回11通緝犯送台中！多數涉詐欺、洗錢　6人要入監執行",
+   "date": "2024-07-05",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "峇里島押回11通緝犯送台中！多數涉詐欺、洗錢　6人要入監執行",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240705/2771388.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20240705b",
+   "title": "高月息誘投資「節能鍋爐」！台中夫妻檔詐騙吸金41億、狂買4豪宅3跑車",
+   "date": "2024-07-05",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "高月息誘投資「節能鍋爐」！台中夫妻檔詐騙吸金41億、狂買4豪宅3跑車",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E9%AB%98%E6%9C%88%E6%81%AF%E8%AA%98%E6%8A%95%E8%B3%87-%E7%AF%80%E8%83%BD%E9%8D%8B%E7%88%90-%E5%8F%B0%E4%B8%AD%E5%A4%AB%E5%A6%BB%E6%AA%94%E8%A9%90%E9%A8%99%E5%90%B8%E9%87%9141%E5%84%84-%E7%8B%82%E8%B2%B74%E8%B1%AA%E5%AE%85%E6%88%B63%E8%B7%91%E8%BB%8A-100748059.html"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20240627a",
+   "title": "聘財經學霸教英文 台中詐團2御用律師洩密起訴",
+   "date": "2024-06-27",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "聘財經學霸教英文 台中詐團2御用律師洩密起訴",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/paper/1653541"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20240626a",
+   "title": "投資平台卻無法出金？ 台中警巧計查獲詐騙女車手",
+   "date": "2024-06-26",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "投資平台卻無法出金？ 台中警巧計查獲詐騙女車手",
+     "outlet": "台灣好新聞",
+     "url": "https://www.taiwanhot.net/news/1072479/%E6%8A%95%E8%B3%87%E5%B9%B3%E5%8F%B0%E5%8D%BB%E7%84%A1%E6%B3%95%E5%87%BA%E9%87%91%EF%BC%9F+%E5%8F%B0%E4%B8%AD%E8%AD%A6%E5%B7%A7%E8%A8%88%E6%9F%A5%E7%8D%B2%E8%A9%90%E9%A8%99%E5%A5%B3%E8%BB%8A%E6%89%8B"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20240603a",
+   "title": "曾涉花蓮市代會主席洗錢案　台中兄弟檔幣商又被抓",
+   "date": "2024-06-03",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "曾涉花蓮市代會主席洗錢案　台中兄弟檔幣商又被抓",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240603/2751499.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20240529a",
+   "title": "遇冒牌「阿格力」慘噴百萬 台中商人拍片親揭「詐團會做的事」",
+   "date": "2024-05-29",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "遇冒牌「阿格力」慘噴百萬 台中商人拍片親揭「詐團會做的事」",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4688948"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20240523a",
+   "title": "欲哭無淚！冒充中市府包商詐騙投資 中風男慘丟4億土地",
+   "date": "2024-05-23",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "欲哭無淚！冒充中市府包商詐騙投資 中風男慘丟4億土地",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20240523001948-260402"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20240514a",
+   "title": "明德外役監詐欺犯方青山第3次返家探親未歸，遭通緝後隔日在台中落網",
+   "date": "2024-05-14",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "明德外役監詐欺犯方青山第3次返家探親未歸，遭通緝後隔日在台中落網",
+     "outlet": "關鍵評論網",
+     "url": "https://www.thenewslens.com/article/130451"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20240428a",
+   "title": "台中闆娘險遭假警騙走150萬　真警「來太快」被反問：你是真的？",
+   "date": "2024-04-28",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中闆娘險遭假警騙走150萬　真警「來太快」被反問：你是真的？",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240428/2728434.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20240426a",
+   "title": "當「車手」妄想發大財 台中蠢男慘賠100多萬元換緩刑",
+   "date": "2024-04-26",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "當「車手」妄想發大財 台中蠢男慘賠100多萬元換緩刑",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/Taichung/breakingnews/4653921"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20240422a",
+   "title": "賣公司帳戶給詐騙集團「賺7500元」就被抓　台中男下場慘了",
+   "date": "2024-04-22",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "賣公司帳戶給詐騙集團「賺7500元」就被抓　台中男下場慘了",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240422/2724028.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20240413a",
+   "title": "「網婆」是真愛！台中男匯款10次還要給　130萬存款全被騙",
+   "date": "2024-04-13",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "「網婆」是真愛！台中男匯款10次還要給　130萬存款全被騙",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240413/2718702.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20240411a",
+   "title": "詐欺男躲旅館逃生梯被逮　台中警3天後同地點再抓2毒蟲",
+   "date": "2024-04-11",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "詐欺男躲旅館逃生梯被逮　台中警3天後同地點再抓2毒蟲",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240411/2717579.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20240408a",
+   "title": "台中虛擬幣實體門市涉不法洗錢 金流達330億",
+   "date": "2024-04-08",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中虛擬幣實體門市涉不法洗錢 金流達330億",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/689259"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20240401a",
+   "title": "海撈12億！博弈機房藏台中七期商辦　主嫌自勉寫錯字超掉漆",
+   "date": "2024-04-01",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "海撈12億！博弈機房藏台中七期商辦　主嫌自勉寫錯字超掉漆",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240401/2711413.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20240320a",
+   "title": "超商「賣貨便」成詐騙新管道 中市二警逮車手送辦",
+   "date": "2024-03-20",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "超商「賣貨便」成詐騙新管道 中市二警逮車手送辦",
+     "outlet": "pbs.npa.gov.tw",
+     "url": "https://www.pbs.npa.gov.tw/ch/app/data/view"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20240220a",
+   "title": "酷女車手扮投資專員 台中街頭取兩百萬落網",
+   "date": "2024-02-20",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "19歲酷女車手扮投資專員 台中街頭取兩百萬落網",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4583783"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20240214a",
+   "title": "陷愛情詐騙！台中大媽損失近千萬 女命理師當車手頭慘了",
+   "date": "2024-02-14",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "陷愛情詐騙！台中大媽損失近千萬 女命理師當車手頭慘了",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20240214001263-260402"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20240207a",
+   "title": "落網了！台中詐團黑吃黑搶80萬　2嫌高雄被逮「錢沒了」",
+   "date": "2024-02-07",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "快訊／落網了！台中詐團黑吃黑搶80萬　2嫌高雄被逮「錢沒了」",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240207/2680158.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20240131a",
+   "title": "台中女遭詐470萬！配合警釣出女車手...她喊冤「我也被騙」",
+   "date": "2024-01-31",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中女遭詐470萬！配合警釣出女車手...她喊冤「我也被騙」",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240131/2675188.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20240131b",
+   "title": "詐團首腦情侶檔台中遭逮！住處搜出300萬現金 女方竟是「3.8萬粉IG網紅」",
+   "date": "2024-01-31",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "詐團首腦情侶檔台中遭逮！住處搜出300萬現金 女方竟是「3.8萬粉IG網紅」",
+     "outlet": "風傳媒",
+     "url": "https://www.storm.mg/lifestyle/5006196"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20240128a",
+   "title": "1個月提領5百萬...狡詐車手橫行台中　詭辯「白沙屯媽祖」指揮",
+   "date": "2024-01-28",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "1個月提領5百萬...狡詐車手橫行台中　詭辯「白沙屯媽祖」指揮",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240128/2673041.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20240125a",
+   "title": "甜美女助詐團撈1.8億！擁台中七期豪宅+南投別墅...賓士代步",
+   "date": "2024-01-25",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "25歲甜美女助詐團撈1.8億！擁台中七期豪宅+南投別墅...賓士代步",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240125/2671289.htm"
+    },
+    {
+     "title": "台中高顏值美女助詐團撈1.8億 坐擁七期豪宅 賓士車代步",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20240125002037-260402"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20240118a",
+   "title": "【警察】車手得款130萬遭詐團假冒警察攔截 台中警逮6人",
+   "date": "2024-01-18",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "車手得款130萬遭詐團假冒警察攔截 台中警逮6人",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202401180093.aspx"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20240111a",
+   "title": "台中男報案稱被搶600萬！大批警出動驚覺「被騙了」　真相曝",
+   "date": "2024-01-11",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "快訊／台中男報案稱被搶600萬！大批警出動驚覺「被騙了」　真相曝",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240111/2662317.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
    "id": "x-invest65",
    "title": "假投資真詐騙大賺65億 詐團爽買台中七期豪宅",
    "date": "2024-01-02",
@@ -252,6 +4713,676 @@
      "title": "假投資真詐騙大賺65億 詐團爽買台中七期豪宅",
      "outlet": "鏡週刊",
      "url": "https://www.mirrormedia.mg/story/20240102inv014"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20240102a",
+   "title": "台中破獲詐團吸金達65億 騙民眾投資再放貸中小企業",
+   "date": "2024-01-02",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中破獲詐團吸金達65億 騙民眾投資再放貸中小企業",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/674395"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20231230a",
+   "title": "又是「假檢警」詐騙老招！台中婦匯500萬買家具　中警及時阻攔",
+   "date": "2023-12-30",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "又是「假檢警」詐騙老招！台中婦匯500萬買家具　中警及時阻攔",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20231230/2654201.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20231226a",
+   "title": "「這批鴻海股票很便宜」台中男被騙328萬　警埋伏逮車手",
+   "date": "2023-12-26",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "「這批鴻海股票很便宜」台中男被騙328萬　警埋伏逮23歲車手",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20231226/2650861.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20231224a",
+   "title": "耶誕、新年網路購物夯 台中警揭詐騙手法籲小心被騙",
+   "date": "2023-12-24",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "耶誕、新年網路購物夯 台中警揭詐騙手法籲小心被騙",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4530814"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20231223a",
+   "title": "台中婦10次面交被騙926萬　警埋伏逮車手...驚見「偽統神」",
+   "date": "2023-12-23",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中婦10次面交被騙926萬　警埋伏逮車手...驚見「偽統神」",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20231223/2649256.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20231213a",
+   "title": "台中百名大學生遭無卡分期詐騙 檢起訴3嫌聲請沒收千萬所得",
+   "date": "2023-12-13",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中百名大學生遭無卡分期詐騙 檢起訴3嫌聲請沒收千萬所得",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/671227"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20231211a",
+   "title": "台中國4車禍！警方追捕車手　2嫌逃亡途中「自撞翻覆」",
+   "date": "2023-12-11",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "快訊／台中國4車禍！警方追捕車手　2嫌逃亡途中「自撞翻覆」",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20231211/2641327.htm"
+    }
+   ],
+   "fear": [
+    "Z",
+    "D"
+   ]
+  },
+  {
+   "id": "x-i20231208a",
+   "title": "台中7期猛吸金！「海溝女神」女網紅淪詐團車手 中檢起訴15人",
+   "date": "2023-12-08",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中假戀愛詐騙案上百人受害 破獲逾2百萬現金及名牌包",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/670606"
+    },
+    {
+     "title": "台中7期猛吸金！「海溝女神」女網紅淪詐團車手 中檢起訴15人",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/XY6kVql"
+    },
+    {
+     "title": "「海溝女神、網紅」淪詐團車手 藏台中7期「戀愛詐騙公寓」曝光",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20231208002439-260402"
+    },
+    {
+     "title": "臺中掠著戀愛詐騙集團 相準經濟自主男性騙錢",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/670579"
+    },
+    {
+     "title": "找女公關組愛情詐騙集團 中檢起訴涉案15人",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202312080229.aspx"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20231114a",
+   "title": "菩薩助攻！台中女被騙330萬　警丟100萬「冥國鈔票」讓他中計",
+   "date": "2023-11-14",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "菩薩助攻！台中女被騙330萬　警丟100萬「冥國鈔票」讓他中計",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20231114/2622917.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20231110a",
+   "title": "「臥龍先生」亂入「甲午戰爭群組」成詐團成員 中市水房1個月海削破億",
+   "date": "2023-11-10",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "「臥龍先生」亂入「甲午戰爭群組」成詐團成員 中市水房1個月海削破億",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20231110001732-260402"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20231106a",
+   "title": "剛滿！台中2男走歪路當車手　超商反覆提款警方全程蒐證",
+   "date": "2023-11-06",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "剛滿18歲！台中2男走歪路當車手　超商反覆提款警方全程蒐證",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20231106/2617134.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20231103a",
+   "title": "釣魚簡訊騙台中LaLaport會員個資　專挑金飾珠寶...詐團3天刷百萬",
+   "date": "2023-11-03",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "釣魚簡訊騙台中LaLaport會員個資　專挑金飾珠寶...詐團3天刷百萬",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20231103/2615609.htm"
+    },
+    {
+     "title": "27人受害！詐團騙卡號綁定支付軟體 台中LaLaport盜刷百萬",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4479029"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20231103b",
+   "title": "「1份60到100元」向詐團大買百份假連署書　台中2男賄選遭收押",
+   "date": "2023-11-03",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "「1份60到100元」向詐團大買百份假連署書　台中2男賄選遭收押",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20231103/2615456.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20231031a",
+   "title": "台中破獲「金額最大」虛擬貨幣洗錢水商！一年狂洗104億元USDT",
+   "date": "2023-10-31",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中破獲「金額最大」虛擬貨幣洗錢水商！一年狂洗104億元USDT",
+     "outlet": "blocktempo.com",
+     "url": "https://www.blocktempo.com/central-taiwans-largest-virtual-currency-laundering-case/"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20231028a",
+   "title": "逢甲集體被詐！1人拉20同學陪葬　女大生被騙2次欠10多萬",
+   "date": "2023-10-28",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "逢甲集體被詐！1人拉20同學陪葬　女大生被騙2次欠10多萬",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20231028/2611279.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20231027a",
+   "title": "學生遭「無卡分期」詐騙千萬　逢甲大學證實：超過百人通報",
+   "date": "2023-10-27",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "學生遭「無卡分期」詐騙千萬　逢甲大學證實：超過百人通報",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20231027/2610645.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20231023a",
+   "title": "贓款買虛擬貨幣再換匯 台中市警找到詐欺嫌床底758萬",
+   "date": "2023-10-23",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "贓款買虛擬貨幣再換匯 台中市警找到詐欺嫌床底758萬",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202310230050.aspx"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20231021a",
+   "title": "被騙770萬還逼加碼...台中女報警逮人　菜鳥車手嚇到結巴",
+   "date": "2023-10-21",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "被騙770萬還逼加碼...台中女報警逮人　21歲菜鳥車手嚇到結巴",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20231021/2607048.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20231020a",
+   "title": "台中詭異男ATM領10萬「包好丟路邊」  拔腿狂奔被逮...果然是車手",
+   "date": "2023-10-20",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中詭異男ATM領10萬「包好丟路邊」  拔腿狂奔被逮...果然是車手",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20231020/2606232.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20230905a",
+   "title": "曾被警阻止仍堅信「高獲利」話術　台中男遭假投資騙走500多萬",
+   "date": "2023-09-05",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "曾被警阻止仍堅信「高獲利」話術　台中男遭假投資騙走500多萬",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230905/2575612.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20230905b",
+   "title": "裝甲車攻堅破門！ 台中警直搗詐騙機房逮5人",
+   "date": "2023-09-05",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "裝甲車殲滅你！台中悍警強搗詐騙機房 甲車猛撞「鐵門變廢鐵」",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20230905001378-260402"
+    },
+    {
+     "title": "裝甲車攻堅破門！ 台中警直搗詐騙機房逮5人",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2231573"
+    },
+    {
+     "title": "台中警方破獲詐團甲車攻堅機房逮5人法辦",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202309050082.aspx"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20230903a",
+   "title": "拒收詐騙集團割草機被恐嚇「找竹聯的」　台中議員批太囂張",
+   "date": "2023-09-03",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "拒收詐騙集團割草機被恐嚇「找竹聯的」　台中議員批太囂張",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230903/2574515.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20230828a",
+   "title": "詐團主嫌正面曝！撈250億買93筆逢甲房產　搖身變「S級房東」",
+   "date": "2023-08-28",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "詐團主嫌正面曝！撈250億買93筆逢甲房產　搖身變「S級房東」",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230828/2570147.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20230818a",
+   "title": "台中幫派老大「智哥」淪車手小弟！狠詐台南男885萬",
+   "date": "2023-08-18",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中幫派老大「智哥」淪車手小弟！狠詐台南男885萬",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4400031"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20230808a",
+   "title": "有詭！台中少年頻換卡領15萬　警起疑揪出2車手",
+   "date": "2023-08-08",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "有詭！台中少年頻換卡領15萬　警起疑揪出2車手",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230808/2556505.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20230803a",
+   "title": "神明在看！台中宮廟內搞「虛擬幣詐騙機房」，女富商遭詐1600萬養老金",
+   "date": "2023-08-03",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "神明在看！台中宮廟內搞「虛擬幣詐騙機房」，女富商遭詐1600萬養老金",
+     "outlet": "blocktempo.com",
+     "url": "https://www.blocktempo.com/another-incident-of-virtual-currency-fraud-in-taiwan/"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20230704a",
+   "title": "詐騙集團買豪宅洗錢...台中「雙橡園V1特區」驚現法拍戶",
+   "date": "2023-07-04",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "詐騙集團買豪宅洗錢...台中「雙橡園V1特區」驚現法拍戶",
+     "outlet": "news.housefun.com.tw",
+     "url": "https://news.housefun.com.tw/news/article/141760382530.html"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20230422a",
+   "title": "詐團也懂投資！　靈骨塔騙1.5億...竹北高鐵特區、台中七期狂買7房",
+   "date": "2023-04-22",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "詐團也懂投資！　靈骨塔騙1.5億...竹北高鐵特區、台中七期狂買7房",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230422/2484092.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20230412a",
+   "title": "台中警破獲藏匿商辦大樓的詐欺機房",
+   "date": "2023-04-12",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中警破獲藏匿商辦大樓的詐欺機房",
+     "outlet": "蕃新聞（轉載）",
+     "url": "https://n.yam.com/Article/20230412508940"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20230406a",
+   "title": "假投資竄升詐騙之首　台中人3個月險遭騙2.3億！盧秀燕獻聲打詐",
+   "date": "2023-04-06",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "假投資竄升詐騙之首　台中人3個月險遭騙2.3億！盧秀燕獻聲打詐",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230406/2473998.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20230406b",
+   "title": "新社公墓驚見男屍！台版柬埔寨詐團被抄　起訴16人求處最重之刑",
+   "date": "2023-04-06",
+   "place": "新社",
+   "summary": "新社發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中新社公墓棄屍案 檢起訴「台版柬埔寨」詐團16嫌",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E6%96%B0%E7%A4%BE%E5%85%AC%E5%A2%93%E6%A3%84%E5%B1%8D%E6%A1%88-%E6%AA%A2%E8%B5%B7%E8%A8%B4-%E5%8F%B0%E7%89%88%E6%9F%AC%E5%9F%94%E5%AF%A8-%E8%A9%90%E5%9C%9816%E5%AB%8C-034556557.html"
+    },
+    {
+     "title": "新社公墓驚見男屍！台版柬埔寨詐團被抄　起訴16人求處最重之刑",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230407/2474435.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20230326a",
+   "title": "詐團假冒財經主持人「胡睿涵」帶投資 台中女誤信慘賠60萬",
+   "date": "2023-03-26",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "詐團假冒財經主持人「胡睿涵」帶投資 台中女誤信慘賠60萬",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2079389"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20230316a",
+   "title": "7個月洗錢83億！韓國詐騙機房隱身台中商辦　月薪12萬徵才",
+   "date": "2023-03-16",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "7個月洗錢83億！韓國詐騙機房隱身台中商辦　月薪12萬徵才",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230316/2460362.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20230206a",
+   "title": "台中女被騙26萬「怕家人發現」 網路瞎扯「帳戶被駭」！銀行火大提告 女下場出爐",
+   "date": "2023-02-06",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中女被騙26萬「怕家人發現」 網路瞎扯「帳戶被駭」！銀行火大提告 女下場出爐",
+     "outlet": "dailyview.tw",
+     "url": "https://dailyview.tw/popular/detail/19996"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20230202a",
+   "title": "詐欺嫌遭包圍「衝撞偵防車」！台中警匪追逐　連開數槍逮人",
+   "date": "2023-02-02",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "快訊／詐欺嫌遭包圍「衝撞偵防車」！台中警匪追逐　連開數槍逮人",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230202/2432220.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20230121a",
+   "title": "台中婦險失金200萬 得知詐騙大罵這句話",
+   "date": "2023-01-21",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中婦險失金200萬 得知詐騙大罵這句話",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20230121000872-260402"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20221218a",
+   "title": "台中詐騙少年團「3老套劇本」撈3963萬　旗下養16名車手",
+   "date": "2022-12-18",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中詐騙少年團「3老套劇本」撈3963萬　旗下養16名車手",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20221218/2403467.htm"
     }
    ],
    "fear": [
@@ -286,6 +5417,1084 @@
      "title": "台中21歲男組詐團藏身七期商辦 1年騙3千萬！豪奢撒錢買藍寶堅尼",
      "outlet": "CTWANT",
      "url": "https://www.ctwant.com/article/226403/"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20221207a",
+   "title": "神明給3聖筊！台中男信了「芷妍」　一口氣想匯200萬給詐團",
+   "date": "2022-12-07",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "神明給3聖筊！台中男信了「芷妍」　一口氣想匯200萬給詐團",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20221207/2396147.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20221111a",
+   "title": "南投警直搗台中豪宅破洗錢水房查扣2359萬現金",
+   "date": "2022-11-11",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "南投警直搗台中豪宅破洗錢水房查扣2359萬現金",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202211110098.aspx"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20221110a",
+   "title": "5千萬現金放家裡！博弈洗錢集團J董超奢豪　台中七期豪宅金庫曝",
+   "date": "2022-11-10",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "5千萬現金放家裡！博弈洗錢集團J董超奢豪　台中七期豪宅金庫曝",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20221110/2377564.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20221019a",
+   "title": "詐騙集團太囂張！ 中市議員誘出詐騙集團帳戶匯1元報警處理",
+   "date": "2022-10-19",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "詐騙集團太囂張！ 中市議員誘出詐騙集團帳戶匯1元報警處理",
+     "outlet": "台灣好新聞",
+     "url": "https://www.taiwanhot.net/news/1009632/%E8%A9%90%E9%A8%99%E9%9B%86%E5%9C%98%E5%A4%AA%E5%9B%82%E5%BC%B5%EF%BC%81+%E4%B8%AD%E5%B8%82%E8%AD%B0%E5%93%A1%E8%AA%98%E5%87%BA%E8%A9%90%E9%A8%99%E9%9B%86%E5%9C%98%E5%B8%B3%E6%88%B6%E5%8C%AF1%E5%85%83%E5%A0%B1%E8%AD%A6%E8%99%95%E7%90%86"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20220928a",
+   "title": "台中21名區長被開詐騙帳號　誆陪長官視察急需30萬！警方說話了",
+   "date": "2022-09-28",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中21名區長被開詐騙帳號　誆陪長官視察急需30萬！警方說話了",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20220928/2347205.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20220908a",
+   "title": "看到美女圖智商打對折！ 金門、台中警搗破流動賭資8億賭博機房",
+   "date": "2022-09-08",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "看到美女圖智商打對折！ 金門、台中警搗破流動賭資8億賭博機房",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4052293"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20220902a",
+   "title": "台中農舍藏詐團地獄機房　維安特勤＋「突擊梯車」送餐攻堅逮8人",
+   "date": "2022-09-02",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中農舍藏詐團地獄機房　維安特勤＋「突擊梯車」送餐攻堅逮8人",
+     "outlet": "CTWANT",
+     "url": "https://www.ctwant.com/article/204782/"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20220828a",
+   "title": "【警察】假勞力士寄台中警察局長！詐騙送上門　首件「一頁式廣告」判有罪",
+   "date": "2022-08-28",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "假勞力士寄台中警察局長！詐騙送上門　首件「一頁式廣告」判有罪",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20220828/2326422.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20220818a",
+   "title": "藍委救人返台被騙過程曝！瞞家人台中做保全…另一同學下落不明",
+   "date": "2022-08-18",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "藍委救人返台被騙過程曝！瞞家人台中做保全…另一同學下落不明",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20220818/2319756.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20220814a",
+   "title": "台中25人被騙到柬埔寨！僅6人返國　囚禁點隨時在變營救困難",
+   "date": "2022-08-14",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中25人被騙到柬埔寨！僅6人返國　囚禁點隨時在變營救困難",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20220814/2316253.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20220725a",
+   "title": "烏日汽修廠藏虛擬幣詐團騙5億退休女押房砸3000萬全沒",
+   "date": "2022-07-25",
+   "place": "烏日",
+   "summary": "烏日發生詐騙案件。",
+   "sources": [
+    {
+     "title": "烏日汽修廠藏虛擬幣詐團騙5億退休女押房砸3000萬全沒",
+     "outlet": "聯合新聞網",
+     "url": "https://video.udn.com/news/1243140"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20220711a",
+   "title": "網路「高薪徵車手」假的啦　台中兄弟檔釣出應徵者行搶",
+   "date": "2022-07-11",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "網路「高薪徵車手」假的啦　台中兄弟檔釣出應徵者行搶",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20220711/2291994.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20220710a",
+   "title": "博弈網站機房藏身健身房隔壁　台中市刑大破門逮3嫌",
+   "date": "2022-07-10",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "博弈網站機房藏身健身房隔壁　台中市刑大破門逮3嫌",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20220710/2291092.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20220707a",
+   "title": "網紅青青金主詐騙案　操盤手台中近億豪宅遭聲請法拍",
+   "date": "2022-07-07",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "網紅青青金主詐騙案　操盤手台中近億豪宅遭聲請法拍",
+     "outlet": "ETtoday",
+     "url": "https://house.ettoday.net/news/2288957"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20220622a",
+   "title": "洩民眾個資給詐騙集團　台中警方清理門戶...檢調搜索1惡警聲押",
+   "date": "2022-06-22",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "洩民眾個資給詐騙集團　台中警方清理門戶...檢調搜索1惡警聲押",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20220622/2278197.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20220402a",
+   "title": "想拿回450萬先匯150萬給假律師　台中富婆險二度被騙",
+   "date": "2022-04-02",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "想拿回450萬先匯150萬給假律師　台中富婆險二度被騙",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20220402/2221704.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20220125a",
+   "title": "假檢警詐財逾百萬 中市警循線逮5人詐騙集團",
+   "date": "2022-01-25",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中連破3起「假檢警」詐騙案　2被害人痛失3百萬",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20220125/2177372.htm"
+    },
+    {
+     "title": "假檢警詐財逾百萬 中市警循線逮5人詐騙集團",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20220125002353-260402"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20220122a",
+   "title": "台中警存上百照片14天逮118車手　男跳針「這都不是我的」露饀",
+   "date": "2022-01-22",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中警存上百照片14天逮118車手　男跳針「這都不是我的」露饀",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20220122/2175322.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20211221a",
+   "title": "台中角頭要命小方兒　「詐欺削上億」涉3案通緝落網",
+   "date": "2021-12-21",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中角頭要命小方兒　「19歲詐欺削上億」涉3案通緝落網",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1045535"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20211212a",
+   "title": "車手視角影片曝！東勢林場拉力賽　失控衝出賽道摔7米邊坡",
+   "date": "2021-12-12",
+   "place": "東勢",
+   "summary": "東勢發生詐騙案件。",
+   "sources": [
+    {
+     "title": "車手視角影片曝！東勢林場拉力賽　失控衝出賽道摔7米邊坡",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20211212/2144607.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20211112a",
+   "title": "台中警掃蕩黑道幫派　接連破獲詐騙、暴力集團",
+   "date": "2021-11-12",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中警掃蕩黑道幫派　接連破獲詐騙、暴力集團",
+     "outlet": "NOWnews",
+     "url": "https://www.nownews.com/news/5440667"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20211028a",
+   "title": "專騙新加坡華人！詐騙機房水房設台中　維安特勤攻堅逮17人",
+   "date": "2021-10-28",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "專騙新加坡華人！詐騙機房水房設台中　維安特勤攻堅逮17人",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20211028/2111460.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20211013a",
+   "title": "台中市消防局提供免費安裝火災警報器，沒想到被民眾誤認是詐騙集團。",
+   "date": "2021-10-13",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中市消防局提供免費安裝火災警報器，沒想到被民眾誤認是詐騙集團。",
+     "outlet": "886.news",
+     "url": "https://886.news/archives/27355"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20211009a",
+   "title": "詐騙車手深夜搶超商 霧峰警方10小時破案",
+   "date": "2021-10-09",
+   "place": "霧峰",
+   "summary": "霧峰發生詐騙案件。",
+   "sources": [
+    {
+     "title": "詐騙車手深夜搶超商 霧峰警方10小時破案",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/Taichung/breakingnews/3698671"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20210924a",
+   "title": "查扣台中詐騙集團名車！　法拉利F12、瑪莎拉蒂3車將拍賣",
+   "date": "2021-09-24",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "查扣台中詐騙集團名車！　法拉利F12、瑪莎拉蒂3車將拍賣",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20210924/2086323.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20210913a",
+   "title": "【警察】東勢分局破獲2詐欺案逮捕24車手 警察局長頒發破案茶",
+   "date": "2021-09-13",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "東勢分局破獲2詐欺案逮捕24車手 警察局長頒發破案茶",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/Taichung/breakingnews/3670249"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20210830a",
+   "title": "賭博、詐欺合體!　破獲台中二機房",
+   "date": "2021-08-30",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "賭博、詐欺合體!　破獲台中二機房",
+     "outlet": "NOWnews",
+     "url": "https://www.nownews.com/news/5368702"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20210822a",
+   "title": "LINE傳假地檢署公文　台中婦遭「法院主任」騙走9百萬",
+   "date": "2021-08-22",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "LINE傳假地檢署公文　台中婦遭「法院主任」騙走9百萬",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20210822/2061864.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20210721a",
+   "title": "抓到了！ 騎士自摔製造假車禍台中碰瓷男涉詐欺遭起訴",
+   "date": "2021-07-21",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "抓到了！ 騎士自摔製造假車禍台中碰瓷男涉詐欺遭起訴",
+     "outlet": "風傳媒",
+     "url": "https://www.storm.mg/lifestyle/3829155"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20210715a",
+   "title": "台中長腿妹設局「奧斯卡影帝假投資」　騙走87人2千多萬",
+   "date": "2021-07-15",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中長腿妹設局「奧斯卡影帝假投資」　騙走87人2千多萬",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/967802"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20210715b",
+   "title": "坦克級詐騙1／房仲借錢搞代理一車多賣「雷神坦克」成台中富豪圈新八卦- 社會",
+   "date": "2021-07-15",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "坦克級詐騙1／房仲借錢搞代理一車多賣「雷神坦克」成台中富豪圈新八卦- 社會",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20210715000730-260402"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20210714a",
+   "title": "「西聯匯款」成詐團洗錢管道！ 台中老嫗險成「假交友」苦主",
+   "date": "2021-07-14",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "「西聯匯款」成詐團洗錢管道！ 台中老嫗險成「假交友」苦主",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/3603632"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20210713a",
+   "title": "警匪片真實上演！台中警街頭攔車 包夾抓詐騙車手",
+   "date": "2021-07-13",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "警匪片真實上演！台中警街頭攔車 包夾抓詐騙車手",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/3602384"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20210624a",
+   "title": "婦人遭詐騙市價180萬金飾 前鎮警赴高鐵烏日站逮獲面交車手",
+   "date": "2021-06-24",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "70歲婦人遭詐騙市價180萬金飾 前鎮警赴高鐵烏日站逮獲面交車手",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/3580516"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20210619a",
+   "title": "疫情停課打工找到「光明燈」　男大生每天台中高雄通勤淪車手",
+   "date": "2021-06-19",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "疫情停課打工找到「光明燈」　男大生每天台中高雄通勤淪車手",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20210619/2010453.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20210420a",
+   "title": "逢甲夜市旁藏洗錢基地　每月經手髒錢1.2億！8年級幹部月領10萬",
+   "date": "2021-04-20",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "逢甲夜市旁藏洗錢基地　每月經手髒錢1.2億！8年級幹部月領10萬",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20210420/1964316.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20210415a",
+   "title": "詐騙集團冒名中市議員借錢 2人匯款被騙200多萬",
+   "date": "2021-04-15",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "詐騙集團冒名中市議員借錢 2人匯款被騙200多萬",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20210415003047-260402"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20201216a",
+   "title": "台中大善人「斗內詐騙集團」賠7豪宅、藍寶堅尼抵罪　法官仍重判",
+   "date": "2020-12-16",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中大善人「斗內詐騙集團」賠7豪宅、藍寶堅尼抵罪　法官仍重判",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20201216/1877220.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20201209a",
+   "title": "車手從台中搭高鐵奔台北 爽抱80萬現金才2小時就落網",
+   "date": "2020-12-09",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "車手從台中搭高鐵奔台北 爽抱80萬現金才2小時就落網",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20201209002103-260402"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20201120a",
+   "title": "【警察】國小旁有人揮刀？中市警察抓詐欺車手 學童嚇得吃手手",
+   "date": "2020-11-20",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "國小旁有人揮刀？中市警察抓詐欺車手 學童嚇得吃手手",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/3357851"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20200902a",
+   "title": "台中店傳被洗錢集團相中！館長「半路攔截」惹殺機　警：匪夷所思",
+   "date": "2020-09-02",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中店傳被洗錢集團相中！館長「半路攔截」惹殺機　警：匪夷所思",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20200902/1798943.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20200820a",
+   "title": "詐騙車手開庭後…法院停車場秒被詐團擄走！南投警「狂追40km」抵台中救肉票",
+   "date": "2020-08-20",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "影／詐騙車手開庭後…法院停車場秒被詐團擄走！南投警「狂追40km」抵台中救肉票",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20200820/1789486.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20200807a",
+   "title": "大甲警逮捕年輕車手 這個姓氏超罕見",
+   "date": "2020-08-07",
+   "place": "大甲",
+   "summary": "大甲發生詐騙案件。",
+   "sources": [
+    {
+     "title": "大甲警逮捕年輕車手 這個姓氏超罕見",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20200807002285-260421"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20200806a",
+   "title": "台中菲籍女看護上演「詐騙女神」！1年半狂撈8千萬　6大下線遍布全台",
+   "date": "2020-08-06",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中菲籍女看護上演「詐騙女神」！1年半狂撈8千萬　6大下線遍布全台",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20200806/1778099.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20200611a",
+   "title": "台中角頭詐富商！「有人要買高雄土地」騙走7541萬　一年不到花剩502萬",
+   "date": "2020-06-11",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中角頭詐富商！「有人要買高雄土地」騙走7541萬　一年不到花剩502萬",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20200611/1735032.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20200605a",
+   "title": "【警察】台中大善人竟是「詐騙集團藏鏡人」　捐勞斯萊斯理賠金賑災！被出賣派人警局嗆聲",
+   "date": "2020-06-05",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中大善人竟是「詐騙集團藏鏡人」　捐勞斯萊斯理賠金賑災！被出賣派人警局嗆聲",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20200605/1730423.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20200520a",
+   "title": "臉書留言「廢物拖出來打」變恐嚇　台中男傻眼：我過去被騙太多次",
+   "date": "2020-05-20",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "臉書留言「廢物拖出來打」變恐嚇　台中男傻眼：我過去被騙太多次",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20200520/1718352.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20200430a",
+   "title": "台中摩鐵開2槍又縱火！4車手與警對峙2小時　緊急疏散近80人",
+   "date": "2020-04-30",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "影／台中摩鐵開2槍又縱火！4車手與警對峙2小時　緊急疏散近80人",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20200430/1703294.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20200331a",
+   "title": "女網友「21萬獲利200萬」　台中男欲再匯款行員急擋：你被騙了",
+   "date": "2020-03-31",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "女網友「21萬獲利200萬」　台中男欲再匯款行員急擋：你被騙了",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20200331/1680978.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20200312a",
+   "title": "幫助洗錢犯串證、滅證　台中何姓律師公會理事長認罪遭起訴",
+   "date": "2020-03-12",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "幫助洗錢犯串證、滅證　台中何姓律師公會理事長認罪遭起訴",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20200312/1665841.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20200217a",
+   "title": "台中千萬搶案！5嫌「38秒得手過程」曝光　少女爆：男友搶的是詐騙水房運鈔手",
+   "date": "2020-02-17",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中千萬搶案！5嫌「38秒得手過程」曝光　少女爆：男友搶的是詐騙水房運鈔手",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20200217/1647434.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20200109a",
+   "title": "文昌筆招大財！台中洗錢水房QQ：我是你老闆　上海女會計中招狂匯逾億",
+   "date": "2020-01-09",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "文昌筆招大財！台中洗錢水房QQ：我是你老闆　上海女會計中招狂匯逾億",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20200109/1621436.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20190919a",
+   "title": "逢甲商圈民宿裝「移動節費器」　馬籍男子幫詐騙集團被訴",
+   "date": "2019-09-19",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "逢甲商圈民宿裝「移動節費器」　馬籍男子幫詐騙集團被訴",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20190919/1538888.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20190821a",
+   "title": "【警察】台中街頭槍聲大作嚇壞路人　警察強勢開4槍逮2車手",
+   "date": "2019-08-21",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中街頭槍聲大作嚇壞路人　警察強勢開4槍逮2車手",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20190821/1518221.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20190821b",
+   "title": "中市警追車手開四槍 議員助理嚇到打翻綠豆湯",
+   "date": "2019-08-21",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "中市警追車手開四槍 議員助理嚇到打翻綠豆湯",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20190821004658-260402"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20190715a",
+   "title": "台中破獲詐騙集團水房 逮捕14嫌犯",
+   "date": "2019-07-15",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "台中破獲詐騙集團水房 逮捕14嫌犯",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/437880"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20190524a",
+   "title": "ATM大盜出獄改當甩尾車手　大肚山當秋名山「瘋狂飄移」GG了",
+   "date": "2019-05-24",
+   "place": "大肚",
+   "summary": "大肚發生詐騙案件。",
+   "sources": [
+    {
+     "title": "ATM大盜出獄改當甩尾車手　大肚山當秋名山「瘋狂飄移」GG了",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20190524/1451715.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20190522a",
+   "title": "沙鹿槍擊媒體影射詐騙集團糾紛　「螺絲」發聲：真的不是我",
+   "date": "2019-05-22",
+   "place": "沙鹿",
+   "summary": "沙鹿發生詐騙案件。",
+   "sources": [
+    {
+     "title": "沙鹿槍擊媒體影射詐騙集團糾紛　「螺絲」發聲：真的不是我",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20190522/1450463.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20190522b",
+   "title": "沙鹿茶館槍擊幕後首腦曝光！為3.4億詐騙贓款　死者慘成代罪羔羊",
+   "date": "2019-05-22",
+   "place": "沙鹿",
+   "summary": "沙鹿發生詐騙案件。",
+   "sources": [
+    {
+     "title": "沙鹿茶館槍擊幕後首腦曝光！為3.4億詐騙贓款　死者慘成代罪羔羊",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20190522/1449940.htm"
+    }
+   ],
+   "fear": [
+    "Z",
+    "D"
+   ]
+  },
+  {
+   "id": "x-i20190519a",
+   "title": "沙鹿茶館槍擊案》疑黑吃黑 死者與槍手為同一詐騙集團成員",
+   "date": "2019-05-19",
+   "place": "沙鹿",
+   "summary": "沙鹿發生詐騙案件。",
+   "sources": [
+    {
+     "title": "沙鹿茶館槍擊案》疑黑吃黑 死者與槍手為同一詐騙集團成員",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/2795135"
+    }
+   ],
+   "fear": [
+    "Z",
+    "D"
+   ]
+  },
+  {
+   "id": "x-i20190313a",
+   "title": "大里農會成洗錢轉運站　女行員當組頭「帳戶進出八千萬」",
+   "date": "2019-03-13",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "大里農會成洗錢轉運站　女行員當組頭「帳戶進出八千萬」",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20190313/1398334.htm"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20190307a",
+   "title": "詐騙集團成員與女友吵架內訌　中檢逮捕幕後金主起訴10人",
+   "date": "2019-03-07",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "詐騙集團成員與女友吵架內訌　中檢逮捕幕後金主起訴10人",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/story/20190307soc007"
+    }
+   ],
+   "fear": [
+    "Z"
+   ]
+  },
+  {
+   "id": "x-i20190128a",
+   "title": "黑幫兼營詐團車手 警瓦解竹聯幫豹堂台中分會",
+   "date": "2019-01-28",
+   "place": "台中",
+   "summary": "台中發生詐騙案件。",
+   "sources": [
+    {
+     "title": "黑幫兼營詐團車手 警瓦解竹聯幫豹堂台中分會",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/Taichung/breakingnews/2685289"
     }
    ],
    "fear": [

@@ -1,7 +1,174 @@
 {
- "title": "台中毒駕與毒品新聞",
- "updated": "2026-10-22",
+ "title": "台中毒駕、酒駕與毒品新聞",
+ "updated": "2026-10-24",
  "records": [
+  {
+   "id": "d-i20261020a",
+   "title": "酒駕拒測挨罰18.9萬…台中分署協助分期　男出獄後重返正軌",
+   "date": "2026-10-20",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "酒駕拒測挨罰18.9萬…台中分署協助分期　男出獄後重返正軌",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20261020/3257967.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20261013a",
+   "title": "台中擦撞逃逸！警循線攔停爆拉扯揪駕駛酒駕- 社會",
+   "date": "2026-10-13",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中擦撞逃逸！警循線攔停爆拉扯揪駕駛酒駕- 社會",
+     "outlet": "華視新聞",
+     "url": "https://news.cts.com.tw/cts/society/202610/202610133089132.html"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20261013b",
+   "title": "【警察】找女線民摩鐵開房！台中刑事小隊長「吸毒助興」兼毒駕…判決結果曝",
+   "date": "2026-10-13",
+   "place": "台中",
+   "summary": "台中發生毒駕事件。",
+   "sources": [
+    {
+     "title": "找女線民摩鐵開房！台中刑事小隊長「吸毒助興」兼毒駕…判決結果曝",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1921776"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20261010a",
+   "title": "驚險! 彰化轎車酒駕撞民宅翻覆台中機車路口撞滑板車女童－民視新聞- 民視新聞網",
+   "date": "2026-10-10",
+   "place": "豐原",
+   "summary": "豐原發生酒駕事件。",
+   "sources": [
+    {
+     "title": "驚險! 彰化轎車酒駕撞民宅翻覆 台中機車路口撞滑板車女童",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E9%A9%9A%E9%9A%AA-%E5%BD%B0%E5%8C%96%E8%BD%8E%E8%BB%8A%E9%85%92%E9%A7%95%E6%92%9E%E6%B0%91%E5%AE%85%E7%BF%BB%E8%A6%86-%E5%8F%B0%E4%B8%AD%E6%A9%9F%E8%BB%8A%E8%B7%AF%E5%8F%A3%E6%92%9E%E6%BB%91%E6%9D%BF%E8%BB%8A%E5%A5%B3%E7%AB%A5-042932767.html"
+    },
+    {
+     "title": "驚險! 彰化轎車酒駕撞民宅翻覆台中機車路口撞滑板車女童－民視新聞- 民視新聞網",
+     "outlet": "民視新聞",
+     "url": "https://www.ftvnews.com.tw/shortvideo/detail/p7KHKq8EMg0"
+    },
+    {
+     "title": "台中男酒駕騎車撞轎車！51歲騎士手腳多處挫傷 遭依公共危險罪送辦",
+     "outlet": "台灣好新聞",
+     "url": "https://www.taiwanhot.net/news/1150655/%E5%8F%B0%E4%B8%AD%E7%94%B7%E9%85%92%E9%A7%95%E9%A8%8E%E8%BB%8A%E6%92%9E%E8%BD%8E%E8%BB%8A%EF%BC%8151%E6%AD%B2%E9%A8%8E%E5%A3%AB%E6%89%8B%E8%85%B3%E5%A4%9A%E8%99%95%E6%8C%AB%E5%82%B7+%E9%81%AD%E4%BE%9D%E5%85%AC%E5%85%B1%E5%8D%B1%E9%9A%AA%E7%BD%AA%E9%80%81%E8%BE%A6"
+    },
+    {
+     "title": "又是酒駕惹禍！台中男騎機車撞汽車全身傷遭法辦",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7320/9808978"
+    },
+    {
+     "title": "台中機車「騎斑馬線左轉」挨撞 酒駕騎士嗆女駕駛遭送辦",
+     "outlet": "壹蘋新聞網",
+     "url": "https://news.nextapple.com/local/20261012/197932AF8A62503D542BB73926D620C1"
+    },
+    {
+     "title": "豐原酒駕碰撞！51歲男騎機車左轉擦撞自小客酒測超標送辦- 社會",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20261012003363-260402"
+    },
+    {
+     "title": "豐原酒駕騎士與轎車碰撞手腳挫傷 酒測超標依公共危險罪移送",
+     "outlet": "蕃新聞（轉載）",
+     "url": "https://n.yam.com/Article/20261012289419"
+    },
+    {
+     "title": "影音／豐原酒駕撞車！騎士「連切2車道」釀禍 乘客竟嗆被撞駕駛",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/4035152"
+    },
+    {
+     "title": "台中男酒駕撞BMW肇逃！停紅燈裝沒事被抓包…遭警壓制嚇到尿褲子",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1921694"
+    },
+    {
+     "title": "台中酒駕擦撞落跑！警在台灣大道攔獲駕駛 民眾直擊攔查現場",
+     "outlet": "新新聞報",
+     "url": "https://new-reporter.com/news/281226/"
+    },
+    {
+     "title": "台中男酒駕撞爛路邊車肇逃 被警壓制竟「嚇到尿褲子」",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5604342"
+    },
+    {
+     "title": "台中男酒駕擦撞BMW跑車 肇逃陷車陣遭警逮捕",
+     "outlet": "壹蘋新聞網",
+     "url": "https://news.nextapple.com/local/20261013/0B53796D7C7188827A0DFC6841F702C0"
+    },
+    {
+     "title": "台中西屯酒駕肇逃！擦撞事故後逃逸 警在台灣大道、文心路口攔獲",
+     "outlet": "yesmedia.com.tw",
+     "url": "https://www.yesmedia.com.tw/%E5%8F%B0%E4%B8%AD%E8%A5%BF%E5%B1%AF%E9%85%92%E9%A7%95%E8%82%87%E9%80%83%EF%BC%81%E6%93%A6%E6%92%9E%E4%BA%8B%E6%95%85%E5%BE%8C%E9%80%83%E9%80%B8%E3%80%80%E8%AD%A6%E5%9C%A8%E5%8F%B0%E7%81%A3%E5%A4%A7/"
+    },
+    {
+     "title": "車禍擦撞還想跑！台中男一路狂飆逃逸警攔截酒測超標慘了- 社會",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20261013003755-260402"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20261008a",
+   "title": "台中警清晨健行路查毒駕 陳姓男子唾液快篩呈陽性遭逮",
+   "date": "2026-10-08",
+   "place": "台中",
+   "summary": "台中發生毒駕事件。",
+   "sources": [
+    {
+     "title": "台中警清晨健行路查毒駕 陳姓男子唾液快篩呈陽性遭逮",
+     "outlet": "蕃新聞（轉載）",
+     "url": "https://n.yam.com/Article/20261007866271"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20261007a",
+   "title": "撞碎體大生國手夢！「別讓兒子血白流」言猶在耳 台中再逮毒駕男",
+   "date": "2026-10-07",
+   "place": "台中",
+   "summary": "台中發生毒駕事件。",
+   "sources": [
+    {
+     "title": "影／撞碎體大生國手夢！「別讓兒子血白流」言猶在耳 台中再逮毒駕男",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7315/9799799"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
   {
    "id": "d-ntus",
    "title": "台中男毒駕猛撞3體大學生遭聲押 友人還想頂替駕駛3萬交保",
@@ -42,6 +209,356 @@
    ]
   },
   {
+   "id": "d-i20261002a",
+   "title": "孔廟前毒駕撞傷3體大生！台中男囂張嗆「我家很有錢」…下場遭收押",
+   "date": "2026-10-02",
+   "place": "北區",
+   "summary": "北區發生毒駕事件。",
+   "sources": [
+    {
+     "title": "台中男毒駕失控撞天橋 3大學生晨跑遭擦撞挫傷送醫",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E7%94%B7%E6%AF%92%E9%A7%95%E5%A4%B1%E6%8E%A7%E6%92%9E%E5%A4%A9%E6%A9%8B-3%E5%A4%A7%E5%AD%B8%E7%94%9F%E6%99%A8%E8%B7%91%E9%81%AD%E6%93%A6%E6%92%9E%E6%8C%AB%E5%82%B7%E9%80%81%E9%86%AB-045038842.html"
+    },
+    {
+     "title": "台中2男毒駕暴衝「差點爬上天橋」　3大學生晨跑被撞全身傷",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20261003/3248216.htm"
+    },
+    {
+     "title": "台中清晨嚴重毒駕！失控撞天橋…3體大學生晨跑慘遭撞上都送醫",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7315/9792134"
+    },
+    {
+     "title": "孔廟前毒駕撞傷3體大生！台中21歲男囂張嗆「我家很有錢」…下場遭收押",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%AD%94%E5%BB%9F%E5%89%8D%E6%AF%92%E9%A7%95%E6%92%9E%E5%82%B73%E9%AB%94%E5%A4%A7%E7%94%9F-%E5%8F%B0%E4%B8%AD21%E6%AD%B2%E7%94%B7%E5%9B%82%E5%BC%B5%E5%97%86-%E6%88%91%E5%AE%B6%E5%BE%88%E6%9C%89%E9%8C%A2-%E4%B8%8B%E5%A0%B4%E9%81%AD%E6%94%B6%E6%8A%BC-023500461.html"
+    },
+    {
+     "title": "失控撞天橋！台中男毒駕撞2體大生 他下車還嗆三字經",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/7NGOgRP"
+    },
+    {
+     "title": "台中21歲男毒駕暴衝 撞傷3台體大學生！囂張嗆「我家很有錢」",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20261003002340-260402"
+    },
+    {
+     "title": "「依託咪酯」快篩陽性！台中男毒駕撞傷2台體大生 神清恍惚還狂飆三字經",
+     "outlet": "FTNN 新聞網",
+     "url": "https://www.ftnn.com.tw/news/584272"
+    },
+    {
+     "title": "台中男子毒駕撞天橋波及3名大學生檢方聲請羈押",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202610030205.aspx"
+    },
+    {
+     "title": "台中毒駕肇事還嗆人！ 民眾攔下警到場逮捕扣車並聲請羈押",
+     "outlet": "Life 生活網",
+     "url": "https://life.tw/article/%E5%8F%B0%E4%B8%AD%E6%AF%92%E9%A7%95%E8%82%87%E4%BA%8B%E9%82%84%E5%97%86%E4%BA%BA-%E6%B0%91%E7%9C%BE%E6%94%94%E4%B8%8B%E8%AD%A6%E5%88%B0%E5%A0%B4%E9%80%AE%E6%8D%95%E6%89%A3%E8%BB%8A%E4%B8%A6%E8%81%B2%E8%AB%8B%E7%BE%88%E6%8A%BC-3168037"
+    },
+    {
+     "title": "台中毒駕暴衝人行道！撞傷3名練跑體大生 惡男下車還囂張狂譙",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/4030994"
+    },
+    {
+     "title": "台中毒駕男孔廟前撞傷3人　相隔14hrs同路口又一駕駛快篩陽",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20261004/3248691.htm"
+    },
+    {
+     "title": "「我家很有錢啦」毒駕男孔廟前撞傷晨跑3大學生　台中地院准押",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20261004/3248683.htm"
+    },
+    {
+     "title": "台中「這路口」才剛毒駕撞傷3人羈押 相隔14小時又查獲毒駕",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5595041"
+    },
+    {
+     "title": "台中北區雙十路自小客毒駕失控釀車禍 警當場逮捕扣車與羈押",
+     "outlet": "蕃新聞（轉載）",
+     "url": "https://n.yam.com/Article/20261003117138"
+    },
+    {
+     "title": "影/台中同路口1天查獲2次毒駕！快篩陽性遭逮聲請羈押",
+     "outlet": "中天新聞網",
+     "url": "https://ctinews.com/news/items/JpnqG46MaM"
+    },
+    {
+     "title": "台中3晨跑體大生遭毒駕撞傷 警當晚同地點巡邏再逮一毒駕",
+     "outlet": "壹電視",
+     "url": "https://www.nexttv.com.tw/NextTV/News/Home/Society/2026-10-04/2485643.html"
+    },
+    {
+     "title": "台中男毒駕撞傷3體大生遭收押 同路口當晚又查獲毒駕",
+     "outlet": "壹蘋新聞網",
+     "url": "https://news.nextapple.com/local/20261004/45C80AC4C9C85111961D0F2425126898"
+    },
+    {
+     "title": "毒駕零容忍！ 臺中警查獲毒駕當場逮捕扣車聲押",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/9m3Xn6m"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260922a",
+   "title": "【警察】台中阿法半夜連撞3車「橫擋路中」　警察來了毒駕駛還在ㄎㄧㄤ",
+   "date": "2026-09-22",
+   "place": "台中",
+   "summary": "台中發生毒駕事件。",
+   "sources": [
+    {
+     "title": "台中阿法半夜連撞3車「橫擋路中」　警察來了毒駕駛還在ㄎㄧㄤ",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260922/3241979.htm"
+    },
+    {
+     "title": "台中「阿法」失控連撞3車！男駕駛精神恍惚被抓包毒駕慘了",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/4025702"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260922b",
+   "title": "台中運兵車毒駕撞爛3車！打橫停路中 男遭建請聲押",
+   "date": "2026-09-22",
+   "place": "台中",
+   "summary": "台中發生毒駕事件。",
+   "sources": [
+    {
+     "title": "台中運兵車毒駕撞爛3車！打橫停路中 27歲男遭建請聲押",
+     "outlet": "PChome 新聞（轉載）",
+     "url": "https://news.pchome.com.tw/society/ctinews/20260922/index-79006678240524309002.html"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260921a",
+   "title": "台中廂型車撞路旁車輛駕駛涉毒駕遭送辦建請羈押",
+   "date": "2026-09-21",
+   "place": "台中",
+   "summary": "台中發生毒駕事件。",
+   "sources": [
+    {
+     "title": "台中廂型車凌晨撞路旁車 駕駛涉毒駕遭送辦 (圖)",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E5%BB%82%E5%9E%8B%E8%BB%8A%E5%87%8C%E6%99%A8%E6%92%9E%E8%B7%AF%E6%97%81%E8%BB%8A-%E9%A7%95%E9%A7%9B%E6%B6%89%E6%AF%92%E9%A7%95%E9%81%AD%E9%80%81%E8%BE%A6-%E5%9C%96-060259407.html"
+    },
+    {
+     "title": "台中廂型車撞路旁車輛駕駛涉毒駕遭送辦建請羈押",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202609220050.aspx"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260919a",
+   "title": "台中離譜車禍…毒駕又酒駕！賓士高速撞毀28車 酒測值高達0.92",
+   "date": "2026-09-19",
+   "place": "北區",
+   "summary": "北區發生毒駕事件。",
+   "sources": [
+    {
+     "title": "台中離譜車禍…毒駕又酒駕！賓士高速撞毀28車 酒測值高達0.92",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7315/9764433"
+    },
+    {
+     "title": "毒駕+酒駕！台中男開賓士暴衝人行道 狂撞28輛汽機車釀4傷",
+     "outlet": "FTNN 新聞網",
+     "url": "https://www.ftnn.com.tw/news/580400"
+    },
+    {
+     "title": "毒駕酒駕上路「連撞28車」 台中驚悚車禍影片曝光",
+     "outlet": "太報",
+     "url": "https://www.taisounds.com/news/content/96/289514"
+    },
+    {
+     "title": "毒駕又酒駕！台中男開賓士失控「連撞28車」釀2傷",
+     "outlet": "PChome 新聞（轉載）",
+     "url": "https://news.pchome.com.tw/society/ctinews/20260919/index-78978983001469309002.html"
+    },
+    {
+     "title": "酒毒駕撞飛28車釀4傷！台中男酒測0.92 身搜「毒咖啡包」遭送辦",
+     "outlet": "Newtalk 新聞",
+     "url": "https://newtalk.tw/news/view/2026-09-19/1060737"
+    },
+    {
+     "title": "台中北區嚴重車禍！賓士男「喝酒吸毒」上路失控…衝撞28車慘況曝光",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1909536"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260919b",
+   "title": "台中男深夜酒駕特斯拉猛撞分隔島！車頭全毀衝上人行道　酒測超標遭送辦",
+   "date": "2026-09-19",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中男深夜酒駕特斯拉猛撞分隔島！車頭全毀衝上人行道　酒測超標遭送辦",
+     "outlet": "CTWANT",
+     "url": "https://www.ctwant.com/article/498809/"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260917a",
+   "title": "台中深夜傳巨響！男子疑毒駕猛撞路邊車 欲逃跑當場遭逮",
+   "date": "2026-09-17",
+   "place": "台中",
+   "summary": "台中發生毒駕事件。",
+   "sources": [
+    {
+     "title": "台中深夜傳巨響！男子疑毒駕猛撞路邊車 欲逃跑當場遭逮",
+     "outlet": "台視新聞",
+     "url": "https://news.ttv.com.tw/news/11509170005400N"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260907a",
+   "title": "台中男酒駕BMW睡著撞鐵門！警台語喊「旁邊溪仔」他竟回：沒吃K仔",
+   "date": "2026-09-07",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中男酒駕BMW睡著撞鐵門！警台語喊「旁邊溪仔」他竟回：沒吃K仔",
+     "outlet": "TVBS",
+     "url": "https://cars.tvbs.com.tw/life/341644"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260906a",
+   "title": "台中轎車高速衝撞聯結車「右車頭全毀」 駕駛神智不清被抓包毒駕",
+   "date": "2026-09-06",
+   "place": "台中",
+   "summary": "台中發生毒駕事件。",
+   "sources": [
+    {
+     "title": "台中疑毒駕自撞聯結車 男駕駛神智不清送醫",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7320/9738316"
+    },
+    {
+     "title": "台中BZD毒駕男自撞聯結車　削掉一大片板金...命大逃劫超驚悚",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260907/3232814.htm"
+    },
+    {
+     "title": "台中男砲彈式猛撞聯結車！「右車頭爆開」慘況曝…胡言亂語被抓包毒駕",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1902725"
+    },
+    {
+     "title": "台中轎車高速衝撞聯結車「右車頭全毀」 駕駛神智不清被抓包毒駕",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/4018597"
+    },
+    {
+     "title": "台中男毒駕猛撞聯結車 車頭撞爛氣囊炸開逃出",
+     "outlet": "東森新聞",
+     "url": "https://news.ebc.net.tw/news/society/570087"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260903a",
+   "title": "台中KTV門口宛戰場！酒駕男飆700萬E63猛撞 刷一排盆栽再撞賓士",
+   "date": "2026-09-03",
+   "place": "西屯",
+   "summary": "西屯發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中男酒駕開賓士失控衝撞KTV！撞毀2車、盆栽支離破碎…現場一片狼藉",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E7%94%B7%E9%85%92%E9%A7%95%E9%96%8B%E8%B3%93%E5%A3%AB%E5%A4%B1%E6%8E%A7%E8%A1%9D%E6%92%9Ektv-%E6%92%9E%E6%AF%802%E8%BB%8A-%E7%9B%86%E6%A0%BD%E6%94%AF%E9%9B%A2%E7%A0%B4%E7%A2%8E-%E7%8F%BE%E5%A0%B4-%E7%89%87%E7%8B%BC%E8%97%89-010000770.html"
+    },
+    {
+     "title": "台中凌晨KTV大門前2賓士撞毀 酒駕男開E63猛撞路邊車衝騎樓",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7320/9733773"
+    },
+    {
+     "title": "台中賓士車車禍！男酒駕自撞路邊車四肢擦挫傷送醫- 社會",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20260904003355-260402"
+    },
+    {
+     "title": "台中KTV門口宛戰場！酒駕男飆700萬E63猛撞 刷一排盆栽再撞賓士",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5562697"
+    },
+    {
+     "title": "台中男酒駕700萬賓士衝撞路邊賓士 知名KTV也遭殃",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E7%94%B7%E9%85%92%E9%A7%95700%E8%90%AC%E8%B3%93%E5%A3%AB%E8%A1%9D%E6%92%9E%E8%B7%AF%E9%82%8A%E8%B3%93%E5%A3%AB-%E7%9F%A5%E5%90%8Dktv%E4%B9%9F%E9%81%AD%E6%AE%83-071300042.html"
+    },
+    {
+     "title": "台中西屯凌晨酒駕自撞！賓士衝上人行道撞毀花台 駕駛受傷酒測超標",
+     "outlet": "新新聞報",
+     "url": "https://new-reporter.com/news/277292/"
+    },
+    {
+     "title": "台中深夜驚魂！賓士衝撞KTV門口 5盆栽全毀駕駛「疑酒駕」被捕",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/4017239"
+    },
+    {
+     "title": "台中酒駕男開700萬賓士猛撞 失控衝KTV「撞毀5盆栽」",
+     "outlet": "壹電視",
+     "url": "https://www.nexttv.com.tw/NextTV/News/Home/Society/2026-09-04/2457249.html"
+    },
+    {
+     "title": "自認喝一點點超小心 台中女卻連撞路燈、花盆及轎車…酒測超標",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5563933"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
    "id": "d-pigeon",
    "title": "台中鴿飼料工廠竟變毒品分裝場！保三出手嫌犯生日遭押禁見",
    "date": "2026-08-31",
@@ -52,6 +569,584 @@
      "title": "鴿飼料工廠竟變毒品分裝場！保三出手嫌犯生日遭押禁見 - 臺中市",
      "outlet": "自由時報",
      "url": "https://news.ltn.com.tw/news/Taichung/breakingnews/5557694"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260826a",
+   "title": "台中毒駕男連撞路邊4車　「下巴全掉」倒楣車主心疼",
+   "date": "2026-08-26",
+   "place": "台中",
+   "summary": "台中發生毒駕事件。",
+   "sources": [
+    {
+     "title": "台中毒駕男連撞路邊4車　「下巴全掉」倒楣車主心疼",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260826/3226118.htm"
+    },
+    {
+     "title": "又是毒駕！台中男連環撞 4車「下巴全掉」超慘畫面曝",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/4013085"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260826b",
+   "title": "台中3天2起毒駕車禍！「喪屍哥」霧峰撞4車醜態全被拍 「K毒哥」逢甲掃倒4機車辯閃貓",
+   "date": "2026-08-26",
+   "place": "霧峰",
+   "summary": "霧峰發生毒駕事件。",
+   "sources": [
+    {
+     "title": "逢甲商圈轎車連撞4機車　包手男辯「閃貓」被揪出毒駕",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260826/3225869.htm"
+    },
+    {
+     "title": "台中3天2起毒駕車禍！「喪屍哥」霧峰撞4車醜態全被拍 「K毒哥」逢甲掃倒4機車辯閃貓",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD3%E5%A4%A92%E8%B5%B7%E6%AF%92%E9%A7%95%E8%BB%8A%E7%A6%8D-%E5%96%AA%E5%B1%8D%E5%93%A5-%E9%9C%A7%E5%B3%B0%E6%92%9E4%E8%BB%8A%E9%86%9C%E6%85%8B%E5%85%A8%E8%A2%AB%E6%8B%8D-k%E6%AF%92%E5%93%A5-%E9%80%A2%E7%94%B2%E6%8E%83%E5%80%924%E6%A9%9F%E8%BB%8A%E8%BE%AF%E9%96%83%E8%B2%93-082600393.html"
+    },
+    {
+     "title": "影／逢甲商圈暗夜傳毒駕車禍 男子暴衝撞爛路邊4機車",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7315/9714524"
+    },
+    {
+     "title": "凌晨毒駕逢甲福星路失控撞4機車！22歲男K毒陽性　車內沒毒品仍遭送辦",
+     "outlet": "CTWANT",
+     "url": "https://www.ctwant.com/article/495169/"
+    },
+    {
+     "title": "台中3天2起毒駕車禍！「喪屍哥」霧峰撞4車醜態全被拍　「K毒哥」逢甲掃倒4機車辯閃貓",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/external/mirrordaily_81950"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260826c",
+   "title": "台中男毒駕逆向「狂撞9車」 驗出安非他命、依托咪酯",
+   "date": "2026-08-26",
+   "place": "潭子",
+   "summary": "潭子發生毒駕事件。",
+   "sources": [
+    {
+     "title": "台中男毒駕撞4車 走路搖晃過程被民眾拍下交警方",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7315/9715111"
+    },
+    {
+     "title": "台中男毒駕逆撞9車！撞停商店大門　只差20公分...騎士驚險閃過",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260827/3226703.htm"
+    },
+    {
+     "title": "台中潭子毒駕逆向肇事！ 撞停路邊9輛汽機車",
+     "outlet": "新新聞報",
+     "url": "https://new-reporter.com/news/276372/"
+    },
+    {
+     "title": "台中男子吸食依托咪酯、安非他命 毒駕撞1小客車8機車",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/aloc/202608270064.aspx"
+    },
+    {
+     "title": "台中男毒駕逆向「狂撞9車」 驗出安非他命、依托咪酯",
+     "outlet": "PChome 新聞（轉載）",
+     "url": "https://news.pchome.com.tw/society/ctinews/20260827/index-78781136758146309002.html"
+    },
+    {
+     "title": "吸喪屍煙彈＋安非他命上路 台中男「不知開到哪」失控撞9車",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5553787"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260823a",
+   "title": "男駕法拉利台中釀禍！連撞路邊5汽機車，警方排除酒毒駕",
+   "date": "2026-08-23",
+   "place": "台中",
+   "summary": "台中發生毒駕事件。",
+   "sources": [
+    {
+     "title": "44歲男駕法拉利台中釀禍！連撞路邊5汽機車，警方排除酒毒駕",
+     "outlet": "聯合新聞網",
+     "url": "https://autos.udn.com/autos/story/12168/9706562"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260823b",
+   "title": "毒駕違規又衝撞警車 中市查獲兩越籍移工送辦",
+   "date": "2026-08-23",
+   "place": "台中",
+   "summary": "台中發生毒駕事件。",
+   "sources": [
+    {
+     "title": "影／毒駕違規又衝撞警車 中市查獲兩越籍移工送辦",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7320/9709233"
+    },
+    {
+     "title": "台中逃逸移工拒檢衝撞警車 下車狂奔被逮又是「毒駕」",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5549781"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260821a",
+   "title": "賓士男毒駕撞飛嬤「停19秒再輾過」奪命！中院裁定不行國民參審- 社會",
+   "date": "2026-08-21",
+   "place": "台中",
+   "summary": "台中發生毒駕事件。",
+   "sources": [
+    {
+     "title": "賓士毒駕撞倒回收婦「停19秒再輾過」奪命！台中地院裁定不行國民參審",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E8%B3%93%E5%A3%AB%E6%AF%92%E9%A7%95%E6%92%9E%E5%80%92%E5%9B%9E%E6%94%B6%E5%A9%A6-%E5%81%9C19%E7%A7%92%E5%86%8D%E8%BC%BE%E9%81%8E-%E5%A5%AA%E5%91%BD-%E5%8F%B0%E4%B8%AD%E5%9C%B0%E9%99%A2%E8%A3%81%E5%AE%9A%E4%B8%8D%E8%A1%8C%E5%9C%8B%E6%B0%91%E5%8F%83%E5%AF%A9-043700266.html"
+    },
+    {
+     "title": "賓士男毒駕撞飛88歲嬤「停19秒再輾過」奪命！中院裁定不行國民參審- 社會",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5548549"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260819a",
+   "title": "台中男灌完啤酒再去理容店…爛醉撞死7旬翁 肇逃躲回家酒測值1.02",
+   "date": "2026-08-19",
+   "place": "台中",
+   "summary": "台中發生酒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "台中男灌完啤酒再去理容店…爛醉撞死7旬翁 肇逃躲回家酒測值1.02",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7320/9700431"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20260817a",
+   "title": "快新聞／台中酒駕男心虛！拒檢狂衝闖紅燈 3騎士+1路人遭波及受傷",
+   "date": "2026-08-17",
+   "place": "北區",
+   "summary": "北區發生酒駕事件。",
+   "sources": [
+    {
+     "title": "拒檢狂飆撞飛行人！台中酒駕男闖紅燈「掃倒3機車」　釀4傷遭上銬",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260817/3220842.htm"
+    },
+    {
+     "title": "台中56歲酒駕男心虛！拒檢狂衝闖紅燈 3騎士+1路人遭波及受傷",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E6%9C%80%E6%96%B0-%E5%8F%B0%E4%B8%AD%E9%85%92%E9%A7%95%E7%94%B7%E9%97%96%E7%B4%85%E7%87%88%E7%8C%9B%E6%92%9E3%E6%A9%9F%E8%BB%8A-%E5%A5%B3%E9%A8%8E%E5%A3%AB-%E9%A0%AD%E9%83%A8%E5%9A%B4%E9%87%8D%E6%92%95%E8%A3%82%E5%82%B7-%E6%90%B6%E6%95%91%E4%B8%AD-141829392.html"
+    },
+    {
+     "title": "快訊／台中重大車禍！酒駕闖紅燈撞3機車 35歲女破頭意識不清緊急送醫",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%BF%AB%E8%A8%8A-%E5%8F%B0%E4%B8%AD%E9%87%8D%E5%A4%A7%E8%BB%8A%E7%A6%8D-%E9%85%92%E9%A7%95%E9%97%96%E7%B4%85%E7%87%88%E6%92%9E3%E6%A9%9F%E8%BB%8A-35%E6%AD%B2%E5%A5%B3%E7%A0%B4%E9%A0%AD%E6%84%8F%E8%AD%98%E4%B8%8D%E6%B8%85%E7%B7%8A%E6%80%A5%E9%80%81%E9%86%AB-131200698.html"
+    },
+    {
+     "title": "台中北區重大連環車禍 駕駛酒駕闖紅燈狠撞3騎士…1女重傷昏迷",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7320/9697330"
+    },
+    {
+     "title": "台中酒駕男闖紅燈連撞3機車1行人 4人受傷送醫",
+     "outlet": "壹蘋新聞網",
+     "url": "https://news.nextapple.com/local/20260817/88C2C81A275CCCC839C556F98A499B81"
+    },
+    {
+     "title": "台中男酒駕拒檢逃逸！狂飆闖紅燈撞3機車 慘釀1重傷3輕傷",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/Taichung/breakingnews/5543119"
+    },
+    {
+     "title": "台中男涉酒駕闖紅燈撞3機車 3騎士受傷送醫",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202608170312.aspx"
+    },
+    {
+     "title": "台中嚴重車禍！男酒駕闖紅燈連撞多車 1騎士意識不清",
+     "outlet": "東森新聞",
+     "url": "https://news.ebc.net.tw/news/society/566786"
+    },
+    {
+     "title": "【台中驚悚車禍！酒駕男遭上銬 女騎士「頭部撕裂傷」陷昏迷】 （圖／民眾提供） 喝酒不開車很難嗎？(#起啵)",
+     "outlet": "facebook.com",
+     "url": "https://www.facebook.com/ETtoday/posts/%E5%8F%B0%E4%B8%AD%E9%A9%9A%E6%82%9A%E8%BB%8A%E7%A6%8D%E9%85%92%E9%A7%95%E7%94%B7%E9%81%AD%E4%B8%8A%E9%8A%AC-%E5%A5%B3%E9%A8%8E%E5%A3%AB%E9%A0%AD%E9%83%A8%E6%92%95%E8%A3%82%E5%82%B7%E9%99%B7%E6%98%8F%E8%BF%B7%E5%9C%96%E6%B0%91%E7%9C%BE%E6%8F%90%E4%BE%9B%E5%96%9D%E9%85%92%E4%B8%8D%E9%96%8B%E8%BB%8A%E5%BE%88%E9%9B%A3%E5%97%8E%E8%B5%B7%E5%95%B5/1528429305982816/"
+    },
+    {
+     "title": "影／畫面曝光…五旬翁酒駕逃檢還闖紅燈 台中北區撞倒1行人3騎士",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7320/9697661"
+    },
+    {
+     "title": "台中男酒駕拒檢逃逸！狂飆闖紅燈撞3機車慘釀1重傷3輕傷- 社會",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5543119"
+    },
+    {
+     "title": "台中酒駕男拒檢闖燈「撞飛4人」 上銬呆坐馬路畫面曝",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/4008774"
+    },
+    {
+     "title": "台中男超商喝完酒載友上路！拒檢闖紅燈撞飛行人與騎士 酒測值逾0.8",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/9mGRPNm"
+    },
+    {
+     "title": "台中重大車禍！酒駕車拒檢闖紅燈　路口連撞、4人受傷",
+     "outlet": "鏡新聞",
+     "url": "https://www.mnews.tw/story/20260818sot0913001"
+    },
+    {
+     "title": "快新聞／台中56歲酒駕男心虛！拒檢狂衝闖紅燈 3騎士+1路人遭波及受傷",
+     "outlet": "民視新聞",
+     "url": "https://finance.ftvnews.com.tw/news/detail/2026817W0792"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260817b",
+   "title": "台中妨害自由通緝犯逃到新北 毒駕遭逮",
+   "date": "2026-08-17",
+   "place": "台中",
+   "summary": "台中發生毒駕事件。",
+   "sources": [
+    {
+     "title": "台中妨害自由通緝犯逃到新北 毒駕遭逮",
+     "outlet": "東森新聞",
+     "url": "https://news.ebc.net.tw/news/society/566793"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260816a",
+   "title": "2線2偵查副隊長新竹酒駕拒測　台中警火速拔官記過",
+   "date": "2026-08-16",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "獨／2線2偵查副隊長新竹酒駕拒測　台中警火速拔官記過",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260816/3220162.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260816b",
+   "title": "台中大甲男騎士毒駕！清晨逆向撞2車「卡車縫」遭逮",
+   "date": "2026-08-16",
+   "place": "大甲",
+   "summary": "大甲發生毒駕事件。",
+   "sources": [
+    {
+     "title": "影/台中大甲男騎士毒駕！清晨逆向撞2車「卡車縫」遭逮",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%BD%B1-%E5%8F%B0%E4%B8%AD%E5%A4%A7%E7%94%B2%E7%94%B7%E9%A8%8E%E5%A3%AB%E6%AF%92%E9%A7%95-%E6%B8%85%E6%99%A8%E9%80%86%E5%90%91%E6%92%9E2%E8%BB%8A-%E5%8D%A1%E8%BB%8A%E7%B8%AB-%E9%81%AD%E9%80%AE-105619752.html"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260816c",
+   "title": "又是毒駕！台中市男騎士逆向猛撞 卡兩車間還恍神不能動彈",
+   "date": "2026-08-16",
+   "place": "台中",
+   "summary": "台中發生毒駕事件。",
+   "sources": [
+    {
+     "title": "又是毒駕！台中市男騎士逆向猛撞 卡兩車間還恍神不能動彈",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/4008003"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260814a",
+   "title": "台中毒駕男拒檢「高速倒車逃逸」撞翻騎士重摔　驚悚畫面曝",
+   "date": "2026-08-14",
+   "place": "台中",
+   "summary": "台中發生毒駕事件。",
+   "sources": [
+    {
+     "title": "台中毒駕男拒檢「高速倒車逃逸」撞翻騎士重摔　驚悚畫面曝",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260814/3219151.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260814b",
+   "title": "台中深夜毒駕拒檢連環撞！4車慘遭波及2人受傷…毒蟲二人組狼狽落網",
+   "date": "2026-08-14",
+   "place": "台中",
+   "summary": "台中發生毒駕事件。",
+   "sources": [
+    {
+     "title": "台中深夜毒駕拒檢連環撞！4車慘遭波及2人受傷…毒蟲二人組狼狽落網",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1889259"
+    },
+    {
+     "title": "台中轎車毒駕拒檢狂飆連環撞 警民合作成功逮人",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E8%BD%8E%E8%BB%8A%E6%AF%92%E9%A7%95%E6%8B%92%E6%AA%A2%E7%8B%82%E9%A3%86%E9%80%A3%E7%92%B0%E6%92%9E-%E8%AD%A6%E6%B0%91%E5%90%88%E4%BD%9C%E6%88%90%E5%8A%9F%E9%80%AE%E4%BA%BA-055841521.html"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260811a",
+   "title": "毒駕撞死茶行嬤！台中男抄經文、寫悔過書求情　再扯：毒品沒這麼好戒",
+   "date": "2026-08-11",
+   "place": "台中",
+   "summary": "台中發生毒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "台中男毒駕撞死睡夢中老婦...一犯再犯竟辯：毒品沒那麼好戒",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7315/9683961"
+    },
+    {
+     "title": "台中茶行闆娘在家睡覺慘遭毒駕撞死 毒蟲辯：沒那麼好戒",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/4005556"
+    },
+    {
+     "title": "毒駕撞死茶行嬤！台中男抄經文、寫悔過書求情　再扯：毒品沒這麼好戒",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1887844"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20260804a",
+   "title": "奧迪男酒駕大鬧台中街頭...慘被送進看守所　棄車逃逸後再多2罪",
+   "date": "2026-08-04",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "奧迪男酒駕大鬧台中街頭...慘被送進看守所　棄車逃逸後再多2罪",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260804/3213261.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260804b",
+   "title": "台中公園前深夜車禍！BMW猛撞4車害「屁股開花」　男酒駕",
+   "date": "2026-08-04",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中公園前深夜車禍！BMW猛撞4車害「屁股開花」　30歲男酒駕",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260804/3213180.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260804c",
+   "title": "又是毒駕！台中沙鹿毒駕撞8車 警方逮人建請聲押",
+   "date": "2026-08-04",
+   "place": "沙鹿",
+   "summary": "沙鹿發生毒駕事件。",
+   "sources": [
+    {
+     "title": "22歲男開車衝路邊「撞翻8機車」畫面曝　台中警一查又是毒駕",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260804/3213006.htm"
+    },
+    {
+     "title": "又是毒駕！台中沙鹿毒駕撞8車 警方逮人建請聲押",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7315/9669274"
+    },
+    {
+     "title": "台中男毒駕撞路邊8機車警依法送辦",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202608040067.aspx"
+    },
+    {
+     "title": "沙鹿毒駕連撞8車肇事男站立不穩、手狂抖- 生活",
+     "outlet": "華視新聞",
+     "url": "https://news.cts.com.tw/cts/life/202608/202608043063262.html"
+    },
+    {
+     "title": "台中又傳毒駕！22歲男先吸喪屍煙彈再上路　失控「保齡球式」撞噴8車",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1883544"
+    },
+    {
+     "title": "沙鹿毒駕撞8車 清水警立即逮人送辦",
+     "outlet": "taiwanreports.com",
+     "url": "https://taiwanreports.com/archives/1003904"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260804d",
+   "title": "台中「甩尾哥」酒駕自撞落跑 闖妻租屋施暴 掛假車牌一夜多罪",
+   "date": "2026-08-04",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "影／台中男深夜酒駕自撞水泥柱 連環波及4車警送辦",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7320/9669920"
+    },
+    {
+     "title": "獨／台中「甩尾哥」酒駕自撞落跑 闖妻租屋施暴 掛假車牌一夜多罪",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/4002820"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260804e",
+   "title": "台中男狂飆甩尾闖紅燈自撞逃逸 酒駕又涉違反保護令遭聲押禁見獲准",
+   "date": "2026-08-04",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中男狂飆甩尾闖紅燈自撞逃逸 酒駕又涉違反保護令遭聲押禁見獲准",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7321/9670220"
+    },
+    {
+     "title": "台中男酒駕狂飆、甩尾 自撞肇逃還違反保護令 中檢聲押獲准",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5528624"
+    },
+    {
+     "title": "押了！台中市區酒駕瘋狂甩尾撞路旁石柱 遭警方逮捕檢方聲請羈押禁見獲准",
+     "outlet": "新新聞報",
+     "url": "https://new-reporter.com/news/236660/"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260730a",
+   "title": "台中Toyota Alphard猛撞福斯釀3車事故！肇事駕駛竟是通緝犯還涉毒駕",
+   "date": "2026-07-30",
+   "place": "台中",
+   "summary": "台中發生毒駕事件。",
+   "sources": [
+    {
+     "title": "台中Toyota Alphard猛撞福斯釀3車事故！肇事駕駛竟是通緝犯還涉毒駕",
+     "outlet": "TVBS",
+     "url": "https://cars.tvbs.com.tw/life/335065"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260729a",
+   "title": "台中開車連撞2車釀3傷 男遭查出通緝、涉毒駕送辦",
+   "date": "2026-07-29",
+   "place": "台中",
+   "summary": "台中發生毒駕事件。",
+   "sources": [
+    {
+     "title": "台中開車連撞2車釀3傷 男遭查出通緝、涉毒駕送辦",
+     "outlet": "fountmedia.io",
+     "url": "https://www.fountmedia.io/article/408011"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260728a",
+   "title": "台中深夜轎車猛撞2車！駕駛疑毒駕先落跑　車上有K他命",
+   "date": "2026-07-28",
+   "place": "台中",
+   "summary": "台中發生毒駕事件。",
+   "sources": [
+    {
+     "title": "台中深夜轎車猛撞2車！駕駛疑毒駕先落跑　車上有K他命",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260728/3208902.htm"
     }
    ],
    "fear": [
@@ -87,6 +1182,238 @@
    ]
   },
   {
+   "id": "d-i20260719a",
+   "title": "毒駕奪命！台中7車連環撞釀1死3傷　肇事賓士女4種毒品陽性反應",
+   "date": "2026-07-19",
+   "place": "豐原",
+   "summary": "豐原發生毒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "毒駕奪命！台中7車連環撞釀1死3傷　肇事賓士女4種毒品陽性反應",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260719/3203977.htm"
+    },
+    {
+     "title": "豐原毒駕1死3傷！賓士女換乾淨衣服移送　喊冤「治療服藥沒吸毒」",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260720/3204485.htm"
+    },
+    {
+     "title": "台中「賓士女」毒駕撞6車1死5傷收押　身體驗出4種毒",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260721/3204730.htm"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20260719b",
+   "title": "台中警正處理交通事故　賓士竟高速撞警車！駕駛酒測0.45",
+   "date": "2026-07-19",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中警正處理交通事故　賓士竟高速撞警車！27歲駕駛酒測0.45",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260719/3203728.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260719c",
+   "title": "台中男酒駕失控 追撞路肩事故車再撞警車遭送辦",
+   "date": "2026-07-19",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中男酒駕失控 追撞路肩事故車再撞警車遭送辦",
+     "outlet": "中華日報",
+     "url": "https://www.cdns.com.tw/articles/1431954"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260719d",
+   "title": "中市警凌晨處理兩車事故 另車追撞上來竟是酒駕當場逮捕",
+   "date": "2026-07-19",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "中市警凌晨處理兩車事故 另車追撞上來竟是酒駕當場逮捕",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7320/9636765"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260717a",
+   "title": "深夜騎單車沒開燈！台中警好意提醒　意外逮到酒駕通緝犯",
+   "date": "2026-07-17",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "深夜騎單車沒開燈！台中警好意提醒　意外逮到酒駕通緝犯",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260717/3202879.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260716a",
+   "title": "台中男KTV嗨唱整晚酒駕奪命！ 亡妻尪心痛難接受",
+   "date": "2026-07-16",
+   "place": "台中",
+   "summary": "台中發生酒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "台中男KTV嗨唱整晚酒駕奪命！ 亡妻尪心痛難接受",
+     "outlet": "東森新聞",
+     "url": "https://news.ebc.net.tw/news/society/561538"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20260715a",
+   "title": "台中東區男酒駕逆向衝撞2機車 女騎士噴飛1死1傷",
+   "date": "2026-07-15",
+   "place": "東區",
+   "summary": "東區發生酒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "快訊／酒駕害命！台中自小客逆撞2機車 無辜女騎士1死1傷",
+     "outlet": "facebook.com",
+     "url": "https://www.facebook.com/ETtoday/posts/%E5%BF%AB%E8%A8%8A%E9%85%92%E9%A7%95%E5%AE%B3%E5%91%BD%E5%8F%B0%E4%B8%AD%E8%87%AA%E5%B0%8F%E5%AE%A2%E9%80%86%E6%92%9E2%E6%A9%9F%E8%BB%8A-%E7%84%A1%E8%BE%9C%E5%A5%B3%E9%A8%8E%E5%A3%AB1%E6%AD%BB1%E5%82%B7/1495292895963124/"
+    },
+    {
+     "title": "快訊／酒駕害命！台中自小客逆撞2機車　無辜女騎士1死1傷",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260716/3202193.htm"
+    },
+    {
+     "title": "台中酒駕致死慘劇...23歲男猛撞釀1死1重傷 機車殼四散、變形全毀",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7320/9631708"
+    },
+    {
+     "title": "23歲台中男酒駕逆向暴衝！ 連撞2女騎士「1死1傷」",
+     "outlet": "華視新聞",
+     "url": "https://news.cts.com.tw/cts/general/202607/202607163056231.html"
+    },
+    {
+     "title": "台中23歲男酒駕逆向撞飛2機車 1女「多處開放骨折」慘死",
+     "outlet": "壹蘋新聞網",
+     "url": "https://news.nextapple.com/local/20260716/4354F251995BD12F0CE951853BDA2A85"
+    },
+    {
+     "title": "台中東區重大車禍！轎車酒駕逆向撞飛2機車…女騎士多處骨折慘死",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1873432"
+    },
+    {
+     "title": "台中驚傳嚴重車禍！23歲男酒駕逆向撞2機車...釀1死1重傷",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7320/9631504"
+    },
+    {
+     "title": "台中男開車酒駕逆向撞2機車釀1死1傷遭送辦",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202607160159.aspx"
+    },
+    {
+     "title": "台中酒駕1死1傷！23歲男上午9點就在KTV喝酒 2小時後爛醉如泥逆撞2女騎士",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E9%85%92%E9%A7%951%E6%AD%BB1%E5%82%B7-23%E6%AD%B2%E7%94%B7%E4%B8%8A%E5%8D%889%E9%BB%9E%E5%B0%B1%E5%9C%A8ktv%E5%96%9D%E9%85%92-2%E5%B0%8F%E6%99%82%E5%BE%8C%E7%88%9B%E9%86%89%E5%A6%82%E6%B3%A5%E9%80%86%E6%92%9E2%E5%A5%B3%E9%A8%8E%E5%A3%AB-054700480.html"
+    },
+    {
+     "title": "快訊／台中男酒駕逆向撞飛2機車 女騎士多處骨折不治",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/3259073"
+    },
+    {
+     "title": "23歲台中男酒駕逆向暴衝！ 連撞2女騎士釀1死1傷",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20260716003463-260402"
+    },
+    {
+     "title": "台中23歲男酒駕開車逆向撞2機車 釀１死１傷遭送辦",
+     "outlet": "中華日報",
+     "url": "https://www.cdns.com.tw/articles/1430821"
+    },
+    {
+     "title": "台中23歲男酒駕逆衝撞飛2車 零件噴滿地釀1死1傷",
+     "outlet": "壹電視",
+     "url": "https://www.nexttv.com.tw/NextTV/News/Home/Society/2026-07-16/2408171.html"
+    },
+    {
+     "title": "台中東區23歲男酒駕逆向衝撞2機車 女騎士噴飛1死1傷",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5507230"
+    },
+    {
+     "title": "有片／台中男唱K喝通宵！酒測0.58逆向撞死婦人 奪命瞬間曝",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/3259333"
+    },
+    {
+     "title": "台中東區酒駕逆向撞重機釀1死1傷 32歲駕駛酒測超標送辦",
+     "outlet": "新新聞報",
+     "url": "https://new-reporter.com/news/227357/"
+    },
+    {
+     "title": "狂歡到早上10點 台中酒駕男逆向撞2機車 1死1傷",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/paper/1762969"
+    },
+    {
+     "title": "KTV喝通宵酒駕逆向撞死女騎士台中男遭檢方聲押- 社會新聞",
+     "outlet": "PChome 新聞（轉載）",
+     "url": "https://news.pchome.com.tw/society/ctinews/20260717/index-78427314811430309002.html"
+    },
+    {
+     "title": "台中酒駕撞警車！賓士男肇事連環撞 警察處理事故公親變事主",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5510151"
+    },
+    {
+     "title": "台中警處理車禍慘變「被害人」 酒駕賓士男先撞事故車又猛撞警車",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E8%AD%A6%E8%99%95%E7%90%86%E8%BB%8A%E7%A6%8D%E6%85%98%E8%AE%8A-%E8%A2%AB%E5%AE%B3%E4%BA%BA-%E9%85%92%E9%A7%95%E8%B3%93%E5%A3%AB%E7%94%B7%E5%85%88%E6%92%9E%E4%BA%8B%E6%95%85%E8%BB%8A%E5%8F%88%E7%8C%9B%E6%92%9E%E8%AD%A6%E8%BB%8A-082700238.html"
+    },
+    {
+     "title": "快訊／台中警車處理車禍遭追撞　車頂警示燈架撞飛　警一測搖頭：又酒駕",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1874818"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
    "id": "d-zombie",
    "title": "台中警破獲喪屍煙彈分裝場 藥頭擁槍睡夢中驚哭喊「做什麼？」",
    "date": "2026-07-13",
@@ -97,6 +1424,228 @@
      "title": "影／台中警破獲喪屍煙彈分裝場 藥頭擁槍睡夢中驚哭喊「做什麼？」",
      "outlet": "聯合新聞網",
      "url": "https://udn.com/news/story/7315/9623747"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260712a",
+   "title": "台中沙鹿向上路長下坡路段又車禍男子酒駕闖紅燈連撞4車6人傷",
+   "date": "2026-07-12",
+   "place": "沙鹿",
+   "summary": "沙鹿發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中向上路又傳重大車禍 竟是酒駕撞4車6傷",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E5%90%91%E4%B8%8A%E8%B7%AF%E5%8F%88%E5%82%B3%E9%87%8D%E5%A4%A7%E8%BB%8A%E7%A6%8D-%E7%AB%9F%E6%98%AF%E9%85%92%E9%A7%95%E6%92%9E4%E8%BB%8A6%E5%82%B7-155700810.html"
+    },
+    {
+     "title": "影／台中沙鹿向上路長下坡路段又車禍 男子酒駕闖紅燈連撞4車6人傷",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7320/9623375"
+    },
+    {
+     "title": "台中沙鹿男子涉酒駕撞3汽機車致6人受傷",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202607120209.aspx"
+    },
+    {
+     "title": "酒駕闖紅燈！台中向上路車禍 撞4車釀6傷",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5503045"
+    },
+    {
+     "title": "影／台中沙鹿向上路長下坡路段又車禍男子酒駕闖紅燈連撞4車6人傷",
+     "outlet": "聯合新聞網",
+     "url": "https://video.udn.com/news/1325814"
+    },
+    {
+     "title": "台中沙鹿向上路5車連環撞！58歲男酒駕闖紅燈…連撞4車6人受傷送醫",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1871459"
+    },
+    {
+     "title": "台中酒駕男「闖紅燈連撞4車」6傷送醫　車殼碎片噴滿地",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260713/3199905.htm"
+    },
+    {
+     "title": "台中酒駕男闖紅燈 連撞4車6人傷！車殼噴飛四散",
+     "outlet": "壹蘋新聞網",
+     "url": "https://news.nextapple.com/local/20260713/38DB3C375D9CAD557E0782102843D529"
+    },
+    {
+     "title": "台中向上路又車禍！ 酒駕男闖紅燈「連撞4車6傷」",
+     "outlet": "華視新聞",
+     "url": "https://news.cts.com.tw/cts/society/202607/202607133054689.html"
+    },
+    {
+     "title": "台中向上路\"長下坡\"闖紅燈駕駛酒駕撞4車共6人送醫",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/yzWpOgy"
+    },
+    {
+     "title": "台中沙鹿向上路酒駕闖燈連環撞共5車6人傷- 綜合",
+     "outlet": "華視新聞",
+     "url": "https://news.cts.com.tw/cts/general/202607/202607123054614.html"
+    },
+    {
+     "title": "台中男酒駕闖紅燈「打保齡球式」連撞4車 6人送醫",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/3255862"
+    },
+    {
+     "title": "台中沙鹿「酒駕男闖紅燈」釀5車連環撞　害6人受傷送醫",
+     "outlet": "CTWANT",
+     "url": "https://www.ctwant.com/article/488956/"
+    },
+    {
+     "title": "台中向上路恐怖連環撞！酒駕男「保齡球式」擊飛4車 零件散滿地6人傷",
+     "outlet": "鏡報",
+     "url": "https://www.mirrordaily.news/story/72739"
+    },
+    {
+     "title": "男子涉酒駕 台中向上路車禍撞4車釀6傷",
+     "outlet": "中華日報",
+     "url": "https://www.cdns.com.tw/articles/1429163"
+    },
+    {
+     "title": "台中向上路\\\"長下坡\\\"闖紅燈駕駛酒駕撞4車共6人送醫",
+     "outlet": "民視新聞",
+     "url": "https://finance.ftvnews.com.tw/news/detail/2026713C09M1"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260706a",
+   "title": "拒檢蛇行加速逃逸！台中毒駕男遭拖下車壓制　建請預防性羈押",
+   "date": "2026-07-06",
+   "place": "台中",
+   "summary": "台中發生毒駕事件。",
+   "sources": [
+    {
+     "title": "拒檢蛇行加速逃逸！台中毒駕男遭拖下車壓制　建請預防性羈押",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260706/3195972.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260705a",
+   "title": "台中沙鹿毒駕釀4傷後逃逸 擦撞沿途車輛遭警圍捕送辦",
+   "date": "2026-07-05",
+   "place": "沙鹿",
+   "summary": "沙鹿發生毒駕事件。",
+   "sources": [
+    {
+     "title": "台中沙鹿毒駕釀4傷後逃逸 擦撞沿途車輛遭警圍捕送辦",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/816168"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260705b",
+   "title": "台中男毒駕撞連撞三波釀４傷 被逮車被查扣、法院聲請羈押",
+   "date": "2026-07-05",
+   "place": "台中",
+   "summary": "台中發生毒駕事件。",
+   "sources": [
+    {
+     "title": "台中男毒駕撞連撞三波釀４傷 被逮車被查扣、法院聲請羈押",
+     "outlet": "民視新聞",
+     "url": "https://finance.ftvnews.com.tw/news/detail/2026705C03M1"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260704a",
+   "title": "根本沒在停！台中賓士男毒駕 瘋狂撞5汽機車、4人輕傷",
+   "date": "2026-07-04",
+   "place": "台中",
+   "summary": "台中發生毒駕事件。",
+   "sources": [
+    {
+     "title": "根本沒在停！台中賓士男毒駕 瘋狂撞5汽機車、4人輕傷",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5493835"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260703a",
+   "title": "又是毒駕！台中男追撞3車驗出「喵喵反應」　慘被逮捕送辦",
+   "date": "2026-07-03",
+   "place": "台中",
+   "summary": "台中發生毒駕事件。",
+   "sources": [
+    {
+     "title": "又是毒駕！台中30歲男追撞3車驗出「喵喵反應」　慘被逮捕送辦",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260703/3194709.htm"
+    },
+    {
+     "title": "又是毒駕！台中轎車撞5車釀4人傷 一路肇逃遭逮",
+     "outlet": "民視新聞",
+     "url": "https://finance.ftvnews.com.tw/news/detail/2026704C10M1"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260630a",
+   "title": "中市行人死亡人數降幅達63.6% 市府持續精進行人交通設施 強化毒駕查緝量能",
+   "date": "2026-06-30",
+   "place": "台中",
+   "summary": "台中發生毒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "中市行人死亡人數降幅達63.6% 市府持續精進行人交通設施 強化毒駕查緝量能",
+     "outlet": "taichung.gov.tw",
+     "url": "https://www.taichung.gov.tw/8868/8872/9962/3310440"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20260628a",
+   "title": "台中男駕車自撞安全島側翻 一查又是毒駕移送法辦",
+   "date": "2026-06-28",
+   "place": "豐原",
+   "summary": "豐原發生毒駕事件。",
+   "sources": [
+    {
+     "title": "影／白天自撞安全島翻車 豐原警方測出又是毒駕",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7315/9593121"
+    },
+    {
+     "title": "台中男駕車自撞安全島側翻 一查又是毒駕移送法辦",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5487091"
     }
    ],
    "fear": [
@@ -148,6 +1697,540 @@
    ]
   },
   {
+   "id": "d-i20260620a",
+   "title": "台中逢甲商圈毒駕撞人！路人受傷送醫…警圍捕肇事男搜出喪屍煙彈",
+   "date": "2026-06-20",
+   "place": "台中",
+   "summary": "台中發生毒駕事件。",
+   "sources": [
+    {
+     "title": "台中男毒駕拒檢蛇行闖紅燈　撞上無辜路人還被搜出喪屍菸彈",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/story/20260621edi015"
+    },
+    {
+     "title": "台中逢甲商圈毒駕撞人！26歲路人受傷送醫…警圍捕肇事男搜出喪屍煙彈",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E9%80%A2%E7%94%B2%E5%95%86%E5%9C%88%E6%AF%92%E9%A7%95%E6%92%9E%E4%BA%BA-26%E6%AD%B2%E8%B7%AF%E4%BA%BA%E5%8F%97%E5%82%B7%E9%80%81%E9%86%AB-%E8%AD%A6%E5%9C%8D%E6%8D%95%E8%82%87%E4%BA%8B%E7%94%B7%E6%90%9C%E5%87%BA%E5%96%AA%E5%B1%8D%E7%85%99%E5%BD%88-022900458.html"
+    },
+    {
+     "title": "報廢車逢甲商圈深夜狂飆撞倒路人　警追1公里逮毒駕男",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260621/3187186.htm"
+    },
+    {
+     "title": "台中毒駕男衝撞警車被壓制　21歲女友狂尖叫...外貌超齡引議論",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260622/3187572.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260618a",
+   "title": "台中車輛撞路樹2死是毒駕！駕駛遺體檢出K他命 倖存乘客認了：上路前一起吸",
+   "date": "2026-06-18",
+   "place": "台中",
+   "summary": "台中發生毒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "台中車輛撞路樹2死是毒駕！駕駛遺體檢出K他命 倖存乘客認了：上路前一起吸",
+     "outlet": "知新聞",
+     "url": "https://www.knews.com.tw/news/23BB56AE3C59036B1D7D3553C50D0446"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20260618b",
+   "title": "酒駕肇逃釀1死！台中大雅男駕租賃車撞死行人逃逸 警2小時內查獲送辦",
+   "date": "2026-06-18",
+   "place": "大雅",
+   "summary": "大雅發生酒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "酒駕肇逃釀1死！台中大雅男駕租賃車撞死行人逃逸 警2小時內查獲送辦",
+     "outlet": "台灣新聞雲報",
+     "url": "https://www.tcpttw.com/other/other_local/2026/06/18/283217/"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20260617a",
+   "title": "台中男涉酒駕肇事逃逸遭逮行人被撞送醫不治",
+   "date": "2026-06-17",
+   "place": "台中",
+   "summary": "台中發生酒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "台中男涉酒駕肇事逃逸遭逮行人被撞送醫不治",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202606170076.aspx"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20260617b",
+   "title": "酒駕撞死老翁逃回家！台中醉男躲2.5小時落網…酒測值飆1.02",
+   "date": "2026-06-17",
+   "place": "大雅",
+   "summary": "大雅發生酒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "台中晚間男子酒駕撞死7旬翁逃逸 大雅警火速逮人",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5474698"
+    },
+    {
+     "title": "台中賓士男撞死7旬翁肇逃回家睡死！一吹氣酒測值驚人- 社會",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20260617001707-260402"
+    },
+    {
+     "title": "台中賓士撞行人急逃！71歲翁不治 肇逃駕駛1小時落網「酒測值超標」",
+     "outlet": "知新聞",
+     "url": "https://www.knews.com.tw/news/FA825C2192EB4466963FC3FA0DCFE090"
+    },
+    {
+     "title": "酒駕撞死老翁逃回家！台中醉男躲2.5小時落網…酒測值飆1.02",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/3233075"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20260616a",
+   "title": "男涉毒駕自撞台中西屯公車站 檢聲請羈押獲准",
+   "date": "2026-06-16",
+   "place": "西屯",
+   "summary": "西屯發生毒駕事件。",
+   "sources": [
+    {
+     "title": "男涉毒駕自撞台中西屯公車站 檢聲請羈押獲准",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5474529"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260615a",
+   "title": "又是毒駕！台中「阿法」衝撞公車專用道站體 男慘了",
+   "date": "2026-06-15",
+   "place": "台中",
+   "summary": "台中發生毒駕事件。",
+   "sources": [
+    {
+     "title": "又是毒駕！台中「阿法」衝撞公車專用道站體　25歲男慘了",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260615/3183978.htm"
+    },
+    {
+     "title": "【又是毒駕！台中「阿法」衝撞公車專用道站體 25歲男慘了】 （圖／民眾提供） 天天不是毒駕，就是毒駕。。(#起啵)",
+     "outlet": "facebook.com",
+     "url": "https://www.facebook.com/ETtoday/posts/%E5%8F%88%E6%98%AF%E6%AF%92%E9%A7%95%E5%8F%B0%E4%B8%AD%E9%98%BF%E6%B3%95%E8%A1%9D%E6%92%9E%E5%85%AC%E8%BB%8A%E5%B0%88%E7%94%A8%E9%81%93%E7%AB%99%E9%AB%94-25%E6%AD%B2%E7%94%B7%E6%85%98%E4%BA%86%E5%9C%96%E6%B0%91%E7%9C%BE%E6%8F%90%E4%BE%9B%E5%A4%A9%E5%A4%A9%E4%B8%8D%E6%98%AF%E6%AF%92%E9%A7%95%E5%B0%B1%E6%98%AF%E6%AF%92%E9%A7%95%E8%B5%B7%E5%95%B5/1464455089046905/"
+    },
+    {
+     "title": "台中白車撞鐵路圍牆！車頭全毀　34歲男酒駕慘了",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260616/3184337.htm"
+    },
+    {
+     "title": "台中男駕「阿法」撞進公車專用道，車頭全毀一查又是毒駕！",
+     "outlet": "TVBS",
+     "url": "https://cars.tvbs.com.tw/life/327063"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260615b",
+   "title": "又傳毒駕肇事！「運兵車」失控衝撞⋯車頭鑲嵌公車站　台中男毒篩陽性",
+   "date": "2026-06-15",
+   "place": "台中",
+   "summary": "台中發生毒駕事件。",
+   "sources": [
+    {
+     "title": "又傳毒駕肇事！「運兵車」失控衝撞⋯車頭鑲嵌公車站　台中男毒篩陽性",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1855759"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260612a",
+   "title": "台中梧棲轎車狂飆競速自撞翻覆2死1傷 警：車內搜出Ｋ毒釐清是否毒駕",
+   "date": "2026-06-12",
+   "place": "梧棲",
+   "summary": "梧棲發生毒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "台中疑毒駕競速翻車慘釀2死！車內驚現多包「白色粉末」",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E7%96%91%E6%AF%92%E9%A7%95%E7%AB%B6%E9%80%9F%E7%BF%BB%E8%BB%8A%E6%85%98%E9%87%802%E6%AD%BB-%E8%BB%8A%E5%85%A7%E9%A9%9A%E7%8F%BE%E5%A4%9A%E5%8C%85-%E7%99%BD%E8%89%B2%E7%B2%89%E6%9C%AB-083503223.html"
+    },
+    {
+     "title": "又見毒駕！台中梧棲毒蟲飆車撞路樹2死1傷 車內驚見毒品",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5469608"
+    },
+    {
+     "title": "台中2死1傷車禍車內有白色粉末警釐清是否毒駕",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202606120052.aspx"
+    },
+    {
+     "title": "台中梧棲轎車狂飆競速自撞翻覆2死1傷 警：車內搜出Ｋ毒釐清是否毒駕",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E6%A2%A7%E6%A3%B2%E8%BD%8E%E8%BB%8A%E7%8B%82%E9%A3%86%E7%AB%B6%E9%80%9F%E8%87%AA%E6%92%9E%E7%BF%BB%E8%A6%862%E6%AD%BB1%E5%82%B7-%E8%AD%A6-%E8%BB%8A%E5%85%A7%E6%90%9C%E5%87%BA-%E6%AF%92%E9%87%90%E6%B8%85%E6%98%AF%E5%90%A6%E6%AF%92%E9%A7%95-105851299.html"
+    },
+    {
+     "title": "台中梧棲自撞奪2命！車內搜出K毒 高大成揭密「毒駕狂飆」恐怖真相",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7315/9563357"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20260611a",
+   "title": "台中男「路口當自己家」昏睡15mins　警破窗逮毒駕搜出K他命",
+   "date": "2026-06-11",
+   "place": "台中",
+   "summary": "台中發生毒駕事件。",
+   "sources": [
+    {
+     "title": "台中男「路口當自己家」昏睡15mins　警破窗逮毒駕搜出K他命",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260611/3181695.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260610a",
+   "title": "毒駕撞斷所長雙腿「無保請回」惹議　台中高分院撤銷原裁",
+   "date": "2026-06-10",
+   "place": "台中",
+   "summary": "台中發生毒駕事件。",
+   "sources": [
+    {
+     "title": "快訊／毒駕撞斷所長雙腿「無保請回」惹議　台中高分院撤銷原裁",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260610/3180771.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260606a",
+   "title": "台中連傳2男吸「喪屍煙彈」毒駕 BMW撞爛、車頭卡橋墩...恍惚到不行",
+   "date": "2026-06-06",
+   "place": "台中",
+   "summary": "台中發生毒駕事件。",
+   "sources": [
+    {
+     "title": "台中1天2起毒駕！自撞橋墩、停車撞爛車頭　還瞎扯吃安眠藥",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260606/3178608.htm"
+    },
+    {
+     "title": "台中連傳2男吸「喪屍煙彈」毒駕 BMW撞爛、車頭卡橋墩...恍惚到不行",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7315/9549439"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260606b",
+   "title": "台中2駕駛涉毒駕肇事警方查獲送辦",
+   "date": "2026-06-06",
+   "place": "台中",
+   "summary": "台中發生毒駕事件。",
+   "sources": [
+    {
+     "title": "台中2駕駛涉毒駕肇事警方查獲送辦",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202606060046.aspx"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260601a",
+   "title": "天氣熱爆竟專偷冷氣室外機！台中海線2賊落網　1人被揪毒駕",
+   "date": "2026-06-01",
+   "place": "台中",
+   "summary": "台中發生毒駕事件。",
+   "sources": [
+    {
+     "title": "天氣熱爆竟專偷冷氣室外機！台中海線2賊落網　1人被揪毒駕",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260601/3175496.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260601b",
+   "title": "中市毒品通緝犯毒駕還掏槍 警英勇逮捕並查獲3槍52彈和毒品",
+   "date": "2026-06-01",
+   "place": "台中",
+   "summary": "台中發生毒駕事件。",
+   "sources": [
+    {
+     "title": "中市59歲毒品通緝犯毒駕還掏槍 警英勇逮捕並查獲3槍52彈和毒品",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7315/9539487"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260526a",
+   "title": "沉淪了...台中白牌司機月初染毒癮 帶40顆哈密瓜毒錠 毒駕違停落網",
+   "date": "2026-05-26",
+   "place": "台中",
+   "summary": "台中發生毒駕事件。",
+   "sources": [
+    {
+     "title": "沉淪了...台中白牌司機月初染毒癮 帶40顆哈密瓜毒錠 毒駕違停落網",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7315/9525814"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260525a",
+   "title": "2年二度酒駕！台中清潔婦撞死行人 稱「失眠」求減刑遭駁",
+   "date": "2026-05-25",
+   "place": "台中",
+   "summary": "台中發生酒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "2年二度酒駕！台中清潔婦撞死行人 稱「失眠」求減刑遭駁",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/3212634"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20260512a",
+   "title": "台中消防工程老闆開賓士毒駕 輾死八旬資源回收婦 賠630萬達成和解",
+   "date": "2026-05-12",
+   "place": "台中",
+   "summary": "台中發生毒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "台中消防工程老闆開賓士毒駕 輾死八旬資源回收婦 賠630萬達成和解",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7321/9496791"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20260506a",
+   "title": "又毒駕！台中男開車自撞釀連環車禍 警用唾液篩檢呈現毒品陽性反應",
+   "date": "2026-05-06",
+   "place": "西區",
+   "summary": "西區發生毒駕事件。",
+   "sources": [
+    {
+     "title": "又是毒駕！台中男突衝路邊「猛撞2大1小車」　唾液篩檢陽性反應",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260506/3161442.htm"
+    },
+    {
+     "title": "又毒駕！ 台中男悚撞2汽車1機車公共危險罪送辦- 社會",
+     "outlet": "華視新聞",
+     "url": "https://news.cts.com.tw/cts/society/202605/202605063028312.html"
+    },
+    {
+     "title": "又毒駕！台中男開車自撞釀連環車禍 警用唾液篩檢呈現毒品陽性反應",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7320/9485786"
+    },
+    {
+     "title": "不是酒駕！台中西區駕駛失控連環撞 唾液篩檢出爐車輛直接拖走",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/Taichung/breakingnews/5427808"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260502a",
+   "title": "台中8旬資收婦遭猛撞 毒駕男愣19秒後「踩油門直接輾斃」下場慘了",
+   "date": "2026-05-02",
+   "place": "台中",
+   "summary": "台中發生毒駕事件。",
+   "sources": [
+    {
+     "title": "獨／台中8旬資收婦遭猛撞 毒駕男愣19秒後「踩油門直接輾斃」下場慘了",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7315/9477962"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260501a",
+   "title": "台中酒駕撞車肇逃！「機車嵌車底」硬開回家…困車道爆炸起火",
+   "date": "2026-05-01",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "獨家／台中酒駕撞車肇逃！「機車嵌車底」硬開回家…困車道爆炸起火",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1832180"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260430a",
+   "title": "台中深夜火燒車！酒駕男撞人肇逃、狂飆拖行機車...遭民眾痛毆制伏",
+   "date": "2026-04-30",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "下班聚餐喝過頭！台中男酒駕撞破護欄車懸空險墜橋",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/3191690"
+    },
+    {
+     "title": "台中男酒駕撞機車拖行起火棄車遭民眾壓制逮送辦",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202605020015.aspx"
+    },
+    {
+     "title": "台中深夜火燒車！酒駕男撞人肇逃、狂飆拖行機車...遭民眾痛毆制伏",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7320/9477059"
+    },
+    {
+     "title": "酒駕肇逃拖行機車致起火 台中肇事男遭民眾拉下車制伏",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/806431"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260430b",
+   "title": "中市男子大里酒駕自撞護欄 警扣照、車並依送法辦",
+   "date": "2026-04-30",
+   "place": "大里",
+   "summary": "大里發生酒駕事件。",
+   "sources": [
+    {
+     "title": "中市36歲男子大里酒駕自撞護欄 警扣照、車並依送法辦",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7320/9473498"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260417a",
+   "title": "台中無照男酒駕撞死人落跑7分鐘 辯返家「大號」是正當理由",
+   "date": "2026-04-17",
+   "place": "台中",
+   "summary": "台中發生酒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "台中無照男酒駕撞死人落跑7分鐘 辯返家「大號」是正當理由",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7321/9447325"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20260408a",
+   "title": "台中工人元旦喝保力達 當街酒駕撞死老婦...酒測值達0.53",
+   "date": "2026-04-08",
+   "place": "台中",
+   "summary": "台中發生酒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "台中工人元旦喝保力達 當街酒駕撞死老婦...酒測值達0.53",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7321/9428151"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
    "id": "d-hitrun",
    "title": "毒駕奪命肇逃還滅證！台中男瞎扯「借來的車才擦」交保夢碎",
    "date": "2026-04-05",
@@ -183,6 +2266,2086 @@
    ]
   },
   {
+   "id": "d-i20260331a",
+   "title": "台中酒駕飆仔慘摔「14秒噴飛被輾」　網抓白車補刀：本沒事要賠了",
+   "date": "2026-03-31",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中酒駕飆仔慘摔「14秒噴飛被輾」　網抓白車補刀：本沒事要賠了",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260331/3141808.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260331b",
+   "title": "台中騎士左轉撞路邊車彈飛趴地！後車輾過手臂...酒測值0.88",
+   "date": "2026-03-31",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中騎士左轉撞路邊車彈飛趴地！後車輾過手臂...酒測值0.88",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260331/3141289.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260305a",
+   "title": "【警察】台中殯葬二代毒駕撞死7旬退休公務員 員警作證：現場否認撞到人",
+   "date": "2026-03-05",
+   "place": "台中",
+   "summary": "台中發生毒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "台中殯葬二代毒駕撞死7旬退休公務員 員警作證：現場否認撞到人",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5359522"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20260304a",
+   "title": "台中街頭毒駕追逐！賓士180度「絲滑甩尾」撞保時捷　驚險畫面曝",
+   "date": "2026-03-04",
+   "place": "台中",
+   "summary": "台中發生毒駕事件。",
+   "sources": [
+    {
+     "title": "台中街頭毒駕追逐！賓士180度「絲滑甩尾」撞保時捷　驚險畫面曝",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260304/3126847.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260304b",
+   "title": "台中BMW男輾斃老翁 殯葬業二代只認毒駕致死否認殺人",
+   "date": "2026-03-04",
+   "place": "台中",
+   "summary": "台中發生毒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "台中BMW男輾斃老翁 殯葬業二代只認毒駕致死否認殺人",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/Taichung/breakingnews/5358967"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20260226a",
+   "title": "台中男吃麻油雞隔日早上酒駕...撞到等紅燈騎士害他右腳慘截肢",
+   "date": "2026-02-26",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中男吃麻油雞隔日早上酒駕...撞到等紅燈騎士害他右腳慘截肢",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7321/9345478"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260212a",
+   "title": "驚悚畫面曝！台中科大男職員站校門口　慘遭酒駕貨車撞飛",
+   "date": "2026-02-12",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "驚悚片／台中科大校門口前酒駕！正面撞飛27歲職員...　恐怖瞬間曝",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/story/20260213edi031"
+    },
+    {
+     "title": "驚悚畫面曝！台中科大27歲男職員站校門口　慘遭酒駕貨車撞飛",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260213/3118325.htm"
+    },
+    {
+     "title": "台中科大校門口酒駕車禍 駕駛撞人行道再衝進學校釀1傷",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/795244"
+    },
+    {
+     "title": "超驚悚！台中科大職員校門口遭酒駕撞飛 翻滾險被輾壓畫面曝",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5342341"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260211a",
+   "title": "又是酒駕！台中男變換車道撞廂型車再掃2機車　3人受傷",
+   "date": "2026-02-11",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "又是酒駕！台中男變換車道撞廂型車再掃2機車　3人受傷",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260211/3117116.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260208a",
+   "title": "台中小貨車撞進民宅！鐵捲門全毀　駕駛酒測值0.89當場被逮",
+   "date": "2026-02-08",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中小貨車撞進民宅！鐵捲門全毀　駕駛酒測值0.89當場被逮",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260208/3115309.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260208b",
+   "title": "台中貨車司機清晨酒駕 撞破民宅鐵卷門 警公共危險送辦",
+   "date": "2026-02-08",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中貨車司機清晨酒駕 撞破民宅鐵卷門 警公共危險送辦",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7321/9316240"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260201a",
+   "title": "【警察】台中出家人撞車抗拒酒測！員警「大外割」壓制引網熱議",
+   "date": "2026-02-01",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中出家人撞車抗拒酒測！員警「大外割」壓制引網熱議",
+     "outlet": "Newtalk 新聞",
+     "url": "https://newtalk.tw/news/view/2026-02-01/1017943"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20260121a",
+   "title": "台中阿伯開車撞路邊車側翻！又是酒駕惹禍　先送醫再法辦",
+   "date": "2026-01-21",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中阿伯開車撞路邊車側翻！又是酒駕惹禍　先送醫再法辦",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260121/3105083.htm"
+    },
+    {
+     "title": "台中酒駕男撞路邊車自己也翻車受傷 警方移送法辦",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7320/9279746"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20251228a",
+   "title": "台中男開「媽媽的」瑪莎拉蒂載友酒駕 撞台灣大道石墩車毀糗大",
+   "date": "2025-12-28",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "影／台中男開「媽媽的」瑪莎拉蒂載友酒駕 撞台灣大道石墩車毀糗大",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7320/9230156"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20251224a",
+   "title": "無照吃毒又酒駕！台中男邊睡邊開撞死人 家屬大愛淚：原諒你",
+   "date": "2025-12-24",
+   "place": "台中",
+   "summary": "台中發生毒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "無照吃毒又酒駕！台中男邊睡邊開撞死人 家屬大愛淚：原諒你",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/3081543"
+    },
+    {
+     "title": "「通宵吸毒又酒駕」無照撞死人！台中男完成賠償　家屬淚：原諒你",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1770612"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20251219a",
+   "title": "又是無照毒駕！台中男不知撞到翁輾斃落跑 喊冤：看畫面才知",
+   "date": "2025-12-19",
+   "place": "台中",
+   "summary": "台中發生毒駕事件。",
+   "sources": [
+    {
+     "title": "又是無照毒駕！台中男不知撞到翁輾斃落跑 喊冤：看畫面才知",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/3076884"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20251209a",
+   "title": "高醫生遭酒駕撞死！　「看他出生到太平間認屍」主播父披亡子白袍淚訴：憑什麼減刑？",
+   "date": "2025-12-09",
+   "place": "太平",
+   "summary": "太平發生酒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "高醫生遭酒駕撞死！　「看他出生到太平間認屍」主播父披亡子白袍淚訴：憑什麼減刑？",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/story/20251209edi038"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20251201a",
+   "title": "台中好市多轎車疑毒駕撞大G，下秒暴衝、撞柱釀4車連環撞完了",
+   "date": "2025-12-01",
+   "place": "台中",
+   "summary": "台中發生毒駕事件。",
+   "sources": [
+    {
+     "title": "台中好市多轎車疑毒駕撞大G，下秒暴衝、撞柱釀4車連環撞完了",
+     "outlet": "TVBS",
+     "url": "https://cars.tvbs.com.tw/life/291689"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20251201b",
+   "title": "台中男疑吸喪屍煙彈開Lexus上路 北屯好市多釀連環車禍",
+   "date": "2025-12-01",
+   "place": "北屯",
+   "summary": "北屯發生毒駕事件。",
+   "sources": [
+    {
+     "title": "影／台中男疑吸喪屍煙彈開Lexus上路 北屯好市多釀連環車禍",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7320/9173763"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20251130a",
+   "title": "台中毒駕男急搶「好市多黑五」 恍神倒車又暴衝連撞3車 離譜畫面曝光",
+   "date": "2025-11-30",
+   "place": "北屯",
+   "summary": "北屯發生毒駕事件。",
+   "sources": [
+    {
+     "title": "台中毒駕男急搶「好市多黑五」 恍神倒車又暴衝連撞3車 離譜畫面曝光",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E6%AF%92%E9%A7%95%E7%94%B7%E6%80%A5%E6%90%B6-%E5%A5%BD%E5%B8%82%E5%A4%9A%E9%BB%91%E4%BA%94-%E6%81%8D%E7%A5%9E%E5%80%92%E8%BB%8A%E5%8F%88%E6%9A%B4%E8%A1%9D%E9%80%A3%E6%92%9E3%E8%BB%8A-%E9%9B%A2%E8%AD%9C%E7%95%AB%E9%9D%A2%E6%9B%9D%E5%85%89-033100303.html"
+    },
+    {
+     "title": "好市多北屯店停車場男毒駕 暴衝撞3車又撞柱民眾嚇傻",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5264331"
+    },
+    {
+     "title": "台中毒駕男急搶「好市多黑五」　恍神倒車又暴衝連撞3車　離譜畫面曝光",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1758989"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20251129a",
+   "title": "台中女清晨酒駕！自撞2車失控翻覆輕傷送醫　四輪朝天畫面曝",
+   "date": "2025-11-29",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中女清晨酒駕！自撞2車失控翻覆輕傷送醫　四輪朝天畫面曝",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20251129/3075479.htm"
+    },
+    {
+     "title": "台中26歲女酒駕失控翻車　自撞路邊汽機車「四輪朝天」",
+     "outlet": "NOWnews",
+     "url": "https://www.nownews.com/news/6759497"
+    },
+    {
+     "title": "台中女酒駕自撞「四輪朝天」 爬出狂吐又買飲料",
+     "outlet": "東森新聞",
+     "url": "https://news.ebc.net.tw/news/society/524673"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20251120a",
+   "title": "台中BMW猴毒駕撞死行人第4度延押　法官批飾詞僥倖不給交保",
+   "date": "2025-11-20",
+   "place": "台中",
+   "summary": "台中發生毒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "台中BMW猴毒駕撞死行人第4度延押　法官批飾詞僥倖不給交保",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20251120/3070459.htm"
+    },
+    {
+     "title": "台中18歲BMW男毒駕輾斃翁收押逾一年！ 第4度延押原因曝光",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5252193"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20251109a",
+   "title": "台中酒駕釀交通事故女駕駛撞毀3車受傷遭法辦",
+   "date": "2025-11-09",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中酒駕釀交通事故女駕駛撞毀3車受傷遭法辦",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202511090142.aspx"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20251029a",
+   "title": "台中這路口有魔咒？ 才發生BMW暴衝傷亡 又傳酒駕逆向車禍4傷",
+   "date": "2025-10-29",
+   "place": "台中",
+   "summary": "台中發生酒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "影／台中工人下班灌米酒 酒駕逆向猛撞對向2車…釀4人輕重傷",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7320/9103284"
+    },
+    {
+     "title": "台中這路口有魔咒？ 才發生BMW暴衝傷亡 又傳酒駕逆向車禍4傷",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5227207"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20251029b",
+   "title": "酒駕逆行！台中五權路兩車對撞波及騎士 釀4傷",
+   "date": "2025-10-29",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "酒駕逆行！台中五權路兩車對撞波及騎士 釀4傷",
+     "outlet": "華視新聞",
+     "url": "https://news.cts.com.tw/cts/society/202510/202510292527325.html"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20251020a",
+   "title": "土地公懲罰？ 台中累犯酒駕女 開瑪莎拉蒂廟前翻車送辦",
+   "date": "2025-10-20",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "土地公懲罰？ 台中累犯酒駕女 開瑪莎拉蒂廟前翻車送辦",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5217136"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20251019a",
+   "title": "台中好市多路口驚悚車禍！ 酒駕女違規被撞騰空翻一圈 機車瞬間成火球",
+   "date": "2025-10-19",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中好市多路口驚悚車禍！ 酒駕女違規被撞騰空翻一圈 機車瞬間成火球",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5216500"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20251018a",
+   "title": "酒駕路口鬼切左轉！台中女慘遭攔腰撞「噴飛1樓高」…機車起火畫面曝光",
+   "date": "2025-10-18",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "酒駕路口鬼切左轉！台中女慘遭攔腰撞「噴飛1樓高」…機車起火畫面曝光",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1737508"
+    },
+    {
+     "title": "台中女騎士違規左轉遭撞飛！空中翻一圈重摔機車起火　酒測超標",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20251019/3052785.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20251011a",
+   "title": "台中茶行闆娘在家睡覺遭撞死　惡男毒駕致死罪聲押禁見",
+   "date": "2025-10-11",
+   "place": "台中",
+   "summary": "台中發生毒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "快訊／台中茶行闆娘在家睡覺遭撞死　惡男毒駕致死罪聲押禁見",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20251011/3048635.htm"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20251010a",
+   "title": "台中警酒駕撞前車！險害孕婦「就地生產」　法官重判不給緩刑",
+   "date": "2025-10-10",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中警酒駕撞前車！險害孕婦「就地生產」　法官重判不給緩刑",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20251010/3048111.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20251009a",
+   "title": "台中毒駕凌晨衝入民宅致1死2傷：駕駛頭部重創、熟睡老婦喪命，兒子倖存痛喊「媽媽還在下面」",
+   "date": "2025-10-09",
+   "place": "台中",
+   "summary": "台中發生毒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "台中毒駕凌晨衝入民宅致1死2傷：駕駛頭部重創、熟睡老婦喪命，兒子倖存痛喊「媽媽還在下面」",
+     "outlet": "關鍵評論網",
+     "url": "https://www.thenewslens.com/article/259633"
+    },
+    {
+     "title": "快訊／台中毒駕惡男出院了！衝進茶行「母子1死1傷」　正面曝光",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20251011/3048516.htm"
+    },
+    {
+     "title": "台中BMW毒駕男撞茶行「釀1死1傷」！ 深夜收押禁見",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/3013788"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20251007a",
+   "title": "台中酒駕休旅車宛「導彈」！精準撞翻超商物流車 貨品全噴飛釀4傷",
+   "date": "2025-10-07",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中物流車深夜遭撞翻！貨物散落4傷　肇事休旅車駕駛酒駕",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20251007/3046041.htm"
+    },
+    {
+     "title": "台中酒駕休旅車宛「導彈」！精準撞翻超商物流車 貨品全噴飛釀4傷",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5202738"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20250927a",
+   "title": "快新聞／又是酒駕肇事害命！台中男開小貨車撞爛代步車 嬤送醫不治",
+   "date": "2025-09-27",
+   "place": "台中",
+   "summary": "台中發生酒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "快訊／酒測超標3倍！貨車「毀滅性追撞」台中嬤　送醫不治",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250927/3041277.htm"
+    },
+    {
+     "title": "快新聞／又是酒駕肇事害命！台中男開小貨車撞爛代步車 87歲嬤送醫不治",
+     "outlet": "民視新聞",
+     "url": "https://finance.ftvnews.com.tw/news/detail/2025927W0561"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20250918a",
+   "title": "台中男吸「喪屍煙彈」駕BMW 撞飛翁輾斃！裁定再延押2月",
+   "date": "2025-09-18",
+   "place": "台中",
+   "summary": "台中發生毒駕事件。",
+   "sources": [
+    {
+     "title": "台中18歲男吸「喪屍煙彈」駕BMW 撞飛72歲翁輾斃！裁定再延押2月",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5182364"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20250906a",
+   "title": "台中酒駕男失控撞銀行ATM 玻璃炸裂滿地「逃逸5小時後被逮」",
+   "date": "2025-09-06",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中酒駕男失控撞銀行ATM 玻璃炸裂滿地「逃逸5小時後被逮」",
+     "outlet": "cnews.com.tw",
+     "url": "https://cnews.com.tw/ctwant/%E5%8F%B0%E4%B8%AD%E9%85%92%E9%A7%95%E7%94%B7%E5%A4%B1%E6%8E%A7%E6%92%9E%E9%8A%80%E8%A1%8Catm%E3%80%80%E7%8E%BB%E7%92%83%E7%82%B8%E8%A3%82%E6%BB%BF%E5%9C%B0%E3%80%8C%E9%80%83%E9%80%B85%E5%B0%8F/"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20250905a",
+   "title": "深夜路檢查獲毒駕 中市大甲警逮2男扣罕見超大杯毒品",
+   "date": "2025-09-05",
+   "place": "大甲",
+   "summary": "大甲發生毒駕事件。",
+   "sources": [
+    {
+     "title": "深夜路檢查獲毒駕 中市大甲警逮2男扣罕見超大杯毒品",
+     "outlet": "pbs.npa.gov.tw",
+     "url": "https://www.pbs.npa.gov.tw/ch/app/data/view"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20250825a",
+   "title": "【台中包手哥毒駕酒駕撞死人！得蜂窩性組織炎哀求交保 法官不准】 （圖／ETtoday資料照）",
+   "date": "2025-08-25",
+   "place": "台中",
+   "summary": "台中發生毒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "台中包手哥毒駕酒駕撞死人！得蜂窩性組織炎哀求交保　法官不准",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250825/3021807.htm"
+    },
+    {
+     "title": "【台中包手哥毒駕酒駕撞死人！得蜂窩性組織炎哀求交保 法官不准】 （圖／ETtoday資料照）",
+     "outlet": "facebook.com",
+     "url": "https://www.facebook.com/ETtoday/photos/%E5%8F%B0%E4%B8%AD%E5%8C%85%E6%89%8B%E5%93%A5%E6%AF%92%E9%A7%95%E9%85%92%E9%A7%95%E6%92%9E%E6%AD%BB%E4%BA%BA%E5%BE%97%E8%9C%82%E7%AA%A9%E6%80%A7%E7%B5%84%E7%B9%94%E7%82%8E%E5%93%80%E6%B1%82%E4%BA%A4%E4%BF%9D-%E6%B3%95%E5%AE%98%E4%B8%8D%E5%87%86%E5%9C%96ettoday%E8%B3%87%E6%96%99%E7%85%A7/1206984011460682/"
+    },
+    {
+     "title": "台中包手哥酒後毒駕撞死人！罹「蜂窩性組織炎」賣慘求交保…法官不准",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1709659"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20250816a",
+   "title": "台中警酒駕撞賓士害孕婦「差點原地生產」　遭記過調職下場慘了",
+   "date": "2025-08-16",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中警酒駕撞賓士害孕婦「差點原地生產」　遭記過調職下場慘了",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250816/3016272.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20250810a",
+   "title": "酒測值0.47！台中男聚會後開車返家　撞死女騎士",
+   "date": "2025-08-10",
+   "place": "台中",
+   "summary": "台中發生酒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "酒測值0.47！台中男聚會後開車返家　撞死女騎士",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250810/3012278.htm"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20250810b",
+   "title": "酒駕撞死婦人 台中水電工一臉驚恐杵在遺體旁",
+   "date": "2025-08-10",
+   "place": "台中",
+   "summary": "台中發生酒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "酒駕撞死婦人 台中水電工一臉驚恐杵在遺體旁",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5138493"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20250720a",
+   "title": "無照毒駕撞死人！台中BMW猴辯糖尿病求脫身　法官裁定再押2月",
+   "date": "2025-07-20",
+   "place": "台中",
+   "summary": "台中發生毒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "無照毒駕撞死人！台中BMW猴辯糖尿病求脫身　法官裁定再押2月",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250720/2999618.htm"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20250713a",
+   "title": "【警察】台中員警酒駕撞賓士！車內孕婦受驚「差點原地生產」",
+   "date": "2025-07-13",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "獨／台中員警酒駕撞賓士！車內孕婦受驚「差點原地生產」",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250713/2995410.htm"
+    },
+    {
+     "title": "知法犯法！台中員警酒駕追撞孕婦 酒測值0.76移送法辦",
+     "outlet": "台視新聞",
+     "url": "https://news.ttv.com.tw/news/11407130023300N"
+    },
+    {
+     "title": "扯！台中警察酒駕撞賓士闖禍 孕婦「差點原地生產」",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5106295"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20250629a",
+   "title": "台中代駕遭酒駕撞飛！他右肩、腿都斷 同事心痛：平安回家",
+   "date": "2025-06-29",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "獨／台中代駕遭酒駕撞飛！他右肩、腿都斷 同事心痛：平安回家",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2916820"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20250623a",
+   "title": "一早就喝茫！台中賓士男「酒駕自撞」大翻車　他身飄酒氣狼狽爬出",
+   "date": "2025-06-23",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "快訊／一早就喝茫！台中賓士男「酒駕自撞」大翻車　他身飄酒氣狼狽爬出",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1676564"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20250621a",
+   "title": "台中台灣大道旁工人暴衝「連撞9機車」酒測超標　顧主最高罰30萬",
+   "date": "2025-06-21",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中台灣大道旁工人暴衝「連撞9機車」酒測超標　顧主最高罰30萬",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250621/2982506.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20250619a",
+   "title": "台中龍井酒駕死亡車禍！ 休旅車自撞釀1死1傷",
+   "date": "2025-06-19",
+   "place": "龍井",
+   "summary": "龍井發生酒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "台中龍井酒駕死亡車禍！ 休旅車自撞釀1死1傷",
+     "outlet": "台灣新聞雲報",
+     "url": "https://www.tcpttw.com/other/other_local/2025/06/19/175363/"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20250619b",
+   "title": "毒品通緝犯開車衝撞台中警遭制伏後查獲槍械",
+   "date": "2025-06-19",
+   "place": "台中",
+   "summary": "台中發生毒駕事件。",
+   "sources": [
+    {
+     "title": "毒品通緝犯開車衝撞台中警遭制伏後查獲槍械",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202506190380.aspx"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20250615a",
+   "title": "台中賓士哥酒駕暴衝　「連撞23車」賠慘了！",
+   "date": "2025-06-15",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中賓士哥酒駕暴衝　「連撞23車」賠慘了！",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250615/2978674.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20250614a",
+   "title": "辯「吃藥頭暈」台中男撞倒23汽機車！實則酒駕釀禍",
+   "date": "2025-06-14",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "辯「吃藥頭暈」台中男撞倒23汽機車！實則酒駕釀禍",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2902447"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20250513a",
+   "title": "又是酒駕！台中男撞公車站牌翻覆　後方女駕駛衰遭撞",
+   "date": "2025-05-13",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "又是酒駕！台中男撞公車站牌翻覆　後方女駕駛衰遭撞",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250513/2959756.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20250506a",
+   "title": "台中「深夜服務業」女子下班撞爛7輛機車　恐怖酒測值曝",
+   "date": "2025-05-06",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中「深夜服務業」女子下班撞爛7輛機車　恐怖酒測值曝",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250506/2955389.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20250504a",
+   "title": "台中第二市場旁賓士酒駕撞多元計程車 醉駕駛疑在車內睡著了",
+   "date": "2025-05-04",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中第二市場旁車禍！賓士男商旅獨自喝4小時　酒駕追撞待轉車",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250504/2954535.htm"
+    },
+    {
+     "title": "台中第二市場旁賓士酒駕撞多元計程車 醉駕駛疑在車內睡著了",
+     "outlet": "壹蘋新聞網",
+     "url": "https://news.nextapple.com/local/20250504/A462C1397ED78294B600CD2EFBB0C5A7"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20250415a",
+   "title": "講不聽耶！酒駕累犯死性不改　台中市公告第134波酒駕累犯照片高達34人",
+   "date": "2025-04-15",
+   "place": "台中",
+   "summary": "台中發生酒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "講不聽耶！酒駕累犯死性不改　台中市公告第134波酒駕累犯照片高達34人",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1640405"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20250409a",
+   "title": "偷車賊還酒駕！台中和平警追20公里　苗栗產業道路圍堵逮人",
+   "date": "2025-04-09",
+   "place": "和平",
+   "summary": "和平發生酒駕事件。",
+   "sources": [
+    {
+     "title": "偷車賊還酒駕！台中和平警追20公里　苗栗產業道路圍堵逮人",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250409/2939881.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20250403a",
+   "title": "連假第一天就酒駕！台中男「撞斷消防栓」噴泉慘況曝…酒測裝傻吹10次",
+   "date": "2025-04-03",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "連假第一天就酒駕！台中男「撞斷消防栓」噴泉慘況曝…酒測裝傻吹10次",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1634198"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20250318a",
+   "title": "台中男酒駕撞破護欄！整輛車飛墜溪床爛成廢鐵　他緊急送醫",
+   "date": "2025-03-18",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "快訊／台中男酒駕撞破護欄！整輛車飛墜溪床爛成廢鐵　他緊急送醫",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250318/2927084.htm"
+    },
+    {
+     "title": "台中男子酒駕衝撞人行道 撞破護欄後墜落大排",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/742667"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20250313a",
+   "title": "台中女半夜酒駕「狂掃整排機車」翻覆！輕傷送醫　現場畫面曝",
+   "date": "2025-03-13",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中23歲女半夜酒駕「狂掃整排機車」翻覆！輕傷送醫　現場畫面曝",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250313/2924448.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20250308a",
+   "title": "無照酒駕撞死Uber外送員肇逃台中Alphard駕駛吳叡旻聲押- 社會",
+   "date": "2025-03-08",
+   "place": "台中",
+   "summary": "台中發生酒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "台中男無照酒駕闖紅燈 撞死機車外送員",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/741191"
+    },
+    {
+     "title": "台中23歲男無照酒駕闖紅燈機車騎士遭撞不治",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202503080030.aspx"
+    },
+    {
+     "title": "台中洗車工無照酒駕飆「黑道運兵車」闖紅燈 撞死外送員躲回家",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4973375"
+    },
+    {
+     "title": "快訊／無照又酒駕撞死醫學生肇逃！台中洗車工收押",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250309/2921992.htm"
+    },
+    {
+     "title": "22歲醫學生跑外送遭酒駕撞死　台中洗車工「無照還肇逃」涉3罪聲押",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250309/2921948.htm"
+    },
+    {
+     "title": "台中無照男酒駕撞死大學生肇事逃逸落網遭羈押",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202503090024.aspx"
+    },
+    {
+     "title": "無照酒駕撞死22歲Uber外送員肇逃台中Alphard駕駛吳叡旻聲押- 社會",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4973963"
+    },
+    {
+     "title": "媒體主管兒遭酒駕撞死　盧秀燕盼司法系統嚴懲！台中連3天大執法",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250310/2922496.htm"
+    },
+    {
+     "title": "凌晨傳訊給女友「要回家了」　台中醫大生遭酒駕撞飛慘死",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250310/2922343.htm"
+    },
+    {
+     "title": "台中酒駕致死傷連2年全國最高 酒駕防制團體籲市府積極作為",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/741380"
+    },
+    {
+     "title": "主播兒遭撞死！怒吼「為何台中酒駕這麼多」 驚爆：前2次能「用錢解決」",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%85%92%E9%81%AD%E6%92%9E%E6%AD%BB-%E4%B8%BB%E6%92%AD%E7%88%B6%E5%90%BC-%E7%82%BA%E4%BD%95%E5%8F%B0%E4%B8%AD%E9%85%92%E9%A7%95%E9%80%99%E9%BA%BC%E5%A4%9A-%E9%A9%9A%E7%88%86-%E5%89%8D2%E6%AC%A1%E8%83%BD-012617348.html"
+    },
+    {
+     "title": "醫大生遭撞亡！ 家屬痛批「為何台中這麼多酒駕」 盧秀燕回應了",
+     "outlet": "壹電視",
+     "url": "https://www.nexttv.com.tw/NextTV/News/Home/Society/2025-03-10/1920843.html"
+    },
+    {
+     "title": "醫大生遭撞死！台中酒駕大執法...17人法辦　12人開單扣車",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250311/2923450.htm"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20250222a",
+   "title": "【警察】中市派出所長與妻爭執 離家酒駕撞騎士遭記１大過",
+   "date": "2025-02-22",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "中市派出所長與妻爭執 離家酒駕撞騎士遭記１大過",
+     "outlet": "中華日報",
+     "url": "https://www.cdns.com.tw/articles/1172312"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20250218a",
+   "title": "台中凌晨2起酒駕自撞　醉男騎分隔島撞路燈...衝進騎樓毀招牌",
+   "date": "2025-02-18",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中凌晨2起酒駕自撞　醉男騎分隔島撞路燈...衝進騎樓毀招牌",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250218/2910765.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20250218b",
+   "title": "又是酒駕！台中男轉彎撞進騎樓卡住 險甩飛2停等騎士",
+   "date": "2025-02-18",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "有片／又是酒駕！台中男轉彎撞進騎樓卡住 險甩飛2停等騎士",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2782851"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20250216a",
+   "title": "台中賓士凌晨自撞翻覆4傷！駕駛辯「霧霾遮眼」…一測酒測值超標",
+   "date": "2025-02-16",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中賓士凌晨自撞翻覆4傷！駕駛辯「霧霾遮眼」…一測酒測值超標",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250216/2909597.htm"
+    },
+    {
+     "title": "遊台中撞翻車！他酒駕卻辯「霧霾遮眼」 乘客頭顱出血也要罰",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2781016"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20250128a",
+   "title": "台中知名火鍋店被撞破！酒駕男直直衝　店家緊急搶修迎客",
+   "date": "2025-01-28",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中知名火鍋店被撞破！21歲酒駕男直直衝　店家緊急搶修迎客",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250128/2900273.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20250128b",
+   "title": "又是酒駕惹禍！台中男開車撞破火鍋店大門",
+   "date": "2025-01-28",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "又是酒駕惹禍！台中男開車撞破火鍋店大門",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4936495"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20250127a",
+   "title": "台中男酒駕衝連鎖火鍋！撞爛店家門口 招牌也被擊落",
+   "date": "2025-01-27",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "影/台中男酒駕衝連鎖火鍋！撞爛店家門口 招牌也被擊落",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%BD%B1-%E5%8F%B0%E4%B8%AD%E7%94%B7%E9%85%92%E9%A7%95%E8%A1%9D%E9%80%A3%E9%8E%96%E7%81%AB%E9%8D%8B-%E6%92%9E%E7%88%9B%E5%BA%97%E5%AE%B6%E9%96%80%E5%8F%A3-%E6%8B%9B%E7%89%8C%E4%B9%9F%E8%A2%AB%E6%93%8A%E8%90%BD-022512060.html"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20250119a",
+   "title": "台中酒駕累犯被逮7次 法官認機車屬犯罪工具沒收",
+   "date": "2025-01-19",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中酒駕累犯被逮7次 法官認機車屬犯罪工具沒收",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/734362"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20250111a",
+   "title": "台中男疑酒駕撞轎車又衝騎樓！他嚇壞：閃也閃不掉　4人送醫",
+   "date": "2025-01-11",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "快訊／台中男疑酒駕撞轎車又衝騎樓！他嚇壞：閃也閃不掉　4人送醫",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250111/2890299.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20250111b",
+   "title": "台中男酒駕闖紅燈碰撞！2車撞毀「火雞肉飯」店門5傷",
+   "date": "2025-01-11",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中男酒駕闖紅燈碰撞！2車撞毀「火雞肉飯」店門5傷",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4920334"
+    },
+    {
+     "title": "台中男子涉酒駕闖紅燈 2車相撞衝入騎樓釀5傷",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202501110033.aspx"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20250107a",
+   "title": "「我被通緝了嗎」台中男酒駕自投羅網　氣到國罵！拒測慘噴18萬",
+   "date": "2025-01-07",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "「我被通緝了嗎」台中男酒駕自投羅網　氣到國罵！拒測慘噴18萬",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250107/2887615.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20241215a",
+   "title": "台中小黃追撞機車！運將肇事後猛灌水遭疑拖延酒測　警說明真相",
+   "date": "2024-12-15",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中小黃追撞機車！運將肇事後猛灌水遭疑拖延酒測　警說明真相",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20241215/2874003.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20241214a",
+   "title": "包手男連撞9車害命　台中警連3天大執法「又逮23人酒駕」",
+   "date": "2024-12-14",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "包手男連撞9車害命　台中警連3天大執法「又逮23人酒駕」",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20241214/2873666.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20241212a",
+   "title": "台中酒駕男狂飆連撞4車釀1死3傷 下車恍神車內散發怪味",
+   "date": "2024-12-12",
+   "place": "台中",
+   "summary": "台中發生毒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "台中22歲包手男「無照酒駕」釀1死3傷　母親趕到醫院看兒子",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20241212/2872743.htm"
+    },
+    {
+     "title": "台中22歲酒駕男狂飆連撞4車釀1死3傷 下車恍神車內散發怪味",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4891453"
+    },
+    {
+     "title": "台中22歲男酒駕撞死機車騎士 詐欺、飆車、毒品等前科一大堆",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4891656"
+    },
+    {
+     "title": "台中22歲男「泥醉酒駕」釀1死　肇事足跡「跨3警局」撞8車　離譜畫面曝",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1578349"
+    },
+    {
+     "title": "狂飆撞死人車內又搜出毒品 台中22歲酒駕男吃飽飯才願接受偵訊",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4892609"
+    },
+    {
+     "title": "台中包手男喝太茫「斷片醉駕還吸毒」　釀1死3傷遭羈押",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20241214/2873558.htm"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20241212b",
+   "title": "台中酒駕男猛撞「3車、3機車、1自行車」！　男騎士搶救無效亡",
+   "date": "2024-12-12",
+   "place": "台中",
+   "summary": "台中發生酒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "快訊／台中酒駕男猛撞「3車、3機車、1自行車」！　男騎士搶救無效亡",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20241212/2872385.htm"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20241126a",
+   "title": "離譜畫面曝！台中男酒駕撞爛民宅圍牆　車上3乘客竟丟下好友跑了",
+   "date": "2024-11-26",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "離譜畫面曝！台中男酒駕撞爛民宅圍牆　車上3乘客竟丟下好友跑了",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20241126/2862043.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20241027a",
+   "title": "台中男無照毒駕撞死人 BMW是媽媽租的！是否須負連帶責任律師揭關鍵",
+   "date": "2024-10-27",
+   "place": "台中",
+   "summary": "台中發生毒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "快訊／台中BMW猴「無照又毒駕」撞死行人　涉4罪遭檢方聲押",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20241027/2843304.htm"
+    },
+    {
+     "title": "台中BMW猴無照還疑毒駕撞死人　「與議員是親戚」媽衝分隊長室談遭質疑",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/story/20241028edi037"
+    },
+    {
+     "title": "快訊／台中BMW猴輾斃行人落跑！　「無照又毒駕」遭裁定羈押",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20241028/2843531.htm"
+    },
+    {
+     "title": "台中BMW猴毒駕撞死行人　遠親議員6字回應：一切依法辦理",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20241028/2843555.htm"
+    },
+    {
+     "title": "台中18歲男無照撞死行人遭收押法院：涉毒駕罪嫌重大",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202410280217.aspx"
+    },
+    {
+     "title": "台中18歲男毒駕BMW撞死人 表姨議員說話了",
+     "outlet": "東森新聞",
+     "url": "https://news.ebc.net.tw/news/society/450595"
+    },
+    {
+     "title": "台中18歲男無照毒駕撞死人 BMW是媽媽租的！是否須負連帶責任律師揭關鍵",
+     "outlet": "知新聞",
+     "url": "https://www.knews.com.tw/news/BBBD2F3EF55F66611491080537E6609C"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20241025a",
+   "title": "酒駕害慘自己！台中男宣稱「恍神」 疑狂飆撞爛轎車受傷",
+   "date": "2024-10-25",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "酒駕害慘自己！台中男宣稱「恍神」 疑狂飆撞爛轎車受傷",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/Taichung/breakingnews/4841710"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20241024a",
+   "title": "超扯！酒駕男國3沙鹿段逆飆4km　無辜自小客被撞爛...3人受傷",
+   "date": "2024-10-24",
+   "place": "沙鹿",
+   "summary": "沙鹿發生酒駕事件。",
+   "sources": [
+    {
+     "title": "超扯！酒駕男國3沙鹿段逆飆4km　無辜自小客被撞爛...3人受傷",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20241024/2841267.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20241016a",
+   "title": "居服員東勢大橋「遭砂石車酒駕撞死」　可憐母淚求監視畫面",
+   "date": "2024-10-16",
+   "place": "台中",
+   "summary": "台中發生酒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "居服員東勢大橋「遭砂石車酒駕撞死」　可憐母淚求監視畫面",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20241016/2836095.htm"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20241009a",
+   "title": "酒駕闖紅燈！瑪沙拉蒂撞飛騎士...台中男慘了　車還是租的",
+   "date": "2024-10-09",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "酒駕闖紅燈！瑪沙拉蒂撞飛騎士...台中50歲男慘了　車還是租的",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20241009/2831955.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20241008a",
+   "title": "台中醉男酒駕翻車還一口氣撞毀8輛汽機車！酒測值0.47受困車內左手骨折",
+   "date": "2024-10-08",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中醉男酒駕翻車還一口氣撞毀8輛汽機車！酒測值0.47受困車內左手骨折",
+     "outlet": "TVBS",
+     "url": "https://cars.tvbs.com.tw/life/217558"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20241006a",
+   "title": "台中連2起翻車！休旅車駕駛分心撞護欄　賓士男酒駕撞分隔島",
+   "date": "2024-10-06",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中連2起翻車！休旅車駕駛分心撞護欄　賓士男酒駕撞分隔島",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20241006/2830110.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20241006b",
+   "title": "歸剛ㄟ！台中賓士撞安全島「烏龜翻」 一測又是酒駕",
+   "date": "2024-10-06",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "歸剛ㄟ！台中賓士撞安全島「烏龜翻」 一測又是酒駕",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2642005"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20240927a",
+   "title": "台中女駕駛暴衝「4車撞一團」釀4傷！他挨撞送醫　意外被揪出酒駕",
+   "date": "2024-09-27",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中女駕駛暴衝「4車撞一團」釀4傷！他挨撞送醫　意外被揪出酒駕",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240927/2824901.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20240927b",
+   "title": "台中4車連撞！女直衝重傷 波及停等紅燈酒駕男慘骨折",
+   "date": "2024-09-27",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中4車連撞！43歲女直衝重傷 波及停等紅燈酒駕男慘骨折",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2632420"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20240922a",
+   "title": "疑毒駕！台中男凌晨撞爛2輛賓士　乖乖交出「喪屍煙彈」+安毒",
+   "date": "2024-09-22",
+   "place": "台中",
+   "summary": "台中發生毒駕事件。",
+   "sources": [
+    {
+     "title": "疑毒駕！台中男凌晨撞爛2輛賓士　乖乖交出「喪屍煙彈」+安毒",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240922/2821383.htm"
+    },
+    {
+     "title": "台中男撞賓士 掏出喪屍煙彈、安毒辯：疲勞駕駛",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2626438"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20240906a",
+   "title": "台中好市多旁傳12聲槍響 「3城市英雄」幫警擋車逮酒駕男",
+   "date": "2024-09-06",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中好市多旁傳12聲槍響 「3城市英雄」幫警擋車逮酒駕男",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E5%A5%BD%E5%B8%82%E5%A4%9A%E6%97%81%E5%82%B312%E8%81%B2%E6%A7%8D%E9%9F%BF-3%E5%9F%8E%E5%B8%82%E8%8B%B1%E9%9B%84-%E5%B9%AB%E8%AD%A6%E6%93%8B%E8%BB%8A%E9%80%AE%E9%85%92%E9%A7%95%E7%94%B7-074127646.html"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20240905a",
+   "title": "台中男酒駕拒捕警連開12槍，熱心民眾見義勇為開車擋道助逮人",
+   "date": "2024-09-05",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "快訊／台中酒駕拒檢「衝撞警車逃逸」　員警連開12槍壓制逮人",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240905/2811637.htm"
+    },
+    {
+     "title": "台中男酒駕拒捕警連開12槍，熱心民眾見義勇為開車擋道助逮人",
+     "outlet": "TVBS",
+     "url": "https://cars.tvbs.com.tw/life/212953"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20240810a",
+   "title": "【警察】台中酒駕男七夕開賓士轉彎GG撞3車1人！肇事逃逸還混進夜店躲警察",
+   "date": "2024-08-10",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中酒駕男七夕開賓士轉彎GG撞3車1人！肇事逃逸還混進夜店躲警察",
+     "outlet": "TVBS",
+     "url": "https://cars.tvbs.com.tw/life/208649"
+    },
+    {
+     "title": "台中夜店員工酒駕撞3車1人肇逃 警循線逮人法辦",
+     "outlet": "FTNN 新聞網",
+     "url": "https://www.ftnn.com.tw/news/282448"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20240729a",
+   "title": "台中男酒駕心虛逃逸反遭逮　K盤丟花圃躲不過警方法眼",
+   "date": "2024-07-29",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中男酒駕心虛逃逸反遭逮　K盤丟花圃躲不過警方法眼",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240729/2786779.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20240711a",
+   "title": "台中建築工開瑪莎拉蒂「海神」 台74線酒駕自撞護欄送辦",
+   "date": "2024-07-11",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中建築工開瑪莎拉蒂「海神」 台74線酒駕自撞護欄送辦",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4733170"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20240705a",
+   "title": "台中女酒駕自撞路邊「1大6小車」側翻躺路中　肇事瞬間畫面曝",
+   "date": "2024-07-05",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中女酒駕自撞路邊「1大6小車」側翻躺路中　肇事瞬間畫面曝",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240705/2771173.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20240702a",
+   "title": "騎車遭救護車撞死台中男大生酒駕案檢方抽眼球液複驗還清白",
+   "date": "2024-07-02",
+   "place": "台中",
+   "summary": "台中發生酒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "騎車遭救護車撞死台中男大生酒駕案檢方抽眼球液複驗還清白",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202407020351.aspx"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20240619a",
+   "title": "台中男吃完燒酒雞騎車回家出車禍　警一查已酒駕7次",
+   "date": "2024-06-19",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中男吃完燒酒雞騎車回家出車禍　警一查已酒駕7次",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240619/2760968.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20240603a",
+   "title": "台中警攔查酒駕　逃逸移工、賓士男都超標",
+   "date": "2024-06-03",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中警攔查酒駕　逃逸移工、賓士男都超標",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240603/2751079.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20240517a",
+   "title": "自撞分隔島竟沒酒測涉包庇　台中巡官：告爆料者妨害名譽",
+   "date": "2024-05-17",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "自撞分隔島竟沒酒測涉包庇　台中巡官：告爆料者妨害名譽",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240517/2740707.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20240426a",
+   "title": "酒駕肇事現形！台中警公布駕駛「醉上路」影像",
+   "date": "2024-04-26",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "酒駕肇事現形！台中警公布駕駛「醉上路」影像",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2468017"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20240423a",
+   "title": "美籍男子酒駕騎車台中海線追風　路口猛撞曳引車...雙腿骨折送醫",
+   "date": "2024-04-23",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "美籍男子酒駕騎車台中海線追風　路口猛撞曳引車...雙腿骨折送醫",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240423/2724882.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20240402a",
+   "title": "5天抓7個！台中「酒駕殺手」連3天逮人　大臨檢宣布延長",
+   "date": "2024-04-02",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "5天抓7個！台中「酒駕殺手」連3天逮人　大臨檢宣布延長",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240402/2712058.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20240331a",
+   "title": "【警察】開保時捷載妹酒駕！台中男拒檢「撞翻員警機車」才下車喊歹勢",
+   "date": "2024-03-31",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "開保時捷載妹酒駕！台中男拒檢「撞翻員警機車」才下車喊歹勢",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/1DRyx5M"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20240324a",
+   "title": "酒駕自撞電線桿翻車 台中男子幸輕傷",
+   "date": "2024-03-24",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "酒駕自撞電線桿翻車 台中男子幸輕傷",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/Taichung/breakingnews/4617851"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20240320a",
+   "title": "死亡車禍！酒駕未讓救護車猛撞 台中男大生頭部重創不治",
+   "date": "2024-03-20",
+   "place": "台中",
+   "summary": "台中發生酒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "快訊／酒駕騎車沒禮讓救護車　台中男大生遭撞頭部重創死亡！",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240320/2703600.htm"
+    },
+    {
+     "title": "死亡車禍！酒駕未讓救護車猛撞 台中22歲男大生頭部重創不治",
+     "outlet": "FTNN 新聞網",
+     "url": "https://www.ftnn.com.tw/news/201746"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20240317a",
+   "title": "台中男載2友自撞翻車　酒測值0.83！喊「不是我開的」被識破",
+   "date": "2024-03-17",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中男載2友自撞翻車　酒測值0.83！喊「不是我開的」被識破",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240317/2701830.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20240204a",
+   "title": "【警察】台中派出所長自戕原因曝 同事處理酒駕案挨告傷害和解不成倍感壓力",
+   "date": "2024-02-04",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中派出所長自戕原因曝 同事處理酒駕案挨告傷害和解不成倍感壓力",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E6%B4%BE%E5%87%BA%E6%89%80%E9%95%B7%E8%87%AA%E6%88%95%E5%8E%9F%E5%9B%A0%E6%9B%9D-%E5%90%8C%E4%BA%8B%E8%99%95%E7%90%86%E9%85%92%E9%A7%95%E6%A1%88%E6%8C%A8%E5%91%8A%E5%82%B7%E5%AE%B3%E5%92%8C%E8%A7%A3%E4%B8%8D%E6%88%90%E5%80%8D%E6%84%9F%E5%A3%93%E5%8A%9B-083006645.html"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20240204b",
+   "title": "台中所長身亡！警揭「身心俱疲」內幕：酒駕男國罵爆衝突",
+   "date": "2024-02-04",
+   "place": "台中",
+   "summary": "台中發生酒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "台中所長身亡！警揭「身心俱疲」內幕：酒駕男國罵爆衝突",
+     "outlet": "東森新聞",
+     "url": "https://news.ebc.net.tw/news/society/404119"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20240122a",
+   "title": "台中男酒駕跑給警追...撞300萬瑞典坦克　氣囊炸開全車5人酒醒",
+   "date": "2024-01-22",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中男酒駕跑給警追...撞300萬瑞典坦克　氣囊炸開全車5人酒醒",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240122/2669020.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20240121a",
+   "title": "台中女大生夜店「熱褲露肚」狂歡 酒駕撞人還嘻笑當街被銬",
+   "date": "2024-01-21",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中女大生夜店「熱褲露肚」狂歡 酒駕撞人還嘻笑當街被銬",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2373962"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20240117a",
+   "title": "GG了！台中男酒駕拒測不甩罰單 「扣押薪水」才嚇壞秒繳",
+   "date": "2024-01-17",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "GG了！台中男酒駕拒測不甩罰單 「扣押薪水」才嚇壞秒繳",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2370580"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
    "id": "d-bmw",
    "title": "台中吸多種毒品開BMW撞死退休公務員 一審判12年多",
    "date": "2024",
@@ -193,6 +4356,1659 @@
      "title": "殯葬業二代吸食多種毒開BMW撞死退休公務員 法官裁定延押2月",
      "outlet": "中時新聞網",
      "url": "https://www.chinatimes.com/realtimenews/20261016001110-260402"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20231124a",
+   "title": "打完工就地開喝！台中男逃1km落網　酒測自信喊：我一定超過",
+   "date": "2023-11-24",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "打完工就地開喝！台中男逃1km落網　酒測自信喊：我一定超過",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20231124/2629743.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20231110a",
+   "title": "台中外送員酒駕車牌被扣　偷別人的掛上露餡...棄車跑百米被逮",
+   "date": "2023-11-10",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中外送員酒駕車牌被扣　偷別人的掛上露餡...棄車跑百米被逮",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20231110/2620076.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20231106a",
+   "title": "台中酒駕男2連撞「棄車落跑」！躲檳榔攤喝奶茶　見警上門還裝傻",
+   "date": "2023-11-06",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中酒駕男2連撞「棄車落跑」！躲檳榔攤喝奶茶　見警上門還裝傻",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20231106/2616968.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20231021a",
+   "title": "台中男醉駕！自撞還跳橋躲警「加罰5罪」　酒測未超標...超傻眼",
+   "date": "2023-10-21",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中男醉駕！自撞還跳橋躲警「加罰5罪」　酒測未超標...超傻眼",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20231021/2606795.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20230912a",
+   "title": "台中賓士女酒駕連撞路邊3車！　這輛「屁股全爛」恐報廢",
+   "date": "2023-09-12",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中賓士女酒駕連撞路邊3車！　這輛「屁股全爛」恐報廢",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230912/2580619.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20230822a",
+   "title": "台中烏日酒駕車禍9傷　6車撞成一團送醫",
+   "date": "2023-08-22",
+   "place": "烏日",
+   "summary": "烏日發生酒駕事件。",
+   "sources": [
+    {
+     "title": "快訊／台中烏日酒駕車禍9傷　6車撞成一團送醫",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230822/2566519.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20230810a",
+   "title": "中市酒駕死傷暴增數冠全台 議員周永鴻再爆交通事故件數也是全國最多",
+   "date": "2023-08-10",
+   "place": "台中",
+   "summary": "台中發生酒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "酒駕死傷人數不減反增 台中市暴增55%竄升全台第一",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2204620"
+    },
+    {
+     "title": "中市酒駕死傷暴增數冠全台 議員周永鴻再爆交通事故件數也是全國最多",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/breakingnews/4394241"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20230808a",
+   "title": "台中女一早酒駕「急左轉」狠撞2騎士　害他骨折gogoro報銷",
+   "date": "2023-08-08",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "獨／台中女一早酒駕「急左轉」狠撞2騎士　害他骨折gogoro報銷",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230808/2556714.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20230709a",
+   "title": "驚險片！台中男酒駕逆向撞路邊3車　挨撞車主神反應逃過一劫",
+   "date": "2023-07-09",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "驚險片！台中男酒駕逆向撞路邊3車　挨撞車主神反應逃過一劫",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230709/2536360.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20230709b",
+   "title": "台中男子酒駕撞3車 騎士機警閃過無人傷",
+   "date": "2023-07-09",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中男子酒駕撞3車 騎士機警閃過無人傷",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2174331"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20230702a",
+   "title": "台中男大生遭酒駕男撞死 母傷痛走不出清晨丟雞蛋撒冥紙洩憤挨告",
+   "date": "2023-07-02",
+   "place": "台中",
+   "summary": "台中發生酒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "台中男大生遭酒駕男撞死 母傷痛走不出清晨丟雞蛋撒冥紙洩憤挨告",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E7%94%B7%E5%A4%A7%E7%94%9F%E9%81%AD%E9%85%92%E9%A7%95%E7%94%B7%E6%92%9E%E6%AD%BB-%E6%AF%8D%E5%82%B7%E7%97%9B%E8%B5%B0%E4%B8%8D%E5%87%BA%E6%B8%85%E6%99%A8%E4%B8%9F%E9%9B%9E%E8%9B%8B%E6%92%92%E5%86%A5%E7%B4%99%E6%B4%A9%E6%86%A4%E6%8C%A8%E5%91%8A-084506194.html"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20230507a",
+   "title": "台中特斯拉自撞斷兩截　豪宅設計總監載友酒駕雙亡...相驗結果曝",
+   "date": "2023-05-07",
+   "place": "台中",
+   "summary": "台中發生酒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "台中酒駕撞護欄 特斯拉「解體」全碎！豪宅設計總監與友慘死",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E9%85%92%E9%A7%95%E6%92%9E%E8%AD%B7%E6%AC%84-%E7%89%B9%E6%96%AF%E6%8B%89-%E8%A7%A3%E9%AB%94-%E5%85%A8%E7%A2%8E-2%E4%BA%BA%E6%90%B6%E6%95%91%E4%B8%8D%E6%B2%BB-024300731.html"
+    },
+    {
+     "title": "台中特斯拉自撞斷兩截　豪宅設計總監載友酒駕雙亡...相驗結果曝",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230508/2494484.htm"
+    },
+    {
+     "title": "台中特斯拉酒駕自撞分隔島2死家屬沉默不語　檢警相驗死因出爐",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1291067"
+    },
+    {
+     "title": "昨晚才在夜店敬酒！台中特斯拉酒駕自撞雙亡 酷炫回憶互動：整個很毛",
+     "outlet": "dailyview.tw",
+     "url": "https://dailyview.tw/popular/detail/21610"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20230507b",
+   "title": "酒駕害了自己！特斯拉台中台74線自撞 2男拋飛身亡",
+   "date": "2023-05-07",
+   "place": "台中",
+   "summary": "台中發生酒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "酒駕害了自己！特斯拉台中台74線自撞 2男拋飛身亡",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4293566"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20230325a",
+   "title": "為閃避機車！台中賓士男酒駕撞入洋酒行釀3傷",
+   "date": "2023-03-25",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "影／為閃避機車！台中賓士男酒駕撞入洋酒行釀3傷",
+     "outlet": "聯合新聞網",
+     "url": "https://autos.udn.com/autos/story/12168/7056063"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20230321a",
+   "title": "台中男子凌晨開RAV4酒駕自撞台灣大道分隔島手腳都斷",
+   "date": "2023-03-21",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "影／台中男子凌晨開RAV4酒駕自撞台灣大道分隔島手腳都斷",
+     "outlet": "聯合新聞網",
+     "url": "https://autos.udn.com/autos/story/12168/7045201"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20230316a",
+   "title": "台中警凌晨揪毒品交易！毒蟲駕車猛衝撞…警急閃連開4槍回擊",
+   "date": "2023-03-16",
+   "place": "台中",
+   "summary": "台中發生毒駕事件。",
+   "sources": [
+    {
+     "title": "台中警凌晨揪毒品交易！毒蟲駕車猛衝撞…警急閃連開4槍回擊",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230316/2460057.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20230313a",
+   "title": "釣蝦場喝到茫！台中女騎士橫越2車道撞救護車　驚人酒測值曝",
+   "date": "2023-03-13",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "釣蝦場喝到茫！台中女騎士橫越2車道撞救護車　驚人酒測值曝",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230313/2458149.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20230310a",
+   "title": "台中女酒駕自撞！車頭撞爛5人受困　警消救出急送醫",
+   "date": "2023-03-10",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "快訊／台中24歲女酒駕自撞！車頭撞爛5人受困　警消救出急送醫",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230310/2456059.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20230212a",
+   "title": "台中男酒駕自撞720萬保時捷718 Cayman GT4 RS直接報銷",
+   "date": "2023-02-12",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "影／台中男酒駕自撞720萬保時捷718 Cayman GT4 RS直接報銷",
+     "outlet": "聯合新聞網",
+     "url": "https://autos.udn.com/autos/story/12168/6966036"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20230208a",
+   "title": "台中酒駕路口連撞2貨車 保時捷起火燒成廢鐵",
+   "date": "2023-02-08",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "快訊／台中巨響！保時捷酒駕連撞2車　車頭起火全毀",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230208/2436027.htm"
+    },
+    {
+     "title": "台中酒駕路口連撞2貨車 保時捷起火燒成廢鐵",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4204651"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20230120a",
+   "title": "台中製刀廠小開金錢豹續攤！酒駕賓士奪1命　竟喊：以為撞到鬼",
+   "date": "2023-01-20",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中製刀廠小開金錢豹續攤！酒駕賓士奪1命　竟喊：以為撞到鬼",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230120/2426990.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20230116a",
+   "title": "台中1死2重傷車禍主嫌前科累累　涉毒駕遭檢聲押",
+   "date": "2023-01-16",
+   "place": "台中",
+   "summary": "台中發生毒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "台中1死2重傷車禍主嫌前科累累　涉毒駕遭檢聲押",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/story/20230117soc009"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20230116b",
+   "title": "台中殺人車禍再添1死！肇逃男是酒駕累犯 剛出獄就奪2命",
+   "date": "2023-01-16",
+   "place": "台中",
+   "summary": "台中發生酒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "台中殺人車禍再添1死！肇逃男是酒駕累犯 剛出獄就奪2命",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2018879"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20221219a",
+   "title": "台中男酒駕撞斷2電桿再撞賓士　車主聽巨響一看心涼了",
+   "date": "2022-12-19",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中男酒駕撞斷2電桿再撞賓士　車主聽巨響一看心涼了",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20221219/2404458.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20221212a",
+   "title": "又是酒駕！台中男撞倒機車衝上分隔島　騎士小腿骨折送醫",
+   "date": "2022-12-12",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "又是酒駕！台中男撞倒機車衝上分隔島　騎士小腿骨折送醫",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20221212/2399207.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20221122a",
+   "title": "台中酒駕男失控撞斷路燈！路人見「基座飛2樓高」嚇壞",
+   "date": "2022-11-22",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中酒駕男失控撞斷路燈！路人見「基座飛2樓高」嚇壞",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20221122/2385881.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20221105a",
+   "title": "友人家中聚餐！自小客車左轉撞機車　台中醉駕駛酒測值曝光",
+   "date": "2022-11-05",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "友人家中聚餐！自小客車左轉撞機車　台中醉駕駛酒測值曝光",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20221105/2373528.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20221006a",
+   "title": "台中男酒駕撞3貼騎士！1家3口摔噴倒地　母急抱女看傷勢",
+   "date": "2022-10-06",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中男酒駕撞3貼騎士！1家3口摔噴倒地　母急抱3歲女看傷勢",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20221006/2352778.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20220929a",
+   "title": "台中公佈12名酒駕、拒測累犯！ 2人10年內被逮3次",
+   "date": "2022-09-29",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中公佈12名酒駕、拒測累犯！ 2人10年內被逮3次",
+     "outlet": "民視新聞",
+     "url": "https://www.ftvnews.com.tw/news/detail/2022929W0223"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20220913a",
+   "title": "綠營台中市議員候選人林義偉酒駕被逮 臉書宣布：退選、退黨",
+   "date": "2022-09-13",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "綠營台中市議員候選人林義偉酒駕被逮 臉書宣布：退選、退黨",
+     "outlet": "上報",
+     "url": "https://www.upmedia.mg/tw/focus/focus/154053"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20220909a",
+   "title": "中市霧峰傳死亡車禍 無照高中生遭酒駕男撞飛不治",
+   "date": "2022-09-09",
+   "place": "霧峰",
+   "summary": "霧峰發生酒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "中市霧峰傳死亡車禍 無照高中生遭酒駕男撞飛不治",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20220909003091-260402"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20220909b",
+   "title": "霧峰男酒駕闖紅燈…機車攔腰撞上男騎士傷重不治",
+   "date": "2022-09-09",
+   "place": "霧峰",
+   "summary": "霧峰發生酒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "影／霧峰男酒駕闖紅燈…機車攔腰撞上男騎士傷重不治",
+     "outlet": "聯合新聞網",
+     "url": "https://video.udn.com/news/1246735"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20220830a",
+   "title": "台中BMW男拒檢撞警車再撞路樹　藏毒駕駛遭壓制...柴犬嚇到閃尿",
+   "date": "2022-08-30",
+   "place": "台中",
+   "summary": "台中發生毒駕事件。",
+   "sources": [
+    {
+     "title": "台中BMW男拒檢撞警車再撞路樹　藏毒駕駛遭壓制...柴犬嚇到閃尿",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20220830/2327607.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20220829a",
+   "title": "KTV唱到天亮還上路醉駕！台中男追撞前車　吹氣0.6賴給燒酒雞",
+   "date": "2022-08-29",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "KTV唱到天亮還上路醉駕！台中男追撞前車　吹氣0.6賴給燒酒雞",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20220829/2326934.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20220826a",
+   "title": "泡夜店喝整晚酒測值0.8！ 男子酒駕賓士高速自撞台中文心路分隔島",
+   "date": "2022-08-26",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "泡夜店喝整晚酒測值0.8！ 男子酒駕賓士高速自撞台中文心路分隔島",
+     "outlet": "聯合新聞網",
+     "url": "https://autos.udn.com/autos/story/12168/6565624"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20220811a",
+   "title": "台中榮總旁賓士自撞！鏟斷路燈路牌翻覆　駕駛疑酒駕落跑",
+   "date": "2022-08-11",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "快訊／台中榮總旁賓士自撞！鏟斷路燈路牌翻覆　駕駛疑酒駕落跑",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20220811/2313958.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20220708a",
+   "title": "台中紅髮醉男路口突停車...衰騎士撞上慘斷腿　破表酒測值曝光",
+   "date": "2022-07-08",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中紅髮醉男路口突停車...衰騎士撞上慘斷腿　破表酒測值曝光",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20220708/2289804.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20220619a",
+   "title": "台中工人酒駕拒檢警受傷 警當街「金臂勾」撂倒完勝",
+   "date": "2022-06-19",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中工人酒駕拒檢警受傷 警當街「金臂勾」撂倒完勝",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/3965214"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20220609a",
+   "title": "左轉一個move冒煙了！台中男連撞6車...驚人酒測值曝",
+   "date": "2022-06-09",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "左轉一個move冒煙了！台中男連撞6車...驚人酒測值曝",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20220609/2269508.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20220522a",
+   "title": "史上最慢速車禍！台中正妹酒駕　滑行飄過路口連撞2機車",
+   "date": "2022-05-22",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "史上最慢速車禍！台中19歲正妹酒駕　滑行飄過路口連撞2機車",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20220522/2256561.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20220509a",
+   "title": "台中酒駕女追撞「載運晶片車」！男友喬不攏…下場恐賠慘",
+   "date": "2022-05-09",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中28歲酒駕女追撞「載運晶片車」！男友喬不攏…下場恐賠慘",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20220509/2246830.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20220508a",
+   "title": "台中女酒駕追撞貨車再撞護欄　愛車右半邊幾乎削掉",
+   "date": "2022-05-08",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中女酒駕追撞貨車再撞護欄　愛車右半邊幾乎削掉",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20220508/2246473.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20220501a",
+   "title": "酒駕自撞害女友亡…台中渣男落跑！死者爸媽淚控：蓄意謀殺",
+   "date": "2022-05-01",
+   "place": "台中",
+   "summary": "台中發生酒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "台中里長酒駕自撞電桿 里民控：已是第4次",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/gzBGR3N"
+    },
+    {
+     "title": "酒駕自撞害女友亡…台中渣男落跑！死者爸媽淚控：蓄意謀殺",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20220503/2242823.htm"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20220325a",
+   "title": "畫面曝光！女騎士被撞飛墜地不治 台中BMW酒駕肇逃再撞2車",
+   "date": "2022-03-25",
+   "place": "台中",
+   "summary": "台中發生酒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "撞擊片曝光！台中BMW酒駕「鏟飛」女騎士落地亡 肇逃再撞2車",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20220325002137-260402"
+    },
+    {
+     "title": "又是酒駕！台中女被撞飛倒血泊慘死 無照男秒開溜再撞2車",
+     "outlet": "東森新聞",
+     "url": "https://news.ebc.net.tw/news/society/308760"
+    },
+    {
+     "title": "畫面曝光！女騎士被撞飛墜地不治 台中BMW酒駕肇逃再撞2車",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/Taichung/breakingnews/3871349"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20220306a",
+   "title": "毒駕自撞安全島！台中男癱躺駕駛座　手裡還緊抓針頭",
+   "date": "2022-03-06",
+   "place": "台中",
+   "summary": "台中發生毒駕事件。",
+   "sources": [
+    {
+     "title": "毒駕自撞安全島！台中男癱躺駕駛座　手裡還緊抓針頭",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20220306/2202251.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20220124a",
+   "title": "台中大雅東大路深夜計程車車禍1死1傷 法醫判定酒駕釀禍",
+   "date": "2022-01-24",
+   "place": "大雅",
+   "summary": "大雅發生酒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "台中大雅東大路深夜計程車車禍1死1傷 法醫判定酒駕釀禍",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/3810921"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20211021a",
+   "title": "孝子遭酒駕撞癱13年全家陷困境 中市府轉介資源助度難關",
+   "date": "2021-10-21",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "孝子遭酒駕撞癱13年全家陷困境 中市府轉介資源助度難關",
+     "outlet": "台灣好新聞",
+     "url": "https://www.taiwanhot.net/news/977094/%E5%AD%9D%E5%AD%90%E9%81%AD%E9%85%92%E9%A7%95%E6%92%9E%E7%99%B113%E5%B9%B4%E5%85%A8%E5%AE%B6%E9%99%B7%E5%9B%B0%E5%A2%83+%E4%B8%AD%E5%B8%82%E5%BA%9C%E8%BD%89%E4%BB%8B%E8%B3%87%E6%BA%90%E5%8A%A9%E5%BA%A6%E9%9B%A3%E9%97%9C"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20210928a",
+   "title": "台中2車凌晨對撞！賓士下秒「再撞圍籬」車頭全爛　酒測高達1.1",
+   "date": "2021-09-28",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中2車凌晨對撞！賓士下秒「再撞圍籬」車頭全爛　酒測高達1.1",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20210928/2088897.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20210824a",
+   "title": "台中角頭「要命小方」愛妻駕賓士撞翻3車 酒測竟藉「尿遁」落跑24hr",
+   "date": "2021-08-24",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中角頭「要命小方」愛妻駕賓士撞翻3車 酒測竟藉「尿遁」落跑24hr",
+     "outlet": "上報",
+     "url": "https://www.upmedia.mg/tw/focus/focus/122448"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20210505a",
+   "title": "台中美髮師酒駕撞死7旬婦！警證實死者是「名嘴黃暐瀚母親」",
+   "date": "2021-05-05",
+   "place": "台中",
+   "summary": "台中發生酒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "酒駕撞殺黃暐瀚媽…台中美髮師正面照曝光！「3招式跳針」狂詭辯",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20210505/1974917.htm"
+    },
+    {
+     "title": "快訊／台中美髮師酒駕撞死7旬婦！警證實死者是「名嘴黃暐瀚母親」",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20210505/1974796.htm"
+    },
+    {
+     "title": "驚悚撞擊曝光！台中賓士男醉駕飆撞女路人　拖行逾50米奪命",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20210505/1974599.htm"
+    },
+    {
+     "title": "快訊／台中賓士男酒駕撞女路人！　拖行超過50公尺頭破命危",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20210505/1974560.htm"
+    },
+    {
+     "title": "慟／台中男酒駕撞死7旬婦　死者為名嘴黃暐瀚母親",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/934790"
+    },
+    {
+     "title": "黃暐瀚70歲母親遭台中美髮師拖行亡　名嘴怒：酒駕真他X該死",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20210505/1974847.htm"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20210425a",
+   "title": "台中賓士酒駕撞3車3傷　議員掛彩：被撞成連體嬰！曝「小綠」慘照",
+   "date": "2021-04-25",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中賓士酒駕撞3車3傷　議員掛彩：被撞成連體嬰！曝「小綠」慘照",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20210425/1967626.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20210418a",
+   "title": "台中酒店經紀酒駕追撞！遛狗男重傷昏迷...2隻狗狗逃回家",
+   "date": "2021-04-18",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中酒店經紀酒駕追撞！遛狗男重傷昏迷...2隻狗狗逃回家",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20210418/1962732.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20210404a",
+   "title": "台中賓士女酒駕撞機車　車沒停直接開去醫院等傷者",
+   "date": "2021-04-04",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中賓士女酒駕撞機車　車沒停直接開去醫院等傷者",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20210404/1953124.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20210129a",
+   "title": "毒駕撞死台中女大生　檢察官怒了！請求法官判重刑",
+   "date": "2021-01-29",
+   "place": "台中",
+   "summary": "台中發生毒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "毒駕撞死台中女大生　檢察官怒了！請求法官判重刑",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/889958"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20201122a",
+   "title": "台中男毒駕「撞死女騎士」5萬元交保　姊姊怒嗆法官：憑什麼",
+   "date": "2020-11-22",
+   "place": "台中",
+   "summary": "台中發生毒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "台中男毒駕「撞死25歲女騎士」5萬元交保　姊姊怒嗆法官：憑什麼",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20201122/1860467.htm"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20201114a",
+   "title": "酒測值逼近1！台中業務撞死焊接工「認喝茫」　家屬怒：爸爸沒了",
+   "date": "2020-11-14",
+   "place": "台中",
+   "summary": "台中發生酒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "酒測值逼近1！台中業務撞死焊接工「認喝茫」　家屬怒：爸爸沒了",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20201114/1854163.htm"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20201101a",
+   "title": "台中無業男開老爸敞篷車跑趴　酒駕「一路偏右」連撞6機車",
+   "date": "2020-11-01",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中無業男開老爸敞篷車跑趴　酒駕「一路偏右」連撞6機車",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20201101/1844428.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20200929a",
+   "title": "台中男酒駕撞「千斤水泥」　側翻橫躺台灣大道",
+   "date": "2020-09-29",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中男酒駕撞「千斤水泥」　側翻橫躺台灣大道",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20200929/1820291.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20200815a",
+   "title": "台中計程車運將酒駕撞中央分隔島　「腹部嚴重出血」身亡",
+   "date": "2020-08-15",
+   "place": "台中",
+   "summary": "台中發生酒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "台中計程車運將酒駕撞中央分隔島　「腹部嚴重出血」身亡",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20200815/1785359.htm"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20200709a",
+   "title": "抽血酒測「不具法庭證據能力」！台中男自摔挨罰1.5萬　勝訴罰單判免繳",
+   "date": "2020-07-09",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "抽血酒測「不具法庭證據能力」！台中男自摔挨罰1.5萬　勝訴罰單判免繳",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20200709/1756431.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20200531a",
+   "title": "台中男酒駕載2妹！遇警加速逃撞3車1死2傷　目擊者：計程車都飛走了",
+   "date": "2020-05-31",
+   "place": "台中",
+   "summary": "台中發生酒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "台中26歲男酒駕載2妹！遇警加速逃撞3車1死2傷　目擊者：計程車都飛走了",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20200531/1726505.htm"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20200519a",
+   "title": "台中「5車連環撞」！黑車側翻2人輕傷　賓士男酒測超標",
+   "date": "2020-05-19",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中「5車連環撞」！黑車側翻2人輕傷　賓士男酒測超標",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20200519/1717670.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20200519b",
+   "title": "疑酒駕車禍 中市5車撞一團還翻車",
+   "date": "2020-05-19",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "疑酒駕車禍 中市5車撞一團還翻車",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/3170234"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20200513a",
+   "title": "酒駕撞死單車騎士！台中男「肇逃再自首」　賠408萬獲緩刑",
+   "date": "2020-05-13",
+   "place": "台中",
+   "summary": "台中發生酒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "酒駕撞死單車騎士！台中男「肇逃再自首」　賠408萬獲緩刑",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20200513/1712977.htm"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20200505a",
+   "title": "台中男「酒測未超標」心虛逃逸還摔車　反吃闖紅燈罰單1800元",
+   "date": "2020-05-05",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中男「酒測未超標」心虛逃逸還摔車　反吃闖紅燈罰單1800元",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20200505/1707219.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20200503a",
+   "title": "台中酒駕男拒檢催油門連撞3車翻覆　5人狼狽逃出乘客連坐處分",
+   "date": "2020-05-03",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中酒駕男拒檢催油門連撞3車翻覆　5人狼狽逃出乘客連坐處分",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20200503/1705391.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20200414a",
+   "title": "台中女酒駕撞斷電桿！「4人卡擠前座」意識模糊送醫",
+   "date": "2020-04-14",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中女酒駕撞斷電桿！「4人卡擠前座」意識模糊送醫",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20200414/1690947.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20200404a",
+   "title": "【警察】台中弟「飆腳踏車」撞上特斯拉...下秒霸氣接受酒測　霧峰分局回應了",
+   "date": "2020-04-04",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中5歲弟「飆腳踏車」撞上特斯拉...下秒霸氣接受酒測　霧峰分局回應了",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20200404/1683721.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20200331a",
+   "title": "沙鹿連環車禍1死6傷...重機「遭前後夾擊」燒成火球！BMW酒駕男扯辯：煞車不及",
+   "date": "2020-03-31",
+   "place": "沙鹿",
+   "summary": "沙鹿發生酒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "快訊／台中BMW男酒駕「連撞5車」　2車猛烈燃燒1死6傷",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20200331/1681396.htm"
+    },
+    {
+     "title": "「沙鹿1死6傷車禍」BMW男超速又酒駕結果是…飭回　檢：他積極談和解",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20200401/1682263.htm"
+    },
+    {
+     "title": "沙鹿連環車禍1死6傷...重機「遭前後夾擊」燒成火球！BMW酒駕男扯辯：煞車不及",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20200401/1681577.htm"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20191223a",
+   "title": "台中女酒後載一家4口自撞電桿　頸部重傷還要面臨酒駕刑責",
+   "date": "2019-12-23",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中女酒後載一家4口自撞電桿　頸部重傷還要面臨酒駕刑責",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20191223/1608383.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20191129a",
+   "title": "台中騎士酒駕拒檢！深夜見警「關燈狂飆」連闖14紅燈　逆向撞巡邏車栽了",
+   "date": "2019-11-29",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中騎士酒駕拒檢！深夜見警「關燈狂飆」連闖14紅燈　逆向撞巡邏車栽了",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20191129/1590896.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20191118a",
+   "title": "台中休旅車拖行機車3百米起火！騎士彈飛命大輕傷　酒駕男落跑還「丟包」",
+   "date": "2019-11-18",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "影／台中休旅車拖行機車3百米起火！騎士彈飛命大輕傷　酒駕男落跑還「丟包」",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20191118/1582271.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20191111a",
+   "title": "「奧斯頓馬丁」自撞車主曝光！政商實力驚人...大里農會常監林永鑫涉酒駕",
+   "date": "2019-11-11",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "「奧斯頓馬丁」自撞車主曝光！政商實力驚人...大里農會常監林永鑫涉酒駕",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20191111/1577449.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20191110a",
+   "title": "台中酒駕逃逸警亮槍喝令下車　對向BMW男看戲太入迷撞賓士",
+   "date": "2019-11-10",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "影／台中酒駕逃逸警亮槍喝令下車　對向BMW男看戲太入迷撞賓士",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20191110/1576465.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20191107a",
+   "title": "台中男酒駕噴飛！臉朝下「五官磨平」百萬野馬撞爛　母見屍崩潰",
+   "date": "2019-11-07",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "影／台中男酒駕噴飛！臉朝下「五官磨平」百萬野馬撞爛　母見屍崩潰",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20191107/1574766.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20191019a",
+   "title": "酒駕開保時捷上中彰！台中醉男追撞大貨車　百萬休旅燒成廢鐵",
+   "date": "2019-10-19",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "酒駕開保時捷上中彰！台中醉男追撞大貨車　百萬休旅燒成廢鐵",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20191019/1560535.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20191002a",
+   "title": "台中BMW遇警攔查酒駕加速衝撞　輾過警用機車再棄車逃",
+   "date": "2019-10-02",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中BMW遇警攔查酒駕加速衝撞　輾過警用機車再棄車逃",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20191002/1547652.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20190722a",
+   "title": "台中女酒駕「迴轉式3度衝撞」遶境信眾　目擊者：她像瘋了一樣…",
+   "date": "2019-07-22",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中女酒駕「迴轉式3度衝撞」遶境信眾　目擊者：她像瘋了一樣…",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20190722/1495765.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20190716a",
+   "title": "垃圾車司機3月才酒駕　撞死晨運老婦前又喝　中市府：下次從嚴審核",
+   "date": "2019-07-16",
+   "place": "台中",
+   "summary": "台中發生酒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "垃圾車司機3月才酒駕　撞死晨運老婦前又喝　中市府：下次從嚴審核",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20190716/1491148.htm"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20190716b",
+   "title": "台中晨運嬤被垃圾車輾斃　家屬控：偵查庭結束才知司機無照酒駕",
+   "date": "2019-07-16",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中晨運嬤被垃圾車輾斃　家屬控：偵查庭結束才知司機無照酒駕",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20190716/1490759.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20190710a",
+   "title": "酒測值高達1.26！台中男酒駕「自撞轎車」　居民嚇傻：以為氣爆",
+   "date": "2019-07-10",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "酒測值高達1.26！台中男酒駕「自撞轎車」　居民嚇傻：以為氣爆",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20190710/1486581.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20190603a",
+   "title": "台中男酒駕載2女撞電桿、撞斷引導牌　車卡圍籬成廢鐵",
+   "date": "2019-06-03",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中男酒駕載2女撞電桿、撞斷引導牌　車卡圍籬成廢鐵",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20190603/1458877.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20190531a",
+   "title": "妹妹遭酒駕撞死「沒道歉」　中市議員黃馨慧：酒駕累犯應處死",
+   "date": "2019-05-31",
+   "place": "台中",
+   "summary": "台中發生酒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "妹妹遭酒駕撞死「沒道歉」　中市議員黃馨慧：酒駕累犯應處死",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20190531/1457169.htm"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20190526a",
+   "title": "台中男酒駕！左轉撞進民宅「大門全毀」　被逮辯：是車突暴衝",
+   "date": "2019-05-26",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "台中男酒駕！左轉撞進民宅「大門全毀」　被逮辯：是車突暴衝",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20190526/1453418.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20190330a",
+   "title": "酒駕通緝犯5年4犯躲台中　竟又不戴安全帽酒駕被活逮",
+   "date": "2019-03-30",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "酒駕通緝犯5年4犯躲台中　竟又不戴安全帽酒駕被活逮",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20190330/1411585.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20190307a",
+   "title": "台中賓士男無照酒駕！載女友3秒撞飛兄妹　老母心痛「擦淚搥胸」：怎麼辦",
+   "date": "2019-03-07",
+   "place": "台中",
+   "summary": "台中發生酒駕事件。",
+   "sources": [
+    {
+     "title": "影／台中賓士男無照酒駕！載女友3秒撞飛兄妹　老母心痛「擦淚搥胸」：怎麼辦",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20190307/1393239.htm"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-i20190227a",
+   "title": "台中酒駕男撞死人 求處10年重刑、沒收車輛",
+   "date": "2019-02-27",
+   "place": "台中",
+   "summary": "台中發生酒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "台中酒駕男撞死人 求處10年重刑、沒收車輛",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/423911"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20190219a",
+   "title": "沙鹿醉駕駛「撞3行人釀2死」還找人頂罪　家屬怒：不值得原諒",
+   "date": "2019-02-19",
+   "place": "沙鹿",
+   "summary": "沙鹿發生酒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "沙鹿醉駕駛「撞3行人釀2死」還找人頂罪　家屬怒：不值得原諒",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20190219/1381346.htm"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20190213a",
+   "title": "大里酒駕案男大生遭撞死　彭母泣：把孩子的命還來",
+   "date": "2019-02-13",
+   "place": "大里",
+   "summary": "大里發生酒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "大里酒駕案男大生遭撞死　彭母泣：把孩子的命還來",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20190213/1377420.htm"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20190202a",
+   "title": "台中酒駕累犯奪2命！逆向狂衝1公里連撞8車　雙載男女不治",
+   "date": "2019-02-02",
+   "place": "台中",
+   "summary": "台中發生酒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "台中酒駕累犯奪2命！逆向狂衝1公里連撞8車　雙載男女不治",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20190202/1372105.htm"
+    }
+   ],
+   "fear": [
+    "X",
+    "D"
+   ]
+  },
+  {
+   "id": "d-i20190124a",
+   "title": "台中大里3車撞3死3傷 腎友深夜跑車遭酒駕攔腰撞亡",
+   "date": "2019-01-24",
+   "place": "大里",
+   "summary": "大里發生酒駕事件，有人死亡。",
+   "sources": [
+    {
+     "title": "台中大里3車撞3死3傷 腎友深夜跑車遭酒駕攔腰撞亡",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/2681729"
+    },
+    {
+     "title": "台中車禍3死3傷 警方：廂型車駕駛酒駕肇事",
+     "outlet": "東森新聞",
+     "url": "https://news.ebc.net.tw/news/society/149764"
     }
    ],
    "fear": [

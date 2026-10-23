@@ -1,7 +1,7 @@
 {
  "title": "台中市府媒體標案",
  "note": "整理自政府電子採購網公開的決標公告（經 g0v 政府採購資料 API 查詢，2026-10-22），統計台中市各機關 2019～2026 年決標給各媒體公司的金額，含契約變更",
- "updated": "2026-10-22",
+ "updated": "2026-10-24",
  "records": [
   {
    "id": "b-ebc",
@@ -310,6 +310,75 @@
    ]
   },
   {
+   "id": "b-i20260816a",
+   "title": "議員批市長只說標案可上網查 卻不面對親人利益迴避問題",
+   "date": "2026-08-16",
+   "place": "台中",
+   "summary": "台中市府或公部門標案、採購出現爭議。",
+   "sources": [
+    {
+     "title": "鍋烤節變「姊妹同鍋宴」？中市府1400萬宣傳案中視得標 律師轟：都不用利益迴避嗎？",
+     "outlet": "fountmedia.io",
+     "url": "https://www.fountmedia.io/article/414208"
+    },
+    {
+     "title": "轟盧秀燕親妹拿中市府1400萬標案 黃守達：盧媽媽三寶「撒幣、抽獎、個人秀」",
+     "outlet": "台灣好新聞",
+     "url": "https://www.taiwanhot.net/news/1145263/%E8%BD%9F%E7%9B%A7%E7%A7%80%E7%87%95%E8%A6%AA%E5%A6%B9%E6%8B%BF%E4%B8%AD%E5%B8%82%E5%BA%9C1400%E8%90%AC%E6%A8%99%E6%A1%88+%E9%BB%83%E5%AE%88%E9%81%94%EF%BC%9A%E7%9B%A7%E5%AA%BD%E5%AA%BD%E4%B8%89%E5%AF%B6%E3%80%8C%E6%92%92%E5%B9%A3%E3%80%81%E6%8A%BD%E7%8D%8E%E3%80%81%E5%80%8B%E4%BA%BA%E7%A7%80%E3%80%8D"
+    },
+    {
+     "title": "盧秀燕妹拿下1400萬標案　中市經發局長：不是我妹，沒利益迴避問題",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/external/mnews_20260818nm031"
+    },
+    {
+     "title": "盧秀芳拿台中1400萬標案 議員質疑盧秀燕未利益迴避",
+     "outlet": "epochtimes.com.tw",
+     "url": "https://www.epochtimes.com.tw/n511221/%E7%9B%A7%E7%A7%80%E8%8A%B3%E6%8B%BF%E5%8F%B0%E4%B8%AD1400%E8%90%AC%E6%A8%99%E6%A1%88-%E8%AD%B0%E5%93%A1%E8%B3%AA%E7%96%91%E7%9B%A7%E7%A7%80%E7%87%95%E6%9C%AA%E5%88%A9%E7%9B%8A%E8%BF%B4%E9%81%BF.html"
+    },
+    {
+     "title": "民進黨台中市議員林德宇痛批，盧秀燕市長只敢說標案公開公平可以上網查，但盧秀燕市長卻不敢面對自己親人利益迴避的問題",
+     "outlet": "遠方新聞",
+     "url": "https://yuanfengmedia.tw/detail.php"
+    }
+   ],
+   "fear": [
+    "M"
+   ]
+  },
+  {
+   "id": "b-i20260811a",
+   "title": "中市府採購洩密案 標案未公告先把企畫規格洩給廠商",
+   "date": "2026-08-11",
+   "place": "台中",
+   "summary": "前市府祕書涉嫌在標案公告前，先把企畫與規格洩漏給特定廠商；檢調搜索市府，相關人士交保。",
+   "sources": [
+    {
+     "title": "涉中市府採購洩密案參議顏迺倫、前北市發言人李政軒交保",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202608110060.aspx"
+    },
+    {
+     "title": "中市府遭搜索不只洩密？ 李正皓爆恐涉圖利綁標：核心人物是李政軒- 政治",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/politics/breakingnews/5536704"
+    },
+    {
+     "title": "盧秀燕愛將洩密／標案沒公告先洩企畫規格給廠商　前台中市府祕書涉弊內幕",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/story/20260817inv003"
+    },
+    {
+     "title": "盧秀燕愛將洩密／標案沒公告先洩企畫規格給廠商 前台中市府祕書涉弊內幕",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E7%9B%A7%E7%A7%80%E7%87%95%E6%84%9B%E5%B0%87%E6%B4%A9%E5%AF%86-%E6%A8%99%E6%A1%88%E6%B2%92%E5%85%AC%E5%91%8A%E5%85%88%E6%B4%A9%E4%BC%81%E7%95%AB%E8%A6%8F%E6%A0%BC%E7%B5%A6%E5%BB%A0%E5%95%86-%E5%89%8D%E5%8F%B0%E4%B8%AD%E5%B8%82%E5%BA%9C%E7%A5%95%E6%9B%B8%E6%B6%89%E5%BC%8A%E5%85%A7%E5%B9%95-232859487.html"
+    }
+   ],
+   "fear": [
+    "M"
+   ]
+  },
+  {
    "id": "b-compare",
    "title": "對照：三立、民視同期得標金額",
    "date": "2019～2026",
@@ -340,6 +409,142 @@
      "outlet": "政府電子採購網・g0v 整理",
      "url": "https://pcc-api.openfun.app/index/case/3.87.33.40/114058/20250613/BDM-1-70900980"
     }
+   ]
+  },
+  {
+   "id": "b-i20251028a",
+   "title": "台中水湳經貿段6、8地號設定地上權案「等嘸人」又流標",
+   "date": "2025-10-28",
+   "place": "台中",
+   "summary": "台中市府或公部門標案、採購出現爭議。",
+   "sources": [
+    {
+     "title": "台中水湳經貿段6、8地號設定地上權案「等嘸人」又流標",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7241/9100628"
+    }
+   ],
+   "fear": [
+    "M"
+   ]
+  },
+  {
+   "id": "b-i20251017a",
+   "title": "台中監視器弊案連環爆！議員揭偷工減料還可續接工程",
+   "date": "2025-10-17",
+   "place": "台中",
+   "summary": "台中市府或公部門標案、採購出現爭議。",
+   "sources": [
+    {
+     "title": "台中監視器弊案連環爆！議員揭偷工減料還可續接工程",
+     "outlet": "extra.rakuya.com.tw",
+     "url": "https://extra.rakuya.com.tw/house_news/59925.html"
+    }
+   ],
+   "fear": [
+    "M"
+   ]
+  },
+  {
+   "id": "b-i20250417a",
+   "title": "台中州廳封館修復近5年 2期工程流標恐延宕開放",
+   "date": "2025-04-17",
+   "place": "台中",
+   "summary": "台中市府或公部門標案、採購出現爭議。",
+   "sources": [
+    {
+     "title": "台中州廳封館修復近5年 2期工程流標恐延宕開放",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/747165"
+    }
+   ],
+   "fear": [
+    "M"
+   ]
+  },
+  {
+   "id": "b-i20241121a",
+   "title": "傳播公司長年得圓滿劇場清潔標案惹議 台中文化局回應了",
+   "date": "2024-11-21",
+   "place": "台中",
+   "summary": "台中市府或公部門標案、採購出現爭議。",
+   "sources": [
+    {
+     "title": "傳播公司長年得圓滿劇場清潔標案惹議 台中文化局回應了",
+     "outlet": "cnews.com.tw",
+     "url": "https://cnews.com.tw/237241121a04/"
+    }
+   ],
+   "fear": [
+    "M"
+   ]
+  },
+  {
+   "id": "b-i20240704a",
+   "title": "王義川酸中市府聘藍委當採購案評選「全台首創」 羅廷瑋回應了",
+   "date": "2024-07-04",
+   "place": "台中",
+   "summary": "台中市府或公部門標案、採購出現爭議。",
+   "sources": [
+    {
+     "title": "王義川酸中市府聘藍委當採購案評選「全台首創」 羅廷瑋回應了",
+     "outlet": "壹蘋新聞網",
+     "url": "https://news.nextapple.com/politics/20240704/E44458BDC978DEAE72AB67B4BCCA10FF"
+    }
+   ],
+   "fear": [
+    "M"
+   ]
+  },
+  {
+   "id": "b-i20210716a",
+   "title": "【警察】台中青年PO文急問新任警局長　先解決6度流標的合作所遷建案",
+   "date": "2021-07-16",
+   "place": "台中",
+   "summary": "台中市府或公部門標案、採購出現爭議。",
+   "sources": [
+    {
+     "title": "台中青年PO文急問新任警局長　先解決6度流標的合作所遷建案",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20210716/2032384.htm"
+    }
+   ],
+   "fear": [
+    "M"
+   ]
+  },
+  {
+   "id": "b-i20210710a",
+   "title": "台中市模範生獎牌被控中國製 教育局：符合採購招標規定",
+   "date": "2021-07-10",
+   "place": "台中",
+   "summary": "台中市府或公部門標案、採購出現爭議。",
+   "sources": [
+    {
+     "title": "台中市模範生獎牌被控中國製 教育局：符合採購招標規定",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/Taichung/breakingnews/3599096"
+    }
+   ],
+   "fear": [
+    "M"
+   ]
+  },
+  {
+   "id": "b-i20190621a",
+   "title": "議員質詢生廚餘桶「綠圓寶」採購案 中市府：已送司法調查",
+   "date": "2019-06-21",
+   "place": "台中",
+   "summary": "台中市府或公部門標案、採購出現爭議。",
+   "sources": [
+    {
+     "title": "議員質詢生廚餘桶「綠圓寶」採購案 中市府：已送司法調查",
+     "outlet": "風傳媒",
+     "url": "https://www.storm.mg/article/1407722"
+    }
+   ],
+   "fear": [
+    "M"
    ]
   }
  ]
