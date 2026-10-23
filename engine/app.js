@@ -9,7 +9,8 @@ import { sfx } from "./sfx.js?v=10";
 import { createShore } from "./shore.js?v=1";
 import { createTreeEgg } from "./treeegg.js?v=2";
 import { createMemes } from "./memes.js?v=10";
-import { createEggs } from "./eggs.js?v=8";
+import { createEggs } from "./eggs.js?v=9";
+import { mountAirGift } from "./airgift.js?v=1";
 import { icon, skulls } from "./icons.js?v=1";
 
 const $ = (s) => document.querySelector(s),
@@ -313,7 +314,12 @@ try {
   });
 
   createMusic($("#music-toggle"));
-  const eggs = createEggs({ root: $("#eggs"), onGift: () => sfx.air() });
+  let unmountGift;
+  const eggs = createEggs({
+    root: $("#eggs"),
+    onGift: (el) => (sfx.air(), (unmountGift = mountAirGift(THREE, el))),
+    onGiftClose: () => unmountGift?.(),
+  });
   // each easter egg reports itself once to the tracker, then plays its sound as before
   const egg = (k, fn) => (...a) => (eggs.found(k), fn?.(...a));
   let lumaTaps = 0; // the 谷關空氣 gift comes on the tenth tap

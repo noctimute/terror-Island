@@ -20,7 +20,7 @@ export const EGGS = [
 
 const KEY = "terror-island-eggs";
 
-export function createEggs({ root, onFound, onGift }) {
+export function createEggs({ root, onFound, onGift, onGiftClose }) {
   let got = new Set();
   try {
     got = new Set(JSON.parse(localStorage.getItem(KEY) || "[]").filter((k) => EGGS.some((e) => e[0] === k)));
@@ -29,7 +29,7 @@ export function createEggs({ root, onFound, onGift }) {
   root.innerHTML = `<button class="egg-pill" aria-expanded="false"><span class="egg-ico">🥚</span><span class="egg-count"></span></button>
 <div class="egg-panel" hidden><div class="egg-head"><b>彩蛋任務</b><span class="egg-left"></span></div><div class="egg-bar"><i></i></div><ul></ul><div class="egg-foot"><button class="egg-reset">歸零重找</button><span class="egg-ask" hidden>紀錄全部歸零？<button class="egg-yes">歸零</button><button class="egg-no">取消</button></span></div></div>
 <div class="egg-toast" aria-live="polite"></div>
-<div class="egg-done egg-gift" hidden role="dialog" aria-modal="true" aria-label="谷關空氣"><div class="egg-done-card"><img src="../lumama/air-gift.jpg" alt="四支印著「谷關空氣 Air of Guguan 市長 盧秀燕 臺中市第三屆市長就職典禮紀念」的空玻璃瓶" width="696" height="454"><div class="egg-done-text"><small>A GIFT FROM LUMAMA</small><b>谷關空氣</b><p>臺中市第三屆市長就職典禮紀念品，送給市民的第一份禮物。<br>內容物：空氣。</p><button>收下</button></div></div></div>
+<div class="egg-done egg-gift" hidden role="dialog" aria-modal="true" aria-label="谷關空氣"><div class="egg-done-card"><div class="gift-view" role="img" aria-label="三支印著「谷關空氣 Air of Guguan」的空玻璃紀念瓶"></div><div class="egg-done-text"><small>A GIFT FROM LUMAMA</small><b>谷關空氣</b><p>臺中市第三屆市長就職典禮紀念品，送給市民的第一份禮物。<br>內容物：空氣。</p><button>收下</button></div></div></div>
 <div class="egg-done" hidden role="dialog" aria-modal="true" aria-label="彩蛋全破"><div class="egg-done-card"><img src="../lumama/eggs-done.jpg" alt="漫畫：「……我最討厭像你這樣直覺敏銳的小鬼」" width="800" height="800"><div class="egg-done-text"><small>ALL EASTER EGGS FOUND</small><b>彩蛋全破 ${EGGS.length} / ${EGGS.length}</b><button>關閉</button></div></div></div>`;
   const pill = root.querySelector(".egg-pill"),
     panel = root.querySelector(".egg-panel"),
@@ -43,6 +43,7 @@ export function createEggs({ root, onFound, onGift }) {
   const takeGift = () => {
     if (giftCard.hidden) return;
     giftCard.hidden = true;
+    onGiftClose?.();
     found("air");
   };
   giftCard.addEventListener("click", (e) => (e.target === giftCard || e.target.tagName === "BUTTON") && takeGift());
@@ -51,7 +52,7 @@ export function createEggs({ root, onFound, onGift }) {
     if (got.has("air") || !done.hidden) return;
     panel.hidden = true;
     giftCard.hidden = false;
-    onGift?.();
+    onGift?.(giftCard.querySelector(".gift-view"));
   }
   const showDone = () => {
     panel.hidden = true;
