@@ -93,7 +93,7 @@ try {
                 id: r.id,
                 name: r.title || r.sources.find((x) => !x.title.endsWith("報導"))?.title || `${r.date} ${r.place}`,
                 era: "now",
-                fear: r.fear ?? R.fear ?? ["D"],
+                fear: r.fear ?? R.fear ?? z.fear, // a record without its own types takes its island's, so only real deaths count as 有人死亡
                 danger: r.danger ?? R.danger ?? 5,
                 date: r.date,
                 sort: r.sort, // month used to place a range/year-only date on the timeline
