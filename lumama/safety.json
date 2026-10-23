@@ -95,11 +95,11 @@
   },
   {
    "id": "s-pedestrian",
-   "title": "台中2025年行人死亡57人 全國最多",
+   "title": "台中行人死亡連年全國最多 2024、2025 年各 57 人",
    "date": "2025",
    "sort": "2025-12",
    "place": "台中",
-   "summary": "交通部統計，台中 2025 年行人事故 30 日內死亡 57 人，是各縣市最多；市府回應整體事故死亡人數較前年減少，減幅六都第一。",
+   "summary": "交通部統計，台中 2024、2025 年行人事故死亡都是 57 人，全國最多，2025 年其中 42 人是高齡者；全國十大爛人行道台中占 8 條。公車左轉撞死走斑馬線行人的事故也接連發生：2022 年北區一家三口被撞，母親與幼童不治；2024 年中區 2 名女大生被撞，1 死 1 傷。市府回應整體事故死亡人數減幅六都第一，並稱已新設、改善人行道逾 200 公里。",
    "sources": [
     {
      "title": "1至8月交通事故釀1819死台南連4個月居冠 台中、高雄行人死亡最多",
@@ -108,13 +108,93 @@
     },
     {
      "title": "台中行人死亡數冠全台 挨批出門「步步驚心」市府反擊了",
-     "outlet": "ctee.com.tw",
+     "outlet": "工商時報",
      "url": "https://www.ctee.com.tw/news/20260313701369-431401"
     },
     {
      "title": "六都第2名！台中上半年交通事故行人死亡數 較同期下降54.8％ - 臺中市",
      "outlet": "自由時報",
      "url": "https://news.ltn.com.tw/news/Taichung/breakingnews/5556716"
+    },
+    {
+     "title": "台中行人死亡數全台最多 綠營批要求盧秀燕改善卻仍悲劇不斷",
+     "outlet": "Newtalk新聞",
+     "url": "https://newtalk.tw/news/view/2026-03-13/1024093"
+    },
+    {
+     "title": "台中「行人地獄」之都惡名不減 去年57行人死亡全台最糟",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/breakingnews/5367558"
+    },
+    {
+     "title": "中市行人地獄再升級 周永鴻轟：無視市民安全",
+     "outlet": "NOWnews",
+     "url": "https://www.nownews.com/news/6795559"
+    },
+    {
+     "title": "台中今年初行人死亡率降六成 近3月增設100處校園周邊行人專用時相",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7266/9615049"
+    },
+    {
+     "title": "中市3E策略 防高齡行人事故",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7325/9642678"
+    },
+    {
+     "title": "台中前5月行人死亡增加  9月起行人正義大執法",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202408300106.aspx"
+    },
+    {
+     "title": "台中交通全台最危險！ 議員痛斥改善無方如肉包鐵",
+     "outlet": "工商時報",
+     "url": "https://www.ctee.com.tw/news/20240828701358-431401"
+    },
+    {
+     "title": "台中行人交通死亡數居全國之冠 市府持續加強公車和交通執法",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/718383"
+    },
+    {
+     "title": "全台十大爛人行道 議員：台中竟包辦八條",
+     "outlet": "NOWnews",
+     "url": "https://www.nownews.com/news/6750139"
+    },
+    {
+     "title": "人本交通 台中人行道 挨批寬度不足",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7325/9481560"
+    },
+    {
+     "title": "中市公車肇禍釀重大事故　盧秀燕慰問家屬允全力協助",
+     "outlet": "風傳媒",
+     "url": "https://www.storm.mg/article/4676258"
+    },
+    {
+     "title": "台中公車撞死母嬰》為何交通悲劇一再重演？他揭3點亂象，難怪台灣被外媒認證「行人地獄」",
+     "outlet": "風傳媒",
+     "url": "https://www.storm.mg/lifestyle/4676950"
+    },
+    {
+     "title": "台中公車撞死女大生  警方辦理駕駛安全講習",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202409240209.aspx"
+    },
+    {
+     "title": "女大生走斑馬線遭巨業客運公車撞死！東海大學：感到震驚難過憤怒",
+     "outlet": "Newtalk新聞",
+     "url": "https://newtalk.tw/news/view/2024-09-23/937336"
+    },
+    {
+     "title": "巨業司機撞死女大生疑2度輾壓 警再偵訊同行學生等人釐清案情",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/716977"
+    },
+    {
+     "title": "豐原客運駕駛未停讓險撞人 交通局要求業者落實管理",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/719140"
     }
    ],
    "fear": [
