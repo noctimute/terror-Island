@@ -721,6 +721,8 @@ try {
         })
         .join("");
       tree.innerHTML = rows || `<p class="empty">找不到「${esc(state.search)}」相關的事件。</p>`;
+    } else if (state.tab === "hot") {
+      tree.innerHTML = renderHot(q);
     } else {
       const rows = D.flows
         .filter((f) => !q || [f.text, zoneById.get(f.from).name, zoneById.get(f.to).name, carryLabel(f.carry), roleLabel(f.walker)].some((t) => norm(t).includes(q)))
@@ -731,12 +733,50 @@ try {
       tree.innerHTML = rows || `<p class="empty">找不到「${esc(state.search)}」相關的連線。</p>`;
     }
   }
-  $("#tree").addEventListener("click", onNavClick);
+  // 事件熱點: which districts each island's events cluster in, counted from each event's 地點
+  const districtsOf = (sp) => DISTRICTS.filter((d) => String(sp.place || "").includes(d));
+  function tally(spots) {
+    const m = new Map();
+    let none = 0;
+    for (const sp of spots) {
+      const ds = districtsOf(sp);
+      if (!ds.length) none++;
+      for (const d of ds) m.set(d, (m.get(d) || 0) + 1);
+    }
+    return { top: [...m].sort((a, b) => b[1] - a[1]), none };
+  }
+  const hotBars = (top, n) => {
+    const max = top[0]?.[1] || 1;
+    return `<ol class="hot-bars">${top.slice(0, n).map(([d, c]) => `<li><button data-district="${d}" title="搜尋${d}的事件"><b>${d}</b><i style="--w:${(c / max) * 100}%"></i><span>${c} 則</span></button></li>`).join("")}</ol>`;
+  };
+  function renderHot(q) {
+    const open = zones.filter((z) => !z.wip && z.spots.length);
+    const all = tally(open.flatMap((z) => z.spots));
+    const rows = open
+      .filter((z) => !q || norm(z.name).includes(q))
+      .map((z) => {
+        const t = tally(z.spots);
+        // a district counts as a hotspot only when more than one event happened there
+        const hot = t.top.filter(([, c]) => c > 1);
+        const body = hot.length
+          ? `<p class="hot-line">最多在<b>${hot.slice(0, 3).map(([d]) => d).join("、")}</b></p>${hotBars(hot, 3)}`
+          : `<p class="hot-line">地點分散，沒有明顯熱點</p>`;
+        return `<div class="hot-row"><button class="zrow" data-zone="${z.id}"><em>${pad(z.number)}</em><span><b>${esc(z.name)}</b></span><i>${z.spots.length} ↗</i></button>${body}${t.none ? `<p class="hot-note">另有 ${t.none} 則報導沒寫到行政區</p>` : ""}</div>`;
+      })
+      .join("");
+    return `<div class="hot-row hot-all"><h4>全市熱點</h4><p class="hot-line">依各島事件發生地的行政區統計，點行政區可搜尋那裡的事件。</p>${hotBars(all.top, 5)}</div>${rows || `<p class="empty">找不到「${esc(state.search)}」相關的島。</p>`}`;
+  }
+  $("#tree").addEventListener("click", (e) => {
+    const d = e.target.closest("[data-district]")?.dataset.district;
+    if (!d) return onNavClick(e);
+    state.search = $("#search").value = d;
+    $("#tab-zones").click();
+  });
   $("#search").addEventListener("input", (e) => {
     state.search = e.target.value;
     renderTree();
   });
-  for (const t of ["zones", "flows"])
+  for (const t of ["zones", "flows", "hot"])
     $(`#tab-${t}`).addEventListener("click", () => {
       state.tab = t;
       $$(".side-tabs button").forEach((b) => b.classList.toggle("active", b.id === `tab-${t}`));
