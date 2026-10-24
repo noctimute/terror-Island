@@ -1170,6 +1170,13 @@ try {
   });
   $("#about-close").addEventListener("click", () => (about.hidden = true));
   about.addEventListener("click", (e) => e.target === about && (about.hidden = true));
+  about.addEventListener("click", (e) => {
+    const a = e.target.closest("a[data-zone]");
+    if (!a) return;
+    e.preventDefault();
+    about.hidden = true;
+    selectZone(a.dataset.zone);
+  });
   addEventListener("keydown", (e) => e.key === "Escape" && (about.hidden = true));
 
   // ---------- tour ----------

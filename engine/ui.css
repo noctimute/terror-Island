@@ -573,3 +573,4 @@ body.no-chips .chip { display: none !important; }
   .side-head .fs-step, .card > .fs-step { display: none; }
   body.side-open .fs-float, body:has(#card:not([hidden])) .fs-float { display: flex; }
 }
+.share-note .zone-link { color: var(--accent); font-weight: 700; text-decoration: underline; text-underline-offset: 2px; }
