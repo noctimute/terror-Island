@@ -128,36 +128,6 @@
    "deaths": 1
   },
   {
-   "id": "fire-h20230321a",
-   "title": "台中空姐「確定出不了獄」！提油燒死夫遭續押　在監狀況曝",
-   "date": "2023-03-21",
-   "place": "台中",
-   "summary": "台中發生火警，一人罹難。",
-   "sources": [
-    {
-     "title": "快訊／台中空姐「確定出不了獄」！提油燒死夫遭續押 在監狀況曝",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20230321/2463255.htm"
-    }
-   ],
-   "deaths": 1
-  },
-  {
-   "id": "fire-h20230321b",
-   "title": "台中前空姐提油「燒死丈夫」！涉家暴今出獄　前夫家憂噩夢重演",
-   "date": "2023-03-21",
-   "place": "台中",
-   "summary": "台中發生火警，一人罹難。",
-   "sources": [
-    {
-     "title": "台中前空姐提油「燒死丈夫」！涉家暴今出獄 前夫家憂噩夢重演",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20230321/2463190.htm"
-    }
-   ],
-   "deaths": 1
-  },
-  {
    "id": "fire-h20230308a",
    "title": "台中南區疑鐵皮屋起火！黑煙狂竄傷亡不明",
    "date": "2023-03-08",
@@ -1081,6 +1051,41 @@
     }
    ],
    "deaths": 2
+  },
+  {
+   "id": "fire-fengyuan-2021",
+   "title": "豐原前空姐潑汽油縱火 丈夫全身灼傷搶救45天不治",
+   "date": "2021-03-11",
+   "place": "豐原",
+   "summary": "一名女子與丈夫爭吵後，疑在住處潑灑汽油縱火，丈夫全身八成灼傷，搶救 45 天後不治；女子依殺人罪遭起訴判刑。",
+   "deaths": 1,
+   "sources": [
+    {
+     "title": "前空姐婆婆曾預告「媳婦說要燒房子」　兒今被燒80%灼傷",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/story/20210311soc006"
+    },
+    {
+     "title": "前空姐潑油縱火燒老公　尪全身80%燒傷搶救45天不治",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/story/20210426edi012"
+    },
+    {
+     "title": "快訊》台中「驚世空姐」縱火燒死夫「原訂今天重獲自由」　典獄長：確定出不了獄「繼續關押」",
+     "outlet": "風傳媒",
+     "url": "https://www.storm.mg/article/4762035"
+    },
+    {
+     "title": "快訊／台中空姐「確定出不了獄」！提油燒死夫遭續押 在監狀況曝",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230321/2463255.htm"
+    },
+    {
+     "title": "台中前空姐提油「燒死丈夫」！涉家暴今出獄 前夫家憂噩夢重演",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230321/2463190.htm"
+    }
+   ]
   },
   {
    "id": "fire-h20210301a",
