@@ -91,23 +91,6 @@
    ]
   },
   {
-   "id": "f-i20260817a",
-   "title": "全面推動、輔導補助 民進黨台中市議員謝志忠、王立任、張玉嬿、黃守達等人要求市場及攤商市場及攤商產品責任險附加食物中毒條款",
-   "date": "2026-08-17",
-   "place": "台中",
-   "summary": "台中發生食安事件。",
-   "sources": [
-    {
-     "title": "全面推動、輔導補助 民進黨台中市議員謝志忠、王立任、張玉嬿、黃守達等人要求市場及攤商市場及攤商產品責任險附加食物中毒條款",
-     "outlet": "遠方新聞",
-     "url": "https://www.yuanfengmedia.tw/detail.php"
-    }
-   ],
-   "fear": [
-    "F"
-   ]
-  },
-  {
    "id": "f-i20260701a",
    "title": "中聯油脂大豆沙拉油「苯駢芘」超標 中市食安處第一時間聯合稽查 勒令業者即刻停工、全面下架回收",
    "date": "2026-07-01",
@@ -539,48 +522,6 @@
    ]
   },
   {
-   "id": "f-i20251024a",
-   "title": "台中西區知名法式餐廳驚傳食物中毒 10人餐後上吐下瀉急送醫",
-   "date": "2025-10-24",
-   "place": "西區",
-   "summary": "西區發生食安事件。",
-   "sources": [
-    {
-     "title": "快訊／台中驚傳食物中毒！13人吃完午餐上吐下瀉　10人緊急送醫",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20251024/3055712.htm"
-    },
-    {
-     "title": "台中法式餐廳「法月」疑食物中毒 食安處稽查溫度紀錄未落實",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/life/breakingnews/5222904"
-    },
-    {
-     "title": "台中西區知名法式餐廳驚傳食物中毒 10人餐後上吐下瀉急送醫",
-     "outlet": "聯合新聞網",
-     "url": "https://udn.com/news/story/7266/9093844"
-    },
-    {
-     "title": "台中法式餐廳疑似食物中毒最高可處2億罰鍰",
-     "outlet": "中央社",
-     "url": "https://www.cna.com.tw/news/ahel/202510240120.aspx"
-    },
-    {
-     "title": "台中知名法式餐廳「法月」爆疑似食物中毒 13人上吐下瀉",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/life/breakingnews/5222294"
-    },
-    {
-     "title": "台中 法月餐廳疑食物中毒 13人吐瀉",
-     "outlet": "中時新聞網",
-     "url": "https://www.chinatimes.com/newspapers/20251025000348-260107"
-    }
-   ],
-   "fear": [
-    "F"
-   ]
-  },
-  {
    "id": "f-i20251022a",
    "title": "台中爆非洲豬瘟「緊急撲殺195隻」　養豬場清空畫面曝光",
    "date": "2025-10-22",
@@ -637,23 +578,6 @@
      "outlet": "鏡週刊",
      "url": "https://www.mirrormedia.mg/story/amp/20251027inv005"
     }
-   ]
-  },
-  {
-   "id": "f-i20251011a",
-   "title": "台中毒駕惡男出院了！衝進茶行「母子1死1傷」　正面曝光",
-   "date": "2025-10-11",
-   "place": "台中",
-   "summary": "台中發生食安事件。",
-   "sources": [
-    {
-     "title": "快訊／台中毒駕惡男出院了！衝進茶行「母子1死1傷」　正面曝光",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20251011/3048516.htm"
-    }
-   ],
-   "fear": [
-    "F"
    ]
   },
   {
@@ -931,11 +855,6 @@
      "url": "https://health.setn.com/news/1600697"
     },
     {
-     "title": "台中知名飯店疑集體食物中毒 逾15人上吐下瀉塞爆急診",
-     "outlet": "聯合新聞網",
-     "url": "https://udn.com/news/story/7266/8514516"
-    },
-    {
      "title": "台中市「林酒店」疑食物中毒 中榮：13人中1位較嚴重",
      "outlet": "自由時報",
      "url": "https://news.ltn.com.tw/news/Taichung/breakingnews/4934900"
@@ -964,23 +883,6 @@
      "title": "台中林酒店承辦團體尾牙有14人疑食物中毒 檢體檢驗中、限期1/28前改善",
      "outlet": "foodnext.net",
      "url": "https://www.foodnext.net/news/newssafe/paper/6731053555"
-    }
-   ],
-   "fear": [
-    "F"
-   ]
-  },
-  {
-   "id": "f-i20250113a",
-   "title": "疑似食物中毒！4人台中烤蚵吃到飽 半夜狂吐掛急診",
-   "date": "2025-01-13",
-   "place": "台中",
-   "summary": "台中發生食安事件。",
-   "sources": [
-    {
-     "title": "疑似食物中毒！4人台中烤蚵吃到飽 半夜狂吐掛急診",
-     "outlet": "台視新聞",
-     "url": "https://news.ttv.com.tw/news/11401130030600N"
     }
    ],
    "fear": [
@@ -1057,7 +959,7 @@
   },
   {
    "id": "f-i20240729a",
-   "title": "7人吃完上吐下瀉！大雅豆漿店疑食物中毒 食安處稽查結果曝",
+   "title": "台中西區知名法式餐廳驚傳食物中毒 10人餐後上吐下瀉急送醫",
    "date": "2024-07-29",
    "place": "大雅",
    "summary": "大雅發生食安事件。",
@@ -1081,6 +983,41 @@
      "title": "中市清水七人食物中毒案兩人住院 食安處：大雅傳統早餐店限期改善",
      "outlet": "台灣時報",
      "url": "https://www.taiwantimes.com.tw/app-container/app-content/new/new-content-detail"
+    },
+    {
+     "title": "台中知名飯店疑集體食物中毒 逾15人上吐下瀉塞爆急診",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7266/8514516"
+    },
+    {
+     "title": "快訊／台中驚傳食物中毒！13人吃完午餐上吐下瀉　10人緊急送醫",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20251024/3055712.htm"
+    },
+    {
+     "title": "台中法式餐廳「法月」疑食物中毒 食安處稽查溫度紀錄未落實",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/breakingnews/5222904"
+    },
+    {
+     "title": "台中西區知名法式餐廳驚傳食物中毒 10人餐後上吐下瀉急送醫",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7266/9093844"
+    },
+    {
+     "title": "台中法式餐廳疑似食物中毒最高可處2億罰鍰",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/ahel/202510240120.aspx"
+    },
+    {
+     "title": "台中知名法式餐廳「法月」爆疑似食物中毒 13人上吐下瀉",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/breakingnews/5222294"
+    },
+    {
+     "title": "台中 法月餐廳疑食物中毒 13人吐瀉",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/newspapers/20251025000348-260107"
     }
    ],
    "fear": [
@@ -1106,7 +1043,7 @@
   },
   {
    "id": "f-i20240625a",
-   "title": "台中爆食物中毒 6人烤生蚵「1天拉7次」急住院",
+   "title": "疑似食物中毒！4人台中烤蚵吃到飽 半夜狂吐掛急診",
    "date": "2024-06-25",
    "place": "沙鹿",
    "summary": "沙鹿發生食安事件。",
@@ -1120,6 +1057,11 @@
      "title": "台中爆食物中毒 6人烤生蚵「1天拉7次」急住院",
      "outlet": "TVBS",
      "url": "https://news.tvbs.com.tw/local/2529903"
+    },
+    {
+     "title": "疑似食物中毒！4人台中烤蚵吃到飽 半夜狂吐掛急診",
+     "outlet": "台視新聞",
+     "url": "https://news.ttv.com.tw/news/11401130030600N"
     }
    ],
    "fear": [
@@ -1137,23 +1079,6 @@
      "title": "台中必比登名店「陳明統爌肉飯」爆食安問題　酸菜防腐劑竟超標3倍",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20240529/2748539.htm"
-    }
-   ],
-   "fear": [
-    "F"
-   ]
-  },
-  {
-   "id": "f-i20240513a",
-   "title": "逆轉！台中女中、大華國中食物中毒案這原因不成立",
-   "date": "2024-05-13",
-   "place": "台中",
-   "summary": "台中發生食安事件。",
-   "sources": [
-    {
-     "title": "獨》逆轉！台中女中、大華國中食物中毒案這原因不成立",
-     "outlet": "ctee.com.tw",
-     "url": "https://www.ctee.com.tw/news/20240513701673-431401"
     }
    ],
    "fear": [
@@ -1230,6 +1155,11 @@
      "title": "快訊／台中大華國中疑食物中毒　通報人數暴增至75師生",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20240417/2721549.htm"
+    },
+    {
+     "title": "獨》逆轉！台中女中、大華國中食物中毒案這原因不成立",
+     "outlet": "ctee.com.tw",
+     "url": "https://www.ctee.com.tw/news/20240513701673-431401"
     }
    ],
    "fear": [

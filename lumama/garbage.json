@@ -6,38 +6,6 @@
  "updated": "2026-10-24",
  "records": [
   {
-   "id": "g-i20261018a",
-   "title": "盧秀燕請假接蔣萬安競總主委綠批：台中垃圾山何時清完- 股市爆料同學會",
-   "date": "2026-10-18",
-   "place": "大里",
-   "summary": "大里垃圾處理出現問題。",
-   "sources": [
-    {
-     "title": "盧秀燕請假接蔣萬安競總主委 綠批：台中垃圾山何時清完",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/politics/breakingnews/5610713"
-    },
-    {
-     "title": "盧秀燕請假接蔣萬安競總主委綠批：台中垃圾山何時清完- 股市爆料同學會",
-     "outlet": "cmoney.tw",
-     "url": "https://www.cmoney.tw/forum/article/186084496"
-    },
-    {
-     "title": "何欣純、林德宇競總成立千人喊凍蒜 不捨大里淪垃圾山哽咽允上任解決",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/politics/breakingnews/5610275"
-    },
-    {
-     "title": "哽咽談垃圾山 何欣純︰為大里洗刷污名",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/politics/paper/1775161"
-    }
-   ],
-   "fear": [
-    "I"
-   ]
-  },
-  {
    "id": "g-i20261014a",
    "title": "文山焚化爐正式開工 江和樹籲如期完工改善大里垃圾堆置問題",
    "date": "2026-10-14",
@@ -69,23 +37,6 @@
    ],
    "fear": [
     "I"
-   ]
-  },
-  {
-   "id": "g-i20261007a",
-   "title": "大里掩埋場垃圾堆積 議員批中市府政策前後不一延宕去化",
-   "date": "2026-10-07",
-   "place": "大里",
-   "summary": "大里垃圾處理出現問題。",
-   "sources": [
-    {
-     "title": "大里掩埋場垃圾堆積 議員批中市府政策前後不一延宕去化",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/life/breakingnews/5598775"
-    }
-   ],
-   "fear": [
-    "C"
    ]
   },
   {
@@ -126,8 +77,8 @@
    "id": "g-i20260923a",
    "title": "盧市府擺爛8年「垃圾山」惡夢終結？動工拆5支煙囪告別空汙！何欣純擘劃大台中轉型願景【政面交",
    "date": "2026-09-23",
-   "place": "大里",
-   "summary": "大里垃圾處理出現問題。",
+   "place": "台中",
+   "summary": "台中垃圾處理出現問題。",
    "sources": [
     {
      "title": "何欣純喊話解決台中垃圾山！批盧市府擺爛閒置綠化園區8年！",
@@ -143,11 +94,6 @@
      "title": "盧市府擺爛8年「垃圾山」惡夢終結？何欣純擘劃大台中轉型願景【政面交鋒】",
      "outlet": "自由時報",
      "url": "https://news.ltn.com.tw/news/politics/breakingnews/5584306"
-    },
-    {
-     "title": "《本報政面交鋒專訪》大里垃圾山堆47萬噸 何欣純提解方",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/politics/paper/1772076"
     }
    ],
    "fear": [
@@ -172,23 +118,6 @@
    ]
   },
   {
-   "id": "g-i20260921b",
-   "title": "針對大里掩埋場垃圾去化 民進黨台中市議員林德宇痛批環保局SRF至今實際處理量為零，還一再拿來當無力處理大里垃圾山的遮羞布，繼續騙市民",
-   "date": "2026-09-21",
-   "place": "大里",
-   "summary": "大里垃圾處理出現問題。",
-   "sources": [
-    {
-     "title": "針對大里掩埋場垃圾去化 民進黨台中市議員林德宇痛批環保局SRF至今實際處理量為零，還一再拿來當無力處理大里垃圾山的遮羞布，繼續騙市民",
-     "outlet": "遠方新聞",
-     "url": "https://yuanfengmedia.tw/detail.php"
-    }
-   ],
-   "fear": [
-    "C"
-   ]
-  },
-  {
    "id": "g-i20260916a",
    "title": "從床墊堆到垃圾山！「台中尋奇」地標剩這裡",
    "date": "2026-09-16",
@@ -207,35 +136,15 @@
   },
   {
    "id": "g-i20260915a",
-   "title": "破除「垃圾山」謠言！ 大里掩埋場合法營運、3萬噸地面上垃圾將優先焚化 - 墨新聞-MORE News",
+   "title": "垃圾半山高？賴總統點名盧秀燕施政缺失 台中市府破除「垃圾山」謠言",
    "date": "2026-09-15",
-   "place": "大里",
-   "summary": "大里垃圾處理出現問題。",
+   "place": "台中",
+   "summary": "台中垃圾處理出現問題。",
    "sources": [
-    {
-     "title": "大里掩埋場遭控「垃圾山」 中市府回應了",
-     "outlet": "Yahoo 新聞",
-     "url": "https://tw.news.yahoo.com/%E5%A4%A7%E9%87%8C%E6%8E%A9%E5%9F%8B%E5%A0%B4%E9%81%AD%E6%8E%A7-%E5%9E%83%E5%9C%BE%E5%B1%B1-%E4%B8%AD%E5%B8%82%E5%BA%9C%E5%9B%9E%E6%87%89%E4%BA%86-083918400.html"
-    },
-    {
-     "title": "破除「垃圾山」謠言 大里掩埋場3萬噸地面上垃圾將優先焚化",
-     "outlet": "中華日報",
-     "url": "https://www.cdns.com.tw/articles/1460400"
-    },
     {
      "title": "垃圾半山高？賴總統點名盧秀燕施政缺失 台中市府破除「垃圾山」謠言",
      "outlet": "聯合新聞網",
      "url": "https://udn.com/news/story/7325/9756350"
-    },
-    {
-     "title": "破除「垃圾山」謠言！ 大里掩埋場合法營運、3萬噸地面上垃圾將優先焚化 - 墨新聞-MORE News",
-     "outlet": "more-news.tw",
-     "url": "https://more-news.tw/720330/"
-    },
-    {
-     "title": "大里掩埋場容積無虞　環保局：絕非任意棄置",
-     "outlet": "NOWnews",
-     "url": "https://www.nownews.com/news/6875255"
     }
    ],
    "fear": [
@@ -257,23 +166,6 @@
    ],
    "fear": [
     "I"
-   ]
-  },
-  {
-   "id": "g-i20260901a",
-   "title": "2026年08月28日台中市文山掩埋場，垃圾太空包防護設施「三月遭鼠咬、五月蓋帆布、八月帆布被風撕裂重新補丁，這樣可以撐五年嗎？」現況",
-   "date": "2026-09-01",
-   "place": "台中",
-   "summary": "台中垃圾處理出現問題。",
-   "sources": [
-    {
-     "title": "2026年08月28日台中市文山掩埋場，垃圾太空包防護設施「三月遭鼠咬、五月蓋帆布、八月帆布被風撕裂重新補丁，這樣可以撐五年嗎？」現況",
-     "outlet": "youtu.be",
-     "url": "https://youtu.be/NsqcfC60vrk"
-    }
-   ],
-   "fear": [
-    "C"
    ]
   },
   {
@@ -321,23 +213,6 @@
      "title": "中市垃圾暴增焚化爐延宕　議員批盧市府作秀騙市民",
      "outlet": "NOWnews",
      "url": "https://www.nownews.com/news/6870159"
-    }
-   ],
-   "fear": [
-    "C"
-   ]
-  },
-  {
-   "id": "g-i20260827a",
-   "title": "台中大里掩埋場堆爆！環保局：9月SRF每周可多燒千噸",
-   "date": "2026-08-27",
-   "place": "大里",
-   "summary": "大里垃圾處理出現問題。",
-   "sources": [
-    {
-     "title": "台中大里掩埋場堆爆！環保局：9月SRF每周可多燒千噸",
-     "outlet": "中時新聞網",
-     "url": "https://www.chinatimes.com/realtimenews/20260827003028-260405"
     }
    ],
    "fear": [
@@ -402,15 +277,30 @@
   },
   {
    "id": "g-i20260609a",
-   "title": "台中又見垃圾山　何欣純推4大環保政見解套：市府別再擺爛",
+   "title": "盧秀燕請假接蔣萬安競總主委綠批：台中垃圾山何時清完- 股市爆料同學會",
    "date": "2026-06-09",
-   "place": "台中",
-   "summary": "台中垃圾處理出現問題。",
+   "place": "大里",
+   "summary": "大里垃圾處理出現問題。",
    "sources": [
     {
      "title": "台中又見垃圾山　何欣純推4大環保政見解套：市府別再擺爛",
      "outlet": "鏡週刊",
      "url": "https://www.mirrormedia.mg/external/mirrordaily_66041"
+    },
+    {
+     "title": "盧秀燕請假接蔣萬安競總主委 綠批：台中垃圾山何時清完",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/politics/breakingnews/5610713"
+    },
+    {
+     "title": "盧秀燕請假接蔣萬安競總主委綠批：台中垃圾山何時清完- 股市爆料同學會",
+     "outlet": "cmoney.tw",
+     "url": "https://www.cmoney.tw/forum/article/186084496"
+    },
+    {
+     "title": "哽咽談垃圾山 何欣純︰為大里洗刷污名",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/politics/paper/1775161"
     }
    ],
    "fear": [
@@ -436,16 +326,11 @@
   },
   {
    "id": "g-i20260608a",
-   "title": "大肚山廢土真兇！環保蟑螂63人被抓　藏鏡人涉勾台中銀洗錢36億",
+   "title": "大肚山區遭傾倒萬噸廢土 台中檢方起訴63人",
    "date": "2026-06-08",
    "place": "大肚",
    "summary": "大肚垃圾處理出現問題。",
    "sources": [
-    {
-     "title": "大肚山廢土真兇！環保蟑螂63人被抓　藏鏡人涉勾台中銀洗錢36億",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20260608/3179699.htm"
-    },
     {
      "title": "大肚山區遭傾倒萬噸廢土 台中檢方起訴63人",
      "outlet": "公視新聞網",
@@ -747,55 +632,6 @@
    ]
   },
   {
-   "id": "g-i20260422a",
-   "title": "非法棄置營建廢棄物手法更新 台中檢警環跨縣市聯手破獲集團式犯罪",
-   "date": "2026-04-22",
-   "place": "台中",
-   "summary": "台中垃圾處理出現問題。",
-   "sources": [
-    {
-     "title": "非法棄置營建廢棄物手法更新 台中檢警環跨縣市聯手破獲集團式犯罪",
-     "outlet": "taichung.gov.tw",
-     "url": "https://www.taichung.gov.tw/8868/8872/9962/3259769"
-    }
-   ],
-   "fear": [
-    "I"
-   ]
-  },
-  {
-   "id": "g-i20260422b",
-   "title": "軍事用地、高美濕地全淪陷！中檢破4大非法廢棄物獵地集團起訴80人",
-   "date": "2026-04-22",
-   "place": "台中",
-   "summary": "台中垃圾處理出現問題。",
-   "sources": [
-    {
-     "title": "軍事用地、高美濕地遭亂倒廢棄物 中檢破4環保犯罪獵地集團逮164人",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/life/breakingnews/5412081"
-    },
-    {
-     "title": "軍事地淪垃圾場被狂丟廢棄物　中檢追3年「淨土專案」起訴80人",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20260422/3153551.htm"
-    },
-    {
-     "title": "軍事用地、高美濕地全淪陷！中檢破4大非法廢棄物獵地集團起訴80人",
-     "outlet": "中時新聞網",
-     "url": "https://www.chinatimes.com/realtimenews/20260422003652-260402"
-    },
-    {
-     "title": "偷倒9萬噸含戴奧辛廢棄物在中台灣台中地檢破跨12縣市犯罪獵地集團",
-     "outlet": "華視新聞",
-     "url": "https://news.cts.com.tw/cts/society/202604/202604233023063.html"
-    }
-   ],
-   "fear": [
-    "I"
-   ]
-  },
-  {
    "id": "g-i20260421a",
    "title": "垃圾車偷倒餿水被抓包 台中環保局認了",
    "date": "2026-04-21",
@@ -830,134 +666,8 @@
    ]
   },
   {
-   "id": "g-i20260327a",
-   "title": "大里垃圾掩埋場堆置45萬噸垃圾 民眾開窗就見垃圾山",
-   "date": "2026-03-27",
-   "place": "大里",
-   "summary": "大里垃圾處理出現問題。",
-   "sources": [
-    {
-     "title": "大里垃圾掩埋場堆置45萬噸垃圾 民眾開窗就見垃圾山",
-     "outlet": "Yahoo 新聞",
-     "url": "https://tw.news.yahoo.com/%E5%A4%A7%E9%87%8C%E5%9E%83%E5%9C%BE%E6%8E%A9%E5%9F%8B%E5%A0%B4%E5%A0%86%E7%BD%AE45%E8%90%AC%E5%99%B8%E5%9E%83%E5%9C%BE-%E6%B0%91%E7%9C%BE%E9%96%8B%E7%AA%97%E5%B0%B1%E8%A6%8B%E5%9E%83%E5%9C%BE%E5%B1%B1-090242996.html"
-    }
-   ],
-   "fear": [
-    "C"
-   ]
-  },
-  {
-   "id": "g-i20260327b",
-   "title": "中市垃圾太空包堆成山 議員何文海譏諷盧秀燕選總統主打垃圾政見",
-   "date": "2026-03-27",
-   "place": "台中",
-   "summary": "台中垃圾處理出現問題。",
-   "sources": [
-    {
-     "title": "中市垃圾太空包堆成山 議員何文海譏諷盧秀燕選總統主打垃圾政見",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/life/breakingnews/5384356"
-    },
-    {
-     "title": "台中文山焚化爐量能吃緊 民怨：垃圾車大遲到",
-     "outlet": "epochtimes.com",
-     "url": "https://www.epochtimes.com/b5/26/3/27/n14728505.htm"
-    },
-    {
-     "title": "中市垃圾太空包堆積 文山焚化爐去化慢",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/life/paper/1748624"
-    }
-   ],
-   "fear": [
-    "I"
-   ]
-  },
-  {
-   "id": "g-i20260305a",
-   "title": "說好放4年結果120天就臭了！ 台中「垃圾山太空包」遭野狗啃破臭翻天",
-   "date": "2026-03-05",
-   "place": "台中",
-   "summary": "台中垃圾處理出現問題。",
-   "sources": [
-    {
-     "title": "說好放4年結果120天就臭了！ 台中「垃圾山太空包」遭野狗啃破臭翻天",
-     "outlet": "Yahoo 新聞",
-     "url": "https://tw.news.yahoo.com/%E8%AA%AA%E5%A5%BD%E6%94%BE4%E5%B9%B4%E7%B5%90%E6%9E%9C120%E5%A4%A9%E5%B0%B1%E8%87%AD%E4%BA%86-%E5%8F%B0%E4%B8%AD-%E5%9E%83%E5%9C%BE%E5%B1%B1%E5%A4%AA%E7%A9%BA%E5%8C%85-%E9%81%AD%E9%87%8E%E7%8B%97%E5%95%83%E7%A0%B4%E8%87%AD%E7%BF%BB%E5%A4%A9-091500104.html"
-    },
-    {
-     "title": "台中「垃圾玉山」政策破功？市議員：文山場太空包破損裂垃圾外露",
-     "outlet": "聯合新聞網",
-     "url": "https://udn.com/news/story/7325/9361732"
-    },
-    {
-     "title": "說好放4年結果120天就臭了！　台中「垃圾山太空包」遭野狗啃破臭翻天",
-     "outlet": "鏡週刊",
-     "url": "https://www.mirrormedia.mg/external/mirrordaily_48125"
-    },
-    {
-     "title": "台中文山掩埋場垃圾打包物破損市府：已修補加固",
-     "outlet": "中央社",
-     "url": "https://www.cna.com.tw/news/aloc/202603050258.aspx"
-    },
-    {
-     "title": "台中耗資1.3億垃圾太空包 遭老鼠野狗啃破恐滋生傳染",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/life/breakingnews/5359887"
-    },
-    {
-     "title": "台中上億元太空包破損遭譏「垃圾玉山」 環保局將加強防護",
-     "outlet": "cnews.com.tw",
-     "url": "https://cnews.com.tw/237260306a05/"
-    },
-    {
-     "title": "台中 垃圾太空包破損 環保局急補漏",
-     "outlet": "中時新聞網",
-     "url": "https://www.chinatimes.com/newspapers/20260306000652-260107"
-    },
-    {
-     "title": "台中耗資1.3億垃圾太空包 遭老鼠啃破洞憂滋生傳染",
-     "outlet": "民視新聞",
-     "url": "https://www.ftvnews.com.tw/news/detail/2026306C14M1"
-    },
-    {
-     "title": "台中垃圾太空包撐不到4個月就破損環保局回應了",
-     "outlet": "ctee.com.tw",
-     "url": "https://www.ctee.com.tw/news/20260306701527-431401"
-    },
-    {
-     "title": "垃圾太空包被野狗破壞 中市修補加固",
-     "outlet": "聯合新聞網",
-     "url": "https://udn.com/news/story/7325/9362446"
-    },
-    {
-     "title": "台中文山掩埋場1.3億垃圾打包4個月就破遭鼠狗啃？議員憂污染擴大",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/life/breakingnews/5361110"
-    },
-    {
-     "title": "台中1.3億垃圾太空包「淪傳染病溫床」 何欣純提3方向解決",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/politics/breakingnews/5361252"
-    },
-    {
-     "title": "台中「垃圾太空包」遭鼠咬破洞臭水橫流！台中市環保局說話了",
-     "outlet": "三立新聞網",
-     "url": "https://www.setn.com/news/1803278"
-    },
-    {
-     "title": "台中「垃圾太空包」遭野狗咬破臭翻天 綠議員轟：治標不治本",
-     "outlet": "壹電視",
-     "url": "https://www.nexttv.com.tw/NextTV/News/Home/Life/2026-03-06/2280246.html"
-    }
-   ],
-   "fear": [
-    "I"
-   ]
-  },
-  {
    "id": "g-i20260218a",
-   "title": "春節裝修勿亂丟廢棄物！中市環保局科技監控非法棄置熱區 打擊環保犯罪",
+   "title": "軍事用地、高美濕地遭亂倒廢棄物 中檢破4環保犯罪獵地集團逮164人",
    "date": "2026-02-18",
    "place": "台中",
    "summary": "台中垃圾處理出現問題。",
@@ -966,42 +676,30 @@
      "title": "春節裝修勿亂丟廢棄物！中市環保局科技監控非法棄置熱區 打擊環保犯罪",
      "outlet": "taichung.gov.tw",
      "url": "https://www.taichung.gov.tw/3215813/post"
+    },
+    {
+     "title": "軍事用地、高美濕地遭亂倒廢棄物 中檢破4環保犯罪獵地集團逮164人",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/breakingnews/5412081"
+    },
+    {
+     "title": "軍事地淪垃圾場被狂丟廢棄物　中檢追3年「淨土專案」起訴80人",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260422/3153551.htm"
+    },
+    {
+     "title": "軍事用地、高美濕地全淪陷！中檢破4大非法廢棄物獵地集團起訴80人",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20260422003652-260402"
+    },
+    {
+     "title": "偷倒9萬噸含戴奧辛廢棄物在中台灣台中地檢破跨12縣市犯罪獵地集團",
+     "outlet": "華視新聞",
+     "url": "https://news.cts.com.tw/cts/society/202604/202604233023063.html"
     }
    ],
    "fear": [
     "C"
-   ]
-  },
-  {
-   "id": "g-i20260119a",
-   "title": "大里垃圾山解方停！億元打包計畫僅10天　文山居民怒擋垃圾無處去",
-   "date": "2026-01-19",
-   "place": "大里",
-   "summary": "大里垃圾處理出現問題。",
-   "sources": [
-    {
-     "title": "獨家／大里垃圾山解方停！億元打包計畫僅10天　文山居民怒擋垃圾無處去",
-     "outlet": "三立新聞網",
-     "url": "https://www.setn.com/news/1783174"
-    },
-    {
-     "title": "台中大里垃圾山打包送文山掩埋場遭抗議喊卡 盧秀燕：庸人自擾 | 中彰投",
-     "outlet": "聯合新聞網",
-     "url": "https://udn.com/news/story/7325/9279804"
-    },
-    {
-     "title": "（台中）無處暫置 大里垃圾山打包10天就停",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/life/paper/1740799"
-    },
-    {
-     "title": "大里垃圾山打包到文山 議員批盧秀燕把問題丟給下一任市長",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/politics/breakingnews/5317247"
-    }
-   ],
-   "fear": [
-    "I"
    ]
   },
   {
@@ -1020,27 +718,15 @@
      "title": "台中檢警環淨土專案跨域查緝河川廢棄物 合力瓦解非法棄置營建廢棄物犯罪集團",
      "outlet": "taichung.gov.tw",
      "url": "https://www.taichung.gov.tw/8868/8872/9962/3178346"
+    },
+    {
+     "title": "非法棄置營建廢棄物手法更新 台中檢警環跨縣市聯手破獲集團式犯罪",
+     "outlet": "taichung.gov.tw",
+     "url": "https://www.taichung.gov.tw/8868/8872/9962/3259769"
     }
    ],
    "fear": [
     "I"
-   ]
-  },
-  {
-   "id": "g-i20251231a",
-   "title": "停車場變垃圾場…台中沙鹿綠地遭堆滿工程廢棄物 居民怒問市府默許？",
-   "date": "2025-12-31",
-   "place": "沙鹿",
-   "summary": "沙鹿垃圾處理出現問題。",
-   "sources": [
-    {
-     "title": "停車場變垃圾場…台中沙鹿綠地遭堆滿工程廢棄物 居民怒問市府默許？",
-     "outlet": "聯合新聞網",
-     "url": "https://udn.com/news/story/7325/9236806"
-    }
-   ],
-   "fear": [
-    "C"
    ]
   },
   {
@@ -1064,55 +750,13 @@
    "id": "g-i20251217a",
    "title": "台中「垃圾打包」！ 太空包封廚餘惡臭掩埋場堆成大白山",
    "date": "2025-12-17",
-   "place": "南屯",
-   "summary": "南屯垃圾處理出現問題。",
+   "place": "台中",
+   "summary": "台中垃圾處理出現問題。",
    "sources": [
     {
      "title": "台中「垃圾打包」！ 太空包封廚餘惡臭掩埋場堆成大白山",
      "outlet": "LINE TODAY（轉載）",
      "url": "https://today.line.me/tw/v3/article/1DnBZYp"
-    },
-    {
-     "title": "大里垃圾山打包「太空包」 運南屯惹怨",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/life/paper/1736402"
-    }
-   ],
-   "fear": [
-    "C"
-   ]
-  },
-  {
-   "id": "g-i20251212a",
-   "title": "「全台最大垃圾山」打包 中市在地議員批大里垃圾山僅減1/5",
-   "date": "2025-12-12",
-   "place": "大里",
-   "summary": "大里垃圾處理出現問題。",
-   "sources": [
-    {
-     "title": "「大里垃圾山」有解？台中環保局：11天清掉1439噸垃圾",
-     "outlet": "聯合新聞網",
-     "url": "https://udn.com/news/story/7325/9198576"
-    },
-    {
-     "title": "大里垃圾山一天打包200噸 議員張芬郁要求加速去化",
-     "outlet": "台灣好新聞",
-     "url": "https://www.taiwanhot.net/news/1122518/%E5%A4%A7%E9%87%8C%E5%9E%83%E5%9C%BE%E5%B1%B1%E4%B8%80%E5%A4%A9%E6%89%93%E5%8C%85200%E5%99%B8+%E8%AD%B0%E5%93%A1%E5%BC%B5%E8%8A%AC%E9%83%81%E8%A6%81%E6%B1%82%E5%8A%A0%E9%80%9F%E5%8E%BB%E5%8C%96"
-    },
-    {
-     "title": "全台最大垃圾山難消？台中議員批「僅去化1/5」 環保局說話了",
-     "outlet": "聯合新聞網",
-     "url": "https://udn.com/news/story/7325/9201308"
-    },
-    {
-     "title": "「全台最大垃圾山」打包 中市在地議員批大里垃圾山僅減1/5",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/life/breakingnews/5276873"
-    },
-    {
-     "title": "全國最大垃圾山 台中議員︰只打包1/5",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/life/paper/1735880"
     }
    ],
    "fear": [
@@ -1170,6 +814,11 @@
      "title": "台中停車場淪垃圾山　環保蟑螂狠撈2311萬",
      "outlet": "news.housefun.com.tw",
      "url": "https://news.housefun.com.tw/news/article/274817479180.html"
+    },
+    {
+     "title": "台中停車場淪為垃圾山沿途廢棄物四散飄異味居民喊苦",
+     "outlet": "ctee.com.tw",
+     "url": "https://www.ctee.com.tw/news/20241223701708-431401"
     }
    ]
   },
@@ -1243,28 +892,6 @@
   },
   {
    "id": "g-i20251119a",
-   "title": "大里垃圾山為何變胖又變高？中市議員驚爆低價搶事業廢棄物來燒",
-   "date": "2025-11-19",
-   "place": "大里",
-   "summary": "大里垃圾處理出現問題。",
-   "sources": [
-    {
-     "title": "大里垃圾山為何變胖又變高？中市議員驚爆低價搶事業廢棄物來燒",
-     "outlet": "NOWnews",
-     "url": "https://www.nownews.com/news/6755854"
-    },
-    {
-     "title": "台中大里垃圾山增高變胖議員批低價搶外地廢棄物",
-     "outlet": "中央社",
-     "url": "https://www.cna.com.tw/news/aloc/202511190309.aspx"
-    }
-   ],
-   "fear": [
-    "I"
-   ]
-  },
-  {
-   "id": "g-i20251119b",
    "title": "泥菩薩過江？台中垃圾山愈堆愈高卻幫外縣市燒垃圾 盧秀燕給承諾了",
    "date": "2025-11-19",
    "place": "台中",
@@ -1274,23 +901,6 @@
      "title": "泥菩薩過江？台中垃圾山愈堆愈高卻幫外縣市燒垃圾 盧秀燕給承諾了",
      "outlet": "聯合新聞網",
      "url": "https://udn.com/news/story/7325/9149799"
-    }
-   ],
-   "fear": [
-    "I"
-   ]
-  },
-  {
-   "id": "g-i20251111a",
-   "title": "直擊大里垃圾山！憂豪雨後恐出現垃圾湖　中市議員颱風前實勘",
-   "date": "2025-11-11",
-   "place": "大里",
-   "summary": "大里垃圾處理出現問題。",
-   "sources": [
-    {
-     "title": "直擊大里垃圾山！憂豪雨後恐出現垃圾湖　中市議員颱風前實勘",
-     "outlet": "NOWnews",
-     "url": "https://www.nownews.com/news/6752956"
     }
    ],
    "fear": [
@@ -1367,7 +977,7 @@
   },
   {
    "id": "g-i20251025b",
-   "title": "台中文山掩埋場廚餘堆肥曝曬生惡臭招蚊蠅 環保局長親上火線說明",
+   "title": "2026年08月28日台中市文山掩埋場，垃圾太空包防護設施「三月遭鼠咬、五月蓋帆布、八月帆布被風撕裂重新補丁，這樣可以撐五年嗎？」現況",
    "date": "2025-10-25",
    "place": "台中",
    "summary": "台中垃圾處理出現問題。",
@@ -1376,6 +986,81 @@
      "title": "台中文山掩埋場廚餘堆肥曝曬生惡臭招蚊蠅 環保局長親上火線說明",
      "outlet": "自由時報",
      "url": "https://news.ltn.com.tw/news/life/breakingnews/5223636"
+    },
+    {
+     "title": "說好放4年結果120天就臭了！ 台中「垃圾山太空包」遭野狗啃破臭翻天",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E8%AA%AA%E5%A5%BD%E6%94%BE4%E5%B9%B4%E7%B5%90%E6%9E%9C120%E5%A4%A9%E5%B0%B1%E8%87%AD%E4%BA%86-%E5%8F%B0%E4%B8%AD-%E5%9E%83%E5%9C%BE%E5%B1%B1%E5%A4%AA%E7%A9%BA%E5%8C%85-%E9%81%AD%E9%87%8E%E7%8B%97%E5%95%83%E7%A0%B4%E8%87%AD%E7%BF%BB%E5%A4%A9-091500104.html"
+    },
+    {
+     "title": "台中「垃圾玉山」政策破功？市議員：文山場太空包破損裂垃圾外露",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7325/9361732"
+    },
+    {
+     "title": "說好放4年結果120天就臭了！　台中「垃圾山太空包」遭野狗啃破臭翻天",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/external/mirrordaily_48125"
+    },
+    {
+     "title": "台中文山掩埋場垃圾打包物破損市府：已修補加固",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/aloc/202603050258.aspx"
+    },
+    {
+     "title": "台中耗資1.3億垃圾太空包 遭老鼠野狗啃破恐滋生傳染",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/breakingnews/5359887"
+    },
+    {
+     "title": "台中上億元太空包破損遭譏「垃圾玉山」 環保局將加強防護",
+     "outlet": "cnews.com.tw",
+     "url": "https://cnews.com.tw/237260306a05/"
+    },
+    {
+     "title": "台中 垃圾太空包破損 環保局急補漏",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/newspapers/20260306000652-260107"
+    },
+    {
+     "title": "台中耗資1.3億垃圾太空包 遭老鼠啃破洞憂滋生傳染",
+     "outlet": "民視新聞",
+     "url": "https://www.ftvnews.com.tw/news/detail/2026306C14M1"
+    },
+    {
+     "title": "台中垃圾太空包撐不到4個月就破損環保局回應了",
+     "outlet": "ctee.com.tw",
+     "url": "https://www.ctee.com.tw/news/20260306701527-431401"
+    },
+    {
+     "title": "垃圾太空包被野狗破壞 中市修補加固",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7325/9362446"
+    },
+    {
+     "title": "台中文山掩埋場1.3億垃圾打包4個月就破遭鼠狗啃？議員憂污染擴大",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/breakingnews/5361110"
+    },
+    {
+     "title": "台中1.3億垃圾太空包「淪傳染病溫床」 何欣純提3方向解決",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/politics/breakingnews/5361252"
+    },
+    {
+     "title": "台中「垃圾太空包」遭鼠咬破洞臭水橫流！台中市環保局說話了",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1803278"
+    },
+    {
+     "title": "台中「垃圾太空包」遭野狗咬破臭翻天 綠議員轟：治標不治本",
+     "outlet": "壹電視",
+     "url": "https://www.nexttv.com.tw/NextTV/News/Home/Life/2026-03-06/2280246.html"
+    },
+    {
+     "title": "2026年08月28日台中市文山掩埋場，垃圾太空包防護設施「三月遭鼠咬、五月蓋帆布、八月帆布被風撕裂重新補丁，這樣可以撐五年嗎？」現況",
+     "outlet": "youtu.be",
+     "url": "https://youtu.be/NsqcfC60vrk"
     }
    ],
    "fear": [
@@ -1397,23 +1082,6 @@
    ],
    "fear": [
     "I"
-   ]
-  },
-  {
-   "id": "g-i20251001a",
-   "title": "議員關心大里掩埋場與文山焚化爐工程 盧市長：市府推動焚化爐汰舊換新、確保可長治久安處理垃圾",
-   "date": "2025-10-01",
-   "place": "大里",
-   "summary": "大里垃圾處理出現問題。",
-   "sources": [
-    {
-     "title": "議員關心大里掩埋場與文山焚化爐工程 盧市長：市府推動焚化爐汰舊換新、確保可長治久安處理垃圾",
-     "outlet": "epb.taichung.gov.tw",
-     "url": "https://www.epb.taichung.gov.tw/3107440/post"
-    }
-   ],
-   "fear": [
-    "C"
    ]
   },
   {
@@ -1485,6 +1153,11 @@
      "title": "台中旱溪邊坡淪垃圾場 噁心糞水直排河道！居民怒問：何時才清？",
      "outlet": "知新聞",
      "url": "https://www.knews.com.tw/news/881DFE4ED8571906278F45387640C816"
+    },
+    {
+     "title": "停車場變垃圾場…台中沙鹿綠地遭堆滿工程廢棄物 居民怒問市府默許？",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7325/9236806"
     }
    ],
    "fear": [
@@ -1502,23 +1175,6 @@
      "title": "台中垃圾危機議員攻防再起- 台灣地方- 新聞",
      "outlet": "chinesedaily.com",
      "url": "https://www.chinesedaily.com/article/detail-659852.html"
-    }
-   ],
-   "fear": [
-    "I"
-   ]
-  },
-  {
-   "id": "g-i20250919a",
-   "title": "郭國文轟大里垃圾山預算暴增50億 審計長：台中市垃圾有點多",
-   "date": "2025-09-19",
-   "place": "大里",
-   "summary": "大里垃圾處理出現問題。",
-   "sources": [
-    {
-     "title": "郭國文轟大里垃圾山預算暴增50億 審計長：台中市垃圾有點多",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/politics/breakingnews/5184321"
     }
    ],
    "fear": [
@@ -1587,103 +1243,7 @@
    ]
   },
   {
-   "id": "g-i20250911b",
-   "title": "檢警環聯手查獲非法處理廚餘殘渣　大甲區土地逾千噸廢棄物、蛋殼液臭氣熏天",
-   "date": "2025-09-11",
-   "place": "大甲",
-   "summary": "大甲垃圾處理出現問題。",
-   "sources": [
-    {
-     "title": "檢警環聯手查獲非法處理廚餘殘渣　大甲區土地逾千噸廢棄物、蛋殼液臭氣熏天",
-     "outlet": "鏡週刊",
-     "url": "https://www.mirrormedia.mg/story/20250911inv010"
-    }
-   ],
-   "fear": [
-    "I"
-   ]
-  },
-  {
-   "id": "g-i20250909a",
-   "title": "為大里垃圾山開槓卓冠廷　江和樹：當年綠議員拒林佳龍翻新焚化爐",
-   "date": "2025-09-09",
-   "place": "大里",
-   "summary": "大里垃圾處理出現問題。",
-   "sources": [
-    {
-     "title": "為大里垃圾山開槓卓冠廷　江和樹：當年綠議員拒林佳龍翻新焚化爐",
-     "outlet": "NOWnews",
-     "url": "https://www.nownews.com/news/6728923"
-    }
-   ],
-   "fear": [
-    "C"
-   ]
-  },
-  {
    "id": "g-i20250902a",
-   "title": "畫面曝光！台中大里驚人垃圾山82萬噸2042年才能清完",
-   "date": "2025-09-02",
-   "place": "大里",
-   "summary": "大里垃圾處理出現問題。",
-   "sources": [
-    {
-     "title": "大里掩埋場堆出垃圾山 遭質疑污水滲流污染住居",
-     "outlet": "epochtimes.com",
-     "url": "https://www.epochtimes.com/b5/25/9/2/n14586034.htm"
-    },
-    {
-     "title": "台中大里掩埋場接近滿載 環團籲全市垃圾費隨袋徵收",
-     "outlet": "公視新聞網",
-     "url": "https://news.pts.org.tw/article/768513"
-    },
-    {
-     "title": "畫面曝光！台中大里驚人垃圾山82萬噸2042年才能清完",
-     "outlet": "LINE TODAY（轉載）",
-     "url": "https://today.line.me/tw/v3/article/qo9r3JK"
-    },
-    {
-     "title": "畫面曝光！台中大里驚人垃圾山　82萬噸2042年才能清完",
-     "outlet": "三立新聞網",
-     "url": "https://www.setn.com/news/1714227"
-    },
-    {
-     "title": "大里掩埋場「垃圾爆滿」超過34萬噸 綠批盧秀燕禍留子孫",
-     "outlet": "民視新聞",
-     "url": "https://www.ftvnews.com.tw/news/detail/2025902C12M1"
-    },
-    {
-     "title": "大里掩埋場爆滿 中市議員批市府失能",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/life/paper/1722681"
-    },
-    {
-     "title": "大里掩埋場垃圾爆量 34萬公噸全國之最",
-     "outlet": "news.st-media.com.tw",
-     "url": "https://news.st-media.com.tw/news/52190"
-    },
-    {
-     "title": "台中「全台最大垃圾山」34萬噸超載難處理　市府估2042年才能清掉",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20250904/3027851.htm"
-    },
-    {
-     "title": "大里垃圾山成盧秀燕送市民大禮？ 民進黨：2042年才可能清完",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/politics/breakingnews/5166991"
-    },
-    {
-     "title": "大里掩埋場近滿載估明年底改善 目前進度僅14.9%",
-     "outlet": "公視新聞網",
-     "url": "https://news.pts.org.tw/article/768994"
-    }
-   ],
-   "fear": [
-    "C"
-   ]
-  },
-  {
-   "id": "g-i20250902b",
    "title": "昔遭怨不代燒南投垃圾「有夠衰小」　台中今爆自家垃圾山危機",
    "date": "2025-09-02",
    "place": "台中",
@@ -1810,6 +1370,236 @@
      "title": "裝潢廢棄物隨意棄置最高判7年！中市環保局啟用數位申報平台 委託非法清運將負連帶責任",
      "outlet": "taichung.gov.tw",
      "url": "https://www.taichung.gov.tw/8868/8872/9962/3357978"
+    },
+    {
+     "title": "中市焚化爐更新延宕 大里30萬噸垃圾山飄異味",
+     "outlet": "epochtimes.com",
+     "url": "https://www.epochtimes.com/b5/24/6/24/n14276169.htm"
+    },
+    {
+     "title": "《台中》大里掩埋場堆30萬噸 估再1年飽和",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/paper/1653114"
+    },
+    {
+     "title": "大里掩埋場堆出垃圾山 遭質疑污水滲流污染住居",
+     "outlet": "epochtimes.com",
+     "url": "https://www.epochtimes.com/b5/25/9/2/n14586034.htm"
+    },
+    {
+     "title": "台中大里掩埋場接近滿載 環團籲全市垃圾費隨袋徵收",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/768513"
+    },
+    {
+     "title": "畫面曝光！台中大里驚人垃圾山82萬噸2042年才能清完",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/qo9r3JK"
+    },
+    {
+     "title": "畫面曝光！台中大里驚人垃圾山　82萬噸2042年才能清完",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1714227"
+    },
+    {
+     "title": "大里掩埋場「垃圾爆滿」超過34萬噸 綠批盧秀燕禍留子孫",
+     "outlet": "民視新聞",
+     "url": "https://www.ftvnews.com.tw/news/detail/2025902C12M1"
+    },
+    {
+     "title": "大里掩埋場爆滿 中市議員批市府失能",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/paper/1722681"
+    },
+    {
+     "title": "大里掩埋場垃圾爆量 34萬公噸全國之最",
+     "outlet": "news.st-media.com.tw",
+     "url": "https://news.st-media.com.tw/news/52190"
+    },
+    {
+     "title": "大里垃圾山成盧秀燕送市民大禮？ 民進黨：2042年才可能清完",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/politics/breakingnews/5166991"
+    },
+    {
+     "title": "大里掩埋場近滿載估明年底改善 目前進度僅14.9%",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/768994"
+    },
+    {
+     "title": "為大里垃圾山開槓卓冠廷　江和樹：當年綠議員拒林佳龍翻新焚化爐",
+     "outlet": "NOWnews",
+     "url": "https://www.nownews.com/news/6728923"
+    },
+    {
+     "title": "郭國文轟大里垃圾山預算暴增50億 審計長：台中市垃圾有點多",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/politics/breakingnews/5184321"
+    },
+    {
+     "title": "議員關心大里掩埋場與文山焚化爐工程 盧市長：市府推動焚化爐汰舊換新、確保可長治久安處理垃圾",
+     "outlet": "epb.taichung.gov.tw",
+     "url": "https://www.epb.taichung.gov.tw/3107440/post"
+    },
+    {
+     "title": "台中130萬人口廚餘埋霧峰 民怒：大里垃圾山、霧峰廚餘坑",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/breakingnews/5223227"
+    },
+    {
+     "title": "《環境災難？》大里有垃圾山 霧峰挖廚餘坑",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/paper/1729583"
+    },
+    {
+     "title": "直擊大里垃圾山！憂豪雨後恐出現垃圾湖　中市議員颱風前實勘",
+     "outlet": "NOWnews",
+     "url": "https://www.nownews.com/news/6752956"
+    },
+    {
+     "title": "大里垃圾山為何變胖又變高？中市議員驚爆低價搶事業廢棄物來燒",
+     "outlet": "NOWnews",
+     "url": "https://www.nownews.com/news/6755854"
+    },
+    {
+     "title": "台中大里垃圾山增高變胖議員批低價搶外地廢棄物",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/aloc/202511190309.aspx"
+    },
+    {
+     "title": "「大里垃圾山」有解？台中環保局：11天清掉1439噸垃圾",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7325/9198576"
+    },
+    {
+     "title": "大里垃圾山一天打包200噸 議員張芬郁要求加速去化",
+     "outlet": "台灣好新聞",
+     "url": "https://www.taiwanhot.net/news/1122518/%E5%A4%A7%E9%87%8C%E5%9E%83%E5%9C%BE%E5%B1%B1%E4%B8%80%E5%A4%A9%E6%89%93%E5%8C%85200%E5%99%B8+%E8%AD%B0%E5%93%A1%E5%BC%B5%E8%8A%AC%E9%83%81%E8%A6%81%E6%B1%82%E5%8A%A0%E9%80%9F%E5%8E%BB%E5%8C%96"
+    },
+    {
+     "title": "「全台最大垃圾山」打包 中市在地議員批大里垃圾山僅減1/5",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/breakingnews/5276873"
+    },
+    {
+     "title": "大里垃圾山打包「太空包」 運南屯惹怨",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/paper/1736402"
+    },
+    {
+     "title": "獨家／大里垃圾山解方停！億元打包計畫僅10天　文山居民怒擋垃圾無處去",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1783174"
+    },
+    {
+     "title": "台中大里垃圾山打包送文山掩埋場遭抗議喊卡 盧秀燕：庸人自擾 | 中彰投",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7325/9279804"
+    },
+    {
+     "title": "（台中）無處暫置 大里垃圾山打包10天就停",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/paper/1740799"
+    },
+    {
+     "title": "大里垃圾山打包到文山 議員批盧秀燕把問題丟給下一任市長",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/politics/breakingnews/5317247"
+    },
+    {
+     "title": "大里垃圾掩埋場堆置45萬噸垃圾 民眾開窗就見垃圾山",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%A4%A7%E9%87%8C%E5%9E%83%E5%9C%BE%E6%8E%A9%E5%9F%8B%E5%A0%B4%E5%A0%86%E7%BD%AE45%E8%90%AC%E5%99%B8%E5%9E%83%E5%9C%BE-%E6%B0%91%E7%9C%BE%E9%96%8B%E7%AA%97%E5%B0%B1%E8%A6%8B%E5%9E%83%E5%9C%BE%E5%B1%B1-090242996.html"
+    },
+    {
+     "title": "民代憂大里垃圾山在沙鹿重演 中市環保局：強化分類管理和去化 | 中彰投",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7325/9552967"
+    },
+    {
+     "title": "沙鹿「廢木材山」 楊典忠憂重演大里垃圾山",
+     "outlet": "taiwanreports.com",
+     "url": "https://taiwanreports.com/archives/991700"
+    },
+    {
+     "title": "大里垃圾山、潭子廢床墊爭議連環爆！何欣純批盧市府缺乏長遠規劃：台中垃圾治理不能再擺爛",
+     "outlet": "fountmedia.io",
+     "url": "https://www.fountmedia.io/article/390364"
+    },
+    {
+     "title": "台中大里掩埋場堆爆！環保局：9月SRF每周可多燒千噸",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20260827003028-260405"
+    },
+    {
+     "title": "大里掩埋場遭控「垃圾山」 中市府回應了",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%A4%A7%E9%87%8C%E6%8E%A9%E5%9F%8B%E5%A0%B4%E9%81%AD%E6%8E%A7-%E5%9E%83%E5%9C%BE%E5%B1%B1-%E4%B8%AD%E5%B8%82%E5%BA%9C%E5%9B%9E%E6%87%89%E4%BA%86-083918400.html"
+    },
+    {
+     "title": "破除「垃圾山」謠言 大里掩埋場3萬噸地面上垃圾將優先焚化",
+     "outlet": "中華日報",
+     "url": "https://www.cdns.com.tw/articles/1460400"
+    },
+    {
+     "title": "破除「垃圾山」謠言！ 大里掩埋場合法營運、3萬噸地面上垃圾將優先焚化 - 墨新聞-MORE News",
+     "outlet": "more-news.tw",
+     "url": "https://more-news.tw/720330/"
+    },
+    {
+     "title": "大里掩埋場容積無虞　環保局：絕非任意棄置",
+     "outlet": "NOWnews",
+     "url": "https://www.nownews.com/news/6875255"
+    },
+    {
+     "title": "針對大里掩埋場垃圾去化 民進黨台中市議員林德宇痛批環保局SRF至今實際處理量為零，還一再拿來當無力處理大里垃圾山的遮羞布，繼續騙市民",
+     "outlet": "遠方新聞",
+     "url": "https://yuanfengmedia.tw/detail.php"
+    },
+    {
+     "title": "《本報政面交鋒專訪》大里垃圾山堆47萬噸 何欣純提解方",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/politics/paper/1772076"
+    },
+    {
+     "title": "大里掩埋場垃圾堆積 議員批中市府政策前後不一延宕去化",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/breakingnews/5598775"
+    },
+    {
+     "title": "何欣純、林德宇競總成立千人喊凍蒜 不捨大里淪垃圾山哽咽允上任解決",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/politics/breakingnews/5610275"
+    },
+    {
+     "title": "台中「全台最大垃圾山」34萬噸超載難處理　市府估2042年才能清掉",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250904/3027851.htm"
+    },
+    {
+     "title": "全台最大垃圾山難消？台中議員批「僅去化1/5」 環保局說話了",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7325/9201308"
+    },
+    {
+     "title": "全國最大垃圾山 台中議員︰只打包1/5",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/paper/1735880"
+    },
+    {
+     "title": "中市垃圾太空包堆成山 議員何文海譏諷盧秀燕選總統主打垃圾政見",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/breakingnews/5384356"
+    },
+    {
+     "title": "台中文山焚化爐量能吃緊 民怨：垃圾車大遲到",
+     "outlet": "epochtimes.com",
+     "url": "https://www.epochtimes.com/b5/26/3/27/n14728505.htm"
+    },
+    {
+     "title": "中市垃圾太空包堆積 文山焚化爐去化慢",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/paper/1748624"
     }
    ],
    "fear": [
@@ -1852,15 +1642,20 @@
   },
   {
    "id": "g-i20250725a",
-   "title": "台中關查獲千噸廢棄物 嫌犯欲運往東南亞遭攔截",
+   "title": "檢警環聯手查獲非法處理廚餘殘渣　大甲區土地逾千噸廢棄物、蛋殼液臭氣熏天",
    "date": "2025-07-25",
-   "place": "台中",
-   "summary": "台中垃圾處理出現問題。",
+   "place": "大甲",
+   "summary": "大甲垃圾處理出現問題。",
    "sources": [
     {
      "title": "台中關查獲千噸廢棄物 嫌犯欲運往東南亞遭攔截",
      "outlet": "公視新聞網",
      "url": "https://news.pts.org.tw/article/762519"
+    },
+    {
+     "title": "檢警環聯手查獲非法處理廚餘殘渣　大甲區土地逾千噸廢棄物、蛋殼液臭氣熏天",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/story/20250911inv010"
     }
    ],
    "fear": [
@@ -1936,23 +1731,6 @@
    ]
   },
   {
-   "id": "g-i20241223a",
-   "title": "台中停車場淪為垃圾山沿途廢棄物四散飄異味居民喊苦",
-   "date": "2024-12-23",
-   "place": "台中",
-   "summary": "台中垃圾處理出現問題。",
-   "sources": [
-    {
-     "title": "台中停車場淪為垃圾山沿途廢棄物四散飄異味居民喊苦",
-     "outlet": "ctee.com.tw",
-     "url": "https://www.ctee.com.tw/news/20241223701708-431401"
-    }
-   ],
-   "fear": [
-    "I"
-   ]
-  },
-  {
    "id": "g-i20241206a",
    "title": "台中文山焚化爐6年未動工 議員：垃圾大戰將至",
    "date": "2024-12-06",
@@ -1967,33 +1745,6 @@
    ],
    "fear": [
     "C"
-   ]
-  },
-  {
-   "id": "g-i20241111a",
-   "title": "承租閒置廠房非法棄置廢棄物 中市檢警環合作破獲不肖環保蟑螂產業鏈",
-   "date": "2024-11-11",
-   "place": "台中",
-   "summary": "台中垃圾處理出現問題。",
-   "sources": [
-    {
-     "title": "承租閒置廠房非法棄置廢棄物 中市檢警環合作破獲不肖環保蟑螂產業鏈",
-     "outlet": "taichung.gov.tw",
-     "url": "https://www.taichung.gov.tw/2815674/post"
-    },
-    {
-     "title": "台中環保蟑螂租廠房堆2500公噸廢棄物 清理費2300萬",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/life/breakingnews/4859749"
-    },
-    {
-     "title": "環保蟑螂出沒！台中4廠房出租慘變垃圾山…地主慘賠2300萬清垃圾",
-     "outlet": "三立新聞網",
-     "url": "https://www.setn.com/news/1562659"
-    }
-   ],
-   "fear": [
-    "I"
    ]
   },
   {
@@ -2021,19 +1772,9 @@
    "summary": "大里垃圾處理出現問題。",
    "sources": [
     {
-     "title": "中市焚化爐更新延宕 大里30萬噸垃圾山飄異味",
-     "outlet": "epochtimes.com",
-     "url": "https://www.epochtimes.com/b5/24/6/24/n14276169.htm"
-    },
-    {
      "title": "台中大里堆30萬噸垃圾張芬郁籲焚化爐汰舊換新不能跳票",
      "outlet": "自由時報",
      "url": "https://news.ltn.com.tw/news/life/breakingnews/4715454"
-    },
-    {
-     "title": "《台中》大里掩埋場堆30萬噸 估再1年飽和",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/life/paper/1653114"
     }
    ],
    "fear": [
@@ -2123,27 +1864,10 @@
   },
   {
    "id": "g-i20240325a",
-   "title": "龍井區土地遭傾倒廢棄物 中市檢警環破獲不肖業者「假承租真棄置」",
+   "title": "棄置6千公斤含戴奧辛廢棄物 台中6人不法獲利390萬遭起訴",
    "date": "2024-03-25",
    "place": "龍井",
    "summary": "龍井垃圾處理出現問題。",
-   "sources": [
-    {
-     "title": "龍井區土地遭傾倒廢棄物 中市檢警環破獲不肖業者「假承租真棄置」",
-     "outlet": "taichung.gov.tw",
-     "url": "https://www.taichung.gov.tw/8868/8872/9962/2598890"
-    }
-   ],
-   "fear": [
-    "I"
-   ]
-  },
-  {
-   "id": "g-i20240325b",
-   "title": "棄置6千公斤含戴奧辛廢棄物 台中6人不法獲利390萬遭起訴",
-   "date": "2024-03-25",
-   "place": "台中",
-   "summary": "台中垃圾處理出現問題。",
    "sources": [
     {
      "title": "棄置6千公斤含戴奧辛廢棄物 台中6人不法獲利390萬遭起訴",
@@ -2195,33 +1919,36 @@
    ]
   },
   {
-   "id": "g-i20231002a",
-   "title": "台中小巷驚見「垃圾山」！ 回收物堆積半個月沒人清",
-   "date": "2023-10-02",
-   "place": "台中",
-   "summary": "台中垃圾處理出現問題。",
-   "sources": [
-    {
-     "title": "台中小巷驚見「垃圾山」！ 回收物堆積半個月沒人清",
-     "outlet": "ctee.com.tw",
-     "url": "https://www.ctee.com.tw/news/20231002700696-431401"
-    }
-   ],
-   "fear": [
-    "I"
-   ]
-  },
-  {
    "id": "g-i20230920a",
-   "title": "「廢油一條鏈」假回收真棄置 中市檢警環合作終結不肖業者偷倒廢油",
+   "title": "承租閒置廠房非法棄置廢棄物 中市檢警環合作破獲不肖環保蟑螂產業鏈",
    "date": "2023-09-20",
-   "place": "台中",
-   "summary": "台中垃圾處理出現問題。",
+   "place": "龍井",
+   "summary": "龍井垃圾處理出現問題。",
    "sources": [
     {
      "title": "「廢油一條鏈」假回收真棄置 中市檢警環合作終結不肖業者偷倒廢油",
      "outlet": "taichung.gov.tw",
      "url": "https://www.taichung.gov.tw/8868/8872/9962/2456190"
+    },
+    {
+     "title": "龍井區土地遭傾倒廢棄物 中市檢警環破獲不肖業者「假承租真棄置」",
+     "outlet": "taichung.gov.tw",
+     "url": "https://www.taichung.gov.tw/8868/8872/9962/2598890"
+    },
+    {
+     "title": "承租閒置廠房非法棄置廢棄物 中市檢警環合作破獲不肖環保蟑螂產業鏈",
+     "outlet": "taichung.gov.tw",
+     "url": "https://www.taichung.gov.tw/2815674/post"
+    },
+    {
+     "title": "台中環保蟑螂租廠房堆2500公噸廢棄物 清理費2300萬",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/breakingnews/4859749"
+    },
+    {
+     "title": "環保蟑螂出沒！台中4廠房出租慘變垃圾山…地主慘賠2300萬清垃圾",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1562659"
     }
    ],
    "fear": [
@@ -2260,23 +1987,6 @@
    ],
    "fear": [
     "C"
-   ]
-  },
-  {
-   "id": "g-i20230726a",
-   "title": "烏日大排漂浮「惡臭奶茶」！無良商偷倒強酸廢油A近億　7人收押",
-   "date": "2023-07-26",
-   "place": "台中",
-   "summary": "台中垃圾處理出現問題。",
-   "sources": [
-    {
-     "title": "烏日大排漂浮「惡臭奶茶」！無良商偷倒強酸廢油A近億　7人收押",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20230726/2547666.htm"
-    }
-   ],
-   "fear": [
-    "I"
    ]
   },
   {
@@ -2358,6 +2068,11 @@
      "title": "后里公墓驚見垃圾山「35座籃球場大」　噁心液體到處流...6人羈押",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20220729/2304868.htm"
+    },
+    {
+     "title": "台中小巷驚見「垃圾山」！ 回收物堆積半個月沒人清",
+     "outlet": "ctee.com.tw",
+     "url": "https://www.ctee.com.tw/news/20231002700696-431401"
     }
    ],
    "fear": [
