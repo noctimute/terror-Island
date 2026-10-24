@@ -414,16 +414,11 @@
   },
   {
    "id": "fire-h20220622a",
-   "title": "台中老議長之子與外傭命喪火場　兒招魂保證照顧好母妹才獲允杯",
+   "title": "台中民宅大火　老議長之子、看護喪生",
    "date": "2022-06-22",
    "place": "台中",
    "summary": "台中發生火警，造成 2 人罹難。",
    "sources": [
-    {
-     "title": "台中老議長之子與外傭命喪火場　兒招魂保證照顧好母妹才獲允杯",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20220622/2278610.htm"
-    },
     {
      "title": "台中深夜大火2死！倖存母女「跳樓逃生」 躲陽台求救驚險畫面曝",
      "outlet": "ETtoday",
@@ -793,36 +788,6 @@
    "deaths": 1
   },
   {
-   "id": "fire-h20210423a",
-   "title": "台中大火奪3童命…消防達人曝「做到關鍵5點」：小孩一定不會死！",
-   "date": "2021-04-23",
-   "place": "台中",
-   "summary": "台中發生火警，一名幼童罹難。",
-   "sources": [
-    {
-     "title": "台中大火奪3童命…消防達人曝「做到關鍵5點」：小孩一定不會死！",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20210423/1966570.htm"
-    },
-    {
-     "title": "台中3童命喪火場、難道沒有存活機會？消防達人籲防災5點：保護小孩是大人的責任",
-     "outlet": "太報",
-     "url": "https://www.taisounds.com/news/content/96/21599"
-    },
-    {
-     "title": "台中3童命喪火場、難道沒有存活機會？消防達人籲防災5點：保護小孩是大人的責任",
-     "outlet": "Yahoo 新聞",
-     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD3%E7%AB%A5%E5%91%BD%E5%96%AA%E7%81%AB%E5%A0%B4-%E9%9B%A3%E9%81%93%E6%B2%92%E6%9C%89%E5%AD%98%E6%B4%BB%E6%A9%9F%E6%9C%83-%E6%B6%88%E9%98%B2%E9%81%94%E4%BA%BA%E7%B1%B2%E9%98%B2%E7%81%BD5%E9%BB%9E-%E4%BF%9D%E8%AD%B7%E5%B0%8F%E5%AD%A9%E6%98%AF%E5%A4%A7%E4%BA%BA%E7%9A%84%E8%B2%AC%E4%BB%BB-055900196.html"
-    },
-    {
-     "title": "台中3童葬身火海…消防專家揭「5大關鍵」：做到小孩不會死",
-     "outlet": "中天新聞網",
-     "url": "https://ctinews.com/news/items/vNWOKLGDWw"
-    }
-   ],
-   "deaths": 1
-  },
-  {
    "id": "fire-h20210419a",
    "title": "台中3童火窟殞命！房客摸黑下樓「踩到他」…伸手一拉軟趴趴：完了",
    "date": "2021-04-19",
@@ -879,7 +844,7 @@
   },
   {
    "id": "fire-h20210418a",
-   "title": "台中3童命喪火窟！爸淚曝「剛剛還在這裡玩」：還有跟我說爸爸再見",
+   "title": "疑玩打火機釀禍…台中3童葬身火窟！市府第一時間到場：盡力協助",
    "date": "2021-04-18",
    "place": "大甲",
    "summary": "大甲發生火警，一名幼童罹難。",
@@ -893,11 +858,6 @@
      "title": "外出看熱鬧？台中3童命喪火窟　友澄清：3大人到大甲媽當「雜工」",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20210419/1963675.htm"
-    },
-    {
-     "title": "台中3童命喪火窟！3歲女童「生日成忌日」　招魂聽媽呼喊才聖杯",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20210419/1963588.htm"
     },
     {
      "title": "台中3童命喪火窟！爸淚曝「剛剛還在這裡玩」：還有跟我說爸爸再見",
@@ -923,31 +883,6 @@
      "title": "快訊／台中深夜惡火！3幼童倒臥樓梯間不治 疑玩打火機釀禍",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20210419/1963077.htm"
-    },
-    {
-     "title": "台中大火3童死！女童父質疑「打火機釀禍」、煩惱怎麼賠償",
-     "outlet": "三立新聞網",
-     "url": "https://www.setn.com/news/927195"
-    },
-    {
-     "title": "台中夜市民宅惡火釀2傷 3童倒臥樓梯間送醫不治",
-     "outlet": "鏡週刊",
-     "url": "https://www.mirrormedia.mg/story/20210419edi006"
-    },
-    {
-     "title": "台中夜市民宅惡火釀2傷 3童倒臥樓梯間送醫不治",
-     "outlet": "Yahoo 新聞",
-     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E5%A4%9C%E5%B8%82%E6%B0%91%E5%AE%85%E6%83%A1%E7%81%AB%E9%87%802%E5%82%B7-3%E7%AB%A5%E5%80%92%E8%87%A5%E6%A8%93%E6%A2%AF%E9%96%93%E9%80%81%E9%86%AB%E4%B8%8D%E6%B2%BB-225949704.html"
-    },
-    {
-     "title": "【台中惡火】疑玩打火機惹禍2家3童喪命 父悲慟還煩惱賠償",
-     "outlet": "中時新聞網",
-     "url": "https://www.chinatimes.com/realtimenews/20210419000949-260402"
-    },
-    {
-     "title": "台中民宅暗夜惡火 3童命喪火窟",
-     "outlet": "LINE TODAY（轉載）",
-     "url": "https://today.line.me/tw/v3/article/zpymz7"
     },
     {
      "title": "[新聞] 台中中華夜市深夜惡火 2女1男童均宣告不治-寧威科技",
@@ -978,6 +913,31 @@
      "title": "台中市中華路夜市民宅惡火 3童無生命跡象1男嗆傷",
      "outlet": "台視新聞",
      "url": "https://news.ttv.com.tw/news/11004190000100W"
+    },
+    {
+     "title": "台中大火3童死！女童父質疑「打火機釀禍」、煩惱怎麼賠償",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/927195"
+    },
+    {
+     "title": "台中夜市民宅惡火釀2傷 3童倒臥樓梯間送醫不治",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/story/20210419edi006"
+    },
+    {
+     "title": "台中夜市民宅惡火釀2傷 3童倒臥樓梯間送醫不治",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E5%A4%9C%E5%B8%82%E6%B0%91%E5%AE%85%E6%83%A1%E7%81%AB%E9%87%802%E5%82%B7-3%E7%AB%A5%E5%80%92%E8%87%A5%E6%A8%93%E6%A2%AF%E9%96%93%E9%80%81%E9%86%AB%E4%B8%8D%E6%B2%BB-225949704.html"
+    },
+    {
+     "title": "【台中惡火】疑玩打火機惹禍2家3童喪命 父悲慟還煩惱賠償",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20210419000949-260402"
+    },
+    {
+     "title": "台中民宅暗夜惡火 3童命喪火窟",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/zpymz7"
     }
    ],
    "deaths": 1
@@ -1360,21 +1320,6 @@
      "url": "https://www.ettoday.net/news/20200402/1682421.htm"
     },
     {
-     "title": "台中接連2起縱火焦屍之一不排除是嫌疑人",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/society/breakingnews/3120667"
-    },
-    {
-     "title": "台中離奇縱火2焦屍！一小時內「太平、西屯」接連燃燒 嫌疑人已失蹤",
-     "outlet": "LINE TODAY（轉載）",
-     "url": "https://today.line.me/tw/v3/article/wy63Gw"
-    },
-    {
-     "title": "台中2火警2焦屍2傷 警疑失蹤何男縱火",
-     "outlet": "中天新聞網",
-     "url": "https://ctinews.com/news/items/4bnbGB7ZWP"
-    },
-    {
      "title": "台中太平透天民宅凌晨火警 屋內發現2焦屍",
      "outlet": "Yahoo 新聞",
      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E5%A4%AA%E5%B9%B3%E9%80%8F%E5%A4%A9%E6%B0%91%E5%AE%85%E5%87%8C%E6%99%A8%E7%81%AB%E8%AD%A6-%E5%B1%8B%E5%85%A7%E7%99%BC%E7%8F%BE2%E7%84%A6%E5%B1%8D-012230368.html"
@@ -1393,6 +1338,21 @@
      "title": "台中凌晨民宅火警 2焦屍陳屍屋內",
      "outlet": "Newtalk 新聞",
      "url": "https://newtalk.tw/news/view/2020-04-01/384502"
+    },
+    {
+     "title": "台中接連2起縱火焦屍之一不排除是嫌疑人",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/3120667"
+    },
+    {
+     "title": "台中離奇縱火2焦屍！一小時內「太平、西屯」接連燃燒 嫌疑人已失蹤",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/wy63Gw"
+    },
+    {
+     "title": "台中2火警2焦屍2傷 警疑失蹤何男縱火",
+     "outlet": "中天新聞網",
+     "url": "https://ctinews.com/news/items/4bnbGB7ZWP"
     }
    ],
    "deaths": 2
@@ -1533,11 +1493,6 @@
      "title": "大雅2消死／消防兄懊悔「成為他榜樣」 胞弟喪命父母惡夢成真",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20191003/1548997.htm"
-    },
-    {
-     "title": "大雅2消死／孕妻挺7月大雙胞肚招魂 家屬哭到腿軟攙扶到場",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20191003/1548823.htm"
     },
     {
      "title": "大雅惡火2消死／台中市府：2廠房屬整棟違建 盧秀燕震怒",
