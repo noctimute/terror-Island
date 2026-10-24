@@ -2,7 +2,7 @@ import { S, TOP, WILD_TOP, layoutZones, buildCity, createHeightAt } from "./worl
 import { createEnvironment, mulberry } from "./environment.js?v=6";
 import { createKit, MODELS, wildForest } from "./models.js?v=22";
 import { createPeople, flowCurve } from "./people.js?v=3";
-import { createLumama } from "./lumama.js?v=13";
+import { createLumama, buildLumama } from "./lumama.js?v=14";
 import { createGuns } from "./guns.js?v=11";
 import { createMusic } from "./music.js?v=1";
 import { sfx } from "./sfx.js?v=10";
@@ -968,11 +968,56 @@ try {
     setSel(null, { fly: false });
     homeView();
   });
-  $(".logo").addEventListener("click", (e) => {
+  // ---------- island owner card: the brand opens a card with Lumama spinning on her own little stage ----------
+  const owner = $("#owner");
+  let ownerGL = null;
+  function ownerStage() {
+    const canvas = $("#owner-stage");
+    const r = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true });
+    r.setPixelRatio(Math.min(2, devicePixelRatio));
+    r.setSize(canvas.clientWidth, canvas.clientHeight, false);
+    const sc = new THREE.Scene();
+    sc.add(new THREE.HemisphereLight(0xfff4e0, 0x403028, 1.6));
+    const sun = new THREE.DirectionalLight(0xffffff, 1.6);
+    sun.position.set(2, 4, 3);
+    sc.add(sun);
+    const fig = buildLumama(THREE);
+    sc.add(fig.g);
+    const base = new THREE.Mesh(new THREE.CylinderGeometry(0.62, 0.68, 0.08, 6), new THREE.MeshStandardMaterial({ color: 0x8a6a4a, roughness: 0.9 }));
+    base.position.y = -0.04;
+    sc.add(base);
+    const cam = new THREE.PerspectiveCamera(30, canvas.clientWidth / canvas.clientHeight, 0.1, 20);
+    cam.position.set(0, 0.95, 3.1);
+    cam.lookAt(0, 0.62, 0);
+    const clock = new THREE.Clock();
+    const tick = () => {
+      if (owner.hidden) return (ownerGL.raf = 0);
+      const t = clock.getElapsedTime();
+      const beat = t * 9;
+      fig.g.rotation.y = Math.sin(t * 0.6) * 0.7;
+      fig.arms[0].rotation.set(-0.8 - Math.max(0, Math.sin(beat)) * 0.5, 0, 0.4);
+      fig.arms[1].rotation.set(-0.8 - Math.max(0, -Math.sin(beat)) * 0.5, 0, -0.4);
+      fig.drum.position.y = 0.36 + Math.abs(Math.sin(beat)) * 0.01;
+      fig.head.rotation.z = Math.sin(t * 3.5) * 0.08;
+      r.render(sc, cam);
+      ownerGL.raf = requestAnimationFrame(tick);
+    };
+    return { tick, raf: 0 };
+  }
+  function openOwner() {
+    owner.hidden = false;
+    $("#owner-close").focus();
+    ownerGL ||= ownerStage();
+    if (!ownerGL.raf) ownerGL.tick();
+  }
+  $("#brand").addEventListener("click", (e) => {
     e.preventDefault();
-    setSel(null, { fly: false });
-    homeView();
+    openOwner();
   });
+  $("#brand").addEventListener("keydown", (e) => (e.key === "Enter" || e.key === " ") && (e.preventDefault(), openOwner()));
+  $("#owner-close").addEventListener("click", () => (owner.hidden = true));
+  owner.addEventListener("click", (e) => e.target === owner && (owner.hidden = true));
+  addEventListener("keydown", (e) => e.key === "Escape" && (owner.hidden = true));
 
   // ---------- night log ----------
   const verbs = ["傳出了聲響", "有人目擊", "燈又亮了", "溫度驟降", "傳出哭聲", "監視器拍到人影", "收音機自己開了"];

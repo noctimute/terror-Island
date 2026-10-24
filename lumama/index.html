@@ -8,14 +8,14 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Noto+Serif+TC:wght@700;900&display=swap">
 <base href="../engine/">
-<link rel="stylesheet" href="./ui.css?v=59">
+<link rel="stylesheet" href="./ui.css?v=60">
 <script type="importmap">{"imports":{"three":"./vendor/three/build/three.module.min.js","three/addons/":"./vendor/three/examples/jsm/"}}</script>
 <script data-goatcounter="https://terrorisland.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </head>
 <body><main id="app" data-src="../lumama/data.json">
 <div id="stage" role="img" aria-label="19 個六邊形組成的台中事件地圖；完整文字內容請使用右側清單"></div>
 
-<header class="brand"><a class="logo" href="../" aria-label="回到全景">TERROR <span>ISLAND.</span></a><div class="brand-r"><h1>台中恐怖島</h1><p class="sub"><em>FEAR</em>事件地圖</p></div></header>
+<header class="brand" id="brand" role="button" tabindex="0" aria-label="島主介紹"><a class="logo" href="../" aria-label="島主介紹">TERROR <span>ISLAND.</span></a><div class="brand-r"><h1>台中恐怖島</h1><p class="sub"><em>FEAR</em>事件地圖</p></div></header>
 
 <div class="hero-note"><div class="number">19</div><h2>一格一座島<br>一島一串真實新聞</h2><p>點開一座島，<br>看看這座城發生過什麼。</p></div>
 
@@ -107,6 +107,18 @@
 <div class="tour-controls"><span id="tour-time">00 / 64</span><button id="tour-pause">暫停</button><button id="tour-replay">重播</button><button id="tour-exit">離開</button></div>
 
 <div class="intro" id="intro" hidden><div class="intro-box" role="dialog" aria-modal="true" aria-labelledby="intro-title"><div class="eyebrow" id="intro-count">WELCOME, TAICHUNG / 01</div><h2 id="intro-title"></h2><p id="intro-body"></p><p class="intro-note" id="intro-note"></p><div class="intro-actions"><button id="intro-skip">略過</button><button id="intro-next" class="next">下一步 →</button></div></div></div>
+<div class="intro" id="owner" hidden><div class="intro-box owner-box" role="dialog" aria-modal="true" aria-labelledby="owner-title"><div class="eyebrow">ISLAND OWNER</div><h2 id="owner-title">恐怖島 島主介紹</h2>
+<canvas class="owner-stage" id="owner-stage" width="400" height="320" aria-label="島主 Lumama 的 3D 模型"></canvas>
+<p class="owner-name"><b>Lumama</b><small>台中恐怖島 島主・常在城裡打鼓巡島</small></p>
+<dl class="owner-card">
+<dt>口頭禪</dt><dd>「中央負責」</dd>
+<dt>專長</dt><dd>把事情推給中央。空污推中火、缺電推台電、缺水推老天、治安推警政署——推完記得再補一句「中央應該負責」。</dd>
+<dt>興趣</dt><dd>打鼓、剪綵、站台、拍短影音。島上出事時，通常正在另一場活動現場。</dd>
+<dt>戰績</dt><dd>民調常勝，城裡的事件地圖也長出 19 座島。</dd>
+<dt>贈品</dt><dd>谷關空氣瓶，內容物：空氣。</dd>
+</dl>
+<p class="owner-note">以上為網路流傳的諷刺說法，博君一笑。島上收錄的事件，則全部都是真實新聞。</p>
+<div class="intro-actions"><span></span><button id="owner-close" class="next">關閉</button></div></div></div>
 <div class="intro" id="about" hidden><div class="intro-box about-box" role="dialog" aria-modal="true" aria-labelledby="about-title"><div class="eyebrow">ABOUT THE AUTHOR</div><h2 id="about-title">關於作者</h2>
 <a class="about-handle" href="https://www.threads.com/@a728728728" target="_blank" rel="noopener">Threads　@a728728728 ↗</a>
 <p>網上第一個整理台中S亡列表<br>因而被台中市政府查水表中...</p>
@@ -153,4 +165,4 @@
 <div id="loading" class="loading" role="status"><h2>TERROR</h2><p>正在載入事件…</p></div>
 <noscript><p class="nojs">這個互動地圖需要啟用 JavaScript 與 WebGL。</p></noscript>
 </main>
-<script type="module" src="./app.js?v=113"></script></body></html>
+<script type="module" src="./app.js?v=114"></script></body></html>

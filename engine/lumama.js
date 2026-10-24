@@ -4,28 +4,8 @@ import { RoundedBoxGeometry } from "three/addons/geometries/RoundedBoxGeometry.j
 import { S, hexVertex } from "./world.js?v=1";
 import { makeAirBottle } from "./airgift.js?v=3";
 
-export function createLumama(THREE, { scene, centers, CSS2DObject, rng, onCelebrate }) {
-  // ---- road graph from hex corners ----
-  const key = (x, z) => `${Math.round(x * 100)}|${Math.round(z * 100)}`;
-  const nodes = new Map();
-  const node = (x, z) => {
-    const k = key(x, z);
-    if (!nodes.has(k)) nodes.set(k, { x, z, next: new Set() });
-    return nodes.get(k);
-  };
-  for (const c of centers) {
-    const ring = [0, 1, 2, 3, 4, 5].map((i) => {
-      const v = hexVertex(i, S);
-      return node(c.x + v.x, c.z + v.z);
-    });
-    ring.forEach((n, i) => {
-      const m = ring[(i + 1) % 6];
-      n.next.add(m);
-      m.next.add(n);
-    });
-  }
-
-  // ---- figure ----
+// The figure alone, about 1.25 units tall at scale 1; also shown spinning on the island-owner card.
+export function buildLumama(THREE) {
   const g = new THREE.Group();
   g.name = "lumama";
   const mat = (color, o = {}) => new THREE.MeshStandardMaterial({ color, roughness: 0.75, ...o });
@@ -102,6 +82,31 @@ export function createLumama(THREE, { scene, centers, CSS2DObject, rng, onCelebr
   const glow = new THREE.PointLight(0xb8ff7a, 1.4, 2.4, 2);
   glow.position.set(0, 1.25, 0.9);
   g.add(glow);
+  return { g, legs, arms, head, drum, glow };
+}
+
+export function createLumama(THREE, { scene, centers, CSS2DObject, rng, onCelebrate }) {
+  // ---- road graph from hex corners ----
+  const key = (x, z) => `${Math.round(x * 100)}|${Math.round(z * 100)}`;
+  const nodes = new Map();
+  const node = (x, z) => {
+    const k = key(x, z);
+    if (!nodes.has(k)) nodes.set(k, { x, z, next: new Set() });
+    return nodes.get(k);
+  };
+  for (const c of centers) {
+    const ring = [0, 1, 2, 3, 4, 5].map((i) => {
+      const v = hexVertex(i, S);
+      return node(c.x + v.x, c.z + v.z);
+    });
+    ring.forEach((n, i) => {
+      const m = ring[(i + 1) % 6];
+      n.next.add(m);
+      m.next.add(n);
+    });
+  }
+
+  const { g, legs, arms, head, drum, glow } = buildLumama(THREE);
   g.scale.setScalar(1.8);
 
   const el = document.createElement("div");
