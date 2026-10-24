@@ -4851,16 +4851,6 @@
      "url": "https://www.ettoday.net/news/20210706/2023614.htm"
     },
     {
-     "title": "快訊／台中女突墜樓...「頭身分離」躺人行道上！路人嚇傻急報警",
-     "outlet": "中天新聞網",
-     "url": "https://ctinews.com/news/items/KwnKzp2mxY"
-    },
-    {
-     "title": "台中女子墜樓重擊「頭身分離」倒臥人行道路人嚇呆",
-     "outlet": "中時新聞網",
-     "url": "https://www.chinatimes.com/realtimenews/20210705001902-260402"
-    },
-    {
      "title": "快訊／台中女墜樓！「頭身分離」血濺人行道詭異死狀「離奇50 ...",
      "outlet": "中天新聞網",
      "url": "https://ctinews.com/news/items/gzaeLgeLWm"
@@ -4874,6 +4864,16 @@
      "title": "台中婦人墜樓身首異處慘死「相離50公分」離奇原因曝光",
      "outlet": "CTWANT",
      "url": "https://www.ctwant.com/article/127060/"
+    },
+    {
+     "title": "快訊／台中女突墜樓...「頭身分離」躺人行道上！路人嚇傻急報警",
+     "outlet": "中天新聞網",
+     "url": "https://ctinews.com/news/items/KwnKzp2mxY"
+    },
+    {
+     "title": "台中女子墜樓重擊「頭身分離」倒臥人行道路人嚇呆",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20210705001902-260402"
     }
    ],
    "deaths": 1
@@ -5419,7 +5419,7 @@
    "deaths": 1
   },
   {
-   "id": "fall-h20191120b",
+   "id": "fall-h20191120a",
    "title": "台中科大驚傳墜樓意外！男大生「中正大樓」四肢挫傷亡",
    "date": "2019-11-20",
    "place": "台中",
@@ -5484,7 +5484,7 @@
    "deaths": 1
   },
   {
-   "id": "fall-h20191022b",
+   "id": "fall-h20191022a",
    "title": "台中農民騎電動車要去種田　「跌落3公尺深」大排…送醫不治",
    "date": "2019-10-22",
    "place": "太平",
@@ -5684,7 +5684,7 @@
    "deaths": 1
   },
   {
-   "id": "fall-h20190510b",
+   "id": "fall-h20190510a",
    "title": "驚悚！故障電梯「自由落體」 23歲電梯工直墜地下7樓身亡",
    "date": "2019-05-10",
    "place": "西屯",

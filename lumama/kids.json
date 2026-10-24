@@ -95,6 +95,70 @@
    ]
   },
   {
+   "id": "y-i20260820a",
+   "title": "台中幼兒園涉虐童！ 教育局：涉案教保員已停職 涉違法嚴懲嚴辦",
+   "date": "2026-08-20",
+   "place": "台中",
+   "summary": "台中發生兒少受害事件。",
+   "sources": [
+    {
+     "title": "台中幼兒園涉虐童！ 教育局：涉案教保員已停職 涉違法嚴懲嚴辦",
+     "outlet": "台灣新聞雲報",
+     "url": "https://www.tcpttw.com/other/other_local/2026/08/20/301988/"
+    }
+   ],
+   "fear": [
+    "Y"
+   ]
+  },
+  {
+   "id": "y-i20260819a",
+   "title": "台中某私立幼兒園遭控不當管教 女童被按掐、拖拽全身傷",
+   "date": "2026-08-19",
+   "place": "台中",
+   "summary": "台中發生兒少受害事件。",
+   "sources": [
+    {
+     "title": "台中傳私立幼兒園不當管教 四歲女童被拖拽全身傷",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E5%82%B3%E7%A7%81%E7%AB%8B%E5%B9%BC%E5%85%92%E5%9C%92%E4%B8%8D%E7%95%B6%E7%AE%A1%E6%95%99-%E5%9B%9B%E6%AD%B2%E5%A5%B3%E7%AB%A5%E8%A2%AB%E6%8B%96%E6%8B%BD%E5%85%A8%E8%BA%AB%E5%82%B7-034043594.html"
+    },
+    {
+     "title": "台中私立幼園爆虐童？　家長控女兒遭「拖拽」全身瘀青",
+     "outlet": "鏡新聞",
+     "url": "https://www.mnews.tw/story/20260820sot1342001"
+    },
+    {
+     "title": "台中某私立幼兒園遭控不當管教 4歲女童被按掐、拖拽全身傷",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/6885/9702949"
+    },
+    {
+     "title": "台中幼園爆虐童疑雲！議員質疑教育局調查慢半拍、證據恐難保",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5546104"
+    },
+    {
+     "title": "台中私立幼園爆虐童？ 家長控女兒遭「拖拽」全身瘀青",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E7%A7%81%E7%AB%8B%E5%B9%BC%E5%9C%92%E7%88%86%E8%99%90%E7%AB%A5-%E5%AE%B6%E9%95%B7%E6%8E%A7%E5%A5%B3%E5%85%92%E9%81%AD-%E6%8B%96%E6%8B%BD-%E5%85%A8%E8%BA%AB%E7%98%80%E9%9D%92-%E9%8F%A1%E6%96%B0%E8%81%9E-060236240.html"
+    },
+    {
+     "title": "4歲女童入幼兒園三周全身傷！哭訴遭師拖拽 中市府挨轟「慢半拍」回應了",
+     "outlet": "知新聞",
+     "url": "https://www.knews.com.tw/news/CEC1994D274625042D3D68CF3DFFAE9E"
+    },
+    {
+     "title": "台中又傳虐童通報3天教育局才調查",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/paper/1767531"
+    }
+   ],
+   "fear": [
+    "Y"
+   ]
+  },
+  {
    "id": "y-i20260817a",
    "title": "台中「明星高中」爆狼師疑雲！女學生控車內遭襲胸、摸大腿 網友炸鍋：受害者不只一人",
    "date": "2026-08-17",
@@ -131,93 +195,6 @@
    ],
    "fear": [
     "Y"
-   ]
-  },
-  {
-   "id": "y-kinder",
-   "title": "西屯幼兒園4歲女童全身瘀傷 教保員停職",
-   "date": "2026-08",
-   "place": "西屯",
-   "summary": "一名 4 歲女童入園不到三週，家長發現全身瘀青、出現夜驚等反應；教保員已停職，教育局受理調查，議員批評調查延遲。",
-   "fear": [
-    "Y"
-   ],
-   "sources": [
-    {
-     "title": "台中幼兒園疑不當對待小孩  議員要求教育局調查",
-     "outlet": "中央社",
-     "url": "https://www.cna.com.tw/news/aloc/202608200124.aspx"
-    },
-    {
-     "title": "家長控台中幼兒園不當管教 教育局遭民代質疑調查延宕",
-     "outlet": "公視新聞網",
-     "url": "https://news.pts.org.tw/article/823375"
-    },
-    {
-     "title": "台中幼園爆虐童疑雲！議員質疑教育局調查慢半拍、證據恐難保",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/Taichung/breakingnews/5546104"
-    },
-    {
-     "title": "台中某私立幼兒園遭控不當管教 4歲女童被按掐、拖拽全身傷",
-     "outlet": "聯合新聞網",
-     "url": "https://udn.com/news/story/6885/9702949"
-    },
-    {
-     "title": "台中幼兒園涉虐童！ 教育局：涉案教保員已停職 涉違法嚴懲嚴辦",
-     "outlet": "台灣新聞雲報",
-     "url": "https://www.tcpttw.com/other/other_local/2026/08/20/301988/"
-    },
-    {
-     "title": "台中傳私立幼兒園不當管教 四歲女童被拖拽全身傷",
-     "outlet": "Yahoo 新聞",
-     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E5%82%B3%E7%A7%81%E7%AB%8B%E5%B9%BC%E5%85%92%E5%9C%92%E4%B8%8D%E7%95%B6%E7%AE%A1%E6%95%99-%E5%9B%9B%E6%AD%B2%E5%A5%B3%E7%AB%A5%E8%A2%AB%E6%8B%96%E6%8B%BD%E5%85%A8%E8%BA%AB%E5%82%B7-034043594.html"
-    },
-    {
-     "title": "台中私立幼園爆虐童？　家長控女兒遭「拖拽」全身瘀青",
-     "outlet": "鏡新聞",
-     "url": "https://www.mnews.tw/story/20260820sot1342001"
-    },
-    {
-     "title": "台中幼園爆虐童疑雲！議員質疑教育局調查慢半拍、證據恐難保- 社會",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/society/breakingnews/5546104"
-    },
-    {
-     "title": "台中幼園爆虐童疑雲！議員質疑教育局調查慢半拍、證據恐難保",
-     "outlet": "自由時報",
-     "url": "https://video.ltn.com.tw/article/tyI0uihV57Q/PLI7xntdRxhw1rpX3OIi9nX4jeQoPimc9q"
-    },
-    {
-     "title": "台中私立幼園爆虐童？ 家長控女兒遭「拖拽」全身瘀青",
-     "outlet": "Yahoo 新聞",
-     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E7%A7%81%E7%AB%8B%E5%B9%BC%E5%9C%92%E7%88%86%E8%99%90%E7%AB%A5-%E5%AE%B6%E9%95%B7%E6%8E%A7%E5%A5%B3%E5%85%92%E9%81%AD-%E6%8B%96%E6%8B%BD-%E5%85%A8%E8%BA%AB%E7%98%80%E9%9D%92-%E9%8F%A1%E6%96%B0%E8%81%9E-060236240.html"
-    },
-    {
-     "title": "4歲女童入幼兒園三周全身傷！哭訴遭師拖拽 中市府挨轟「慢半拍」回應了",
-     "outlet": "知新聞",
-     "url": "https://www.knews.com.tw/news/CEC1994D274625042D3D68CF3DFFAE9E"
-    },
-    {
-     "title": "台中又傳虐童通報3天教育局才調查",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/life/paper/1767531"
-    },
-    {
-     "title": "不僅虐童！台中私立雙語幼兒園違規聘4名無證師　遭重罰30萬",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20260114/3100955.htm"
-    },
-    {
-     "title": "雙語幼兒園遭控虐童 中市教育局對園方開罰6萬、公告教師姓名",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/society/breakingnews/5309448"
-    },
-    {
-     "title": "台中私立幼兒園爆虐童！教育局出手了 園方遭罰6萬、公告教師姓名",
-     "outlet": "Yahoo 新聞",
-     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E7%A7%81%E7%AB%8B%E5%B9%BC%E5%85%92%E5%9C%92%E7%88%86%E8%99%90%E7%AB%A5-%E6%95%99%E8%82%B2%E5%B1%80%E5%87%BA%E6%89%8B%E4%BA%86-%E5%9C%92%E6%96%B9%E9%81%AD%E7%BD%B06%E8%90%AC-%E5%85%AC%E5%91%8A%E6%95%99%E5%B8%AB%E5%A7%93%E5%90%8D-094900201.html"
-    }
    ]
   },
   {
@@ -370,6 +347,23 @@
    ]
   },
   {
+   "id": "y-i20260325a",
+   "title": "台中恐怖虐童！2童不乖繼父木棍狠扁 生母也助陣打到全身傷",
+   "date": "2026-03-25",
+   "place": "台中",
+   "summary": "台中發生兒少受害事件。",
+   "sources": [
+    {
+     "title": "台中恐怖虐童！2童不乖繼父木棍狠扁 生母也助陣打到全身傷",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/3160450"
+    }
+   ],
+   "fear": [
+    "Y"
+   ]
+  },
+  {
    "id": "y-i20260307a",
    "title": "離譜狼師在台中！公立高中英文男師找高二女「視訊裸聊」 打手槍邊問：可以看妳胸部嗎？",
    "date": "2026-03-07",
@@ -472,23 +466,6 @@
    ]
   },
   {
-   "id": "y-i20260114a",
-   "title": "台中太平私幼教職員虐童遭裁罰 另查獲聘僱無資格教保員",
-   "date": "2026-01-14",
-   "place": "太平",
-   "summary": "太平發生兒少受害事件。",
-   "sources": [
-    {
-     "title": "台中太平私幼教職員虐童遭裁罰 另查獲聘僱無資格教保員",
-     "outlet": "公視新聞網",
-     "url": "https://news.pts.org.tw/article/790579"
-    }
-   ],
-   "fear": [
-    "Y"
-   ]
-  },
-  {
    "id": "y-i20260114b",
    "title": "被控霸凌！台中女師回任疑復仇「學生考卷95分變0分」　校方急做出回應了",
    "date": "2026-01-14",
@@ -516,6 +493,11 @@
      "title": "台中無良私幼虐童！4人施暴「拿孩頭撞地」 還偷聘沒資格人員",
      "outlet": "TVBS",
      "url": "https://news.tvbs.com.tw/local/3099505"
+    },
+    {
+     "title": "台中太平私幼教職員虐童遭裁罰 另查獲聘僱無資格教保員",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/790579"
     }
    ],
    "fear": [
@@ -541,7 +523,7 @@
   },
   {
    "id": "y-i20251219a",
-   "title": "台中恐怖虐童！2童不乖繼父木棍狠扁 生母也助陣打到全身傷",
+   "title": "台中恐怖虐童！教保員嫌吵「恐嚇刺眼嘴」 園方偷刪畫面滅證",
    "date": "2025-12-19",
    "place": "台中",
    "summary": "台中發生兒少受害事件。",
@@ -550,11 +532,6 @@
      "title": "台中恐怖虐童！教保員嫌吵「恐嚇刺眼嘴」 園方偷刪畫面滅證",
      "outlet": "TVBS",
      "url": "https://news.tvbs.com.tw/local/3077228"
-    },
-    {
-     "title": "台中恐怖虐童！2童不乖繼父木棍狠扁 生母也助陣打到全身傷",
-     "outlet": "TVBS",
-     "url": "https://news.tvbs.com.tw/local/3160450"
     }
    ],
    "fear": [
@@ -606,6 +583,23 @@
      "title": "台中「黃金葛下毒案」監院調查出爐　揭導師霸凌學生、放任性騷",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20251009/3047540.htm"
+    }
+   ],
+   "fear": [
+    "Y"
+   ]
+  },
+  {
+   "id": "y-i20251008a",
+   "title": "再傳幼兒園虐童！老師遭控痛罵孩子丟臉摔東西 台中市府調查中",
+   "date": "2025-10-08",
+   "place": "台中",
+   "summary": "台中發生兒少受害事件。",
+   "sources": [
+    {
+     "title": "再傳幼兒園虐童！老師遭控痛罵孩子丟臉摔東西 台中市府調查中",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/6885/9057947"
     }
    ],
    "fear": [
@@ -1336,6 +1330,23 @@
   },
   {
    "id": "y-i20240912b",
+   "title": "台中南屯傳虐童 幼兒遭老師拉扯臉頰肉哭訴「又被按摩了」",
+   "date": "2024-09-12",
+   "place": "南屯",
+   "summary": "南屯發生兒少受害事件。",
+   "sources": [
+    {
+     "title": "台中南屯傳虐童 幼兒遭老師拉扯臉頰肉哭訴「又被按摩了」",
+     "outlet": "上報",
+     "url": "https://www.upmedia.mg/tw/focus/society/211442"
+    }
+   ],
+   "fear": [
+    "Y"
+   ]
+  },
+  {
+   "id": "y-i20240912c",
    "title": "台中幼兒園又出事！男童遭女老師掐臉、抓傷全身多處瘀青 家長怒提告",
    "date": "2024-09-12",
    "place": "台中",
@@ -1345,6 +1356,23 @@
      "title": "台中幼兒園又出事！男童遭女老師掐臉、抓傷全身多處瘀青 家長怒提告",
      "outlet": "自由時報",
      "url": "https://news.ltn.com.tw/news/society/breakingnews/4798279"
+    }
+   ],
+   "fear": [
+    "Y"
+   ]
+  },
+  {
+   "id": "y-i20240907a",
+   "title": "台中烏日私幼虐童案擴大！8涉案教保員下場曝光",
+   "date": "2024-09-07",
+   "place": "烏日",
+   "summary": "烏日發生兒少受害事件。",
+   "sources": [
+    {
+     "title": "台中烏日私幼虐童案擴大！8涉案教保員下場曝光",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/6885/8212737"
     }
    ],
    "fear": [
@@ -1362,6 +1390,28 @@
      "title": "台中補習狼師對6童出手　被害童羞憤：想把他踹到月球",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20240906/2812285.htm"
+    }
+   ],
+   "fear": [
+    "Y"
+   ]
+  },
+  {
+   "id": "y-i20240824a",
+   "title": "台中「道町森」幼兒園20童遭虐 8名教保員難逃究責！裁定重罰出爐",
+   "date": "2024-08-24",
+   "place": "台中",
+   "summary": "台中發生兒少受害事件。",
+   "sources": [
+    {
+     "title": "台中道町森幼兒園「8大酷刑」虐童 六度稽查情節重大！市府開鍘了",
+     "outlet": "知新聞",
+     "url": "https://www.knews.com.tw/news/E85568C6440E5D88F786372606A0B727"
+    },
+    {
+     "title": "台中「道町森」幼兒園20童遭虐 8名教保員難逃究責！裁定重罰出爐",
+     "outlet": "知新聞",
+     "url": "https://www.knews.com.tw/news/F7CC4AA3487D6C95DA38212E1B378DE6"
     }
    ],
    "fear": [
@@ -1406,8 +1456,8 @@
    "id": "y-i20240819b",
    "title": "台中私幼虐童案擴大！教育局再揪出6師涉案　勒令9月起停辦1年",
    "date": "2024-08-19",
-   "place": "烏日",
-   "summary": "烏日發生兒少受害事件。",
+   "place": "台中",
+   "summary": "台中發生兒少受害事件。",
    "sources": [
     {
      "title": "台中私幼虐童案擴大！教育局再揪出6師涉案　勒令9月起停辦1年",
@@ -1423,11 +1473,6 @@
      "title": "台中私幼虐童爆案外案！「8大酷刑」 再爆6惡師...勒令停辦1年",
      "outlet": "goosedaily.com",
      "url": "https://goosedaily.com/article.php"
-    },
-    {
-     "title": "台中烏日私幼虐童案擴大！8涉案教保員下場曝光",
-     "outlet": "聯合新聞網",
-     "url": "https://udn.com/news/story/6885/8212737"
     }
    ],
    "fear": [
@@ -1468,7 +1513,7 @@
   },
   {
    "id": "y-i20240802a",
-   "title": "台中道町森幼兒園「8大酷刑」虐童 六度稽查情節重大！市府開鍘了",
+   "title": "台中驚爆8大酷刑虐童！幼園師逼「綑手學狗吃飯」　至少6孩受害",
    "date": "2024-08-02",
    "place": "烏日",
    "summary": "烏日發生兒少受害事件。",
@@ -1477,16 +1522,6 @@
      "title": "台中驚爆8大酷刑虐童！幼園師逼「綑手學狗吃飯」　至少6孩受害",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20240802/2789466.htm"
-    },
-    {
-     "title": "台中道町森幼兒園「8大酷刑」虐童 六度稽查情節重大！市府開鍘了",
-     "outlet": "知新聞",
-     "url": "https://www.knews.com.tw/news/E85568C6440E5D88F786372606A0B727"
-    },
-    {
-     "title": "台中「道町森」幼兒園20童遭虐 8名教保員難逃究責！裁定重罰出爐",
-     "outlet": "知新聞",
-     "url": "https://www.knews.com.tw/news/F7CC4AA3487D6C95DA38212E1B378DE6"
     }
    ],
    "fear": [
@@ -1545,7 +1580,7 @@
   },
   {
    "id": "y-i20240730a",
-   "title": "台中再爆幼兒園虐童！童遭老師硬從樓梯拉下",
+   "title": "台中幼兒園爆虐童？4幼生身上現瘀青教局介入 老師被停職",
    "date": "2024-07-30",
    "place": "烏日",
    "summary": "烏日發生兒少受害事件。",
@@ -1574,11 +1609,6 @@
      "title": "台中幼兒園傳施虐！4歲童遭老師硬拖下樓 教育局要查",
      "outlet": "Yahoo 新聞",
      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E5%B9%BC%E5%85%92%E5%9C%92%E5%82%B3%E6%96%BD%E8%99%90-4%E6%AD%B2%E7%AB%A5%E9%81%AD%E8%80%81%E5%B8%AB%E7%A1%AC%E6%8B%96%E4%B8%8B%E6%A8%93-%E6%95%99%E8%82%B2%E5%B1%80%E8%A6%81%E6%9F%A5-082938341.html"
-    },
-    {
-     "title": "再傳幼兒園虐童！老師遭控痛罵孩子丟臉摔東西 台中市府調查中",
-     "outlet": "聯合新聞網",
-     "url": "https://udn.com/news/story/6885/9057947"
     }
    ],
    "fear": [
@@ -1689,10 +1719,10 @@
   },
   {
    "id": "y-i20240426b",
-   "title": "台中知名貴族連鎖幼兒園傳虐童！幼兒遭教保員挫傷胸口　市府積極調查中",
+   "title": "台中幼兒園傳虐童！女童被門夾手懲罰，還掀倒座椅使跌倒！該師七年前就曾拖男童撞牆",
    "date": "2024-04-26",
-   "place": "南屯",
-   "summary": "南屯發生兒少受害事件。",
+   "place": "台中",
+   "summary": "台中發生兒少受害事件。",
    "sources": [
     {
      "title": "台中知名貴族連鎖幼兒園傳虐童！幼兒遭教保員挫傷胸口　市府積極調查中",
@@ -1715,16 +1745,6 @@
      "url": "https://www.storm.mg/lifestyle/5102946"
     },
     {
-     "title": "台中南屯傳虐童 幼兒遭老師拉扯臉頰肉哭訴「又被按摩了」",
-     "outlet": "上報",
-     "url": "https://www.upmedia.mg/tw/focus/society/211442"
-    },
-    {
-     "title": "台中公幼主任涉虐童 教育局：停聘調查中",
-     "outlet": "公視新聞網",
-     "url": "https://news.pts.org.tw/article/741039"
-    },
-    {
      "title": "台中公幼傳虐童！幼童遭師「翻椅摔倒、夾手懲罰」她7年前就被檢舉，為何繼續執教？",
      "outlet": "風傳媒",
      "url": "https://www.storm.mg/lifestyle/5335106"
@@ -1733,6 +1753,26 @@
      "title": "獨／台中幼師虐童夾手！再查「嫌學生坐姿差」掀椅害跌傷 懲處出爐",
      "outlet": "TVBS",
      "url": "https://news.tvbs.com.tw/local/2826808"
+    },
+    {
+     "title": "台中公幼主任涉虐童 教育局：停聘調查中",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/741039"
+    },
+    {
+     "title": "不僅虐童！台中私立雙語幼兒園違規聘4名無證師　遭重罰30萬",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260114/3100955.htm"
+    },
+    {
+     "title": "雙語幼兒園遭控虐童 中市教育局對園方開罰6萬、公告教師姓名",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5309448"
+    },
+    {
+     "title": "台中私立幼兒園爆虐童！教育局出手了 園方遭罰6萬、公告教師姓名",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E7%A7%81%E7%AB%8B%E5%B9%BC%E5%85%92%E5%9C%92%E7%88%86%E8%99%90%E7%AB%A5-%E6%95%99%E8%82%B2%E5%B1%80%E5%87%BA%E6%89%8B%E4%BA%86-%E5%9C%92%E6%96%B9%E9%81%AD%E7%BD%B06%E8%90%AC-%E5%85%AC%E5%91%8A%E6%95%99%E5%B8%AB%E5%A7%93%E5%90%8D-094900201.html"
     },
     {
      "title": "台中某國小附幼師涉虐童 「夾手、推椅子」還被爆收費黑料",
@@ -1881,6 +1921,23 @@
    ]
   },
   {
+   "id": "y-i20230511a",
+   "title": "中市教師虐童　議員要求不適任教師盡速退場",
+   "date": "2023-05-11",
+   "place": "台中",
+   "summary": "台中發生兒少受害事件。",
+   "sources": [
+    {
+     "title": "中市教師虐童　議員要求不適任教師盡速退場",
+     "outlet": "NOWnews",
+     "url": "https://www.nownews.com/news/6136799"
+    }
+   ],
+   "fear": [
+    "Y"
+   ]
+  },
+  {
    "id": "y-i20230502a",
    "title": "兒虐零容忍？台中一天平均17.45兒虐通報！ 市議員轟市長媽媽執政4年虐童案倍增",
    "date": "2023-05-02",
@@ -1908,11 +1965,6 @@
      "title": "台中再傳校園霸凌 人本批「師師相護」要求解聘不適任教師",
      "outlet": "台灣好新聞",
      "url": "https://taiwanhot.net/news/1029125/%E5%8F%B0%E4%B8%AD%E5%86%8D%E5%82%B3%E6%A0%A1%E5%9C%92%E9%9C%B8%E5%87%8C+%E4%BA%BA%E6%9C%AC%E6%89%B9%E3%80%8C%E5%B8%AB%E5%B8%AB%E7%9B%B8%E8%AD%B7%E3%80%8D%E8%A6%81%E6%B1%82%E8%A7%A3%E8%81%98%E4%B8%8D%E9%81%A9%E4%BB%BB%E6%95%99%E5%B8%AB"
-    },
-    {
-     "title": "中市教師虐童　議員要求不適任教師盡速退場",
-     "outlet": "NOWnews",
-     "url": "https://www.nownews.com/news/6136799"
     }
    ],
    "fear": [
@@ -2404,6 +2456,23 @@
    ]
   },
   {
+   "id": "y-i20220511a",
+   "title": "台中保母涉虐童致腦傷 竟違法收托多達15幼兒",
+   "date": "2022-05-11",
+   "place": "台中",
+   "summary": "台中發生兒少受害事件。",
+   "sources": [
+    {
+     "title": "台中保母涉虐1歲童致腦傷 竟違法收托多達15幼兒",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/3923471"
+    }
+   ],
+   "fear": [
+    "Y"
+   ]
+  },
+  {
    "id": "y-i20220505a",
    "title": "豐原虐嬰保母有前科　父母控中市府：有認真看待虐嬰案嗎？",
    "date": "2022-05-05",
@@ -2414,6 +2483,53 @@
      "title": "豐原虐嬰保母有前科　父母控中市府：有認真看待虐嬰案嗎？",
      "outlet": "三立新聞網",
      "url": "https://www.setn.com/news/1110902"
+    }
+   ],
+   "fear": [
+    "Y"
+   ]
+  },
+  {
+   "id": "y-i20220504a",
+   "title": "台中又傳虐兒案！資歷10年保母涉性侵　童下體挫傷、包皮潰爛",
+   "date": "2022-05-04",
+   "place": "台中",
+   "summary": "台中發生兒少受害事件。",
+   "sources": [
+    {
+     "title": "台中又傳虐兒案！資歷10年保母涉性侵　1歲童下體挫傷、包皮潰爛",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20220504/2243783.htm"
+    },
+    {
+     "title": "台中市驚傳虐童案！男童下體挫傷發炎 家屬報案控疑遭性侵",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/1783380"
+    },
+    {
+     "title": "台中1歲男童疑遭保母性侵 下體挫傷、龜頭發炎 父母怒提告",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20220504002981-260402"
+    },
+    {
+     "title": "台中1歲男童下體紅腫疑被虐 保母喊冤：尿布疹",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/3915442"
+    },
+    {
+     "title": "中市傳保母疑虐童！ 1歲童下體腫脹、大腿擦挫啟動性侵害調查",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/3914889"
+    },
+    {
+     "title": "中市再傳虐童 1歲幼兒下體紅腫、眼睛及臉部有不明傷痕",
+     "outlet": "台灣好新聞",
+     "url": "https://www.taiwanhot.net/news/992684/%E4%B8%AD%E5%B8%82%E5%86%8D%E5%82%B3%E8%99%90%E7%AB%A5+1%E6%AD%B2%E5%B9%BC%E5%85%92%E4%B8%8B%E9%AB%94%E7%B4%85%E8%85%AB%E3%80%81%E7%9C%BC%E7%9D%9B%E5%8F%8A%E8%87%89%E9%83%A8%E6%9C%89%E4%B8%8D%E6%98%8E%E5%82%B7%E7%97%95"
+    },
+    {
+     "title": "台中傳虐童！1歲嬰生殖器爛疑遭性侵　監視器恰巧壞掉",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1110363"
     }
    ],
    "fear": [
@@ -2436,68 +2552,6 @@
      "title": "台中保母涉虐童！2少年私刑怒砸雞蛋、撒冥紙　結果竟搞錯地址",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20220428/2239861.htm"
-    },
-    {
-     "title": "台中保母涉虐1歲童致腦傷 竟違法收托多達15幼兒",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/society/breakingnews/3923471"
-    }
-   ],
-   "fear": [
-    "Y"
-   ]
-  },
-  {
-   "id": "y-i20220426a",
-   "title": "台中男童疑遭保母性侵 下體挫傷、龜頭發炎 父母怒提告",
-   "date": "2022-04-26",
-   "place": "豐原",
-   "summary": "豐原發生兒少受害事件。",
-   "sources": [
-    {
-     "title": "台中男童疑遭保母凌虐昏迷急救中 家屬提告重傷害",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/society/breakingnews/3906409"
-    },
-    {
-     "title": "台中男童疑遭虐「背部一片瘀青」保母辯：噎奶幫拍嗝",
-     "outlet": "中時新聞網",
-     "url": "https://www.chinatimes.com/realtimenews/20220427002032-260402"
-    },
-    {
-     "title": "台中又傳虐兒案！資歷10年保母涉性侵　1歲童下體挫傷、包皮潰爛",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20220504/2243783.htm"
-    },
-    {
-     "title": "中市再傳虐童 1歲幼兒下體紅腫、眼睛及臉部有不明傷痕",
-     "outlet": "台灣好新聞",
-     "url": "https://www.taiwanhot.net/news/992684/%E4%B8%AD%E5%B8%82%E5%86%8D%E5%82%B3%E8%99%90%E7%AB%A5+1%E6%AD%B2%E5%B9%BC%E5%85%92%E4%B8%8B%E9%AB%94%E7%B4%85%E8%85%AB%E3%80%81%E7%9C%BC%E7%9D%9B%E5%8F%8A%E8%87%89%E9%83%A8%E6%9C%89%E4%B8%8D%E6%98%8E%E5%82%B7%E7%97%95"
-    },
-    {
-     "title": "台中傳虐童！1歲嬰生殖器爛疑遭性侵　監視器恰巧壞掉",
-     "outlet": "三立新聞網",
-     "url": "https://www.setn.com/news/1110363"
-    },
-    {
-     "title": "台中市驚傳虐童案！男童下體挫傷發炎 家屬報案控疑遭性侵",
-     "outlet": "TVBS",
-     "url": "https://news.tvbs.com.tw/local/1783380"
-    },
-    {
-     "title": "台中1歲男童疑遭保母性侵 下體挫傷、龜頭發炎 父母怒提告",
-     "outlet": "中時新聞網",
-     "url": "https://www.chinatimes.com/realtimenews/20220504002981-260402"
-    },
-    {
-     "title": "台中1歲男童下體紅腫疑被虐 保母喊冤：尿布疹",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/society/breakingnews/3915442"
-    },
-    {
-     "title": "中市傳保母疑虐童！ 1歲童下體腫脹、大腿擦挫啟動性侵害調查",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/society/breakingnews/3914889"
     }
    ],
    "fear": [
@@ -2590,23 +2644,6 @@
    ]
   },
   {
-   "id": "y-i20220302c",
-   "title": "（台中）重懲虐嬰 托育員罰15萬、業者30萬",
-   "date": "2022-03-02",
-   "place": "台中",
-   "summary": "台中發生兒少受害事件。",
-   "sources": [
-    {
-     "title": "（台中）重懲虐嬰 托育員罰15萬、業者30萬",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/life/paper/1503488"
-    }
-   ],
-   "fear": [
-    "Y"
-   ]
-  },
-  {
    "id": "y-i20220224a",
    "title": "南屯虐嬰案　王婉諭質疑：初判未違《兒少權法》無法可罰？",
    "date": "2022-02-24",
@@ -2624,8 +2661,25 @@
    ]
   },
   {
-   "id": "y-i20220221a",
+   "id": "y-i20220223a",
    "title": "台中虐嬰+1！母崩潰：看新聞才知、她們還騙我簽和解書",
+   "date": "2022-02-23",
+   "place": "台中",
+   "summary": "台中發生兒少受害事件。",
+   "sources": [
+    {
+     "title": "台中虐嬰+1！母崩潰：看新聞才知、她們還騙我簽和解書",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1075706"
+    }
+   ],
+   "fear": [
+    "Y"
+   ]
+  },
+  {
+   "id": "y-i20220221a",
+   "title": "台中虐嬰連環爆！何欣純：「媽媽市長」變「謝謝市長」",
    "date": "2022-02-21",
    "place": "南屯",
    "summary": "南屯發生兒少受害事件。",
@@ -2634,11 +2688,6 @@
      "title": "台中虐嬰連環爆！何欣純：「媽媽市長」變「謝謝市長」",
      "outlet": "自由時報",
      "url": "https://news.ltn.com.tw/news/society/breakingnews/3836705"
-    },
-    {
-     "title": "台中虐嬰+1！母崩潰：看新聞才知、她們還騙我簽和解書",
-     "outlet": "三立新聞網",
-     "url": "https://www.setn.com/news/1075706"
     }
    ],
    "fear": [
@@ -2688,8 +2737,30 @@
    ]
   },
   {
+   "id": "y-i20220218b",
+   "title": "台中集體虐嬰案太揪心！舊案新影片才發現兒子也是受害人，被圍巾繞脖、腳踢拖行，有遲緩後遺症",
+   "date": "2022-02-18",
+   "place": "台中",
+   "summary": "台中發生兒少受害事件。",
+   "sources": [
+    {
+     "title": "台中集體虐嬰案 負責人重罰30萬、托嬰中心停辦1年......",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/3844346"
+    },
+    {
+     "title": "（台中）重懲虐嬰 托育員罰15萬、業者30萬",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/paper/1503488"
+    }
+   ],
+   "fear": [
+    "Y"
+   ]
+  },
+  {
    "id": "y-i20220212a",
-   "title": "台中知名貴族幼兒園爆虐童1年多 校方隱匿遭罰19萬、勒令停招1年",
+   "title": "快新聞／台中麗喆附幼教保員虐童！ 中市府開罰19萬、停招1年",
    "date": "2022-02-12",
    "place": "台中",
    "summary": "台中發生兒少受害事件。",
@@ -2698,7 +2769,19 @@
      "title": "快新聞／台中麗喆附幼教保員虐童！ 中市府開罰19萬、停招1年",
      "outlet": "民視新聞",
      "url": "https://www.ftvnews.com.tw/news/detail/2022212W0155"
-    },
+    }
+   ],
+   "fear": [
+    "Y"
+   ]
+  },
+  {
+   "id": "y-i20220212b",
+   "title": "台中知名貴族幼兒園爆虐童1年多 校方隱匿遭罰19萬、勒令停招1年",
+   "date": "2022-02-12",
+   "place": "台中",
+   "summary": "台中發生兒少受害事件。",
+   "sources": [
     {
      "title": "台中貴族幼兒園虐打兒童！一查違規連環爆　慘遭罰款+停招1年",
      "outlet": "ETtoday",
@@ -2963,6 +3046,23 @@
    ]
   },
   {
+   "id": "y-i20200819a",
+   "title": "台中男性侵國中女再「啪啪」女友　拍性愛過程挑釁對方男友",
+   "date": "2020-08-19",
+   "place": "台中",
+   "summary": "台中發生兒少受害事件。",
+   "sources": [
+    {
+     "title": "台中男性侵國中女再「啪啪」女友　拍性愛過程挑釁對方男友",
+     "outlet": "CTWANT",
+     "url": "https://www.ctwant.com/article/68302/"
+    }
+   ],
+   "fear": [
+    "Y"
+   ]
+  },
+  {
    "id": "y-i20200624a",
    "title": "霸凌或打鬧？台中女師遭控要學生「老漢推車」還脫褲",
    "date": "2020-06-24",
@@ -3168,11 +3268,6 @@
      "title": "台中噁狼師「肖想親子丼」！咖啡摻藥性侵國中女　還逼她媽拍100張裸照",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20191031/1569471.htm"
-    },
-    {
-     "title": "台中男性侵國中女再「啪啪」女友　拍性愛過程挑釁對方男友",
-     "outlet": "CTWANT",
-     "url": "https://www.ctwant.com/article/68302/"
     }
    ],
    "fear": [
@@ -3316,16 +3411,6 @@
      "url": "https://news.ltn.com.tw/news/society/breakingnews/2830476"
     },
     {
-     "title": "台中虐童致重傷！網友「怒圍保母住處」：出來面對　警方急到場滅火",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20190623/1473754.htm"
-    },
-    {
-     "title": "台中保母疑虐童　網友討伐爆發警民衝突",
-     "outlet": "鏡週刊",
-     "url": "https://www.mirrormedia.mg/story/20190624soc008"
-    },
-    {
      "title": "台中1歲女童疑遭虐！鄉民包圍保母家　直播主「10度鞠躬」道歉：我承認...",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20190624/1474237.htm"
@@ -3361,14 +3446,24 @@
      "url": "https://news.cts.com.tw/cts/general/201906/201906261965413.html"
     },
     {
+     "title": "狠摔女童致「腦傷+肢體偏癱」直播主怒圍她住處　台中惡保母被訴",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20190904/1528286.htm"
+    },
+    {
      "title": "號召網友聚集台中疑虐童保母家 直播主被法辦",
      "outlet": "TVBS",
      "url": "https://news.tvbs.com.tw/local/1165243"
     },
     {
-     "title": "狠摔女童致「腦傷+肢體偏癱」直播主怒圍她住處　台中惡保母被訴",
+     "title": "台中虐童致重傷！網友「怒圍保母住處」：出來面對　警方急到場滅火",
      "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20190904/1528286.htm"
+     "url": "https://www.ettoday.net/news/20190623/1473754.htm"
+    },
+    {
+     "title": "台中保母疑虐童　網友討伐爆發警民衝突",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/story/20190624soc008"
     }
    ],
    "fear": [
@@ -3490,14 +3585,26 @@
      "url": "https://www.ettoday.net/news/20190117/1358435.htm"
     },
     {
-     "title": "中市托嬰中心遭爆「綁幼童」　社會局：非兒虐已要求限期改善",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20190117/1358734.htm"
-    },
-    {
      "title": "影》哭鬧女童被綁椅子2小時 家長控中市托嬰中心施虐",
      "outlet": "中時新聞網",
      "url": "https://www.chinatimes.com/realtimenews/20190117002049-260402"
+    }
+   ],
+   "fear": [
+    "Y"
+   ]
+  },
+  {
+   "id": "y-i20190117b",
+   "title": "中市托嬰中心遭爆「綁幼童」　社會局：非兒虐已要求限期改善",
+   "date": "2019-01-17",
+   "place": "台中",
+   "summary": "台中發生兒少受害事件。",
+   "sources": [
+    {
+     "title": "中市托嬰中心遭爆「綁幼童」　社會局：非兒虐已要求限期改善",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20190117/1358734.htm"
     }
    ],
    "fear": [
