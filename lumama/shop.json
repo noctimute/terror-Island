@@ -1,8 +1,228 @@
 {
  "title": "台中購物節與鍋烤節新聞",
  "note": "整理自網路新聞；爭議多為議員質疑與市府回應，未經司法認定。",
- "updated": "2026-10-23",
+ "updated": "2026-10-24",
  "records": [
+  {
+   "id": "p-i20261020a",
+   "title": "台中購物節暖身6天破5.6億元！ 中市經發局推「到店抽」助攻庶民經濟 - 墨新聞-MORE News",
+   "date": "2026-10-20",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "台中購物節暖身6天破億5.6元 中市經發局推「到店抽」助攻庶民經濟",
+     "outlet": "中華日報",
+     "url": "https://www.cdns.com.tw/articles/1477834"
+    },
+    {
+     "title": "台中購物節暖身6天破5.6億元！ 中市經發局推「到店抽」助攻庶民經濟 - 墨新聞-MORE News",
+     "outlet": "more-news.tw",
+     "url": "https://more-news.tw/747678/"
+    },
+    {
+     "title": "臺中購物節暖身6天破5.6億元！中市經發局助攻庶民經濟 祭出「到店抽」新招",
+     "outlet": "Life 生活網",
+     "url": "https://life.tw/article/%E8%87%BA%E4%B8%AD%E8%B3%BC%E7%89%A9%E7%AF%80%E6%9A%96%E8%BA%AB6%E5%A4%A9%E7%A0%B456%E5%84%84%E5%85%83-%E4%B8%AD%E5%B8%82%E7%B6%93%E7%99%BC%E5%B1%80%E5%8A%A9%E6%94%BB%E5%BA%B6%E6%B0%91%E7%B6%93%E6%BF%9F-%E7%A5%AD%E5%87%BA-3187672"
+    },
+    {
+     "title": "6天狂吸5.6億！台中購物節「到店抽」衝買氣 百年名店送千盒太陽餅",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/124378/9828619"
+    },
+    {
+     "title": "台中購物節暖身6天破5.6億元！中市經發局推「到店抽」助攻庶民經濟",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/amp/story/7325/9828240"
+    },
+    {
+     "title": "振興台中商圈-中市經發局推購物節「到店抽」助攻庶民經濟暖身6天突破5.6億元",
+     "outlet": "風傳媒",
+     "url": "https://www.storm.mg/article/11174480"
+    },
+    {
+     "title": "兩公托粉專淪台中購物節廣告台！家長超傻眼 議員轟盧市府「連托嬰中心都不放過」",
+     "outlet": "鏡報",
+     "url": "https://www.mirrordaily.news/story/92969"
+    },
+    {
+     "title": "詹湘鎔 榮任臺中購物節代言人",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/newspapers/20261024000352-260204"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20261012a",
+   "title": "第8屆台中購物節10／24登場！盧秀燕任內最終回 力拚8年創造2千億商機- 生活",
+   "date": "2026-10-12",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "逢甲夜市發聲力挺台中購物節！籲市議員收回刪預算主張",
+     "outlet": "聯合新聞網",
+     "url": "https://money.udn.com/money/story/7307/9810071"
+    },
+    {
+     "title": "台中購物節預算 藍綠議員吵成一團",
+     "outlet": "taiwanreports.com",
+     "url": "https://taiwanreports.com/archives/1018848"
+    },
+    {
+     "title": "台中購物節預算攻防…逢甲夜市籲「顧生計別刪」 陳俞融：動支前須報告",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7325/9809949"
+    },
+    {
+     "title": "台中購物節等預算遭凍待下任市長專案報告",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/aloc/202610120212.aspx"
+    },
+    {
+     "title": "台中購物節預算攻防! 綠營甲級動員舉手牌包圍盧秀燕",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/kEpLoa1"
+    },
+    {
+     "title": "台中市購物節 逾3億預算凍結",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/paper/1774293"
+    },
+    {
+     "title": "購物節爭議 台中明年總預算刪6.2億",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/newspapers/20261013000604-260107"
+    },
+    {
+     "title": "台中購物節3.95億元預算引爭議 議會要求先提整體規劃再動支",
+     "outlet": "ccss3172.blogspot.com",
+     "url": "https://ccss3172.blogspot.com/2026/10/395_01750936514.html"
+    },
+    {
+     "title": "默認江啟臣當選？綠凍結明年台中購物節預算網驚：封殺下任市長- 政治",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20261013002470-260407"
+    },
+    {
+     "title": "第8屆台中購物節10／24登場！盧秀燕任內最終回 力拚8年創造2千億商機- 生活",
+     "outlet": "ctee.com.tw",
+     "url": "https://www.ctee.com.tw/news/20261014702206-431401"
+    },
+    {
+     "title": "第8屆台中購物節10/24登場！盧市長任內最終回 力拚8年創2千億商機",
+     "outlet": "taichung.gov.tw",
+     "url": "https://www.taichung.gov.tw/8868/8872/9962/3392288"
+    },
+    {
+     "title": "盧秀燕為台中購物節「求爺爺告奶奶」 憂預算遭凍恐成絕響",
+     "outlet": "turnnewsapp.com",
+     "url": "https://turnnewsapp.com/livenews/politicsv3/20261014003918-260407"
+    },
+    {
+     "title": "盧秀燕任內最後一屆台中購物節登場 明年3.95億預算遭凍結",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/VxpgQe2"
+    },
+    {
+     "title": "台中購物節24日開跑 拚2千億商機",
+     "outlet": "中華日報",
+     "url": "https://www.cdns.com.tw/articles/1475286"
+    },
+    {
+     "title": "台中購物節預算遭凍 憂成絕響",
+     "outlet": "reader.turnnewsapp.com",
+     "url": "https://reader.turnnewsapp.com/ctl/20261015/b21aa9/q1rmxziwmjyxmde1x0e5xzi1/share"
+    },
+    {
+     "title": "台中購物節預算掀爭議！逢甲夜市管委會喊話議員「別全刪」：小店家需要人潮",
+     "outlet": "FTNN 新聞網",
+     "url": "https://www.ftnn.com.tw/news/587564"
+    },
+    {
+     "title": "台中購物節暖身2天買氣衝！25萬張發票、登錄破1.1億元 微型店家逾1,200萬元",
+     "outlet": "taichung.gov.tw",
+     "url": "https://www.taichung.gov.tw/8868/8872/9962/3393780"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20261005a",
+   "title": "中市明年購物節3.95億 綠營議員批失業率一樣高 要求全刪或只留一元",
+   "date": "2026-10-05",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "批「台中人出錢、全台來抽獎」 綠議員要求刪除購物節3.9億預算",
+     "outlet": "壹蘋新聞網",
+     "url": "https://news.nextapple.com/politics/20261005/8FE23E5C57FD76F546A1D7A3655915BB"
+    },
+    {
+     "title": "中市明年購物節3.95億 綠營議員批失業率一樣高 要求全刪或只留一元",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/politics/breakingnews/5596442"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20261004a",
+   "title": "台中購物節明年4 億預算綠要求全數刪除 盧秀燕︰由下屆市長裁決",
+   "date": "2026-10-04",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "台中購物節明年4 億預算綠要求全數刪除 盧秀燕︰由下屆市長裁決",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E8%B3%BC%E7%89%A9%E7%AF%80%E6%98%8E%E5%B9%B44-%E5%84%84%E9%A0%90%E7%AE%97%E7%B6%A0%E8%A6%81%E6%B1%82%E5%85%A8%E6%95%B8%E5%88%AA%E9%99%A4-%E7%9B%A7%E7%A7%80%E7%87%95-%E7%94%B1%E4%B8%8B%E5%B1%86%E5%B8%82%E9%95%B7%E8%A3%81%E6%B1%BA-061548695.html"
+    },
+    {
+     "title": "台中購物節再編4億 議員批賭博性政策全數刪除",
+     "outlet": "epochtimes.com",
+     "url": "https://www.epochtimes.com/b5/26/10/5/n14863679.htm"
+    },
+    {
+     "title": "台中購物節撒幣惹議！綠營轟包裝市長偶像化要求砍光3億抽獎金",
+     "outlet": "Newtalk 新聞",
+     "url": "https://newtalk.tw/news/view/2026-10-05/1063747"
+    },
+    {
+     "title": "盧秀燕護預算 續辦台中購物節？下任市長決定",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7325/9796666"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20260929a",
+   "title": "鍋烤節評比竟未納公共安全項目 台中市議員吳佩芸籲中市府把消防安全納入評分",
+   "date": "2026-09-29",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "鍋烤節評比竟未納公共安全項目 台中市議員吳佩芸籲中市府把消防安全納入評分",
+     "outlet": "遠方新聞",
+     "url": "https://www.yuanfengmedia.tw/detail.php"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
   {
    "id": "s-sister",
    "title": "市長親妹任媒體高層後 該媒體拿台中市府標案從680萬增至3131萬",
@@ -22,154 +242,30 @@
    ]
   },
   {
-   "id": "s-expo",
-   "title": "台中會展中心400萬開幕活動案 也是市長親妹任董座的中視得標",
-   "date": "2026-08-21",
-   "place": "烏日",
-   "summary": "鍋烤節標案爭議後，議員再指出 2025 年台中國際會展中心開幕活動的 400 萬元標案，同樣由市長妹妹擔任董事長兼總經理的中視得標，批評市府「利益不迴避」；經發局長回應得標者不是他的妹妹，沒有利益迴避問題。",
-   "fear": [
-    "P",
-    "M"
-   ],
-   "sources": [
-    {
-     "title": "台中會展中心400萬開幕案也是中視得標 林德宇批市府「利益不迴避」",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/politics/breakingnews/5547622"
-    }
-   ]
-  },
-  {
-   "id": "s-hotpot",
-   "title": "台中鍋烤節1400萬宣傳標案 由市長親妹當董事長的中視以「最有利標」得標",
-   "date": "2026-08-15",
+   "id": "p-i20260911a",
+   "title": "台中購物節編近4億預算藍挺續辦綠主張由新市長提案",
+   "date": "2026-09-11",
    "place": "台中",
-   "summary": "2026 台中鍋烤節 1400 萬元宣傳標案以最有利標決標，由中視得標，而中視董事長兼總經理是市長的妹妹，引發利益迴避質疑；市長稱標案公平公開、都可查察，副市長反擊三立得標的市府案件更多，議員要求公開完整評選與決標資料。",
-   "fear": [
-    "P",
-    "M"
-   ],
+   "summary": "台中購物節等城市行銷活動引發討論。",
    "sources": [
     {
-     "title": "董事長是盧秀燕親妹！鍋烤節1400萬標案中視得標 議員：利益迴避呢？",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/politics/breakingnews/5541168"
+     "title": "台中購物節編近4億預算 藍挺續辦綠主張由新市長提案",
+     "outlet": "三節新聞",
+     "url": "https://www.sjtv.com.tw/articles/105744"
     },
     {
-     "title": "台中鍋烤節1400萬標案親妹當董事長的中視以「最有利標」得標 盧秀燕：公平公開",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/politics/breakingnews/5540718"
-    },
-    {
-     "title": "妹妹是中視董座…台中鍋烤節宣傳費得標案遭質疑 盧秀燕：公平公開都可查察",
+     "title": "台中購物節編近4億預算藍挺續辦綠主張由新市長提案",
      "outlet": "聯合新聞網",
-     "url": "https://udn.com/news/story/6656/9693270"
+     "url": "https://udn.com/news/story/7325/9749203"
     },
     {
-     "title": "台中鍋烤節中視得標引綠營砲轟 市府回擊：三立得標案更多",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20260817/3220783.htm"
-    },
-    {
-     "title": "台中鍋烤節預算破千萬 市議員鄭功進質疑得標門檻高",
-     "outlet": "中華日報",
-     "url": "https://www.cdns.com.tw/articles/1446228"
-    },
-    {
-     "title": "盧秀燕妹拿下1400萬標案　中市經發局長：不是我妹，沒利益迴避問題",
-     "outlet": "鏡週刊",
-     "url": "https://www.mirrormedia.mg/external/mnews_20260818nm031"
+     "title": "台中編4億辦購物節 綠批逼新市長買單",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/paper/1770347"
     }
-   ]
-  },
-  {
-   "id": "s-lotto",
-   "title": "購物節淪「政府樂透」？ 購物節、鍋烤節預算2.85億 抽獎就佔2.2億",
-   "date": "2026-07-31",
-   "place": "台中",
-   "summary": "議會購物節專案報告中，議員指出 2026 年購物節與鍋烤節業務費與獎補助費合計 2 億 8553 萬元，其中抽獎獎項就編了 2 億 2092 萬元，質疑抽獎只是把原本的消費包裝成誘因、效益只靠委外報告的「乘數效果」；稅務局長坦言稅收效益很難精準估算。",
+   ],
    "fear": [
     "P"
-   ],
-   "sources": [
-    {
-     "title": "中市購物節淪樂透？ 議員批效益不明",
-     "outlet": "NOWnews",
-     "url": "https://www.nownews.com/news/6861833"
-    }
-   ]
-  },
-  {
-   "id": "s-poster",
-   "title": "市府大廳市長大海報花數十萬 議員批購物節、鍋烤節預算「造神」",
-   "date": "2026-07-31",
-   "place": "台中",
-   "summary": "議員批評市府把購物節、鍋烤節經費分散在各局處包裝市長，卻不公開業務費流向，光市府一樓大廳的市長宣傳大海報就花了數十萬元；另有議員諷刺外縣市來取經，學到的是「必掛市長相片」。",
-   "fear": [
-    "P"
-   ],
-   "sources": [
-    {
-     "title": "套翁曉玲邏輯 陳淑華批中市府預算搞造神",
-     "outlet": "NOWnews",
-     "url": "https://www.nownews.com/news/6861907"
-    },
-    {
-     "title": "外縣市取經購物節必學？ 議員諷：必掛盧秀燕相片",
-     "outlet": "NOWnews",
-     "url": "https://www.nownews.com/news/6861941"
-    }
-   ]
-  },
-  {
-   "id": "s-unfreeze",
-   "title": "台中購物節預算解凍引爆戰火 綠營議員批淪為大內宣",
-   "date": "2026-04-01",
-   "place": "台中",
-   "summary": "購物節預算在議會被附帶決議凍結，市府送專案報告申請解凍時，綠營議員批評活動淪為市長個人宣傳的「大內宣」，藍營議員則支持續辦。",
-   "fear": [
-    "P"
-   ],
-   "sources": [
-    {
-     "title": "台中購物節預算解凍引爆戰火 綠營議員批淪為大內宣",
-     "outlet": "Newtalk",
-     "url": "https://newtalk.tw/news/view/2026-04-01/1027566"
-    }
-   ]
-  },
-  {
-   "id": "s-mansion",
-   "title": "第7屆台中購物節壓軸抽千萬豪宅 消費登錄374億",
-   "date": "2026-01-16",
-   "place": "北屯",
-   "summary": "第 7 屆台中購物節壓軸抽出一戶北屯區、近千萬元的裝潢豪宅，由一名市民抽中；市府公布購物節登錄消費 374 億元。抽豪宅、抽現金的作法年年被議員質疑是用公帑辦「樂透」。",
-   "fear": [
-    "P"
-   ],
-   "sources": [
-    {
-     "title": "幸運兒不是你！盧秀燕購物節抽千萬好宅 中獎者淡定回：早就有房",
-     "outlet": "NOWnews",
-     "url": "https://www.nownews.com/news/6776503"
-    }
-   ]
-  },
-  {
-   "id": "s-budget",
-   "title": "台中購物節預算引爆攻防 綠營要求全刪、藍營力挺續辦",
-   "date": "2025-12-04",
-   "place": "台中",
-   "summary": "議會審 2026 年度預算時，綠營議員質疑購物節綁定載具採「回溯」計算、消費金額可能灌水，台中薪資在六都墊底難靠抽獎帶動經濟，要求全刪；藍營議員力挺續辦，市長稱購物節原理就像統一發票。",
-   "fear": [
-    "P"
-   ],
-   "sources": [
-    {
-     "title": "台中購物節預算引爆攻防 綠營要求全刪、藍營力挺續辦",
-     "outlet": "聯合新聞網",
-     "url": "https://udn.com/news/story/7325/9182257"
-    }
    ]
   },
   {
@@ -218,7 +314,1402 @@
      "title": "台中購物節預算解凍引爆戰火 綠營議員批淪為大內宣 | 政治",
      "outlet": "Newtalk 新聞",
      "url": "https://newtalk.tw/news/view/2026-04-01/1027566"
+    },
+    {
+     "title": "台中購物節 鍋烤節帶動經濟發展、議員張瀞分：變成國際品牌",
+     "outlet": "ksnews.com.tw",
+     "url": "https://www.ksnews.com.tw/e/125608"
+    },
+    {
+     "title": "陳俞融批中市府購物節砸重金辦抽獎 無法掌握效益",
+     "outlet": "taiwanreports.com",
+     "url": "https://taiwanreports.com/archives/1003128"
     }
+   ]
+  },
+  {
+   "id": "s-expo",
+   "title": "台中會展中心400萬開幕活動案 也是市長親妹任董座的中視得標",
+   "date": "2026-08-21",
+   "place": "烏日",
+   "summary": "鍋烤節標案爭議後，議員再指出 2025 年台中國際會展中心開幕活動的 400 萬元標案，同樣由市長妹妹擔任董事長兼總經理的中視得標，批評市府「利益不迴避」；經發局長回應得標者不是他的妹妹，沒有利益迴避問題。",
+   "fear": [
+    "P",
+    "M"
+   ],
+   "sources": [
+    {
+     "title": "台中會展中心400萬開幕案也是中視得標 林德宇批市府「利益不迴避」",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/politics/breakingnews/5547622"
+    }
+   ]
+  },
+  {
+   "id": "p-i20260821a",
+   "title": "不只鍋烤節！林德宇再曝「台中會展中心開幕案」也是中視得標 質疑利益不迴避",
+   "date": "2026-08-21",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "不只鍋烤節！林德宇再曝「台中會展中心開幕案」也是中視得標 質疑利益不迴避",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/zN8jZrW"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "s-hotpot",
+   "title": "台中鍋烤節1400萬宣傳標案 由市長親妹當董事長的中視以「最有利標」得標",
+   "date": "2026-08-15",
+   "place": "台中",
+   "summary": "2026 台中鍋烤節 1400 萬元宣傳標案以最有利標決標，由中視得標，而中視董事長兼總經理是市長的妹妹，引發利益迴避質疑；市長稱標案公平公開、都可查察，副市長反擊三立得標的市府案件更多，議員要求公開完整評選與決標資料。",
+   "fear": [
+    "P",
+    "M"
+   ],
+   "sources": [
+    {
+     "title": "董事長是盧秀燕親妹！鍋烤節1400萬標案中視得標 議員：利益迴避呢？",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/politics/breakingnews/5541168"
+    },
+    {
+     "title": "台中鍋烤節1400萬標案親妹當董事長的中視以「最有利標」得標 盧秀燕：公平公開",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/politics/breakingnews/5540718"
+    },
+    {
+     "title": "妹妹是中視董座…台中鍋烤節宣傳費得標案遭質疑 盧秀燕：公平公開都可查察",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/6656/9693270"
+    },
+    {
+     "title": "台中鍋烤節中視得標引綠營砲轟 市府回擊：三立得標案更多",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260817/3220783.htm"
+    },
+    {
+     "title": "台中鍋烤節預算破千萬 市議員鄭功進質疑得標門檻高",
+     "outlet": "中華日報",
+     "url": "https://www.cdns.com.tw/articles/1446228"
+    },
+    {
+     "title": "盧秀燕妹拿下1400萬標案　中市經發局長：不是我妹，沒利益迴避問題",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/external/mnews_20260818nm031"
+    },
+    {
+     "title": "台中鍋烤節標案燒出裙帶關係！盧秀燕親回了",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E9%8D%8B%E7%83%A4%E7%AF%80%E6%A8%99%E6%A1%88%E7%87%92%E5%87%BA%E8%A3%99%E5%B8%B6%E9%97%9C%E4%BF%82-%E7%9B%A7%E7%A7%80%E7%87%95%E8%A6%AA%E5%9B%9E%E4%BA%86-050143616.html"
+    },
+    {
+     "title": "妹妹當董座！中視拿下台中鍋烤節1400萬標案 盧秀燕：公平公開",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%A6%B9%E5%A6%B9%E7%95%B6%E8%91%A3%E5%BA%A7-%E4%B8%AD%E8%A6%96%E6%8B%BF%E4%B8%8B%E5%8F%B0%E4%B8%AD%E9%8D%8B%E7%83%A4%E7%AF%801400%E8%90%AC%E6%A8%99%E6%A1%88-%E7%9B%A7%E7%A7%80%E7%87%95-%E5%85%AC%E5%B9%B3%E5%85%AC%E9%96%8B-061243558.html"
+    },
+    {
+     "title": "妹妹是中視董座…台中鍋烤節宣傳費得標案遭質疑 盧秀燕：公平公開都可查察",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7325/9693270"
+    },
+    {
+     "title": "鍋烤節變「姊妹同鍋宴」？中市府1400萬宣傳案中視得標 律師轟：都不用利益迴避嗎？",
+     "outlet": "fountmedia.io",
+     "url": "https://www.fountmedia.io/article/414208"
+    },
+    {
+     "title": "姊給妹千萬標案？中視拿台中鍋烤節大單 盧秀燕親上火線反擊",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1890255"
+    },
+    {
+     "title": "台中鍋烤節盧秀燕市長妹妹公司得標 議員疑有利標是幫了誰?",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/politics/breakingnews/5542666"
+    },
+    {
+     "title": "綠批台中鍋烤節布條獨秀市長頭像 黃國榮：真的不喜歡再忍耐4個月就好",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7325/9696510"
+    },
+    {
+     "title": "台中鍋烤節宣傳案「盧秀燕妹公司得標」挨轟「文宣全是市長照」副市長：請再忍耐4個月",
+     "outlet": "太報",
+     "url": "https://www.taisounds.com/news/content/71/283669"
+    },
+    {
+     "title": "盧秀燕親妹拿台中鍋烤節千萬標案 中市經發局長稱無須迴避挨轟「離譜」",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E7%9B%A7%E7%A7%80%E7%87%95%E8%A6%AA%E5%A6%B9%E6%8B%BF%E5%8F%B0%E4%B8%AD%E9%8D%8B%E7%83%A4%E7%AF%80%E5%8D%83%E8%90%AC%E6%A8%99%E6%A1%88-%E4%B8%AD%E5%B8%82%E7%B6%93%E7%99%BC%E5%B1%80%E9%95%B7%E7%A8%B1%E7%84%A1%E9%A0%88%E8%BF%B4%E9%81%BF%E6%8C%A8%E8%BD%9F-%E9%9B%A2%E8%AD%9C-065500845.html"
+    },
+    {
+     "title": "盧秀燕妹妹得標台中鍋烤節宣傳案...林楚茵轟：沒揭露就違法、有揭露就是靠勢！藍白集體失明？",
+     "outlet": "fountmedia.io",
+     "url": "https://www.fountmedia.io/article/414882"
+    },
+    {
+     "title": "盧秀燕親妹奪「台中鍋烤節」標案 市府挨批未利益迴避",
+     "outlet": "壹電視",
+     "url": "https://www.nexttv.com.tw/NextTV/News/Home/Politics/2026-08-19/2441013.html"
+    }
+   ]
+  },
+  {
+   "id": "p-i20260814a",
+   "title": "劉士州議員肯定台中購物節、鍋烤節成效，及關切南屯區「精密機械科技園區第三期」、「寶文創新科技園區」、「南屯農富市集」等地方重大建設進度",
+   "date": "2026-08-14",
+   "place": "南屯",
+   "summary": "南屯購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "劉士州議員肯定台中購物節、鍋烤節成效，及關切南屯區「精密機械科技園區第三期」、「寶文創新科技園區」、「南屯農富市集」等地方重大建設進度",
+     "outlet": "macrocosm.tw",
+     "url": "https://macrocosm.tw/%E5%8A%89%E5%A3%AB%E5%B7%9E%E8%AD%B0%E5%93%A1%E8%82%AF%E5%AE%9A%E5%8F%B0%E4%B8%AD%E8%B3%BC%E7%89%A9%E7%AF%80%E3%80%81%E9%8D%8B%E7%83%A4%E7%AF%80%E6%88%90%E6%95%88%EF%BC%8C%E5%8F%8A%E9%97%9C%E5%88%87/"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20260811a",
+   "title": "台中餐飲業銷售額3年增近300億 鍋烤節人氣票選8/14截止",
+   "date": "2026-08-11",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "台中鍋烤節擦亮「鍋烤之都」品牌 餐飲銷售額3年增近300億元",
+     "outlet": "taichung.gov.tw",
+     "url": "https://www.taichung.gov.tw/8868/8872/9962/3344447"
+    },
+    {
+     "title": "台中餐飲業銷售額3年增近300億 鍋烤節人氣票選8/14截止",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7325/9684968"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20260810a",
+   "title": "台中購物節鍋烤節宣傳成效遭審計部報告明確指出待精進，市議員陳俞融指出近4年來宣傳盧秀燕累計達830萬，都由納稅錢買單",
+   "date": "2026-08-10",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "台中購物節鍋烤節宣傳成效遭審計部報告明確指出待精進，市議員陳俞融指出近4年來宣傳盧秀燕累計達830萬，都由納稅錢買單",
+     "outlet": "ccss3172.blogspot.com",
+     "url": "https://ccss3172.blogspot.com/2026/08/4830.html"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20260804a",
+   "title": "台中鍋烤節「盧秀燕一人獨秀」挨轟 巨幅布條傳要價40萬曝光",
+   "date": "2026-08-04",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "台中鍋烤節「盧秀燕一人獨秀」挨轟 巨幅布條傳要價40萬曝光",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/politics/breakingnews/5528642"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "s-lotto",
+   "title": "購物節淪「政府樂透」？ 購物節、鍋烤節預算2.85億 抽獎就佔2.2億",
+   "date": "2026-07-31",
+   "place": "台中",
+   "summary": "議會購物節專案報告中，議員指出 2026 年購物節與鍋烤節業務費與獎補助費合計 2 億 8553 萬元，其中抽獎獎項就編了 2 億 2092 萬元，質疑抽獎只是把原本的消費包裝成誘因、效益只靠委外報告的「乘數效果」；稅務局長坦言稅收效益很難精準估算。",
+   "fear": [
+    "P"
+   ],
+   "sources": [
+    {
+     "title": "中市購物節淪樂透？ 議員批效益不明",
+     "outlet": "NOWnews",
+     "url": "https://www.nownews.com/news/6861833"
+    }
+   ]
+  },
+  {
+   "id": "s-poster",
+   "title": "市府大廳市長大海報花數十萬 議員批購物節、鍋烤節預算「造神」",
+   "date": "2026-07-31",
+   "place": "台中",
+   "summary": "議員批評市府把購物節、鍋烤節經費分散在各局處包裝市長，卻不公開業務費流向，光市府一樓大廳的市長宣傳大海報就花了數十萬元；另有議員諷刺外縣市來取經，學到的是「必掛市長相片」。",
+   "fear": [
+    "P"
+   ],
+   "sources": [
+    {
+     "title": "套翁曉玲邏輯 陳淑華批中市府預算搞造神",
+     "outlet": "NOWnews",
+     "url": "https://www.nownews.com/news/6861907"
+    },
+    {
+     "title": "外縣市取經購物節必學？ 議員諷：必掛盧秀燕相片",
+     "outlet": "NOWnews",
+     "url": "https://www.nownews.com/news/6861941"
+    }
+   ]
+  },
+  {
+   "id": "p-i20260731a",
+   "title": "想邀蔣萬安來台中吃火鍋！ 盧秀燕提「台北火鍋論」：為鍋烤節免費代言- 政治",
+   "date": "2026-07-31",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "台中鍋烤節自己代言還不夠盧秀燕曝將邀蔣萬安吃鍋代言- 生活",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/breakingnews/5524649"
+    },
+    {
+     "title": "想邀蔣萬安來台中吃火鍋！ 盧秀燕提「台北火鍋論」：為鍋烤節免費代言- 政治",
+     "outlet": "華視新聞",
+     "url": "https://news.cts.com.tw/cts/politics/202607/202607313062012.html"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20260701a",
+   "title": "台中鍋烤節「盧秀燕巨幅海報」再現！議員轟「大頭貼女王」：假借宣傳包裝自己",
+   "date": "2026-07-01",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "台中鍋烤節還是盧秀燕！巨幅宣傳海報挨批：大頭貼女王「誰與爭鋒」",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/politics/breakingnews/5490856"
+    },
+    {
+     "title": "台中鍋烤節「盧秀燕巨型海報」高高掛 網批「妳問過台中人嗎？」",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/politics/breakingnews/5490871"
+    },
+    {
+     "title": "台中鍋烤節「盧秀燕巨幅海報」再現！議員轟「大頭貼女王」：假借宣傳包裝自己",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/oqKpZpo"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20260626a",
+   "title": "台中購物節汽車消費70億驚人 TAS車展今登場湧人潮",
+   "date": "2026-06-26",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "台中購物節汽車消費70億驚人 TAS車展今登場湧人潮",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20260626004305-260421"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20260612a",
+   "title": "【警察】波麗士最暖後盾！台中警友四辦送紅包、保險費　力挺警察",
+   "date": "2026-06-12",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "波麗士最暖後盾！台中警友四辦送紅包、保險費　力挺警察",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260612/3182114.htm"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20260416a",
+   "title": "8年砸22億辦購物節 何欣純提3 主張提升台中產業",
+   "date": "2026-04-16",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "8年砸22億辦購物節 何欣純提3 主張提升台中產業",
+     "outlet": "cnews.com.tw",
+     "url": "https://cnews.com.tw/237260416a06/"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20260415a",
+   "title": "台中購物節揮霍22億公帑　議員批成效全膨風",
+   "date": "2026-04-15",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "台中購物節揮霍22億公帑　議員批成效全膨風",
+     "outlet": "NOWnews",
+     "url": "https://www.nownews.com/news/6807558"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20260403a",
+   "title": "法國在台協會主任龍燁拜訪台中市府 盧秀燕感謝擔任購物節代言人",
+   "date": "2026-04-03",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "法國在台協會主任龍燁拜訪台中市府 盧秀燕感謝擔任購物節代言人 | 中彰投",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7325/9420741"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "s-unfreeze",
+   "title": "台中購物節預算解凍引爆戰火 綠營議員批淪為大內宣",
+   "date": "2026-04-01",
+   "place": "台中",
+   "summary": "購物節預算在議會被附帶決議凍結，市府送專案報告申請解凍時，綠營議員批評活動淪為市長個人宣傳的「大內宣」，藍營議員則支持續辦。",
+   "fear": [
+    "P"
+   ],
+   "sources": [
+    {
+     "title": "台中購物節預算解凍引爆戰火 綠營議員批淪為大內宣",
+     "outlet": "Newtalk",
+     "url": "https://newtalk.tw/news/view/2026-04-01/1027566"
+    }
+   ]
+  },
+  {
+   "id": "p-i20260401a",
+   "title": "台中購物節等活動是否續辦　盧秀燕：成效佳將持續編列預算",
+   "date": "2026-04-01",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "台中購物節等活動是否續辦　盧秀燕：成效佳將持續編列預算",
+     "outlet": "CTWANT",
+     "url": "https://www.ctwant.com/article/475632/"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20260326a",
+   "title": "感人！台中騎士低血糖昏倒　好心人送「媽祖紅包」勸請假",
+   "date": "2026-03-26",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "感人！台中騎士低血糖昏倒　好心人送「媽祖紅包」勸請假",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260326/3138992.htm"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20260323a",
+   "title": "桃園購物節挨批「自嗨」？經發局反擊：預算效益比235倍勝台中- 生活",
+   "date": "2026-03-23",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "桃園購物節挨批「自嗨」？經發局反擊：預算效益比235倍勝台中- 生活",
+     "outlet": "ctee.com.tw",
+     "url": "https://www.ctee.com.tw/news/20260323701099-431401"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20260310a",
+   "title": "台中大遠百「美麗購物節」登場 業績挑戰50.4億 年增3%",
+   "date": "2026-03-10",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "台中大遠百「美麗購物節」登場 業績挑戰50.4億 年增3%",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7241/9372093"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20260301a",
+   "title": "四大生活圈齊發力！台中購物節30至撐起六成買氣 消費突破374億元",
+   "date": "2026-03-01",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "四大生活圈齊發力！台中購物節30至49歲撐起六成買氣 消費突破374億元",
+     "outlet": "taichung.gov.tw",
+     "url": "https://www.taichung.gov.tw/8868/8872/9962/3221782"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20260219a",
+   "title": "破千億消費力! 台中購物節七年磨一劍 三要角共築慶典經濟",
+   "date": "2026-02-19",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "破千億消費力! 台中購物節七年磨一劍 三要角共築慶典經濟",
+     "outlet": "taichung.gov.tw",
+     "url": "https://www.taichung.gov.tw/8868/8872/9962/3216034"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20260214a",
+   "title": "喝酒還自備檢知器「來不及用」　台中男嘆：拿紅包繳罰單",
+   "date": "2026-02-14",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "喝酒還自備檢知器「來不及用」　台中男嘆：拿紅包繳罰單",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260214/3118972.htm"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "s-mansion",
+   "title": "第7屆台中購物節壓軸抽千萬豪宅 消費登錄374億",
+   "date": "2026-01-16",
+   "place": "北屯",
+   "summary": "第 7 屆台中購物節壓軸抽出一戶北屯區、近千萬元的裝潢豪宅，由一名市民抽中；市府公布購物節登錄消費 374 億元。抽豪宅、抽現金的作法年年被議員質疑是用公帑辦「樂透」。",
+   "fear": [
+    "P"
+   ],
+   "sources": [
+    {
+     "title": "幸運兒不是你！盧秀燕購物節抽千萬好宅 中獎者淡定回：早就有房",
+     "outlet": "NOWnews",
+     "url": "https://www.nownews.com/news/6776503"
+    }
+   ]
+  },
+  {
+   "id": "p-i20260116a",
+   "title": "消費動能全面引爆！台中購物節磁吸全台人潮 跨縣市高強度消費高達64億",
+   "date": "2026-01-16",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "消費動能全面引爆！台中購物節磁吸全台人潮 跨縣市高強度消費高達64億",
+     "outlet": "taichung.gov.tw",
+     "url": "https://www.taichung.gov.tw/8868/8872/9962/3193200"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20251228a",
+   "title": "最新消息-歷年之最、再創紀錄！ 台中購物節登錄金額破360億 1/16抽壓軸好宅",
+   "date": "2025-12-28",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "歷年之最、再創紀錄！ 台中購物節登錄金額破360億 1/16抽壓軸好宅",
+     "outlet": "taichung.gov.tw",
+     "url": "https://www.taichung.gov.tw/8868/8872/9962/3174892"
+    },
+    {
+     "title": "最新消息-歷年之最、再創紀錄！ 台中購物節登錄金額破360億 1/16抽壓軸好宅",
+     "outlet": "economic.taichung.gov.tw",
+     "url": "https://www.economic.taichung.gov.tw/16103/16107/16114/3176617"
+    },
+    {
+     "title": "歷年之最！台中購物節登錄金額突破360億 1/16抽壓軸千萬好宅",
+     "outlet": "extra.rakuya.com.tw",
+     "url": "https://extra.rakuya.com.tw/house_news/62097.html"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20251217a",
+   "title": "台中購物節衝破300億創紀錄！3位百萬富翁12/20可望誕生 市長盧秀燕將親自電話致賀",
+   "date": "2025-12-17",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "百萬現金快來搶！台中購物節登錄破300億元　這區消費力太驚人",
+     "outlet": "NOWnews",
+     "url": "https://www.nownews.com/news/6765920"
+    },
+    {
+     "title": "台中購物節衝破300億創紀錄！三位百萬富翁明日將誕生 盧市長親自打給你",
+     "outlet": "taichung.gov.tw",
+     "url": "https://www.taichung.gov.tw/8868/8872/9962/3169298"
+    },
+    {
+     "title": "台中購物節衝破300億創紀錄！3位百萬富翁12/20可望誕生 市長盧秀燕將親自電話致賀",
+     "outlet": "greatnews.com.tw",
+     "url": "https://greatnews.com.tw/news_pagein.php"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20251207a",
+   "title": "台中購物節登錄金額200億里程碑達成 第4個百萬現金幸運兒出爐！",
+   "date": "2025-12-07",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "台中購物節登錄金額200億里程碑達成 第4個百萬現金幸運兒出爐！",
+     "outlet": "taichung.gov.tw",
+     "url": "https://www.taichung.gov.tw/8868/8872/9962/3160333"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "s-budget",
+   "title": "台中購物節預算引爆攻防 綠營要求全刪、藍營力挺續辦",
+   "date": "2025-12-04",
+   "place": "台中",
+   "summary": "議會審 2026 年度預算時，綠營議員質疑購物節綁定載具採「回溯」計算、消費金額可能灌水，台中薪資在六都墊底難靠抽獎帶動經濟，要求全刪；藍營議員力挺續辦，市長稱購物節原理就像統一發票。",
+   "fear": [
+    "P"
+   ],
+   "sources": [
+    {
+     "title": "台中購物節預算引爆攻防 綠營要求全刪、藍營力挺續辦",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7325/9182257"
+    }
+   ]
+  },
+  {
+   "id": "p-i20251202a",
+   "title": "台中購物節3.97億預算遭凍結盧秀燕：民調顯示市民支持續辦- 生活",
+   "date": "2025-12-02",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "感謝彰雲苗民眾買氣爆棚！台中購物節39天破200億",
+     "outlet": "taichung.gov.tw",
+     "url": "https://www.taichung.gov.tw/8868/8872/9962/3156643"
+    },
+    {
+     "title": "台中購物節3.97億預算遭凍結盧秀燕：民調顯示市民支持續辦- 生活",
+     "outlet": "ctee.com.tw",
+     "url": "https://www.ctee.com.tw/news/20251204701360-431401"
+    },
+    {
+     "title": "盧秀燕代言台中購物節陳淑華批宣傳費用暴漲、淪個人大外宣- 政治",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/politics/breakingnews/5268234"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20251128a",
+   "title": "台中購物節預算編到2027？盧秀燕明年卸任「還幫下任多編3000餘萬」...周永鴻裁示凍結「3.95億預算」：待內容修正再送大會討論",
+   "date": "2025-11-28",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "台中購物節預算編到2027？盧秀燕明年卸任「還幫下任多編3000餘萬」...周永鴻裁示凍結「3.95億預算」：待內容修正再送大會討論",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E8%B3%BC%E7%89%A9%E7%AF%80%E9%A0%90%E7%AE%97%E7%B7%A8%E5%88%B02027-%E7%9B%A7%E7%A7%80%E7%87%95%E6%98%8E%E5%B9%B4%E5%8D%B8%E4%BB%BB-%E9%82%84%E5%B9%AB%E4%B8%8B%E4%BB%BB%E5%A4%9A%E7%B7%A83000%E9%A4%98%E8%90%AC-%E5%91%A8%E6%B0%B8%E9%B4%BB%E8%A3%81%E7%A4%BA%E5%87%8D%E7%B5%90-3-070359716.html"
+    },
+    {
+     "title": "盧秀燕明年卸任台中購物節預算竟編到後年 3.9億今遭凍結",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/politics/breakingnews/5261642"
+    },
+    {
+     "title": "一天一億！外縣市湧入台中 購物節成最強觀光磁鐵",
+     "outlet": "taichung.gov.tw",
+     "url": "https://www.taichung.gov.tw/8868/8872/9962/3154664"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20251116a",
+   "title": "國際肯定慶典標竿！台中購物節破百億 11/20建國市場加抽百萬、外籍專屬抽1萬美金",
+   "date": "2025-11-16",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "國際肯定慶典標竿！台中購物節破百億 11/20建國市場加抽百萬、外籍專屬抽1萬美金",
+     "outlet": "taichung.gov.tw",
+     "url": "https://www.taichung.gov.tw/8868/8872/9962/3144507"
+    },
+    {
+     "title": "台中購物節登錄破百億20日抽百萬現金外籍1萬美元",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/aloc/202511170165.aspx"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20251115a",
+   "title": "購物節第二位百萬汽車得主出爐！迺台中長億夜市抽百份好禮",
+   "date": "2025-11-15",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "購物節第二位百萬汽車得主出爐！迺台中長億夜市抽百份好禮",
+     "outlet": "taichung.gov.tw",
+     "url": "https://www.taichung.gov.tw/8868/8872/9962/3144376"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20251103a",
+   "title": "看好台中產業潛力！歐洲經貿辦事處長谷力哲代言「2025台中購物節」 盛讚台中多元文化",
+   "date": "2025-11-03",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "看好台中產業潛力！歐洲經貿辦事處長谷力哲代言「2025台中購物節」 盛讚台中多元文化",
+     "outlet": "taichung.gov.tw",
+     "url": "https://www.taichung.gov.tw/8868/8872/9962/3134446"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20251030a",
+   "title": "台中購物節海報QR code出包挨轟「螺絲掉滿地」　中市：902家已修正重寄",
+   "date": "2025-10-30",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "台中購物節海報QR code出包 議員批盧秀燕「朽木當浮木」",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7325/9106960"
+    },
+    {
+     "title": "台中購物節海報QR code出包挨轟「螺絲掉滿地」　中市：902家已修正重寄",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1744317"
+    },
+    {
+     "title": "台中購物節爆烏龍　宣傳海報錯誤百出",
+     "outlet": "NOWnews",
+     "url": "https://www.nownews.com/news/6748300"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20251020a",
+   "title": "6國使節親代言！「台中購物節」10/24火熱起跑 盧市長：向世界展現台中多元國際魅力",
+   "date": "2025-10-20",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "2025台中購物節倒數4天開跑 議員批「宣傳落漆」嘸人知",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7325/9082354"
+    },
+    {
+     "title": "6國使節親代言！「台中購物節」10/24火熱起跑 盧市長：向世界展現台中多元國際魅力",
+     "outlet": "taichung.gov.tw",
+     "url": "https://www.taichung.gov.tw/8868/8872/9962/3124962"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20251017a",
+   "title": "盧秀燕代言台中購物節 宣傳費暴漲150%",
+   "date": "2025-10-17",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "盧秀燕代言台中購物節 宣傳費暴漲150%",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/paper/1728435"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20250829a",
+   "title": "【謠言澄清】網傳盧市長收取台中購物節代言費用 市府嚴斥：盧市長無償代言、謠言子虛烏有",
+   "date": "2025-08-29",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "行情超越謝金燕！遭爆代言台中購物節自肥3千萬　盧秀燕回應了",
+     "outlet": "NOWnews",
+     "url": "https://www.nownews.com/news/6724709"
+    },
+    {
+     "title": "遭指代言台中購物節收費盧秀燕：市長都是無償的",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/aloc/202508290034.aspx"
+    },
+    {
+     "title": "臺中市政府全球資訊網-謠言澄清-【謠言澄清】網傳盧市長收取台中購物節代言費用 市府嚴斥：盧市長無償代言、謠言子虛烏有",
+     "outlet": "taichung.gov.tw",
+     "url": "https://www.taichung.gov.tw/8868/8872/1269419/3080625"
+    },
+    {
+     "title": "遭疑領台中購物節代言費3230萬 盧秀燕澄清「市長代言無償」",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/politics/breakingnews/5160069"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20250711a",
+   "title": "台中鍋烤節國際升級！ 盧市長攜手四國駐台代表共推美食外交：估帶動逾200億商機",
+   "date": "2025-07-11",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "台中鍋烤節國際升級！ 盧市長攜手四國駐台代表共推美食外交：估帶動逾200億商機",
+     "outlet": "taichung.gov.tw",
+     "url": "https://www.taichung.gov.tw/8868/8872/9962/3039741"
+    },
+    {
+     "title": "2025台中鍋烤節7/14登場 盧秀燕攜手四國大使拚200億商機",
+     "outlet": "focus.586.com.tw",
+     "url": "https://focus.586.com.tw/2025/07/12/p354427/"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20250324a",
+   "title": "新光三越台中2000坪賣場曝！初夏購物節「滿3千送3千」拚52億業績",
+   "date": "2025-03-24",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "新光三越台中2000坪賣場曝！初夏購物節「滿3千送3千」拚52億業績",
+     "outlet": "NOWnews",
+     "url": "https://www.nownews.com/news/6662643"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20250226a",
+   "title": "最新消息-台中購物節帶動全國經濟產值破700億漣漪效應推動經濟振興發展",
+   "date": "2025-02-26",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "最新消息-台中購物節帶動全國經濟產值破700億漣漪效應推動經濟振興發展",
+     "outlet": "economic.taichung.gov.tw",
+     "url": "https://www.economic.taichung.gov.tw/16103/16107/16114/2913074"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20250125a",
+   "title": "台中情侶檔搶4本「超級紅包」刮刮樂爽中8萬2　悽慘下場曝",
+   "date": "2025-01-25",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "台中情侶檔搶4本「超級紅包」刮刮樂爽中8萬2　悽慘下場曝",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250125/2887694.htm"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20250103a",
+   "title": "成績超亮眼！2024台中購物節消費登錄金額突破353億",
+   "date": "2025-01-03",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "成績超亮眼！2024台中購物節消費登錄金額突破353億",
+     "outlet": "ctee.com.tw",
+     "url": "https://www.ctee.com.tw/news/20250103701521-431207"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20241225a",
+   "title": "台中購物節登錄金額逾300億 多數市民不知免開發票攤商可掃QRCode登錄",
+   "date": "2024-12-25",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "台中購物節登錄金額逾300億 多數市民不知免開發票攤商可掃QRCode登錄",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/Taichung/breakingnews/4903796"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20241220a",
+   "title": "台中購物節登錄金額破3百億 明加碼抽百萬現金 - 全國廣播M-Radio",
+   "date": "2024-12-20",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "台中購物節登錄金額破3百億 明加碼抽百萬現金 - 全國廣播M-Radio",
+     "outlet": "mradio.com.tw",
+     "url": "https://www.mradio.com.tw/home/m-news/ContentView/707198f3-d2e0-4f17-baa0-b89aa0faccd2/false/m-news"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20241216a",
+   "title": "綠轟台中購物節燒錢預算3.6億要全刪藍批：為何自斷手腳- 生活",
+   "date": "2024-12-16",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "綠轟台中購物節燒錢預算3.6億要全刪藍批：為何自斷手腳- 生活",
+     "outlet": "ctee.com.tw",
+     "url": "https://www.ctee.com.tw/news/20241216701251-431401"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20241212a",
+   "title": "美女議員酸高雄花大錢辦黃色小鴨　政論粉專譏：比台中購物節是小巫見大巫",
+   "date": "2024-12-12",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "美女議員酸高雄花大錢辦黃色小鴨　政論粉專譏：比台中購物節是小巫見大巫",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/story/20241213soc004"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20241205a",
+   "title": "3.5億預算創造逾600億產值！議員肯定台中購物節經濟效益全國第一 盧市長：藉物調券與鍋烤節再創佳績",
+   "date": "2024-12-05",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "3.5億預算創造逾600億產值！議員肯定台中購物節經濟效益全國第一 盧市長：藉物調券與鍋烤節再創佳績",
+     "outlet": "taichung.gov.tw",
+     "url": "https://www.taichung.gov.tw/8868/8872/9962/2838137"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20241122a",
+   "title": "台中購物節登陸金額破130億 11/23抽3名百萬現金 - 全國廣播M-Radio",
+   "date": "2024-11-22",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "台中購物節登陸金額破130億 11/23抽3名百萬現金 - 全國廣播M-Radio",
+     "outlet": "mradio.com.tw",
+     "url": "https://www.mradio.com.tw/home/m-news/ContentView/c58a50e9-ab83-480d-8895-dcf3303d9109/false/m-news"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20241119a",
+   "title": "比星日駐台使節加持！ 台中購物節登錄金額破百億 11/24光復新村加碼抽百萬",
+   "date": "2024-11-19",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "比星日駐台使節加持！ 台中購物節登錄金額破百億 11/24光復新村加碼抽百萬",
+     "outlet": "lifenews.com.tw",
+     "url": "https://lifenews.com.tw/235278"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20241025a",
+   "title": "台中購物節變造勢活動！議員林德宇轟：到處都是盧秀燕玉照",
+   "date": "2024-10-25",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "台中購物節變造勢活動！議員林德宇轟：到處都是盧秀燕玉照",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/politics/breakingnews/4842181"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20241021a",
+   "title": "全城On sale 2024台中購物節10/24開跑 3國使節代言創先例",
+   "date": "2024-10-21",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "全城On sale 2024台中購物節10/24開跑 3國使節代言創先例",
+     "outlet": "台灣好新聞",
+     "url": "https://www.taiwanhot.net/news/1083778/%E5%85%A8%E5%9F%8EOn+sale+2024%E5%8F%B0%E4%B8%AD%E8%B3%BC%E7%89%A9%E7%AF%8010-24%E9%96%8B%E8%B7%91+3%E5%9C%8B%E4%BD%BF%E7%AF%80%E4%BB%A3%E8%A8%80%E5%89%B5%E5%85%88%E4%BE%8B"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20240711a",
+   "title": "「東海四姊弟」代言台中鍋烤節盧秀燕化身記者訪問姊弟們大讚：最佳美食代言人- 生活",
+   "date": "2024-07-11",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "轟動各界！台中鍋烤節記者會7/12火熱登場 「超仙氣」神祕嘉賓提前揭曉",
+     "outlet": "taichung.gov.tw",
+     "url": "https://www.taichung.gov.tw/8868/8872/9962/2690617"
+    },
+    {
+     "title": "「東海四姊弟」代言台中鍋烤節盧秀燕化身記者訪問姊弟們大讚：最佳美食代言人- 生活",
+     "outlet": "華視新聞",
+     "url": "https://news.cts.com.tw/cts/life/202407/202407122349505.html"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20240427a",
+   "title": "台中購物節若破百億就辦「議會加碼抽」 陳淑華質疑： 巴結議員要預算過關",
+   "date": "2024-04-27",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "台中購物節若破百億就辦「議會加碼抽」 陳淑華質疑： 巴結議員要預算過關",
+     "outlet": "cnews.com.tw",
+     "url": "https://cnews.com.tw/174240427a4/"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20231214a",
+   "title": "滿街盧秀燕！台中購物節市長代言挨批多花錢造光環 經發局回應",
+   "date": "2023-12-14",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "台中購物節「滿街盧秀燕」宣傳費比謝金燕代言高 議員嗆刪預算",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/politics/breakingnews/4521147"
+    },
+    {
+     "title": "滿街盧秀燕！台中購物節市長代言挨批多花錢造光環 經發局回應",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/politics/breakingnews/4521233"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20231212a",
+   "title": "購物節好宅在龍井 議員：交通、就業前景可期",
+   "date": "2023-12-12",
+   "place": "龍井",
+   "summary": "龍井購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "購物節好宅在龍井 議員：交通、就業前景可期",
+     "outlet": "東森新聞",
+     "url": "https://news.ebc.net.tw/news/living/395833"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20231129a",
+   "title": "全臺第一破百億登錄金額的購物盛事！臺中購物節聲量飆破7萬 市府再揭五大熱門話題 讓你開心抽獎買到手軟",
+   "date": "2023-11-29",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "全臺第一破百億登錄金額的購物盛事！臺中購物節聲量飆破7萬 市府再揭五大熱門話題 讓你開心抽獎買到手軟",
+     "outlet": "dailyview.tw",
+     "url": "https://dailyview.tw/popular/detail/24288"
+    },
+    {
+     "title": "交通資訊看板宣傳台中購物節 議員張家銨批「大材小用」",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/politics/breakingnews/4507661"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20231120a",
+   "title": "破紀錄！台中購物節23天達標百億 盧市長抽出第1位百萬現金得主",
+   "date": "2023-11-20",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "破紀錄！台中購物節23天達標百億 盧市長抽出第1位百萬現金得主",
+     "outlet": "taichung.gov.tw",
+     "url": "https://www.taichung.gov.tw/8868/8872/9962/2502638"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20231114a",
+   "title": "路邊驚見「嫁好尪」紅包...台中阿姨秒聯想冥婚　結局超展開",
+   "date": "2023-11-14",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "路邊驚見「嫁好尪」紅包...台中阿姨秒聯想冥婚　結局超展開",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20231114/2622392.htm"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20231025a",
+   "title": "台中購物節掀起全台狂歡 盧秀燕帶店家當活動代言人",
+   "date": "2023-10-25",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "台中購物節掀起全台狂歡 盧秀燕帶店家當活動代言人",
+     "outlet": "下班經濟學",
+     "url": "https://www.thehubnews.net/archives/297862"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20230505a",
+   "title": "花大錢辦購物節 曾朝榮批中市府漠視農友職災保險權益",
+   "date": "2023-05-05",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "花大錢辦購物節 曾朝榮批中市府漠視農友職災保險權益",
+     "outlet": "台灣好新聞",
+     "url": "https://www.taiwanhot.net/news/1031004/%E8%8A%B1%E5%A4%A7%E9%8C%A2%E8%BE%A6%E8%B3%BC%E7%89%A9%E7%AF%80+%E6%9B%BE%E6%9C%9D%E6%A6%AE%E6%89%B9%E4%B8%AD%E5%B8%82%E5%BA%9C%E6%BC%A0%E8%A6%96%E8%BE%B2%E5%8F%8B%E8%81%B7%E7%81%BD%E4%BF%9D%E9%9A%AA%E6%AC%8A%E7%9B%8A"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20221221a",
+   "title": "台中購物節破三百億 12/28加碼抽百萬 經發局長中三千元捐做公益",
+   "date": "2022-12-21",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "台中購物節破三百億 12/28加碼抽百萬 經發局長中三千元捐做公益",
+     "outlet": "taichung.gov.tw",
+     "url": "https://www.taichung.gov.tw/8868/8872/9962/2250028"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20221208a",
+   "title": "台中機車族有福了！完成定檢加入購物節會員 有機會抽豪宅及獎金",
+   "date": "2022-12-08",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "台中機車族有福了！完成定檢加入購物節會員 有機會抽豪宅及獎金",
+     "outlet": "台灣好新聞",
+     "url": "https://taiwanhot.net/news/1015140/%E5%8F%B0%E4%B8%AD%E6%A9%9F%E8%BB%8A%E6%97%8F%E6%9C%89%E7%A6%8F%E4%BA%86%EF%BC%81%E5%AE%8C%E6%88%90%E5%AE%9A%E6%AA%A2%E5%8A%A0%E5%85%A5%E8%B3%BC%E7%89%A9%E7%AF%80%E6%9C%83%E5%93%A1+%E6%9C%89%E6%A9%9F%E6%9C%83%E6%8A%BD%E8%B1%AA%E5%AE%85%E5%8F%8A%E7%8D%8E%E9%87%91"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20221206a",
+   "title": "六都推購物節衝買氣！登錄發票抽好車、好宅、機票臺中購物節登錄金額破兩百億聲量飆至15萬",
+   "date": "2022-12-06",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "六都推購物節衝買氣！登錄發票抽好車、好宅、機票臺中購物節登錄金額破兩百億聲量飆至15萬",
+     "outlet": "dailyview.tw",
+     "url": "https://dailyview.tw/popular/detail/18575"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20221026a",
+   "title": "臺中購物節10/26開跑！　總獎項超過10萬個、總獎金逾3億元",
+   "date": "2022-10-26",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "臺中購物節10/26開跑！　總獎項超過10萬個、總獎金逾3億元",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1198543"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20221002a",
+   "title": "【漾台中】說購就Go！台中購物節 商機上看2百億",
+   "date": "2022-10-02",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "【漾台中】說購就Go！台中購物節 商機上看2百億",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/story/20220930cnt005"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20211120a",
+   "title": "台中購物節突破150億元！ 太平長億歡樂嘉年華加碼抽50萬元",
+   "date": "2021-11-20",
+   "place": "太平",
+   "summary": "太平購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "台中購物節突破150億元！ 太平長億歡樂嘉年華加碼抽50萬元",
+     "outlet": "taichung.gov.tw",
+     "url": "https://www.taichung.gov.tw/8868/8872/9962/1921894"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20211104a",
+   "title": "台中購物節 謝金燕220萬代言 只見人形立牌",
+   "date": "2021-11-04",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "謝金燕代言台中購物節　被爆至今未露臉",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/story/20211104ent024"
+    },
+    {
+     "title": "台中購物節找姐姐代言 只看到人型立牌不見本尊",
+     "outlet": "台灣好新聞",
+     "url": "https://www.taiwanhot.net/news/978282/%E5%8F%B0%E4%B8%AD%E8%B3%BC%E7%89%A9%E7%AF%80%E6%89%BE%E5%A7%90%E5%A7%90%E4%BB%A3%E8%A8%80+%E5%8F%AA%E7%9C%8B%E5%88%B0%E4%BA%BA%E5%9E%8B%E7%AB%8B%E7%89%8C%E4%B8%8D%E8%A6%8B%E6%9C%AC%E5%B0%8A"
+    },
+    {
+     "title": "台中購物節 謝金燕220萬代言 只見人形立牌",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/paper/1482718"
+    }
+   ],
+   "fear": [
+    "P"
    ]
   },
   {
@@ -236,6 +1727,108 @@
      "outlet": "中央社",
      "url": "https://www.cna.com.tw/news/aloc/202109240126.aspx"
     }
+   ]
+  },
+  {
+   "id": "p-i20200908a",
+   "title": "2020台中購物節登錄金額破90億 多項成績破紀錄",
+   "date": "2020-09-08",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "2020台中購物節登錄金額破90億 多項成績破紀錄",
+     "outlet": "taichung.gov.tw",
+     "url": "https://www.taichung.gov.tw/8868/8872/9962/1600081"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20200827a",
+   "title": "台中購物節登錄金額衝破70億 這2個縣最捧場",
+   "date": "2020-08-27",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "台中購物節登錄金額衝破70億 這2個縣最捧場",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/Taichung/breakingnews/3273200"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20200810a",
+   "title": "康堤創意烘培中秋月餅禮盒配合台中市購物節抽豪宅- 商情",
+   "date": "2020-08-10",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "康堤創意烘培中秋月餅禮盒配合台中市購物節抽豪宅- 商情",
+     "outlet": "ctee.com.tw",
+     "url": "https://www.ctee.com.tw/news/20200810700390-431207"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20200714a",
+   "title": "台中購物節App 發票金額輸入錯誤不能改",
+   "date": "2020-07-14",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "台中購物節App 發票金額輸入錯誤不能改",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/paper/1386111"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20190628a",
+   "title": "台中市捷運站掛購物節看板 質疑合法性",
+   "date": "2019-06-28",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "台中市捷運站掛購物節看板 質疑合法性",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/paper/1299129"
+    }
+   ],
+   "fear": [
+    "P"
+   ]
+  },
+  {
+   "id": "p-i20190125a",
+   "title": "台中年貨大街開幕　財神爺天降紅包「搶到孩子都不見」",
+   "date": "2019-01-25",
+   "place": "台中",
+   "summary": "台中購物節等城市行銷活動引發討論。",
+   "sources": [
+    {
+     "title": "台中年貨大街開幕　財神爺天降紅包「搶到孩子都不見」",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20190125/1365956.htm"
+    }
+   ],
+   "fear": [
+    "P"
    ]
   }
  ]

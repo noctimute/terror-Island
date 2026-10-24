@@ -6,8 +6,97 @@
   "Q"
  ],
  "danger": 2,
- "updated": "2026-10-23",
+ "updated": "2026-10-24",
  "records": [
+  {
+   "id": "e-i20261023a",
+   "title": "蔣萬安砍樹政績島不夠看！墜落、廚餘、撿到槍…36萬人爭睹「台中恐怖島」",
+   "date": "2026-10-23",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "不只蔣萬安砍樹、吸菸島！台中15座恐怖島+廚餘湖吸萬人朝聖",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/politics/breakingnews/5616223"
+    },
+    {
+     "title": "蔣萬安砍樹政績島不夠看！墜落、廚餘、撿到槍…36萬人爭睹「台中恐怖島」",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/oqp2J9j"
+    }
+   ]
+  },
+  {
+   "id": "e-i20261006a",
+   "title": "從中火減煤到都市森林 民進黨台中市長候選人、立法委員何欣純提2030空品治理兩大目標",
+   "date": "2026-10-06",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "從中火減煤到都市森林 民進黨台中市長候選人、立法委員何欣純提2030空品治理兩大目標",
+     "outlet": "遠方新聞",
+     "url": "https://www.yuanfengmedia.tw/detail.php"
+    }
+   ]
+  },
+  {
+   "id": "e-i20261006b",
+   "title": "昔護中火今喊拆！吳宗學轟何欣純雙標：請先向台中市民道歉",
+   "date": "2026-10-06",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "昔護中火今喊拆！吳宗學轟何欣純雙標：請先向台中市民道歉",
+     "outlet": "蕃新聞（轉載）",
+     "url": "https://n.yam.com/Article/20261006322807"
+    }
+   ]
+  },
+  {
+   "id": "e-i20261005a",
+   "title": "何欣純專訪／解決台中垃圾山、升級機場門戶、中火煙囪全拆！她務實不噴政治口水：少一根空氣就感覺變好",
+   "date": "2026-10-05",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "何欣純專訪／解決台中垃圾山、升級機場門戶、中火煙囪全拆！她務實不噴政治口水：少一根空氣就感覺變好",
+     "outlet": "businesstoday.com.tw",
+     "url": "https://www.businesstoday.com.tw/article/category/183027/post/202610050041/"
+    }
+   ]
+  },
+  {
+   "id": "e-i20261004a",
+   "title": "台中火雞肉飯名店爆食安風波！女童吐到住院　8人身體不適",
+   "date": "2026-10-04",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "台中火雞肉飯名店爆食安風波！3歲女童吐到住院　8人身體不適",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20261004/3248984.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20261002a",
+   "title": "台中免驚缺水了！德基水庫「直逼滿水位」 最新水情曝光",
+   "date": "2026-10-02",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "台中免驚缺水了！德基水庫「直逼滿水位」 最新水情曝光",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E5%85%8D%E9%A9%9A%E7%BC%BA%E6%B0%B4%E4%BA%86-%E5%BE%B7%E5%9F%BA%E6%B0%B4%E5%BA%AB-%E7%9B%B4%E9%80%BC%E6%BB%BF%E6%B0%B4%E4%BD%8D-%E6%9C%80%E6%96%B0%E6%B0%B4%E6%83%85%E6%9B%9D%E5%85%89-001551309.html"
+    }
+   ]
+  },
   {
    "id": "e-coal-2026",
    "title": "中火燃氣許可假日火速核發 市長：拆煤是任內最重要使命",
@@ -34,6 +123,165 @@
      "title": "〈時評〉缺席中火環評會議 盧秀燕打錯算盤",
      "outlet": "台灣英文新聞",
      "url": "https://www.taiwannews.com.tw/zh/news/5963126"
+    }
+   ]
+  },
+  {
+   "id": "e-i20260920a",
+   "title": "台中青年高中旁工地大火！熊熊火光直衝夜空　環保局急發空污通知",
+   "date": "2026-09-20",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "台中青年高中旁工地大火！熊熊火光直衝夜空　環保局急發空污通知",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260920/3240938.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20260919a",
+   "title": "市長盧秀燕「說到做到」！中市府今收到中央拆煤公文 同日火速核發中火燃氣機組操作許可",
+   "date": "2026-09-19",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "市長盧秀燕「說到做到」！中市府今收到中央拆煤公文 同日火速核發中火燃氣機組操作許可",
+     "outlet": "蕃新聞（轉載）",
+     "url": "https://n.yam.com/Article/20260919333388"
+    },
+    {
+     "title": "中火拆2燃煤機組獲准！中市府同日火速發燃氣許可　加註「優先燃氣減空污」",
+     "outlet": "CTWANT",
+     "url": "https://www.ctwant.com/article/498841/"
+    }
+   ]
+  },
+  {
+   "id": "e-i20260915a",
+   "title": "台中近年持續推動減煤減碳-中火「增一拆一」邁最後一哩路盧秀燕強調堅持8年兌現空氣換新承諾",
+   "date": "2026-09-15",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "台中近年持續推動減煤減碳-中火「增一拆一」邁最後一哩路盧秀燕強調堅持8年兌現空氣換新承諾",
+     "outlet": "風傳媒",
+     "url": "https://www.storm.mg/article/11164802"
+    }
+   ]
+  },
+  {
+   "id": "e-i20260905a",
+   "title": "大雅區公所PO盧秀燕「抗議中火」回顧 周永鴻痛批行政不中立",
+   "date": "2026-09-05",
+   "place": "大雅",
+   "summary": "大雅公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "大雅區公所PO盧秀燕「抗議中火」回顧 周永鴻痛批行政不中立",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/politics/breakingnews/5564195"
+    }
+   ]
+  },
+  {
+   "id": "e-i20260905b",
+   "title": "選舉到台中空污再成焦點建材業者趕上話題設實驗防霾網",
+   "date": "2026-09-05",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "選舉到台中空污再成焦點建材業者趕上話題設實驗防霾網",
+     "outlet": "Newtalk 新聞",
+     "url": "https://newtalk.tw/news/view/2026-09-05/1058036"
+    }
+   ]
+  },
+  {
+   "id": "e-i20260904a",
+   "title": "卓榮泰視察中火引爆戰火！何欣純公開數據嗆盧秀燕：中市府卡關15個月",
+   "date": "2026-09-04",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "卓榮泰視察中火引爆戰火！何欣純公開數據嗆盧秀燕：中市府卡關15個月",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/politics/breakingnews/5562681"
+    }
+   ]
+  },
+  {
+   "id": "e-i20260904b",
+   "title": "卓榮泰允諾2034年中火無煤供電：中市府一起「增氣」才不會生氣",
+   "date": "2026-09-04",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "卓榮泰允諾2034年中火無煤供電：中市府一起「增氣」才不會生氣",
+     "outlet": "Newtalk 新聞",
+     "url": "https://newtalk.tw/news/view/2026-09-04/1057884"
+    }
+   ]
+  },
+  {
+   "id": "e-i20260903a",
+   "title": "不是亂砍樹！台中將移除80棵嫌惡樹種黑板樹 改種小花紫薇",
+   "date": "2026-09-03",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "不是亂砍樹！台中將移除80棵嫌惡樹種黑板樹 改種小花紫薇",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/breakingnews/5561498"
+    }
+   ]
+  },
+  {
+   "id": "e-i20260903b",
+   "title": "北屯旱溪閒置高灘地 議員籲打造台中首座低衝擊寵物公園",
+   "date": "2026-09-03",
+   "place": "北屯",
+   "summary": "北屯公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "北屯旱溪閒置高灘地 議員籲打造台中首座低衝擊寵物公園",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7325/9731828"
+    }
+   ]
+  },
+  {
+   "id": "e-i20260902a",
+   "title": "告別蚊子館！台中烏日游泳池活化 首波喜迎熱血桌球競技",
+   "date": "2026-09-02",
+   "place": "烏日",
+   "summary": "烏日公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "告別蚊子館！台中烏日游泳池活化 首波喜迎熱血桌球競技",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7325/9729111"
+    }
+   ]
+  },
+  {
+   "id": "e-i20260820a",
+   "title": "轟然一響路樹突倒榻　台中2警遭壓脫困全身擦挫傷",
+   "date": "2026-08-20",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "轟然一響路樹突倒榻　台中2警遭壓脫困全身擦挫傷",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260820/3222360.htm"
     }
    ]
   },
@@ -87,6 +335,132 @@
    ]
   },
   {
+   "id": "e-i20260723a",
+   "title": "改善管線末端缺水！台中埋設2條送水管　大里霧峰太平都受惠",
+   "date": "2026-07-23",
+   "place": "大里",
+   "summary": "大里公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "改善管線末端缺水！台中埋設2條送水管　大里霧峰太平都受惠",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260723/3206619.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20260723b",
+   "title": "台中屯區送水管工程動工 翻轉屯區管末缺水困境",
+   "date": "2026-07-23",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "台中屯區送水管工程動工 翻轉屯區管末缺水困境",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7325/9645972"
+    }
+   ]
+  },
+  {
+   "id": "e-i20260723c",
+   "title": "告別中市屯區缺水惡夢　大里雙送水管動工交管",
+   "date": "2026-07-23",
+   "place": "大里",
+   "summary": "大里公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "告別中市屯區缺水惡夢　大里雙送水管動工交管",
+     "outlet": "NOWnews",
+     "url": "https://www.nownews.com/news/6859457"
+    }
+   ]
+  },
+  {
+   "id": "e-i20260624a",
+   "title": "台中西屯無預警停電！超商叫乾冰應急　台電：污水工程施工釀禍",
+   "date": "2026-06-24",
+   "place": "西屯",
+   "summary": "西屯公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "台中西屯無預警停電！超商叫乾冰應急　台電：污水工程施工釀禍",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260624/3189178.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20260621a",
+   "title": "號稱全國最大 豐原八方商場淪蚊子館",
+   "date": "2026-06-21",
+   "place": "豐原",
+   "summary": "豐原公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "號稱全國最大 豐原八方商場淪蚊子館",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/paper/1759618"
+    }
+   ]
+  },
+  {
+   "id": "e-i20260616a",
+   "title": "國道台中火燒車　2女嚇奔逃",
+   "date": "2026-06-16",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "快訊／國道台中火燒車　2女嚇奔逃",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260616/3184729.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20260614a",
+   "title": "10多名印尼移工台中火車站酒後大亂鬥　路過女子驚嚇狂逃",
+   "date": "2026-06-14",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "10多名印尼移工台中火車站酒後大亂鬥　路過女子驚嚇狂逃",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260614/3183373.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20260610a",
+   "title": "台中海線14萬戶大規模停電半小時　4人受困電梯",
+   "date": "2026-06-10",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "快訊／台中海線14萬戶大規模停電半小時　4人受困電梯",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260610/3181115.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20260523a",
+   "title": "濃煙遠處可見！台中大里工廠雜物燃燒陷火海 市府急發空污警示",
+   "date": "2026-05-23",
+   "place": "大里",
+   "summary": "大里公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "濃煙遠處可見！台中大里工廠雜物燃燒陷火海 市府急發空污警示",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E6%BF%83%E7%85%99%E9%81%A0%E8%99%95%E5%8F%AF%E8%A6%8B-%E5%8F%B0%E4%B8%AD%E5%A4%A7%E9%87%8C%E5%B7%A5%E5%BB%A0%E9%9B%9C%E7%89%A9%E7%87%83%E7%87%92%E9%99%B7%E7%81%AB%E6%B5%B7-%E5%B8%82%E5%BA%9C%E6%80%A5%E7%99%BC%E7%A9%BA%E6%B1%A1%E8%AD%A6%E7%A4%BA-072600828.html"
+    }
+   ]
+  },
+  {
    "id": "e-mrt",
    "title": "捷運藍線遲遲未見高架 機廠預定地挖出垃圾山",
    "date": "2026-05-14",
@@ -107,6 +481,133 @@
      "title": "台中捷運綠線延伸大坑、彰化計畫 已提送交部審議",
      "outlet": "工商時報",
      "url": "https://www.ctee.com.tw/news/20260506702162-431401"
+    }
+   ]
+  },
+  {
+   "id": "e-i20260514a",
+   "title": "中央社宅工地火災悶燒造成空汙 中市重罰500萬元",
+   "date": "2026-05-14",
+   "place": "北屯",
+   "summary": "北屯公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "北屯社宅工地悶燒「飄惡臭」空污將罰 盧秀燕喊話中央",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/3203990"
+    },
+    {
+     "title": "中央社宅工地火災悶燒造成空汙 中市重罰500萬元",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7325/9503701"
+    }
+   ]
+  },
+  {
+   "id": "e-i20260510a",
+   "title": "酒後吵架又巧遇　4移工台中火車站前廣場鬥毆！1人摔破頭",
+   "date": "2026-05-10",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "酒後吵架又巧遇　4移工台中火車站前廣場鬥毆！1人摔破頭",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260510/3163517.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20260509a",
+   "title": "高美濕地、大安媽祖園區閒置 台中海線觀光停擺",
+   "date": "2026-05-09",
+   "place": "大安",
+   "summary": "大安公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "高美濕地、大安媽祖園區閒置 台中海線觀光停擺",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/paper/1754093"
+    }
+   ]
+  },
+  {
+   "id": "e-i20260508a",
+   "title": "台中大安港媽祖文化園區招商不佳 議員施志昌憂淪蚊子館",
+   "date": "2026-05-08",
+   "place": "大安",
+   "summary": "大安公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "台中大安港媽祖文化園區招商不佳 議員施志昌憂淪蚊子館",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/breakingnews/5430405"
+    }
+   ]
+  },
+  {
+   "id": "e-i20260429a",
+   "title": "藍白提案加強地方燃煤管制權 台中副市長：樂觀其成",
+   "date": "2026-04-29",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "藍白提案加強地方燃煤管制權 台中副市長：樂觀其成",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7266/9471588"
+    },
+    {
+     "title": "空汙法修法…中市：樂觀其成 高市：有助脫煤",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7266/9472983"
+    }
+   ]
+  },
+  {
+   "id": "e-i20260428a",
+   "title": "民眾摸黑吃飯！台中南屯、七期2217戶停電　台電搶修中",
+   "date": "2026-04-28",
+   "place": "南屯",
+   "summary": "南屯公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "快訊／民眾摸黑吃飯！台中南屯、七期2217戶停電　台電搶修中",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260428/3156771.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20260427a",
+   "title": "台中一中商圈中午停電！影響5239戶　台電查修中",
+   "date": "2026-04-27",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "快訊／台中一中商圈中午停電！影響5239戶　台電查修中",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260427/3156135.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20260415a",
+   "title": "低頭撿東西釀禍！女開BMW撞變電箱　台中市議會停電半小時",
+   "date": "2026-04-15",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "低頭撿東西釀禍！51歲女開BMW撞變電箱　台中市議會停電半小時",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260415/3149672.htm"
+    },
+    {
+     "title": "快訊／變電箱遭轎車撞破！台中市議會停電、沒冷氣半小時",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260415/3149653.htm"
     }
    ]
   },
@@ -159,6 +660,236 @@
    ]
   },
   {
+   "id": "e-i20260316a",
+   "title": "清明掃墓中市推「集中燒、以功代金」 防火又減空污",
+   "date": "2026-03-16",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "清明掃墓中市推「集中燒、以功代金」 防火又減空污",
+     "outlet": "taichung.gov.tw",
+     "url": "https://www.taichung.gov.tw/8868/8872/9962/3233607"
+    }
+   ]
+  },
+  {
+   "id": "e-i20260305a",
+   "title": "美伊開戰 台中人憂中火「以氣換煤」進度受阻…台電解釋",
+   "date": "2026-03-05",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "美伊開戰 台中人憂中火「以氣換煤」進度受阻…台電解釋",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7238/9361950"
+    }
+   ]
+  },
+  {
+   "id": "e-i20260209a",
+   "title": "不只清水運動中心！台中公共建設頻變蚊子館　民進黨批盧秀燕執政失能",
+   "date": "2026-02-09",
+   "place": "清水",
+   "summary": "清水公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "不只清水運動中心！台中公共建設頻變蚊子館　民進黨批盧秀燕執政失能",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1793002"
+    }
+   ]
+  },
+  {
+   "id": "e-i20260129a",
+   "title": "快關窗！台中北屯惡火8店面燒毀濃煙擴散中 市府急發空污警報",
+   "date": "2026-01-29",
+   "place": "北屯",
+   "summary": "北屯公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "快訊／台中惡火狂燒8店家！「濃煙密布」持續擴散中...市府急發空污警報",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%BF%AB%E8%A8%8A-%E5%8F%B0%E4%B8%AD%E6%83%A1%E7%81%AB%E7%8B%82%E7%87%928%E5%BA%97%E5%AE%B6-%E6%BF%83%E7%85%99%E5%AF%86%E5%B8%83-%E6%8C%81%E7%BA%8C%E6%93%B4%E6%95%A3%E4%B8%AD-%E5%B8%82%E5%BA%9C%E6%80%A5%E7%99%BC%E7%A9%BA%E6%B1%A1%E8%AD%A6%E5%A0%B1-051200534.html"
+    },
+    {
+     "title": "快訊／加油站斷油撤離！台中大火8店面全燒毀...急發空污警報",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260130/3110407.htm"
+    },
+    {
+     "title": "快訊／快關窗！台中家具行大火連燒5店面 環保局示警空污",
+     "outlet": "東森新聞",
+     "url": "https://news.ebc.net.tw/news/society/535266"
+    },
+    {
+     "title": "快關窗！台中北屯惡火8店面燒毀濃煙擴散中 市府急發空污警報",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5327131"
+    },
+    {
+     "title": "台中大火已燒8間店！隔壁加油站「斷油人全撤」空污警戒範圍曝",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/3115194"
+    }
+   ]
+  },
+  {
+   "id": "e-i20260118a",
+   "title": "台中火車站夫妻大吵跳軌！為撿手機背包...醉夫遭上銬管束",
+   "date": "2026-01-18",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "台中火車站夫妻大吵跳軌！為撿手機背包...醉夫遭上銬管束",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260118/3103010.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20260111a",
+   "title": "國4神岡邊坡雜草狂燒濃煙竄天！環保局急發空污警訊",
+   "date": "2026-01-11",
+   "place": "神岡",
+   "summary": "神岡公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "快訊／國4神岡邊坡雜草狂燒濃煙竄天！環保局急發空污警訊",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260111/3099290.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20251124a",
+   "title": "台中火車站前商圈某飯店墜樓　女子12F墜下卡3樓欄杆",
+   "date": "2025-11-24",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "快訊／台中火車站前商圈某飯店墜樓　女子12F墜下卡3樓欄杆",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20251124/3072859.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20251115a",
+   "title": "台中火車站婦落軌遭輾！受困車底空隙　頭部受傷意識模糊",
+   "date": "2025-11-15",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "快訊／台中火車站婦落軌遭輾！受困車底空隙　頭部受傷意識模糊",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20251115/3067879.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20251105a",
+   "title": "台中火燒車！行駛中突冒煙「駕駛乘客急逃」　全毀慘成廢鐵畫面曝",
+   "date": "2025-11-05",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "台中火燒車！行駛中突冒煙「駕駛乘客急逃」　全毀慘成廢鐵畫面曝",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20251105/3062434.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20251104a",
+   "title": "台中火車站2號月台「1男突倒下」！　無呼吸心跳送醫不治",
+   "date": "2025-11-04",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "快訊／台中火車站2號月台「1男突倒下」！　無呼吸心跳送醫不治",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20251104/3061424.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20251021a",
+   "title": "漢杞工業廢棄物屢處理屢造成空汙 台中環局：全力監督並令其遷廠",
+   "date": "2025-10-21",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "影／漢杞工業廢棄物屢處理屢造成空汙 台中環局：全力監督並令其遷廠",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7325/9084339"
+    }
+   ]
+  },
+  {
+   "id": "e-i20251012a",
+   "title": "台中生鱻市集連假冷清！遊客撲空、民代籲防蚊子館- 生活",
+   "date": "2025-10-12",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "台中生鱻市集連假冷清！遊客撲空、民代籲防蚊子館- 生活",
+     "outlet": "ctee.com.tw",
+     "url": "https://www.ctee.com.tw/news/20251012700488-431401"
+    }
+   ]
+  },
+  {
+   "id": "e-i20251008a",
+   "title": "國道客運慘淡！台中規劃四大轉運中心....議員憂成蚊子館",
+   "date": "2025-10-08",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "國道客運慘淡！台中規劃四大轉運中心....議員憂成蚊子館",
+     "outlet": "news.housefun.com.tw",
+     "url": "https://news.housefun.com.tw/news/article/210998474775.html"
+    }
+   ]
+  },
+  {
+   "id": "e-i20251007a",
+   "title": "台電槓中市府！中火數值超標「稽查員手亂摸」害的　結局逆轉",
+   "date": "2025-10-07",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "台電槓中市府！中火數值超標「稽查員手亂摸」害的　結局逆轉",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20251007/3046309.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20250919a",
+   "title": "供電告急中火全開　台中空污升級多站亮橘燈",
+   "date": "2025-09-19",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "供電告急中火全開　台中空污升級多站亮橘燈",
+     "outlet": "CTWANT",
+     "url": "https://www.ctwant.com/article/446508/"
+    }
+   ]
+  },
+  {
    "id": "e-trees-civic",
    "title": "市民廣場路樹整排移除 事後說明會遭批黑箱",
    "date": "2025-09-01",
@@ -178,6 +909,601 @@
    ]
   },
   {
+   "id": "e-i20250828a",
+   "title": "幕後／砸2000萬翻轉蚊子館卻遭中市府收回 廠商泣「金雞母剛要下蛋卻飛走」",
+   "date": "2025-08-28",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "幕後／砸2000萬翻轉蚊子館卻遭中市府收回 廠商泣「金雞母剛要下蛋卻飛走」",
+     "outlet": "鏡報",
+     "url": "https://www.mirrordaily.news/story/17390"
+    }
+   ]
+  },
+  {
+   "id": "e-i20250813a",
+   "title": "台中清晨霧濛濛！火力發電廠超燒107%惹空污",
+   "date": "2025-08-13",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "台中清晨霧濛濛！火力發電廠超燒107%惹空污",
+     "outlet": "i-meihua.com",
+     "url": "https://www.i-meihua.com/Article/Detail/32221"
+    }
+   ]
+  },
+  {
+   "id": "e-i20250810a",
+   "title": "買酒不滿沒裝袋服務　台中火爆女砸碎紅酒瓶！超商店員遭割傷",
+   "date": "2025-08-10",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "買酒不滿沒裝袋服務　台中火爆女砸碎紅酒瓶！超商店員遭割傷",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250810/3012416.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20250805a",
+   "title": "台中海洋館經3任市長、斥資8.2億 兒童票太貴挨酸︰離蚊子館不遠了",
+   "date": "2025-08-05",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "台中海洋館經3任市長、斥資8.2億 兒童票太貴挨酸︰離蚊子館不遠了",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/breakingnews/5132852"
+    }
+   ]
+  },
+  {
+   "id": "e-i20250729a",
+   "title": "專題系列4-2》環團、學者批：台中市焚化爐空污改善速度遠弱後於中火",
+   "date": "2025-07-29",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "專題系列4-2》環團、學者批：台中市焚化爐空污改善速度遠弱後於中火",
+     "outlet": "Newtalk 新聞",
+     "url": "https://newtalk.tw/news/view/2025-07-29/984571"
+    }
+   ]
+  },
+  {
+   "id": "e-i20250711a",
+   "title": "【新聞稿】又一氣候訴訟！中彰投10居民告環境部不滿台中電廠大增燃氣請北高行撤銷中火環評結論處分",
+   "date": "2025-07-11",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "【新聞稿】又一氣候訴訟！中彰投10居民告環境部不滿台中電廠大增燃氣請北高行撤銷中火環評結論處分",
+     "outlet": "civilmedia.tw",
+     "url": "https://www.civilmedia.tw/archives/133950"
+    }
+   ]
+  },
+  {
+   "id": "e-i20250624a",
+   "title": "藍營台中6立委怒批空污政策 籲落實2028無煤中火還中部清淨空氣",
+   "date": "2025-06-24",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "藍營台中6立委怒批空污政策 籲落實2028無煤中火還中部清淨空氣",
+     "outlet": "cmmedia.com.tw",
+     "url": "https://www.cmmedia.com.tw/home/articles/55120"
+    },
+    {
+     "title": "台中6藍委敦促「2028無煤中火」 江啟臣：分散發電可提升國安",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/politics/breakingnews/5084733"
+    }
+   ]
+  },
+  {
+   "id": "e-i20250620a",
+   "title": "不服環境部撤銷罰中火1800萬 台中市府提行政訴訟獲判勝訴",
+   "date": "2025-06-20",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "不服環境部撤銷罰中火1800萬 台中市府提行政訴訟獲判勝訴",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/757030"
+    }
+   ]
+  },
+  {
+   "id": "e-i20250610a",
+   "title": "中火首部燃氣機組再被卡 中市府：本週發許可",
+   "date": "2025-06-10",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "中火首部燃氣機組再被卡 中市府：本週發許可",
+     "outlet": "epochtimes.com",
+     "url": "https://www.epochtimes.com/b5/25/6/10/n14528165.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20250610b",
+   "title": "藍白要求2028中火無煤，台中連6年用電成長居冠…台電：沒配套將生200億度缺口：要用電卻不發電",
+   "date": "2025-06-10",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "2028中火無煤決議議題 台電：屆時台中用電估破400億度，需靠外縣市發電",
+     "outlet": "台灣好新聞",
+     "url": "https://taiwanhot.net/news/1104981/2028%E4%B8%AD%E7%81%AB%E7%84%A1%E7%85%A4%E6%B1%BA%E8%AD%B0%E8%AD%B0%E9%A1%8C+%E5%8F%B0%E9%9B%BB%EF%BC%9A%E5%B1%86%E6%99%82%E5%8F%B0%E4%B8%AD%E7%94%A8%E9%9B%BB%E4%BC%B0%E7%A0%B4400%E5%84%84%E5%BA%A6%EF%BC%8C%E9%9C%80%E9%9D%A0%E5%A4%96%E7%B8%A3%E5%B8%82%E7%99%BC%E9%9B%BB"
+    },
+    {
+     "title": "藍白要求2028中火無煤，台中連6年用電成長居冠…台電：沒配套將生200億度缺口：要用電卻不發電",
+     "outlet": "businesstoday.com.tw",
+     "url": "https://www.businesstoday.com.tw/article/category/183029/post/202506100032/"
+    }
+   ]
+  },
+  {
+   "id": "e-i20250607a",
+   "title": "台中文山焚化爐更新停擺 市府改善空污受質疑",
+   "date": "2025-06-07",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "台中文山焚化爐更新停擺 市府改善空污受質疑",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/paper/1710410"
+    }
+   ]
+  },
+  {
+   "id": "e-i20250605a",
+   "title": "談中火議題 彭啓明︰中火煙囪空污被嚴格監督、台中空品越來越好",
+   "date": "2025-06-05",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "談中火議題 彭啓明︰中火煙囪空污被嚴格監督、台中空品越來越好",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/breakingnews/5065490"
+    }
+   ]
+  },
+  {
+   "id": "e-i20250605b",
+   "title": "立院通過2028中火無煤決議 經濟部：影響高科技產業進駐台中的投資意願",
+   "date": "2025-06-05",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "立院通過2028中火無煤決議 經濟部：影響高科技產業進駐台中的投資意願",
+     "outlet": "台灣好新聞",
+     "url": "https://taiwanhot.net/news/1104571/%E7%AB%8B%E9%99%A2%E9%80%9A%E9%81%8E2028%E4%B8%AD%E7%81%AB%E7%84%A1%E7%85%A4%E6%B1%BA%E8%AD%B0+%E7%B6%93%E6%BF%9F%E9%83%A8%EF%BC%9A%E5%BD%B1%E9%9F%BF%E9%AB%98%E7%A7%91%E6%8A%80%E7%94%A2%E6%A5%AD%E9%80%B2%E9%A7%90%E5%8F%B0%E4%B8%AD%E7%9A%84%E6%8A%95%E8%B3%87%E6%84%8F%E9%A1%98"
+    }
+   ]
+  },
+  {
+   "id": "e-i20250604a",
+   "title": "台中火力發電廠機組許可爭議：台中市政府審查中火許可為何拖五年？台電依法運轉卻被指無照發電！",
+   "date": "2025-06-04",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "台中火力發電廠機組許可爭議：台中市政府審查中火許可為何拖五年？台電依法運轉卻被指無照發電！",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E7%81%AB%E5%8A%9B%E7%99%BC%E9%9B%BB%E5%BB%A0%E6%A9%9F%E7%B5%84%E8%A8%B1%E5%8F%AF%E7%88%AD%E8%AD%B0%EF%BC%9A%E5%8F%B0%E4%B8%AD%E5%B8%82%E6%94%BF%E5%BA%9C%E5%AF%A9%E6%9F%A5%E4%B8%AD%E7%81%AB%E8%A8%B1%E5%8F%AF%E7%82%BA%E4%BD%95%E6%8B%96%E4%BA%94%E5%B9%B4%EF%BC%9F%E5%8F%B0%E9%9B%BB%E4%BE%9D%E6%B3%95%E9%81%8B%E8%BD%89%E5%8D%BB%E8%A2%AB%E6%8C%87%E7%84%A1%E7%85%A7%E7%99%BC%E9%9B%BB%EF%BC%81-100301064.html"
+    }
+   ]
+  },
+  {
+   "id": "e-i20250603a",
+   "title": "點名台中藍委「霸凌台電」吳思瑤說重話：為救大罷免把中火當政治提款機",
+   "date": "2025-06-03",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "點名台中藍委「霸凌台電」吳思瑤說重話：為救大罷免把中火當政治提款機",
+     "outlet": "三立新聞網",
+     "url": "https://inews.setn.com/news/1666147"
+    }
+   ]
+  },
+  {
+   "id": "e-i20250602a",
+   "title": "不是小動物！台中神岡363戶無預警停電　台電：竹子惹的禍",
+   "date": "2025-06-02",
+   "place": "神岡",
+   "summary": "神岡公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "不是小動物！台中神岡363戶無預警停電　台電：竹子惹的禍",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250602/2971118.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20250530a",
+   "title": "端午連假首日遇停電！台中大雨電桿倒塌　上百戶摸黑待復電",
+   "date": "2025-05-30",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "快訊／端午連假首日遇停電！台中大雨電桿倒塌　上百戶摸黑待復電",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250530/2969608.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20250523a",
+   "title": "台中樹木銀行6年無移樹 挨批淪蚊子館",
+   "date": "2025-05-23",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "台中樹木銀行6年無移樹 挨批淪蚊子館",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/paper/1708134"
+    }
+   ]
+  },
+  {
+   "id": "e-i20250520a",
+   "title": "中市府質疑中火夜間火力全開 台電：台中電廠已超過6年未10部全開",
+   "date": "2025-05-20",
+   "place": "龍井",
+   "summary": "龍井公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "中市府質疑中火夜間火力全開 台電：台中電廠已超過6年未10部全開",
+     "outlet": "台灣好新聞",
+     "url": "https://taiwanhot.net/news/1103101/%E4%B8%AD%E5%B8%82%E5%BA%9C%E8%B3%AA%E7%96%91%E4%B8%AD%E7%81%AB%E5%A4%9C%E9%96%93%E7%81%AB%E5%8A%9B%E5%85%A8%E9%96%8B+%E5%8F%B0%E9%9B%BB%EF%BC%9A%E5%8F%B0%E4%B8%AD%E9%9B%BB%E5%BB%A0%E5%B7%B2%E8%B6%85%E9%81%8E6%E5%B9%B4%E6%9C%AA10%E9%83%A8%E5%85%A8%E9%96%8B"
+    },
+    {
+     "title": "中火「火力全開」說引關切龍井區里長要求燃煤比下降- 生活",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/breakingnews/5051155"
+    }
+   ]
+  },
+  {
+   "id": "e-i20250501a",
+   "title": "台中流行影音中心閒置 換算水湳租金虧10億",
+   "date": "2025-05-01",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "「台中流行影音中心」閒置4年 遭質疑淪蚊子館",
+     "outlet": "epochtimes.com",
+     "url": "https://www.epochtimes.com/b5/25/5/1/n14496194.htm"
+    },
+    {
+     "title": "台中流行影音中心閒置 換算水湳租金虧10億",
+     "outlet": "news.st-media.com.tw",
+     "url": "https://news.st-media.com.tw/news/48608"
+    }
+   ]
+  },
+  {
+   "id": "e-i20250424a",
+   "title": "台中大肚山坡2千戶缺水有解 將籌建配水池改善",
+   "date": "2025-04-24",
+   "place": "大肚",
+   "summary": "大肚公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "台中大肚山坡2千戶缺水有解 將籌建配水池改善",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/breakingnews/5021972"
+    }
+   ]
+  },
+  {
+   "id": "e-i20250414a",
+   "title": "台中火力發電廠「工人墜涵洞」頭、鼻出血！　搶救無效亡",
+   "date": "2025-04-14",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "台中火力發電廠工安意外！工人遭電擊緊急送醫",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250414/2942624.htm"
+    },
+    {
+     "title": "快訊／台中火力發電廠「工人墜涵洞」頭、鼻出血！　搶救無效亡",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250415/2943745.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20250317a",
+   "title": "台中流行影音中心遭質疑蚊子館 市府：最快2026年底營運",
+   "date": "2025-03-17",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "台中流行影音中心遭質疑蚊子館 市府：最快2026年底營運",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/742458"
+    }
+   ]
+  },
+  {
+   "id": "e-i20250307a",
+   "title": "中火切割鋼筋引燃大火「大量濃煙漫天」　中市府：最高可罰500萬",
+   "date": "2025-03-07",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "中火切割鋼筋引燃大火「大量濃煙漫天」　中市府：最高可罰500萬",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250307/2921355.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20250224a",
+   "title": "台中文心秀泰全館大停電！民眾摸黑15分鐘嚇壞　台電回應了",
+   "date": "2025-02-24",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "台中文心秀泰全館大停電！民眾摸黑15分鐘嚇壞　台電回應了",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250224/2914428.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20250124a",
+   "title": "中火減煤量全國第一 中市府多管齊下力拼「無煤中台灣」",
+   "date": "2025-01-24",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "中火減煤量全國第一 中市府多管齊下力拼「無煤中台灣」",
+     "outlet": "cnews.com.tw",
+     "url": "https://cnews.com.tw/%E4%B8%AD%E7%81%AB%E6%B8%9B%E7%85%A4%E9%87%8F%E5%85%A8%E5%9C%8B%E7%AC%AC%E4%B8%80%E3%80%80%E4%B8%AD%E5%B8%82%E5%BA%9C%E5%A4%9A%E7%AE%A1%E9%BD%8A%E4%B8%8B%E5%8A%9B%E6%8B%BC%E3%80%8C%E7%84%A1%E7%85%A4/"
+    }
+   ]
+  },
+  {
+   "id": "e-i20250107a",
+   "title": "台中全聯倉儲大火違空污法 粒狀污染物嚴重超標重罰5百萬",
+   "date": "2025-01-07",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "台中全聯倉儲大火違空污法 粒狀污染物嚴重超標重罰5百萬",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/732612"
+    }
+   ]
+  },
+  {
+   "id": "e-i20241230a",
+   "title": "從蚊子館起死回生的北屯眷村",
+   "date": "2024-12-30",
+   "place": "北屯",
+   "summary": "北屯公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "從蚊子館起死回生的北屯眷村",
+     "outlet": "peopo.org",
+     "url": "https://www.peopo.org/news/795935"
+    }
+   ]
+  },
+  {
+   "id": "e-i20241218a",
+   "title": "全球碳排挑戰，台中如何逆轉？中火減煤、科技嗅覺、法規加嚴三箭齊發",
+   "date": "2024-12-18",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "全球碳排挑戰，台中如何逆轉？中火減煤、科技嗅覺、法規加嚴三箭齊發",
+     "outlet": "gvm.com.tw",
+     "url": "https://www.gvm.com.tw/article/117882"
+    }
+   ]
+  },
+  {
+   "id": "e-i20241116a",
+   "title": "搶厚紙板！台中火車站3街友揮酒瓶、亮刀威脅　兇狠畫面曝",
+   "date": "2024-11-16",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "搶厚紙板！台中火車站3街友揮酒瓶、亮刀威脅　兇狠畫面曝",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20241116/2856304.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20241116b",
+   "title": "盧秀燕批中火喊對台中不公平 周軒打臉揭：煤改氣被卡快5年",
+   "date": "2024-11-16",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "盧秀燕批中火喊對台中不公平 周軒打臉揭：煤改氣被卡快5年",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/politics/breakingnews/4864698"
+    }
+   ]
+  },
+  {
+   "id": "e-i20241115a",
+   "title": "【謠言澄清】網傳「三座焚化爐是台中空污主力」圖卡 中市府闢謠不實訊息",
+   "date": "2024-11-15",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "盧秀燕指中火惡化台中空污問題　彭啟明反批最大污染源在交通",
+     "outlet": "CTWANT",
+     "url": "https://www.ctwant.com/article/376501/"
+    },
+    {
+     "title": "【謠言澄清】網傳「三座焚化爐是台中空污主力」圖卡 中市府闢謠不實訊息",
+     "outlet": "taichung.gov.tw",
+     "url": "https://www.taichung.gov.tw/8868/8872/1269419/2820127"
+    }
+   ]
+  },
+  {
+   "id": "e-i20241115b",
+   "title": "台中空汙嚴重一片霧濛濛 盧秀燕臉書被灌爆",
+   "date": "2024-11-15",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "台中空汙嚴重一片霧濛濛 盧秀燕臉書被灌爆",
+     "outlet": "台視新聞",
+     "url": "https://news.ttv.com.tw/news/11311150021500N"
+    }
+   ]
+  },
+  {
+   "id": "e-i20241115c",
+   "title": "台中空品亮橘燈灰濛濛遭譏「沉默之丘」 中火：減發6600萬度",
+   "date": "2024-11-15",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "台中空品亮橘燈灰濛濛遭譏「沉默之丘」 中火：減發6600萬度",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/breakingnews/4864327"
+    }
+   ]
+  },
+  {
+   "id": "e-i20241104a",
+   "title": "中火吵什麼》燃煤舊機組不拆 中央不允諾「無煤台中」惹惱地方",
+   "date": "2024-11-04",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "中火吵什麼》燃煤舊機組不拆 中央不允諾「無煤台中」惹惱地方",
+     "outlet": "風傳媒",
+     "url": "https://new7.storm.mg/article/5267341"
+    }
+   ]
+  },
+  {
+   "id": "e-i20241101a",
+   "title": "台中砍樹頭驅鳥鬧笑話...鳥換地方繼續叫 最後改用雷射",
+   "date": "2024-11-01",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "台中砍樹頭驅鳥鬧笑話...鳥換地方繼續叫 最後改用雷射",
+     "outlet": "聯合新聞網",
+     "url": "https://ubrand.udn.com/ubrand/story/123659/8330468"
+    }
+   ]
+  },
+  {
+   "id": "e-i20241031a",
+   "title": "台電：台中燃氣二期計畫可減空污、減碳排 增氣為了減煤",
+   "date": "2024-10-31",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "台電：台中燃氣二期計畫可減空污、減碳排 增氣為了減煤",
+     "outlet": "moea.gov.tw",
+     "url": "https://www.moea.gov.tw/mns/Populace/news/News.aspx"
+    }
+   ]
+  },
+  {
+   "id": "e-i20241028a",
+   "title": "砍樹驅鳥卻飛他處擾人「以鄰為壑」？ 中市農業局長否認",
+   "date": "2024-10-28",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "砍樹驅鳥卻飛他處擾人「以鄰為壑」？ 中市農業局長否認",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/Taichung/breakingnews/4844396"
+    }
+   ]
+  },
+  {
+   "id": "e-i20241017a",
+   "title": "漢翔沙鹿廠+永豐餘驚傳跳電　台電揪出元凶：怪手整地釀禍！",
+   "date": "2024-10-17",
+   "place": "沙鹿",
+   "summary": "沙鹿公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "漢翔沙鹿廠+永豐餘驚傳跳電　台電揪出元凶：怪手整地釀禍！",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20241017/2837034.htm"
+    },
+    {
+     "title": "漢翔沙鹿廠無預警跳電！影響飛機零件生產　總公司回應了",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20241017/2836871.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20241015a",
+   "title": "台中泡棉工廠大火　環保局示警3路段居民「關窗防空污」",
+   "date": "2024-10-15",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "台中泡棉工廠大火　環保局示警3路段居民「關窗防空污」",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20241015/2835151.htm"
+    }
+   ]
+  },
+  {
    "id": "e-trees-fuhou",
    "title": "府後街老榕砍除 護樹團體為樹木辦告別式",
    "date": "2024-10-12",
@@ -188,6 +1514,417 @@
      "title": "護樹團體為樹木辦告別式 中市府：因公安疑慮移除",
      "outlet": "中央社",
      "url": "https://www.cna.com.tw/news/aloc/202410120127.aspx"
+    }
+   ]
+  },
+  {
+   "id": "e-i20241001a",
+   "title": "蚊子館變身！台中流行影音中心重啟打造影視音娛樂新地標- 生活",
+   "date": "2024-10-01",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "蚊子館變身！台中流行影音中心重啟打造影視音娛樂新地標- 生活",
+     "outlet": "ctee.com.tw",
+     "url": "https://www.ctee.com.tw/news/20241001701658-431401"
+    }
+   ]
+  },
+  {
+   "id": "e-i20240813a",
+   "title": "紅色粉塵驚爆！霧峰餐廳「彩煙性別趴」挨轟　環保局認定空汙",
+   "date": "2024-08-13",
+   "place": "霧峰",
+   "summary": "霧峰公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "紅色粉塵驚爆！霧峰餐廳「彩煙性別趴」挨轟　環保局認定空汙",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240813/2796549.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20240729a",
+   "title": "守護永續好空氣！臺中市環保局以AI智慧科技多元創新 有效管控空污 邁向淨零",
+   "date": "2024-07-29",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "守護永續好空氣！臺中市環保局以AI智慧科技多元創新 有效管控空污 邁向淨零",
+     "outlet": "futurecity.cw.com.tw",
+     "url": "https://futurecity.cw.com.tw/article/3450"
+    }
+   ]
+  },
+  {
+   "id": "e-i20240724a",
+   "title": "台中梨山停電「3條聯外道路全斷」　中橫明天取消放行",
+   "date": "2024-07-24",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "快訊／台中梨山停電「3條聯外道路全斷」　中橫明天取消放行",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240724/2783923.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20240724b",
+   "title": "凱米襲台！狂風豪雨水淹半個輪胎高　台中3700戶半夜停電",
+   "date": "2024-07-24",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "凱米襲台！狂風豪雨水淹半個輪胎高　台中3700戶半夜停電",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240724/2783503.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20240702a",
+   "title": "台中北區也停電40分鐘！404戶受影響　台電：小環路故障",
+   "date": "2024-07-02",
+   "place": "北區",
+   "summary": "北區公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "快訊／台中北區也停電40分鐘！404戶受影響　台電：小環路故障",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240702/2769374.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20240617a",
+   "title": "台中台電員工搶修停電　遭高溫絕緣油燙傷送醫",
+   "date": "2024-06-17",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "快訊／台中台電員工搶修停電　遭高溫絕緣油燙傷送醫",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240617/2759945.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20240528a",
+   "title": "台中大雷雨轟整晚！2棵10米路樹「扛不住」連根倒塌　公車繞道行駛",
+   "date": "2024-05-28",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "台中大雷雨轟整晚！2棵10米路樹「扛不住」連根倒塌　公車繞道行駛",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240528/2747303.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20240408a",
+   "title": "台中蚊子館活化拚觀光！花舞館.媽祖園區將變身",
+   "date": "2024-04-08",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "台中蚊子館活化拚觀光！花舞館.媽祖園區將變身",
+     "outlet": "民視新聞",
+     "url": "https://www.ftvnews.com.tw/news/detail/2024408C12M1"
+    }
+   ]
+  },
+  {
+   "id": "e-i20240401a",
+   "title": "台中火力發電廠驚傳3、4號機氨氣外洩　緊急疏散人員",
+   "date": "2024-04-01",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "獨／台中火力發電廠驚傳3、4號機氨氣外洩　緊急疏散人員",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240401/2711078.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20240324a",
+   "title": "攔腰砍斷、剃光頭 中市路樹移除量增三成惹議",
+   "date": "2024-03-24",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "攔腰砍斷、剃光頭 中市路樹移除量增三成惹議",
+     "outlet": "epochtimes.com",
+     "url": "https://www.epochtimes.com/b5/24/3/24/n14209595.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20240318a",
+   "title": "台電中火煤倉延宕多年！中市府：全力輔導復工 降低露天煤場空污",
+   "date": "2024-03-18",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "中火一、二期煤倉延宕8年 台中市府：已全力輔導協助",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/685875"
+    },
+    {
+     "title": "台電中火煤倉延宕多年！中市府：全力輔導復工 降低露天煤場空污",
+     "outlet": "cnews.com.tw",
+     "url": "https://cnews.com.tw/174240318a01/"
+    }
+   ]
+  },
+  {
+   "id": "e-i20240318b",
+   "title": "中火媒倉蓋8年未完工 環團問責台電、中市府",
+   "date": "2024-03-18",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "中火媒倉蓋8年未完工 環團問責台電、中市府",
+     "outlet": "epochtimes.com",
+     "url": "https://www.epochtimes.com/b5/24/3/18/n14205160.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20240306a",
+   "title": "石岡壩蓄水率常敬陪末座 「缺水疑慮」原來是誤會一場",
+   "date": "2024-03-06",
+   "place": "石岡",
+   "summary": "石岡公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "石岡壩蓄水率常敬陪末座 「缺水疑慮」原來是誤會一場",
+     "outlet": "民視新聞",
+     "url": "https://www.ftvnews.com.tw/news/detail/2024306C12M1"
+    }
+   ]
+  },
+  {
+   "id": "e-i20231218a",
+   "title": "蔡其昌爭取外埔區開鑿兩口抗旱水井 為農民解決枯水季缺水問題",
+   "date": "2023-12-18",
+   "place": "外埔",
+   "summary": "外埔公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "蔡其昌爭取外埔區開鑿兩口抗旱水井 為農民解決枯水季缺水問題",
+     "outlet": "台灣好新聞",
+     "url": "https://www.taiwanhot.net/news/1054044/%E8%94%A1%E5%85%B6%E6%98%8C%E7%88%AD%E5%8F%96%E5%A4%96%E5%9F%94%E5%8D%80%E9%96%8B%E9%91%BF%E5%85%A9%E5%8F%A3%E6%8A%97%E6%97%B1%E6%B0%B4%E4%BA%95+%E7%82%BA%E8%BE%B2%E6%B0%91%E8%A7%A3%E6%B1%BA%E6%9E%AF%E6%B0%B4%E5%AD%A3%E7%BC%BA%E6%B0%B4%E5%95%8F%E9%A1%8C"
+    }
+   ]
+  },
+  {
+   "id": "e-i20231005a",
+   "title": "小犬狂掃大台中！北屯9米高電桿也倒了　一度1.9萬戶停電",
+   "date": "2023-10-05",
+   "place": "北屯",
+   "summary": "北屯公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "小犬狂掃大台中！北屯9米高電桿也倒了　一度1.9萬戶停電",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20231005/2596584.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20231004a",
+   "title": "台中東區停電！招牌扛不住小犬扯斷高壓電　整條街黑掉",
+   "date": "2023-10-04",
+   "place": "東區",
+   "summary": "東區公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "快訊／台中東區停電！招牌扛不住小犬扯斷高壓電　整條街黑掉",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20231004/2596347.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20230912a",
+   "title": "台中崇德殯儀館突停電　告別式音響+燈光全停擺喪家傻眼",
+   "date": "2023-09-12",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "快訊／台中崇德殯儀館突停電　告別式音響+燈光全停擺喪家傻眼",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230912/2580651.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20230817a",
+   "title": "台中火車站廣場移工衝突疑亮刀　一票人來回追打...旅客嚇壞快閃",
+   "date": "2023-08-17",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "台中火車站廣場移工衝突疑亮刀　一票人來回追打...旅客嚇壞快閃",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230817/2562849.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20230816a",
+   "title": "地下電纜故障！台中豐原1509戶停電近1hr　台電急修復電",
+   "date": "2023-08-16",
+   "place": "豐原",
+   "summary": "豐原公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "快訊／地下電纜故障！台中豐原1509戶停電近1hr　台電急修復電",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230816/2562259.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20230626a",
+   "title": "台電中火有意請民間代卸煤？將尋求台中市府解套",
+   "date": "2023-06-26",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "台電中火有意請民間代卸煤？將尋求台中市府解套",
+     "outlet": "自由時報",
+     "url": "https://ec.ltn.com.tw/article/breakingnews/4343973"
+    }
+   ]
+  },
+  {
+   "id": "e-i20230529a",
+   "title": "台中火力發電廠前「聯結車載怪手」扯斷紅綠燈　癱瘓交通1hr",
+   "date": "2023-05-29",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "台中火力發電廠前「聯結車載怪手」扯斷紅綠燈　癱瘓交通1hr",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230529/2508805.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20230419a",
+   "title": "雷擊高壓線路！台中大雅2000戶停電　台電搶修中",
+   "date": "2023-04-19",
+   "place": "大雅",
+   "summary": "大雅公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "快訊／雷擊高壓線路！台中大雅2000戶停電　台電搶修中",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230419/2482437.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20230410a",
+   "title": "8.1億打造台中「花舞館」 4年後荒煙漫草遭批淪蚊子館",
+   "date": "2023-04-10",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "8.1億打造台中「花舞館」 4年後荒煙漫草遭批淪蚊子館",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/8-1%E5%84%84%E6%89%93%E9%80%A0%E5%8F%B0%E4%B8%AD-%E8%8A%B1%E8%88%9E%E9%A4%A8-4%E5%B9%B4%E5%BE%8C%E8%8D%92%E7%85%99%E6%BC%AB%E8%8D%89%E9%81%AD%E6%89%B9%E6%B7%AA%E8%9A%8A%E5%AD%90%E9%A4%A8-140524276.html"
+    }
+   ]
+  },
+  {
+   "id": "e-i20230301a",
+   "title": "一片焦黑！台中火燒山變死亡谷　梅花鹿「剩骨架」...恐怖畫面曝",
+   "date": "2023-03-01",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "一片焦黑！台中火燒山變死亡谷 梅花鹿「剩骨架」...恐怖畫面曝",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230301/2449885.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20230226a",
+   "title": "台中火車站前機車行暗夜大火！延燒7戶搶救中",
+   "date": "2023-02-26",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "快訊／台中火車站前機車行暗夜大火！延燒7戶搶救中",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230226/2448536.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20221125a",
+   "title": "減煤管制空污 中市PM2.5創歷年同期新低",
+   "date": "2022-11-25",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "減煤管制空污 中市PM2.5創歷年同期新低",
+     "outlet": "台灣好新聞",
+     "url": "https://www.taiwanhot.net/news/1013963/%E6%B8%9B%E7%85%A4%E7%AE%A1%E5%88%B6%E7%A9%BA%E6%B1%A1+%E4%B8%AD%E5%B8%82PM2.5%E5%89%B5%E6%AD%B7%E5%B9%B4%E5%90%8C%E6%9C%9F%E6%96%B0%E4%BD%8E"
+    }
+   ]
+  },
+  {
+   "id": "e-i20221111a",
+   "title": "下半年最嚴重空污！ 台中天空灰濛濛 學者痛斥藉口一堆",
+   "date": "2022-11-11",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "下半年最嚴重空污！ 台中天空灰濛濛 學者痛斥藉口一堆",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/breakingnews/4120608"
+    }
+   ]
+  },
+  {
+   "id": "e-i20221111b",
+   "title": "中市空污再現 蔡其昌批「市長換人空氣換新」是政治話術",
+   "date": "2022-11-11",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "中市空污再現 蔡其昌批「市長換人空氣換新」是政治話術",
+     "outlet": "台灣好新聞",
+     "url": "https://www.taiwanhot.net/news/1012505/%E4%B8%AD%E5%B8%82%E7%A9%BA%E6%B1%A1%E5%86%8D%E7%8F%BE+%E8%94%A1%E5%85%B6%E6%98%8C%E6%89%B9%E3%80%8C%E5%B8%82%E9%95%B7%E6%8F%9B%E4%BA%BA%E7%A9%BA%E6%B0%A3%E6%8F%9B%E6%96%B0%E3%80%8D%E6%98%AF%E6%94%BF%E6%B2%BB%E8%A9%B1%E8%A1%93"
     }
    ]
   },
@@ -231,6 +1968,484 @@
    ]
   },
   {
+   "id": "e-i20220825a",
+   "title": "中火排放廢水「硼」超標 高等行政法院判決支持中市府",
+   "date": "2022-08-25",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "中火排放廢水「硼」超標 高等行政法院判決支持中市府",
+     "outlet": "taichung.gov.tw",
+     "url": "https://www.taichung.gov.tw/8868/8872/9962/2144090"
+    }
+   ]
+  },
+  {
+   "id": "e-i20220824a",
+   "title": "后里花舞館造價逾8億 花博落幕後遭批淪蚊子館",
+   "date": "2022-08-24",
+   "place": "后里",
+   "summary": "后里公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "后里花舞館閒置4年雜草叢生 挨批淪黃金蚊子館",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/breakingnews/4035659"
+    },
+    {
+     "title": "后里花舞館造價逾8億 花博落幕後遭批淪蚊子館",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/596734"
+    },
+    {
+     "title": "8.1億打造台中「花舞館」　4年後荒煙漫草遭批淪蚊子館",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1167618"
+    }
+   ]
+  },
+  {
+   "id": "e-i20220823a",
+   "title": "8千萬修校舍後閒置挨批 潭子國小：不排除委外經營",
+   "date": "2022-08-23",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "8千萬修校舍後閒置挨批 潭子國小：不排除委外經營",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/596345"
+    }
+   ]
+  },
+  {
+   "id": "e-i20220710a",
+   "title": "后里火車站東站淪為蚊子館？ 市府：已轉型多功能使用",
+   "date": "2022-07-10",
+   "place": "后里",
+   "summary": "后里公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "后里火車站東站淪蚊子館？ 交通局：轉型多功能使用",
+     "outlet": "turnnewsapp.com",
+     "url": "https://turnnewsapp.com/livenews/life/20220710002867-260405"
+    },
+    {
+     "title": "后里火車站東站淪為蚊子館？ 市府：已轉型多功能使用",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/breakingnews/3987513"
+    }
+   ]
+  },
+  {
+   "id": "e-i20220614a",
+   "title": "台中屯區自來水汰管工程5處延宕 何欣純：拋棄本位主義早日施工",
+   "date": "2022-06-14",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "台中屯區自來水汰管工程5處延宕 何欣純：拋棄本位主義早日施工",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/Taichung/breakingnews/3960249"
+    }
+   ]
+  },
+  {
+   "id": "e-i20220525a",
+   "title": "為了改善台中空污 台電新建燃氣機組",
+   "date": "2022-05-25",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "為了改善台中空污 台電新建燃氣機組",
+     "outlet": "peopo.org",
+     "url": "https://www.peopo.org/news/586724"
+    }
+   ]
+  },
+  {
+   "id": "e-i20220324a",
+   "title": "中火煤倉錐體墜落 時力台中黨部質疑風險管控不當",
+   "date": "2022-03-24",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "中火煤倉錐體墜落 時力台中黨部質疑風險管控不當",
+     "outlet": "自由時報",
+     "url": "https://ec.ltn.com.tw/article/breakingnews/3870055"
+    }
+   ]
+  },
+  {
+   "id": "e-i20220321a",
+   "title": "台中空汙連日紅害 醫界要求兌現空氣換新",
+   "date": "2022-03-21",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "台中空汙連日紅害 醫界要求兌現空氣換新",
+     "outlet": "epochtimes.com",
+     "url": "https://www.epochtimes.com/b5/22/3/21/n13662044.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20220318a",
+   "title": "台中火力發電廠是否全開？盧秀燕指對中部民眾不公平，王美花回覆有遵守環保承諾、應盡快以氣換煤",
+   "date": "2022-03-18",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "台中火力發電廠是否全開？盧秀燕指對中部民眾不公平，王美花回覆有遵守環保承諾、應盡快以氣換煤",
+     "outlet": "關鍵評論網",
+     "url": "https://www.thenewslens.com/article/164239"
+    }
+   ]
+  },
+  {
+   "id": "e-i20220304a",
+   "title": "台電中火7座機組發電量飆升至9成5以上 中市環保局：加重空污",
+   "date": "2022-03-04",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "台電中火7座機組發電量飆升至9成5以上 中市環保局：加重空污",
+     "outlet": "台灣好新聞",
+     "url": "https://www.taiwanhot.net/news/987440/%E5%8F%B0%E9%9B%BB%E4%B8%AD%E7%81%AB7%E5%BA%A7%E6%A9%9F%E7%B5%84%E7%99%BC%E9%9B%BB%E9%87%8F%E9%A3%86%E5%8D%87%E8%87%B39%E6%88%905%E4%BB%A5%E4%B8%8A+%E4%B8%AD%E5%B8%82%E7%92%B0%E4%BF%9D%E5%B1%80%EF%BC%9A%E5%8A%A0%E9%87%8D%E7%A9%BA%E6%B1%A1"
+    }
+   ]
+  },
+  {
+   "id": "e-i20220303a",
+   "title": "全台大停電號誌燈全滅　台中動員400警義交緊急疏導交通",
+   "date": "2022-03-03",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "全台大停電號誌燈全滅　台中動員400警義交緊急疏導交通",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20220303/2200216.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20211216a",
+   "title": "太平回收場大火塑膠惡臭彌漫8小時　違反空污法罰10萬",
+   "date": "2021-12-16",
+   "place": "太平",
+   "summary": "太平公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "太平回收場大火塑膠惡臭彌漫8小時　違反空污法罰10萬",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20211216/2147864.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20211213a",
+   "title": "拖車勾到電線電桿連根拔起！　害台中新社112戶停電到傍晚",
+   "date": "2021-12-13",
+   "place": "新社",
+   "summary": "新社公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "拖車勾到電線電桿連根拔起！　害台中新社112戶停電到傍晚",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20211213/2145119.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20211125a",
+   "title": "台中火車站遭竊小偷火速落網　因為口袋鼓鼓藏了旅客這樣東西",
+   "date": "2021-11-25",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "台中火車站遭竊小偷火速落網　因為口袋鼓鼓藏了旅客這樣東西",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20211125/2131915.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20211112a",
+   "title": "中市府推動藍天白雲行動 改善空污己有初步成效",
+   "date": "2021-11-12",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "中市府推動藍天白雲行動 改善空污己有初步成效",
+     "outlet": "風傳媒",
+     "url": "https://www.storm.mg/article/4044490"
+    }
+   ]
+  },
+  {
+   "id": "e-i20211017a",
+   "title": "台中三井Outlet正中午停電1小時　客傻眼：火鍋還沒滾...台電澄清",
+   "date": "2021-10-17",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "台中三井Outlet正中午停電1小時　客傻眼：火鍋還沒滾...台電澄清",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20211017/2103266.htm"
+    },
+    {
+     "title": "快訊／台中三井Outlet驚傳停電　遊客摸黑吃飯",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20211017/2103145.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20210809a",
+   "title": "盤點台中蚊子館！「媽祖園區」砸6億興建　7年過去仍未開",
+   "date": "2021-08-09",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "盤點台中蚊子館！「媽祖園區」砸6億興建　7年過去仍未開",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/979910"
+    }
+   ]
+  },
+  {
+   "id": "e-i20210723a",
+   "title": "台中火車站驚爆酒後打群架　2男1女受傷送醫嫌犯當場被逮",
+   "date": "2021-07-23",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "快訊／台中火車站驚爆酒後打群架　2男1女受傷送醫嫌犯當場被逮",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20210723/2038225.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20210716a",
+   "title": "【警察】台中青年PO文急問新任警局長　先解決6度流標的合作所遷建案",
+   "date": "2021-07-16",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "台中青年PO文急問新任警局長　先解決6度流標的合作所遷建案",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20210716/2032384.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20210703a",
+   "title": "台中火力發電廠工安意外　工人36米高跌落當場無生命跡象",
+   "date": "2021-07-03",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "快訊／台中火力發電廠工安意外 工人36米高跌落當場無生命跡象",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20210703/2021793.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20210626a",
+   "title": "中火違法擴建 中市府重申汰舊換新堅守立場",
+   "date": "2021-06-26",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "中火違法擴建 中市府重申汰舊換新堅守立場",
+     "outlet": "taichung.gov.tw",
+     "url": "https://www.taichung.gov.tw/8868/8872/9962/1813189"
+    }
+   ]
+  },
+  {
+   "id": "e-i20210622a",
+   "title": "政院繞過都審核發中火燃氣機特種建照 中市府：違法擴建攸關重大",
+   "date": "2021-06-22",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "政院繞過都審核發中火燃氣機特種建照 中市府：違法擴建攸關重大",
+     "outlet": "風傳媒",
+     "url": "https://www.storm.mg/article/3768787"
+    }
+   ]
+  },
+  {
+   "id": "e-i20210622b",
+   "title": "中火增建燃氣機組繞過市府 盧秀燕批中央耍特權 漠視台中民意",
+   "date": "2021-06-22",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "中火增建燃氣機組繞過市府 盧秀燕批中央耍特權 漠視台中民意",
+     "outlet": "e-info.org.tw",
+     "url": "https://www.e-info.org.tw/node/231495"
+    }
+   ]
+  },
+  {
+   "id": "e-i20210517a",
+   "title": "台中烏日「緊急停電」1103戶受影響　台電給復電時間了",
+   "date": "2021-05-17",
+   "place": "烏日",
+   "summary": "烏日公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "快訊／台中烏日「緊急停電」1103戶受影響　台電給復電時間了",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20210517/1984265.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20210513a",
+   "title": "全台大停電！台中「紅綠燈暗一片」交通打結　民眾受困電梯",
+   "date": "2021-05-13",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "快訊／全台大停電！台中「紅綠燈暗一片」交通打結　民眾受困電梯",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20210513/1980975.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20210511a",
+   "title": "中火擴建卡關後欲在台中港蓋新電廠？議員批中央黑箱作業- 政治",
+   "date": "2021-05-11",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "中火擴建卡關後欲在台中港蓋新電廠？議員批中央黑箱作業- 政治",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20210511003517-260407"
+    }
+   ]
+  },
+  {
+   "id": "e-i20210504a",
+   "title": "台中港石化業跳電硫酸水蒸氣外洩！消防急通報附近廠商關窗",
+   "date": "2021-05-04",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "快訊／台中港石化業跳電硫酸水蒸氣外洩！消防急通報附近廠商關窗",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20210504/1974207.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20210420a",
+   "title": "台中火噬3童！大人3度懺悔「不罵你們」　友嗆：怎能丟著追大甲媽",
+   "date": "2021-04-20",
+   "place": "大甲",
+   "summary": "大甲公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "台中火噬3童「4大人全不在家」　她說法反覆成市府開罰關鍵",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20210420/1964451.htm"
+    },
+    {
+     "title": "台中火噬3童！大人3度懺悔「不罵你們」　友嗆：怎能丟著追大甲媽",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20210420/1963917.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20210420b",
+   "title": "台中限水供五停二！男「河邊洗澡」慘溺斃　身分調查中",
+   "date": "2021-04-20",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "快訊／台中限水供五停二！男「河邊洗澡」慘溺斃　身分調查中",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20210420/1964096.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20210411a",
+   "title": "台中限水！水車卻拋錨慘卡路中　另車急到場「抽水減重」助脫困",
+   "date": "2021-04-11",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "台中限水！水車卻拋錨慘卡路中　另車急到場「抽水減重」助脫困",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20210411/1957711.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20210411b",
+   "title": "「我家沒停水？」台中住戶限水才知喝地下水3年網：水費白繳了- 生活",
+   "date": "2021-04-11",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "「我家沒停水？」台中住戶限水才知喝地下水3年網：水費白繳了- 生活",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20210411001771-260405"
+    }
+   ]
+  },
+  {
+   "id": "e-i20210407a",
+   "title": "中火3號機重啟惹議 台中市府開罰2000萬 台電駁：調度合法",
+   "date": "2021-04-07",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "中火3號機違法燃煤發電 中市府重罰最高2000萬",
+     "outlet": "taichung.gov.tw",
+     "url": "https://www.taichung.gov.tw/8868/8872/9962/1759580"
+    },
+    {
+     "title": "中火3號機重啟惹議 台中市府開罰2000萬 台電駁：調度合法",
+     "outlet": "e-info.org.tw",
+     "url": "https://e-info.org.tw/node/230414"
+    }
+   ]
+  },
+  {
    "id": "e-water",
    "title": "大旱「供五停二」 台中分區限水",
    "date": "2021-04-06",
@@ -251,6 +2466,91 @@
      "title": "最慘到一周只供水兩天 彰化市長率里長怒吼 :「多給我們一點水」",
      "outlet": "Newtalk 新聞",
      "url": "https://newtalk.tw/news/view/2021-05-15/573651"
+    }
+   ]
+  },
+  {
+   "id": "e-i20210404a",
+   "title": "台中限水大作戰5／中科帆船飛碟造型水塔園區穩定用水命脈",
+   "date": "2021-04-04",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "台中限水大作戰5／中科帆船飛碟造型水塔園區穩定用水命脈",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/ahel/202104040026.aspx"
+    }
+   ]
+  },
+  {
+   "id": "e-i20210402a",
+   "title": "台鐵408次太魯閣號出軌！　卡清水隧道「全車大停電」",
+   "date": "2021-04-02",
+   "place": "清水",
+   "summary": "清水公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "快訊／台鐵408次太魯閣號出軌！　卡清水隧道「全車大停電」",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20210402/1951933.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20210329a",
+   "title": "因應供五停二 台中各校啟動應變、減少開放校園",
+   "date": "2021-03-29",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "因應供五停二 台中各校啟動應變、減少開放校園",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/519233"
+    }
+   ]
+  },
+  {
+   "id": "e-i20210325a",
+   "title": "有三水庫提供台中、新竹民生用水 苗栗優先限水縣長喊不公",
+   "date": "2021-03-25",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "有三水庫提供台中、新竹民生用水 苗栗優先限水縣長喊不公",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/518808"
+    }
+   ]
+  },
+  {
+   "id": "e-i20210324a",
+   "title": "台中苗栗轉為紅燈分區限水 4月6日起實施供5停2",
+   "date": "2021-03-24",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "撐不下去 台中、苗栗水情4月6日轉紅燈 自來水供五停二",
+     "outlet": "e-info.org.tw",
+     "url": "https://www.e-info.org.tw/node/230187"
+    },
+    {
+     "title": "台中苗栗轉為紅燈分區限水 4月6日起實施供5停2",
+     "outlet": "自由時報",
+     "url": "https://ec.ltn.com.tw/article/breakingnews/3477587"
+    },
+    {
+     "title": "限水來了！4月6日起，苗栗、台中「供5停2」估影響百萬戶",
+     "outlet": "city.gvm.com.tw",
+     "url": "https://city.gvm.com.tw/article/78593"
+    },
+    {
+     "title": "台中限水「供五停二」 中部人想起921停水慘況- 生活",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/breakingnews/3480197"
     }
    ]
   },
@@ -298,6 +2598,328 @@
    ]
   },
   {
+   "id": "e-i20210206a",
+   "title": "台中市今天空污爆紅害 藍綠營有意見",
+   "date": "2021-02-06",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "台中市今天空污爆紅害 藍綠營有意見",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/breakingnews/3434549"
+    }
+   ]
+  },
+  {
+   "id": "e-i20210130a",
+   "title": "中火燃煤除役不拆機 中市府：至少拆4部",
+   "date": "2021-01-30",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "中火燃煤除役不拆機 中市府：至少拆4部",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/politics/paper/1428899"
+    }
+   ]
+  },
+  {
+   "id": "e-i20210125a",
+   "title": "幽靈蚊子館3／台中媽祖文化園區從沒營運過　榮登「3星」蚊子館",
+   "date": "2021-01-25",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "幽靈蚊子館3／台中媽祖文化園區從沒營運過　榮登「3星」蚊子館",
+     "outlet": "CTWANT",
+     "url": "https://www.ctwant.com/article/98262/"
+    }
+   ]
+  },
+  {
+   "id": "e-i20210125b",
+   "title": "台中大安媽祖園區斥資六億打造 閒置三年卻有3星評價",
+   "date": "2021-01-25",
+   "place": "大安",
+   "summary": "大安公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "台中大安媽祖園區斥資六億打造 閒置三年卻有3星評價",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/510420"
+    }
+   ]
+  },
+  {
+   "id": "e-i20210119a",
+   "title": "環保局科技辦案 台中治理空污有成",
+   "date": "2021-01-19",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "環保局科技辦案 台中治理空污有成",
+     "outlet": "anntw.com",
+     "url": "https://www.anntw.com/articles/20210119-H7sv"
+    }
+   ]
+  },
+  {
+   "id": "e-i20210115a",
+   "title": "中火漠視空污機組不減反增 中市府強烈支持「汰舊換新」",
+   "date": "2021-01-15",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "中火漠視空污機組不減反增 中市府強烈支持「汰舊換新」",
+     "outlet": "taichung.gov.tw",
+     "url": "https://www.taichung.gov.tw/8868/8872/9962/1707503"
+    }
+   ]
+  },
+  {
+   "id": "e-i20201201a",
+   "title": "市民要健康！台中力阻濫燒生煤...慘遭空污法卡關　假處分暫敗",
+   "date": "2020-12-01",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "市民要健康！台中力阻濫燒生煤...慘遭空污法卡關　假處分暫敗",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20201201/1866971.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20201117a",
+   "title": "再槓中火議題 中市盼延續空品改善成果 台電：快推燃氣別阻撓",
+   "date": "2020-11-17",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "再槓中火議題 中市盼延續空品改善成果 台電：快推燃氣別阻撓",
+     "outlet": "台灣好新聞",
+     "url": "https://www.taiwanhot.net/news/focus/878282/%E5%86%8D%E6%A7%93%E4%B8%AD%E7%81%AB%E8%AD%B0%E9%A1%8C+%E4%B8%AD%E5%B8%82%E7%9B%BC%E5%BB%B6%E7%BA%8C%E7%A9%BA%E5%93%81%E6%94%B9%E5%96%84%E6%88%90%E6%9E%9C+%E5%8F%B0%E9%9B%BB%EF%BC%9A%E5%BF%AB%E6%8E%A8%E7%87%83%E6%B0%A3%E5%88%A5%E9%98%BB%E6%92%93/94/%E5%8F%B0%E4%B8%AD"
+    }
+   ]
+  },
+  {
+   "id": "e-i20201113a",
+   "title": "台中大安媽祖園區 閒置仍涉履約爭議",
+   "date": "2020-11-13",
+   "place": "大安",
+   "summary": "大安公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "台中大安媽祖園區 閒置仍涉履約爭議",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/500063"
+    }
+   ]
+  },
+  {
+   "id": "e-i20201015a",
+   "title": "台中市府要求中火逐步廢止燃煤機組民調再攀高！逾8成市民支持",
+   "date": "2020-10-15",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "台中市府要求中火逐步廢止燃煤機組民調再攀高！逾8成市民支持",
+     "outlet": "民視新聞",
+     "url": "https://sport.ftvnews.com.tw/news/detail/2020A15C07M1"
+    }
+   ]
+  },
+  {
+   "id": "e-i20201003a",
+   "title": "中火新增燃氣機組再卡關 學者：請台中市政府以蒼生為念",
+   "date": "2020-10-03",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "中火新增燃氣機組再卡關 學者：請台中市政府以蒼生為念",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/breakingnews/3310629"
+    }
+   ]
+  },
+  {
+   "id": "e-i20200901a",
+   "title": "抗中火悍將 台中市環保局長吳志超請辭",
+   "date": "2020-09-01",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "抗中火悍將 台中市環保局長吳志超請辭",
+     "outlet": "台視新聞",
+     "url": "https://news.ttv.com.tw/news/10909010001300W"
+    }
+   ]
+  },
+  {
+   "id": "e-i20200807a",
+   "title": "中火空污罰單1800萬元遭撤銷　台中市府槓環保署官司首輪結果出爐",
+   "date": "2020-08-07",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "中火空污罰單1800萬元遭撤銷　台中市府槓環保署官司首輪結果出爐",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20200807/1779733.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20200713a",
+   "title": "中火爭議又一波 台電重啟燃煤2號機組、台中市府移送台電董座",
+   "date": "2020-07-13",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "中火爭議又一波 台電重啟燃煤2號機組、台中市府移送台電董座",
+     "outlet": "e-info.org.tw",
+     "url": "https://e-info.org.tw/node/225480"
+    }
+   ]
+  },
+  {
+   "id": "e-i20200704a",
+   "title": "蔡中岳／「戰中火」卻補助燃油機車？台中市府矛盾的反空汙政策",
+   "date": "2020-07-04",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "蔡中岳／「戰中火」卻補助燃油機車？台中市府矛盾的反空汙政策",
+     "outlet": "voicettank.org",
+     "url": "https://voicettank.org/single-post/2020/07/04/070402/"
+    }
+   ]
+  },
+  {
+   "id": "e-i20200626a",
+   "title": "中火重啟2號機 中市府擬重罰最高2千萬並函送法辦",
+   "date": "2020-06-26",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "中火重啟2號機 中市府擬重罰最高2千萬並函送法辦",
+     "outlet": "自由時報",
+     "url": "https://ec.ltn.com.tw/article/breakingnews/3209604"
+    }
+   ]
+  },
+  {
+   "id": "e-i20200626b",
+   "title": "最大煙囪！中火2號機重啟發電 中市府加重開罰：800萬起跳",
+   "date": "2020-06-26",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "最大煙囪！中火2號機重啟發電 中市府加重開罰：800萬起跳",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/breakingnews/3210006"
+    }
+   ]
+  },
+  {
+   "id": "e-i20200625a",
+   "title": "中市府揚言重罰中火 環保署：不應濫用空污法條文",
+   "date": "2020-06-25",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "中市府揚言重罰中火 環保署：不應濫用空污法條文",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/breakingnews/3208634"
+    }
+   ]
+  },
+  {
+   "id": "e-i20200519a",
+   "title": "台電回饋金因中火發電量驟減縮水 中市議員要求市府補足",
+   "date": "2020-05-19",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "台電回饋金因中火發電量驟減縮水 中市議員要求市府補足",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/breakingnews/3170500"
+    }
+   ]
+  },
+  {
+   "id": "e-i20200512a",
+   "title": "台中火力發電廠降低燃煤　南投埔里空品不良天數改善率達94%",
+   "date": "2020-05-12",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "台中火力發電廠降低燃煤　南投埔里空品不良天數改善率達94%",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20200512/1712423.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20200418a",
+   "title": "閒置空間再利用　中市15蚊子館變亮點",
+   "date": "2020-04-18",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "閒置空間再利用　中市15蚊子館變亮點",
+     "outlet": "news.housefun.com.tw",
+     "url": "https://news.housefun.com.tw/news/article/113709252340.html"
+    }
+   ]
+  },
+  {
+   "id": "e-i20200401a",
+   "title": "東勢大貨車自撞「車頭包住電桿」　輸電線斷落500住戶停電",
+   "date": "2020-04-01",
+   "place": "東勢",
+   "summary": "東勢公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "東勢大貨車自撞「車頭包住電桿」　輸電線斷落500住戶停電",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20200401/1682179.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20200318a",
+   "title": "中火減煤七成 台中空汙為何仍拉警報？",
+   "date": "2020-03-18",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "中火減煤七成 台中空汙為何仍拉警報？",
+     "outlet": "businesstoday.com.tw",
+     "url": "https://www.businesstoday.com.tw/article/category/80392/post/202003180020/"
+    }
+   ]
+  },
+  {
    "id": "e-coal-law",
    "title": "台中生煤管制自治條例遭政院宣告部分無效 裁罰中火被撤銷",
    "date": "2020-03-16",
@@ -327,6 +2949,333 @@
    ]
   },
   {
+   "id": "e-i20200313a",
+   "title": "中火爭議行政院出手，三大理由宣判台中市政府「自治條例」部分無效",
+   "date": "2020-03-13",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "中火爭議行政院出手，三大理由宣判台中市政府「自治條例」部分無效",
+     "outlet": "關鍵評論網",
+     "url": "https://www.thenewslens.com/article/132476"
+    }
+   ]
+  },
+  {
+   "id": "e-i20200310a",
+   "title": "撤銷中火裁處 環保署以「空污法上級機關」身分依法監督中市府",
+   "date": "2020-03-10",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "撤銷中火裁處 環保署以「空污法上級機關」身分依法監督中市府",
+     "outlet": "enews.moenv.gov.tw",
+     "url": "https://enews.moenv.gov.tw/page/3b3c62c78849f32f/3b8f2561-7f0d-4b83-ba73-3583318d4771"
+    }
+   ]
+  },
+  {
+   "id": "e-i20200302a",
+   "title": "台中火力發電廠人員「遭鑽鋼重壓」送醫搶救2小時後不治",
+   "date": "2020-03-02",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "快訊／台中火力發電廠人員「遭鑽鋼重壓」送醫搶救2小時後不治",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20200302/1657868.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20200301a",
+   "title": "慣竊台中火車站又偷手機　「先加後減」高齡身分輕判3個月",
+   "date": "2020-03-01",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "84歲慣竊台中火車站又偷手機　「先加後減」高齡身分輕判3個月",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20200301/1657177.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20200219a",
+   "title": "中火撤照處分 環署指中市府違法要求更正",
+   "date": "2020-02-19",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "中火撤照處分 環署指中市府違法要求更正",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/467172"
+    }
+   ]
+  },
+  {
+   "id": "e-i20200219b",
+   "title": "環保署函中市環局更正對中火處分藍委控侵犯地方權責",
+   "date": "2020-02-19",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "環保署函中市環局更正對中火處分藍委控侵犯地方權責",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/pw8rVw"
+    }
+   ]
+  },
+  {
+   "id": "e-i20200219c",
+   "title": "廢止中火許可證羅生門 環保署認定台中市府更動文件 為罰而罰",
+   "date": "2020-02-19",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "廢止中火許可證羅生門 環保署認定台中市府更動文件 為罰而罰",
+     "outlet": "e-info.org.tw",
+     "url": "https://e-info.org.tw/node/223109"
+    }
+   ]
+  },
+  {
+   "id": "e-i20200122a",
+   "title": "台中》盧阻中火燃氣機組 學者：能源轉型恐失敗",
+   "date": "2020-01-22",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "台中》盧阻中火燃氣機組 學者：能源轉型恐失敗",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/paper/1347676"
+    }
+   ]
+  },
+  {
+   "id": "e-i20200105a",
+   "title": "中火已關4台，台中空氣仍然「紫爆」，盧秀燕：不是地方政府單打獨鬥可解決",
+   "date": "2020-01-05",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "中火已關4台，台中空氣仍然「紫爆」，盧秀燕：不是地方政府單打獨鬥可解決",
+     "outlet": "關鍵評論網",
+     "url": "https://www.thenewslens.com/article/129637"
+    }
+   ]
+  },
+  {
+   "id": "e-i20200104a",
+   "title": "台中空品接連紫爆！ 議員批盧秀燕拿中火祭旗",
+   "date": "2020-01-04",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "台中空品接連紫爆！ 議員批盧秀燕拿中火祭旗",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/politics/breakingnews/3029649"
+    }
+   ]
+  },
+  {
+   "id": "e-i20191127a",
+   "title": "環保署秀「中火許可證」打臉中市府：多一點專業，少一點口水",
+   "date": "2019-11-27",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "環保署秀「中火許可證」打臉中市府：多一點專業，少一點口水",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20191127/1589395.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20191104a",
+   "title": "台中火力發電廠減煤「5年500萬噸」 台電：減煤是現在進行式",
+   "date": "2019-11-04",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "台中火力發電廠減煤「5年500萬噸」 台電：減煤是現在進行式",
+     "outlet": "ETtoday",
+     "url": "https://finance.ettoday.net/news/1571810"
+    }
+   ]
+  },
+  {
+   "id": "e-i20191028a",
+   "title": "中火「硼」再超標！中市府祭史上最高6000萬罰單 限期中火12月完成改善",
+   "date": "2019-10-28",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "中火「硼」再超標！中市府祭史上最高6000萬罰單 限期中火12月完成改善",
+     "outlet": "taichung.gov.tw",
+     "url": "https://www.taichung.gov.tw/8868/8872/9962/1397238"
+    },
+    {
+     "title": "廢水「硼」超標遭罰6000萬，台中火力發電廠質疑市府環保局「為罰而罰」",
+     "outlet": "關鍵評論網",
+     "url": "https://www.thenewslens.com/article/126622"
+    }
+   ]
+  },
+  {
+   "id": "e-i20191009a",
+   "title": "中市空污嚴重 盧秀燕：自責、道歉",
+   "date": "2019-10-09",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "中市空污嚴重 盧秀燕：自責、道歉",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/breakingnews/2941682"
+    }
+   ]
+  },
+  {
+   "id": "e-i20191004a",
+   "title": "台中寶特瓶工廠偷排廢氣　市府和檢方監控一年追繳1.2億空汙費",
+   "date": "2019-10-04",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "台中寶特瓶工廠偷排廢氣　市府和檢方監控一年追繳1.2億空汙費",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20191004/1549746.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20190920a",
+   "title": "豪宅區裡的蚊子館？ 中市秋紅谷公開標租",
+   "date": "2019-09-20",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "豪宅區裡的蚊子館？ 中市秋紅谷公開標租",
+     "outlet": "自由時報",
+     "url": "https://estate.ltn.com.tw/article/8259"
+    }
+   ]
+  },
+  {
+   "id": "e-i20190702a",
+   "title": "空汙季中火機組被砍半 台電批台中市損害台灣經濟",
+   "date": "2019-07-02",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "空汙季中火機組被砍半 台電批台中市損害台灣經濟",
+     "outlet": "自由時報",
+     "url": "https://ec.ltn.com.tw/article/breakingnews/2840136"
+    }
+   ]
+  },
+  {
+   "id": "e-i20190702b",
+   "title": "中市府限定中火用煤量 台電：將衝擊全國供電",
+   "date": "2019-07-02",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "中市府限定中火用煤量 台電：將衝擊全國供電",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/politics/1159248"
+    }
+   ]
+  },
+  {
+   "id": "e-i20190621a",
+   "title": "燃煤為何不除役？ 台中發電廠新建燃氣機組 環評三度初審仍失敗",
+   "date": "2019-06-21",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "燃煤為何不除役？ 台中發電廠新建燃氣機組 環評三度初審仍失敗",
+     "outlet": "e-info.org.tw",
+     "url": "https://www.e-info.org.tw/node/218673"
+    }
+   ]
+  },
+  {
+   "id": "e-i20190611a",
+   "title": "台中大安媽祖園區沒媽祖 恐淪6億蚊子館",
+   "date": "2019-06-11",
+   "place": "大安",
+   "summary": "大安公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "台中大安媽祖園區沒媽祖 恐淪6億蚊子館",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/local/paper/1294994"
+    }
+   ]
+  },
+  {
+   "id": "e-i20190430a",
+   "title": "台中肺癌居癌症死因首位 中市府支持南投縣府提告中火決心 持續要求空品改善",
+   "date": "2019-04-30",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "台中肺癌居癌症死因首位 中市府支持南投縣府提告中火決心 持續要求空品改善",
+     "outlet": "taichung.gov.tw",
+     "url": "https://www.taichung.gov.tw/8868/8872/9962/1264199"
+    }
+   ]
+  },
+  {
+   "id": "e-i20190415a",
+   "title": "中火廢水連3次超標 中市府重罰2千萬限期30日改善",
+   "date": "2019-04-15",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "中火廢水連3次超標 中市府重罰2千萬限期30日改善",
+     "outlet": "東森新聞",
+     "url": "https://fnc.ebc.net.tw/fncnews/business/76808"
+    }
+   ]
+  },
+  {
+   "id": "e-i20190330a",
+   "title": "「東豐自行車綠廊」水保工程砍樹成光頭惹議　中市府這樣說",
+   "date": "2019-03-30",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "影／「東豐自行車綠廊」水保工程砍樹成光頭惹議　中市府這樣說",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20190330/1411644.htm"
+    }
+   ]
+  },
+  {
    "id": "e-trees-dongfeng",
    "title": "東豐自行車綠廊邊坡工程 20 多棵大樹被鋸 綠蔭砍光",
    "date": "2019-03-29",
@@ -342,6 +3291,104 @@
      "title": "防止落石做邊坡　東豐自行車綠廊沒了　綠樹砍光",
      "outlet": "TVBS新聞網",
      "url": "https://news.tvbs.com.tw/life/1107467"
+    }
+   ]
+  },
+  {
+   "id": "e-i20190320a",
+   "title": "PTT爆「台中i環保」空污檢舉App無端下架　中市府：烏龍爆料",
+   "date": "2019-03-20",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "PTT爆「台中i環保」空污檢舉App無端下架　中市府：烏龍爆料",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20190320/1403788.htm"
+    }
+   ]
+  },
+  {
+   "id": "e-i20190319a",
+   "title": "台中環保局公佈空污報告 七個行政區八種一級致癌物超高",
+   "date": "2019-03-19",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "台中環保局公佈空污報告 七個行政區八種一級致癌物超高",
+     "outlet": "e-info.org.tw",
+     "url": "https://www.e-info.org.tw/node/217063"
+    }
+   ]
+  },
+  {
+   "id": "e-i20190318a",
+   "title": "台中空汙嚴重 議員批：市府拿農民當戰犯？",
+   "date": "2019-03-18",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "台中空汙嚴重 議員批：市府拿農民當戰犯？",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/breakingnews/2730965"
+    }
+   ]
+  },
+  {
+   "id": "e-i20190317a",
+   "title": "自由廣場》（台中人觀點）盧小小怎麼抗空污",
+   "date": "2019-03-17",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "自由廣場》（台中人觀點）盧小小怎麼抗空污",
+     "outlet": "自由時報",
+     "url": "https://talk.ltn.com.tw/article/paper/1274628"
+    }
+   ]
+  },
+  {
+   "id": "e-i20190313a",
+   "title": "盧秀燕要小英解決台中空污 網轟：選前罵地方選後推中央",
+   "date": "2019-03-13",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "盧秀燕要小英解決台中空污 網轟：選前罵地方選後推中央",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/politics/breakingnews/2726036"
+    }
+   ]
+  },
+  {
+   "id": "e-i20190303a",
+   "title": "空汙今午過後可望趨緩 中市府：「先公後私、先大後小」持續強化管制 並要求中央正視",
+   "date": "2019-03-03",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "空汙今午過後可望趨緩 中市府：「先公後私、先大後小」持續強化管制 並要求中央正視",
+     "outlet": "taichung.gov.tw",
+     "url": "https://www.taichung.gov.tw/8868/8872/9962/1224914"
+    }
+   ]
+  },
+  {
+   "id": "e-i20190220a",
+   "title": "台中港「水泥」卸運揚塵釀空污 中市竟稽查「銅土」卸運業者",
+   "date": "2019-02-20",
+   "place": "台中",
+   "summary": "台中公共建設、環境或民生供應出現問題。",
+   "sources": [
+    {
+     "title": "台中港「水泥」卸運揚塵釀空污 中市竟稽查「銅土」卸運業者",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/breakingnews/2704307"
     }
    ]
   }

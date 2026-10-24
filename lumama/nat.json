@@ -2,8 +2,25 @@
  "title": "台中國安新聞",
  "note": "整理自 Threads 上的台中相關貼文所提到的新聞",
  "helpline": false,
- "updated": "2026-10-23",
+ "updated": "2026-10-24",
  "records": [
+  {
+   "id": "n-i20260812a",
+   "title": "盧秀燕幕僚具統戰背景涉洩密陳淑華憂心中市府已遭滲透",
+   "date": "2026-08-12",
+   "place": "台中",
+   "summary": "台中發生國安相關事件。",
+   "sources": [
+    {
+     "title": "盧秀燕幕僚具統戰背景涉洩密陳淑華憂心中市府已遭滲透",
+     "outlet": "Newtalk 新聞",
+     "url": "https://newtalk.tw/news/view/2026-08-12/1052948"
+    }
+   ],
+   "fear": [
+    "N"
+   ]
+  },
   {
    "id": "n-drone",
    "title": "中國零件冒充國造無人機 負責人羈押",
@@ -37,6 +54,23 @@
    ]
   },
   {
+   "id": "n-i20260403a",
+   "title": "花3000美元從中國偷渡！ 越男跳海「游進台中」躲7年終落網- 社會",
+   "date": "2026-04-03",
+   "place": "台中",
+   "summary": "台中發生國安相關事件。",
+   "sources": [
+    {
+     "title": "花3000美元從中國偷渡！ 越男跳海「游進台中」躲7年終落網- 社會",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5392076"
+    }
+   ],
+   "fear": [
+    "N"
+   ]
+  },
+  {
    "id": "n-dji",
    "title": "消防局救災被拍到用中國製無人機 盧秀燕要求嚴查",
    "date": "2025-11-14",
@@ -48,6 +82,74 @@
      "outlet": "中央社",
      "url": "https://www.cna.com.tw/news/aloc/202511140276.aspx"
     }
+   ]
+  },
+  {
+   "id": "n-i20251012a",
+   "title": "國軍士兵翻拍機密交中共特工中檢依貪污罪起訴",
+   "date": "2025-10-12",
+   "place": "台中",
+   "summary": "台中發生國安相關事件。",
+   "sources": [
+    {
+     "title": "國軍士兵翻拍機密交中共特工中檢依貪污罪起訴",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202510120002.aspx"
+    }
+   ],
+   "fear": [
+    "N"
+   ]
+  },
+  {
+   "id": "n-i20250926a",
+   "title": "空軍官校處長淪共諜收受逾百萬 台中高分院判16年",
+   "date": "2025-09-26",
+   "place": "台中",
+   "summary": "台中發生國安相關事件。",
+   "sources": [
+    {
+     "title": "空軍官校處長張銘哲淪共諜收受逾百萬 台中高分院判16年",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202509260038.aspx"
+    }
+   ],
+   "fear": [
+    "N"
+   ]
+  },
+  {
+   "id": "n-i20250721a",
+   "title": "台中可收聽中國統戰廣播？ NCC：涉國安將派員調查",
+   "date": "2025-07-21",
+   "place": "台中",
+   "summary": "台中發生國安相關事件。",
+   "sources": [
+    {
+     "title": "台中可收聽中國統戰廣播？ NCC：涉國安將派員調查",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/761869"
+    }
+   ],
+   "fear": [
+    "N"
+   ]
+  },
+  {
+   "id": "n-i20250507a",
+   "title": "台中詐團大逃亡！18男2女衝高雄想偷渡　躲漁船3坪密艙險悶死",
+   "date": "2025-05-07",
+   "place": "台中",
+   "summary": "台中發生國安相關事件。",
+   "sources": [
+    {
+     "title": "台中詐團大逃亡！18男2女衝高雄想偷渡　躲漁船3坪密艙險悶死",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250507/2956082.htm"
+    }
+   ],
+   "fear": [
+    "N"
    ]
   },
   {
@@ -115,6 +217,23 @@
    ]
   },
   {
+   "id": "n-i20241101a",
+   "title": "台中某國小老師課堂播中國簡體字影片 家長質疑利用兒童繪本教學統戰",
+   "date": "2024-11-01",
+   "place": "台中",
+   "summary": "台中發生國安相關事件。",
+   "sources": [
+    {
+     "title": "台中某國小老師課堂播中國簡體字影片 家長質疑利用兒童繪本教學統戰",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/politics/breakingnews/4849219"
+    }
+   ],
+   "fear": [
+    "N"
+   ]
+  },
+  {
    "id": "n-conscript",
    "title": "台中市府役男專車播解放軍影片「為共產主義奮鬥終生」 民政局：司機誤播、追究業者",
    "date": "2024-09-23",
@@ -156,6 +275,28 @@
    ]
   },
   {
+   "id": "n-i20240611a",
+   "title": "中國快艇闖淡水河！「30分鐘失誤」曝 陸偷渡客台中台東都曾上岸",
+   "date": "2024-06-11",
+   "place": "台中",
+   "summary": "台中發生國安相關事件。",
+   "sources": [
+    {
+     "title": "陸偷渡客年年有 台中台東都曾被上岸",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/newspapers/20240611000397-260118"
+    },
+    {
+     "title": "中國快艇闖淡水河！「30分鐘失誤」曝 陸偷渡客台中台東都曾上岸",
+     "outlet": "知新聞",
+     "url": "https://www.knews.com.tw/news/D15268B8AB77F13D106324F3D87A33AE"
+    }
+   ],
+   "fear": [
+    "N"
+   ]
+  },
+  {
    "id": "n-autel",
    "title": "交通局無人機竟是中國品牌 先停用查產地",
    "date": "2024-05-07",
@@ -177,6 +318,74 @@
      "outlet": "Yahoo 新聞",
      "url": "https://tw.news.yahoo.com/%E4%B8%AD%E5%B8%82%E5%BA%9C%E7%84%A1%E4%BA%BA%E6%A9%9F%E7%BE%8E%E5%9C%8B%E5%93%81%E7%89%8C%E6%B7%B1%E5%9C%B3%E8%A3%BD%E9%80%A0-%E4%BA%A4%E9%80%9A%E5%B1%80%E8%A6%81%E6%9F%A5-095926668.html"
     }
+   ]
+  },
+  {
+   "id": "n-i20240201a",
+   "title": "涉助董掏空台中銀豪車租賃老闆曾幫朱國榮偷渡- 社會",
+   "date": "2024-02-01",
+   "place": "台中",
+   "summary": "台中發生國安相關事件。",
+   "sources": [
+    {
+     "title": "涉助董掏空台中銀豪車租賃老闆曾幫朱國榮偷渡- 社會",
+     "outlet": "華視新聞",
+     "url": "https://news.cts.com.tw/cts/society/202402/202402012282769.html"
+    }
+   ],
+   "fear": [
+    "N"
+   ]
+  },
+  {
+   "id": "n-i20231229a",
+   "title": "8里長赴陸「接受落地招待」觸反滲透法　台中檢調約談37人",
+   "date": "2023-12-29",
+   "place": "台中",
+   "summary": "台中發生國安相關事件。",
+   "sources": [
+    {
+     "title": "8里長赴陸「接受落地招待」觸反滲透法　台中檢調約談37人",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20231229/2653519.htm"
+    }
+   ],
+   "fear": [
+    "N"
+   ]
+  },
+  {
+   "id": "n-i20230412a",
+   "title": "台海浮屍潮／越南死者偷渡來台至少3次　快艇台中港翻船竟近1月才發現",
+   "date": "2023-04-12",
+   "place": "台中",
+   "summary": "台中發生國安相關事件。",
+   "sources": [
+    {
+     "title": "台海浮屍潮／越南死者偷渡來台至少3次　快艇台中港翻船竟近1月才發現",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1278928"
+    }
+   ],
+   "fear": [
+    "N"
+   ]
+  },
+  {
+   "id": "n-i20230329a",
+   "title": "西部沿海16具屍體 中檢懷疑越南人偷渡慘遭丟包",
+   "date": "2023-03-29",
+   "place": "台中",
+   "summary": "台中發生國安相關事件。",
+   "sources": [
+    {
+     "title": "西部沿海16具屍體 中檢懷疑越南人偷渡慘遭丟包",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4255136"
+    }
+   ],
+   "fear": [
+    "N"
    ]
   },
   {
@@ -233,6 +442,40 @@
      "outlet": "關鍵評論網",
      "url": "https://www.thenewslens.com/article/168179"
     }
+   ]
+  },
+  {
+   "id": "n-i20210831a",
+   "title": "嚮往台灣自由！陸男「淘寶買橡皮艇」11hrs台中偷渡上岸　下場慘曝",
+   "date": "2021-08-31",
+   "place": "台中",
+   "summary": "台中發生國安相關事件。",
+   "sources": [
+    {
+     "title": "嚮往台灣自由！陸男「淘寶買橡皮艇」11hrs台中偷渡上岸　下場慘曝",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20210831/2068457.htm"
+    }
+   ],
+   "fear": [
+    "N"
+   ]
+  },
+  {
+   "id": "n-i20210831b",
+   "title": "網購橡皮艇開16小時直達台中港！偷渡福建男：想投奔自由",
+   "date": "2021-08-31",
+   "place": "台中",
+   "summary": "台中發生國安相關事件。",
+   "sources": [
+    {
+     "title": "網購橡皮艇開16小時直達台中港！偷渡福建男：想投奔自由",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/990678"
+    }
+   ],
+   "fear": [
+    "N"
    ]
   },
   {
@@ -305,6 +548,45 @@
    ]
   },
   {
+   "id": "n-i20210506a",
+   "title": "陸男偷渡「駕橡皮艇衝台中港」…上岸先隔離14天！檢：服刑後遣返",
+   "date": "2021-05-06",
+   "place": "台中",
+   "summary": "台中發生國安相關事件。",
+   "sources": [
+    {
+     "title": "陸男偷渡「駕橡皮艇衝台中港」…上岸先隔離14天！檢：服刑後遣返",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20210506/1975927.htm"
+    }
+   ],
+   "fear": [
+    "N"
+   ]
+  },
+  {
+   "id": "n-i20210502a",
+   "title": "駕橡皮艇橫渡台灣海峽中國偷渡男在台中港被逮：我投奔自由- 社會",
+   "date": "2021-05-02",
+   "place": "台中",
+   "summary": "台中發生國安相關事件。",
+   "sources": [
+    {
+     "title": "駕橡皮艇橫渡台灣海峽中國偷渡男在台中港被逮：我投奔自由- 社會",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/3518370"
+    },
+    {
+     "title": "自由日日Shoot》大漏洞！中國男駕橡皮艇 福建偷渡台中港",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/paper/1446456"
+    }
+   ],
+   "fear": [
+    "N"
+   ]
+  },
+  {
    "id": "n-raft",
    "title": "中國男子搭橡皮艇偷渡台中港 依國安法移送",
    "date": "2021-04-30",
@@ -343,6 +625,23 @@
      "outlet": "公視新聞網",
      "url": "https://news.pts.org.tw/article/480925"
     }
+   ]
+  },
+  {
+   "id": "n-i20191209a",
+   "title": "從香港偷渡5隻活烏龜！台中男下飛機「胯下鼓鼓的」…海關秒抓包",
+   "date": "2019-12-09",
+   "place": "台中",
+   "summary": "台中發生國安相關事件。",
+   "sources": [
+    {
+     "title": "從香港偷渡5隻活烏龜！台中男下飛機「胯下鼓鼓的」…海關秒抓包",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20191209/1597826.htm"
+    }
+   ],
+   "fear": [
+    "N"
    ]
   },
   {

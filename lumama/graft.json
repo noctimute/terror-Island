@@ -2,8 +2,25 @@
  "title": "台中貪瀆與犯罪新聞",
  "note": "整理自 Threads 上的台中相關貼文所提到的新聞",
  "helpline": false,
- "updated": "2026-10-23",
+ "updated": "2026-10-24",
  "records": [
+  {
+   "id": "k-i20261022a",
+   "title": "中檢起訴首件招待行賄案 里長參選人等4人起訴另受賄選民33人緩起訴",
+   "date": "2026-10-22",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "中檢起訴首件招待行賄案 里長參選人等4人起訴另受賄選民33人緩起訴",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/story/20261022-167inv-102411"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
   {
    "id": "k-officer-verdict",
    "title": "【警察】刑事小隊長供毒給女線民、毒駕上班 台中地院判刑免職",
@@ -43,6 +60,89 @@
    ]
   },
   {
+   "id": "k-i20261003a",
+   "title": "【警察】警察公務電腦竟成查個資工具　台中偵查佐涉洩密遭起訴",
+   "date": "2026-10-03",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "警察公務電腦竟成查個資工具　台中偵查佐涉洩密遭起訴",
+     "outlet": "鏡新聞",
+     "url": "https://www.mnews.tw/story/mm-20261003edi022"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20260922a",
+   "title": "國稅局高官貪汙！簡任稽核貪1280萬元 台中首宗貪瀆案由國民法官審理",
+   "date": "2026-09-22",
+   "place": "中區",
+   "summary": "中區發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "中區國稅局簡任高官收賄助避稅 中檢起訴行國民法官審理",
+     "outlet": "cnews.com.tw",
+     "url": "https://cnews.com.tw/224260922a04/"
+    },
+    {
+     "title": "國稅局高官貪汙！簡任稽核貪1280萬元 台中首宗貪瀆案由國民法官審理",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7321/9769932"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20260917a",
+   "title": "台中「模擬聯合國」案不只洩密？顏姓參議解除境管遭駁 法院裁定揭涉《貪污治罪條例》等罪嫌重大",
+   "date": "2026-09-17",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "前中市府處長不只洩密？想撤銷限制出境　案由赫見「貪污」2字",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260917/3239201.htm"
+    },
+    {
+     "title": "中市府採購洩密案！參議顏迺倫聲請解除境管 法院認「涉貪嫌疑重大」駁回、不得抗告",
+     "outlet": "FTNN 新聞網",
+     "url": "https://www.ftnn.com.tw/news/579873"
+    },
+    {
+     "title": "台中「模擬聯合國」案不只洩密？顏迺倫解除境管遭駁 法院裁定揭涉《貪污治罪條例》等罪嫌重大",
+     "outlet": "fountmedia.io",
+     "url": "https://www.fountmedia.io/article/425855"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20260903a",
+   "title": "國稅局內鬼爆貪污！王姓高官涉勾會計師收賄恐成台中首宗國審案– 地方",
+   "date": "2026-09-03",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "國稅局內鬼爆貪污！王姓高官涉勾會計師收賄恐成台中首宗國審案– 地方",
+     "outlet": "Pronews",
+     "url": "https://pronews.tw/2026/09/03/306864/"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
    "id": "k-tax",
    "title": "中區國稅局稽核收賄 查扣現金1280萬、5塊黃金",
    "date": "2026-09",
@@ -70,6 +170,242 @@
    ]
   },
   {
+   "id": "k-i20260823a",
+   "title": "新聞內幕／手機洩規格圖利廠商154萬　中市府前祕書李姓前發言人涉貪瀆內幕",
+   "date": "2026-08-23",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "新聞內幕／手機洩規格圖利廠商154萬　中市府前祕書李政軒涉貪瀆內幕",
+     "outlet": "鏡新聞",
+     "url": "https://www.mnews.tw/story/mm-20260817inv002"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20260818a",
+   "title": "【警察】涉受人情關說竄改紅白單！台中四分局爆貪污圖利 1警遭聲押、10人交保請回",
+   "date": "2026-08-18",
+   "place": "南屯",
+   "summary": "南屯發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "台中警涉貪污圖利 變更違規告發內容1人遭羈押",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/823011"
+    },
+    {
+     "title": "獨／台中警員再爆「紅白單」圖利涉貪 中檢搜索帶回11人 聲押1警",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7321/9698253"
+    },
+    {
+     "title": "台中警又爆「白單轉紅單」貪污圖利醜聞1人收押、9人交保- 社會",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5543595"
+    },
+    {
+     "title": "涉受人情關說竄改紅白單！台中四分局爆貪污圖利 1警遭聲押、10人交保請回",
+     "outlet": "FTNN 新聞網",
+     "url": "https://www.ftnn.com.tw/news/571004"
+    },
+    {
+     "title": "台中警界又爆「白單改紅單」！大墩所涉人情關說 檢方搜索10處、聲押1警",
+     "outlet": "fountmedia.io",
+     "url": "https://www.fountmedia.io/article/414897"
+    },
+    {
+     "title": "南屯11警爆「紅白單」圖利涉貪 一警員遭裁定羈押禁見 10警交保、請回",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7321/9698592"
+    },
+    {
+     "title": "「紅白單」又爆圖利！台中11警遭搜索1人聲押",
+     "outlet": "太報",
+     "url": "https://www.taisounds.com/news/content/96/283779"
+    },
+    {
+     "title": "台中警再爆白單改紅單圖利 1收押9交保",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/paper/1767244"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20260813a",
+   "title": "北市「32元電鍋案」翻版！台中清潔員拿回收鍋具返家搞創作貪污「4.092元」遭起訴",
+   "date": "2026-08-13",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "北市「32元電鍋案」翻版！台中清潔員拿回收鍋具返家搞創作貪污「4.092元」遭起訴",
+     "outlet": "風傳媒",
+     "url": "https://www.storm.mg/article/11156193"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20260810a",
+   "title": "台中市府遭搜索！盧秀燕愛將、最年輕前處長顏姓參議涉洩密 「蔣萬安發言人」李姓前發言人也交保",
+   "date": "2026-08-10",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "檢調搜索台中市府！採購案爆洩密 4人罪嫌重大、2人交保",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E6%AA%A2%E8%AA%BF%E6%90%9C%E7%B4%A2%E5%8F%B0%E4%B8%AD%E5%B8%82%E5%BA%9C-%E6%8E%A1%E8%B3%BC%E6%A1%88%E7%88%86%E6%B4%A9%E5%AF%86-4%E4%BA%BA%E7%BD%AA%E5%AB%8C%E9%87%8D%E5%A4%A7-2%E4%BA%BA%E4%BA%A4%E4%BF%9D-033500675.html"
+    },
+    {
+     "title": "台中市府參事顏迺倫涉洩密遭搜索 前北市府發言人李政軒30萬交保",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E5%B8%82%E5%BA%9C%E5%8F%83%E4%BA%8B%E9%A1%8F%E8%BF%BA%E5%80%AB%E6%B6%89%E6%B4%A9%E5%AF%86%E9%81%AD%E6%90%9C%E7%B4%A2-%E5%8C%97%E5%B8%82%E5%BA%9C%E7%99%BC%E8%A8%80%E4%BA%BA%E6%9D%8E%E6%94%BF%E8%BB%92%E4%B9%9F%E6%8D%B2%E5%85%A530%E8%90%AC%E4%BA%A4%E4%BF%9D-033600459.html"
+    },
+    {
+     "title": "中市府參議涉洩密！綠議員砲轟曝疑點...法制局長反擊合理性費解",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260811/3217353.htm"
+    },
+    {
+     "title": "快訊／台中市府遭搜索！「史上最年輕秘書處長」顏迺倫涉洩密",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260811/3217111.htm"
+    },
+    {
+     "title": "昨才請辭！前北市府發言人李政軒30萬交保 捲入台中市府洩密案",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7321/9683838"
+    },
+    {
+     "title": "台中市府遭搜索！盧秀燕愛將、最年輕前處長顏迺倫涉洩密 「蔣萬安發言人」李政軒也交保",
+     "outlet": "知新聞",
+     "url": "https://www.knews.com.tw/news/C3D6E1988B58A9B0FA42BF2E287A0B7F"
+    },
+    {
+     "title": "快訊／台中市府遭搜索！最年輕秘書處長顏迺倫涉洩密交保",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/4005369"
+    },
+    {
+     "title": "議員指盧秀燕幕僚涉洩密籲徹查台中市府：依法辦理",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/aloc/202608110197.aspx"
+    },
+    {
+     "title": "採購洩密遭搜索！ 台中市府稱6年前舊案「疑同仁不滿升遷舉發」",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/4005426"
+    },
+    {
+     "title": "中市府驚爆4人採購洩密2人交保時任盧秀燕祕書李政軒也涉案- 社會",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5535662"
+    },
+    {
+     "title": "涉台中市府勞務採購洩密案 蔣萬安「小內閣」前發言人30萬元交保",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/zN80w9W"
+    },
+    {
+     "title": "北市府前發言人李政軒昨請辭 涉中市府採購洩密案30萬交保",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20260811002284-260402"
+    },
+    {
+     "title": "涉中市秘書處勞務採購洩密案 北市府前發言人李政軒30萬交保",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/821928"
+    },
+    {
+     "title": "中市府遭搜索不只洩密？ 李正皓爆恐涉圖利綁標：核心人物是李政軒- 政治",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/politics/breakingnews/5536704"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20260803a",
+   "title": "恐嚇里民索賄、侵佔補助款　台中3連霸里長起訴！惡行曝光",
+   "date": "2026-08-03",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "快訊／恐嚇里民索賄、侵佔補助款　台中3連霸里長起訴！惡行曝光",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260803/3212235.htm"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20260802a",
+   "title": "慶祝盧秀燕當選也行？台中前地政局長貪污緩刑5年確定- 政治",
+   "date": "2026-08-02",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "獨家》慶祝盧秀燕當選也行？台中前地政局長吳存金貪污緩刑5年確定- 政治",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/politics/breakingnews/5525746"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20260716a",
+   "title": "【新聞稿】臺中港規避環評違法填海 還要倒廢土 八機關涉瀆職圖利 請監察院調查",
+   "date": "2026-07-16",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "【新聞稿】臺中港規避環評違法填海 還要倒廢土 八機關涉瀆職圖利 請監察院調查",
+     "outlet": "civilmedia.tw",
+     "url": "https://www.civilmedia.tw/archives/140219"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20260616a",
+   "title": "前台中刑大隊長與博弈集團女同居、收賄洩密包庇　監院全票彈劾",
+   "date": "2026-06-16",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "前台中刑大隊長與博弈集團女同居、收賄洩密包庇　監院全票彈劾",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260616/3184458.htm"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
    "id": "k-officer",
    "title": "【警察】台中第二分局偵查小隊長涉毒、性侵 羈押禁見",
    "date": "2026-06",
@@ -92,6 +428,241 @@
    ]
   },
   {
+   "id": "k-i20260522a",
+   "title": "【警察】貪警否認洩密給最美女董座！中檢出示「喵喵」親密對話打臉",
+   "date": "2026-05-22",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "貪警林明佐否認洩密最美女董座 ！中檢出示「喵喵」親密對話打臉",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5446025"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20260509a",
+   "title": "前立委貪污案還在審　台中高分院裁定延長境管8個月",
+   "date": "2026-05-09",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "顏寬恒貪污案還在審　台中高分院裁定延長境管8個月",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260509/3163030.htm"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20260427a",
+   "title": "前台中地政局長詐領特別費 一審判2年、緩刑5年",
+   "date": "2026-04-27",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "台中市地政局前局長詐領特別費6萬餘元　台中地院今判2年緩刑5年",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/story/20260428inv002"
+    },
+    {
+     "title": "快訊／貪污6萬8「跟家人聚餐」　台中市前地政局長判2年獲緩刑",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260428/3156540.htm"
+    },
+    {
+     "title": "慶祝盧秀燕當選 台中前地政局長吳存金公費宴請親友 貪污罪一審判2年",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5418018"
+    },
+    {
+     "title": "前台中地政局長吳存金詐領特別費 一審判2年、緩刑5年",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202604280067.aspx"
+    },
+    {
+     "title": "詐領特別費6萬８ 中市前地政局長判２年",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/paper/1752857"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20260128a",
+   "title": "【警察】高階警政監涉「博弈集團」收賄6,616萬 監察院重糾警政署、刑事局、台中市警局",
+   "date": "2026-01-28",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "高階警政監涉「博弈集團」收賄6,616萬 監察院重糾警政署、刑事局、台中市警局",
+     "outlet": "台灣新聞雲報",
+     "url": "https://www.tcpttw.com/police/2026/01/28/241828/"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20260120a",
+   "title": "【警察】霧峰員警再爆洩密　「私下叫女警協助調閱民眾個資」5萬交保",
+   "date": "2026-01-20",
+   "place": "霧峰",
+   "summary": "霧峰發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "霧峰員警再爆洩密　「私下叫女警協助調閱民眾個資」5萬交保",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260120/3104295.htm"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20251229a",
+   "title": "台中清潔隊爆集體涉貪！9人「私運廢棄物」3年收賄282萬 檢方起訴24人",
+   "date": "2025-12-29",
+   "place": "北屯",
+   "summary": "北屯發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "台中清潔隊集體貪汙爽賺282萬！圖利店家名單驚見小7、連鎖鐵板燒",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20251229/3092168.htm"
+    },
+    {
+     "title": "台中環局北屯清潔隊員涉貪收賄逾200萬 檢今起訴隊員、業者24人",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7321/9232554"
+    },
+    {
+     "title": "北屯9清潔隊員收賄282萬私運垃圾 中檢起訴24人",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5293115"
+    },
+    {
+     "title": "台中清潔隊爆集體涉貪！9人「私運廢棄物」3年收賄282萬 檢方起訴24人",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E6%B8%85%E6%BD%94%E9%9A%8A%E7%88%86%E9%9B%86%E9%AB%94%E6%B6%89%E8%B2%AA-9%E4%BA%BA-%E7%A7%81%E9%81%8B%E5%BB%A2%E6%A3%84%E7%89%A9-3%E5%B9%B4%E6%94%B6%E8%B3%84282%E8%90%AC-%E6%AA%A2%E6%96%B9%E8%B5%B7%E8%A8%B424%E4%BA%BA-123600143.html"
+    },
+    {
+     "title": "濫用公有清運資源集體收賄282萬 中檢起訴北屯區清潔隊等24 人",
+     "outlet": "cnews.com.tw",
+     "url": "https://cnews.com.tw/224251229a04/"
+    },
+    {
+     "title": "台中清潔隊集體貪污…3年爽撈282萬！14間知名店家、餐飲業者都涉案",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1772627"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20251223a",
+   "title": "台中地政局前局長爆貪汙 濫用特別費招待親友吃飯今遭起訴",
+   "date": "2025-12-23",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "台中市地政局前局長詐領特別費6萬餘元認罪　中檢今起訴求減刑",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/story/20251224inv002"
+    },
+    {
+     "title": "台中地政局前局長吳存金爆貪汙 濫用特別費招待親友吃飯今遭起訴",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7321/9223075"
+    },
+    {
+     "title": "特別費支付家庭聚餐 台中市前地政局長貪污被訴",
+     "outlet": "cnews.com.tw",
+     "url": "https://cnews.com.tw/224251224a03/"
+    },
+    {
+     "title": "家庭聚餐核銷特別費台中前地政局長涉貪遭起訴",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202512240076.aspx"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20251210a",
+   "title": "拿1成回扣是傳統？台中和平前區長索賄589萬還債 判6年半定讞",
+   "date": "2025-12-10",
+   "place": "和平",
+   "summary": "和平發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "台中前區長賣官納心腹！白手套收賄589萬破功　判刑6年半定讞",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20251210/3081520.htm"
+    },
+    {
+     "title": "拿1成回扣是傳統？台中和平前區長索賄589萬還債 判6年半定讞",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7321/9193674"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20251209a",
+   "title": "台中資深清潔隊員貪汙 親友委託幫載咖啡廳垃圾...圖利罪判緩刑",
+   "date": "2025-12-09",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "台中資深清潔隊員貪汙 親友委託幫載咖啡廳垃圾...圖利罪判緩刑",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7321/9191442"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20251202a",
+   "title": "【警察】12警被依貪污罪嫌起訴台中警察局：依規停職",
+   "date": "2025-12-02",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "12警被依貪污罪嫌起訴台中警察局：依規停職",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202512020211.aspx"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
    "id": "k-tickets",
    "title": "【警察】12名警員開假罰單 圖利約4400萬",
    "date": "2025-12",
@@ -110,6 +681,11 @@
      "title": "台中12警開假罰單 涉圖利4400萬被起訴",
      "outlet": "公視新聞網",
      "url": "https://news.pts.org.tw/article/784023"
+    },
+    {
+     "title": "台中爆12警「吊扣變吊銷」圖利4400萬　警：收到起訴書立即停職",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20251202/3077183.htm"
     }
    ]
   },
@@ -161,6 +737,397 @@
    ]
   },
   {
+   "id": "k-i20251120a",
+   "title": "【警察】台中「紅白單」弊案增至32警捲入 警友違停怨搶錢...他幫改單涉圖利",
+   "date": "2025-11-20",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "台中「紅白單」弊案增至32警捲入 警友違停怨搶錢...他幫改單涉圖利",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7321/9151161"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20251101a",
+   "title": "台中環保局清潔隊貪污案！收錢幫倒廢棄物、拿酒封口　再收押1人",
+   "date": "2025-11-01",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "台中環保局清潔隊貪污案！收錢幫倒廢棄物、拿酒封口　再收押1人",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20251101/3060293.htm"
+    },
+    {
+     "title": "台中環保局貪汙連環爆！又1清潔隊員查出收賄 涉貪汙遭收押禁見",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7321/9111452"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20251012a",
+   "title": "國軍士兵翻拍機密交中共特工中檢依貪污罪起訴",
+   "date": "2025-10-12",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "國軍士兵翻拍機密交中共特工中檢依貪污罪起訴",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202510120002.aspx"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20250905a",
+   "title": "台中環保局爆貪污！司機私清垃圾142次GPS露餡　塞酒送同事封口",
+   "date": "2025-09-05",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "台中環保局爆貪污！司機私清垃圾142次GPS露餡　塞酒送同事封口",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250905/3028318.htm"
+    },
+    {
+     "title": "台中環保局爆貪污！7人勾結廠商值勤繞路 幫清垃圾142次",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2980680"
+    },
+    {
+     "title": "台中清潔隊員「公車私用」收賄代運非法廢棄物142次　GPS揪到聲押2人獲准",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/story/20250905inv002"
+    },
+    {
+     "title": "台中清潔隊員集體貪污！送高粱酒封口GPS露餡　2人收押禁見",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250906/3028728.htm"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20250818a",
+   "title": "台中里長送弱勢「假按摩枕」爆貪污！勾結廠商吞逾5萬 一審判2年緩刑4年",
+   "date": "2025-08-18",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "台中里長按摩枕送弱勢竟也貪污　150個僅買入60個下場出爐",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250818/3017239.htm"
+    },
+    {
+     "title": "台中里長送弱勢「假按摩枕」爆貪污！勾結廠商吞逾5萬 一審判2年緩刑4年",
+     "outlet": "FTNN 新聞網",
+     "url": "https://www.ftnn.com.tw/news/476772"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20250715a",
+   "title": "台中惡檢性騷「最美董座」暗示索賄：我一塊錢都沒收到是怎樣",
+   "date": "2025-07-15",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "台中惡檢性騷「最美董座」暗示索賄：我一塊錢都沒收到是怎樣",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250715/2996347.htm"
+    },
+    {
+     "title": "台中惡檢裁贓博弈教父！　索賄撩妹證據曝光",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250715/2996345.htm"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20250710a",
+   "title": "「刑案加油費」幫妻小慶生爽玩台東　台中2線2貪污所長6罪起訴",
+   "date": "2025-07-10",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "「刑案加油費」幫妻小慶生爽玩台東　台中2線2貪污所長6罪起訴",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250710/2993868.htm"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20250710b",
+   "title": "連婚宴禮金都A!前沙鹿所長拿假收據核銷8萬餘元中檢貪污罪起訴- 社會",
+   "date": "2025-07-10",
+   "place": "沙鹿",
+   "summary": "沙鹿發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "連婚宴禮金都A!前沙鹿所長拿假收據核銷8萬餘元中檢貪污罪起訴- 社會",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5103498"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20250616a",
+   "title": "台中里長買按摩枕送里民貪污5萬 廠商認罪盼緩刑",
+   "date": "2025-06-16",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "台中里長買按摩枕送里民貪污5萬 廠商認罪盼緩刑",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/Taichung/breakingnews/5076286"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20250425a",
+   "title": "5萬也要貪？台中女里長謊報送弱勢里民禮物數量被羈押貪污起訴- 社會",
+   "date": "2025-04-25",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "5萬也要貪？台中女里長謊報送弱勢里民禮物數量被羈押貪污起訴- 社會",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5022980"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20250425b",
+   "title": "台中里長涉貪遭起訴虛報發票詐領補助5萬餘元",
+   "date": "2025-04-25",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "台中里長涉貪遭起訴虛報發票詐領補助5萬餘元",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202504250198.aspx"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20250410a",
+   "title": "台中警改單檢起訴31人涉案所長：扣上貪污太沉重- 社會",
+   "date": "2025-04-10",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "台中警改單檢起訴31人涉案所長：扣上貪污太沉重- 社會",
+     "outlet": "華視新聞",
+     "url": "https://news.cts.com.tw/cts/society/202504/202504102459038.html"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20250321a",
+   "title": "【警察】台中假律師詐騙接案 市府員工、警員違法查個資！9人貪污等罪起訴",
+   "date": "2025-03-21",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "超扯！台中假律師叫市府員工、警察查個資　9人貪污罪起訴",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250321/2929288.htm"
+    },
+    {
+     "title": "台中假律師詐騙接案 市府員工、警員違法查個資！9人貪污等罪起訴",
+     "outlet": "壹蘋新聞網",
+     "url": "https://news.nextapple.com/local/20250321/A6B7A84705519574F86B7412C6EA7105"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20250321b",
+   "title": "【警察】「假律師騙倒真律師」案外案中檢查到中市府經發局人員與警察涉洩密- 社會",
+   "date": "2025-03-21",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "「假律師騙倒真律師」案外案中檢查到中市府經發局人員與警察涉洩密- 社會",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4987054"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20250310a",
+   "title": "海巡及台中彰化警疑涉私菸案收賄洩密至少23人列被告",
+   "date": "2025-03-10",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "海巡及台中彰化警疑涉私菸案收賄洩密至少23人列被告",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202503100319.aspx"
+    },
+    {
+     "title": "彰檢搜索台中4所分局及刑大7員警疑涉洩密被帶走",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202503100144.aspx"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20250301a",
+   "title": "台中地政局長涉不實核銷特別費 100萬元交保 中市府：尊重司法調查",
+   "date": "2025-03-01",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "台中地政局長吳存金涉不實核銷特別費 100萬元交保 中市府：尊重司法調查",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E5%9C%B0%E6%94%BF%E5%B1%80%E9%95%B7%E5%90%B3%E5%AD%98%E9%87%91%E6%B6%89%E4%B8%8D%E5%AF%A6%E6%A0%B8%E9%8A%B7%E7%89%B9%E5%88%A5%E8%B2%BB-100%E8%90%AC%E5%85%83%E4%BA%A4%E4%BF%9D-%E4%B8%AD%E5%B8%82%E5%BA%9C%EF%BC%9A%E5%B0%8A%E9%87%8D%E5%8F%B8%E6%B3%95%E8%AA%BF%E6%9F%A5-032037160.html"
+    },
+    {
+     "title": "台中地政局長涉詐領特別費被搜索　市府：尊重司法調查",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250302/2917835.htm"
+    },
+    {
+     "title": "地政局長吳存金涉不實核銷特別費中市府：尊重司法調查",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202503020057.aspx"
+    },
+    {
+     "title": "中市地政局長吳存金涉不實核銷特別費100萬元交保",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202503020036.aspx"
+    },
+    {
+     "title": "中市地政局長涉特別費弊案 檢方訊後諭知100萬元交保",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/740195"
+    },
+    {
+     "title": "單據廠商作證！中市地政局長涉特別費不實核銷　罪嫌重大請辭獲准",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/story/20250303inv001"
+    },
+    {
+     "title": "疑特別費涉貪！台中地政局長吳存金遭搜索100萬交保 市府回應了",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2795022"
+    },
+    {
+     "title": "快訊／台中市府高官涉特別費案　地政局長吳存金火速請辭獲准",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250303/2918202.htm"
+    },
+    {
+     "title": "涉不實核銷特別費台中地政局長吳存金請辭獲准",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202503030032.aspx"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20250219a",
+   "title": "【警察】台中2警涉嫌洩密！霧峰分局遭檢調搜索　派出所長15萬交保",
+   "date": "2025-02-19",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "獨／台中警局爆洩密案！派出所長、員警遭搜索　接受偵訊中",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250219/2911558.htm"
+    },
+    {
+     "title": "台中2警涉嫌洩密！霧峰分局遭檢調搜索　派出所長15萬交保",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250220/2912024.htm"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20250218a",
+   "title": "【警察】台中西屯派出所涉開單貪污案員警出庭認罪判減刑",
+   "date": "2025-02-18",
+   "place": "西屯",
+   "summary": "西屯發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "台中西屯派出所涉開單貪污案員警出庭認罪判減刑",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202502180171.aspx"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
    "id": "k-land",
    "title": "地政局長用首長特別費請親友吃飯 依貪污判2年緩刑",
    "date": "2025-02",
@@ -187,6 +1154,89 @@
      "outlet": "聯合新聞網",
      "url": "https://udn.com/news/story/7321/9223227"
     }
+   ]
+  },
+  {
+   "id": "k-i20250121a",
+   "title": "台中警「白單改紅單」涉圖利　地檢追加起訴15人、共31警被起訴",
+   "date": "2025-01-21",
+   "place": "西屯",
+   "summary": "西屯發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "台中警界白單改紅單圖利案追加起訴　合計涉案警員達31人",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/story/20250122inv002"
+    },
+    {
+     "title": "西屯派出所員警涉開單圖利再起訴15人 2波共31人",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202501220047.aspx"
+    },
+    {
+     "title": "台中警集體貪瀆 白單改紅單！檢批「積非成是」起訴31人",
+     "outlet": "民視新聞",
+     "url": "https://sport.ftvnews.com.tw/news/detail/2025122C10M1"
+    },
+    {
+     "title": "台中警「白單改紅單」涉圖利　地檢追加起訴15人、共31警被起訴",
+     "outlet": "NOWnews",
+     "url": "https://www.nownews.com/news/6638475"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20250120a",
+   "title": "前檢察官貪污喪失律師資格辦理訴訟業務遭中檢起訴",
+   "date": "2025-01-20",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "前檢察官貪污喪失律師資格辦理訴訟業務遭中檢起訴",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202501200079.aspx"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20250118a",
+   "title": "【警察】偵辦治平對象槍毒案涉洩密！台中小隊長遭約談　10萬交保",
+   "date": "2025-01-18",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "獨／偵辦治平對象槍毒案涉洩密！台中小隊長遭約談　10萬交保",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250118/2894718.htm"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20250109a",
+   "title": "【警察】台中西屯派出所員警開單圖利案檢方再傳2警官調查",
+   "date": "2025-01-09",
+   "place": "西屯",
+   "summary": "西屯發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "台中西屯派出所員警開單圖利案檢方再傳2警官調查",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202501090337.aspx"
+    }
+   ],
+   "fear": [
+    "K"
    ]
   },
   {
@@ -232,6 +1282,96 @@
    ]
   },
   {
+   "id": "k-i20241230a",
+   "title": "船艇駕照買就有！中檢再查出247人花錢買照 5人貪污起訴",
+   "date": "2024-12-30",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "船艇駕照買就有！中檢再查出247人花錢買照 5人貪污起訴",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4908849"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20241225a",
+   "title": "擋不住「人情關說」台中18警開假單慘被停職　檢察官建議輕判",
+   "date": "2024-12-25",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "擋不住「人情關說」台中18警開假單慘被停職　檢察官建議輕判",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20241225/2880269.htm"
+    },
+    {
+     "title": "19警開假單貪污被起訴　台中警局開鍘：立即停職",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20241225/2880172.htm"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20241225b",
+   "title": "「警友」關說基層扛罪？ 中市警「白單改紅單」弊案 檢第一波起訴18人",
+   "date": "2024-12-25",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "「警友」關說基層扛罪？ 中市警「白單改紅單」弊案 檢第一波起訴18人",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4903546"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20241224a",
+   "title": "台中警假單案19人遭貪污罪起訴　基層警嘆「最慘的聖誕禮物」",
+   "date": "2024-12-24",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "獨／台中警假單案19人遭貪污罪起訴　基層警嘆「最慘的聖誕禮物」",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20241224/2880005.htm"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20241120a",
+   "title": "【警察】前警政監涉洩密案 台中地院裁定延押2月",
+   "date": "2024-11-20",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "前警政監林明佐涉洩密案 台中地院裁定延押2月",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202411200098.aspx"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
    "id": "k-busnews",
    "title": "【警察】中市警文件建議「勿發公車違規新聞」 議員轟壓新聞 警局：絕無隱瞞",
    "date": "2024-10",
@@ -251,6 +1391,62 @@
      "outlet": "中央社",
      "url": "https://www.cna.com.tw/news/aloc/202410180099.aspx"
     }
+   ]
+  },
+  {
+   "id": "k-i20240904a",
+   "title": "台中12警「竄改罰單」涉貪污偽造文書 1人聲押獲准10人交保",
+   "date": "2024-09-04",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "台中12警「開假單」貪污圖利！檢調出手全帶回偵訊",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240904/2810902.htm"
+    },
+    {
+     "title": "台中12警「竄改罰單」涉貪污偽造文書 1人聲押獲准10人交保",
+     "outlet": "壹蘋新聞網",
+     "url": "https://news.nextapple.com/local/20240905/5758C617CCE1EF81EBA4FB27209C72B2"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20240824a",
+   "title": "最貪警探林明佐許願求官「想調台中刑大大隊長」 起訴書未揭關說對象",
+   "date": "2024-08-24",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "最貪警探林明佐許願求官「想調台中刑大大隊長」 起訴書未揭關說對象",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E6%9C%80%E8%B2%AA%E8%AD%A6%E6%8E%A2%E6%9E%97%E6%98%8E%E4%BD%90%E8%A8%B1%E9%A1%98%E6%B1%82%E5%AE%98-%E6%83%B3%E8%AA%BF%E5%8F%B0%E4%B8%AD%E5%88%91%E5%A4%A7%E5%A4%A7%E9%9A%8A%E9%95%B7-%E8%B5%B7%E8%A8%B4%E6%9B%B8%E6%9C%AA%E6%8F%AD%E9%97%9C%E8%AA%AA%E5%B0%8D%E8%B1%A1-032009961.html"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20240718a",
+   "title": "台中名律師捲警官貪瀆案！50萬交保…檢重批：辜負社會期待",
+   "date": "2024-07-18",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "台中名律師捲林明佐貪瀆案！50萬交保…檢重批：辜負社會期待",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240718/2779750.htm"
+    }
+   ],
+   "fear": [
+    "K"
    ]
   },
   {
@@ -288,6 +1484,456 @@
      "outlet": "聯合新聞網",
      "url": "https://udn.com/news/story/7321/8979372"
     }
+   ]
+  },
+  {
+   "id": "k-i20240512a",
+   "title": "【警察】台中警界風紀連環爆！小隊長涉浮報刑辦費　調查局要求說明",
+   "date": "2024-05-12",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "獨／台中警界風紀連環爆！小隊長涉浮報刑辦費　調查局要求說明",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240512/2737290.htm"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20240502a",
+   "title": "【警察】刑大3警官「涉貪污案」接受偵訊　台中警局：自行前往配合調查",
+   "date": "2024-05-02",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "刑大3警官「涉貪污案」接受偵訊　台中警局：自行前往配合調查",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240502/2731185.htm"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20240502b",
+   "title": "前台中刑大隊長涉嫌洩密給博弈集團，嫌疑重大台中地院羈押禁見",
+   "date": "2024-05-02",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "快訊／涉貪污被帶走！刑事局高官林明佐+台中刑大2主管被調查",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240502/2731072.htm"
+    },
+    {
+     "title": "前台中刑大隊長涉嫌洩密給博弈集團，嫌疑重大台中地院羈押禁見",
+     "outlet": "關鍵評論網",
+     "url": "https://www.thenewslens.com/article/202260"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20240410a",
+   "title": "疑利用辦案機會浮報不實發票 台中少年隊2偵查佐涉貪交保",
+   "date": "2024-04-10",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "快訊／台中少年隊遭搜索！　2偵查佐涉嫌浮報費用...10萬交保",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240410/2716514.htm"
+    },
+    {
+     "title": "疑利用辦案機會浮報不實發票 台中少年隊2偵查佐涉貪交保",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/689738"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20231207a",
+   "title": "台中警涉7年6次洩密毒販 一審判2年3月不得緩刑",
+   "date": "2023-12-07",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "台中警涉7年6次洩密毒販 一審判2年3月不得緩刑",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/670284"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20230928a",
+   "title": "想免費帶妻女赴加拿大行銷柑橘 竟偽報27萬公帳！台中前農業局長貪污起訴",
+   "date": "2023-09-28",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "想免費帶妻女赴加拿大行銷柑橘 竟偽報27萬公帳！台中前農業局長貪污起訴",
+     "outlet": "壹蘋新聞網",
+     "url": "https://news.nextapple.com/politics/20230928/75FC0183BCCECE98E4BD69BA34C028CA"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20230802a",
+   "title": "衛福部3部立醫院集體收賄案 中檢起訴6 公務員",
+   "date": "2023-08-02",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "衛福部3部立醫院集體收賄案 中檢起訴6 公務員",
+     "outlet": "cnews.com.tw",
+     "url": "https://cnews.com.tw/224230802a03/"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20230610a",
+   "title": "詐領72萬助理費供奉法師+買裙子　前台中市議員冉齡軒判刑4年",
+   "date": "2023-06-10",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "詐領72萬助理費供奉法師+買裙子　前台中市議員冉齡軒判刑4年",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230610/2517099.htm"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20230426a",
+   "title": "涉竊佔國有土地 中檢依貪污等罪起訴顏寬恒夫婦",
+   "date": "2023-04-26",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "涉竊佔國有土地 中檢依貪污等罪起訴顏寬恒夫婦",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/634010"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20230223a",
+   "title": "國軍台中總醫院骨科主任涉收賄 住處搜出2300萬現金和點鈔機",
+   "date": "2023-02-23",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "國軍台中總醫院爆貪污！骨科部主任家藏2300萬現金　還備有點鈔機",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230223/2446659.htm"
+    },
+    {
+     "title": "國軍台中總醫院骨科主任林建中涉收賄住處搜出2300萬現金和點鈔機- 社會",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4220392"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20221110a",
+   "title": "2案收賄2938萬 前台中市議會祕書長陳健楷再判7、10年",
+   "date": "2022-11-10",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "2案收賄2938萬 前台中市議會祕書長陳健楷再判7、10年",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4119037"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20221005a",
+   "title": "台中前水利局科長向廠商索賄 一審判8年並註銷模範公務員",
+   "date": "2022-10-05",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "台中前水利局科長向廠商索賄 一審判8年並註銷模範公務員",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/603050"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20221002a",
+   "title": "凹廠商3輛車私用辯「行之有年陋習」　前台中科長貪污罪判8年",
+   "date": "2022-10-02",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "凹廠商3輛車私用辯「行之有年陋習」　前台中科長貪污罪判8年",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1186439"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20220512a",
+   "title": "基層揭上級貪污舞弊遭調職？ 中市警：考核不佳才調整",
+   "date": "2022-05-12",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "基層揭上級貪污舞弊遭調職？ 中市警：考核不佳才調整",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/1790288"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20220216a",
+   "title": "台中市議員冉齡軒疑涉詐領助理費！　檢調多路搜索偵訊20餘人",
+   "date": "2022-02-16",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "台中市議員冉齡軒疑涉詐領助理費！　檢調多路搜索偵訊20餘人",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20220216/2190546.htm"
+    },
+    {
+     "title": "快訊／貪污嫌疑重大　台中市議員冉齡軒涉詐領助理費遭羈押",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20220217/2191381.htm"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20220112a",
+   "title": "台中是「貪婪之都」？資深記者列「某前市長」事蹟：這不叫貪污什麼是貪污？",
+   "date": "2022-01-12",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "台中是「貪婪之都」？資深記者列「某前市長」事蹟：這不叫貪污什麼是貪污？",
+     "outlet": "fountmedia.io",
+     "url": "https://www.fountmedia.io/article/141385"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20211210a",
+   "title": "中市前議會祕書長貪瀆判刑確定　近日發監執行",
+   "date": "2021-12-10",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "中市前議會祕書長陳健楷貪瀆判刑確定　近日發監執行",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/story/20211211soc003"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20211102a",
+   "title": "【警察】「家裡小孩欠電腦」台中消防小隊長收賄放水　判刑6年10月定讞",
+   "date": "2021-11-02",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "「家裡小孩欠電腦」台中消防小隊長收賄放水　判刑6年10月定讞",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20211102/2114616.htm"
+    },
+    {
+     "title": "前消防小隊長涉收賄安檢放水 台中消防局安檢改為小組專責制",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/552162"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20210818a",
+   "title": "曾涉醫界最大弊案　豐原醫院前放射科主任收賄再遭判刑",
+   "date": "2021-08-18",
+   "place": "豐原",
+   "summary": "豐原發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "曾涉醫界最大弊案　豐原醫院前放射科主任李傳國收賄再遭判刑",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20210818/2058307.htm"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20210620a",
+   "title": "台中法官自封「吹哨者」檢警譁然！基層質疑涉洩密　庭長回應了",
+   "date": "2021-06-20",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "台中法官自封「吹哨者」檢警譁然！基層質疑涉洩密　庭長回應了",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20210620/2011532.htm"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20200926a",
+   "title": "【警察】水保局台中分局 爆發疑集體涉喝花酒收賄",
+   "date": "2020-09-26",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "水保局台中分局 爆發疑集體涉喝花酒收賄",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/495238"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20200629a",
+   "title": "台中衛生所女主任遭爆搶驗屍！「月驗上百具」另涉詐領健保　30萬交保",
+   "date": "2020-06-29",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "台中衛生所女主任遭爆搶驗屍！「月驗上百具」另涉詐領健保　30萬交保",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20200629/1748670.htm"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20200114a",
+   "title": "【警察】中市警官收賄不辦事 狡辯是借款連數字都「兜不攏」",
+   "date": "2020-01-14",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "中市警官白喬維收賄不辦事 狡辯是借款連數字都「兜不攏」",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/3039763"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20190821a",
+   "title": "中市前教局主任索賄還謊稱「我們公務人員有這個規矩」",
+   "date": "2019-08-21",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "中市前教局主任索賄還謊稱「我們公務人員有這個規矩」",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20190821/1517677.htm"
+    }
+   ],
+   "fear": [
+    "K"
+   ]
+  },
+  {
+   "id": "k-i20190528a",
+   "title": "砸億元做廚餘桶！ 中市議員批前朝涉圖利",
+   "date": "2019-05-28",
+   "place": "台中",
+   "summary": "台中發生公務員貪瀆案件。",
+   "sources": [
+    {
+     "title": "砸億元做廚餘桶！ 中市議員批前朝涉圖利",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/politics/1140270"
+    }
+   ],
+   "fear": [
+    "K"
    ]
   }
  ]
