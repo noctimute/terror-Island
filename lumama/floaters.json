@@ -689,7 +689,7 @@
    "title": "台中豐原雙屍案 祖父墜樓、孫溺斃浴室水桶",
    "date": "2025-07-03",
    "place": "豐原",
-   "summary": "豐原一處住宅發現一名男子的遺體，報請檢警相驗。",
+   "summary": "豐原一處住宅，一名幼童在浴室溺斃。",
    "sources": [
     {
      "title": "關鍵評論網報導",
@@ -731,7 +731,8 @@
      "url": "https://www.ftnn.com.tw/news/587399"
     }
    ],
-   "deaths": 1
+   "deaths": 1,
+   "title": "快訊／台中石岡水壩傳命案！1人卡閘門載浮載沉⋯撈起全裸女浮屍"
   },
   {
    "id": "float-dm144",
@@ -815,7 +816,8 @@
      "url": "https://www.setn.com/News.aspx?NewsID=1650581"
     }
    ],
-   "deaths": 1
+   "deaths": 1,
+   "title": "新／台中驚傳命案！男面朝下陳屍排水溝"
   },
   {
    "id": "float-dm137",
@@ -864,7 +866,8 @@
      "url": "https://udn.com/news/story/7320/8705738"
     }
    ],
-   "deaths": 1
+   "deaths": 1,
+   "title": "台中和平白冷圳取水口昨發現男浮屍 目前尚無法確認身份"
   },
   {
    "id": "float-41",
@@ -893,7 +896,8 @@
      "url": "https://news.ltn.com.tw/news/society/breakingnews/5010131"
     }
    ],
-   "deaths": 1
+   "deaths": 1,
+   "title": "台中湧泉公園內驚傳男浮屍 警方封鎖現場採證！死者身份待查"
   },
   {
    "id": "float-39",
@@ -907,7 +911,8 @@
      "url": "https://news.ltn.com.tw/news/Taichung/breakingnews/5007330"
     }
    ],
-   "deaths": 1
+   "deaths": 1,
+   "title": "台中后里排水溝驚傳浮屍 發現失聯3天老翁"
   },
   {
    "id": "float-38",
@@ -931,7 +936,8 @@
      "url": "https://new-reporter.com/news/275171/"
     }
    ],
-   "deaths": 1
+   "deaths": 1,
+   "title": "加裝監視器、增加人力巡視阻意外   台中公園日月湖今又見浮屍"
   },
   {
    "id": "float-37",
@@ -950,7 +956,8 @@
      "url": "https://news.tvbs.com.tw/local/2820915"
     }
    ],
-   "deaths": 1
+   "deaths": 1,
+   "title": "溪邊釣魚竟見慘劇！台中不詳男漂浮水面 撈起已成冰冷遺體"
   },
   {
    "id": "float-18",
@@ -974,7 +981,8 @@
      "url": "https://news.tvbs.com.tw/local/2772303"
     }
    ],
-   "deaths": 1
+   "deaths": 1,
+   "title": "快訊／台中東勢大橋下驚見男性浮屍 警急撈起釐清身分"
   },
   {
    "id": "float-13",
@@ -993,7 +1001,8 @@
      "url": "https://www.ctwant.com/article/393841/"
     }
    ],
-   "deaths": 1
+   "deaths": 1,
+   "title": "初四清晨離家成浮屍！台中潭子63歲男死在大排 身上4處傷口"
   },
   {
    "id": "float-dm88",
@@ -1037,7 +1046,8 @@
      "url": "https://web.archive.org/web/20250209190221/https://news.pchome.com.tw/society/crwant/20250130/index-73824127061837316002.html"
     }
    ],
-   "deaths": 1
+   "deaths": 1,
+   "title": "台中大排驚見浮屍！1月大男嬰全身腫脹 死亡時間曝光"
   },
   {
    "id": "float-115",
@@ -1071,7 +1081,8 @@
      "url": "https://news.tvbs.com.tw/local/2688664"
     }
    ],
-   "deaths": 1
+   "deaths": 1,
+   "title": "台中公園今年第3起！23歲女日月湖邊徘徊 尋獲搶救無效亡"
   },
   {
    "id": "float-110",
@@ -1095,7 +1106,8 @@
      "url": "https://www.youtube.com/watch?v=sArbTeC8fsE"
     }
    ],
-   "deaths": 1
+   "deaths": 1,
+   "title": "台中市外埔區驚見男浮屍！ 趴「水深僅10公分」水溝慘死"
   },
   {
    "id": "float-109",
@@ -1114,7 +1126,8 @@
      "url": "https://udn.com/news/story/7320/8342057"
     }
    ],
-   "deaths": 1
+   "deaths": 1,
+   "title": "快訊／台中旱溪驚見男浮屍！半裸卡攔砂壩閘門 1小時後拉上岸"
   },
   {
    "id": "float-dm54",
@@ -1158,7 +1171,8 @@
      "url": "https://tw.news.yahoo.com/%E5%BF%AB%E8%A8%8A-%E5%8F%B0%E4%B8%AD-%E5%B8%9D%E5%9C%8B%E7%B3%96%E5%BB%A0-%E9%A9%9A%E8%A6%8B%E7%94%B7%E6%B5%AE%E5%B1%8D%E8%BC%89%E6%B5%AE%E8%BC%89%E6%B2%89-%E6%B0%91%E7%9C%BE%E6%95%A3%E6%AD%A5%E5%9A%87%E5%A3%9E%E5%A0%B1%E8%AD%A6-102700576.html"
     }
    ],
-   "deaths": 1
+   "deaths": 1,
+   "title": "快訊／台中帝國糖廠星泉湖赫見男浮屍！民眾驚嚇忙報警"
   },
   {
    "id": "float-88",
@@ -1207,7 +1221,8 @@
      "url": "https://news.tvbs.com.tw/local/2574519"
     }
    ],
-   "deaths": 1
+   "deaths": 1,
+   "title": "台中港碼頭驚見浮屍！中年刺青男海面上漂浮 口袋暗藏粉色剪刀"
   },
   {
    "id": "float-80",
@@ -1231,7 +1246,8 @@
      "url": "https://www.ctwant.com/article/350229/"
     }
    ],
-   "deaths": 1
+   "deaths": 1,
+   "title": "台中西屯河堤驚見女浮屍！外籍女子落水亡 身分死因待釐清"
   },
   {
    "id": "float-81",
@@ -1250,7 +1266,8 @@
      "url": "https://www.setn.com/News.aspx?NewsID=1500539"
     }
    ],
-   "deaths": 1
+   "deaths": 1,
+   "title": "84歲嬤失聯 遺體在神岡大排尋獲"
   },
   {
    "id": "float-77",
@@ -1299,7 +1316,8 @@
      "url": "https://www.setn.com/News.aspx?NewsID=1491999"
     }
    ],
-   "deaths": 1
+   "deaths": 1,
+   "title": "台中港97號碼頭發現浮屍 家屬指認就是失蹤外送員"
   },
   {
    "id": "float-66",
@@ -1328,7 +1346,8 @@
      "url": "https://www.ettoday.net/news/20240622/2763113.htm"
     }
    ],
-   "deaths": 1
+   "deaths": 1,
+   "title": "快訊／台中大雅驚見浮屍！ 56歲女倒臥「大排水溝」亡"
   },
   {
    "id": "float-59",
@@ -1382,7 +1401,8 @@
      "url": "https://udn.com/news/story/7320/8008808"
     }
    ],
-   "deaths": 1
+   "deaths": 1,
+   "title": "一周內第二起！台中公園日月湖又見浮屍 70歲男全身浮腫明顯身亡"
   },
   {
    "id": "float-55",
@@ -1406,7 +1426,8 @@
      "url": "https://web.archive.org/web/20250211095642/https://udn.com/news/story/7320/7990471"
     }
    ],
-   "deaths": 1
+   "deaths": 1,
+   "title": "快訊／台中南屯2天內第3起命案！83歲翁疑健康不佳陳屍水溝"
   },
   {
    "id": "float-57",
@@ -1435,7 +1456,8 @@
      "url": "https://udn.com/news/story/7320/8008808"
     }
    ],
-   "deaths": 1
+   "deaths": 1,
+   "title": "台中公園日月湖驚見女浮屍 打撈上岸釐清死因"
   },
   {
    "id": "float-dm7",
@@ -1460,14 +1482,19 @@
      "url": "https://www.mirrormedia.mg/external/setn_1474326"
     },
     {
-     "title": "台中筏子溪驚見浮屍！ 男子溺水排除外力介入 | 記者爆料網",
-     "outlet": "新新聞報",
-     "url": "https://new-reporter.com/news/282008/"
-    },
-    {
      "title": "快訊/台中南屯有人墜橋！60歲男子掉入筏子溪 救起無呼吸心跳",
      "outlet": "中天新聞網",
      "url": "https://ctinews.com/news/items/qXWQ1kvOWR"
+    },
+    {
+     "title": "台中6旬男墜橋送醫不治 詭異！南屯2天4起死亡案",
+     "outlet": "CTWANT",
+     "url": "https://www.ctwant.com/article/339547"
+    },
+    {
+     "title": "台中南屯2天3起死亡案報驗 8旬翁今被發現陳屍水溝",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4685619"
     }
    ],
    "deaths": 1
@@ -1476,8 +1503,8 @@
    "id": "float-h20240316a",
    "title": "台中男離奇「墜水溝溺斃」！初步原因出爐　將報請刑事相驗",
    "date": "2024-03-16",
-   "place": "台中",
-   "summary": "台中發生溺水事件，一人身亡。",
+   "place": "沙鹿",
+   "summary": "沙鹿發生溺水事件，一人身亡。",
    "sources": [
     {
      "title": "快訊／台中男離奇「墜水溝溺斃」！初步原因出爐　將報請刑事相驗",
@@ -1488,26 +1515,11 @@
    "deaths": 1
   },
   {
-   "id": "float-h20240228a",
-   "title": "台中女7樓墜河「被沖進地下涵洞」　警消出動救生艇尋獲遺體",
-   "date": "2024-02-28",
-   "place": "台中",
-   "summary": "台中發現一具遺體，報請檢警相驗。",
-   "sources": [
-    {
-     "title": "台中女7樓墜河「被沖進地下涵洞」 警消出動救生艇尋獲遺體",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20240228/2690817.htm"
-    }
-   ],
-   "deaths": 1
-  },
-  {
    "id": "float-h20231101a",
    "title": "臨時被揪去慶生！台中14歲少年溺斃　父悲憤質問同行友人",
    "date": "2023-11-01",
-   "place": "台中",
-   "summary": "台中發生溺水事件，一名男子身亡。",
+   "place": "太平",
+   "summary": "太平發生溺水事件，一名男子身亡。",
    "sources": [
     {
      "title": "台中14歲男請假去玩水慶生亡 父怒「掐壽星脖子」拉下機車",
@@ -1518,17 +1530,7 @@
      "title": "臨時被揪去慶生！台中14歲少年溺斃　父悲憤質問同行友人",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20231101/2613940.htm"
-    }
-   ],
-   "deaths": 1
-  },
-  {
-   "id": "float-h20231101b",
-   "title": "慶生變調！台中某國中生請假到頭汴溪玩水　慘遭溺斃",
-   "date": "2023-11-01",
-   "place": "台中",
-   "summary": "台中發生溺水事件，一名學生身亡。",
-   "sources": [
+    },
     {
      "title": "快訊／慶生變調！台中某國中生請假到頭汴溪玩水　慘遭溺斃",
      "outlet": "ETtoday",
@@ -1541,8 +1543,8 @@
    "id": "float-h20231014a",
    "title": "台中工人烏溪放魚籠失蹤　搜救人員上午尋獲...已陳屍水潭中",
    "date": "2023-10-14",
-   "place": "台中",
-   "summary": "台中發現一具遺體，報請檢警相驗。",
+   "place": "霧峰",
+   "summary": "霧峰發現一具遺體，報請檢警相驗。",
    "sources": [
     {
      "title": "台中工人烏溪放魚籠失蹤 搜救人員上午尋獲...已陳屍水潭中",
@@ -1556,8 +1558,8 @@
    "id": "float-h20231010a",
    "title": "台中虹揚橋下驚見浮屍　死者無證件額頭有傷",
    "date": "2023-10-10",
-   "place": "台中",
-   "summary": "台中發現一具遺體，報請檢警相驗。",
+   "place": "西屯",
+   "summary": "西屯發現一具遺體，報請檢警相驗。",
    "sources": [
     {
      "title": "快訊／台中虹揚橋下驚見浮屍 死者無證件額頭有傷",
@@ -1568,42 +1570,22 @@
    "deaths": 1
   },
   {
-   "id": "float-h20230814a",
-   "title": "台中旱溪4天內發現2屍　男女死者均無證件身分待查",
-   "date": "2023-08-14",
-   "place": "台中",
-   "summary": "台中發現 2 人的遺體，報請檢警相驗。",
-   "sources": [
-    {
-     "title": "台中旱溪4天內發現2屍 男女死者均無證件身分待查",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20230814/2560727.htm"
-    }
-   ],
-   "deaths": 2
-  },
-  {
    "id": "float-h20230814b",
    "title": "台中金母橋驚見浮屍！　1男「發黑浮腫」身分確認中",
    "date": "2023-08-14",
-   "place": "台中",
-   "summary": "台中發現一具遺體，報請檢警相驗。",
+   "place": "太平",
+   "summary": "太平金母橋下的旱溪發現一名男子的遺體，報請檢警相驗。",
    "sources": [
     {
      "title": "快訊／台中金母橋驚見浮屍！ 1男「發黑浮腫」身分確認中",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20230814/2560561.htm"
-    }
-   ],
-   "deaths": 1
-  },
-  {
-   "id": "float-h20230814c",
-   "title": "裸男陳屍台中旱溪！　他步道運動驚見「頭部倒插河床」",
-   "date": "2023-08-14",
-   "place": "台中",
-   "summary": "台中發現一具遺體，報請檢警相驗。",
-   "sources": [
+    },
+    {
+     "title": "台中旱溪4天內發現2屍 男女死者均無證件身分待查",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230814/2560727.htm"
+    },
     {
      "title": "快訊／裸男陳屍台中旱溪！ 他步道運動驚見「頭部倒插河床」",
      "outlet": "ETtoday",
@@ -1623,6 +1605,16 @@
      "title": "豐原童疑遭父打到昏迷...竟「被帶去泡澡」溺斃　解剖見新傷鐵證",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20230607/2515177.htm"
+    },
+    {
+     "title": "豐原童泡澡溺死 鄰居爆「深夜傳怒吼、哭聲」疑被虐：警察來過",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230610/2516951.htm"
+    },
+    {
+     "title": "台中6歲男童「泡澡猝死」！身上多處陳舊瘀傷 曾有遭家暴紀錄",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230605/2513304.htm"
     }
    ],
    "deaths": 1
@@ -1659,7 +1651,7 @@
   },
   {
    "id": "float-h20230201a",
-   "title": "2023/2/1 台中發現遺體",
+   "title": "【警察】台中港務男警陳屍車內 投資股票賠上千萬",
    "date": "2023-02-01",
    "place": "台中",
    "summary": "台中發現一具遺體，報請檢警相驗。",
@@ -1673,38 +1665,8 @@
    "deaths": 1
   },
   {
-   "id": "float-h20221221a",
-   "title": "2022/12/21 台中發現遺體",
-   "date": "2022-12-21",
-   "place": "台中",
-   "summary": "台中發現一名女子的遺體，報請檢警相驗。",
-   "sources": [
-    {
-     "title": "獨／黑暗中活活餓死！台中港貨櫃女屍死因曝 1個月仍等不到家屬",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20221221/2405754.htm"
-    }
-   ],
-   "deaths": 1
-  },
-  {
-   "id": "float-h20221213a",
-   "title": "「感謝讓她回家」台中港女屍解剖　家屬鞠躬感謝屍體發現者",
-   "date": "2022-12-13",
-   "place": "台中",
-   "summary": "台中發現一名女子的遺體，報請檢警相驗。",
-   "sources": [
-    {
-     "title": "「感謝讓她回家」台中港女屍解剖 家屬鞠躬感謝屍體發現者",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20221213/2400311.htm"
-    }
-   ],
-   "deaths": 1
-  },
-  {
    "id": "float-h20221213b",
-   "title": "2022/12/13 台中發現遺體",
+   "title": "台中港女子落海身亡 監視器拍下過程",
    "date": "2022-12-13",
    "place": "台中",
    "summary": "台中發現一名女子的遺體，報請檢警相驗。",
@@ -1733,56 +1695,6 @@
    "deaths": 1
   },
   {
-   "id": "float-h20221122a",
-   "title": "台中港離奇貨櫃女屍案今解剖　檢取得疑似家屬檢體進行身分比對",
-   "date": "2022-11-22",
-   "place": "台中",
-   "summary": "台中發現一名女子的遺體，報請檢警相驗。",
-   "sources": [
-    {
-     "title": "台中港離奇貨櫃女屍案今解剖 檢取得疑似家屬檢體進行身分比對",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20221122/2385679.htm"
-    }
-   ],
-   "deaths": 1
-  },
-  {
-   "id": "float-h20221117a",
-   "title": "台中港驚見貨櫃屍！發現人還原現場頻說兩字　採DNA送美方比對",
-   "date": "2022-11-17",
-   "place": "台中",
-   "summary": "台中發現一具遺體，報請檢警相驗。",
-   "sources": [
-    {
-     "title": "台中港驚見貨櫃屍！發現人還原現場頻說兩字 採DNA送美方比對",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20221117/2382441.htm"
-    }
-   ],
-   "deaths": 1
-  },
-  {
-   "id": "float-h20221117b",
-   "title": "美國女離奇陳屍台中港貨櫃！高大成曝「可能死因」：半小時就身亡",
-   "date": "2022-11-17",
-   "place": "台中",
-   "summary": "台中發現一具遺體，報請檢警相驗。",
-   "sources": [
-    {
-     "title": "美國女陳屍台中港貨櫃！ 高大成依「有無外傷」推測2種死因",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20221117/2382071.htm"
-    },
-    {
-     "title": "美國女離奇陳屍台中港貨櫃！高大成曝「可能死因」：半小時就身亡",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20221117/2381839.htm"
-    }
-   ],
-   "deaths": 1
-  },
-  {
    "id": "float-h20221116a",
    "title": "台中港貨櫃女屍死狀曝！來自美國堪薩斯州　警緊急通報AIT處置",
    "date": "2022-11-16",
@@ -1798,17 +1710,37 @@
      "title": "台中港貨櫃女屍死狀曝！來自美國堪薩斯州 警緊急通報AIT處置",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20221116/2381748.htm"
-    }
-   ],
-   "deaths": 1
-  },
-  {
-   "id": "float-h20221116b",
-   "title": "台中港貨櫃驚藏女屍　美國女從洛杉磯「漂1個月」抵台",
-   "date": "2022-11-16",
-   "place": "台中",
-   "summary": "台中發現一名女子的遺體，報請檢警相驗。",
-   "sources": [
+    },
+    {
+     "title": "獨／黑暗中活活餓死！台中港貨櫃女屍死因曝 1個月仍等不到家屬",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20221221/2405754.htm"
+    },
+    {
+     "title": "「感謝讓她回家」台中港女屍解剖 家屬鞠躬感謝屍體發現者",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20221213/2400311.htm"
+    },
+    {
+     "title": "台中港離奇貨櫃女屍案今解剖 檢取得疑似家屬檢體進行身分比對",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20221122/2385679.htm"
+    },
+    {
+     "title": "台中港驚見貨櫃屍！發現人還原現場頻說兩字 採DNA送美方比對",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20221117/2382441.htm"
+    },
+    {
+     "title": "美國女陳屍台中港貨櫃！ 高大成依「有無外傷」推測2種死因",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20221117/2382071.htm"
+    },
+    {
+     "title": "美國女離奇陳屍台中港貨櫃！高大成曝「可能死因」：半小時就身亡",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20221117/2381839.htm"
+    },
     {
      "title": "快訊／台中港貨櫃驚藏女屍 美國女從洛杉磯「漂1個月」抵台",
      "outlet": "ETtoday",
@@ -1834,7 +1766,7 @@
   },
   {
    "id": "float-h20220907a",
-   "title": "2022/9/7 台中發現遺體",
+   "title": "台中公園日月湖驚見女浮屍「腳未穿鞋」 泡水逾2天臉部變形難辨",
    "date": "2022-09-07",
    "place": "台中",
    "summary": "台中發現一具遺體，報請檢警相驗。",
@@ -1866,8 +1798,8 @@
    "id": "float-h20220821a",
    "title": "台中大肚溪驚見浮屍卡石縫　釣魚移工嚇壞急報警",
    "date": "2022-08-21",
-   "place": "台中",
-   "summary": "台中發現一具遺體，報請檢警相驗。",
+   "place": "大肚",
+   "summary": "大肚發現一具遺體，報請檢警相驗。",
    "sources": [
     {
      "title": "快訊／台中大肚溪驚見浮屍卡石縫 釣魚移工嚇壞急報警",
@@ -1911,8 +1843,8 @@
    "id": "float-h20220617a",
    "title": "臭翻天！台中東大溪上百魚屍卡石縫　暴斃原因竟和天氣有關",
    "date": "2022-06-17",
-   "place": "台中",
-   "summary": "台中發現一具遺體，報請檢警相驗。",
+   "place": "西屯",
+   "summary": "西屯發現一具遺體，報請檢警相驗。",
    "sources": [
     {
      "title": "臭翻天！台中東大溪上百魚屍卡石縫 暴斃原因竟和天氣有關",
@@ -1926,8 +1858,8 @@
    "id": "float-h20220617b",
    "title": "台中男子撿釣竿落水...溪中載浮載沉　警消救起送醫不治",
    "date": "2022-06-17",
-   "place": "台中",
-   "summary": "台中發生溺水事件，一名男子身亡。",
+   "place": "西屯",
+   "summary": "西屯發生溺水事件，一名男子身亡。",
    "sources": [
     {
      "title": "台中男子撿釣竿落水...溪中載浮載沉 警消救起送醫不治",
@@ -1956,8 +1888,8 @@
    "id": "float-h20220428a",
    "title": "涉水拿便當遭沖走！台中高壓電塔維護工「深陷爛泥」溺亡",
    "date": "2022-04-28",
-   "place": "台中",
-   "summary": "台中發生溺水事件，一人身亡。",
+   "place": "龍井",
+   "summary": "龍井發生溺水事件，一人身亡。",
    "sources": [
     {
      "title": "快訊／涉水拿便當遭沖走！台中高壓電塔維護工「深陷爛泥」溺亡",
@@ -1978,17 +1910,7 @@
      "title": "台中港引水人落海不治 妻嘆「遇到了沒辦法」：他已經很小心了",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20220221/2193667.htm"
-    }
-   ],
-   "deaths": 1
-  },
-  {
-   "id": "float-h20220221b",
-   "title": "台中港10年來「首例引水人墜海亡」！解密高月薪背後　像拿命在拚",
-   "date": "2022-02-21",
-   "place": "台中",
-   "summary": "台中發生溺水事件，一人身亡。",
-   "sources": [
+    },
     {
      "title": "台中港10年來「首例引水人墜海亡」！解密高月薪背後 像拿命在拚",
      "outlet": "ETtoday",
@@ -1999,7 +1921,7 @@
   },
   {
    "id": "float-h20220213a",
-   "title": "2022/2/13 台中發現遺體",
+   "title": "台中港吊車工人陳屍租屋處 老闆上門嚇傻",
    "date": "2022-02-13",
    "place": "台中",
    "summary": "台中發現一具遺體，報請檢警相驗。",
@@ -2031,8 +1953,8 @@
    "id": "float-h20211203a",
    "title": "台中男揚言跳橋後失聯！行車軌跡帶路　隔天橋下尋獲遺體",
    "date": "2021-12-03",
-   "place": "台中",
-   "summary": "台中發現一具遺體，報請檢警相驗。",
+   "place": "北屯",
+   "summary": "北屯發現一具遺體，報請檢警相驗。",
    "sources": [
     {
      "title": "快訊／台中男揚言跳橋後失聯！行車軌跡帶路 隔天橋下尋獲遺體",
@@ -2054,7 +1976,7 @@
   },
   {
    "id": "float-h20210807a",
-   "title": "2021/8/7 龍井發現遺體",
+   "title": "快訊／頭身僅剩一層皮連著 台中龍井麗水漁港驚見斷頭男屍",
    "date": "2021-08-07",
    "place": "龍井",
    "summary": "龍井發現一名男子的遺體，報請檢警相驗。",
@@ -2103,17 +2025,7 @@
      "title": "台中龍井麗水漁港驚現浮屍！遺體多處腐爛「頭身僅剩一層皮 ...",
      "outlet": "Yahoo 新聞",
      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E9%BE%8D%E4%BA%95%E9%BA%97%E6%B0%B4%E6%BC%81%E6%B8%AF%E9%A9%9A%E7%8F%BE%E6%B5%AE%E5%B1%8D-%E9%81%BA%E9%AB%94%E5%A4%9A%E8%99%95%E8%85%90%E7%88%9B-%E9%A0%AD%E8%BA%AB%E5%83%85%E5%89%A9-%E5%B1%A4%E7%9A%AE%E9%80%A3%E8%91%97-094219531.html"
-    }
-   ],
-   "deaths": 1
-  },
-  {
-   "id": "float-h20210807b",
-   "title": "2021/8/7 台中發現遺體",
-   "date": "2021-08-07",
-   "place": "台中",
-   "summary": "台中發現一具遺體，報請檢警相驗。",
-   "sources": [
+    },
     {
      "title": "快訊／台中麗水漁港「驚見男浮屍」！ 全身腫脹多處腐爛身分待確認",
      "outlet": "ETtoday",
@@ -2141,8 +2053,8 @@
    "id": "float-h20210730a",
    "title": "台中「輕艇訓練基地」傳浮屍！　釣客見人頭漂浮嚇報警",
    "date": "2021-07-30",
-   "place": "台中",
-   "summary": "台中發現一具遺體，報請檢警相驗。",
+   "place": "大里",
+   "summary": "大里發現一具遺體，報請檢警相驗。",
    "sources": [
     {
      "title": "快訊／台中「輕艇訓練基地」傳浮屍！ 釣客見人頭漂浮嚇報警",
@@ -2181,8 +2093,8 @@
    "id": "float-h20210715a",
    "title": "台中溪尾二橋晚間「發現浮屍」　緊急下水打撈",
    "date": "2021-07-15",
-   "place": "台中",
-   "summary": "台中發現一具遺體，報請檢警相驗。",
+   "place": "烏日",
+   "summary": "烏日發現一具遺體，報請檢警相驗。",
    "sources": [
     {
      "title": "快訊／台中溪尾二橋晚間「發現浮屍」 緊急下水打撈",
@@ -2196,8 +2108,8 @@
    "id": "float-h20210705a",
    "title": "台中烏日溪尾大橋驚見「懸掛男屍」！　警消急將人拉上橋面",
    "date": "2021-07-05",
-   "place": "台中",
-   "summary": "台中發現一名男子的遺體，報請檢警相驗。",
+   "place": "烏日",
+   "summary": "烏日發現一名男子的遺體，報請檢警相驗。",
    "sources": [
     {
      "title": "台中烏日溪尾大橋驚見「懸掛男屍」！ 警消急將人拉上橋面",
@@ -2281,8 +2193,8 @@
    "id": "float-h20210514a",
    "title": "台中25歲媽騎機車揹嬰外出　失控墜水溝「母女雙亡」",
    "date": "2021-05-14",
-   "place": "台中",
-   "summary": "台中發生溺水事件， 2 人身亡。",
+   "place": "和平",
+   "summary": "和平發生溺水事件， 2 人身亡。",
    "sources": [
     {
      "title": "快訊／台中25歲媽騎機車揹嬰外出 失控墜水溝「母女雙亡」",
@@ -2298,26 +2210,11 @@
    "deaths": 2
   },
   {
-   "id": "float-h20210510a",
-   "title": "台中男童溺斃　母認定「陳男拉入水」：既然過世就不告了",
-   "date": "2021-05-10",
-   "place": "台中",
-   "summary": "台中發生溺水事件，一名幼童身亡。",
-   "sources": [
-    {
-     "title": "台中男童溺斃　母認定「陳男拉入水」：既然過世就不告了",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20210510/1978629.htm"
-    }
-   ],
-   "deaths": 1
-  },
-  {
    "id": "float-h20210510b",
    "title": "台中頭汴坑溪2死認定「溺水意外」　檢開死亡證明將簽結",
    "date": "2021-05-10",
-   "place": "台中",
-   "summary": "台中發生溺水事件， 2 人身亡。",
+   "place": "太平",
+   "summary": "太平發生溺水事件， 2 人身亡。",
    "sources": [
     {
      "title": "台中頭汴坑溪2死認定「溺水意外」 檢開死亡證明將簽結",
@@ -2338,6 +2235,11 @@
      "title": "台中頭汴坑溪溺水意外2死溺斃童母：兒子被拉下水",
      "outlet": "Yahoo 新聞",
      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E9%A0%AD%E6%B1%B4%E5%9D%91%E6%BA%AA-27-%E6%AD%B2%E7%94%B7%E8%88%87-7-%E6%AD%B2%E7%94%B7%E7%AB%A5%E6%BA%BA%E6%B0%B4-%E5%9D%87%E7%84%A1%E7%94%9F%E5%91%BD%E8%B7%A1%E8%B1%A1-070312537.html"
+    },
+    {
+     "title": "台中男童溺斃　母認定「陳男拉入水」：既然過世就不告了",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20210510/1978629.htm"
     }
    ],
    "deaths": 2
@@ -2346,8 +2248,8 @@
    "id": "float-h20210510c",
    "title": "台中男酒後失蹤！妻嘆：2天不回家正常　隔天驚見他陳屍水溝",
    "date": "2021-05-10",
-   "place": "台中",
-   "summary": "台中發現一具遺體，報請檢警相驗。",
+   "place": "南屯",
+   "summary": "南屯發現一具遺體，報請檢警相驗。",
    "sources": [
     {
      "title": "快訊／台中男酒後失蹤！妻嘆：2天不回家正常 隔天驚見他陳屍水溝",
@@ -2361,8 +2263,8 @@
    "id": "float-h20210420a",
    "title": "台中限水供五停二！男「河邊洗澡」慘溺斃　身分調查中",
    "date": "2021-04-20",
-   "place": "台中",
-   "summary": "台中發生溺水事件，一人身亡。",
+   "place": "太平",
+   "summary": "太平發生溺水事件，一人身亡。",
    "sources": [
     {
      "title": "快訊／台中限水供五停二！男「河邊洗澡」慘溺斃　身分調查中",
@@ -2376,8 +2278,8 @@
    "id": "float-h20201224a",
    "title": "台中豪宅水溝「男屍已蠟化」！臉部朝下　死亡超過3周",
    "date": "2020-12-24",
-   "place": "台中",
-   "summary": "台中發現一名男子的遺體，報請檢警相驗。",
+   "place": "西屯",
+   "summary": "西屯發現一名男子的遺體，報請檢警相驗。",
    "sources": [
     {
      "title": "快訊／台中豪宅水溝「男屍已蠟化」！臉部朝下 死亡超過3周",
@@ -2388,6 +2290,51 @@
      "title": "水溝男屍案無外傷！ 死亡時間逾3周...法醫疑吸膠自摔",
      "outlet": "壹電視",
      "url": "https://www.nexttv.com.tw/NextTV/News/Home/Society/2020-12-24/336015.html"
+    },
+    {
+     "title": "台中七期豪宅水溝驚見男屍！高大成曝「可能死因」：他殺機率低",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20201224/1883787.htm"
+    },
+    {
+     "title": "快訊／台中七期豪宅水溝「驚見男屍」！工人聞臭味掀蓋見蛆嚇傻",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20201224/1883499.htm"
+    },
+    {
+     "title": "台中七期豪宅水溝驚見男屍 高大成揭「可能死因」還原2情況",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E4%B8%83%E6%9C%9F%E8%B1%AA%E5%AE%85%E6%B0%B4%E6%BA%9D%E9%A9%9A%E8%A6%8B%E7%94%B7%E5%B1%8D-%E9%AB%98%E5%A4%A7%E6%88%90%E6%8F%AD-%E5%8F%AF%E8%83%BD%E6%AD%BB%E5%9B%A0-%E9%82%84%E5%8E%9F2%E6%83%85%E6%B3%81-112100052.html"
+    },
+    {
+     "title": "通緝犯離奇陳屍台中豪宅區水溝高大成從2點研判應非他殺",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/3391223"
+    },
+    {
+     "title": "台中七期排水溝傳惡臭 掀蓋驚見男屍",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202012240130.aspx"
+    },
+    {
+     "title": "悚！台中七期豪宅區水溝藏男屍 死法詭異",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/lpPgje"
+    },
+    {
+     "title": "「45歲男通緝犯」陳屍台中豪宅水溝 工人掀蓋見蛆嚇呆",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/QWDYz0"
+    },
+    {
+     "title": "台中七期豪宅區水溝卡男屍 維修工人忍惡臭掀蓋：差點嚇死",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/870685"
+    },
+    {
+     "title": "快訊／台中七期豪宅水溝驚見男屍 工人開蓋聞惡臭全是蛆",
+     "outlet": "東森新聞",
+     "url": "https://news.ebc.net.tw/news/society/242282"
     }
    ],
    "deaths": 1
@@ -2396,8 +2343,8 @@
    "id": "float-h20201002a",
    "title": "台中男溺斃！水面「浮拖鞋」路人嚇傻…遺體卡攔沙壩底部",
    "date": "2020-10-02",
-   "place": "台中",
-   "summary": "台中發生溺水事件，一人身亡。",
+   "place": "北屯",
+   "summary": "北屯發生溺水事件，一人身亡。",
    "sources": [
     {
      "title": "快訊／台中男溺斃！水面「浮拖鞋」路人嚇傻…遺體卡攔沙壩底部",
@@ -2411,8 +2358,8 @@
    "id": "float-h20200917a",
    "title": "比基尼妹台中松柏港戲水失蹤　救難人員搜救一天尋獲遺體",
    "date": "2020-09-17",
-   "place": "台中",
-   "summary": "台中發生溺水事件，一名女子身亡。",
+   "place": "大甲",
+   "summary": "大甲發生溺水事件，一名女子身亡。",
    "sources": [
     {
      "title": "比基尼妹台中松柏港戲水失蹤 救難人員搜救一天尋獲遺體",
@@ -2466,8 +2413,8 @@
    "id": "float-h20200715a",
    "title": "「1男生還關鍵」曝光！台中計程車閃雙黃燈墜港…90度垂直下沉釀4死",
    "date": "2020-07-15",
-   "place": "台中",
-   "summary": "台中發生溺水事件， 4 人身亡。",
+   "place": "梧棲",
+   "summary": "一輛計程車深夜駛入台中港墜海，4 人身亡、1 人逃生。",
    "sources": [
     {
      "title": "台中港墜海4死1生還…「最後身影」曝光！KTV歡唱2hrs離場 24分鐘後卻命喪大海",
@@ -2618,17 +2565,7 @@
      "title": "4船員搭小黃墜港3死 KTV續攤最後身影曝光",
      "outlet": "中時新聞網",
      "url": "https://www.chinatimes.com/realtimenews/20200715005831-260402"
-    }
-   ],
-   "deaths": 4
-  },
-  {
-   "id": "float-h20200715b",
-   "title": "白天顧小孩晚上跑車8年…台中運將墜海亡！妻心碎：他不菸不酒是個好爸爸",
-   "date": "2020-07-15",
-   "place": "台中",
-   "summary": "台中發現一具遺體，報請檢警相驗。",
-   "sources": [
+    },
     {
      "title": "白天顧小孩晚上跑車8年…台中運將墜海亡！妻心碎：他不菸不酒是個好爸爸",
      "outlet": "ETtoday",
@@ -2655,14 +2592,14 @@
      "url": "https://boba.ettoday.net/videonews/223675"
     }
    ],
-   "deaths": 1
+   "deaths": 4
   },
   {
    "id": "float-h20200616a",
    "title": "台中橋下漂浮屍！他運動靠近嚇傻　妻女見屍崩潰：早上才出門",
    "date": "2020-06-16",
-   "place": "台中",
-   "summary": "台中發現一具遺體，報請檢警相驗。",
+   "place": "太平",
+   "summary": "太平發現一具遺體，報請檢警相驗。",
    "sources": [
     {
      "title": "台中橋下漂浮屍！他運動靠近嚇傻 妻女見屍崩潰：早上才出門",
@@ -2681,8 +2618,8 @@
    "id": "float-h20200420a",
    "title": "台中婦早上才要求參觀發電廠　中午被發現溺斃在水閘門",
    "date": "2020-04-20",
-   "place": "台中",
-   "summary": "台中發生溺水事件，一名女子身亡。",
+   "place": "和平",
+   "summary": "和平發生溺水事件，一名女子身亡。",
    "sources": [
     {
      "title": "台中婦早上才要求參觀發電廠　中午被發現溺斃在水閘門",
@@ -2694,7 +2631,7 @@
   },
   {
    "id": "float-h20200420b",
-   "title": "2020/4/20 台中發現遺體",
+   "title": "台中柳川施工河道驚見「下半身赤裸」男屍 檢今查身分相驗死因",
    "date": "2020-04-20",
    "place": "台中",
    "summary": "台中發現一名男子的遺體，報請檢警相驗。",
@@ -2721,8 +2658,8 @@
    "id": "float-h20200420c",
    "title": "台中男偕妻到大甲溪捕魚　手機放老婆身上...他獨闖上游溺斃！",
    "date": "2020-04-20",
-   "place": "台中",
-   "summary": "台中發生溺水事件，一人身亡。",
+   "place": "和平",
+   "summary": "和平發生溺水事件，一人身亡。",
    "sources": [
     {
      "title": "台中男偕妻到大甲溪捕魚　手機放老婆身上...他獨闖上游溺斃！",
@@ -2819,10 +2756,10 @@
   },
   {
    "id": "float-h20191031a",
-   "title": "2019/10/31 台中發現遺體",
+   "title": "46歲男子留遺書離家今早在高美濕地發現遺體",
    "date": "2019-10-31",
-   "place": "台中",
-   "summary": "台中發現一名男子的遺體，報請檢警相驗。",
+   "place": "太平",
+   "summary": "太平發現一名男子的遺體，報請檢警相驗。",
    "sources": [
     {
      "title": "台中男留遺書「高美濕地尋短」 隔日大甲溪出海口發現遺體",
@@ -2913,21 +2850,6 @@
    "deaths": 1
   },
   {
-   "id": "float-h20190717a",
-   "title": "遺體卡進水口！台中婦清晨出門落水亡…拐杖鞋子擺好放岸邊",
-   "date": "2019-07-17",
-   "place": "台中",
-   "summary": "台中發現一名女子的遺體，報請檢警相驗。",
-   "sources": [
-    {
-     "title": "遺體卡進水口！台中婦清晨出門落水亡…拐杖鞋子擺好放岸邊",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20190717/1491498.htm"
-    }
-   ],
-   "deaths": 1
-  },
-  {
    "id": "float-h20190716a",
    "title": "台中88歲婦清晨外出家屬急尋 3小時後發現已落水亡",
    "date": "2019-07-16",
@@ -2953,6 +2875,11 @@
      "title": "88歲婦清晨外出 3小時後發現已落水亡",
      "outlet": "Yahoo 新聞",
      "url": "https://tw.news.yahoo.com/88%E6%AD%B2%E5%A9%A6%E6%B8%85%E6%99%A8%E5%A4%96%E5%87%BA-3%E5%B0%8F%E6%99%82%E5%BE%8C%E7%99%BC%E7%8F%BE%E5%B7%B2%E8%90%BD%E6%B0%B4%E4%BA%A1-090201190.html"
+    },
+    {
+     "title": "遺體卡進水口！台中婦清晨出門落水亡…拐杖鞋子擺好放岸邊",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20190717/1491498.htm"
     }
    ],
    "deaths": 1
@@ -2986,8 +2913,8 @@
    "id": "float-h20190518a",
    "title": "台中港碼頭施工3工人落海 1人斷腿身亡",
    "date": "2019-05-18",
-   "place": "台中",
-   "summary": "台中發生溺水事件，一人身亡。",
+   "place": "沙鹿",
+   "summary": "沙鹿發生溺水事件，一人身亡。",
    "sources": [
     {
      "title": "台中港碼頭施工3工人落海 1人斷腿身亡",
@@ -3031,8 +2958,8 @@
    "id": "float-h20190426a",
    "title": "台中仙女瀑布又奪命！男溺斃臉發黑亡...「運屍道」路面坍方",
    "date": "2019-04-26",
-   "place": "台中",
-   "summary": "台中發生溺水事件，一人身亡。",
+   "place": "太平",
+   "summary": "太平發生溺水事件，一人身亡。",
    "sources": [
     {
      "title": "更新／台中仙女瀑布又奪命！男溺斃臉發黑亡...「運屍道」路面坍方",
@@ -3146,8 +3073,8 @@
    "id": "float-h20190203a",
    "title": "台中婦深夜詭跌3m深蓄水池！警消潛水搜救61分鐘…撈起遺體",
    "date": "2019-02-03",
-   "place": "台中",
-   "summary": "台中發現一名女子的遺體，報請檢警相驗。",
+   "place": "北屯",
+   "summary": "北屯發現一名女子的遺體，報請檢警相驗。",
    "sources": [
     {
      "title": "快訊／台中婦深夜詭跌3m深蓄水池！警消潛水搜救61分鐘…撈起遺體",
