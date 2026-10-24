@@ -180,41 +180,7 @@
      "title": "台中男毒駕猛撞3體大學生遭聲押 友人還想頂替駕駛3萬交保",
      "outlet": "聯合新聞網",
      "url": "https://udn.com/news/story/7315/9793012"
-    }
-   ],
-   "fear": [
-    "X"
-   ]
-  },
-  {
-   "id": "d-spicy",
-   "title": "嫌太辣！台中男稀釋3顆喪屍煙彈 涉「毒品優化加工」下場曝",
-   "date": "2026-10-02",
-   "place": "台中",
-   "summary": "一名男子嫌依托咪酯煙彈「太辣」，自行加甘油稀釋，法院認定是「毒品優化加工」，依製造二級毒品罪判 2 年 8 月。",
-   "sources": [
-    {
-     "title": "嫌太辣！台中男稀釋3顆喪屍煙彈 涉「毒品優化加工」下場曝 - 臺中市",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/Taichung/breakingnews/5600571"
     },
-    {
-     "title": "依托咪酯太辣...調甘油裝填施用 台中男加工「製毒」下場出爐",
-     "outlet": "聯合新聞網",
-     "url": "https://udn.com/news/story/7315/9790007"
-    }
-   ],
-   "fear": [
-    "X"
-   ]
-  },
-  {
-   "id": "d-i20261002a",
-   "title": "孔廟前毒駕撞傷3體大生！台中男囂張嗆「我家很有錢」…下場遭收押",
-   "date": "2026-10-02",
-   "place": "北區",
-   "summary": "北區發生毒駕事件。",
-   "sources": [
     {
      "title": "台中男毒駕失控撞天橋 3大學生晨跑遭擦撞挫傷送醫",
      "outlet": "Yahoo 新聞",
@@ -304,6 +270,28 @@
      "title": "毒駕零容忍！ 臺中警查獲毒駕當場逮捕扣車聲押",
      "outlet": "LINE TODAY（轉載）",
      "url": "https://today.line.me/tw/v3/article/9m3Xn6m"
+    }
+   ],
+   "fear": [
+    "X"
+   ]
+  },
+  {
+   "id": "d-spicy",
+   "title": "嫌太辣！台中男稀釋3顆喪屍煙彈 涉「毒品優化加工」下場曝",
+   "date": "2026-10-02",
+   "place": "台中",
+   "summary": "一名男子嫌依托咪酯煙彈「太辣」，自行加甘油稀釋，法院認定是「毒品優化加工」，依製造二級毒品罪判 2 年 8 月。",
+   "sources": [
+    {
+     "title": "嫌太辣！台中男稀釋3顆喪屍煙彈 涉「毒品優化加工」下場曝 - 臺中市",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/Taichung/breakingnews/5600571"
+    },
+    {
+     "title": "依托咪酯太辣...調甘油裝填施用 台中男加工「製毒」下場出爐",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7315/9790007"
     }
    ],
    "fear": [
@@ -950,34 +938,6 @@
    ]
   },
   {
-   "id": "d-i20260811a",
-   "title": "毒駕撞死茶行嬤！台中男抄經文、寫悔過書求情　再扯：毒品沒這麼好戒",
-   "date": "2026-08-11",
-   "place": "台中",
-   "summary": "台中發生毒駕事件，有人死亡。",
-   "sources": [
-    {
-     "title": "台中男毒駕撞死睡夢中老婦...一犯再犯竟辯：毒品沒那麼好戒",
-     "outlet": "聯合新聞網",
-     "url": "https://udn.com/news/story/7315/9683961"
-    },
-    {
-     "title": "台中茶行闆娘在家睡覺慘遭毒駕撞死 毒蟲辯：沒那麼好戒",
-     "outlet": "TVBS",
-     "url": "https://news.tvbs.com.tw/local/4005556"
-    },
-    {
-     "title": "毒駕撞死茶行嬤！台中男抄經文、寫悔過書求情　再扯：毒品沒這麼好戒",
-     "outlet": "三立新聞網",
-     "url": "https://www.setn.com/news/1887844"
-    }
-   ],
-   "fear": [
-    "X",
-    "D"
-   ]
-  },
-  {
    "id": "d-i20260804a",
    "title": "奧迪男酒駕大鬧台中街頭...慘被送進看守所　棄車逃逸後再多2罪",
    "date": "2026-08-04",
@@ -1174,20 +1134,7 @@
      "title": "台中女涉毒駕暴衝 停等騎士遭夾擊不治 釀1死5傷 | 世界新聞網",
      "outlet": "世界日報",
      "url": "https://www.worldjournal.com/wj/story/121222/9638530"
-    }
-   ],
-   "fear": [
-    "X",
-    "D"
-   ]
-  },
-  {
-   "id": "d-i20260719a",
-   "title": "毒駕奪命！台中7車連環撞釀1死3傷　肇事賓士女4種毒品陽性反應",
-   "date": "2026-07-19",
-   "place": "豐原",
-   "summary": "豐原發生毒駕事件，有人死亡。",
-   "sources": [
+    },
     {
      "title": "毒駕奪命！台中7車連環撞釀1死3傷　肇事賓士女4種毒品陽性反應",
      "outlet": "ETtoday",
@@ -2791,28 +2738,26 @@
      "title": "快訊／台中茶行闆娘在家睡覺遭撞死　惡男毒駕致死罪聲押禁見",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20251011/3048635.htm"
+    },
+    {
+     "title": "台中男毒駕撞死睡夢中老婦...一犯再犯竟辯：毒品沒那麼好戒",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7315/9683961"
+    },
+    {
+     "title": "台中茶行闆娘在家睡覺慘遭毒駕撞死 毒蟲辯：沒那麼好戒",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/4005556"
+    },
+    {
+     "title": "毒駕撞死茶行嬤！台中男抄經文、寫悔過書求情　再扯：毒品沒這麼好戒",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1887844"
     }
    ],
    "fear": [
     "X",
     "D"
-   ]
-  },
-  {
-   "id": "d-i20251010a",
-   "title": "台中警酒駕撞前車！險害孕婦「就地生產」　法官重判不給緩刑",
-   "date": "2025-10-10",
-   "place": "台中",
-   "summary": "台中發生酒駕事件。",
-   "sources": [
-    {
-     "title": "台中警酒駕撞前車！險害孕婦「就地生產」　法官重判不給緩刑",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20251010/3048111.htm"
-    }
-   ],
-   "fear": [
-    "X"
    ]
   },
   {
@@ -2968,23 +2913,6 @@
    ]
   },
   {
-   "id": "d-i20250816a",
-   "title": "台中警酒駕撞賓士害孕婦「差點原地生產」　遭記過調職下場慘了",
-   "date": "2025-08-16",
-   "place": "台中",
-   "summary": "台中發生酒駕事件。",
-   "sources": [
-    {
-     "title": "台中警酒駕撞賓士害孕婦「差點原地生產」　遭記過調職下場慘了",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20250816/3016272.htm"
-    }
-   ],
-   "fear": [
-    "X"
-   ]
-  },
-  {
    "id": "d-i20250810a",
    "title": "酒測值0.47！台中男聚會後開車返家　撞死女騎士",
    "date": "2025-08-10",
@@ -3059,6 +2987,16 @@
      "title": "扯！台中警察酒駕撞賓士闖禍 孕婦「差點原地生產」",
      "outlet": "自由時報",
      "url": "https://news.ltn.com.tw/news/society/breakingnews/5106295"
+    },
+    {
+     "title": "台中警酒駕撞賓士害孕婦「差點原地生產」　遭記過調職下場慘了",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250816/3016272.htm"
+    },
+    {
+     "title": "台中警酒駕撞前車！險害孕婦「就地生產」　法官重判不給緩刑",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20251010/3048111.htm"
     }
    ],
    "fear": [

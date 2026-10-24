@@ -35,16 +35,7 @@
      "title": "拿工業氣體充數醫用氧、假食品碳酸氣！高大成：對重症宛如毒害",
      "outlet": "三立新聞網",
      "url": "https://www.setn.com/news/1900808"
-    }
-   ]
-  },
-  {
-   "id": "f-i20261023a",
-   "title": "賣千瓶工業氣體假冒醫療、食品級 中檢起訴黑心商17人",
-   "date": "2026-10-23",
-   "place": "台中",
-   "summary": "台中發生食安事件。",
-   "sources": [
+    },
     {
      "title": "賣千瓶工業氣體假冒醫療、食品級 中檢起訴黑心商17人",
      "outlet": "PChome 新聞（轉載）",
@@ -777,12 +768,77 @@
    ]
   },
   {
-   "id": "f-i20250821a",
-   "title": "國中生拉到「包尿布上學」！豐原烤鴨名店再爆食物中毒逾300人受害　業者道歉了",
-   "date": "2025-08-21",
-   "place": "豐原",
-   "summary": "豐原發生食安事件。",
+   "id": "f-scale",
+   "title": "果菜市場批發商控短秤 西洋芹一箱少3～8公斤",
+   "date": "2025-08",
+   "place": "西屯",
+   "summary": "台中果菜市場一名批發商指控供應商短秤，一箱 30 公斤的西洋芹少了 3～8 公斤；果菜公司表示會加強抽驗。",
+   "fear": [
+    "F"
+   ],
    "sources": [
+    {
+     "title": "果菜市場批菜 批發商怒控供應商疑＂偷斤減兩＂",
+     "outlet": "民視新聞",
+     "url": "https://www.ftvnews.com.tw/news/detail/2025813C12M1"
+    },
+    {
+     "title": "Yahoo 新聞報導",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E9%A2%B1%E9%A2%A8%E8%87%B4%E8%8F%9C%E5%83%B9%E4%B8%8A%E6%BC%B2-%E5%8F%B0%E4%B8%AD%E6%9E%9C%E8%8F%9C%E5%B8%82%E5%A0%B4%E7%88%86-%E8%94%AC%E8%8F%9C%E9%87%8D%E9%87%8F%E9%80%A0%E5%81%87-%E6%89%B9%E7%99%BC%E5%95%86%E6%80%92%E5%96%8A%E6%8A%93%E5%8C%85-115450687.html"
+    }
+   ]
+  },
+  {
+   "id": "f-duck",
+   "title": "豐原烤鴨店集體食物中毒 驗出沙門氏菌",
+   "date": "2025-07",
+   "place": "豐原",
+   "summary": "豐原一家烤鴨店爆發集體食物中毒，驗出沙門氏菌；民代說收到近 350 人投訴，衛生局正式通報的人數少很多。",
+   "fear": [
+    "F"
+   ],
+   "sources": [
+    {
+     "title": "烤鴨店食物中毒350人受害 業者鞠躬允賠償",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/766871"
+    },
+    {
+     "title": "台中知名烤鴨店出事了！國三生吃完「2天拉41次」慘包紙尿褲上課，6月就曾爆食安問題",
+     "outlet": "風傳媒",
+     "url": "https://www.storm.mg/article/11055137"
+    },
+    {
+     "title": "（影）一個月內兩度爆發嚴重食安 謝志忠要求中市消保官主動介入",
+     "outlet": "Newtalk 新聞",
+     "url": "https://newtalk.tw/news/view/2025-07-24/983733"
+    },
+    {
+     "title": "豐原4.7顆星烤鴨店再爆食品中毒！16人上吐下瀉   食安處勒令停業",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250724/3002236.htm"
+    },
+    {
+     "title": "開幕才3天…台中豐原這間烤鴨店疑食物中毒14人送醫 食安處稽查：勒令停業",
+     "outlet": "聯合新聞網",
+     "url": "https://health.udn.com/health/story/5999/8893226"
+    },
+    {
+     "title": "重新營業才3天！豐原烤鴨店逾35人食物中毒　國中生拉到包尿布",
+     "outlet": "NOWnews",
+     "url": "https://www.nownews.com/news/6710949"
+    },
+    {
+     "title": "豐原烤鴨店捲食安疑慮停業 已累積48人就醫",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/762330"
+    },
+    {
+     "title": "慘！豐原40多人吃烤鴨食物中毒 業者遭勒令停業",
+     "outlet": "自由時報",
+     "url": "https://health.ltn.com.tw/article/breakingnews/5119036"
+    },
     {
      "title": "豐原烤鴨店食物中毒逾300人 業者說話了",
      "outlet": "Yahoo 新聞",
@@ -832,95 +888,6 @@
      "title": "台中豐原烤鴨店食物中毒　300人受害",
      "outlet": "news.housefun.com.tw",
      "url": "https://news.housefun.com.tw/news/article/706963471731.html"
-    }
-   ],
-   "fear": [
-    "F"
-   ]
-  },
-  {
-   "id": "f-scale",
-   "title": "果菜市場批發商控短秤 西洋芹一箱少3～8公斤",
-   "date": "2025-08",
-   "place": "西屯",
-   "summary": "台中果菜市場一名批發商指控供應商短秤，一箱 30 公斤的西洋芹少了 3～8 公斤；果菜公司表示會加強抽驗。",
-   "fear": [
-    "F"
-   ],
-   "sources": [
-    {
-     "title": "果菜市場批菜 批發商怒控供應商疑＂偷斤減兩＂",
-     "outlet": "民視新聞",
-     "url": "https://www.ftvnews.com.tw/news/detail/2025813C12M1"
-    },
-    {
-     "title": "Yahoo 新聞報導",
-     "outlet": "Yahoo 新聞",
-     "url": "https://tw.news.yahoo.com/%E9%A2%B1%E9%A2%A8%E8%87%B4%E8%8F%9C%E5%83%B9%E4%B8%8A%E6%BC%B2-%E5%8F%B0%E4%B8%AD%E6%9E%9C%E8%8F%9C%E5%B8%82%E5%A0%B4%E7%88%86-%E8%94%AC%E8%8F%9C%E9%87%8D%E9%87%8F%E9%80%A0%E5%81%87-%E6%89%B9%E7%99%BC%E5%95%86%E6%80%92%E5%96%8A%E6%8A%93%E5%8C%85-115450687.html"
-    }
-   ]
-  },
-  {
-   "id": "f-i20250724a",
-   "title": "開幕才3天…台中豐原這間烤鴨店疑食物中毒14人送醫 食安處稽查：勒令停業",
-   "date": "2025-07-24",
-   "place": "豐原",
-   "summary": "豐原發生食安事件。",
-   "sources": [
-    {
-     "title": "豐原4.7顆星烤鴨店再爆食品中毒！16人上吐下瀉   食安處勒令停業",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20250724/3002236.htm"
-    },
-    {
-     "title": "開幕才3天…台中豐原這間烤鴨店疑食物中毒14人送醫 食安處稽查：勒令停業",
-     "outlet": "聯合新聞網",
-     "url": "https://health.udn.com/health/story/5999/8893226"
-    },
-    {
-     "title": "重新營業才3天！豐原烤鴨店逾35人食物中毒　國中生拉到包尿布",
-     "outlet": "NOWnews",
-     "url": "https://www.nownews.com/news/6710949"
-    },
-    {
-     "title": "豐原烤鴨店捲食安疑慮停業 已累積48人就醫",
-     "outlet": "公視新聞網",
-     "url": "https://news.pts.org.tw/article/762330"
-    },
-    {
-     "title": "慘！豐原40多人吃烤鴨食物中毒 業者遭勒令停業",
-     "outlet": "自由時報",
-     "url": "https://health.ltn.com.tw/article/breakingnews/5119036"
-    }
-   ],
-   "fear": [
-    "F"
-   ]
-  },
-  {
-   "id": "f-duck",
-   "title": "豐原烤鴨店集體食物中毒 驗出沙門氏菌",
-   "date": "2025-07",
-   "place": "豐原",
-   "summary": "豐原一家烤鴨店爆發集體食物中毒，驗出沙門氏菌；民代說收到近 350 人投訴，衛生局正式通報的人數少很多。",
-   "fear": [
-    "F"
-   ],
-   "sources": [
-    {
-     "title": "烤鴨店食物中毒350人受害 業者鞠躬允賠償",
-     "outlet": "公視新聞網",
-     "url": "https://news.pts.org.tw/article/766871"
-    },
-    {
-     "title": "台中知名烤鴨店出事了！國三生吃完「2天拉41次」慘包紙尿褲上課，6月就曾爆食安問題",
-     "outlet": "風傳媒",
-     "url": "https://www.storm.mg/article/11055137"
-    },
-    {
-     "title": "（影）一個月內兩度爆發嚴重食安 謝志忠要求中市消保官主動介入",
-     "outlet": "Newtalk 新聞",
-     "url": "https://newtalk.tw/news/view/2025-07-24/983733"
     }
    ]
   },
@@ -1309,23 +1276,6 @@
    ]
   },
   {
-   "id": "f-i20240207a",
-   "title": "台糖豬肉複驗》台中市府、食藥署驗出瘦肉精，農業部：「只有那盒豬肉出問題」",
-   "date": "2024-02-07",
-   "place": "台中",
-   "summary": "台中發生食安事件。",
-   "sources": [
-    {
-     "title": "台糖豬肉複驗》台中市府、食藥署驗出瘦肉精，農業部：「只有那盒豬肉出問題」",
-     "outlet": "newsmarket.com.tw",
-     "url": "https://www.newsmarket.com.tw/blog/200007/"
-    }
-   ],
-   "fear": [
-    "F"
-   ]
-  },
-  {
    "id": "f-ractopamine",
    "title": "台糖梅花肉片驗出瘦肉精西布特羅",
    "date": "2024-01",
@@ -1351,7 +1301,15 @@
      "title": "快訊／台糖豬肉片複驗結果出爐！食藥署檢出瘦肉精「西布特羅」",
      "outlet": "ETtoday",
      "url": "https://health.ettoday.net/news/2679868"
+    },
+    {
+     "title": "台糖豬肉複驗》台中市府、食藥署驗出瘦肉精，農業部：「只有那盒豬肉出問題」",
+     "outlet": "newsmarket.com.tw",
+     "url": "https://www.newsmarket.com.tw/blog/200007/"
     }
+   ],
+   "fear": [
+    "F"
    ]
   },
   {

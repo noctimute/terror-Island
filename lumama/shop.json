@@ -153,28 +153,6 @@
    ]
   },
   {
-   "id": "p-i20261005a",
-   "title": "中市明年購物節3.95億 綠營議員批失業率一樣高 要求全刪或只留一元",
-   "date": "2026-10-05",
-   "place": "台中",
-   "summary": "台中購物節等城市行銷活動引發討論。",
-   "sources": [
-    {
-     "title": "批「台中人出錢、全台來抽獎」 綠議員要求刪除購物節3.9億預算",
-     "outlet": "壹蘋新聞網",
-     "url": "https://news.nextapple.com/politics/20261005/8FE23E5C57FD76F546A1D7A3655915BB"
-    },
-    {
-     "title": "中市明年購物節3.95億 綠營議員批失業率一樣高 要求全刪或只留一元",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/politics/breakingnews/5596442"
-    }
-   ],
-   "fear": [
-    "P"
-   ]
-  },
-  {
    "id": "p-i20261004a",
    "title": "台中購物節明年4 億預算綠要求全數刪除 盧秀燕︰由下屆市長裁決",
    "date": "2026-10-04",
@@ -200,6 +178,16 @@
      "title": "盧秀燕護預算 續辦台中購物節？下任市長決定",
      "outlet": "聯合新聞網",
      "url": "https://udn.com/news/story/7325/9796666"
+    },
+    {
+     "title": "批「台中人出錢、全台來抽獎」 綠議員要求刪除購物節3.9億預算",
+     "outlet": "壹蘋新聞網",
+     "url": "https://news.nextapple.com/politics/20261005/8FE23E5C57FD76F546A1D7A3655915BB"
+    },
+    {
+     "title": "中市明年購物節3.95億 綠營議員批失業率一樣高 要求全刪或只留一元",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/politics/breakingnews/5596442"
     }
    ],
    "fear": [
@@ -342,24 +330,12 @@
      "title": "台中會展中心400萬開幕案也是中視得標 林德宇批市府「利益不迴避」",
      "outlet": "自由時報",
      "url": "https://news.ltn.com.tw/news/politics/breakingnews/5547622"
-    }
-   ]
-  },
-  {
-   "id": "p-i20260821a",
-   "title": "不只鍋烤節！林德宇再曝「台中會展中心開幕案」也是中視得標 質疑利益不迴避",
-   "date": "2026-08-21",
-   "place": "台中",
-   "summary": "台中購物節等城市行銷活動引發討論。",
-   "sources": [
+    },
     {
      "title": "不只鍋烤節！林德宇再曝「台中會展中心開幕案」也是中視得標 質疑利益不迴避",
      "outlet": "LINE TODAY（轉載）",
      "url": "https://today.line.me/tw/v3/article/zN8jZrW"
     }
-   ],
-   "fear": [
-    "P"
    ]
   },
   {

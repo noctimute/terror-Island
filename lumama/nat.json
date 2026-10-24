@@ -565,28 +565,6 @@
    ]
   },
   {
-   "id": "n-i20210502a",
-   "title": "駕橡皮艇橫渡台灣海峽中國偷渡男在台中港被逮：我投奔自由- 社會",
-   "date": "2021-05-02",
-   "place": "台中",
-   "summary": "台中發生國安相關事件。",
-   "sources": [
-    {
-     "title": "駕橡皮艇橫渡台灣海峽中國偷渡男在台中港被逮：我投奔自由- 社會",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/society/breakingnews/3518370"
-    },
-    {
-     "title": "自由日日Shoot》大漏洞！中國男駕橡皮艇 福建偷渡台中港",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/society/paper/1446456"
-    }
-   ],
-   "fear": [
-    "N"
-   ]
-  },
-  {
    "id": "n-raft",
    "title": "中國男子搭橡皮艇偷渡台中港 依國安法移送",
    "date": "2021-04-30",
@@ -605,6 +583,16 @@
      "title": "【違反國安法】中國男子駕淘寶網購橡皮艇偷渡來台灣 自稱要投奔自由",
      "outlet": "台灣英文新聞",
      "url": "https://www.taiwannews.com.tw/ch/news/4193405"
+    },
+    {
+     "title": "駕橡皮艇橫渡台灣海峽中國偷渡男在台中港被逮：我投奔自由- 社會",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/3518370"
+    },
+    {
+     "title": "自由日日Shoot》大漏洞！中國男駕橡皮艇 福建偷渡台中港",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/paper/1446456"
     }
    ]
   },

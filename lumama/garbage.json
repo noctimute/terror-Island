@@ -328,43 +328,6 @@
    ]
   },
   {
-   "id": "g-i20260827a",
-   "title": "再爆量！大里堆置垃圾逾47萬噸 中市環保局：焚化爐量能提升一周可多處理千噸",
-   "date": "2026-08-27",
-   "place": "大里",
-   "summary": "大里垃圾處理出現問題。",
-   "sources": [
-    {
-     "title": "再爆量！大里垃圾山堆置47.6萬噸垃圾 議員爭取千位清潔隊臨時工轉正",
-     "outlet": "台灣好新聞",
-     "url": "https://www.taiwanhot.net/news/1146289/%E5%86%8D%E7%88%86%E9%87%8F%EF%BC%81%E5%A4%A7%E9%87%8C%E5%9E%83%E5%9C%BE%E5%B1%B1%E5%A0%86%E7%BD%AE47.6%E8%90%AC%E5%99%B8%E5%9E%83%E5%9C%BE+%E8%AD%B0%E5%93%A1%E7%88%AD%E5%8F%96%E5%8D%83%E4%BD%8D%E6%B8%85%E6%BD%94%E9%9A%8A%E8%87%A8%E6%99%82%E5%B7%A5%E8%BD%89%E6%AD%A3"
-    },
-    {
-     "title": "再爆量！大里堆置垃圾逾47萬噸 中市環保局：焚化爐量能提升一周可多處理千噸",
-     "outlet": "台灣好新聞",
-     "url": "https://www.taiwanhot.net/news/1146317/%E5%86%8D%E7%88%86%E9%87%8F%EF%BC%81%E5%A4%A7%E9%87%8C%E5%A0%86%E7%BD%AE%E5%9E%83%E5%9C%BE%E9%80%BE47%E8%90%AC%E5%99%B8+%E4%B8%AD%E5%B8%82%E7%92%B0%E4%BF%9D%E5%B1%80%EF%BC%9A%E7%84%9A%E5%8C%96%E7%88%90%E9%87%8F%E8%83%BD%E6%8F%90%E5%8D%87%E4%B8%80%E5%91%A8%E5%8F%AF%E5%A4%9A%E8%99%95%E7%90%86%E5%8D%83%E5%99%B8"
-    },
-    {
-     "title": "文山焚化爐遲未動工 綠議員批大里垃圾包堆成「白色萬里長城」",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/life/breakingnews/5554091"
-    },
-    {
-     "title": "愈堆愈高⋯大里垃圾山去化慢 年增9.6萬噸",
-     "outlet": "聯合新聞網",
-     "url": "https://udn.com/news/story/7325/9718837"
-    },
-    {
-     "title": "裝潢廢棄物隨意棄置最高判7年！中市環保局啟用數位申報平台 委託非法清運將負連帶責任",
-     "outlet": "taichung.gov.tw",
-     "url": "https://www.taichung.gov.tw/8868/8872/9962/3357978"
-    }
-   ],
-   "fear": [
-    "C"
-   ]
-  },
-  {
    "id": "g-i20260827b",
    "title": "台中大里掩埋場堆爆！環保局：9月SRF每周可多燒千噸",
    "date": "2026-08-27",
@@ -1827,6 +1790,31 @@
      "title": "大里垃圾山38萬噸！文山焚化爐延宕7年 垃圾費傳漲價",
      "outlet": "自由時報",
      "url": "https://news.ltn.com.tw/news/life/breakingnews/5180323"
+    },
+    {
+     "title": "再爆量！大里垃圾山堆置47.6萬噸垃圾 議員爭取千位清潔隊臨時工轉正",
+     "outlet": "台灣好新聞",
+     "url": "https://www.taiwanhot.net/news/1146289/%E5%86%8D%E7%88%86%E9%87%8F%EF%BC%81%E5%A4%A7%E9%87%8C%E5%9E%83%E5%9C%BE%E5%B1%B1%E5%A0%86%E7%BD%AE47.6%E8%90%AC%E5%99%B8%E5%9E%83%E5%9C%BE+%E8%AD%B0%E5%93%A1%E7%88%AD%E5%8F%96%E5%8D%83%E4%BD%8D%E6%B8%85%E6%BD%94%E9%9A%8A%E8%87%A8%E6%99%82%E5%B7%A5%E8%BD%89%E6%AD%A3"
+    },
+    {
+     "title": "再爆量！大里堆置垃圾逾47萬噸 中市環保局：焚化爐量能提升一周可多處理千噸",
+     "outlet": "台灣好新聞",
+     "url": "https://www.taiwanhot.net/news/1146317/%E5%86%8D%E7%88%86%E9%87%8F%EF%BC%81%E5%A4%A7%E9%87%8C%E5%A0%86%E7%BD%AE%E5%9E%83%E5%9C%BE%E9%80%BE47%E8%90%AC%E5%99%B8+%E4%B8%AD%E5%B8%82%E7%92%B0%E4%BF%9D%E5%B1%80%EF%BC%9A%E7%84%9A%E5%8C%96%E7%88%90%E9%87%8F%E8%83%BD%E6%8F%90%E5%8D%87%E4%B8%80%E5%91%A8%E5%8F%AF%E5%A4%9A%E8%99%95%E7%90%86%E5%8D%83%E5%99%B8"
+    },
+    {
+     "title": "文山焚化爐遲未動工 綠議員批大里垃圾包堆成「白色萬里長城」",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/breakingnews/5554091"
+    },
+    {
+     "title": "愈堆愈高⋯大里垃圾山去化慢 年增9.6萬噸",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7325/9718837"
+    },
+    {
+     "title": "裝潢廢棄物隨意棄置最高判7年！中市環保局啟用數位申報平台 委託非法清運將負連帶責任",
+     "outlet": "taichung.gov.tw",
+     "url": "https://www.taichung.gov.tw/8868/8872/9962/3357978"
     }
    ],
    "fear": [
@@ -2117,23 +2105,6 @@
    ]
   },
   {
-   "id": "g-i20240502a",
-   "title": "台中龍井鷺山段被倒含戴奧辛廢棄物清理完成 地下水檢驗未超標",
-   "date": "2024-05-02",
-   "place": "龍井",
-   "summary": "龍井垃圾處理出現問題。",
-   "sources": [
-    {
-     "title": "台中龍井鷺山段被倒含戴奧辛廢棄物清理完成 地下水檢驗未超標",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/life/breakingnews/4660137"
-    }
-   ],
-   "fear": [
-    "I"
-   ]
-  },
-  {
    "id": "g-i20240501a",
    "title": "驚！台中「米奇妙妙屋」垃圾滿到天花板 鄰居鬆口氣終於可好好呼吸",
    "date": "2024-05-01",
@@ -2183,6 +2154,11 @@
      "title": "棄置6千公斤含戴奧辛廢棄物 台中6人不法獲利390萬遭起訴",
      "outlet": "公視新聞網",
      "url": "https://news.pts.org.tw/article/687105"
+    },
+    {
+     "title": "台中龍井鷺山段被倒含戴奧辛廢棄物清理完成 地下水檢驗未超標",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/breakingnews/4660137"
     }
    ],
    "fear": [

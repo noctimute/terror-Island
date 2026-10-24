@@ -220,20 +220,6 @@
    ]
   },
   {
-   "id": "l-i20260515a",
-   "title": "台中地政局出手！大夫第重劃會解散13年土地爭議終落幕- 生活",
-   "date": "2026-05-15",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "台中地政局出手！大夫第重劃會解散13年土地爭議終落幕- 生活",
-     "outlet": "ctee.com.tw",
-     "url": "https://www.ctee.com.tw/news/20260515701793-431401"
-    }
-   ]
-  },
-  {
    "id": "l-i20260515b",
    "title": "護公益！神岡大夫第自辦重劃會長期廢弛業務 中市府依法解散",
    "date": "2026-05-15",
@@ -254,6 +240,11 @@
      "title": "神岡大夫第自辦重劃會長期廢弛業務 中市府依法解散",
      "outlet": "風傳媒",
      "url": "https://www.storm.mg/article/11132106"
+    },
+    {
+     "title": "台中地政局出手！大夫第重劃會解散13年土地爭議終落幕- 生活",
+     "outlet": "ctee.com.tw",
+     "url": "https://www.ctee.com.tw/news/20260515701793-431401"
     }
    ]
   },
@@ -539,20 +530,6 @@
    ]
   },
   {
-   "id": "l-i20250903a",
-   "title": "「臺中市水湳機場原址區段徵收區」配餘地及「臺中市第13期大慶市地重劃區」、「臺中市第14期美和庄市地重劃區」抵費地公開標售 歡迎踴躍投標",
-   "date": "2025-09-03",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "「臺中市水湳機場原址區段徵收區」配餘地及「臺中市第13期大慶市地重劃區」、「臺中市第14期美和庄市地重劃區」抵費地公開標售 歡迎踴躍投標",
-     "outlet": "focus.586.com.tw",
-     "url": "https://focus.586.com.tw/2025/09/03/p359793/"
-    }
-   ]
-  },
-  {
    "id": "l-i20250830a",
    "title": "中市地政局辦理整體開發區土地公開標售 9/9即將開標",
    "date": "2025-08-30",
@@ -596,6 +573,11 @@
      "title": "「台中市水湳機場原址區段徵收區」配餘地、「台中市第13期大慶市地重劃區」及「台中市第14期美和庄市地重劃區」抵費地公開標售中市地政局歡迎踴躍投標",
      "outlet": "蕃新聞（轉載）",
      "url": "https://n.yam.com/Article/20250814189038"
+    },
+    {
+     "title": "「臺中市水湳機場原址區段徵收區」配餘地及「臺中市第13期大慶市地重劃區」、「臺中市第14期美和庄市地重劃區」抵費地公開標售 歡迎踴躍投標",
+     "outlet": "focus.586.com.tw",
+     "url": "https://focus.586.com.tw/2025/09/03/p359793/"
     }
    ]
   },
@@ -610,25 +592,6 @@
      "title": "台中黎明重劃案纏訟　民團挺林金連",
      "outlet": "news.housefun.com.tw",
      "url": "https://news.housefun.com.tw/news/article/104931470327.html"
-    }
-   ]
-  },
-  {
-   "id": "l-i20250731a",
-   "title": "烏日九德區段徵收啟動 環中路六段分3階段封閉進行拓寬工程",
-   "date": "2025-07-31",
-   "place": "烏日",
-   "summary": "烏日市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "烏日九德區段徵收啟動 環中路六段分3階段封閉進行拓寬工程",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/life/breakingnews/5127695"
-    },
-    {
-     "title": "台中烏日九德區段徵收全面啟動　環中路六段3階段封閉日期曝光",
-     "outlet": "news.housefun.com.tw",
-     "url": "https://news.housefun.com.tw/news/article/162798469942.html"
     }
    ]
   },
@@ -769,25 +732,6 @@
    ]
   },
   {
-   "id": "l-i20250529a",
-   "title": "台中大巨蛋沒鄰居可跳3天3夜？綠議員轟炒地皮：鄰地6月標售500億",
-   "date": "2025-05-29",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "台中大巨蛋選址緊鄰6/26標售地 綠營質疑盧秀燕帶頭炒地皮",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/politics/breakingnews/5058311"
-    },
-    {
-     "title": "台中大巨蛋沒鄰居可跳3天3夜？綠議員轟炒地皮：鄰地6月標售500億",
-     "outlet": "NOWnews",
-     "url": "https://www.nownews.com/news/6689050"
-    }
-   ]
-  },
-  {
    "id": "l-2025",
    "title": "籌捷運藍線經費再標售 水湳土地底價520億 標脫率新低",
    "date": "2025-05-26",
@@ -808,6 +752,16 @@
      "title": "中市府釋出173筆土地標售9／9開標 開發商觀望氛圍濃厚",
      "outlet": "ctee.com.tw",
      "url": "https://www.ctee.com.tw/news/20250811701708-430601"
+    },
+    {
+     "title": "台中大巨蛋選址緊鄰6/26標售地 綠營質疑盧秀燕帶頭炒地皮",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/politics/breakingnews/5058311"
+    },
+    {
+     "title": "台中大巨蛋沒鄰居可跳3天3夜？綠議員轟炒地皮：鄰地6月標售500億",
+     "outlet": "NOWnews",
+     "url": "https://www.nownews.com/news/6689050"
     }
    ]
   },
@@ -822,20 +776,6 @@
      "title": "中市府又要賣地 17筆底價近520億",
      "outlet": "自由時報",
      "url": "https://ec.ltn.com.tw/article/paper/1708493"
-    }
-   ]
-  },
-  {
-   "id": "l-i20250514a",
-   "title": "臺中烏日九德區段徵收工程ING 打造宜居新典範",
-   "date": "2025-05-14",
-   "place": "烏日",
-   "summary": "烏日市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "臺中烏日九德區段徵收工程ING 打造宜居新典範",
-     "outlet": "Yahoo 新聞",
-     "url": "https://tw.news.yahoo.com/%E8%87%BA%E4%B8%AD%E7%83%8F%E6%97%A5%E4%B9%9D%E5%BE%B7%E5%8D%80%E6%AE%B5%E5%BE%B5%E6%94%B6%E5%B7%A5%E7%A8%8Bing-%E6%89%93%E9%80%A0%E5%AE%9C%E5%B1%85%E6%96%B0%E5%85%B8%E7%AF%84-090033251.html"
     }
    ]
   },
@@ -896,20 +836,6 @@
    ]
   },
   {
-   "id": "l-i20250227a",
-   "title": "台中市地標售遇冷！133筆土地僅24筆標脫標脫率創新低- 生活",
-   "date": "2025-02-27",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "台中市地標售遇冷！133筆土地僅24筆標脫標脫率創新低- 生活",
-     "outlet": "ctee.com.tw",
-     "url": "https://www.ctee.com.tw/news/20250227701420-431401"
-    }
-   ]
-  },
-  {
    "id": "l-i20250225a",
    "title": "「台中最大獵地案」楊姓病逝！詐取60億遭判刑，黎明重劃1.2萬坪土地怎麼處理？",
    "date": "2025-02-25",
@@ -934,6 +860,21 @@
      "title": "台中烏日九德區段徵收創造居民、市府雙贏，打造全台宜居城市新典範",
      "outlet": "gvm.com.tw",
      "url": "https://www.gvm.com.tw/article/118999"
+    },
+    {
+     "title": "臺中烏日九德區段徵收工程ING 打造宜居新典範",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E8%87%BA%E4%B8%AD%E7%83%8F%E6%97%A5%E4%B9%9D%E5%BE%B7%E5%8D%80%E6%AE%B5%E5%BE%B5%E6%94%B6%E5%B7%A5%E7%A8%8Bing-%E6%89%93%E9%80%A0%E5%AE%9C%E5%B1%85%E6%96%B0%E5%85%B8%E7%AF%84-090033251.html"
+    },
+    {
+     "title": "烏日九德區段徵收啟動 環中路六段分3階段封閉進行拓寬工程",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/breakingnews/5127695"
+    },
+    {
+     "title": "台中烏日九德區段徵收全面啟動　環中路六段3階段封閉日期曝光",
+     "outlet": "news.housefun.com.tw",
+     "url": "https://news.housefun.com.tw/news/article/162798469942.html"
     }
    ]
   },
@@ -953,6 +894,11 @@
      "title": "中市再標售133筆土地》內政部︰台中社宅缺地 建議不要賣",
      "outlet": "自由時報",
      "url": "https://ec.ltn.com.tw/article/paper/1690262"
+    },
+    {
+     "title": "台中市地標售遇冷！133筆土地僅24筆標脫標脫率創新低- 生活",
+     "outlet": "ctee.com.tw",
+     "url": "https://www.ctee.com.tw/news/20250227701420-431401"
     }
    ]
   },
@@ -1098,16 +1044,7 @@
      "title": "台中市第13期大慶市地重劃區抵費地標售 促進區域經濟發展",
      "outlet": "taichung.gov.tw",
      "url": "https://www.taichung.gov.tw/8868/8872/9962/2757381"
-    }
-   ]
-  },
-  {
-   "id": "l-i20240919b",
-   "title": "台中十三期土地標售，標脫率僅約2成",
-   "date": "2024-09-19",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
+    },
     {
      "title": "台中十三期土地標售，標脫率僅約2成",
      "outlet": "mygonews.com",
@@ -1362,16 +1299,37 @@
      "title": "地王每坪101.1萬！中市重劃區抵費地標售率不到4成 溢價僅7% | 政治快訊",
      "outlet": "NOWnews",
      "url": "https://www.nownews.com/news/6378213"
-    }
-   ]
-  },
-  {
-   "id": "l-i20240307a",
-   "title": "不甩內政部喊話 中市123筆抵費地今標售",
-   "date": "2024-03-07",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
+    },
+    {
+     "title": "挨批太貴、炒地皮 台中市府明天如期標售13、14期抵費地",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/breakingnews/4599489"
+    },
+    {
+     "title": "台中13、14期抵費地標售　中市府進帳86.2億元",
+     "outlet": "ETtoday",
+     "url": "https://house.ettoday.net/news/2695662"
+    },
+    {
+     "title": "台中抵費地照常開標 一天賣出86.2億土地",
+     "outlet": "自由時報",
+     "url": "https://estate.ltn.com.tw/article/19891"
+    },
+    {
+     "title": "台中13及14期重劃區抵費地標售 標脫率僅39％、得標總額86億",
+     "outlet": "自由時報",
+     "url": "https://ec.ltn.com.tw/article/breakingnews/4600214"
+    },
+    {
+     "title": "【一文看懂】台中13期、14期市地重劃區抵費地標售，究竟在吵什麼？",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E6%96%87%E7%9C%8B%E6%87%82-%E5%8F%B0%E4%B8%AD13%E6%9C%9F-14%E6%9C%9F%E5%B8%82%E5%9C%B0%E9%87%8D%E5%8A%83%E5%8D%80%E6%8A%B5%E8%B2%BB%E5%9C%B0%E6%A8%99%E5%94%AE-%E7%A9%B6%E7%AB%9F%E5%9C%A8%E5%90%B5%E4%BB%80%E9%BA%BC-234000956.html"
+    },
+    {
+     "title": "台中14期重劃區競標　建商一坪100萬標得創區段新高",
+     "outlet": "news.housefun.com.tw",
+     "url": "https://news.housefun.com.tw/news/article/119402414938.html"
+    },
     {
      "title": "不甩內政部喊話 中市123筆抵費地今標售",
      "outlet": "自由時報",
@@ -1428,45 +1386,6 @@
      "title": "別錯失機會！台中捷運宅「文華高中站」第二批開始標售",
      "outlet": "聯合新聞網",
      "url": "https://house.udn.com/house/story/123590/7812272"
-    }
-   ]
-  },
-  {
-   "id": "l-i20240306b",
-   "title": "台中13及14期重劃區抵費地標售 標脫率僅39％、得標總額86億",
-   "date": "2024-03-06",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "挨批太貴、炒地皮 台中市府明天如期標售13、14期抵費地",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/life/breakingnews/4599489"
-    },
-    {
-     "title": "台中13、14期抵費地標售　中市府進帳86.2億元",
-     "outlet": "ETtoday",
-     "url": "https://house.ettoday.net/news/2695662"
-    },
-    {
-     "title": "台中抵費地照常開標 一天賣出86.2億土地",
-     "outlet": "自由時報",
-     "url": "https://estate.ltn.com.tw/article/19891"
-    },
-    {
-     "title": "台中13及14期重劃區抵費地標售 標脫率僅39％、得標總額86億",
-     "outlet": "自由時報",
-     "url": "https://ec.ltn.com.tw/article/breakingnews/4600214"
-    },
-    {
-     "title": "【一文看懂】台中13期、14期市地重劃區抵費地標售，究竟在吵什麼？",
-     "outlet": "Yahoo 新聞",
-     "url": "https://tw.news.yahoo.com/%E6%96%87%E7%9C%8B%E6%87%82-%E5%8F%B0%E4%B8%AD13%E6%9C%9F-14%E6%9C%9F%E5%B8%82%E5%9C%B0%E9%87%8D%E5%8A%83%E5%8D%80%E6%8A%B5%E8%B2%BB%E5%9C%B0%E6%A8%99%E5%94%AE-%E7%A9%B6%E7%AB%9F%E5%9C%A8%E5%90%B5%E4%BB%80%E9%BA%BC-234000956.html"
-    },
-    {
-     "title": "台中14期重劃區競標　建商一坪100萬標得創區段新高",
-     "outlet": "news.housefun.com.tw",
-     "url": "https://news.housefun.com.tw/news/article/119402414938.html"
     }
    ]
   },
@@ -1597,25 +1516,6 @@
    ]
   },
   {
-   "id": "l-i20231023a",
-   "title": "捷運綠線文華高中站住宅標售掀熱潮 中市府加開賞屋",
-   "date": "2023-10-23",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "捷運綠線文華高中站住宅標售掀熱潮 中市府加開賞屋",
-     "outlet": "聯合新聞網",
-     "url": "https://house.udn.com/house/story/123590/7524806"
-    },
-    {
-     "title": "台中首座捷運宅文華高中站標售10月31日加開賞屋",
-     "outlet": "聯合新聞網",
-     "url": "https://house.udn.com/house/story/123590/7523772"
-    }
-   ]
-  },
-  {
    "id": "l-i20231021a",
    "title": "台中龍井、大肚近6百公頃土地擬重劃 居民憂拆屋也盼改善交通",
    "date": "2023-10-21",
@@ -1682,6 +1582,16 @@
      "title": "捷運出站即到家！中市府標售捷運綠線文華高中站住宅不動產",
      "outlet": "taichung.gov.tw",
      "url": "https://www.taichung.gov.tw/8868/8872/9962/2451453"
+    },
+    {
+     "title": "捷運綠線文華高中站住宅標售掀熱潮 中市府加開賞屋",
+     "outlet": "聯合新聞網",
+     "url": "https://house.udn.com/house/story/123590/7524806"
+    },
+    {
+     "title": "台中首座捷運宅文華高中站標售10月31日加開賞屋",
+     "outlet": "聯合新聞網",
+     "url": "https://house.udn.com/house/story/123590/7523772"
     }
    ]
   },

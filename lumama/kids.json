@@ -294,23 +294,6 @@
    ]
   },
   {
-   "id": "y-i20260614a",
-   "title": "染HIV校車司機性侵9女學生 中市議員籲全面盤點學生校車接送安全",
-   "date": "2026-06-14",
-   "place": "台中",
-   "summary": "台中發生兒少受害事件。",
-   "sources": [
-    {
-     "title": "染HIV校車司機性侵9女學生 中市議員籲全面盤點學生校車接送安全",
-     "outlet": "聯合新聞網",
-     "url": "https://udn.com/news/story/7317/9565598"
-    }
-   ],
-   "fear": [
-    "Y"
-   ]
-  },
-  {
    "id": "y-i20260603a",
    "title": "台中私校傳疑似霸凌！3學生壓地拉扯　校方回應：連繫家長調查中",
    "date": "2026-06-03",
@@ -380,7 +363,15 @@
      "title": "校車司機稱「神明附身」性侵女學生 害5人染HIV",
      "outlet": "東森新聞",
      "url": "https://news.ebc.net.tw/news/society/556387"
+    },
+    {
+     "title": "染HIV校車司機性侵9女學生 中市議員籲全面盤點學生校車接送安全",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7317/9565598"
     }
+   ],
+   "fear": [
+    "Y"
    ]
   },
   {
@@ -790,23 +781,6 @@
    ]
   },
   {
-   "id": "y-i20250529a",
-   "title": "台中少棒教練涉性侵32學童社會局公布姓名",
-   "date": "2025-05-29",
-   "place": "台中",
-   "summary": "台中發生兒少受害事件。",
-   "sources": [
-    {
-     "title": "台中少棒教練涉性侵32學童社會局公布姓名",
-     "outlet": "中央社",
-     "url": "https://www.cna.com.tw/news/asoc/202505290393.aspx"
-    }
-   ],
-   "fear": [
-    "Y"
-   ]
-  },
-  {
    "id": "y-i20250518a",
    "title": "台中虐嬰案傳7員將離職 社會局啟動35童轉介",
    "date": "2025-05-18",
@@ -844,28 +818,6 @@
      "title": "台中貴族幼兒園暴霸凌！「5歲童遭勒頸、扯破衣服」教保員還在吃洋芋片， 賠償是一件新衣服",
      "outlet": "風傳媒",
      "url": "https://www.storm.mg/lifestyle/5373858"
-    }
-   ],
-   "fear": [
-    "Y"
-   ]
-  },
-  {
-   "id": "y-i20250512a",
-   "title": "豐原私托爆虐童！女教保員抓頭狂搖惡行曝　小朋友怕大人碰",
-   "date": "2025-05-12",
-   "place": "豐原",
-   "summary": "豐原發生兒少受害事件。",
-   "sources": [
-    {
-     "title": "豐原私托爆虐童！女教保員抓頭狂搖惡行曝　小朋友怕大人碰",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20250512/2958980.htm"
-    },
-    {
-     "title": "台中豐原準公托爆虐童！男童遭拖行、拉扯　社會局啟動調查",
-     "outlet": "鏡週刊",
-     "url": "https://www.mirrormedia.mg/story/20250512edi037"
     }
    ],
    "fear": [
@@ -1052,6 +1004,16 @@
      "title": "台中托育人員涉虐童已離職 市府追究延遲通報管理疏失",
      "outlet": "中央社",
      "url": "https://www.cna.com.tw/news/aloc/202505130116.aspx"
+    },
+    {
+     "title": "豐原私托爆虐童！女教保員抓頭狂搖惡行曝　小朋友怕大人碰",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250512/2958980.htm"
+    },
+    {
+     "title": "台中豐原準公托爆虐童！男童遭拖行、拉扯　社會局啟動調查",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/story/20250512edi037"
     }
    ]
   },
@@ -1107,23 +1069,6 @@
    ]
   },
   {
-   "id": "y-i20250401a",
-   "title": "再傳體罰！台中幼師虐童夾手，還翻倒椅子，經調查發現，過去也曾涉虐童案",
-   "date": "2025-04-01",
-   "place": "台中",
-   "summary": "台中發生兒少受害事件。",
-   "sources": [
-    {
-     "title": "獨／台中幼師虐童夾手！再查「嫌學生坐姿差」掀椅害跌傷 懲處出爐",
-     "outlet": "TVBS",
-     "url": "https://news.tvbs.com.tw/local/2826808"
-    }
-   ],
-   "fear": [
-    "Y"
-   ]
-  },
-  {
    "id": "y-i20250320a",
    "title": "錯誤政策比兒虐更可怕！台中托嬰「地板價1.6萬」超血汗 業者拉布條抗議",
    "date": "2025-03-20",
@@ -1139,48 +1084,6 @@
      "title": "80多家台中托嬰業者抗議：「地板價」政策比兒虐更可怕",
      "outlet": "自由時報",
      "url": "https://news.ltn.com.tw/news/life/breakingnews/4987084"
-    }
-   ],
-   "fear": [
-    "Y"
-   ]
-  },
-  {
-   "id": "y-i20250319a",
-   "title": "台中棒球教練猥褻41學童偷拍30多部性影像，有前科仍聘用，2校長6教職員遭懲處",
-   "date": "2025-03-19",
-   "place": "台中",
-   "summary": "台中發生兒少受害事件。",
-   "sources": [
-    {
-     "title": "台中棒球教練涉性侵41國小生 前任校長記2大過、現任1申誡",
-     "outlet": "公視新聞網",
-     "url": "https://news.pts.org.tw/article/742855"
-    },
-    {
-     "title": "少棒教練是色魔！7年性侵猥褻41童　中市府：協助求償及國賠",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20250320/2928581.htm"
-    },
-    {
-     "title": "台中棒球教練涉性侵猥褻33童　家長痛訴「學校為何沒把關」擬提國賠",
-     "outlet": "鏡週刊",
-     "url": "https://www.mirrormedia.mg/story/20250320edi031"
-    },
-    {
-     "title": "懲處擴大！台中棒球教練性侵41名學童 6名教職員未查核各記申誡1次",
-     "outlet": "上報",
-     "url": "https://www.upmedia.mg/tw/focus/society/226355"
-    },
-    {
-     "title": "台中棒球教練性侵41學童90次！還拍不雅片遭起訴 2校長6師全遭懲處",
-     "outlet": "知新聞",
-     "url": "https://www.knews.com.tw/news/D6712F2B1312DC21B347EA6433F4C437"
-    },
-    {
-     "title": "台中棒球教練猥褻41學童偷拍30多部性影像，有前科仍聘用，2校長6教職員遭懲處",
-     "outlet": "關鍵評論網",
-     "url": "https://www.thenewslens.com/article/250447"
     }
    ],
    "fear": [
@@ -1222,28 +1125,6 @@
    ]
   },
   {
-   "id": "y-i20250307a",
-   "title": "台中幼兒園傳虐童！女童被門夾手懲罰，還掀倒座椅使跌倒！該師七年前就曾拖男童撞牆",
-   "date": "2025-03-07",
-   "place": "台中",
-   "summary": "台中發生兒少受害事件。",
-   "sources": [
-    {
-     "title": "台中公幼主任涉虐童 教育局：停聘調查中",
-     "outlet": "公視新聞網",
-     "url": "https://news.pts.org.tw/article/741039"
-    },
-    {
-     "title": "台中公幼傳虐童！幼童遭師「翻椅摔倒、夾手懲罰」她7年前就被檢舉，為何繼續執教？",
-     "outlet": "風傳媒",
-     "url": "https://www.storm.mg/lifestyle/5335106"
-    }
-   ],
-   "fear": [
-    "Y"
-   ]
-  },
-  {
    "id": "y-i20250306a",
    "title": "台中某國小附幼師涉虐童 「夾手、推椅子」還被爆收費黑料",
    "date": "2025-03-06",
@@ -1254,6 +1135,21 @@
      "title": "台中某國小附幼師涉虐童 「夾手、推椅子」還被爆收費黑料",
      "outlet": "TVBS",
      "url": "https://news.tvbs.com.tw/local/2799631"
+    },
+    {
+     "title": "台中公幼主任涉虐童 教育局：停聘調查中",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/741039"
+    },
+    {
+     "title": "台中公幼傳虐童！幼童遭師「翻椅摔倒、夾手懲罰」她7年前就被檢舉，為何繼續執教？",
+     "outlet": "風傳媒",
+     "url": "https://www.storm.mg/lifestyle/5335106"
+    },
+    {
+     "title": "獨／台中幼師虐童夾手！再查「嫌學生坐姿差」掀椅害跌傷 懲處出爐",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2826808"
     }
    ],
    "fear": [
@@ -1305,38 +1201,6 @@
      "title": "台中某國小教練涉體罰遭調查 學者：教練培訓可納霸凌等課程",
      "outlet": "公視新聞網",
      "url": "https://news.pts.org.tw/article/730614"
-    }
-   ],
-   "fear": [
-    "Y"
-   ]
-  },
-  {
-   "id": "y-i20241217a",
-   "title": "台中國小棒球教練性侵31名學童，過去就曾性侵3名男童，學校未依規查詢不適任人員通報及查詢系統",
-   "date": "2024-12-17",
-   "place": "台中",
-   "summary": "台中發生兒少受害事件。",
-   "sources": [
-    {
-     "title": "台中狼教練涉性侵「受害學生增至31人」！學校認了沒查核就聘用… 教育局還邀當大型球賽裁判",
-     "outlet": "風傳媒",
-     "url": "https://www.storm.mg/lifestyle/5294059"
-    },
-    {
-     "title": "棒球教練有前科！台中某國小爆性侵 受害學童多達25人",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/society/breakingnews/4895801"
-    },
-    {
-     "title": "防堵狼師失效？ 台中國小棒球教練驚爆性侵25童",
-     "outlet": "epochtimes.com",
-     "url": "https://www.epochtimes.com/b5/24/12/17/n14392525.htm"
-    },
-    {
-     "title": "台中棒球教練性侵學童爆案外案同校教練摸女童大腿轉校繼續教- 生活",
-     "outlet": "ctee.com.tw",
-     "url": "https://www.ctee.com.tw/news/20241218700942-431401"
     }
    ],
    "fear": [
@@ -1478,6 +1342,61 @@
      "title": "台中某國小少棒教練松志彬涉性侵、猥褻82學童　議員批教育局失能",
      "outlet": "CTWANT",
      "url": "https://www.ctwant.com/article/476329/"
+    },
+    {
+     "title": "台中棒球教練涉性侵41國小生 前任校長記2大過、現任1申誡",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/742855"
+    },
+    {
+     "title": "少棒教練是色魔！7年性侵猥褻41童　中市府：協助求償及國賠",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250320/2928581.htm"
+    },
+    {
+     "title": "台中棒球教練涉性侵猥褻33童　家長痛訴「學校為何沒把關」擬提國賠",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/story/20250320edi031"
+    },
+    {
+     "title": "懲處擴大！台中棒球教練性侵41名學童 6名教職員未查核各記申誡1次",
+     "outlet": "上報",
+     "url": "https://www.upmedia.mg/tw/focus/society/226355"
+    },
+    {
+     "title": "台中棒球教練性侵41學童90次！還拍不雅片遭起訴 2校長6師全遭懲處",
+     "outlet": "知新聞",
+     "url": "https://www.knews.com.tw/news/D6712F2B1312DC21B347EA6433F4C437"
+    },
+    {
+     "title": "台中棒球教練猥褻41學童偷拍30多部性影像，有前科仍聘用，2校長6教職員遭懲處",
+     "outlet": "關鍵評論網",
+     "url": "https://www.thenewslens.com/article/250447"
+    },
+    {
+     "title": "台中狼教練涉性侵「受害學生增至31人」！學校認了沒查核就聘用… 教育局還邀當大型球賽裁判",
+     "outlet": "風傳媒",
+     "url": "https://www.storm.mg/lifestyle/5294059"
+    },
+    {
+     "title": "棒球教練有前科！台中某國小爆性侵 受害學童多達25人",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4895801"
+    },
+    {
+     "title": "防堵狼師失效？ 台中國小棒球教練驚爆性侵25童",
+     "outlet": "epochtimes.com",
+     "url": "https://www.epochtimes.com/b5/24/12/17/n14392525.htm"
+    },
+    {
+     "title": "台中棒球教練性侵學童爆案外案同校教練摸女童大腿轉校繼續教- 生活",
+     "outlet": "ctee.com.tw",
+     "url": "https://www.ctee.com.tw/news/20241218700942-431401"
+    },
+    {
+     "title": "台中少棒教練涉性侵32學童社會局公布姓名",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202505290393.aspx"
     }
    ]
   },
@@ -1567,23 +1486,6 @@
    ]
   },
   {
-   "id": "y-i20240907b",
-   "title": "台中「道町森」幼兒園20童遭虐 8名教保員難逃究責！裁定重罰出爐",
-   "date": "2024-09-07",
-   "place": "台中",
-   "summary": "台中發生兒少受害事件。",
-   "sources": [
-    {
-     "title": "台中「道町森」幼兒園20童遭虐 8名教保員難逃究責！裁定重罰出爐",
-     "outlet": "知新聞",
-     "url": "https://www.knews.com.tw/news/F7CC4AA3487D6C95DA38212E1B378DE6"
-    }
-   ],
-   "fear": [
-    "Y"
-   ]
-  },
-  {
    "id": "y-i20240906a",
    "title": "台中補習狼師對6童出手　被害童羞憤：想把他踹到月球",
    "date": "2024-09-06",
@@ -1638,6 +1540,11 @@
      "title": "台中道町森幼兒園「8大酷刑」虐童 六度稽查情節重大！市府開鍘了",
      "outlet": "知新聞",
      "url": "https://www.knews.com.tw/news/E85568C6440E5D88F786372606A0B727"
+    },
+    {
+     "title": "台中「道町森」幼兒園20童遭虐 8名教保員難逃究責！裁定重罰出爐",
+     "outlet": "知新聞",
+     "url": "https://www.knews.com.tw/news/F7CC4AA3487D6C95DA38212E1B378DE6"
     }
    ],
    "fear": [
@@ -2531,28 +2438,6 @@
    ]
   },
   {
-   "id": "y-i20220825a",
-   "title": "「台中房思琪」受害者增加到3人！狼師性侵女學生　補習班也淪陷",
-   "date": "2022-08-25",
-   "place": "台中",
-   "summary": "台中發生兒少受害事件。",
-   "sources": [
-    {
-     "title": "「台中房思琪」受害者增加到3人！狼師性侵女學生　補習班也淪陷",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20220825/2324716.htm"
-    },
-    {
-     "title": "「台中房思琪」不只1人！狼師還當上校長 人本：已知3人受害",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/society/breakingnews/4037617"
-    }
-   ],
-   "fear": [
-    "Y"
-   ]
-  },
-  {
    "id": "y-i20220824a",
    "title": "台中狼師25年前獸行曝光再傳1女學生受害教局成立檢舉專線- 社會",
    "date": "2022-08-24",
@@ -2597,23 +2482,6 @@
      "title": "涉嫌20餘年前性侵學生未釐清 台中某國中校長提退休「被暫緩」",
      "outlet": "自由時報",
      "url": "https://news.ltn.com.tw/news/life/breakingnews/4033746"
-    }
-   ],
-   "fear": [
-    "Y"
-   ]
-  },
-  {
-   "id": "y-i20220820a",
-   "title": "台中資優狼師「性侵還當上校長」 受害者父沉痛後悔信曝",
-   "date": "2022-08-20",
-   "place": "台中",
-   "summary": "台中發生兒少受害事件。",
-   "sources": [
-    {
-     "title": "台中資優狼師「性侵還當上校長」 受害者父沉痛後悔信曝",
-     "outlet": "TVBS",
-     "url": "https://news.tvbs.com.tw/local/1882799"
     }
    ],
    "fear": [
@@ -2700,6 +2568,21 @@
      "title": "臺中市立大墩國民中學前校長涉嫌校園性騷擾及性侵害、不當體罰學生及違法兼差補習惡性重大，監察院通過彈劾",
      "outlet": "監察院",
      "url": "https://www.cy.gov.tw/News_Content.aspx?n=792&s=27451"
+    },
+    {
+     "title": "台中資優狼師「性侵還當上校長」 受害者父沉痛後悔信曝",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/1882799"
+    },
+    {
+     "title": "「台中房思琪」受害者增加到3人！狼師性侵女學生　補習班也淪陷",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20220825/2324716.htm"
+    },
+    {
+     "title": "「台中房思琪」不只1人！狼師還當上校長 人本：已知3人受害",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4037617"
     }
    ]
   },
@@ -3495,23 +3378,6 @@
    ]
   },
   {
-   "id": "y-i20190904a",
-   "title": "狠摔女童致「腦傷+肢體偏癱」直播主怒圍她住處　台中惡保母被訴",
-   "date": "2019-09-04",
-   "place": "台中",
-   "summary": "台中發生兒少受害事件。",
-   "sources": [
-    {
-     "title": "狠摔女童致「腦傷+肢體偏癱」直播主怒圍她住處　台中惡保母被訴",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20190904/1528286.htm"
-    }
-   ],
-   "fear": [
-    "Y"
-   ]
-  },
-  {
    "id": "y-i20190731a",
    "title": "中市傳虐童案！被老師強壓撞地 大班男童頭部挫傷",
    "date": "2019-07-31",
@@ -3522,23 +3388,6 @@
      "title": "中市傳虐童案！被老師強壓撞地 大班男童頭部挫傷",
      "outlet": "自由時報",
      "url": "https://news.ltn.com.tw/news/society/breakingnews/2869527"
-    }
-   ],
-   "fear": [
-    "Y"
-   ]
-  },
-  {
-   "id": "y-i20190712a",
-   "title": "號召網友聚集台中疑虐童保母家 直播主被法辦",
-   "date": "2019-07-12",
-   "place": "台中",
-   "summary": "台中發生兒少受害事件。",
-   "sources": [
-    {
-     "title": "號召網友聚集台中疑虐童保母家 直播主被法辦",
-     "outlet": "TVBS",
-     "url": "https://news.tvbs.com.tw/local/1165243"
     }
    ],
    "fear": [
@@ -3674,6 +3523,16 @@
      "title": "台中虐童案恐拔管? 單親母泣:不知怎麼承擔- 綜合",
      "outlet": "華視新聞",
      "url": "https://news.cts.com.tw/cts/general/201906/201906261965413.html"
+    },
+    {
+     "title": "號召網友聚集台中疑虐童保母家 直播主被法辦",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/1165243"
+    },
+    {
+     "title": "狠摔女童致「腦傷+肢體偏癱」直播主怒圍她住處　台中惡保母被訴",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20190904/1528286.htm"
     }
    ],
    "fear": [
