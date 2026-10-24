@@ -1006,7 +1006,8 @@ try {
   }
   function openOwner() {
     owner.hidden = false;
-    $("#owner-close").focus();
+    owner.querySelector(".owner-box").scrollTop = 0;
+    $("#owner-close").focus({ preventScroll: true });
     ownerGL ||= ownerStage();
     if (!ownerGL.raf) ownerGL.tick();
   }
@@ -1211,7 +1212,8 @@ try {
   const about = $("#about");
   $("#about-open").addEventListener("click", () => {
     about.hidden = false;
-    $("#about-close").focus();
+    about.querySelector(".about-box").scrollTop = 0;
+    $("#about-close").focus({ preventScroll: true });
   });
   $("#about-close").addEventListener("click", () => (about.hidden = true));
   about.addEventListener("click", (e) => e.target === about && (about.hidden = true));
