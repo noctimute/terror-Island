@@ -138,19 +138,7 @@
      "title": "逃進新竹山區也難跑！台中警無人機鎖定路線　活逮詐團主嫌、30人遭起訴",
      "outlet": "CTWANT",
      "url": "https://www.ctwant.com/article/500233/"
-    }
-   ],
-   "fear": [
-    "Z"
-   ]
-  },
-  {
-   "id": "x-i20260930a",
-   "title": "中市刑大破獲詐欺集團逮卅人 一名受害人被騙一千四百萬元",
-   "date": "2026-09-30",
-   "place": "台中",
-   "summary": "台中發生詐騙案件。",
-   "sources": [
+    },
     {
      "title": "科技偵查建功 台中警善用無人機逮詐欺集團主嫌",
      "outlet": "cnews.com.tw",
@@ -1018,7 +1006,7 @@
      "url": "https://www.ettoday.net/news/20260526/3172086.htm"
     },
     {
-     "title": "台中年輕夫妻雙亡獨留嫩嬰！大伯痛揭黑幕：詐騙集團害的- 社會",
+     "title": "台中年輕夫妻雙亡獨留嫩嬰！大伯痛揭黑幕：詐騙集團害的",
      "outlet": "中時新聞網",
      "url": "https://www.chinatimes.com/realtimenews/20260526001456-260402"
     },
@@ -2449,13 +2437,13 @@
   },
   {
    "id": "x-i20250829c",
-   "title": "台中豪宅藏「貓池」！南投警方查扣價值9億虛擬貨幣詐團7人起訴- 社會",
+   "title": "台中豪宅藏「貓池」！南投警方查扣價值9億虛擬貨幣詐團7人起訴",
    "date": "2025-08-29",
    "place": "台中",
    "summary": "台中發生詐騙案件。",
    "sources": [
     {
-     "title": "台中豪宅藏「貓池」！南投警方查扣價值9億虛擬貨幣詐團7人起訴- 社會",
+     "title": "台中豪宅藏「貓池」！南投警方查扣價值9億虛擬貨幣詐團7人起訴",
      "outlet": "自由時報",
      "url": "https://news.ltn.com.tw/news/society/breakingnews/5160227"
     }
@@ -2735,6 +2723,36 @@
      "url": "https://newtalk.tw/news/view/2025-07-06/980160"
     },
     {
+     "title": "逼死豐原一家五口「李團長」詐騙犯行再多一條 衛生棉團購狠詐百萬",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/124490/9611524"
+    },
+    {
+     "title": "台中豐原5口命案，團購主李女涉詐欺和恐嚇取財等罪，一審判11年",
+     "outlet": "關鍵評論網",
+     "url": "https://www.thenewslens.com/article/267833"
+    },
+    {
+     "title": "詐騙逼死豐原王家一家五口 「李團長」詐欺重判11年",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/124490/9513691"
+    },
+    {
+     "title": "詐騙逼死豐原一家五口「李團長」判11年 律師：對家屬不公平",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/124490/9513768"
+    },
+    {
+     "title": "詐騙1536萬害死台中豐原五口 「李團長」一審重判11年",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5442873"
+    },
+    {
+     "title": "詐騙1536餘萬害死台中豐原五口「李團長」當庭改口認罪",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5318824"
+    },
+    {
      "title": "恐怖金流曝！女惡魔榨乾豐原5口　幼兒帳戶也拿去洗錢+還高利貸",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20251114/3067583.htm"
@@ -2763,36 +2781,6 @@
      "title": "新聞內幕／詐投752萬用夫帳戶洗錢　揭蛇蠍女團長逼死豐原5口",
      "outlet": "鏡週刊",
      "url": "https://www.mirrormedia.mg/story/20251117inv008"
-    },
-    {
-     "title": "詐騙1536餘萬害死台中豐原五口「李團長」當庭改口認罪- 社會",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/society/breakingnews/5318824"
-    },
-    {
-     "title": "台中豐原5口命案，團購主李女涉詐欺和恐嚇取財等罪，一審判11年",
-     "outlet": "關鍵評論網",
-     "url": "https://www.thenewslens.com/article/267833"
-    },
-    {
-     "title": "詐騙逼死豐原王家一家五口 「李團長」詐欺重判11年",
-     "outlet": "聯合新聞網",
-     "url": "https://udn.com/news/story/124490/9513691"
-    },
-    {
-     "title": "詐騙逼死豐原一家五口「李團長」判11年 律師：對家屬不公平",
-     "outlet": "聯合新聞網",
-     "url": "https://udn.com/news/story/124490/9513768"
-    },
-    {
-     "title": "詐騙1536萬害死台中豐原五口 「李團長」一審重判11年",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/society/breakingnews/5442873"
-    },
-    {
-     "title": "逼死豐原一家五口「李團長」詐騙犯行再多一條 衛生棉團購狠詐百萬",
-     "outlet": "聯合新聞網",
-     "url": "https://udn.com/news/story/124490/9611524"
     }
    ],
    "fear": [
@@ -2933,13 +2921,13 @@
   },
   {
    "id": "x-i20250610a",
-   "title": "台中7旬翁砸895萬投資虛幣被詐警百萬餌鈔誘捕、車手演技上身裝蒜- 社會",
+   "title": "台中7旬翁砸895萬投資虛幣被詐警百萬餌鈔誘捕、車手演技上身裝蒜",
    "date": "2025-06-10",
    "place": "台中",
    "summary": "台中發生詐騙案件。",
    "sources": [
     {
-     "title": "台中7旬翁砸895萬投資虛幣被詐警百萬餌鈔誘捕、車手演技上身裝蒜- 社會",
+     "title": "台中7旬翁砸895萬投資虛幣被詐警百萬餌鈔誘捕、車手演技上身裝蒜",
      "outlet": "自由時報",
      "url": "https://news.ltn.com.tw/news/society/breakingnews/5069833"
     }
@@ -3329,13 +3317,13 @@
   },
   {
    "id": "x-i20250319a",
-   "title": "首腦爽住七期豪宅台中車手集團以車行做掩護海撈2億被殲滅- 社會",
+   "title": "首腦爽住七期豪宅台中車手集團以車行做掩護海撈2億被殲滅",
    "date": "2025-03-19",
    "place": "台中",
    "summary": "台中發生詐騙案件。",
    "sources": [
     {
-     "title": "29歲首腦爽住七期豪宅台中車手集團以車行做掩護海撈2億被殲滅- 社會",
+     "title": "29歲首腦爽住七期豪宅台中車手集團以車行做掩護海撈2億被殲滅",
      "outlet": "自由時報",
      "url": "https://news.ltn.com.tw/news/society/breakingnews/4984725"
     }
@@ -5549,13 +5537,13 @@
   },
   {
    "id": "x-i20210715b",
-   "title": "坦克級詐騙1／房仲借錢搞代理一車多賣「雷神坦克」成台中富豪圈新八卦- 社會",
+   "title": "坦克級詐騙1／房仲借錢搞代理一車多賣「雷神坦克」成台中富豪圈新八卦",
    "date": "2021-07-15",
    "place": "台中",
    "summary": "台中發生詐騙案件。",
    "sources": [
     {
-     "title": "坦克級詐騙1／房仲借錢搞代理一車多賣「雷神坦克」成台中富豪圈新八卦- 社會",
+     "title": "坦克級詐騙1／房仲借錢搞代理一車多賣「雷神坦克」成台中富豪圈新八卦",
      "outlet": "中時新聞網",
      "url": "https://www.chinatimes.com/realtimenews/20210715000730-260402"
     }
