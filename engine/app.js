@@ -8,7 +8,7 @@ import { createMusic } from "./music.js?v=1";
 import { sfx } from "./sfx.js?v=10";
 import { createShore } from "./shore.js?v=1";
 import { createTreeEgg } from "./treeegg.js?v=2";
-import { createMemes } from "./memes.js?v=10";
+import { createMemes } from "./memes.js?v=11";
 import { createEggs } from "./eggs.js?v=11";
 import { icon, skulls } from "./icons.js?v=1";
 

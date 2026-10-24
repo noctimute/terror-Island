@@ -157,13 +157,45 @@ export function createMemes(THREE, { scene, centers, bounds, outer, westEndZ, ne
     place(pillars, i, V(p.x, (p.y + g) / 2, p.z), 0, 0.14, p.y - g, 0.14);
   }
   for (const im of [deck, rails, dashes, pillars]) hwy.add(im);
-  // green 74 signs on the west and east legs
+  // green 台74 road signs on the west and east legs: a board on two posts beside the deck, facing the camera (south)
+  const signCanvas = document.createElement("canvas");
+  signCanvas.width = 256;
+  signCanvas.height = 160;
+  const sc = signCanvas.getContext("2d");
+  sc.fillStyle = "#1f7a3f";
+  sc.fillRect(0, 0, 256, 160);
+  sc.strokeStyle = "#f4f1ea";
+  sc.lineWidth = 10;
+  sc.strokeRect(9, 9, 238, 142);
+  sc.fillStyle = "#fff";
+  sc.textAlign = "center";
+  sc.textBaseline = "middle";
+  sc.font = "900 44px sans-serif";
+  sc.fillText("台", 62, 82);
+  sc.font = "900 104px sans-serif";
+  sc.fillText("74", 160, 86);
+  const signTex = new THREE.CanvasTexture(signCanvas);
+  signTex.colorSpace = THREE.SRGBColorSpace;
+  const boardMat = [mat(0x1f7a3f), mat(0x1f7a3f), mat(0x1f7a3f), mat(0x1f7a3f), new THREE.MeshStandardMaterial({ map: signTex, roughness: 0.6 }), mat(0x9aa0a6)];
+  const postMat = mat(0x9aa0a6, { metalness: 0.4 });
+  const boards = [];
   for (const u of [0.12, 0.88]) {
-    const tag = document.createElement("div");
-    tag.innerHTML = `<span class="hwy-tag">74</span>`;
-    const obj = new CSS2DObject(tag);
-    obj.position.copy(at(u)).add(V(0, 0.55, 0));
-    hwy.add(obj);
+    const p = at(u),
+      sx = p.x + (u < 0.5 ? -1.1 : 1.1), // outside the U (west of the west leg, east of the east leg)
+      sz = p.z;
+    const sign = new THREE.Group();
+    const board = new THREE.Mesh(new THREE.BoxGeometry(1.3, 0.8, 0.05), boardMat);
+    board.position.y = p.y + 0.8;
+    sign.add(board);
+    boards.push(board);
+    for (const dx of [-0.45, 0.45]) {
+      const g = groundAt(sx + dx, sz),
+        post = new THREE.Mesh(new THREE.CylinderGeometry(0.025, 0.025, p.y + 0.45 - g, 8), postMat);
+      post.position.set(dx, (p.y + 0.45 + g) / 2, -0.03);
+      sign.add(post);
+    }
+    sign.position.set(sx, 0, sz);
+    hwy.add(sign);
   }
   scene.add(hwy);
   // the cars: two lanes bumper to bumper, as instanced bodies and cabins
@@ -194,7 +226,7 @@ export function createMemes(THREE, { scene, centers, bounds, outer, westEndZ, ne
     say(h.point.clone().add(V(0, 0.8, 0)), `距離目的地 3 公里<br>預計抵達：${ETA[Math.floor(rng() * ETA.length)]}`);
     sfx.jam?.();
   };
-  for (const im of [deck, bodies, cabins]) hits.push([im, jam]);
+  for (const im of [deck, bodies, cabins, ...boards]) hits.push([im, jam]);
 
   // ---- 3. the rat army: a pack that dashes along the roads every so often ----
   const ratMat = mat(0x6b6560),
@@ -327,18 +359,47 @@ export function createMemes(THREE, { scene, centers, bounds, outer, westEndZ, ne
   // cobwebs and weeds say how long it has been waiting
   for (let i = 0; i < 6; i++) box(tbm, 0.03, 0.12 + rng() * 0.12, 0.03, mat(0x4e6b3a), -0.9 + rng() * 1.8, 0.08, 0.5 + rng() * 0.15);
   box(tbm, 0.5, 0.26, 0.02, mat(0x9a9488), -0.5, 0.95, 0.2);
-  const tbmTag = document.createElement("div");
-  tbmTag.innerHTML = `<span class="hwy-tag tbm-tag">捷運藍線</span>`;
-  const tbmObj = new CSS2DObject(tbmTag);
-  tbmObj.position.set(0, 1.25, 0);
-  tbm.add(tbmObj);
   scene.add(tbm);
+  // a blue 捷運藍線 board on two posts behind the pit, facing the camera (south) like the 74 signs
+  const mrtCanvas = document.createElement("canvas");
+  mrtCanvas.width = 320;
+  mrtCanvas.height = 128;
+  const mc = mrtCanvas.getContext("2d");
+  mc.fillStyle = "#2c6db5";
+  mc.fillRect(0, 0, 320, 128);
+  mc.strokeStyle = "#f4f1ea";
+  mc.lineWidth = 8;
+  mc.strokeRect(8, 8, 304, 112);
+  mc.fillStyle = "#fff";
+  mc.textAlign = "center";
+  mc.textBaseline = "middle";
+  mc.font = "900 62px sans-serif";
+  mc.fillText("捷運藍線", 160, 68);
+  const mrtTex = new THREE.CanvasTexture(mrtCanvas);
+  mrtTex.colorSpace = THREE.SRGBColorSpace;
+  const mrtSign = new THREE.Group();
+  const sx = tx,
+    sz = tz - 1.0;
+  const mrtBoard = new THREE.Mesh(new THREE.BoxGeometry(1.4, 0.56, 0.05), [blue, blue, blue, blue, new THREE.MeshStandardMaterial({ map: mrtTex, roughness: 0.6 }), mat(0x9aa0a6)]);
+  mrtBoard.position.y = groundAt(sx, sz) + 1.25;
+  mrtSign.add(mrtBoard);
+  for (const dx of [-0.5, 0.5]) {
+    const g = groundAt(sx + dx, sz),
+      top = mrtBoard.position.y - 0.2,
+      post = new THREE.Mesh(new THREE.CylinderGeometry(0.025, 0.025, top - g, 8), mat(0x9aa0a6, { metalness: 0.4 }));
+    post.position.set(dx, (top + g) / 2, -0.03);
+    mrtSign.add(post);
+  }
+  mrtSign.position.set(sx, 0, sz);
+  scene.add(mrtSign);
   let spin = 0;
-  hitBox(tbm, 2.2, 1.1, 1.2, 0.1, 0.45, 0, () => {
+  const poke = () => {
     spin = 2.2; // the head lurches a quarter turn, coughs, and stops again
     say(tbm.position.clone().add(V(0, 1.6, 0)), `中捷藍線<br>8 年沒動工 1 公分<br>預算再增 1300 億`);
     sfx.tbm?.();
-  });
+  };
+  hitBox(tbm, 2.2, 1.1, 1.2, 0.1, 0.45, 0, poke);
+  hits.push([mrtBoard, poke]);
 
   // ---- shared click and update ----
   // the hit boxes themselves are invisible, so skip only those whose prop is hidden (the bus while gone, rats off-screen)
