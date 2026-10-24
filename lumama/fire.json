@@ -755,11 +755,6 @@
      "url": "https://www.ettoday.net/news/20211001/2091262.htm"
     },
     {
-     "title": "台中透天厝凌晨惡火！屋主妻困2F「救出無心跳」送醫不治 ...",
-     "outlet": "LINE TODAY（轉載）",
-     "url": "https://today.line.me/tw/v3/article/3OM6qk"
-    },
-    {
      "title": "台中透天厝清晨惡火「連8人送醫」！1人一度受困…救出無 ...",
      "outlet": "Yahoo 新聞",
      "url": "https://tw.news.yahoo.com/%E5%BF%AB%E8%A8%8A-%E5%8F%B0%E4%B8%AD%E9%80%8F%E5%A4%A9%E5%8E%9D%E6%B8%85%E6%99%A8%E6%83%A1%E7%81%AB-%E9%80%A38%E4%BA%BA%E9%80%81%E9%86%AB-1%E4%BA%BA-%E5%BA%A6%E5%8F%97%E5%9B%B0-234041894.html"
@@ -768,6 +763,11 @@
      "title": "台中透天厝暗夜惡火屋主妻不治、8人受傷",
      "outlet": "LINE TODAY（轉載）",
      "url": "https://today.line.me/tw/v3/article/2XGZDz"
+    },
+    {
+     "title": "台中透天厝凌晨惡火！屋主妻困2F「救出無心跳」送醫不治 ...",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/3OM6qk"
     }
    ],
    "deaths": 1
@@ -880,6 +880,11 @@
      "url": "https://news.ttv.com.tw/news/11004190000100W"
     },
     {
+     "title": "台中民宅暗夜惡火 3童命喪火窟",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/zpymz7"
+    },
+    {
      "title": "台中大火3童死！女童父質疑「打火機釀禍」、煩惱怎麼賠償",
      "outlet": "三立新聞網",
      "url": "https://www.setn.com/news/927195"
@@ -898,11 +903,6 @@
      "title": "【台中惡火】疑玩打火機惹禍2家3童喪命 父悲慟還煩惱賠償",
      "outlet": "中時新聞網",
      "url": "https://www.chinatimes.com/realtimenews/20210419000949-260402"
-    },
-    {
-     "title": "台中民宅暗夜惡火 3童命喪火窟",
-     "outlet": "LINE TODAY（轉載）",
-     "url": "https://today.line.me/tw/v3/article/zpymz7"
     },
     {
      "title": "台中3童火窟殞命！房客摸黑下樓「踩到他」…伸手一拉軟趴趴：完了",
@@ -1305,6 +1305,21 @@
      "url": "https://www.ettoday.net/news/20200402/1682421.htm"
     },
     {
+     "title": "台中接連2起縱火焦屍之一不排除是嫌疑人",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/3120667"
+    },
+    {
+     "title": "台中離奇縱火2焦屍！一小時內「太平、西屯」接連燃燒 嫌疑人已失蹤",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/wy63Gw"
+    },
+    {
+     "title": "台中2火警2焦屍2傷 警疑失蹤何男縱火",
+     "outlet": "中天新聞網",
+     "url": "https://ctinews.com/news/items/4bnbGB7ZWP"
+    },
+    {
      "title": "台中太平透天民宅凌晨火警 屋內發現2焦屍",
      "outlet": "Yahoo 新聞",
      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E5%A4%AA%E5%B9%B3%E9%80%8F%E5%A4%A9%E6%B0%91%E5%AE%85%E5%87%8C%E6%99%A8%E7%81%AB%E8%AD%A6-%E5%B1%8B%E5%85%A7%E7%99%BC%E7%8F%BE2%E7%84%A6%E5%B1%8D-012230368.html"
@@ -1323,21 +1338,6 @@
      "title": "台中凌晨民宅火警 2焦屍陳屍屋內",
      "outlet": "Newtalk 新聞",
      "url": "https://newtalk.tw/news/view/2020-04-01/384502"
-    },
-    {
-     "title": "台中接連2起縱火焦屍之一不排除是嫌疑人",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/society/breakingnews/3120667"
-    },
-    {
-     "title": "台中離奇縱火2焦屍！一小時內「太平、西屯」接連燃燒 嫌疑人已失蹤",
-     "outlet": "LINE TODAY（轉載）",
-     "url": "https://today.line.me/tw/v3/article/wy63Gw"
-    },
-    {
-     "title": "台中2火警2焦屍2傷 警疑失蹤何男縱火",
-     "outlet": "中天新聞網",
-     "url": "https://ctinews.com/news/items/4bnbGB7ZWP"
     },
     {
      "title": "台中離奇焦屍案 檢警懷疑男子2處縱火再與女友玉石俱焚",
