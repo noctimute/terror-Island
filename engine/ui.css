@@ -439,6 +439,8 @@ body.frozen .mascot .face { animation-play-state: paused; }
 .about-share a::before { content: counter(share); position: absolute; left: 12px; top: 10px; width: 20px; text-align: center; font: 800 calc(14px * var(--fs))/1.6 var(--serif); color: var(--accent2); }
 .share-stat { display: flex; gap: 12px; margin-top: 4px; color: var(--muted); font-size: calc(11px * var(--fs)); }
 .share-stat b { color: var(--accent); font-weight: 700; }
+.share-stat b.fb { color: #0866ff; display: inline-flex; align-items: center; gap: 4px; }
+.fb-like { width: 1.35em; height: 1.35em; fill: currentColor; }
 .share-note { font-weight: 400; font-size: calc(11px * var(--fs)); margin-left: 6px; }
 .about-follow { display: inline-flex; align-items: center; border: 1px solid var(--line); background: #fff; border-radius: 10px; height: 44px; padding: 0 16px; font-size: calc(14px * var(--fs)); color: inherit; text-decoration: none; }
 
