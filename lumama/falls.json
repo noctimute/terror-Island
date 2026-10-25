@@ -1970,26 +1970,6 @@
    "deaths": 1
   },
   {
-   "id": "fall-dm210",
-   "title": "台中墜樓意外！男「高空落地」摔破後腦陷昏迷…目擊民眾嚇壞報警",
-   "date": "2025-09-19",
-   "place": "北區",
-   "summary": "北區一處住宅發生墜樓事件，一名男子身亡。",
-   "sources": [
-    {
-     "title": "台中墜樓意外！男「高空落地」摔破後腦陷昏迷…目擊民眾嚇壞報警",
-     "outlet": "Yahoo 新聞",
-     "url": "https://tw.news.yahoo.com/%E5%BF%AB%E8%A8%8A-%E5%8F%B0%E4%B8%AD%E5%A2%9C%E6%A8%93%E6%84%8F%E5%A4%96-%E7%94%B7-%E9%AB%98%E7%A9%BA%E8%90%BD%E5%9C%B0-%E6%91%94%E7%A0%B4%E5%BE%8C%E8%85%A6%E9%99%B7%E6%98%8F%E8%BF%B7-010600793.html"
-    },
-    {
-     "title": "台中墜樓意外！男「高空落地」摔破後腦陷昏迷…目擊民眾嚇壞報警",
-     "outlet": "三立新聞網",
-     "url": "https://www.setn.com/news/1722491"
-    }
-   ],
-   "deaths": 1
-  },
-  {
    "id": "fall-dm211",
    "title": "剛離開輔導室就直奔頂樓 台中15歲高中女生墜樓身亡！家屬淚崩",
    "date": "2025-09-19",
@@ -3140,21 +3120,6 @@
    "title": "台中深夜傳墜樓！女19F墜下 夫從新竹趕回"
   },
   {
-   "id": "fall-3",
-   "title": "快訊/碰！台中北屯50歲女8樓掉到2樓鐵皮屋 意識不清搶救中",
-   "date": "2025-01-06",
-   "place": "北屯",
-   "summary": "北屯一處住宅發生墜樓事件，一名女子身亡。",
-   "sources": [
-    {
-     "title": "快訊/碰！台中北屯50歲女8樓掉到2樓鐵皮屋 意識不清搶救中",
-     "outlet": "中天新聞網",
-     "url": "https://ctinews.com/news/items/yDa2QZJpWK"
-    }
-   ],
-   "deaths": 1
-  },
-  {
    "id": "fall-0",
    "title": "台中南區午間巨響！29歲男16樓高處急墜 重傷搶救喚不回",
    "date": "2025-01-03",
@@ -3750,31 +3715,6 @@
    "deaths": 1
   },
   {
-   "id": "fall-82",
-   "title": "快訊／台中女社區5樓墜落！送醫搶救中",
-   "date": "2024-07-22",
-   "place": "南區",
-   "summary": "南區一處住宅發生墜樓事件，一名女子身亡。",
-   "sources": [
-    {
-     "title": "快訊／台中女社區5樓墜落！送醫搶救中",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20240722/2782095.htm"
-    },
-    {
-     "title": "快訊／台中南區驚傳墜樓事件！35歲女5F墜下 仍有生命跡象搶救中",
-     "outlet": "蕃新聞（轉載）",
-     "url": "https://n.yam.com/Article/20240722861185"
-    },
-    {
-     "title": "快訊／台中南區驚傳墜樓事件！35歲女5F墜下 仍有生命跡象搶救中 - ENews新聞網",
-     "outlet": "eNews",
-     "url": "https://enews.tw/article/1232611"
-    }
-   ],
-   "deaths": 1
-  },
-  {
    "id": "fall-79",
    "title": "台中30歲男豪宅19樓墜落！住戶一看竟是管理員 現場留3物",
    "date": "2024-07-17",
@@ -4084,31 +4024,6 @@
      "title": "聯合新聞網報導（原文已下架）",
      "outlet": "聯合新聞網（原文已下架・網頁存檔）",
      "url": "https://web.archive.org/web/20250527041907/https://udn.com/news/story/7320/8021205"
-    }
-   ],
-   "deaths": 1
-  },
-  {
-   "id": "fall-56",
-   "title": "快訊／台中SOGO商圈旁套房1男墜5樓 頭部受傷搶救中",
-   "date": "2024-05-27",
-   "place": "西區",
-   "summary": "西區SOGO發生墜樓事件，一名男子身亡。",
-   "sources": [
-    {
-     "title": "快訊／台中SOGO商圈旁套房1男墜5樓 頭部受傷搶救中",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20240527/2747048.htm"
-    },
-    {
-     "title": "快訊／台中西區35歲男自5樓套房墜樓 送醫搶命中",
-     "outlet": "TVBS",
-     "url": "https://news.tvbs.com.tw/local/2499142"
-    },
-    {
-     "title": "聯合新聞網報導（原文已下架）",
-     "outlet": "聯合新聞網（原文已下架・網頁存檔）",
-     "url": "https://web.archive.org/web/20240902034917/https://udn.com/news/story/7320/7991556"
     }
    ],
    "deaths": 1
