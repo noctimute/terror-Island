@@ -1263,6 +1263,65 @@ export const MODELS = {
     return { mist: 2, mistY: 0.25 };
   },
 
+  // 噤聲島：a police box with a flashing light bar, a giant water meter (查水表) with a spinning needle, a phone whose
+  // speech bubble keeps getting crossed out, three people with taped mouths and a pile of legal letters
+  silenceisle(p, rng) {
+    // the police box: white walls, blue band, lit windows, a red-and-blue light bar on the roof
+    const ps = p.sub(-0.7, 0, -0.55);
+    ps.box(0, 0.35, 0, 0.8, 0.7, 0.55, C.white);
+    ps.box(0, 0.6, 0.28, 0.8, 0.1, 0.01, 0x2c6db5);
+    ps.box(0, 0.22, 0.28, 0.2, 0.42, 0.01, C.glass);
+    for (const x of [-0.26, 0.26]) ps.box(x, 0.34, 0.28, 0.16, 0.14, 0.01, C.warm, { glow: true });
+    ps.box(0, 0.72, 0, 0.86, 0.04, 0.6, 0x9aa3a8);
+    ps.box(0, 0.77, 0, 0.36, 0.05, 0.1, C.black);
+    const red = lantern(p.dyn(-0.8, 0.84, -0.55), 0, 0, 0, C.blood, 0.45, { own: true });
+    const blue = lantern(p.dyn(-0.6, 0.84, -0.55), 0, 0, 0, 0x3a7bff, 0.45, { own: true });
+    // the water meter: a blue housing on a pipe, a big white dial with a needle that never stops turning
+    const wm = p.sub(0.55, 0, -0.5);
+    wm.cyl(0, 0.1, 0, 0.09, 1.2, 0.09, C.metal, { rz: Math.PI / 2 });
+    wm.box(0, 0.4, 0, 0.56, 0.7, 0.3, 0x3d6b8a);
+    wm.cyl(0, 0.45, 0.15, 0.46, 0.02, 0.46, C.metal, { rx: Math.PI / 2 });
+    wm.cyl(0, 0.45, 0.165, 0.4, 0.02, 0.4, C.white, { rx: Math.PI / 2 });
+    for (let k = 0; k < 4; k++) wm.box(-0.09 + k * 0.06, 0.34, 0.18, 0.045, 0.06, 0.005, C.black);
+    for (let k = 0; k < 8; k++) wm.box(Math.cos(k * 0.785) * 0.16, 0.45 + Math.sin(k * 0.785) * 0.16, 0.18, 0.02, 0.02, 0.005, C.black);
+    const needle = p.dyn(0.55, 0.45, -0.31);
+    needle.box(0, 0.07, 0, 0.02, 0.14, 0.01, C.red);
+    needle.sphere(0, 0, 0, 0.04, 0.04, 0.02, C.black);
+    // the phone: a lit screen, a speech bubble that grows and then gets a red cross over it
+    const ph = p.sub(0.75, 0, 0.4, -0.3);
+    ph.rbox(0, 0.45, 0, 0.4, 0.8, 0.06, C.black);
+    ph.box(0, 0.46, 0.035, 0.34, 0.66, 0.01, 0x6fb3ff, { glow: true });
+    const bub = p.dyn(0.68, 1.15, 0.45);
+    bub.sphere(0, 0, 0, 0.46, 0.32, 0.12, C.white);
+    bub.cone(-0.12, -0.18, 0, 0.08, 0.14, 0.06, C.white, { rx: Math.PI });
+    for (const x of [-0.1, 0, 0.1]) bub.sphere(x, 0, 0.06, 0.05, 0.05, 0.02, C.black);
+    const cross = p.dyn(0.68, 1.15, 0.53);
+    for (const rz of [0.7, -0.7]) cross.box(0, 0, 0, 0.56, 0.06, 0.03, C.blood, { rz, glow: true });
+    // three people facing the street, mouths taped shut with a grey cross
+    [0x5b6b8a, 0x8a5b5b, 0x5b8a6b].forEach((body, i) => {
+      const f = p.sub(-0.6 + i * 0.32, 0, 0.55);
+      f.rbox(0, 0.16, 0, 0.2, 0.26, 0.14, body);
+      f.sphere(0, 0.42, 0, 0.24, 0.24, 0.22, 0xf0dcc8);
+      f.box(0, 0.51, -0.02, 0.25, 0.08, 0.2, 0x2b2222);
+      for (const ex of [-0.05, 0.05]) f.box(ex, 0.45, 0.11, 0.03, 0.03, 0.01, C.black);
+      for (const rz of [0.45, -0.45]) f.box(0, 0.36, 0.115, 0.15, 0.035, 0.01, 0xd9d2c3, { rz });
+    });
+    // a pile of letters from the lawyers, a red seal on top
+    const lt = p.sub(0.05, 0, -0.05);
+    for (let k = 0; k < 6; k++) lt.box((rng() - 0.5) * 0.05, 0.015 + k * 0.025, (rng() - 0.5) * 0.05, 0.34, 0.02, 0.24, k % 2 ? C.white : C.cream, { ry: (rng() - 0.5) * 0.4 });
+    lt.cyl(0.08, 0.17, 0.04, 0.07, 0.01, 0.07, C.red);
+    p.anim((t) => {
+      const on = Math.sin(t * 7) > 0;
+      red.material.userData.flick = on ? 1 : 0.1;
+      blue.material.userData.flick = on ? 0.1 : 1;
+      needle.node.rotation.z = -t * 2.2;
+      const k = (t / 3.2) % 1;
+      bub.node.scale.setScalar(Math.max(0.001, Math.min(1, k / 0.3)) * (k < 0.92 ? 1 : 0.001));
+      cross.node.scale.setScalar(k > 0.5 && k < 0.92 ? 1 : 0.001);
+    });
+    return { mist: 3, mistY: 0.2 };
+  },
+
   // 火燒山島：a hill burning up from the cemetery at its foot, half charred and half still green, a water-bucket helicopter circling
   wildfireisle(p, rng) {
     // the hill: stacked flattened domes, scorched on the west face

@@ -1,0 +1,231 @@
+{
+ "title": "台中市府壓制言論新聞",
+ "note": "整理自研究資料：市府、警方對批評、爆料、諷刺或整理資料的民眾提告、報警、移送或約談的新聞",
+ "helpline": false,
+ "fear": [
+  "V"
+ ],
+ "danger": 3,
+ "updated": "2026-10-26",
+ "records": [
+  {
+   "id": "v-terrorisland",
+   "title": "整理台中新聞做成恐怖島 作者自述遭查水表",
+   "date": "2026-10-21",
+   "place": "台中",
+   "summary": "恐怖島作者整理台中死亡列表與事件地圖，自述 10/21 遭市府查水表、意圖以社維法法辦。自由時報 10/25 報導轉述當事人說法，未見市府或警方回應。",
+   "sources": [
+    {
+     "title": "自爆評論時事遭查水表！他彙整台中鬼故事 推「盧媽媽恐怖島」反擊",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/politics/breakingnews/5618471"
+    },
+    {
+     "title": "台北 沈柏洋 有政策島 台中 盧秀燕 有恐怖島…起因 台中市政府對我查水表 於是花了點時間做出來",
+     "outlet": "Threads",
+     "url": "https://www.threads.com/@a728728728/post/De0b0ANgv6S"
+    },
+    {
+     "title": "台中戒嚴了嗎？依據事實新聞做恐怖島的網友，竟然在沒有收到任何拘提單的前提，被以違反「社維法」帶走問話",
+     "outlet": "Threads",
+     "url": "https://www.threads.com/@lslegu1314/post/De4Ef-RAXwl"
+    }
+   ]
+  },
+  {
+   "id": "v-4wan",
+   "title": "Threads 貼「普發4萬」圖卡遭市府報警 法院裁定不罰",
+   "date": "2025-07-28",
+   "place": "南區",
+   "summary": "網友在 Threads 張貼「謝謝盧媽媽，台中普發4萬」圖卡，南區區公所報案、市府報警，第三分局依社維法移送，議員批評打壓言論自由。台中地院認屬公共議題的言論自由，裁定不罰。",
+   "sources": [
+    {
+     "title": "【謠言澄清】假訊息！網傳台中普發4萬元不實圖卡 中市府報警查辦、籲勿轉傳",
+     "outlet": "台中市政府",
+     "url": "https://www.taichung.gov.tw/8868/8872/1269419/3052627"
+    },
+    {
+     "title": "網瘋傳台中「普發4萬」圖卡！　盧秀燕出面解釋報案原因",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/story/20250729edi049"
+    },
+    {
+     "title": "網傳台中普發4萬圖卡 市府報警處理 - 全國廣播M-Radio",
+     "outlet": "全國廣播",
+     "url": "https://www.mradio.com.tw/home/m-news/ContentView/e856914d-a0cc-4a0f-9874-1e935dd453b2/true/0"
+    },
+    {
+     "title": "網友瞎喊「謝謝盧媽媽普發4萬」假訊息　台中市府報警：別轉傳",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250728/3004455.htm"
+    },
+    {
+     "title": "中市府：網傳普發4萬元圖卡為假訊息 報警處理",
+     "outlet": "客家新聞",
+     "url": "https://hakkanews.tw/2025/07/28/216971/"
+    },
+    {
+     "title": "網傳台中普發4萬元圖卡為假訊息市府報案| 社會",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202507280108.aspx"
+    },
+    {
+     "title": "台中要普發4萬「謝謝盧媽媽」？網瘋傳圖卡被打臉　警追查造謠者",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/story/20250728edi036"
+    },
+    {
+     "title": "台中將普發4萬元？ 市府急報案澄清：假訊息",
+     "outlet": "知新聞",
+     "url": "https://www.knews.com.tw/news/D2BBD30AC00ECE34425274785E476276"
+    },
+    {
+     "title": "網友瘋傳「台中普發4萬」假訊息！台中市府報警處理…盧秀燕曝報案原因",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1694700"
+    },
+    {
+     "title": "台中市府電話被灌爆！假圖卡「普發4萬」引民眾搶詢問 已報案",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/politics/2945029"
+    },
+    {
+     "title": "盧媽媽發4萬哏圖瘋傳！市府報警引網怒　王義川揭國民黨「勝利方程式」",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1695077"
+    },
+    {
+     "title": "普發4萬哏圖瘋傳中市府報警！王義川諷業力引爆　呂家愷：地方加碼我OK",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1695038"
+    },
+    {
+     "title": "市府報案「普發4萬」假訊息 盧秀燕：造成很多市民混淆",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/politics/breakingnews/5124402"
+    },
+    {
+     "title": "網傳普發4萬元遭中市府報案議員：打壓言論自由| 地方",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/aloc/202507290369.aspx"
+    },
+    {
+     "title": "快新聞／網傳「台中可普發4萬」中市府報案 綠委嗆：選前普發選後告發？",
+     "outlet": "民視新聞",
+     "url": "https://www.ftvnews.com.tw/news/detail/2025729W0425"
+    },
+    {
+     "title": "貼「台中每人普發4萬」圖卡被送辦 法院裁定不罰：言論自由",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/politics/breakingnews/5213140"
+    },
+    {
+     "title": "張貼盧秀燕圖卡稱普發4萬法院認言論自由不罰| 社會",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202510160163.aspx"
+    },
+    {
+     "title": "張貼「每人普發4萬」屬言論自由判不罰　台中市府告民眾「假訊息」敗訴",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/story/20251016inv005"
+    }
+   ]
+  },
+  {
+   "id": "v-flashlight",
+   "title": "直播拔除爆閃燈電源抗議 路權團體 3 人遭移送",
+   "date": "2023-12-13",
+   "place": "大里",
+   "summary": "路權團體成員陳情路口爆閃燈刺眼、設置於法無據未果，直播自行拔除大里路口爆閃燈電源抗議，遭警方以毀損公物等罪移送，檢方緩起訴；立委質疑爆閃燈的法源依據。本件屬抗議行為。",
+   "sources": [
+    {
+     "title": "指台中路口爆閃燈刺眼 3男陳情未果自拆電線遭辦",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/671576"
+    },
+    {
+     "title": "台中民眾直播拆除爆閃燈遭送辦 批設置於法無據",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/671890"
+    },
+    {
+     "title": "爆閃燈遭民眾關燈卻遭毀損罪法辦，立委質疑法源依據何在？",
+     "outlet": "TVBS",
+     "url": "https://cars.tvbs.com.tw/life/162367"
+    }
+   ]
+  },
+  {
+   "id": "v-rumor500m",
+   "title": "網傳市府官員與五億案關係人是親屬 市府揚言提告",
+   "date": "2023-07-08",
+   "place": "台中",
+   "summary": "網路流傳市長及稅務局副局長與「五億高中生案」關係人有親屬關係，市府發布謠言澄清，稱已保全證據，未刪文者將依法提出刑事告訴。之後未見提告後續報導。",
+   "sources": [
+    {
+     "title": "【謠言澄清】網傳本府同僚與賴生案夏姓關係人為親屬關係 中市府駁斥：蓄意造謠！",
+     "outlet": "台中市政府",
+     "url": "https://www.taichung.gov.tw/8868/8872/1269419/2395968"
+    }
+   ]
+  },
+  {
+   "id": "v-carleak",
+   "title": "網友爆料局長公務車私用 建設局長揚言提告",
+   "date": "2020-09-16",
+   "place": "台中",
+   "summary": "網友跟拍台中市建設局長開公務車接送家人，影片上傳爆料公社；局長發聲明稱有付費，將依法對爆料者提出告訴。之後未見提告後續報導。",
+   "sources": [
+    {
+     "title": "被爆公務車私用？中市建設局長：將提告還他清白",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20200916001730-260407"
+    },
+    {
+     "title": "中市建設局長公務車私用？陳大田回應了　爆料者恐挨告",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/815309"
+    },
+    {
+     "title": "遭爆「開公務車載老婆」趴趴走！台中建設局長稱合法：將依法提告",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20200916/1809919.htm"
+    },
+    {
+     "title": "被狗仔跟拍開公務車趴趴跑 中市建設局長陳大田揚言提告",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/3293063"
+    },
+    {
+     "title": "被爆公車私用？ 台中建設局長：有付費將提告- 生活",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/life/paper/1400126"
+    },
+    {
+     "title": "被爆公車私用？ 台中建設局長：有付費將提告",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/Taichung/paper/1400126"
+    }
+   ]
+  },
+  {
+   "id": "v-qingji",
+   "title": "KUSO 短片諷「慶記之都」 導演等 4 人遭社維法移送",
+   "date": "2019-07-26",
+   "place": "台中",
+   "summary": "影片公司在 YouTube 上傳以道具槍演出路上開槍的 KUSO 短片，片尾字幕「別的地方可以，台中千萬不行」，被指暗諷台中治安；警察局刑大依社維法將導演等 4 人移送，影片下架。之後未見裁罰結果報導。",
+   "sources": [
+    {
+     "title": "拍片「開槍」暗諷台中是「慶記之都」　導演及臨演全送辦",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/576949"
+    },
+    {
+     "title": "慶記之都諷台中 導演拍kuso片遭移送",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/paper/1306460"
+    }
+   ]
+  }
+ ]
+}

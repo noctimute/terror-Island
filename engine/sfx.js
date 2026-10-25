@@ -155,6 +155,11 @@ const ISLAND = {
     noise({ dur: 0.9, vol: 0.12, type: "bandpass", freq: 400, f1: 900, q: 2 });
     tone({ type: "sine", f0: 1400, f1: 700, at: 0.65, dur: 0.18, vol: 0.12 });
   },
+  // 噤聲島: a long "shhh", then a door knock and silence
+  nantun() {
+    noise({ dur: 0.8, vol: 0.14, type: "bandpass", freq: 3200, f1: 2600, q: 1.5 });
+    for (const at of [0.95, 1.12]) tone({ type: "sine", f0: 150, f1: 90, at, dur: 0.12, vol: 0.25 });
+  },
   // 火燒山島: brush crackling, a low whoosh of flame, then a helicopter's rotor thumping past
   dakeng() {
     for (let i = 0; i < 9; i++) noise({ at: Math.random() * 0.5, dur: 0.03, vol: 0.2, freq: 1500 + Math.random() * 3000, q: 6 });
