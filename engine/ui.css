@@ -584,3 +584,7 @@ body.no-chips .chip { display: none !important; }
 .owner-card dt { font-weight: 800; color: var(--muted); white-space: nowrap; }
 .owner-card dd { margin: 0; color: var(--ink); }
 .owner-note { margin: 14px 0 0; font-size: calc(12px * var(--fs)); color: var(--muted); }
+.owner-h { margin: 18px 0 8px; font-size: calc(14px * var(--fs)); }
+.owner-quote { margin: 0; padding: 4px 0 4px 14px; border-left: 3px solid var(--accent2); font: 600 calc(15px * var(--fs))/1.8 var(--serif); color: var(--ink); }
+.owner-quote small { display: block; margin-top: 6px; font: 400 calc(12px * var(--fs))/1.6 "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif; color: var(--muted); }
+.owner-quote a { color: inherit; text-decoration: underline; }
