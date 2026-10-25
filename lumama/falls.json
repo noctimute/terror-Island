@@ -4939,6 +4939,51 @@
    "deaths": 1
   },
   {
+   "id": "fall-h20210530a",
+   "title": "新北夫妻住台中旅館 妻陳屍客房、夫墜樓不治",
+   "date": "2021-05-30",
+   "place": "北區",
+   "summary": "北區五權路一家旅館，一對從新北來台中就醫的夫妻，丈夫墜落隔壁建築屋頂、送醫不治，妻子陳屍客房內。",
+   "sources": [
+    {
+     "title": "快訊／新北夫妻住台中旅館 隔天妻子陳屍房內！丈夫墜樓不治",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20210530/1994893.htm"
+    },
+    {
+     "title": "快訊／新北夫妻到台中看病 丈夫墜樓命危、妻陳屍旅館客房",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20210530/1994707.htm"
+    },
+    {
+     "title": "夫墜樓命危、妻陳屍房內！新北夫妻投宿台中驚傳悲劇",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/3551833"
+    },
+    {
+     "title": "新北夫妻投宿台中旅店夫墜樓妻陳屍房內",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202105300196.aspx"
+    },
+    {
+     "title": "快訊／新北夫妻投宿中市旅館妻陳屍房內、6旬翁墜樓不治",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/946577"
+    },
+    {
+     "title": "快訊／只是要到台中看病...新北夫妻「接連傳出意外」 丈夫墜 ...",
+     "outlet": "中天新聞網",
+     "url": "https://ctinews.com/news/items/9pWzr3DPWv"
+    },
+    {
+     "title": "詭異！新北6旬夫婦台中看病1墜樓命危1陳屍旅館",
+     "outlet": "CTWANT",
+     "url": "https://www.ctwant.com/article/120461/"
+    }
+   ],
+   "deaths": 2
+  },
+  {
    "id": "fall-h20210501a",
    "title": "台中男替友接電瓶…踩空跌落機械車位間隙！摔墜2m深坑洞亡",
    "date": "2021-05-01",
