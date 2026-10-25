@@ -3485,6 +3485,21 @@
    "deaths": 1
   },
   {
+   "id": "fall-r20240918a",
+   "title": "西屯旅館女子墜樓身亡",
+   "date": "2024-09-18",
+   "place": "西屯",
+   "summary": "西屯一家旅館一名女子住客墜樓身亡；同日鄰近另一家旅館也有住客陳屍，警方查兩案無關。",
+   "sources": [
+    {
+     "title": "悚！台中西屯旅宿不平靜 2住客接連死亡",
+     "outlet": "東森新聞",
+     "url": "https://news.ebc.net.tw/news/society/443391"
+    }
+   ],
+   "deaths": 1
+  },
+  {
    "id": "fall-93",
    "title": "台中泡泡浴男失足墜10樓亡 高大成提3重點：陽台有無130公分",
    "date": "2024-09-10",
@@ -4024,6 +4039,21 @@
      "title": "聯合新聞網報導（原文已下架）",
      "outlet": "聯合新聞網（原文已下架・網頁存檔）",
      "url": "https://web.archive.org/web/20250527041907/https://udn.com/news/story/7320/8021205"
+    }
+   ],
+   "deaths": 1
+  },
+  {
+   "id": "fall-r20240503a",
+   "title": "中興大學校園墜樓 隨班附讀男學生身亡",
+   "date": "2024-05-03",
+   "place": "南區",
+   "summary": "中興大學校園發生墜樓，一名隨班附讀的男學生身亡。",
+   "sources": [
+    {
+     "title": "台中中興大學發生墜樓憾事！死者為隨班附讀男學生",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4661940"
     }
    ],
    "deaths": 1

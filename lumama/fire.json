@@ -8,6 +8,126 @@
  "danger": 5,
  "records": [
   {
+   "id": "fire-r20260217a",
+   "title": "東區透天厝大年初一火警 夫死妻重傷",
+   "date": "2026-02-17",
+   "place": "東區",
+   "summary": "東區樂業路一棟透天厝大年初一清晨起火，丈夫死亡、妻子重傷，疑夫妻爭吵後縱火。",
+   "sources": [
+    {
+     "title": "初一清晨惡火！台中民宅火警1死1傷　疑夫妻爭吵後縱火",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/story/20260217edi001"
+    },
+    {
+     "title": "台中民宅初一凌晨火警 夫死、妻重傷送醫",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/795539"
+    },
+    {
+     "title": "台中夫妻吵架疑「潑油縱火」！大火狂燒夫活活燒死…妻90％燒燙傷送醫",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1796335"
+    }
+   ],
+   "deaths": 1
+  },
+  {
+   "id": "fire-r20260116a",
+   "title": "烏日巷弄深夜火警 1死",
+   "date": "2026-01-16",
+   "place": "烏日",
+   "summary": "烏日一處巷弄民宅深夜起火，1人死亡。",
+   "sources": [
+    {
+     "title": "台中烏日暗夜烈焰吞巷釀1死 熊熊烈火畫面曝光",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5311887"
+    }
+   ],
+   "deaths": 1
+  },
+  {
+   "id": "fire-r20251229a",
+   "title": "潭子透天厝凌晨火警 屋主罹難",
+   "date": "2025-12-29",
+   "place": "潭子",
+   "summary": "潭子一棟透天厝凌晨起火，高齡父親獲救，兒子受困罹難。",
+   "sources": [
+    {
+     "title": "台中潭子透天厝凌晨火警 66歲屋主罹難",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/788052"
+    },
+    {
+     "title": "台中潭子透天厝火災！9旬父逃生 兒倒臥屋內成焦屍",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/3085222"
+    }
+   ],
+   "deaths": 1
+  },
+  {
+   "id": "fire-r20251103a",
+   "title": "烏日民宅遭前租客縱火 母女2死",
+   "date": "2025-11-03",
+   "place": "烏日",
+   "summary": "烏日五光路一處民宅凌晨遭前租客縱火，受困二樓的母女送醫後都不治。",
+   "sources": [
+    {
+     "title": "台中鐵皮住宅遭縱火！惡租客堵住逃生路 母女雙雙慘死",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/3033685"
+    },
+    {
+     "title": "台中疑租屋糾紛前租客涉縱火母女送醫皆不治| 社會",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202511030161.aspx"
+    }
+   ],
+   "deaths": 2
+  },
+  {
+   "id": "fire-r20250731a",
+   "title": "太平牛肉麵店大火 祖孫三代2死3傷",
+   "date": "2025-07-31",
+   "place": "太平",
+   "summary": "太平中興路一家牛肉麵店清晨起火，鐵窗阻礙救援，一家三代5人受困，2人死亡、3人受傷。",
+   "sources": [
+    {
+     "title": "台中太平區麵店大火 鐵窗阻救援祖孫三代2死3傷",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/763385"
+    },
+    {
+     "title": "快訊／台中太平5口之家惡火！　4命危送醫1傷重不治",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250731/3006260.htm"
+    },
+    {
+     "title": "台中太平惡火｜三代五口2死3重傷！2歲孫昨暫住阿公家喪命 起火原因曝",
+     "outlet": "知新聞",
+     "url": "https://www.knews.com.tw/news/A001BE746AFF098EE07D3FBFEAB9D68D"
+    }
+   ],
+   "deaths": 2
+  },
+  {
+   "id": "fire-r20240706a",
+   "title": "向上路燒肉店火警 打工大學生1死1重傷",
+   "date": "2024-07-06",
+   "place": "西區",
+   "summary": "向上路一家燒肉店一樓起火，在店內打工的兩名大學生一死一重傷。",
+   "sources": [
+    {
+     "title": "中山醫大學生1死1重傷！燒肉店打工遇大火　倒臥廚房內",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240706/2772167.htm"
+    }
+   ],
+   "deaths": 1
+  },
+  {
    "id": "fire-h20231221a",
    "title": "台中太平3樓透天厝起火　濃煙狂竄1女陳屍1樓地板",
    "date": "2023-12-21",

@@ -525,6 +525,21 @@
    "deaths": 1
   },
   {
+   "id": "float-r20260109a",
+   "title": "東勢水圳發現男性浮屍",
+   "date": "2026-01-09",
+   "place": "東勢",
+   "summary": "東勢一處水圳發現一具男性浮屍，警方查明身分。",
+   "sources": [
+    {
+     "title": "台中東勢水圳驚見男浮屍 死者身分曝光",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5304784"
+    }
+   ],
+   "deaths": 1
+  },
+  {
    "id": "float-dm221",
    "title": "快訊／台中公園日月湖漂出浮屍！26歲男身分曝光",
    "date": "2025-10-08",
@@ -565,6 +580,21 @@
      "title": "台中公園有人墜日月湖！清掃員感覺怪查看 目睹26歲男死亡",
      "outlet": "TVBS",
      "url": "https://news.tvbs.com.tw/local/3010395"
+    }
+   ],
+   "deaths": 1
+  },
+  {
+   "id": "float-r20250925a",
+   "title": "大肚磺溪書院前大排 婦人落水溺斃",
+   "date": "2025-09-25",
+   "place": "大肚",
+   "summary": "大肚一名婦人行經磺溪書院前大排水溝時不明原因落水，送醫不治。",
+   "sources": [
+    {
+     "title": "魂斷磺溪書院前！台中女突落水溺斃亡 家屬抵醫院悲痛認屍",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2999341"
     }
    ],
    "deaths": 1
@@ -660,6 +690,26 @@
      "title": "楊柳颱風來失蹤！台中七旬翁陳屍麻園頭溪 家屬悲痛認屍",
      "outlet": "TVBS",
      "url": "https://news.tvbs.com.tw/local/2962138"
+    }
+   ],
+   "deaths": 1
+  },
+  {
+   "id": "float-r20250803a",
+   "title": "和平松鶴部落河床發現失聯男子遺體",
+   "date": "2025-08-03",
+   "place": "和平",
+   "summary": "和平區松鶴部落附近河床發現一具男性遺體，是失聯10天的男子。",
+   "sources": [
+    {
+     "title": "大雨中「有人躺溪邊」！台中男好奇看驚見屍體 卡河床頭有傷",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2950139"
+    },
+    {
+     "title": "快訊／找到了！台中46歲男失聯10日成浮屍　陳屍松鶴河床",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1698855"
     }
    ],
    "deaths": 1
@@ -1173,6 +1223,36 @@
    ],
    "deaths": 1,
    "title": "快訊／台中帝國糖廠星泉湖赫見男浮屍！民眾驚嚇忙報警"
+  },
+  {
+   "id": "float-r20240919a",
+   "title": "梧棲民宅後方水溝發現男性遺體",
+   "date": "2024-09-19",
+   "place": "梧棲",
+   "summary": "梧棲民眾聞到異味，在自家後院水溝發現一具男性遺體。",
+   "sources": [
+    {
+     "title": "台中梧棲驚見「爛臉無名屍」！民眾聞異味嚇壞：水溝內有屍體| 三立新聞網",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/9mP9KvV"
+    }
+   ],
+   "deaths": 1
+  },
+  {
+   "id": "float-r20240827a",
+   "title": "中彰大橋墜橋 男子落海3天後尋獲遺體",
+   "date": "2024-08-27",
+   "place": "龍井",
+   "summary": "一名男子晚間到中彰大橋附近散心時不明原因墜橋落海，3天後尋獲遺體。",
+   "sources": [
+    {
+     "title": "台中烏日憾事！6旬獨居男出門散心「墜中彰大橋」 落海3天亡",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2606731"
+    }
+   ],
+   "deaths": 1
   },
   {
    "id": "float-88",

@@ -1290,6 +1290,21 @@
    "deaths": 2
   },
   {
+   "id": "q-r20260222a",
+   "title": "南區旅館長租男客陳屍房內",
+   "date": "2026-02-22",
+   "place": "南區",
+   "summary": "南區南屯路一家旅館，一名長租男客多日未現身，被發現陳屍房內。",
+   "sources": [
+    {
+     "title": "新／台中旅館驚傳命案！55歲男客陳屍房內",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/external/setn_1798031"
+    }
+   ],
+   "deaths": 1
+  },
+  {
    "id": "q-dm292",
    "title": "台中海線輔具女員工失聯48小時陳屍辦公室 盧秀燕：今天才知道",
    "date": "2026-02-20",
@@ -1300,6 +1315,21 @@
      "title": "台中海線輔具女員工失聯48小時陳屍辦公室 盧秀燕：今天才知道",
      "outlet": "Yahoo 新聞",
      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E5%B8%82%E5%BA%9C%E5%A5%B3%E5%93%A1%E5%B7%A5%E5%B9%B4%E5%88%9D%E4%BA%8C%E9%99%B3%E5%B1%8D%E8%BE%A6%E5%85%AC%E5%AE%A4-%E7%9B%A7%E7%A7%80%E7%87%95-%E4%BB%8A%E5%A4%A9%E6%89%8D%E7%9F%A5%E9%81%93-123032677.html"
+    }
+   ],
+   "deaths": 1
+  },
+  {
+   "id": "q-r20260219a",
+   "title": "北區中清路男子陳屍租屋處",
+   "date": "2026-02-19",
+   "place": "北區",
+   "summary": "北區中清路一名男子被發現陳屍租屋處，鄰居稱事前聽到激烈爭吵，警方調查。",
+   "sources": [
+    {
+     "title": "台中北區命案！26歲男子陳屍租屋處 鄰居拜天公驚聽激烈吵架聲",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E5%8C%97%E5%8D%80%E5%91%BD%E6%A1%88-26%E6%AD%B2%E7%94%B7%E5%AD%90%E9%99%B3%E5%B1%8D%E7%A7%9F%E5%B1%8B%E8%99%95-%E9%84%B0%E5%B1%85%E6%8B%9C%E5%A4%A9%E5%85%AC%E9%A9%9A%E8%81%BD%E6%BF%80%E7%83%88%E5%90%B5%E6%9E%B6%E8%81%B2-003500825.html"
     }
    ],
    "deaths": 1
@@ -1385,6 +1415,21 @@
      "title": "台中驚傳移車意外 63歲男離奇受困車門與牆壁間不治",
      "outlet": "聯合新聞網",
      "url": "https://udn.com/news/story/7320/9254526"
+    }
+   ],
+   "deaths": 1
+  },
+  {
+   "id": "q-r20251222a",
+   "title": "外埔鵝肉店老闆陳屍汽車旅館 頭部中彈",
+   "date": "2025-12-22",
+   "place": "外埔",
+   "summary": "外埔一家鵝肉店老闆被發現在汽車旅館房內頭部中彈身亡，疑因債務問題。",
+   "sources": [
+    {
+     "title": "「子彈貫穿太陽穴」陳屍汽旅…死者是外埔某鵝肉店老闆疑債務問題走絕路",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1769471"
     }
    ],
    "deaths": 1
@@ -1860,6 +1905,21 @@
    "deaths": 1
   },
   {
+   "id": "q-r202510a",
+   "title": "霧峰山區殺人棄屍 同事借款糾紛",
+   "date": "2025-10",
+   "place": "霧峰",
+   "summary": "霧峰一名男子因借款糾紛殺害同事，棄屍山區產業道路，遺體被釣客聞屍臭發現。",
+   "sources": [
+    {
+     "title": "同事借25萬裝死！台中男狠綁、保鮮膜封眼 勒斃棄屍剩白骨",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/3107644"
+    }
+   ],
+   "deaths": 1
+  },
+  {
    "id": "q-dm214",
    "title": "台中大甲21歲女陳屍家中，身形瘦小全身脫皮發黑，死者母親涉拘禁致死遭羈押禁見 - TNL The News Lens 關鍵評論網",
    "date": "2025-09-25",
@@ -1975,6 +2035,71 @@
    "deaths": 1
   },
   {
+   "id": "q-r20250909a",
+   "title": "健身房女會員重訓時倒地 搶救3天不治",
+   "date": "2025-09-09",
+   "place": "台中",
+   "summary": "一家健身房的女會員重量訓練時突然失去呼吸心跳倒地，送醫搶救3天後不治。",
+   "sources": [
+    {
+     "title": "獨／館長健身房重訓倒地　41歲女與死神拔河3天走了",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250913/3032949.htm"
+    },
+    {
+     "title": "館長健身房成治安熱點　新北「每日增派百警」力防第2波攻擊",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20200829/1796387.htm"
+    },
+    {
+     "title": "館長健身房出事了！本人回應「已提告」：3月底退出三重館經營",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20220319/2211756.htm"
+    },
+    {
+     "title": "快訊／館長健身房「成吉思汗」疑遭尋仇！貨車撞進大廳　警逮2人",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240612/2757014.htm"
+    },
+    {
+     "title": "快訊／又出事！館長健身房「成吉思汗」大門遭撞破　43歲男被逮",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240923/2821992.htm"
+    },
+    {
+     "title": "賓士包手男「砸館長健身房」！揮棒揮到摔一跤　砸店衝撞畫面曝光",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240923/2822148.htm"
+    },
+    {
+     "title": "開賓士猛撞館長健身房！「包手男」移送分局喊：我給我自己討公道",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240923/2822059.htm"
+    },
+    {
+     "title": "駕車衝撞館長健身房2度依殺人未遂重判　更一審換罪論處改輕判",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250923/3038356.htm"
+    }
+   ],
+   "deaths": 1
+  },
+  {
+   "id": "q-r20250906a",
+   "title": "潭子街頭移工持刀殺人 1死",
+   "date": "2025-09-06",
+   "place": "潭子",
+   "summary": "潭子潭興路一名移工深夜持刀在街頭殺害一名男子。",
+   "sources": [
+    {
+     "title": "惡霸住院竟遭亂刀殺死「已回歸正常生活」家屬盼不要國審",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20260530/3174701.htm"
+    }
+   ],
+   "deaths": 1
+  },
+  {
    "id": "q-dm200",
    "title": "快訊／19歲基隆女南漂台中討生活！「失聯1天」陳屍套房…已有屍斑",
    "date": "2025-09-03",
@@ -1990,6 +2115,21 @@
      "title": "台中死亡悲劇！19歲基隆女異鄉打拼 友目睹她趴床邊長屍斑",
      "outlet": "TVBS",
      "url": "https://news.tvbs.com.tw/local/2978862"
+    }
+   ],
+   "deaths": 1
+  },
+  {
+   "id": "q-r202509a",
+   "title": "大雅前夫無視保護令 打死前妻棄屍騎樓",
+   "date": "2025-09",
+   "place": "大雅",
+   "summary": "大雅一名男子無視保護令，將前妻帶出門後毆打致死，遺體棄置騎樓。",
+   "sources": [
+    {
+     "title": "台中女有保護令也沒用！前夫打死先去洗血跡 屍體隨便丟騎樓",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/3103695"
     }
    ],
    "deaths": 1
@@ -2070,6 +2210,21 @@
    "deaths": 1
   },
   {
+   "id": "q-r20250818a",
+   "title": "潭子石牌公園男子送醫不治",
+   "date": "2025-08-18",
+   "place": "潭子",
+   "summary": "潭子石牌公園一名男子輕生，妻子趕到後送醫，仍不治。",
+   "sources": [
+    {
+     "title": "男子潭子石牌公園輕生 妻子趕到送醫仍不治",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5147989"
+    }
+   ],
+   "deaths": 1
+  },
+  {
    "id": "q-dm179",
    "title": "快訊／埋伏超商外襲擊！台中57歲男手腳多處遭刺傷重不治 兇嫌落網",
    "date": "2025-08-04",
@@ -2125,6 +2280,21 @@
      "title": "影/國道「遭8車輾碎」！監理站員工上班2小時請假後斷魂",
      "outlet": "Yahoo 新聞",
      "url": "https://tw.news.yahoo.com/%E5%BD%B1-%E5%9C%8B%E9%81%93-%E9%81%AD8%E8%BB%8A%E8%BC%BE%E7%A2%8E-%E7%9B%A3%E7%90%86%E7%AB%99%E5%93%A1%E5%B7%A5%E4%B8%8A%E7%8F%AD2%E5%B0%8F%E6%99%82%E8%AB%8B%E5%81%87%E5%BE%8C%E6%96%B7%E9%AD%82-032437570.html"
+    }
+   ],
+   "deaths": 1
+  },
+  {
+   "id": "q-r20250714a",
+   "title": "南屯高中生在家中無呼吸心跳 送醫不治",
+   "date": "2025-07-14",
+   "place": "南屯",
+   "summary": "南屯一名高中生被家人發現在家中無呼吸心跳，送醫不治。",
+   "sources": [
+    {
+     "title": "暑假剛過2週⋯台中驚傳未成年死亡案！17歲高中生在家中無呼吸心跳",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E6%9A%91%E5%81%87%E5%89%9B%E9%81%8E2%E9%80%B1-%E5%8F%B0%E4%B8%AD%E9%A9%9A%E5%82%B3%E6%9C%AA%E6%88%90%E5%B9%B4%E6%AD%BB%E4%BA%A1%E6%A1%88-17%E6%AD%B2%E9%AB%98%E4%B8%AD%E7%94%9F%E5%9C%A8%E5%AE%B6%E4%B8%AD%E7%84%A1%E5%91%BC%E5%90%B8%E5%BF%83%E8%B7%B3-005400125.html"
     }
    ],
    "deaths": 1
@@ -2415,6 +2585,36 @@
      "title": "台中太原火車站男子落軌！普悠瑪鳴笛也來不及「他被輾過屍塊四散」…警初判無外力介入 | 古靜兒 | 風生活",
      "outlet": "風傳媒",
      "url": "https://www.storm.mg/lifestyle/5350491"
+    }
+   ],
+   "deaths": 1
+  },
+  {
+   "id": "q-r202504a",
+   "title": "大里男子向母親要錢不成 掐死母親",
+   "date": "2025-04",
+   "place": "大里",
+   "summary": "大里一名男子平日靠母親接濟，因要錢不成掐死母親，未送醫。",
+   "sources": [
+    {
+     "title": "生活費靠啃老！台中兒竟為200元掐死母 冷血不送醫還拒認罪",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/3137202"
+    }
+   ],
+   "deaths": 1
+  },
+  {
+   "id": "q-r202504b",
+   "title": "大雅男子向街友借火被拒 遭3人圍毆致死",
+   "date": "2025-04",
+   "place": "大雅",
+   "summary": "大雅一名男子酒後向街友借火點菸被拒，與友人3人圍毆該名街友致死。",
+   "sources": [
+    {
+     "title": "台中驚悚命案！街友拒借火點菸 遭3打1痛扁「求饒仍打死」",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2965553"
     }
    ],
    "deaths": 1
@@ -3159,6 +3359,21 @@
    "deaths": 1
   },
   {
+   "id": "q-r202412a",
+   "title": "大里金屬廠移工酒後持刀殺害同鄉室友",
+   "date": "2024-12",
+   "place": "大里",
+   "summary": "大里一家金屬製造廠，一名泰籍移工酒後持刀刺死平時不睦的同鄉室友。",
+   "sources": [
+    {
+     "title": "新仇舊帳埋殺機！台中移工酒後狠捅同鄉室友 肝破裂大出血亡",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2852442"
+    }
+   ],
+   "deaths": 1
+  },
+  {
    "id": "q-121",
    "title": "旱溪堤防 男子陳屍",
    "date": "2024-11-24",
@@ -3263,6 +3478,21 @@
    ]
   },
   {
+   "id": "q-r20241124a",
+   "title": "清水男子遭多人施暴 送醫不治 7嫌落網",
+   "date": "2024-11-24",
+   "place": "清水",
+   "summary": "清水一名男子被友人送到醫院時已無生命跡象，身上多處傷痕，警方逮捕7名嫌犯。",
+   "sources": [
+    {
+     "title": "台中爆命案！25歲男昏厥送醫亡「下半身傷痕累累」 7嫌落網曝動機",
+     "outlet": "知新聞",
+     "url": "https://www.knews.com.tw/news/A36E60DE807EF7184EF019BBFC34A34C"
+    }
+   ],
+   "deaths": 1
+  },
+  {
    "id": "q-118",
    "title": "大福公園 遊民坐臥長椅身亡",
    "date": "2024-11-17",
@@ -3357,6 +3587,21 @@
      "title": "汽車旅館傳離奇命案！ 房內女子不明原因死亡",
      "outlet": "東森新聞",
      "url": "https://news.ebc.net.tw/news/society/454014"
+    }
+   ],
+   "deaths": 1
+  },
+  {
+   "id": "q-r20241114a",
+   "title": "北屯汽車旅館女子陳屍 隨身查獲喪屍菸彈",
+   "date": "2024-11-14",
+   "place": "北屯",
+   "summary": "北屯一家汽車旅館發現一名女子陳屍房內，檢警在其隨身包中查獲喪屍菸彈。",
+   "sources": [
+    {
+     "title": "台中摩鐵女屍命案！她身上發現「喪屍菸彈」 2小姑伴傷心母解剖曝：帶她回花蓮老家| CTWANT",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/9mWE2qx"
     }
    ],
    "deaths": 1
@@ -3463,6 +3708,21 @@
      "title": "快訊／時間到了沒退房 台中29歲女陳屍旅館",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20241108/2851057.htm"
+    }
+   ],
+   "deaths": 1
+  },
+  {
+   "id": "q-r20241028a",
+   "title": "北屯社區保全多日未上班 陳屍住處",
+   "date": "2024-10-28",
+   "place": "北屯",
+   "summary": "北屯一名社區保全多日未到班，公司報警後被發現陳屍住處，已死亡多日。",
+   "sources": [
+    {
+     "title": "獨居悲歌！台中7旬保全3日沒到班 陳屍房間「惡臭腐爛」",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2666464"
     }
    ],
    "deaths": 1
@@ -3623,6 +3883,36 @@
    "deaths": 1
   },
   {
+   "id": "q-r20241008a",
+   "title": "清泉崗基地實彈射擊 空軍上兵中彈身亡",
+   "date": "2024-10-08",
+   "place": "沙鹿",
+   "summary": "空軍一名上兵在清泉崗基地輕兵器射擊訓練時，步槍意外擊發中彈，送醫不治。",
+   "sources": [
+    {
+     "title": "空軍上兵打靶身亡！是家中認養獨子　母認屍淚崩：不敢讓阿嬤知道",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20241008/2831716.htm"
+    },
+    {
+     "title": "空軍上兵打靶亡　退伍後「想多存點錢」又回役",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20241009/2831810.htm"
+    },
+    {
+     "title": "空軍上兵打靶身亡！檢赴殯儀館相驗　親友攙扶媽媽悲痛陪伴一旁",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20241009/2831940.htm"
+    },
+    {
+     "title": "空軍上兵打靶離奇亡！遺體相驗安排CT掃描　檢赴清泉崗基地尋真相",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20241009/2832391.htm"
+    }
+   ],
+   "deaths": 1
+  },
+  {
    "id": "q-97",
    "title": "梅川東路公寓 男子陳屍臥室",
    "date": "2024-10-07",
@@ -3729,6 +4019,56 @@
    "deaths": 1
   },
   {
+   "id": "q-r20240923a",
+   "title": "霧峰討債衝突 1死1傷",
+   "date": "2024-09-23",
+   "place": "霧峰",
+   "summary": "霧峰一名男子遭兩人上門討債，持水果刀攻擊對方，造成1死1傷。",
+   "sources": [
+    {
+     "title": "差19歲姊弟戀鬧掰…2男幫討債「1死1傷」！32歲男遭反手上銬送醫",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240923/2822003.htm"
+    }
+   ],
+   "deaths": 1
+  },
+  {
+   "id": "q-r20240918a",
+   "title": "逢甲商圈日租套房 男性住客陳屍",
+   "date": "2024-09-18",
+   "place": "西屯",
+   "summary": "西屯逢甲商圈一處日租套房發現一名男性住客陳屍房內，警方調查死因。",
+   "sources": [
+    {
+     "title": "陳屍日租套房 逢甲命案死者「29歲消防員」",
+     "outlet": "太報",
+     "url": "https://www.taisounds.com/news/content/96/148052"
+    }
+   ],
+   "deaths": 1
+  },
+  {
+   "id": "q-r20240911a",
+   "title": "西屯工業區情殺 男子持刀殺害移工",
+   "date": "2024-09-11",
+   "place": "西屯",
+   "summary": "西屯工業區一名男子不滿妻子與移工交往，持刀刺死該名泰籍移工。",
+   "sources": [
+    {
+     "title": "台中爆情殺案！23歲嫩妻偷吃泰籍移工 綠帽夫一刀捅死小王",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E7%88%86%E6%83%85%E6%AE%BA%E6%A1%88-23%E6%AD%B2%E5%AB%A9%E5%A6%BB%E5%81%B7%E5%90%83%E6%B3%B0%E7%B1%8D%E7%A7%BB%E5%B7%A5-%E7%B6%A0%E5%B8%BD%E5%A4%AB-%E5%88%80%E6%8D%85%E6%AD%BB%E5%B0%8F%E7%8E%8B-045351787.html"
+    },
+    {
+     "title": "台中爆兇殺！外籍移工有女友還偷吃人妻 人夫怒持刀刺死他",
+     "outlet": "知新聞",
+     "url": "https://www.knews.com.tw/news/97493CAA10593BBB0401E96E47B3C28C"
+    }
+   ],
+   "deaths": 1
+  },
+  {
    "id": "q-91",
    "title": "台中百萬夜景秘境傳憾事 49歲人夫陳屍賓士商務車內",
    "date": "2024-09-02",
@@ -3749,6 +4089,21 @@
      "title": "台中人妻定位報警尋尪！「夜景秘境」都會公園發現男子陳屍賓士車內",
      "outlet": "LINE TODAY（轉載）",
      "url": "https://today.line.me/tw/v3/article/ZakPkvL"
+    }
+   ],
+   "deaths": 1
+  },
+  {
+   "id": "q-r20240826a",
+   "title": "婦人失聯13天 陳屍住處對街車內",
+   "date": "2024-08-26",
+   "place": "台中",
+   "summary": "一名婦人失聯13天，家屬報案後被發現在住處對街的車內身亡，車窗夾滿繳費單。",
+   "sources": [
+    {
+     "title": "前窗全是繳費單…台中婦失聯13天 警驚「車就停對街」明顯死亡",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2598199"
     }
    ],
    "deaths": 1
@@ -5992,7 +6347,7 @@
    "deaths": 1
   },
   {
-   "id": "q-h20211029b",
+   "id": "q-h20211029a",
    "title": "大甲派遣粗工遭老闆娘等11人押往山區虐殺",
    "date": "2021-10-29",
    "place": "大甲",
@@ -7272,7 +7627,7 @@
    "deaths": 1
   },
   {
-   "id": "q-h20210221s",
+   "id": "q-h20210221a",
    "title": "傳產公司董事長陳屍公司樓梯口",
    "date": "2021-02-21",
    "place": "台中",
@@ -8483,26 +8838,16 @@
   },
   {
    "id": "q-h20200326a",
-   "title": "嘆「人生無意義」台中離婚男開車到公墓　死意堅！劃刀肚破腸流",
-   "date": "2020-03-26",
-   "place": "太平",
-   "summary": "太平發生命案，一人遇害身亡，警方偵辦。",
-   "sources": [
-    {
-     "title": "嘆「人生無意義」台中離婚男開車到公墓 死意堅！劃刀肚破腸流",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20200326/1677014.htm"
-    }
-   ],
-   "deaths": 1
-  },
-  {
-   "id": "q-h20200326b",
    "title": "男子失聯 陳屍太平七星山公墓停車場車內",
    "date": "2020-03-26",
    "place": "太平",
    "summary": "一名男子失聯一夜，被發現在太平七星山花園公墓停車場的車內身亡，警方排除他殺。",
    "sources": [
+    {
+     "title": "嘆「人生無意義」台中離婚男開車到公墓 死意堅！劃刀肚破腸流",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20200326/1677014.htm"
+    },
     {
      "title": "一夜未歸…台中男車停葬兄公墓　遭發現「腹部開開」身亡",
      "outlet": "三立新聞網",
