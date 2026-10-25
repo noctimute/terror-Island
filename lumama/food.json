@@ -1451,6 +1451,48 @@
    ]
   },
   {
+   "id": "f-ratlunch",
+   "title": "龍井國中營養午餐驚見老鼠全屍 3名學生腹痛送醫",
+   "date": "2020-06-05",
+   "place": "龍井",
+   "summary": "龍井一所國中的營養午餐被學生發現夾雜整隻死老鼠，3名學生腹痛送醫，無人死亡。",
+   "sources": [
+    {
+     "title": "以為是木耳…龍井國中營養午餐出現「老鼠全屍」！學生驚倒飯菜 3人腹痛送醫",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20200605/1730839.htm"
+    },
+    {
+     "title": "龍井國中營養午餐有奇怪「黑木耳」 學生定睛看竟是死老鼠",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/lnpKXk"
+    },
+    {
+     "title": "龍井國中營養午餐有奇怪「黑木耳」 學生定睛看竟是死老鼠",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E9%BE%8D%E4%BA%95%E5%9C%8B%E4%B8%AD%E7%87%9F%E9%A4%8A%E5%8D%88%E9%A4%90%E6%9C%89%E5%A5%87%E6%80%AA-%E9%BB%91%E6%9C%A8%E8%80%B3-%E5%AD%B8%E7%94%9F%E5%AE%9A%E7%9D%9B%E7%9C%8B%E7%AB%9F%E6%98%AF%E6%AD%BB%E8%80%81%E9%BC%A0-082234409.html"
+    },
+    {
+     "title": "「午餐有老鼠全屍！」龍井國中學生驚聲尖叫3人不適",
+     "outlet": "news.housefun.com.tw",
+     "url": "https://news.housefun.com.tw/news/article/582116256629.html"
+    },
+    {
+     "title": "【新聞】「午餐有老鼠全屍！」龍井國中學生驚聲尖叫...3人不適 - Gossiping板 - Disp BBS",
+     "outlet": "disp.cc",
+     "url": "https://disp.cc/b/Gossiping/coNh"
+    },
+    {
+     "title": "「午餐有老鼠全屍！」龍井國中學生驚聲尖叫...3人不適 | 時事",
+     "outlet": "聯合新聞網",
+     "url": "https://video.udn.com/news/1178189"
+    }
+   ],
+   "fear": [
+    "F"
+   ]
+  },
+  {
    "id": "f-i20190802a",
    "title": "疑食物中毒清水、大甲高中兩校84人出現腹瀉",
    "date": "2019-08-02",
