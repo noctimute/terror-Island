@@ -433,7 +433,6 @@ body.frozen .mascot .face { animation-play-state: paused; }
 .about-press a { display: block; padding: 10px 12px; border: 1px solid var(--line); border-radius: 10px; background: #fff; color: var(--ink); font-size: calc(13px * var(--fs)); line-height: 1.6; text-decoration: none; }
 .about-press a:hover { border-color: var(--accent2); }
 .about-press small { display: block; color: var(--muted); font-size: calc(11px * var(--fs)); }
-.about-suits .suit-result { display: block; margin-top: 4px; color: var(--accent); font-size: calc(12px * var(--fs)); }
 .about-share { counter-reset: share; }
 .about-share li { counter-increment: share; }
 .about-share a { position: relative; padding-left: 40px; }
