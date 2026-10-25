@@ -8,21 +8,6 @@
  "danger": 5,
  "records": [
   {
-   "id": "fire-h20240318a",
-   "title": "台中洲際棒球場旁工寮火警！恐怖火勢延燒2戶　傷亡不明",
-   "date": "2024-03-18",
-   "place": "北屯",
-   "summary": "北屯發生火警，一人罹難。",
-   "sources": [
-    {
-     "title": "快訊／台中洲際棒球場旁工寮火警！恐怖火勢延燒2戶 傷亡不明",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20240318/2702605.htm"
-    }
-   ],
-   "deaths": 1
-  },
-  {
    "id": "fire-h20231221a",
    "title": "台中太平3樓透天厝起火　濃煙狂竄1女陳屍1樓地板",
    "date": "2023-12-21",
@@ -138,21 +123,6 @@
    "deaths": 1
   },
   {
-   "id": "fire-h20230308a",
-   "title": "台中南區疑鐵皮屋起火！黑煙狂竄傷亡不明",
-   "date": "2023-03-08",
-   "place": "南區",
-   "summary": "南區發生火警，一人罹難。",
-   "sources": [
-    {
-     "title": "快訊／台中南區疑鐵皮屋起火！黑煙狂竄傷亡不明",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20230308/2454648.htm"
-    }
-   ],
-   "deaths": 1
-  },
-  {
    "id": "fire-h20230304a",
    "title": "台中透天厝惡火3死1傷！　木造隔間奪命「祖孫三代」睡夢中不治",
    "date": "2023-03-04",
@@ -198,21 +168,6 @@
      "title": "一片焦黑！台中火燒山變死亡谷 梅花鹿「剩骨架」...恐怖畫面曝",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20230301/2449885.htm"
-    }
-   ],
-   "deaths": 1
-  },
-  {
-   "id": "fire-h20230221a",
-   "title": "台中素食小吃店火警！火舌狂竄「傷亡不明」　警消撲救中",
-   "date": "2023-02-21",
-   "place": "太平",
-   "summary": "太平發生火警，一人罹難。",
-   "sources": [
-    {
-     "title": "快訊／台中素食小吃店火警！火舌狂竄「傷亡不明」 警消撲救中",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20230221/2444776.htm"
     }
    ],
    "deaths": 1
@@ -1558,21 +1513,6 @@
    "deaths": 1
   },
   {
-   "id": "fire-h20190923a",
-   "title": "大里民宅火警 火勢猛烈嚇壞居民",
-   "date": "2019-09-23",
-   "place": "大里",
-   "summary": "大里發生火警，一人罹難。",
-   "sources": [
-    {
-     "title": "大里民宅火警 火勢猛烈嚇壞居民",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/society/breakingnews/2924630"
-    }
-   ],
-   "deaths": 1
-  },
-  {
    "id": "fire-h20190907a",
    "title": "台中驚見「女焦屍」！全身黑「雙手高舉屈膝」倒臥橋下...路人經過一瞧嚇壞",
    "date": "2019-09-07",
@@ -1623,46 +1563,6 @@
      "title": "台中休旅車暗夜起火 車內赫見焦屍",
      "outlet": "自由時報",
      "url": "https://news.ltn.com.tw/news/society/breakingnews/2888060"
-    }
-   ],
-   "deaths": 1
-  },
-  {
-   "id": "fire-h20190721a",
-   "title": "台中環保公司大火 警消到場灌救",
-   "date": "2019-07-21",
-   "place": "台中",
-   "summary": "台中發生火警，一人罹難。",
-   "sources": [
-    {
-     "title": "台中環保公司大火 警消到場灌救",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/society/breakingnews/2859408"
-    }
-   ],
-   "deaths": 1
-  },
-  {
-   "id": "fire-h20190509a",
-   "title": "累癱了！后里廢輪胎廠大火今晨撲滅 消防員日夜灌救40小時",
-   "date": "2019-05-09",
-   "place": "后里",
-   "summary": "后里發生火警，一人罹難。",
-   "sources": [
-    {
-     "title": "累癱了！后里廢輪胎廠大火今晨撲滅 消防員日夜灌救40小時",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/society/breakingnews/2784336"
-    },
-    {
-     "title": "累癱了！后里廢輪胎廠大火今晨撲滅 消防員日夜灌救40小時",
-     "outlet": "LINE TODAY（轉載）",
-     "url": "https://today.line.me/tw/v3/article/VeX621"
-    },
-    {
-     "title": "消防累趴！灌救40小時 后里廢輪胎廠大火熄滅",
-     "outlet": "中天新聞網",
-     "url": "https://ctinews.com/news/items/v7x3Z0Aoaj"
     }
    ],
    "deaths": 1

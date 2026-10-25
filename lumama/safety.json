@@ -447,25 +447,6 @@
    ]
   },
   {
-   "id": "s-h20240109a",
-   "title": "台中果農離奇亡！疑摔邊坡「爬上自救」　33hrs後被發現陳屍竹林",
-   "date": "2024-01-09",
-   "place": "東勢",
-   "summary": "東勢發生意外事故，一人身亡。",
-   "sources": [
-    {
-     "title": "台中果農離奇亡！疑摔邊坡「爬上自救」 33hrs後被發現陳屍竹林",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20240109/2660194.htm"
-    }
-   ],
-   "deaths": 1,
-   "fear": [
-    "D",
-    "S"
-   ]
-  },
-  {
    "id": "s-h20230914a",
    "title": "快訊／台中驚傳恐怖活埋 1女被土石深埋1公尺明顯死亡",
    "date": "2023-09-14",
@@ -771,25 +752,6 @@
    ]
   },
   {
-   "id": "s-h20221009a",
-   "title": "台中翁每天騎車探望中風昏迷妻　不慎自摔身亡　髮妻仍不知情",
-   "date": "2022-10-09",
-   "place": "豐原",
-   "summary": "豐原發生意外事故，一名男子身亡。",
-   "sources": [
-    {
-     "title": "台中翁每天騎車探望中風昏迷妻 不慎自摔身亡 髮妻仍不知情",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20221009/2354715.htm"
-    }
-   ],
-   "deaths": 1,
-   "fear": [
-    "D",
-    "S"
-   ]
-  },
-  {
    "id": "s-h20220807a",
    "title": "台中吊車吊臂傾倒砸中天車 工人解開安全掛鉤欲逃墜6公尺亡",
    "date": "2022-08-07",
@@ -800,25 +762,6 @@
      "title": "台中吊車吊臂傾倒砸中天車 工人解開安全掛鉤欲逃墜6公尺亡",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20220807/2311221.htm"
-    }
-   ],
-   "deaths": 1,
-   "fear": [
-    "D",
-    "S"
-   ]
-  },
-  {
-   "id": "s-h20220708a",
-   "title": "想摘芒果！台中35歲女爬樹失足重摔不治 地上殘留大片血跡",
-   "date": "2022-07-08",
-   "place": "大里",
-   "summary": "大里發生意外事故，一名女子身亡。",
-   "sources": [
-    {
-     "title": "想摘芒果！台中35歲女爬樹失足重摔不治 地上殘留大片血跡",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20220708/2289897.htm"
     }
    ],
    "deaths": 1,
@@ -1010,62 +953,7 @@
      "url": "https://news.ltn.com.tw/news/society/breakingnews/3594617"
     }
    ],
-   "deaths": 1,
    "fear": [
-    "D",
-    "S"
-   ]
-  },
-  {
-   "id": "s-h20210503a",
-   "title": "台中3歲童遭麻將桌夾胸亡　房東驚曝父母「一關鍵壞習慣」害命",
-   "date": "2021-05-03",
-   "place": "中區",
-   "summary": "中區發生意外事故，一名幼童身亡。",
-   "sources": [
-    {
-     "title": "台中3歲童遭麻將桌夾胸亡 房東驚曝父母「一關鍵壞習慣」害命",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20210503/1973596.htm"
-    },
-    {
-     "title": "台中3歲童遭折疊桌夾胸亡房東曝父母「壞習慣」害命",
-     "outlet": "三立新聞網",
-     "url": "https://www.setn.com/news/934066"
-    },
-    {
-     "title": "3歲童玩摺疊桌遭夾胸送命！房東揭父母「一要命習慣」害命醫 ...",
-     "outlet": "LINE TODAY（轉載）",
-     "url": "https://today.line.me/tw/v3/article/ZM3N0X"
-    },
-    {
-     "title": "折疊桌夾死人台中3歲男童遭桌夾胸殞命",
-     "outlet": "Yahoo 新聞",
-     "url": "https://tw.news.yahoo.com/%E6%8A%98%E7%96%8A%E6%A1%8C%E5%A4%BE%E6%AD%BB%E4%BA%BA-%E5%8F%B0%E4%B8%AD3%E6%AD%B2%E7%94%B7%E7%AB%A5%E9%81%AD%E6%A1%8C%E5%A4%BE%E8%83%B8%E6%AE%9E%E5%91%BD-153224484.html"
-    }
-   ],
-   "deaths": 1,
-   "fear": [
-    "D",
-    "S"
-   ]
-  },
-  {
-   "id": "s-h20210310a",
-   "title": "台中父子修電梯！他「被活活電死」兒目睹心碎…24歲負責人下場曝",
-   "date": "2021-03-10",
-   "place": "豐原",
-   "summary": "豐原發生意外事故，一人身亡。",
-   "sources": [
-    {
-     "title": "台中父子修電梯！他「被活活電死」兒目睹心碎…24歲負責人下場曝",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20210310/1935259.htm"
-    }
-   ],
-   "deaths": 1,
-   "fear": [
-    "D",
     "S"
    ]
   },
@@ -1105,25 +993,6 @@
      "title": "Dailymotion",
      "outlet": "dailymotion.com",
      "url": "https://www.dailymotion.com/video/x7zjemv"
-    }
-   ],
-   "deaths": 1,
-   "fear": [
-    "D",
-    "S"
-   ]
-  },
-  {
-   "id": "s-h20201201a",
-   "title": "離奇！台中廢棄空屋赫見男屍 疑從「屋頂破洞」摔死",
-   "date": "2020-12-01",
-   "place": "南區",
-   "summary": "南區發生意外事故，一名男子身亡。",
-   "sources": [
-    {
-     "title": "離奇！台中廢棄空屋赫見男屍 疑從「屋頂破洞」摔死",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20201201/1866873.htm"
     }
    ],
    "deaths": 1,
@@ -1199,25 +1068,6 @@
    ]
   },
   {
-   "id": "s-h20200928a",
-   "title": "台中70歲嬤跌坐家門外　拒鄰居攙扶...下秒口吐白沫倒地身亡",
-   "date": "2020-09-28",
-   "place": "東區",
-   "summary": "東區發生意外事故，一名女子身亡。",
-   "sources": [
-    {
-     "title": "台中70歲嬤跌坐家門外 拒鄰居攙扶...下秒口吐白沫倒地身亡",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20200928/1819672.htm"
-    }
-   ],
-   "deaths": 1,
-   "fear": [
-    "D",
-    "S"
-   ]
-  },
-  {
    "id": "s-h20200819a",
    "title": "台中吊車壓死2歲女童！一查相關牌照竟「全掛0」 通行證未申請就開上路",
    "date": "2020-08-19",
@@ -1262,6 +1112,11 @@
      "title": "檢修大樓電梯線路 兒目擊父觸電慘死",
      "outlet": "中時新聞網",
      "url": "https://www.chinatimes.com/realtimenews/20200702003719-260402"
+    },
+    {
+     "title": "台中父子修電梯！他「被活活電死」兒目睹心碎…24歲負責人下場曝",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20210310/1935259.htm"
     }
    ],
    "deaths": 1,
@@ -1321,35 +1176,6 @@
      "title": "【情報】【獨家】矽品工安意外！39歲工程師慘遭機台夾死 移工觸開關遭調查 @職場甘苦談 哈啦板 - 巴哈姆特",
      "outlet": "forum.gamer.com.tw",
      "url": "https://forum.gamer.com.tw/Co.php?bsn=60561&sn=130142"
-    }
-   ],
-   "deaths": 1,
-   "fear": [
-    "D",
-    "S"
-   ]
-  },
-  {
-   "id": "s-h20190923a",
-   "title": "畫面曝！ 台中老翁騎車路倒「頭顱變形」身亡 確認為自摔",
-   "date": "2019-09-23",
-   "place": "台中",
-   "summary": "台中發生意外事故，一名男子身亡。",
-   "sources": [
-    {
-     "title": "畫面曝！ 台中老翁騎車路倒「頭顱變形」身亡 確認為自摔",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20190923/1541386.htm"
-    },
-    {
-     "title": "離奇！76歲翁騎車「莫名右偏自摔」 頭顱變形搶救不治",
-     "outlet": "三立新聞網",
-     "url": "https://www.setn.com/news/606837"
-    },
-    {
-     "title": "自摔？肇逃？76歲老翁車禍頭顱變形送醫不治",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/society/breakingnews/2923440"
     }
    ],
    "deaths": 1,

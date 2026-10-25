@@ -1000,21 +1000,6 @@
    "deaths": 1
   },
   {
-   "id": "q-dm341",
-   "title": "台中東海街送煞儀式引不滿 民眾質疑無路權申請",
-   "date": "2026-05-11",
-   "place": "龍井",
-   "summary": "龍井一處公園發現一名女子身亡，警方初步排除外力介入。",
-   "sources": [
-    {
-     "title": "台中東海街送煞儀式引不滿 民眾質疑無路權申請",
-     "outlet": "Yahoo 新聞",
-     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E6%9D%B1%E6%B5%B7%E8%A1%97%E9%80%81%E7%85%9E%E5%84%80%E5%BC%8F%E5%BC%95%E4%B8%8D%E6%BB%BF-%E6%B0%91%E7%9C%BE%E8%B3%AA%E7%96%91%E7%84%A1%E8%B7%AF%E6%AC%8A%E7%94%B3%E8%AB%8B-082755524.html"
-    }
-   ],
-   "deaths": 1
-  },
-  {
    "id": "q-dm336",
    "title": "台中離奇命案 男久站公園單槓區不動身亡",
    "date": "2026-04-28",
@@ -1125,21 +1110,6 @@
      "title": "上週才說身體不適！台中46歲女上班族失聯4日 暴斃家中 | LIFE生活網",
      "outlet": "Life 生活網",
      "url": "https://life.tw/article/%E4%B8%8A%E9%80%B1%E6%89%8D%E8%AA%AA%E8%BA%AB%E9%AB%94%E4%B8%8D%E9%81%A9-%E5%8F%B0%E4%B8%AD46%E6%AD%B2%E5%A5%B3%E4%B8%8A%E7%8F%AD%E6%97%8F%E5%A4%B1%E8%81%AF4%E6%97%A5-%E6%9A%B4%E6%96%83%E5%AE%B6%E4%B8%AD-3002328"
-    }
-   ],
-   "deaths": 1
-  },
-  {
-   "id": "q-dm324",
-   "title": "臺中市生命禮儀管理處 - 殯葬資訊服務網",
-   "date": "2026-04-09",
-   "place": "沙鹿",
-   "summary": "沙鹿警察局發現一人身亡，死因待查。",
-   "sources": [
-    {
-     "title": "臺中市生命禮儀管理處 - 殯葬資訊服務網",
-     "outlet": "mortuary.taichung.gov.tw",
-     "url": "https://mortuary.taichung.gov.tw/Frontend/IceBoxUse.aspx"
     }
    ],
    "deaths": 1
@@ -4172,21 +4142,6 @@
    "deaths": 1
   },
   {
-   "id": "q-h20240204a",
-   "title": "一家七口北漂台中打拼…妻髖關節壞死　警籌措16萬手術費送暖",
-   "date": "2024-02-04",
-   "place": "南屯",
-   "summary": "南屯發現一人身亡，死因待查。",
-   "sources": [
-    {
-     "title": "一家七口北漂台中打拼…妻髖關節壞死 警籌措16萬手術費送暖",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20240204/2678019.htm"
-    }
-   ],
-   "deaths": 1
-  },
-  {
    "id": "q-h20240203a",
    "title": "【警察】台中警分局所長晚間派出所疑持槍自轟亡",
    "date": "2024-02-03",
@@ -4297,6 +4252,21 @@
      "title": "快訊／台中驚傳命案！1男1女倒臥車中 全身多處刀傷...1死1命危",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20240119/2667649.htm"
+    }
+   ],
+   "deaths": 1
+  },
+  {
+   "id": "q-h20240109s",
+   "title": "台中果農離奇亡！疑摔邊坡「爬上自救」　33hrs後被發現陳屍竹林",
+   "date": "2024-01-09",
+   "place": "東勢",
+   "summary": "東勢發生意外事故，一人身亡。",
+   "sources": [
+    {
+     "title": "台中果農離奇亡！疑摔邊坡「爬上自救」 33hrs後被發現陳屍竹林",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20240109/2660194.htm"
     }
    ],
    "deaths": 1
@@ -4452,21 +4422,6 @@
    "deaths": 1
   },
   {
-   "id": "q-h20230915a",
-   "title": "裝潢蟑螂橫行台中！騙逾135人得手逾億　他氣到死在出庭的路上",
-   "date": "2023-09-15",
-   "place": "大雅",
-   "summary": "大雅發現一人身亡，死因待查。",
-   "sources": [
-    {
-     "title": "裝潢蟑螂橫行台中！騙逾135人得手逾億 他氣到死在出庭的路上",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20230915/2583178.htm"
-    }
-   ],
-   "deaths": 1
-  },
-  {
    "id": "q-h20230914a",
    "title": "神岡情侶雙亡陳屍租屋處！家屬悲痛見最後一面　相驗結果曝",
    "date": "2023-09-14",
@@ -4522,21 +4477,6 @@
      "title": "快訊／預計今天要回診...台中41歲男陳屍家中 鄰居聞惡臭報警",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20230904/2575164.htm"
-    }
-   ],
-   "deaths": 1
-  },
-  {
-   "id": "q-h20230826a",
-   "title": "姐弟戀破局！台中女遭削鼻猛砍12刀　男友竟還潑汽油想燒死她",
-   "date": "2023-08-26",
-   "place": "台中",
-   "summary": "台中發生命案，一人遇害身亡，警方偵辦。",
-   "sources": [
-    {
-     "title": "姐弟戀破局！台中女遭削鼻猛砍12刀 男友竟還潑汽油想燒死她",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20230826/2569163.htm"
     }
    ],
    "deaths": 1
@@ -5057,16 +4997,16 @@
    "deaths": 1
   },
   {
-   "id": "q-h20221001a",
-   "title": "2年2576外送員死傷！　台中市府辧安全駕駛體驗...籲遠離大型車",
-   "date": "2022-10-01",
-   "place": "台中",
-   "summary": "台中發現一人身亡，死因待查。",
+   "id": "q-h20221009s",
+   "title": "台中翁每天騎車探望中風昏迷妻　不慎自摔身亡　髮妻仍不知情",
+   "date": "2022-10-09",
+   "place": "豐原",
+   "summary": "豐原發生意外事故，一名男子身亡。",
    "sources": [
     {
-     "title": "2年2576外送員死傷！ 台中市府辧安全駕駛體驗...籲遠離大型車",
+     "title": "台中翁每天騎車探望中風昏迷妻 不慎自摔身亡 髮妻仍不知情",
      "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20221001/2349313.htm"
+     "url": "https://www.ettoday.net/news/20221009/2354715.htm"
     }
    ],
    "deaths": 1
@@ -5207,16 +5147,16 @@
    "deaths": 1
   },
   {
-   "id": "q-h20220629a",
-   "title": "駕駛必看！科技執法減少2成6交通死傷　台中再增3處...地點曝光",
-   "date": "2022-06-29",
-   "place": "北區",
-   "summary": "北區發現一人身亡，死因待查。",
+   "id": "q-h20220708s",
+   "title": "想摘芒果！台中35歲女爬樹失足重摔不治 地上殘留大片血跡",
+   "date": "2022-07-08",
+   "place": "大里",
+   "summary": "大里發生意外事故，一名女子身亡。",
    "sources": [
     {
-     "title": "駕駛必看！科技執法減少2成6交通死傷 台中再增3處...地點曝光",
+     "title": "想摘芒果！台中35歲女爬樹失足重摔不治 地上殘留大片血跡",
      "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20220629/2283362.htm"
+     "url": "https://www.ettoday.net/news/20220708/2289897.htm"
     }
    ],
    "deaths": 1
@@ -5342,21 +5282,6 @@
      "title": "台中男裹白被單慘死 小40歲嫩妻狂說謊藏驚人隱情",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20220411/2226806.htm"
-    }
-   ],
-   "deaths": 1
-  },
-  {
-   "id": "q-h20220409a",
-   "title": "台中老師Google留負評「老闆死要錢」！挨告結果要賠更多",
-   "date": "2022-04-09",
-   "place": "台中",
-   "summary": "台中發現一人身亡，死因待查。",
-   "sources": [
-    {
-     "title": "台中老師Google留負評「老闆死要錢」！挨告結果要賠更多",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20220409/2226174.htm"
     }
    ],
    "deaths": 1
@@ -5490,21 +5415,6 @@
     }
    ],
    "deaths": 1
-  },
-  {
-   "id": "q-h20220228a",
-   "title": "台中「耕讀園」槍戰3死　4嫌半年後犯下轟動全台綁架案",
-   "date": "2022-02-28",
-   "place": "台中",
-   "summary": "台中發生命案， 3 人遇害身亡，警方偵辦。",
-   "sources": [
-    {
-     "title": "台中「耕讀園」槍戰3死 4嫌半年後犯下轟動全台綁架案",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20220228/2197875.htm"
-    }
-   ],
-   "deaths": 3
   },
   {
    "id": "q-h20220210a",
@@ -6457,6 +6367,36 @@
    "deaths": 1
   },
   {
+   "id": "q-h20210503s",
+   "title": "台中3歲童遭麻將桌夾胸亡　房東驚曝父母「一關鍵壞習慣」害命",
+   "date": "2021-05-03",
+   "place": "中區",
+   "summary": "中區發生意外事故，一名幼童身亡。",
+   "sources": [
+    {
+     "title": "台中3歲童遭麻將桌夾胸亡 房東驚曝父母「一關鍵壞習慣」害命",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20210503/1973596.htm"
+    },
+    {
+     "title": "台中3歲童遭折疊桌夾胸亡房東曝父母「壞習慣」害命",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/934066"
+    },
+    {
+     "title": "3歲童玩摺疊桌遭夾胸送命！房東揭父母「一要命習慣」害命醫 ...",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/ZM3N0X"
+    },
+    {
+     "title": "折疊桌夾死人台中3歲男童遭桌夾胸殞命",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E6%8A%98%E7%96%8A%E6%A1%8C%E5%A4%BE%E6%AD%BB%E4%BA%BA-%E5%8F%B0%E4%B8%AD3%E6%AD%B2%E7%94%B7%E7%AB%A5%E9%81%AD%E6%A1%8C%E5%A4%BE%E8%83%B8%E6%AE%9E%E5%91%BD-153224484.html"
+    }
+   ],
+   "deaths": 1
+  },
+  {
    "id": "q-h20210501a",
    "title": "台中留美歡送趴驚爆猝死！24男女學生摩鐵大混酒　25歲男送醫亡",
    "date": "2021-05-01",
@@ -6617,26 +6557,6 @@
      "title": "快訊／台中梧棲公園「男屍掛單槓區」上吊身亡 晨運民眾經過嚇瘋報警！",
      "outlet": "中天新聞網",
      "url": "https://ctinews.com/news/items/M9n6XVBPaR"
-    }
-   ],
-   "deaths": 1
-  },
-  {
-   "id": "q-h20210420a",
-   "title": "「為趕結案錯失陪我媽最後一天」　台中嬌小美女檢曾說：生不如死",
-   "date": "2021-04-20",
-   "place": "台中",
-   "summary": "台中發現一人身亡，死因待查。",
-   "sources": [
-    {
-     "title": "「為趕結案錯失陪我媽最後一天」 台中嬌小美女檢曾說：生不如死",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20210420/1963883.htm"
-    },
-    {
-     "title": "【美女檢開庭造假2】錯失陪媽媽最後一天 美女檢臉書曝辦案辛酸",
-     "outlet": "Yahoo 新聞",
-     "url": "https://tw.news.yahoo.com/%E7%BE%8E%E5%A5%B3%E6%AA%A2%E9%96%8B%E5%BA%AD%E9%80%A0%E5%81%872-%E9%8C%AF%E5%A4%B1%E9%99%AA%E5%AA%BD%E5%AA%BD%E6%9C%80%E5%BE%8C-%E5%A4%A9-%E7%BE%8E%E5%A5%B3%E6%AA%A2%E8%87%89%E6%9B%B8%E6%9B%9D%E8%BE%A6%E6%A1%88%E8%BE%9B%E9%85%B8-215857789.html"
     }
    ],
    "deaths": 1
@@ -7452,6 +7372,21 @@
    "deaths": 1
   },
   {
+   "id": "q-h20201201s",
+   "title": "離奇！台中廢棄空屋赫見男屍 疑從「屋頂破洞」摔死",
+   "date": "2020-12-01",
+   "place": "南區",
+   "summary": "南區發生意外事故，一名男子身亡。",
+   "sources": [
+    {
+     "title": "離奇！台中廢棄空屋赫見男屍 疑從「屋頂破洞」摔死",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20201201/1866873.htm"
+    }
+   ],
+   "deaths": 1
+  },
+  {
    "id": "q-h20201123a",
    "title": "台中桶屍案！16歲少女遭強酸溶屍 「被滅口原因」曝：疑知道太多",
    "date": "2020-11-23",
@@ -7597,6 +7532,21 @@
      "title": "雷射切割機台「突啟動」！台中技術員慘死…傳員工誤開電源 (ETtoday)",
      "outlet": "oshc.ntou.edu.tw",
      "url": "https://oshc.ntou.edu.tw/p/406-1014-46296,r863.php?Lang=zh-tw"
+    }
+   ],
+   "deaths": 1
+  },
+  {
+   "id": "q-h20200928s",
+   "title": "台中70歲嬤跌坐家門外　拒鄰居攙扶...下秒口吐白沫倒地身亡",
+   "date": "2020-09-28",
+   "place": "東區",
+   "summary": "東區發生意外事故，一名女子身亡。",
+   "sources": [
+    {
+     "title": "台中70歲嬤跌坐家門外 拒鄰居攙扶...下秒口吐白沫倒地身亡",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20200928/1819672.htm"
     }
    ],
    "deaths": 1
@@ -7777,21 +7727,6 @@
      "title": "死2小時！台中女疑吸毒暴斃 友三貼夾屍丟急診落跑",
      "outlet": "東森新聞",
      "url": "https://news.ebc.net.tw/news/society/219586"
-    }
-   ],
-   "deaths": 1
-  },
-  {
-   "id": "q-h20200711a",
-   "title": "台中18歲少年在家見鬼　雙親揪出「死神」大義滅親",
-   "date": "2020-07-11",
-   "place": "台中",
-   "summary": "台中發現一人身亡，死因待查。",
-   "sources": [
-    {
-     "title": "台中18歲少年在家見鬼 雙親揪出「死神」大義滅親",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20200711/1757826.htm"
     }
    ],
    "deaths": 1
@@ -8132,21 +8067,6 @@
      "title": "搶天珠殺珠寶商 4嫌落網車內藏新鐵鏟",
      "outlet": "Yahoo 新聞",
      "url": "https://tw.news.yahoo.com/%E6%90%B6%E5%A4%A9%E7%8F%A0%E6%AE%BA%E7%8F%A0%E5%AF%B6%E5%95%86-4%E5%AB%8C%E8%90%BD%E7%B6%B2%E8%BB%8A%E5%85%A7%E8%97%8F%E6%96%B0%E9%90%B5%E9%8F%9F-160705474.html"
-    }
-   ],
-   "deaths": 1
-  },
-  {
-   "id": "q-h20191125b",
-   "title": "24歲妹散心...台中男推落草叢「強勢欺壓」：不配合就死！她急叩男友喊救命",
-   "date": "2019-11-25",
-   "place": "台中",
-   "summary": "台中發現一人身亡，死因待查。",
-   "sources": [
-    {
-     "title": "24歲妹散心...台中男推落草叢「強勢欺壓」：不配合就死！她急叩男友喊救命",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20191125/1587742.htm"
     }
    ],
    "deaths": 1
@@ -8594,7 +8514,7 @@
      "url": "https://tw.news.yahoo.com/%E8%B3%87%E5%84%AA%E5%A5%B3%E9%81%AD%E8%BC%BE%E6%96%83-%E6%AF%8D%E8%A9%A6%E7%AE%A1%E5%8F%97%E5%AD%95%E5%A4%AB%E5%8D%BB%E5%A4%96%E9%81%87-%E7%97%9B%E5%93%AD-%E6%8B%BF%E6%88%91%E5%91%BD%E6%8F%9B-234800631.html"
     }
    ],
-   "deaths": 1
+   "deaths": 2
   },
   {
    "id": "q-h20191004a",
@@ -8632,6 +8552,31 @@
      "title": "龍井肥料廠意外！廠長掉落肥料槽送醫不治",
      "outlet": "自由時報",
      "url": "https://news.ltn.com.tw/news/society/breakingnews/2936424"
+    }
+   ],
+   "deaths": 1
+  },
+  {
+   "id": "q-h20190923s",
+   "title": "畫面曝！ 台中老翁騎車路倒「頭顱變形」身亡 確認為自摔",
+   "date": "2019-09-23",
+   "place": "台中",
+   "summary": "台中發生意外事故，一名男子身亡。",
+   "sources": [
+    {
+     "title": "畫面曝！ 台中老翁騎車路倒「頭顱變形」身亡 確認為自摔",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20190923/1541386.htm"
+    },
+    {
+     "title": "離奇！76歲翁騎車「莫名右偏自摔」 頭顱變形搶救不治",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/606837"
+    },
+    {
+     "title": "自摔？肇逃？76歲老翁車禍頭顱變形送醫不治",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/2923440"
     }
    ],
    "deaths": 1
@@ -8712,36 +8657,6 @@
      "title": "台中藥局離奇案件！藥師夫婦遭砍頸 癱瘓妻也倒臥血泊中",
      "outlet": "Yahoo 新聞",
      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E8%97%A5%E5%B1%80%E9%9B%A2%E5%A5%87%E6%A1%88%E4%BB%B6%E8%97%A5%E5%B8%AB%E5%A4%AB%E5%A9%A6%E9%81%AD%E7%A0%8D%E9%A0%B8-%E7%99%B1%E7%98%93%E5%A6%BB%E4%B9%9F%E5%80%92%E8%87%A5%E8%A1%80%E6%B3%8A%E4%B8%AD-055604567.html"
-    }
-   ],
-   "deaths": 1
-  },
-  {
-   "id": "q-h20190812a",
-   "title": "自由潛水像人魚 憋氣太久會要命",
-   "date": "2019-08-12",
-   "place": "北區",
-   "summary": "北區發現一人身亡，死因待查。",
-   "sources": [
-    {
-     "title": "自由潛水像人魚 憋氣太久會要命",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/society/paper/1310002"
-    }
-   ],
-   "deaths": 1
-  },
-  {
-   "id": "q-h20190808a",
-   "title": "有災情打給110 盧秀燕臉書「消防員可以安心睡了...」",
-   "date": "2019-08-08",
-   "place": "台中",
-   "summary": "台中發現一人身亡，死因待查。",
-   "sources": [
-    {
-     "title": "有災情打給110 盧秀燕臉書「消防員可以安心睡了...」",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/life/breakingnews/2879026"
     }
    ],
    "deaths": 1
@@ -8972,21 +8887,6 @@
    "deaths": 1
   },
   {
-   "id": "q-h20190521a",
-   "title": "《台中》截流又強排 大甲民生地下道過關",
-   "date": "2019-05-21",
-   "place": "大甲",
-   "summary": "大甲發現一人身亡，死因待查。",
-   "sources": [
-    {
-     "title": "《台中》截流又強排 大甲民生地下道過關",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/local/paper/1290002"
-    }
-   ],
-   "deaths": 1
-  },
-  {
    "id": "q-h20190520a",
    "title": "台中移工垂釣赫見「長髮紋眉女屍」　拔腿衝消防隊求援",
    "date": "2019-05-20",
@@ -8997,41 +8897,6 @@
      "title": "台中移工垂釣赫見「長髮紋眉女屍」 拔腿衝消防隊求援",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20190520/1448531.htm"
-    }
-   ],
-   "deaths": 1
-  },
-  {
-   "id": "q-h20190519a",
-   "title": "黑道處死行動 疑用M4A1突擊步槍逞凶",
-   "date": "2019-05-19",
-   "place": "台中",
-   "summary": "台中發生命案，一人遇害身亡，警方偵辦。",
-   "sources": [
-    {
-     "title": "黑道處死行動 疑用M4A1突擊步槍逞凶",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/society/paper/1289650"
-    },
-    {
-     "title": "黑道處死行動疑用M4A1突擊步槍逞凶",
-     "outlet": "自由時報",
-     "url": "https://features.ltn.com.tw/english/article/paper/1289650"
-    }
-   ],
-   "deaths": 1
-  },
-  {
-   "id": "q-h20190518a",
-   "title": "單純茶館籠罩黑影 台中治安隱憂",
-   "date": "2019-05-18",
-   "place": "台中",
-   "summary": "台中發現一人身亡，死因待查。",
-   "sources": [
-    {
-     "title": "單純茶館籠罩黑影 台中治安隱憂",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/society/breakingnews/2794576"
     }
    ],
    "deaths": 1
@@ -9162,21 +9027,16 @@
      "title": "沙鹿茶館槍擊案1死2傷 警方鎖定「2槍手認識死者」並予境管",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20190518/1447688.htm"
-    }
-   ],
-   "deaths": 1
-  },
-  {
-   "id": "q-h20190515a",
-   "title": "36刀刺死酒友 兩公約讓他免死",
-   "date": "2019-05-15",
-   "place": "台中",
-   "summary": "台中發生命案，一人遇害身亡，警方偵辦。",
-   "sources": [
+    },
     {
-     "title": "36刀刺死酒友 兩公約讓他免死",
+     "title": "黑道處死行動 疑用M4A1突擊步槍逞凶",
      "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/society/breakingnews/2791218"
+     "url": "https://news.ltn.com.tw/news/society/paper/1289650"
+    },
+    {
+     "title": "黑道處死行動疑用M4A1突擊步槍逞凶",
+     "outlet": "自由時報",
+     "url": "https://features.ltn.com.tw/english/article/paper/1289650"
     }
    ],
    "deaths": 1
@@ -9512,21 +9372,6 @@
    "deaths": 1
   },
   {
-   "id": "q-h20190303a",
-   "title": "正妹人妻尋死燒掉車 上網尋救命恩人卻被揭黑暗史？",
-   "date": "2019-03-03",
-   "place": "台中",
-   "summary": "台中發現一人身亡，死因待查。",
-   "sources": [
-    {
-     "title": "正妹人妻尋死燒掉車 上網尋救命恩人卻被揭黑暗史？",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/society/breakingnews/2715152"
-    }
-   ],
-   "deaths": 1
-  },
-  {
    "id": "q-h20190218a",
    "title": "太平一家4口陳屍計程車內 妻疑遭綑綁",
    "date": "2019-02-18",
@@ -9610,21 +9455,6 @@
     }
    ],
    "deaths": 4
-  },
-  {
-   "id": "q-h20190209a",
-   "title": "台中男「胸口出血」倒臥租屋處命危　曾傳訊前妻：想去死",
-   "date": "2019-02-09",
-   "place": "太平",
-   "summary": "太平發現一人身亡，死因待查。",
-   "sources": [
-    {
-     "title": "更新／台中男「胸口出血」倒臥租屋處命危 曾傳訊前妻：想去死",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20190209/1374461.htm"
-    }
-   ],
-   "deaths": 1
   },
   {
    "id": "q-h20190202a",
