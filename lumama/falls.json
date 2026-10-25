@@ -3437,7 +3437,7 @@
     }
    ],
    "deaths": 1,
-   "title": "東區女子自住處頂樓墜落身亡"
+   "title": "北區高中生放學自校舍墜落 送醫不治"
   },
   {
    "id": "fall-96",
@@ -4377,6 +4377,51 @@
     }
    ],
    "deaths": 1
+  },
+  {
+   "id": "fall-500m",
+   "title": "繼承5億土地高中生 同婚登記2小時後墜樓亡 夏姓男假結婚判刑確定",
+   "date": "2023-05-04",
+   "place": "北屯",
+   "summary": "北屯漢溪西路一棟公寓，一名剛繼承約 5 億元土地的高中生，與地政士之子登記同性婚姻約 2 小時後墜樓身亡。檢方以罪證不足不起訴殺人，男方以假結婚使公務員登載不實，判刑 1 年 6 月確定；法院另判兩人婚姻無效。",
+   "deaths": 1,
+   "sources": [
+    {
+     "title": "撲朔迷離！5億高中生離奇墜樓身亡　疑生父「一句話」釀禍",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2131147"
+    },
+    {
+     "title": "5億高三生墜樓亡 家屬籲民眾提供事發影像",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202305230122.aspx"
+    },
+    {
+     "title": "5億高中生案法官認定假結婚  一審判夏男1年6月",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202406280128.aspx"
+    },
+    {
+     "title": "夏朝源與5億高中生「永久結合關係無效」關鍵曝　兩人是同婚",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250618/2980856.htm"
+    },
+    {
+     "title": "5億高中生案夏男遭控殺人 台中高分檢不起訴確定",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202506200202.aspx"
+    },
+    {
+     "title": "地政士之子假婚五億高中生 申請外役監服刑後縮短刑期今年5月出監",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7321/9628546"
+    },
+    {
+     "title": "五億高中生命案",
+     "outlet": "維基百科",
+     "url": "https://zh.wikipedia.org/zh-tw/%E4%BA%94%E5%84%84%E9%AB%98%E4%B8%AD%E7%94%9F%E5%91%BD%E6%A1%88"
+    }
+   ]
   },
   {
    "id": "fall-h20230316a",
