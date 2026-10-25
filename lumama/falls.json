@@ -4244,6 +4244,21 @@
    "deaths": 1
   },
   {
+   "id": "fall-h20230922a",
+   "title": "綠美圖工地工人自鷹架墜落 送醫不治",
+   "date": "2023-09-22",
+   "place": "西屯",
+   "summary": "台中市立圖書館新總館（綠美圖）工地，一名工人收工後爬上約18公尺高鷹架後墜落，送醫不治。",
+   "sources": [
+    {
+     "title": "台中綠美圖有人墜樓！工人「爬18M鷹架」驚悚懸掛高空 送醫死亡",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E7%B6%A0%E7%BE%8E%E5%9C%96%E6%9C%89%E4%BA%BA%E5%A2%9C%E6%A8%93-%E5%B7%A5%E4%BA%BA-%E7%88%AC18m%E9%B7%B9%E6%9E%B6-%E9%A9%9A%E6%82%9A%E6%87%B8%E6%8E%9B%E9%AB%98%E7%A9%BA-%E9%80%81%E9%86%AB%E6%AD%BB%E4%BA%A1-062946229.html"
+    }
+   ],
+   "deaths": 1
+  },
+  {
    "id": "fall-h20230904a",
    "title": "台中小二女童疑「打開外推窗」不慎墜9樓亡　鄰居慟：這是命",
    "date": "2023-09-04",
@@ -4439,6 +4454,36 @@
    "deaths": 1
   },
   {
+   "id": "fall-h20230218a",
+   "title": "大里大衛橋民眾墜橋 當場死亡",
+   "date": "2023-02-18",
+   "place": "大里",
+   "summary": "大里大衛橋一名民眾墜橋，當場死亡。",
+   "sources": [
+    {
+     "title": "台中大衛橋傳民眾墜橋 當場死亡未送醫",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4215533"
+    }
+   ],
+   "deaths": 1
+  },
+  {
+   "id": "fall-h20230215a",
+   "title": "私校住校女學生墜落 送醫不治",
+   "date": "2023-02-15",
+   "place": "台中",
+   "summary": "一所私立學校的住校女學生墜落車頂，送醫不治。",
+   "sources": [
+    {
+     "title": "獨家》台中明星私校生墜車頂 住校少女送醫不治",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4212589"
+    }
+   ],
+   "deaths": 1
+  },
+  {
    "id": "fall-h20221213a",
    "title": "台中3歲童午覺後「9樓墜4樓鐵皮屋頂」重傷　送醫不治",
    "date": "2022-12-13",
@@ -4494,6 +4539,21 @@
      "title": "快訊／台中市府大樓驚傳墜樓！女員工墜10F亡 盧秀燕遺憾不捨",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20221118/2382766.htm"
+    }
+   ],
+   "deaths": 1
+  },
+  {
+   "id": "fall-h20221106a",
+   "title": "南屯社區大樓女子墜樓 送醫不治",
+   "date": "2022-11-06",
+   "place": "南屯",
+   "summary": "南屯東興西街一處社區大樓，一名女子從12樓墜落，送醫不治。",
+   "sources": [
+    {
+     "title": "快訊/12層高樓墜地亡！最後身影「獨搭電梯上樓」 台中女染血送醫不治",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%BF%AB%E8%A8%8A-12%E5%B1%A4%E9%AB%98%E6%A8%93%E5%A2%9C%E5%9C%B0%E4%BA%A1-%E6%9C%80%E5%BE%8C%E8%BA%AB%E5%BD%B1-%E7%8D%A8%E6%90%AD%E9%9B%BB%E6%A2%AF%E4%B8%8A%E6%A8%93-%E5%8F%B0%E4%B8%AD%E5%A5%B3%E6%9F%93%E8%A1%80%E9%80%81%E9%86%AB%E4%B8%8D%E6%B2%BB-052233746.html"
     }
    ],
    "deaths": 1
@@ -4559,6 +4619,21 @@
    "deaths": 1
   },
   {
+   "id": "fall-h20220708a",
+   "title": "大里婦人爬芒果樹摔落 送醫不治",
+   "date": "2022-07-08",
+   "place": "大里",
+   "summary": "大里一名婦人爬芒果樹時失足摔落，送醫不治。",
+   "sources": [
+    {
+     "title": "台中大里外籍配偶爬芒果樹腳滑摔落 送醫不治",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/3985647"
+    }
+   ],
+   "deaths": 1
+  },
+  {
    "id": "fall-h20220524a",
    "title": "台中29歲男七期租屋半夜墜樓身亡　手機發現疑投資慘賠",
    "date": "2022-05-24",
@@ -4604,6 +4679,21 @@
    "deaths": 1
   },
   {
+   "id": "fall-h20220324b",
+   "title": "大里國中生自校舍5樓墜落 送醫不治",
+   "date": "2022-03-24",
+   "place": "大里",
+   "summary": "大里一所國中的男學生上課時間自校舍5樓墜落，送醫不治。",
+   "sources": [
+    {
+     "title": "台中大里國中生墜校舍5樓…傷重不治！姑姑還原「現場狀況」發聲了",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E5%A4%A7%E9%87%8C%E5%9C%8B%E4%B8%AD%E7%94%9F%E5%A2%9C%E6%A0%A1%E8%88%8D5%E6%A8%93-%E5%82%B7%E9%87%8D%E4%B8%8D%E6%B2%BB-%E5%A7%91%E5%A7%91%E9%82%84%E5%8E%9F-%E7%8F%BE%E5%A0%B4%E7%8B%80%E6%B3%81-%E7%99%BC%E8%81%B2%E4%BA%86-074633251.html"
+    }
+   ],
+   "deaths": 1
+  },
+  {
    "id": "fall-h20220322a",
    "title": "台中女疑遭性侵墜樓亡！PO照「可可愛愛沒人愛」最後貼文親友崩潰",
    "date": "2022-03-22",
@@ -4624,6 +4714,21 @@
      "title": "快訊／台中女遭性侵墜樓亡！他被私刑下跪認罪 警逮9人",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20220322/2213036.htm"
+    }
+   ],
+   "deaths": 1
+  },
+  {
+   "id": "fall-h20220314a",
+   "title": "高中生墜樓身亡 剛搬新家",
+   "date": "2022-03-14",
+   "place": "台中",
+   "summary": "一名高中生自住家墜樓身亡，警方報請相驗。",
+   "sources": [
+    {
+     "title": "台中高中生墜樓亡 家人嘆：才剛搬新家",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20220314004513-260402"
     }
    ],
    "deaths": 1
@@ -4654,6 +4759,21 @@
      "title": "快訊／台中上班尖峰時間 路人目睹男子4m高天橋墜落身亡",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20220210/2186140.htm"
+    }
+   ],
+   "deaths": 1
+  },
+  {
+   "id": "fall-h20220118a",
+   "title": "高中校園墜樓 一名英文老師身亡",
+   "date": "2022-01-18",
+   "place": "台中",
+   "summary": "一所高中校園發生墜樓，一名英文老師身亡。",
+   "sources": [
+    {
+     "title": "才剛康復返校…台中英文老師驚傳墜樓亡！師生聽巨響 全目睹「重傷躺一樓」",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E6%89%8D%E5%89%9B%E5%BA%B7%E5%BE%A9%E8%BF%94%E6%A0%A1-%E5%8F%B0%E4%B8%AD%E8%8B%B1%E6%96%87%E8%80%81%E5%B8%AB%E9%A9%9A%E5%82%B3%E5%A2%9C%E6%A8%93%E4%BA%A1-%E5%B8%AB%E7%94%9F%E8%81%BD%E5%B7%A8%E9%9F%BF-%E5%85%A8%E7%9B%AE%E7%9D%B9-%E9%87%8D%E5%82%B7%E8%BA%BA-094138370.html"
     }
    ],
    "deaths": 1
@@ -4984,6 +5104,26 @@
    "deaths": 2
   },
   {
+   "id": "fall-h20210523a",
+   "title": "潭子男子自住家大樓墜落身亡",
+   "date": "2021-05-23",
+   "place": "潭子",
+   "summary": "潭子一名男子從住家11樓墜落至3樓陽台，當場死亡。",
+   "sources": [
+    {
+     "title": "台中市潭子區驚傳45歲男子墜樓身亡",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/3543668"
+    },
+    {
+     "title": "台中中年男墜樓 掉落3樓陽台身亡",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20210523003944-260402"
+    }
+   ],
+   "deaths": 1
+  },
+  {
    "id": "fall-h20210501a",
    "title": "台中男替友接電瓶…踩空跌落機械車位間隙！摔墜2m深坑洞亡",
    "date": "2021-05-01",
@@ -5057,6 +5197,21 @@
     }
    ],
    "deaths": 2
+  },
+  {
+   "id": "fall-h20210415a",
+   "title": "男子自大甲溪橋墜落 送醫不治",
+   "date": "2021-04-15",
+   "place": "台中",
+   "summary": "一名男子從大甲溪橋墜落，送醫不治，警方初步排除他殺。",
+   "sources": [
+    {
+     "title": "台中男墜大甲溪橋全身骨折不治 警排除他殺",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20210415004097-260402"
+    }
+   ],
+   "deaths": 1
   },
   {
    "id": "fall-h20210328a",
@@ -5164,6 +5319,21 @@
      "title": "台中怪手拆除廢棄校舍重心不穩 二樓翻覆墜落駕駛遭重壓慘死",
      "outlet": "Yahoo 新聞",
      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E6%80%AA%E6%89%8B%E6%8B%86%E9%99%A4%E5%BB%A2%E6%A3%84%E6%A0%A1%E8%88%8D%E9%87%8D%E5%BF%83%E4%B8%8D%E7%A9%A9-%E4%BA%8C%E6%A8%93%E7%BF%BB%E8%A6%86%E5%A2%9C%E8%90%BD%E9%A7%95%E9%A7%9B%E9%81%AD%E9%87%8D%E5%A3%93%E6%85%98%E6%AD%BB-070519649.html"
+    }
+   ],
+   "deaths": 1
+  },
+  {
+   "id": "fall-h20201212a",
+   "title": "西屯豪宅清晨墜樓 住戶送醫不治",
+   "date": "2020-12-12",
+   "place": "西屯",
+   "summary": "西屯一棟大樓清晨發生墜樓，一名住戶身亡。",
+   "sources": [
+    {
+     "title": "台中豪宅驚傳墜樓案男疑因鉅債輕生倒臥血泊不治| CTWANT",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/P55E0R"
     }
    ],
    "deaths": 1

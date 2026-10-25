@@ -4172,6 +4172,26 @@
    "deaths": 1
   },
   {
+   "id": "q-h202402a",
+   "title": "北屯汽車旅館 男子餵毒性侵傳播女子致死",
+   "date": "2024-02",
+   "place": "北屯",
+   "summary": "一名男子約傳播女子到北屯一家汽車旅館，以滴管餵毒後性侵偷拍，女子昏迷死亡，男子被起訴。",
+   "sources": [
+    {
+     "title": "台中摩鐵驚悚命案！淫男「滴管餵毒」性侵偷拍 害傳播女昏迷致死",
+     "outlet": "innews.com.tw",
+     "url": "https://innews.com.tw/%E5%8F%B0%E4%B8%AD%E6%91%A9%E9%90%B5%E9%A9%9A%E6%82%9A%E5%91%BD%E6%A1%88%EF%BC%81%E6%B7%AB%E7%94%B7%E3%80%8C%E6%BB%B4%E7%AE%A1%E9%A4%B5%E6%AF%92%E3%80%8D%E6%80%A7%E4%BE%B5%E5%81%B7%E6%8B%8D%E3%80%80/"
+    },
+    {
+     "title": "台中汽旅爆命案！噁男「滴管餵毒」侵犯拍片 傳播妹為2萬慘死",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/3017358"
+    }
+   ],
+   "deaths": 1
+  },
+  {
    "id": "q-h20240122a",
    "title": "台中深夜驚傳命案！弟弟持球棒猛砸哥哥　頭部重創送醫不治",
    "date": "2024-01-22",
@@ -4317,6 +4337,21 @@
    "deaths": 1
   },
   {
+   "id": "q-h20231204a",
+   "title": "康橋河堤發現男性遺體",
+   "date": "2023-12-04",
+   "place": "台中",
+   "summary": "康橋河堤發現一具男性遺體，身分與死因待查。",
+   "sources": [
+    {
+     "title": "台中康橋河堤驚見男屍身分、死因待查- 社會",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4510396"
+    }
+   ],
+   "deaths": 1
+  },
+  {
    "id": "q-h20231114a",
    "title": "大逆轉！台中梅花鹿闖民宅「死亡變野放」　疑點重重送檢方偵辦",
    "date": "2023-11-14",
@@ -4387,6 +4422,26 @@
      "title": "獨／台中婦左手腕失血過多不治 排除割腕死因待查",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20231005/2596724.htm"
+    }
+   ],
+   "deaths": 1
+  },
+  {
+   "id": "q-h20230924a",
+   "title": "背3條通緝的協會理事長 陳屍神岡高架橋下車內",
+   "date": "2023-09-24",
+   "place": "神岡",
+   "summary": "一名身背性侵、侵占、毒品3條通緝的協會理事長，被發現陳屍神岡高鐵高架橋下的轎車內，疑一氧化碳中毒。",
+   "sources": [
+    {
+     "title": "「惡狼慈善家」陳在斌身背3通緝陳屍台中高架橋下| 自由電子報",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/vX2ODX8"
+    },
+    {
+     "title": "「假面善人」陳在斌陳屍台中！曾侵占善款、涉性侵　死因曝光",
+     "outlet": "鏡週刊",
+     "url": "https://www.mirrormedia.mg/external/mnews_20230926nm004"
     }
    ],
    "deaths": 1
@@ -4497,6 +4552,21 @@
    "deaths": 1
   },
   {
+   "id": "q-h20230810b",
+   "title": "旱溪河堤發現女性遺體",
+   "date": "2023-08-10",
+   "place": "東區",
+   "summary": "東區旱溪河堤平台發現一具女性遺體，已死亡多日。",
+   "sources": [
+    {
+     "title": "台中旱溪河堤傳惡臭 民眾驚見｢發黑長蛆」女屍",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/2205348"
+    }
+   ],
+   "deaths": 1
+  },
+  {
    "id": "q-h20230802a",
    "title": "台中七期豪宅驚傳命案 當天要退租...男18樓墜樓頭身分離慘死",
    "date": "2023-08-02",
@@ -4540,6 +4610,21 @@
     }
    ],
    "deaths": 1
+  },
+  {
+   "id": "q-h20230626a",
+   "title": "陸軍十軍團營區 2名上士寢室昏迷雙亡",
+   "date": "2023-06-26",
+   "place": "大雅",
+   "summary": "陸軍第十軍團所屬單位早點名時2名上士未到，在寢室被發現昏迷，送醫後雙雙不治，台中地檢署指揮偵辦。",
+   "sources": [
+    {
+     "title": "快訊／陸軍十軍團2上士雙亡！早點名未到場爆憾事　軍方說話了",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230626/2527437.htm"
+    }
+   ],
+   "deaths": 2
   },
   {
    "id": "q-h20230615a",
@@ -4677,6 +4762,21 @@
    "deaths": 2
   },
   {
+   "id": "q-h20230304a",
+   "title": "市府消防局派遣員勤後猝死 家屬質疑過勞",
+   "date": "2023-03-04",
+   "place": "台中",
+   "summary": "台中市消防局一名救災救護指揮中心派遣員勤務結束返家後身體不適，就醫後猝死，家屬質疑過勞。",
+   "sources": [
+    {
+     "title": "消防員疑過勞猝死 中市消防局：加班時數符規定",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/632648"
+    }
+   ],
+   "deaths": 1
+  },
+  {
    "id": "q-h20230208a",
    "title": "男子陳屍台中知名露營區　登山客經過步道涼亭直擊嚇壞",
    "date": "2023-02-08",
@@ -4705,6 +4805,21 @@
     }
    ],
    "deaths": 1
+  },
+  {
+   "id": "q-h20230127a",
+   "title": "東區老夫妻倒臥家中 送醫雙亡",
+   "date": "2023-01-27",
+   "place": "東區",
+   "summary": "東區一心街一對8旬夫妻被發現倒臥家中，送醫後雙雙不治。",
+   "sources": [
+    {
+     "title": "台中老夫妻疑服藥輕生 送醫雙亡",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E8%80%81%E5%A4%AB%E5%A6%BB%E7%96%91%E6%9C%8D%E8%97%A5%E8%BC%95%E7%94%9F-%E9%80%81%E9%86%AB%E9%9B%99%E4%BA%A1-052233976.html"
+    }
+   ],
+   "deaths": 2
   },
   {
    "id": "q-h20230104a",
@@ -4737,6 +4852,21 @@
    "deaths": 1
   },
   {
+   "id": "q-h20221212a",
+   "title": "三井Outlet旁河堤發現女性遺體",
+   "date": "2022-12-12",
+   "place": "梧棲",
+   "summary": "台中港三井Outlet旁河堤發現一具女性遺體，警方追查身分。",
+   "sources": [
+    {
+     "title": "快訊／台中三井驚見全裸女屍「趴臥河堤、身綁繩索」身分待確認",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1221948"
+    }
+   ],
+   "deaths": 1
+  },
+  {
    "id": "q-h20221209a",
    "title": "台中花毯節30歲男遭虐「頭部重傷」棄屍公墓　2嫌落網",
    "date": "2022-12-09",
@@ -4752,6 +4882,81 @@
      "title": "台中驚傳「殺人棄屍公墓」 30多歲男被虐爆頭慘死",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20221209/2397507.htm"
+    }
+   ],
+   "deaths": 1
+  },
+  {
+   "id": "q-h20221207a",
+   "title": "成功嶺新訓中心新兵清晨無呼吸心跳 送醫不治",
+   "date": "2022-12-07",
+   "place": "烏日",
+   "summary": "成功嶺新訓中心一名入伍未滿一個月的新兵，清晨被同袍發現無呼吸心跳，送醫不治，檢方解剖相驗。",
+   "sources": [
+    {
+     "title": "成功嶺新兵猝死解剖　軍方承諾說明卻落跑「媒體空等3hrs傻眼」",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20221213/2400253.htm"
+    },
+    {
+     "title": "快訊／台中5人到高雄加盟展全染疫　成功嶺新兵...入伍1天就確診",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20220416/2231259.htm"
+    },
+    {
+     "title": "成功嶺新兵：林北殺人犯！　嗆輔導長「別以為我不敢打女生」",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20230108/2418296.htm"
+    },
+    {
+     "title": "快訊／成功嶺新兵打靶意外「子彈碎片卡腦部」　醫院動員60人搶命",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250922/3038134.htm"
+    },
+    {
+     "title": "快訊／成功嶺新兵打靶「炸掉1/3臉」！　軍方15：00將出面說明",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250923/3038500.htm"
+    },
+    {
+     "title": "快訊／成功嶺新兵打靶臉部重創昏迷　中檢火速立案要查真相",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250923/3038315.htm"
+    },
+    {
+     "title": "成功嶺新兵打靶爆頭太驚悚　中檢派「軍職背景」檢察官調查",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250923/3038464.htm"
+    },
+    {
+     "title": "成功嶺新兵打靶爆頭！法醫高大成斷言：99%是膛炸",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250923/3038503.htm"
+    },
+    {
+     "title": "成功嶺新兵最新傷勢曝！1/3臉消失腦卡極細碎片　輸血2萬c.c.搶命",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250923/3038364.htm"
+    },
+    {
+     "title": "最後一發出意外！成功嶺新兵打靶「半臉沒了」　軍方排除機械因素",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250923/3038610.htm"
+    },
+    {
+     "title": "成功嶺新兵中彈照外流！網路瘋傳　軍方：恐侵害人格、隱私權",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20250924/3039409.htm"
+    },
+    {
+     "title": "獨／成功嶺新訓中心新兵暴斃　「起床號叫不醒」入伍僅1個月喪命",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20221209/2397563.htm"
+    },
+    {
+     "title": "影／男友成功嶺新訓「只帶500元」　她心急：那苦的是我啊…過來人說話了",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20190701/1479354.htm"
     }
    ],
    "deaths": 1
@@ -4782,6 +4987,21 @@
      "title": "台中監獄受刑人突心跳停止「宣告死亡」 淒涼背景曝光",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20221122/2385155.htm"
+    }
+   ],
+   "deaths": 1
+  },
+  {
+   "id": "q-h20221118a",
+   "title": "跟團遊武陵農場 婦人倒地不治",
+   "date": "2022-11-18",
+   "place": "和平",
+   "summary": "一名婦人跟團到和平區武陵農場觀光，在松林大道突然倒地不治。",
+   "sources": [
+    {
+     "title": "台中傳死亡意外！跟團出遊突倒地 婦人斷魂武陵農場",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/1966778"
     }
    ],
    "deaths": 1
@@ -5072,6 +5292,26 @@
    "deaths": 1
   },
   {
+   "id": "q-h20220729a",
+   "title": "潭子滷味攤槍擊案嫌犯 陳屍太平山區",
+   "date": "2022-07-29",
+   "place": "太平",
+   "summary": "潭子滷味攤槍擊命案的嫌犯逃亡多日，被發現在太平黃竹山區身亡，研判畏罪自戕。",
+   "sources": [
+    {
+     "title": "台中山區尋獲一遺體 疑為滷味攤命案槍手",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/592768"
+    },
+    {
+     "title": "潭子滷味攤槍擊案 兇手陳屍太平山區",
+     "outlet": "news.st-media.com.tw",
+     "url": "https://news.st-media.com.tw/news/17817"
+    }
+   ],
+   "deaths": 1
+  },
+  {
    "id": "q-h20220725a",
    "title": "快訊／台中滷味攤老闆遭3槍爆頭不治 警曝2嫌犯案動機",
    "date": "2022-07-25",
@@ -5112,6 +5352,21 @@
      "title": "快訊／找到了！台中伯疑墜大肚溪失蹤近1天 卡泥灘無生命跡象",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20220710/2291207.htm"
+    }
+   ],
+   "deaths": 1
+  },
+  {
+   "id": "q-h20220709a",
+   "title": "白牌車司機車禍後陳屍車內",
+   "date": "2022-07-09",
+   "place": "台中",
+   "summary": "一名白牌車司機發生擦撞未受傷，約10小時後被發現陳屍車內。",
+   "sources": [
+    {
+     "title": "台中離奇命案！白牌車司機撞車沒受傷 10小時後被發現陳屍車內",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/3986549"
     }
    ],
    "deaths": 1
@@ -5187,6 +5442,21 @@
      "title": "快訊／台中25歲女失聯2天 石岡水壩尋獲遺體",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20220608/2268456.htm"
+    }
+   ],
+   "deaths": 1
+  },
+  {
+   "id": "q-h20220603a",
+   "title": "登山男子失聯 武陵桃山步道下方尋獲遺體",
+   "date": "2022-06-03",
+   "place": "和平",
+   "summary": "一名男子登武陵桃山失聯，於桃山步道下方水域尋獲遺體。",
+   "sources": [
+    {
+     "title": "男子登武陵桃山失聯中市警尋獲已身亡| 社會",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202206040106.aspx"
     }
    ],
    "deaths": 1
@@ -5302,6 +5572,21 @@
    "deaths": 1
   },
   {
+   "id": "q-h20220331b",
+   "title": "市府運動局科員上班倒地猝死",
+   "date": "2022-03-31",
+   "place": "台中",
+   "summary": "台中市政府運動局一名科員上班時倒地不治，相驗為心臟衰竭。",
+   "sources": [
+    {
+     "title": "中市運動局員工突倒地不治 檢方相驗為心臟衰竭死亡",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/3879217"
+    }
+   ],
+   "deaths": 1
+  },
+  {
    "id": "q-h20220321a",
    "title": "兒報案求救「煮東西不小心」釀災　台中91歲翁遭火吞噬身亡",
    "date": "2022-03-21",
@@ -5357,6 +5642,21 @@
    "deaths": 1
   },
   {
+   "id": "q-h20220304a",
+   "title": "男子陳屍汽車旅館 疑遭下藥劫財",
+   "date": "2022-03-04",
+   "place": "台中",
+   "summary": "一名男子被發現陳屍汽車旅館，疑遭一對夫妻下藥劫財。",
+   "sources": [
+    {
+     "title": "喝酒被下藥！台中男「下面光溜」倒摩鐵猝死 身旁「關鍵套套」驚揪迷魂夫妻",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%96%9D%E9%85%92%E8%A2%AB%E4%B8%8B%E8%97%A5-%E5%8F%B0%E4%B8%AD%E7%94%B7-%E4%B8%8B%E9%9D%A2%E5%85%89%E6%BA%9C-%E5%80%92%E6%91%A9%E9%90%B5%E7%8C%9D%E6%AD%BB-%E8%BA%AB%E6%97%81-053111597.html"
+    }
+   ],
+   "deaths": 1
+  },
+  {
    "id": "q-h20220303a",
    "title": "逢甲商圈女大生感情生變 持刀傷人後輕生亡",
    "date": "2022-03-03",
@@ -5382,6 +5682,21 @@
      "title": "獨／台中女大生爆命案！ 2女為房租爭吵 1人死亡",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20220303/2200345.htm"
+    }
+   ],
+   "deaths": 1
+  },
+  {
+   "id": "q-h20220221a",
+   "title": "潭子石牌公園公廁發現男子遺體",
+   "date": "2022-02-21",
+   "place": "潭子",
+   "summary": "潭子石牌公園公廁內發現一名男子身亡，疑為遊民低溫猝死。",
+   "sources": [
+    {
+     "title": "男子陳屍台中潭子石牌公園公廁 疑遊民低溫猝死",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/3836315"
     }
    ],
    "deaths": 1
@@ -5422,6 +5737,21 @@
      "title": "快訊／悲傷！台中未滿月女嬰猝死 遺體有屍斑死因待相驗",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20220209/2185321.htm"
+    }
+   ],
+   "deaths": 1
+  },
+  {
+   "id": "q-h20220209b",
+   "title": "出生19天女嬰換尿布時離世 遺體解剖",
+   "date": "2022-02-09",
+   "place": "台中",
+   "summary": "一名出生19天的女嬰在換尿布時失去生命跡象離世，遺體解剖釐清死因。",
+   "sources": [
+    {
+     "title": "台中19天女嬰換尿布離世　父母激動哀痛　遺體下星期解剖",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1069114"
     }
    ],
    "deaths": 1
@@ -5662,7 +5992,7 @@
    "deaths": 1
   },
   {
-   "id": "q-h20211029a",
+   "id": "q-h20211029b",
    "title": "大甲派遣粗工遭老闆娘等11人押往山區虐殺",
    "date": "2021-10-29",
    "place": "大甲",
@@ -5682,17 +6012,7 @@
      "title": "獨／台中20歲粗工遭亂棒虐殺！最後1嫌落網收押　阿姨淚曝殺機",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20211102/2114685.htm"
-    }
-   ],
-   "deaths": 1
-  },
-  {
-   "id": "q-h20211029b",
-   "title": "台中22歲男遭虐殺！老闆娘教唆兒子犯案　3女在遺體旁滑手機",
-   "date": "2021-10-29",
-   "place": "台中",
-   "summary": "台中發生命案，一名男子遇害身亡，警方偵辦。",
-   "sources": [
+    },
     {
      "title": "台中22歲男遭虐殺！老闆娘教唆兒子犯案 3女在遺體旁滑手機",
      "outlet": "ETtoday",
@@ -6037,6 +6357,21 @@
    "deaths": 1
   },
   {
+   "id": "q-h20210919a",
+   "title": "獨居老翁死亡多時 中秋姊探視才發現",
+   "date": "2021-09-19",
+   "place": "台中",
+   "summary": "一名獨居老翁死亡多時已成白骨，中秋節姊姊探視才發現。",
+   "sources": [
+    {
+     "title": "姊中秋節探視 台中78歲獨居翁竟已化為白骨",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/3677243"
+    }
+   ],
+   "deaths": 1
+  },
+  {
    "id": "q-h20210913a",
    "title": "台中首例打高端後死亡　42歲男心跳忽快忽慢急診返家猝死",
    "date": "2021-09-13",
@@ -6097,6 +6432,46 @@
      "title": "台中婦買菜返家一開門驚見老伴靠椅「纏電線」身亡",
      "outlet": "TVBS",
      "url": "https://news.tvbs.com.tw/local/1565819"
+    }
+   ],
+   "deaths": 1
+  },
+  {
+   "id": "q-h20210803a",
+   "title": "網路簽賭糾紛 男子遭3人毆打悶死棄置汽車旅館",
+   "date": "2021-08-03",
+   "place": "太平",
+   "summary": "一名男子因網路簽賭糾紛遭3人毆打、塞住口鼻窒息死亡，遺體被棄置在太平一家汽車旅館，3人投案。",
+   "sources": [
+    {
+     "title": "快訊／台中汽旅爆命案！男子陳屍房內 房務員目睹崩潰",
+     "outlet": "東森新聞",
+     "url": "https://news.ebc.net.tw/news/society/272810"
+    },
+    {
+     "title": "台中摩鐵驚傳兇殺案 房務員開門見男屍倒臥嚇壞",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20210803005882-260402"
+    },
+    {
+     "title": "台中太平爆凶殺！男遭3惡煞圍毆悶死　丟包摩鐵亡",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/977145"
+    }
+   ],
+   "deaths": 1
+  },
+  {
+   "id": "q-h20210725a",
+   "title": "清泉崗航空站候車亭發現老翁身亡",
+   "date": "2021-07-25",
+   "place": "沙鹿",
+   "summary": "清泉崗航空站外公車候車亭清晨發現一名老翁身亡，警方調閱監視器釐清。",
+   "sources": [
+    {
+     "title": "老翁陳屍台中航空站候車亭現場無外力介入警鑑識中- 社會",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20210725001295-260402"
     }
    ],
    "deaths": 1
@@ -6327,6 +6702,21 @@
    "deaths": 1
   },
   {
+   "id": "q-h20210607a",
+   "title": "逢甲商圈總幹事陳屍租屋處",
+   "date": "2021-06-07",
+   "place": "西屯",
+   "summary": "逢甲商圈一名管委會總幹事被發現陳屍租屋處，無明顯外傷。",
+   "sources": [
+    {
+     "title": "快訊／台中逢甲商圈總幹事陳屍租屋處 最後一封訊息「要快篩」",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/1524945"
+    }
+   ],
+   "deaths": 1
+  },
+  {
    "id": "q-h20210524a",
    "title": "台中大里驚傳3死命案！1家4口僅6歲女童存活、送醫搶救",
    "date": "2021-05-24",
@@ -6460,6 +6850,61 @@
     }
    ],
    "deaths": 1
+  },
+  {
+   "id": "q-h20210425a",
+   "title": "谷關產業道路租賃車內 3名男女身亡",
+   "date": "2021-04-25",
+   "place": "和平",
+   "summary": "和平區谷關東關路產業道路旁一輛租賃車內發現3名男女身亡，車內有炭盆，檢方追查是否與教唆自殺網站有關。",
+   "sources": [
+    {
+     "title": "中橫3男女「手機上鎖」車內燒炭亡！凌晨最後一通電話曝光",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20210426/1968079.htm"
+    },
+    {
+     "title": "中橫3男女留「絕筆」車內輕生！　獨子母崩潰哭喊：他不可能離開我",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20210426/1968249.htm"
+    },
+    {
+     "title": "中橫3男女輕生1人是警官　北市交通大隊：他工作正常與人為善",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20210426/1968405.htm"
+    },
+    {
+     "title": "中橫3死「生前同網站認識」藏疑點！檢分案追查「教唆自殺網站」",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20210427/1969145.htm"
+    },
+    {
+     "title": "中橫3死被加工？高大成曝4關鍵：一氧化碳濃度60％↓…恐畏罪自殺",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20210427/1968869.htm"
+    },
+    {
+     "title": "中橫3死連結軌跡曝光！上交友網站結識　LINE對話「要一次OK」",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20210427/1968774.htm"
+    },
+    {
+     "title": "中橫3死生前對話像討論出遊　警發毛「難以想像心情轉折」",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20210428/1969614.htm"
+    },
+    {
+     "title": "中橫3死黃男家境困難...母泣無錢領屍　警急募5萬助走完最後一程",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20210428/1969669.htm"
+    },
+    {
+     "title": "中橫3死手機藏密碼！破解排除自殺網站　「心情版」相約赴黃泉",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20210504/1974027.htm"
+    }
+   ],
+   "deaths": 3
   },
   {
    "id": "q-h20210424a",
@@ -6622,6 +7067,21 @@
      "title": "台中公園驚見無名屍 看監視器竟被兒子推去丟包",
      "outlet": "中時新聞網",
      "url": "https://www.chinatimes.com/realtimenews/20210401006180-260402"
+    }
+   ],
+   "deaths": 1
+  },
+  {
+   "id": "q-h20210324a",
+   "title": "公園溜滑梯發現女性遺體 兒子涉棄屍",
+   "date": "2021-03-24",
+   "place": "台中",
+   "summary": "一名男子深夜用輪椅推著已死亡的母親到公園棄置，檢方通緝。",
+   "sources": [
+    {
+     "title": "台中公園驚見女屍躺溜滑梯 警調監視器挖出驚人真相",
+     "outlet": "東森新聞",
+     "url": "https://news.ebc.net.tw/news/society/263062"
     }
    ],
    "deaths": 1
@@ -6807,6 +7267,21 @@
      "title": "慘！台中資訊盃路跑意外40歲男跑者噎到倒地10分鐘CPR無效不治",
      "outlet": "民視新聞",
      "url": "https://finance.ftvnews.com.tw/news/detail/2021307C05M1"
+    }
+   ],
+   "deaths": 1
+  },
+  {
+   "id": "q-h20210221s",
+   "title": "傳產公司董事長陳屍公司樓梯口",
+   "date": "2021-02-21",
+   "place": "台中",
+   "summary": "一家傳產公司董事長被發現倒在公司樓梯口，疑跌落顱內出血身亡。",
+   "sources": [
+    {
+     "title": "台中知名傳產董座驚傳陳屍公司樓梯口　疑跌下樓顱內出血亡",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/900205"
     }
    ],
    "deaths": 1
@@ -7062,6 +7537,21 @@
    "deaths": 1
   },
   {
+   "id": "q-h20210118a",
+   "title": "北屯仁愛公園凌晨發現婦人身亡",
+   "date": "2021-01-18",
+   "place": "北屯",
+   "summary": "北屯四平路仁愛公園凌晨發現一名婦人身亡，警方報請相驗。",
+   "sources": [
+    {
+     "title": "台中婦人公園內自焚警消到場已明顯死亡| 社會",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202101180061.aspx"
+    }
+   ],
+   "deaths": 1
+  },
+  {
    "id": "q-h20210117a",
    "title": "【警察】台中公寓夫妻雙亡！鄰居聞臭味嚇壞…死者身份曝光「是退休員警」",
    "date": "2021-01-17",
@@ -7297,6 +7787,21 @@
      "title": "啃老男討不到錢 扛水泥墩大街砸死老父 罹精神病逃死",
      "outlet": "中時新聞網",
      "url": "https://www.chinatimes.com/realtimenews/20201223005710-260402"
+    }
+   ],
+   "deaths": 1
+  },
+  {
+   "id": "q-h20201215a",
+   "title": "稅務員上門催稅 發現女房客已在屋內身亡多時",
+   "date": "2020-12-15",
+   "place": "台中",
+   "summary": "稅務人員到社區催稅，發現女房客已在屋內死亡多時、成白骨。",
+   "sources": [
+    {
+     "title": "驚恐！稅務員至台中社區討稅　開門驚見女房客已成一具屍骨",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/865743"
     }
    ],
    "deaths": 1
@@ -7987,6 +8492,21 @@
      "title": "嘆「人生無意義」台中離婚男開車到公墓 死意堅！劃刀肚破腸流",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20200326/1677014.htm"
+    }
+   ],
+   "deaths": 1
+  },
+  {
+   "id": "q-h20200326b",
+   "title": "男子失聯 陳屍太平七星山公墓停車場車內",
+   "date": "2020-03-26",
+   "place": "太平",
+   "summary": "一名男子失聯一夜，被發現在太平七星山花園公墓停車場的車內身亡，警方排除他殺。",
+   "sources": [
+    {
+     "title": "一夜未歸…台中男車停葬兄公墓　遭發現「腹部開開」身亡",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/715157"
     }
    ],
    "deaths": 1

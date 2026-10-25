@@ -562,6 +562,25 @@
    ]
   },
   {
+   "id": "s-h20230508a",
+   "title": "清水貨櫃場司機遭堆高機輾壓身亡",
+   "date": "2023-05-08",
+   "place": "清水",
+   "summary": "清水港埠路一處貨櫃場，一名貨櫃車司機在場內步行時遭堆高機撞擊輾壓，失血過多身亡。",
+   "sources": [
+    {
+     "title": "台中貨櫃車司機下車步行領櫃遭堆高機迎面撞、雙腿輾斷失血過多慘亡| 三立新聞網",
+     "outlet": "LINE TODAY（轉載）",
+     "url": "https://today.line.me/tw/v3/article/ZaeqqN7"
+    }
+   ],
+   "deaths": 1,
+   "fear": [
+    "D",
+    "S"
+   ]
+  },
+  {
    "id": "s-h20230406a",
    "title": "斜坡忘拉手煞車！台中公車司機下車買便當「被前後2車夾中間」亡",
    "date": "2023-04-06",
@@ -639,6 +658,30 @@
     }
    ],
    "deaths": 3,
+   "fear": [
+    "D",
+    "S"
+   ]
+  },
+  {
+   "id": "s-h20230213a",
+   "title": "南屯透天工地鷹架工人墜落不治",
+   "date": "2023-02-13",
+   "place": "南屯",
+   "summary": "南屯一處透天厝工地，鷹架工人從4樓墜落至2樓，頭部重創不治。",
+   "sources": [
+    {
+     "title": "台中南屯5千萬透天豪宅工程鷹架工人「4樓墜到2樓」　頭部重創不治",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1251371"
+    },
+    {
+     "title": "台中透天工地工人墜落亡　職安中心勒令停工、開罰",
+     "outlet": "news.housefun.com.tw",
+     "url": "https://news.housefun.com.tw/news/article/323417365349.html"
+    }
+   ],
+   "deaths": 1,
    "fear": [
     "D",
     "S"
@@ -752,6 +795,25 @@
    ]
   },
   {
+   "id": "s-h20221007a",
+   "title": "建築工地工人自B1墜落B2 送醫不治",
+   "date": "2022-10-07",
+   "place": "台中",
+   "summary": "一處建築工地工人施作護欄時從地下一樓墜落地下二樓，送醫不治。",
+   "sources": [
+    {
+     "title": "台中工安意外！建築工地工人施作護欄 B1墜落B2送醫不治",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/Taichung/breakingnews/4082050"
+    }
+   ],
+   "deaths": 1,
+   "fear": [
+    "D",
+    "S"
+   ]
+  },
+  {
    "id": "s-h20220807a",
    "title": "台中吊車吊臂傾倒砸中天車 工人解開安全掛鉤欲逃墜6公尺亡",
    "date": "2022-08-07",
@@ -800,6 +862,54 @@
      "title": "快訊／台中老舊房屋倒塌！1工人遭壓無生命跡象送醫不治",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20220529/2261569.htm"
+    }
+   ],
+   "deaths": 1,
+   "fear": [
+    "D",
+    "S"
+   ]
+  },
+  {
+   "id": "s-h20220419a",
+   "title": "混凝土廠擋土牆倒塌 移工遭活埋不治",
+   "date": "2022-04-19",
+   "place": "台中",
+   "summary": "一處混凝土廠擋土牆倒塌，一名泰籍移工遭掩埋，送醫不治。",
+   "sources": [
+    {
+     "title": "台中混凝土廠擋土牆倒塌 1泰籍移工遭活埋不治",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/3898724"
+    }
+   ],
+   "deaths": 1,
+   "fear": [
+    "D",
+    "S"
+   ]
+  },
+  {
+   "id": "s-h20211229a",
+   "title": "漢翔水湳廠集塵器爆炸 1死6傷",
+   "date": "2021-12-29",
+   "place": "西屯",
+   "summary": "漢翔公司台中水湳廠區集塵器粉塵爆炸，1名員工死亡、6人受傷，市府要求停工改善。",
+   "sources": [
+    {
+     "title": "快訊／漢翔「集塵器爆炸」1人送醫不治！6人輕重傷　董事長發話了",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20211229/2157162.htm"
+    },
+    {
+     "title": "快訊／漢翔「集塵器爆炸」釀6傷、1命危！總經理回應了",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20211229/2157123.htm"
+    },
+    {
+     "title": "快訊／漢翔水湳機場工廠「集塵器爆炸」！釀7傷　其中1人命危",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20211229/2157026.htm"
     }
    ],
    "deaths": 1,
@@ -878,6 +988,49 @@
      "title": "快訊／驚悚畫面曝！50歲工人換水管遭負壓「瞬吸」撞頭死",
      "outlet": "三立新聞網",
      "url": "https://www.setn.com/news/1034515"
+    }
+   ],
+   "deaths": 1,
+   "fear": [
+    "D",
+    "S"
+   ]
+  },
+  {
+   "id": "s-h20211108a",
+   "title": "大立光新廠工地工人墜落 遭鋼筋刺穿不治",
+   "date": "2021-11-08",
+   "place": "台中",
+   "summary": "大立光新建廠房工地一名工人墜落，遭鋼筋刺穿腹部不治。",
+   "sources": [
+    {
+     "title": "大立光台中新建廠房爆工安意外 工人墜落遭鋼筋刺穿腹部不治",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/3729574"
+    }
+   ],
+   "deaths": 1,
+   "fear": [
+    "D",
+    "S"
+   ]
+  },
+  {
+   "id": "s-h20210906a",
+   "title": "台中港31號碼頭起重機拆解時倒塌 1死1傷",
+   "date": "2021-09-06",
+   "place": "梧棲",
+   "summary": "台中港31號碼頭拆解舊橋式機時，吊掛的梁架傾斜掉落砸中跨載機，造成1人死亡、1人受傷。",
+   "sources": [
+    {
+     "title": "台中港31號碼頭 吊車倒塌造成1死1傷",
+     "outlet": "epochtimes.com",
+     "url": "https://www.epochtimes.com/b5/21/9/6/n13214219.htm"
+    },
+    {
+     "title": "台中港起重機吊臂斷落砸中2人 造成1死1輕傷",
+     "outlet": "民視新聞",
+     "url": "https://health.ftvnews.com.tw/news/detail/2021906C08M1"
     }
    ],
    "deaths": 1,
@@ -1002,6 +1155,25 @@
    ]
   },
   {
+   "id": "s-h20201230a",
+   "title": "鋪柏油工程壓路機壓倒工人 送醫不治",
+   "date": "2020-12-30",
+   "place": "台中",
+   "summary": "道路鋪設柏油時，壓路機壓倒一名工人，送醫不治。",
+   "sources": [
+    {
+     "title": "中市鋪柏油 壓路機不慎壓倒工人送醫不治",
+     "outlet": "民視新聞",
+     "url": "https://www.ftvnews.com.tw/news/detail/2020C30C03M1"
+    }
+   ],
+   "deaths": 1,
+   "fear": [
+    "D",
+    "S"
+   ]
+  },
+  {
    "id": "s-mrt-axle",
    "title": "中捷綠線試營運第 6 天軸心斷裂 停駛 127 天",
    "date": "2020-11-21",
@@ -1068,6 +1240,44 @@
    ]
   },
   {
+   "id": "s-h20201005a",
+   "title": "豐原老農小腿遭耕耘機捲入身亡",
+   "date": "2020-10-05",
+   "place": "豐原",
+   "summary": "豐原一名老農操作耕耘機時小腿遭捲入，傷重不治。",
+   "sources": [
+    {
+     "title": "小腿遭耕耘機捲入 豐原老農斷肢慘死",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/3312003"
+    }
+   ],
+   "deaths": 1,
+   "fear": [
+    "D",
+    "S"
+   ]
+  },
+  {
+   "id": "s-h20201005b",
+   "title": "水電工換燈管觸電 送醫不治",
+   "date": "2020-10-05",
+   "place": "台中",
+   "summary": "一名水電工在豪宅更換燈管時觸電倒地，送醫不治。",
+   "sources": [
+    {
+     "title": "中市驚傳換燈管被電昏 水電工送醫不治",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/3312049"
+    }
+   ],
+   "deaths": 1,
+   "fear": [
+    "D",
+    "S"
+   ]
+  },
+  {
    "id": "s-h20200819a",
    "title": "台中吊車壓死2歲女童！一查相關牌照竟「全掛0」 通行證未申請就開上路",
    "date": "2020-08-19",
@@ -1083,6 +1293,25 @@
      "title": "台中2歲女童慘死輪下！肇事吊車竟相關證照「攏嘸」就上路",
      "outlet": "三立新聞網",
      "url": "https://www.setn.com/news/800134"
+    }
+   ],
+   "deaths": 1,
+   "fear": [
+    "D",
+    "S"
+   ]
+  },
+  {
+   "id": "s-h20200721a",
+   "title": "西屯混凝土車翻落工地 受困司機不治",
+   "date": "2020-07-21",
+   "place": "西屯",
+   "summary": "西屯一處工地，混凝土車翻落，受困司機救出後不治。",
+   "sources": [
+    {
+     "title": "混凝土車墜工地扭曲變形台中西屯受困司機不治- 社會",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/3235324"
     }
    ],
    "deaths": 1,
@@ -1117,6 +1346,30 @@
      "title": "台中父子修電梯！他「被活活電死」兒目睹心碎…24歲負責人下場曝",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20210310/1935259.htm"
+    }
+   ],
+   "deaths": 1,
+   "fear": [
+    "D",
+    "S"
+   ]
+  },
+  {
+   "id": "s-h20200425a",
+   "title": "梨山果農搭單軌車上山 車體斷裂摔落身亡",
+   "date": "2020-04-25",
+   "place": "和平",
+   "summary": "和平區梨山一名果農搭乘農用單軌車上山工作，車體斷裂摔落身亡。",
+   "sources": [
+    {
+     "title": "搭單軌車上山工作 梨山農民摔落果園身亡",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/3145845"
+    },
+    {
+     "title": "梨山「水蜜桃阿公」上山栽種　單軌車斷兩半！摔飛死亡",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20200425/1700255.htm"
     }
    ],
    "deaths": 1,
@@ -1220,6 +1473,25 @@
      "title": "老農捲入耕耘機亡...妻崩潰痛哭 中市府：若投保農職災有30月津貼",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20190725/1498125.htm"
+    }
+   ],
+   "deaths": 1,
+   "fear": [
+    "D",
+    "S"
+   ]
+  },
+  {
+   "id": "s-h20190609a",
+   "title": "太平工地工人遭挖土機挖斗重擊 送醫不治",
+   "date": "2019-06-09",
+   "place": "太平",
+   "summary": "太平一處工地，一名工人疑遭挖土機挖斗重擊，送醫不治。",
+   "sources": [
+    {
+     "title": "台中太平工安意外 工人疑被挖土機挖斗重擊 送醫不治",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/2816739"
     }
    ],
    "deaths": 1,

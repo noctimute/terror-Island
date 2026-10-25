@@ -1213,6 +1213,96 @@
    "deaths": 1
   },
   {
+   "id": "fire-h20200919a",
+   "title": "龍井東海商圈民宅氣爆 4死1傷",
+   "date": "2020-09-19",
+   "place": "龍井",
+   "summary": "龍井新興路一棟民宅氣爆起火，波及對巷6戶，造成4人死亡、1人受傷，其中一家三口罹難；檢方查出是屋主人為釀禍。",
+   "sources": [
+    {
+     "title": "快訊／東海氣爆奪4命！樓梯「找到打火機」　地下室發現第4瓦斯桶",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20200919/1813105.htm"
+    },
+    {
+     "title": "東海氣爆奪4命...遺體旁有打開的瓦斯桶！檢察官：不排除人為因素",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20200919/1813002.htm"
+    },
+    {
+     "title": "東海氣爆奪4命！盧秀燕火速抵現場　發慰問金、助家屬安頓住宿",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20200919/1812781.htm"
+    },
+    {
+     "title": "東海氣爆奪4命！老房東兒站焦黑廢墟前招魂…痛喊「爸爸」1次允杯",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20200919/1812992.htm"
+    },
+    {
+     "title": "東海氣爆奪4命！4房客重回現場…驚見「廚房冒煙」嚇壞喊：快下來",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20200920/1813268.htm"
+    },
+    {
+     "title": "東海氣爆釀4死...1家3口慘死火海！鄰居曝：聽到母子大喊「救命」",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20200919/1812922.htm"
+    },
+    {
+     "title": "東海氣爆釀4死...姊弟劫後餘生！媽「南部趕上來」哭癱在女兒懷裡",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20200919/1812661.htm"
+    },
+    {
+     "title": "東海氣爆釀4死...房客逃生「哭紅眼」淚曝：房東阿嬤讓我看見正義",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20200919/1812689.htm"
+    },
+    {
+     "title": "影／東海氣爆釀4死若屬人為　法界坦言：被害家屬恐求償無門",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20200920/1813293.htm"
+    },
+    {
+     "title": "快訊／東海商圈氣爆4死！火球衝對巷6屋燃燒　一宅尋獲3遺體",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20200919/1812606.htm"
+    },
+    {
+     "title": "快訊／東海商圈氣爆「一家三口喪命」　火球噬屋！兩側燃燒4死1傷",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20200919/1812622.htm"
+    },
+    {
+     "title": "東海商圈氣爆4死1傷！　火球燒毀雙側6屋「謝謝房東阿嬤救了我」",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20200919/1812613.htm"
+    },
+    {
+     "title": "東海商圈氣爆瞬間曝光...火勢猛烈炸開釀4死！6戶遭延燒慘淪廢墟",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20200919/1812828.htm"
+    },
+    {
+     "title": "快訊／東海商圈氣爆釀4死原因出爐！3瓦斯桶全打開　研判人為引爆",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20201015/1832158.htm"
+    },
+    {
+     "title": "失業廚師向前妻討500萬遭拒　買5桶瓦斯...東海氣爆4死1傷真相曝",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20201222/1881820.htm"
+    },
+    {
+     "title": "東海氣爆奪走兒孫媳3命！阿嬤見一片焦黑癱軟流淚：只能幫忙念經了",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20200919/1812748.htm"
+    }
+   ],
+   "deaths": 4
+  },
+  {
    "id": "fire-h20200701a",
    "title": "台中第9公墓旁停車場「火燒車」！民眾聽「轟」一聲巨響嚇傻 1男燒成焦屍",
    "date": "2020-07-01",
@@ -1388,6 +1478,21 @@
      "title": "快訊／台中「轎車起火」燒成廢鐵！火舌猛吞 1民眾車廂內燒成焦屍",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20200120/1629835.htm"
+    }
+   ],
+   "deaths": 1
+  },
+  {
+   "id": "fire-h20191228a",
+   "title": "神岡透天厝大火 老翁逃生不及身亡",
+   "date": "2019-12-28",
+   "place": "神岡",
+   "summary": "神岡一棟透天厝發生火警，住在2樓的老翁逃生不及身亡。",
+   "sources": [
+    {
+     "title": "台中神岡透天厝大火 老翁住2樓逃生不及被燒死",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/3023330"
     }
    ],
    "deaths": 1

@@ -1635,6 +1635,36 @@
    "deaths": 1
   },
   {
+   "id": "float-h20230605a",
+   "title": "大安海濱戲水 少年溺斃",
+   "date": "2023-06-05",
+   "place": "大安",
+   "summary": "大安海濱一名少年戲水溺斃，遺體尋獲。",
+   "sources": [
+    {
+     "title": "找到了！台中大安海濱戲水淪波臣 王姓少年溺斃",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4323446"
+    }
+   ],
+   "deaths": 1
+  },
+  {
+   "id": "float-h20230321a",
+   "title": "新社大甲溪釣客溺水不治",
+   "date": "2023-03-21",
+   "place": "新社",
+   "summary": "新社大甲溪畔一名釣客溺水，送醫不治。",
+   "sources": [
+    {
+     "title": "台中大甲溪驚傳54歲釣客落水 緊急送醫仍不治",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20230321004655-260402"
+    }
+   ],
+   "deaths": 1
+  },
+  {
    "id": "float-h20230308a",
    "title": "離奇！台中港離岸風電風機水上基座驚見男屍　身分不明",
    "date": "2023-03-08",
@@ -1780,6 +1810,56 @@
    "deaths": 1
   },
   {
+   "id": "float-h20221104a",
+   "title": "台中公園日月湖女子漂浮湖面 送醫不治",
+   "date": "2022-11-04",
+   "place": "北區",
+   "summary": "台中公園日月湖發現一名女子漂浮湖面，救起後送醫不治。",
+   "sources": [
+    {
+     "title": "台中公園日月湖驚見女子漂浮水面 救起無呼吸心跳送醫不治",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20221104004350-260402"
+    }
+   ],
+   "deaths": 1
+  },
+  {
+   "id": "float-h20221003a",
+   "title": "台中港北堤釣客落海 送醫不治",
+   "date": "2022-10-03",
+   "place": "梧棲",
+   "summary": "台中港北防波堤一名釣客失足落海，救起後送醫不治。",
+   "sources": [
+    {
+     "title": "20個月4起釣客落海 台中港今添一起送醫不治",
+     "outlet": "中華日報",
+     "url": "https://www.cdns.com.tw/articles/669601"
+    },
+    {
+     "title": "台中港北堤釣客甩竿連自己也甩出去 落海送醫不治",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4077104"
+    }
+   ],
+   "deaths": 1
+  },
+  {
+   "id": "float-h20220920a",
+   "title": "失聯婦人陳屍龍井灌溉大排",
+   "date": "2022-09-20",
+   "place": "龍井",
+   "summary": "一名久病婦人失聯，隔天被發現陳屍龍井灌溉大排。",
+   "sources": [
+    {
+     "title": "久病婦人昨失聯 今被發現陳屍台中龍井灌溉大排",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/4064397"
+    }
+   ],
+   "deaths": 1
+  },
+  {
    "id": "float-h20220907a",
    "title": "台中公園日月湖驚見女浮屍「腳未穿鞋」 泡水逾2天臉部變形難辨",
    "date": "2022-09-07",
@@ -1915,6 +1995,21 @@
    "deaths": 1
   },
   {
+   "id": "float-h20220418a",
+   "title": "太平台灣潭婦人溺水不治",
+   "date": "2022-04-18",
+   "place": "太平",
+   "summary": "太平台灣潭一名婦人溺水，送醫不治。",
+   "sources": [
+    {
+     "title": "台中太平1婦人「台灣潭」溺水送醫急救不治- 社會",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/3896958"
+    }
+   ],
+   "deaths": 1
+  },
+  {
    "id": "float-h20220221a",
    "title": "台中港引水人落海不治　妻嘆「遇到了沒辦法」：他已經很小心了",
    "date": "2022-02-21",
@@ -1985,6 +2080,36 @@
      "title": "台中男揚言跳橋！隔日尋獲冰冷遺體",
      "outlet": "Yahoo 新聞",
      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E7%94%B7%E6%8F%9A%E8%A8%80%E8%B7%B3%E6%A9%8B-%E9%9A%94%E6%97%A5%E5%B0%8B%E7%8D%B2%E5%86%B0%E5%86%B7%E9%81%BA%E9%AB%94-094602917.html"
+    }
+   ],
+   "deaths": 1
+  },
+  {
+   "id": "float-h20211003a",
+   "title": "外埔大安溪堤防戲水 高中生溺水不治",
+   "date": "2021-10-03",
+   "place": "外埔",
+   "summary": "6名高中生到外埔石頭公園大安溪南岸戲水，一名學生溺水不治。",
+   "sources": [
+    {
+     "title": "台中6學生相約溪邊戲水16歲男高中生溺水不治| 社會",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202110030185.aspx"
+    }
+   ],
+   "deaths": 1
+  },
+  {
+   "id": "float-h20210817a",
+   "title": "梧棲漁港婦人溺斃",
+   "date": "2021-08-17",
+   "place": "梧棲",
+   "summary": "梧棲漁港一名7旬婦人落水溺斃。",
+   "sources": [
+    {
+     "title": "梧棲漁港農曆七月傳意外 7旬婦溺斃",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/3641648"
     }
    ],
    "deaths": 1
@@ -2630,6 +2755,21 @@
    "deaths": 1
   },
   {
+   "id": "float-h20200616b",
+   "title": "頭汴坑溪景觀橋下發現男性浮屍",
+   "date": "2020-06-16",
+   "place": "太平",
+   "summary": "太平頭汴坑溪自行車道景觀橋下水塘發現一名男子遺體，警方初步排除他殺。",
+   "sources": [
+    {
+     "title": "台中太平頭汴坑溪驚見浮屍 排除他殺嫌疑",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20200616005378-260402"
+    }
+   ],
+   "deaths": 1
+  },
+  {
    "id": "float-h20200420a",
    "title": "台中婦早上才要求參觀發電廠　中午被發現溺斃在水閘門",
    "date": "2020-04-20",
@@ -2830,6 +2970,21 @@
      "title": "梧棲漁港驚見男浮屍 相驗查死因 | 中華日報|中華新聞雲",
      "outlet": "中華日報",
      "url": "https://www.cdns.com.tw/articles/14092"
+    }
+   ],
+   "deaths": 1
+  },
+  {
+   "id": "float-h20190903a",
+   "title": "埤豐橋下溺水 失蹤男子遺體尋獲",
+   "date": "2019-09-03",
+   "place": "豐原",
+   "summary": "大甲溪埤豐橋下一名男子落水失蹤，遺體尋獲。",
+   "sources": [
+    {
+     "title": "台中埤豐橋下溺水！友目睹他落水失蹤22歲男遺體尋獲| 社會",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/596532"
     }
    ],
    "deaths": 1
