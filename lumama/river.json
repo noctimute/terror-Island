@@ -7,91 +7,57 @@
    "title": "「一所大學守護一條河」死魚仍頻傳？ 中市府：通報案少了",
    "date": "2026-09-01",
    "place": "台中",
-   "summary": "台中河川、排水遭污染。",
+   "summary": "「一所大學守護一條河」計畫推行後，河川死魚仍頻傳，市府回應通報案件已減少。",
    "sources": [
     {
      "title": "「一所大學守護一條河」死魚仍頻傳？ 中市府：通報案少了",
      "outlet": "聯合新聞網",
      "url": "https://udn.com/news/story/7325/9727394"
     }
-   ]
-  },
-  {
-   "id": "r-i20260510a",
-   "title": "排水溝變藍？台中清水南社路疑水污染 環保局查看未發現",
-   "date": "2026-05-10",
-   "place": "清水",
-   "summary": "清水河川、排水遭污染。",
-   "sources": [
-    {
-     "title": "排水溝變藍？台中清水南社路疑水污染 環保局查看未發現",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/life/breakingnews/5431791"
-    }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "r-i20260429a",
    "title": "台中近百噸廚餘無處去「當垃圾燒」、偷倒路邊水溝挨轟　環保局回應",
    "date": "2026-04-29",
    "place": "台中",
-   "summary": "台中河川、排水遭污染。",
+   "summary": "近百噸廚餘無處去化被當垃圾焚燒，還有廚餘被偷倒進路邊水溝，環保局出面回應。",
    "sources": [
     {
      "title": "台中近百噸廚餘無處去「當垃圾燒」、偷倒路邊水溝挨轟　環保局回應",
      "outlet": "三立新聞網",
      "url": "https://www.setn.com/news/1829658"
     }
-   ]
-  },
-  {
-   "id": "r-i20260427a",
-   "title": "廢土黑鏈揭密／濁水溪驚爆世紀之毒戴奧辛污染　中檢首創資料庫揪出12縣市廢土黑鏈",
-   "date": "2026-04-27",
-   "place": "台中",
-   "summary": "台中河川、排水遭污染。",
-   "sources": [
-    {
-     "title": "廢土黑鏈揭密／濁水溪驚爆世紀之毒戴奧辛污染　中檢首創資料庫揪出12縣市廢土黑鏈",
-     "outlet": "鏡週刊",
-     "url": "https://www.mirrormedia.mg/story/20260426inv002"
-    }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "r-i20260421a",
    "title": "台中垃圾車污水排入水溝 環保局：個人行為從嚴處分",
    "date": "2026-04-21",
    "place": "台中",
-   "summary": "台中河川、排水遭污染。",
+   "summary": "垃圾車被拍到把污水、餿水排進水溝，環保局稱屬個人行為、將從嚴處分。",
    "sources": [
     {
      "title": "台中垃圾車污水排入水溝 環保局：個人行為從嚴處分",
      "outlet": "公視新聞網",
      "url": "https://news.pts.org.tw/article/804668"
-    }
-   ]
-  },
-  {
-   "id": "r-i20260421b",
-   "title": "清潔隊員偷倒汙水餿水入水溝 台中綠營議員抨擊市府長期在垃圾與廚餘去化上失能",
-   "date": "2026-04-21",
-   "place": "台中",
-   "summary": "台中河川、排水遭污染。",
-   "sources": [
+    },
     {
      "title": "清潔隊員偷倒汙水餿水入水溝 台中綠營議員抨擊市府長期在垃圾與廚餘去化上失能",
      "outlet": "taiwanreports.com",
      "url": "https://taiwanreports.com/archives/981082"
     }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "r-i20260421c",
    "title": "才2度挨罰！台中逢甲建案又狂排泥漿污染潮洋溪 市府勒令停工重罰",
    "date": "2026-04-21",
    "place": "台中",
-   "summary": "台中河川、排水遭污染。",
+   "summary": "逢甲一處建案第 3 度被抓到排放泥漿污染潮洋溪，市府勒令停工並重罰。",
    "sources": [
     {
      "title": "建商排泥水污染潮洋溪 中市府勒令工地停工、依法裁罰",
@@ -103,14 +69,15 @@
      "outlet": "知新聞",
      "url": "https://www.knews.com.tw/news/63D41CD877A013D57DE4B26336B75E81"
     }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "r-i20260210a",
    "title": "溪水變藍色！豐原軟埤仔溪被偷排廢水 清潔劑工廠沖洗汙水亂排",
    "date": "2026-02-10",
    "place": "豐原",
-   "summary": "豐原河川、排水遭污染。",
+   "summary": "豐原軟埤仔溪溪水變藍，查出是清潔劑工廠沖洗後的廢水亂排。",
    "sources": [
     {
      "title": "溪水染藍！台中葫蘆墩公園軟埤仔溪 慘遭污染",
@@ -122,21 +89,23 @@
      "outlet": "聯合新聞網",
      "url": "https://udn.com/news/story/7325/9321788"
     }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "r-i20251118a",
    "title": "梧棲大排爆上千死魚惡臭四溢 居民促查禍源",
    "date": "2025-11-18",
    "place": "台中",
-   "summary": "台中河川、排水遭污染。",
+   "summary": "梧棲大排出現上千條死魚、惡臭四溢，居民要求追查污染源。",
    "sources": [
     {
      "title": "梧棲大排爆上千死魚惡臭四溢 居民促查禍源",
      "outlet": "Yahoo 新聞",
      "url": "https://tw.news.yahoo.com/%E6%A2%A7%E6%A3%B2%E5%A4%A7%E6%8E%92%E7%88%86%E4%B8%8A%E5%8D%83%E6%AD%BB%E9%AD%9A%E6%83%A1%E8%87%AD%E5%9B%9B%E6%BA%A2-%E5%B1%85%E6%B0%91%E4%BF%83%E6%9F%A5%E7%A6%8D%E6%BA%90-104926142.html"
     }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "r-stink",
@@ -157,7 +126,7 @@
    "title": "台中2環保公司涉偷排水肥油汙 數量逾1千公噸遭檢起訴",
    "date": "2025-08-22",
    "place": "台中",
-   "summary": "台中河川、排水遭污染。",
+   "summary": "2 家環保公司涉嫌偷排水肥與油污逾千公噸，遭檢方起訴。",
    "sources": [
     {
      "title": "台中2環保公司涉偷排水肥油汙 數量逾1千公噸遭檢起訴",
@@ -169,7 +138,8 @@
      "outlet": "NOWnews",
      "url": "https://www.nownews.com/news/6722480"
     }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "r-yellow",
@@ -204,63 +174,67 @@
    "title": "扯！台中驚傳「粉紅色廢水」排麻園頭溪 網酸：有草莓牛奶可喝？",
    "date": "2025-08-05",
    "place": "台中",
-   "summary": "台中河川、排水遭污染。",
+   "summary": "麻園頭溪被排入粉紅色廢水。",
    "sources": [
     {
      "title": "扯！台中驚傳「粉紅色廢水」排麻園頭溪 網酸：有草莓牛奶可喝？",
      "outlet": "Yahoo 新聞",
      "url": "https://tw.news.yahoo.com/%E6%89%AF-%E5%8F%B0%E4%B8%AD%E9%A9%9A%E5%82%B3-%E7%B2%89%E7%B4%85%E8%89%B2%E5%BB%A2%E6%B0%B4-%E6%8E%92%E9%BA%BB%E5%9C%92%E9%A0%AD%E6%BA%AA-%E7%B6%B2%E9%85%B8-074151114.html"
     }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "r-i20250508a",
    "title": "台中灌溉溝渠水變黑 環局初判污染源為汽修廠",
    "date": "2025-05-08",
    "place": "台中",
-   "summary": "台中河川、排水遭污染。",
+   "summary": "一處灌溉溝渠水色變黑，環保局初判污染源是汽車修理廠。",
    "sources": [
     {
      "title": "台中灌溉溝渠水變黑 環局初判污染源為汽修廠",
      "outlet": "公視新聞網",
      "url": "https://news.pts.org.tw/article/750242"
     }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "r-i20250507a",
    "title": "議員稱台中水污染稽查次數六都倒數第二 南屯灌溉渠屢遭偷排",
    "date": "2025-05-07",
    "place": "南屯",
-   "summary": "南屯河川、排水遭污染。",
+   "summary": "議員指出台中水污染稽查次數在六都排名倒數第二，南屯灌溉渠屢遭偷排。",
    "sources": [
     {
      "title": "議員稱台中水污染稽查次數六都倒數第二 南屯灌溉渠屢遭偷排",
      "outlet": "自由時報",
      "url": "https://news.ltn.com.tw/news/life/breakingnews/5035106"
     }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "r-i20250109a",
    "title": "台中「死魚好發河段」有14處 魚群暴斃原因曝",
    "date": "2025-01-09",
    "place": "台中",
-   "summary": "台中河川、排水遭污染。",
+   "summary": "環保局統計台中有 14 處河段容易發生死魚，並說明魚群暴斃的原因。",
    "sources": [
     {
      "title": "台中「死魚好發河段」有14處 魚群暴斃原因曝",
      "outlet": "自由時報",
      "url": "https://news.ltn.com.tw/news/life/breakingnews/4918803"
     }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "r-i20241201a",
    "title": "台中牛角坑溝溪水變乳白色 疑工廠偷排廢水、環保局追查",
    "date": "2024-12-01",
    "place": "大里",
-   "summary": "大里河川、排水遭污染。",
+   "summary": "太平工業區旁的牛角坑溝溪水變成乳白色，環保局追查後查獲一家粉體塗裝廠涉嫌偷排，業者稱當時沒人上班。",
    "sources": [
     {
      "title": "台中牛角坑溝水變「牛奶」！疑為業者偷排汙水　環保局派員稽查",
@@ -276,36 +250,19 @@
      "title": "台中大里排水溝遭染紅 民眾疑工廠偷排盼重罰",
      "outlet": "中華日報",
      "url": "https://www.cdns.com.tw/articles/1339964"
-    }
-   ]
-  },
-  {
-   "id": "r-i20241201b",
-   "title": "台中太平工業區旁大排變「牛奶溝」 粉體塗裝廠涉偷排",
-   "date": "2024-12-01",
-   "place": "台中",
-   "summary": "台中河川、排水遭污染。",
-   "sources": [
+    },
     {
      "title": "台中太平工業區旁大排變「牛奶溝」 粉體塗裝廠涉偷排",
      "outlet": "epochtimes.com",
      "url": "https://www.epochtimes.com/b5/24/12/1/n14382311.htm"
-    }
-   ]
-  },
-  {
-   "id": "r-i20241201c",
-   "title": "台中太平排水溝遭汙染 逮1塗裝工廠 業者稱「沒人上班」",
-   "date": "2024-12-01",
-   "place": "太平",
-   "summary": "太平河川、排水遭污染。",
-   "sources": [
+    },
     {
      "title": "台中太平排水溝遭汙染 逮1塗裝工廠 業者稱「沒人上班」",
      "outlet": "ctee.com.tw",
      "url": "https://www.ctee.com.tw/news/20241201700554-431401"
     }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "r-xmas",
@@ -322,39 +279,26 @@
    ]
   },
   {
-   "id": "r-i20240811a",
-   "title": "台中首創「哨兵魚」計畫 魚籠飼養吳郭魚監測河川汙染",
-   "date": "2024-08-11",
-   "place": "台中",
-   "summary": "台中河川、排水遭污染。",
-   "sources": [
-    {
-     "title": "台中首創「哨兵魚」計畫 魚籠飼養吳郭魚監測河川汙染",
-     "outlet": "公視新聞網",
-     "url": "https://news.pts.org.tw/article/709389"
-    }
-   ]
-  },
-  {
    "id": "r-i20240803a",
    "title": "台中大里溪近400隻死魚日曬腐臭 環保局急清、救受困活魚",
    "date": "2024-08-03",
    "place": "台中",
-   "summary": "台中河川、排水遭污染。",
+   "summary": "大里溪近 400 條死魚曝曬腐臭，環保局緊急清理並救出受困的活魚。",
    "sources": [
     {
      "title": "台中大里溪近400隻死魚日曬腐臭 環保局急清、救受困活魚",
      "outlet": "自由時報",
      "url": "https://news.ltn.com.tw/news/Taichung/breakingnews/4757545"
     }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "r-i20240528a",
    "title": "廢水毒害台中大里溪！重金屬鉻超標15倍　2業者爽賺1.8億要沒收",
    "date": "2024-05-28",
    "place": "台中",
-   "summary": "台中河川、排水遭污染。",
+   "summary": "2 家業者涉嫌將含重金屬鉻、超標 15 倍的廢水排入大里溪，不法獲利約 1.8 億元將被沒收。",
    "sources": [
     {
      "title": "廢水毒害台中大里溪！重金屬鉻超標15倍　2業者爽賺1.8億要沒收",
@@ -366,28 +310,30 @@
      "outlet": "TVBS",
      "url": "https://news.tvbs.com.tw/local/2500046"
     }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "r-i20240327a",
    "title": "台中清水大排河水染紅鄰近溝渠遭棄置紅色水性漆",
    "date": "2024-03-27",
    "place": "台中",
-   "summary": "台中河川、排水遭污染。",
+   "summary": "清水大排旁的溝渠遭棄置紅色水性漆，河水被染紅。",
    "sources": [
     {
      "title": "台中清水大排河水染紅鄰近溝渠遭棄置紅色水性漆",
      "outlet": "中央社",
      "url": "https://www.cna.com.tw/news/aloc/202403270368.aspx"
     }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "r-i20240325a",
    "title": "工廠偷排廢水頭汴坑溪大量死魚 中市環保局科技監測捍衛環境",
    "date": "2024-03-25",
    "place": "台中",
-   "summary": "台中河川、排水遭污染。",
+   "summary": "工廠偷排廢水導致頭汴坑溪大量死魚，環保局以科技監測追查。",
    "sources": [
     {
      "title": "台中頭汴溪大量魚隻暴斃！疑工廠偷排廢水釀禍　環保局緊急採驗",
@@ -434,14 +380,15 @@
      "outlet": "taichung.gov.tw",
      "url": "https://www.taichung.gov.tw/8868/8872/9962/2644683"
     }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "r-i20240320a",
    "title": "台中麻園頭溪滿布魚屍 水利局抽水馬達故障污水溢流入溪",
    "date": "2024-03-20",
    "place": "北屯",
-   "summary": "北屯河川、排水遭污染。",
+   "summary": "麻園頭溪滿布魚屍，原因是水利局的抽水馬達故障，污水溢流入溪。",
    "sources": [
     {
      "title": "麻園頭溪魚群暴斃！北屯段魚屍遍布 凶手抓到了",
@@ -453,75 +400,60 @@
      "outlet": "公視新聞網",
      "url": "https://news.pts.org.tw/article/686481"
     }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "r-i20240207a",
    "title": "抓到了！台中霧峰北溝溪染成粉紅色 原來是亂倒油漆廢水",
    "date": "2024-02-07",
    "place": "霧峰",
-   "summary": "霧峰河川、排水遭污染。",
+   "summary": "霧峰北溝溪被染成粉紅色，查出是有人亂倒油漆廢水。",
    "sources": [
     {
      "title": "抓到了！台中霧峰北溝溪染成粉紅色 原來是亂倒油漆廢水",
      "outlet": "自由時報",
      "url": "https://news.ltn.com.tw/news/life/breakingnews/4575198"
     }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "r-i20231130a",
    "title": "中市河川「魚」不能吃　議員：污水下水道未普及",
    "date": "2023-11-30",
    "place": "台中",
-   "summary": "台中河川、排水遭污染。",
+   "summary": "議員指出台中污水下水道普及率不足，河川裡的魚不能吃。",
    "sources": [
     {
      "title": "中市河川「魚」不能吃　議員：污水下水道未普及",
      "outlet": "NOWnews",
      "url": "https://www.nownews.com/news/6312241"
     }
-   ]
-  },
-  {
-   "id": "r-i20231104a",
-   "title": "台中河川死魚事件「這月份」最常發生 環保局攜手逢甲大學揭密",
-   "date": "2023-11-04",
-   "place": "台中",
-   "summary": "台中河川、排水遭污染。",
-   "sources": [
-    {
-     "title": "中市環保局與逢甲大學合作 探究河川死魚及早防範",
-     "outlet": "taichung.gov.tw",
-     "url": "https://www.taichung.gov.tw/8868/8872/9962/2492689"
-    },
-    {
-     "title": "台中河川死魚事件「這月份」最常發生 環保局攜手逢甲大學揭密",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/life/breakingnews/4479847"
-    }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "r-i20230726a",
    "title": "烏日大排漂浮「惡臭奶茶」！無良商偷倒強酸廢油A近億　7人收押",
    "date": "2023-07-26",
    "place": "台中",
-   "summary": "台中河川、排水遭污染。",
+   "summary": "烏日大排漂浮惡臭的「奶茶色」污水，不肖業者涉嫌偷倒強酸與廢油、獲利近億元，7 人遭收押。",
    "sources": [
     {
      "title": "烏日大排漂浮「惡臭奶茶」！無良商偷倒強酸廢油A近億　7人收押",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20230726/2547666.htm"
     }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "r-i20230710a",
    "title": "台中太平新高大排魚群暴斃 清出500公斤死魚",
    "date": "2023-07-10",
    "place": "太平",
-   "summary": "太平河川、排水遭污染。",
+   "summary": "太平新高大排魚群暴斃，清出約 500 公斤死魚。",
    "sources": [
     {
      "title": "台中太平新高大排魚群暴斃 清出500公斤死魚",
@@ -533,140 +465,120 @@
      "outlet": "自由時報",
      "url": "https://news.ltn.com.tw/news/Taichung/paper/1593243"
     }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "r-i20230629a",
    "title": "大里運動公園排水溝變牛奶河　無良建商偷排汙水...最高可罰300萬",
    "date": "2023-06-29",
    "place": "大里",
-   "summary": "大里河川、排水遭污染。",
+   "summary": "大里運動公園旁的排水溝變成「牛奶河」，查出建商偷排污水，最高可罰 300 萬元。",
    "sources": [
     {
      "title": "大里運動公園排水溝變牛奶河　無良建商偷排汙水...最高可罰300萬",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20230629/2529827.htm"
     }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "r-i20230522a",
    "title": "台中大肚王田圳魚屍上千條 民疑偷排有毒廢水",
    "date": "2023-05-22",
    "place": "大肚",
-   "summary": "大肚河川、排水遭污染。",
+   "summary": "大肚王田圳出現上千條死魚，民眾懷疑有人偷排有毒廢水。",
    "sources": [
     {
      "title": "台中大肚王田圳魚屍上千條 民疑偷排有毒廢水",
      "outlet": "自由時報",
      "url": "https://news.ltn.com.tw/news/life/breakingnews/4309189"
     }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "r-i20230521a",
    "title": "梧棲大排又現魚群暴斃散發惡臭 民眾質疑不肖廠商偷排廢",
    "date": "2023-05-21",
    "place": "台中",
-   "summary": "台中河川、排水遭污染。",
+   "summary": "梧棲大排再度出現魚群暴斃、散發惡臭，民眾質疑有廠商偷排廢水。",
    "sources": [
     {
      "title": "梧棲大排又現魚群暴斃散發惡臭 民眾質疑不肖廠商偷排廢",
      "outlet": "中華日報",
      "url": "https://www.cdns.com.tw/articles/803931"
     }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "r-i20230425a",
    "title": "台中大里旱溪廢河道漂死魚 民眾懷疑水質污染",
    "date": "2023-04-25",
    "place": "大里",
-   "summary": "大里河川、排水遭污染。",
+   "summary": "大里旱溪廢河道漂著死魚，民眾懷疑水質遭污染。",
    "sources": [
     {
      "title": "台中大里旱溪廢河道漂死魚 民眾懷疑水質污染",
      "outlet": "自由時報",
      "url": "https://news.ltn.com.tw/news/life/breakingnews/4281449"
     }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "r-i20230412a",
    "title": "都會河川找塑 台中烏溪微塑膠污染研究登國際期刊",
    "date": "2023-04-12",
    "place": "台中",
-   "summary": "台中河川、排水遭污染。",
+   "summary": "研究發現台中烏溪有微塑膠污染，成果登上國際期刊。",
    "sources": [
     {
      "title": "都會河川找塑 台中烏溪微塑膠污染研究登國際期刊",
      "outlet": "e-info.org.tw",
      "url": "https://e-info.org.tw/node/236488"
     }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "r-i20221220a",
    "title": "豐原八寶圳大排溝遭工廠排放污水 中市環保局查獲開罰",
    "date": "2022-12-20",
    "place": "豐原",
-   "summary": "豐原河川、排水遭污染。",
+   "summary": "豐原八寶圳大排遭工廠排放污水，環保局查獲開罰。",
    "sources": [
     {
      "title": "豐原八寶圳大排溝遭工廠排放污水 中市環保局查獲開罰",
      "outlet": "自由時報",
      "url": "https://news.ltn.com.tw/news/Taichung/breakingnews/4160180"
     }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "r-i20221104a",
    "title": "梧棲大排又現魚群暴斃 魚屍綿延散發惡臭民苦不堪言",
    "date": "2022-11-04",
    "place": "台中",
-   "summary": "台中河川、排水遭污染。",
+   "summary": "梧棲大排又出現魚群暴斃，魚屍綿延、惡臭讓居民苦不堪言。",
    "sources": [
     {
      "title": "梧棲大排又現魚群暴斃 魚屍綿延散發惡臭民苦不堪言",
      "outlet": "中華日報",
      "url": "https://www.cdns.com.tw/articles/690400"
     }
-   ]
-  },
-  {
-   "id": "r-i20220704a",
-   "title": "台中綠川、桃園龍潭大池、全台再生水廠的幕後推手工程「永續顧問」Stantec傑明如何透過新思維、新技術，改善台灣的污染環境？",
-   "date": "2022-07-04",
-   "place": "台中",
-   "summary": "台中河川、排水遭污染。",
-   "sources": [
-    {
-     "title": "台中綠川、桃園龍潭大池、全台再生水廠的幕後推手工程「永續顧問」Stantec傑明如何透過新思維、新技術，改善台灣的污染環境？",
-     "outlet": "csr.cw.com.tw",
-     "url": "https://csr.cw.com.tw/article/42625"
-    }
-   ]
-  },
-  {
-   "id": "r-i20220617a",
-   "title": "中市追查東大溪魚群暴斃死因 上游灌溉溝渠斷流多日所致",
-   "date": "2022-06-17",
-   "place": "台中",
-   "summary": "台中河川、排水遭污染。",
-   "sources": [
-    {
-     "title": "中市追查東大溪魚群暴斃死因 上游灌溉溝渠斷流多日所致",
-     "outlet": "taichung.gov.tw",
-     "url": "https://www.taichung.gov.tw/8868/8872/9962/2080058"
-    }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "r-i20220528a",
    "title": "中市梅川遭偷排廢水 環局查獲加油站附設洗車場將罰50萬以上",
    "date": "2022-05-28",
    "place": "台中",
-   "summary": "台中河川、排水遭污染。",
+   "summary": "梅川遭偷排廢水，環保局查出是加油站附設的洗車場，將處 50 萬元以上罰鍰。",
    "sources": [
     {
      "title": "梅川遭排黑濁廢水 中市循線揪違規洗車場重罰逾50萬",
@@ -678,63 +590,68 @@
      "outlet": "自由時報",
      "url": "https://news.ltn.com.tw/news/society/breakingnews/3942138"
     }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "r-i20220124a",
    "title": "河溝水染紅 中市環保局查獲公司大掃除偷倒廢液",
    "date": "2022-01-24",
    "place": "台中",
-   "summary": "台中河川、排水遭污染。",
+   "summary": "河溝水被染紅，環保局查出是一家公司大掃除時偷倒廢液。",
    "sources": [
     {
      "title": "河溝水染紅 中市環保局查獲公司大掃除偷倒廢液",
      "outlet": "台灣好新聞",
      "url": "https://www.taiwanhot.net/news/984769/%E6%B2%B3%E6%BA%9D%E6%B0%B4%E6%9F%93%E7%B4%85+%E4%B8%AD%E5%B8%82%E7%92%B0%E4%BF%9D%E5%B1%80%E6%9F%A5%E7%8D%B2%E5%85%AC%E5%8F%B8%E5%A4%A7%E6%8E%83%E9%99%A4%E5%81%B7%E5%80%92%E5%BB%A2%E6%B6%B2"
     }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "r-i20211123a",
    "title": "沙鹿南勢溪傳污染 民憂半世紀湧泉文化遭毀",
    "date": "2021-11-23",
    "place": "沙鹿",
-   "summary": "沙鹿河川、排水遭污染。",
+   "summary": "沙鹿南勢溪傳出污染，居民擔心半世紀的湧泉文化遭破壞。",
    "sources": [
     {
      "title": "沙鹿南勢溪傳污染 民憂半世紀湧泉文化遭毀",
      "outlet": "epochtimes.com",
      "url": "https://www.epochtimes.com/b5/21/11/23/n13393162.htm"
     }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "r-i20210516a",
    "title": "快乾枯了還排廢水汙染 旱溪豐原段驚變牛奶河",
    "date": "2021-05-16",
    "place": "豐原",
-   "summary": "豐原河川、排水遭污染。",
+   "summary": "旱溪豐原段水量已近乾枯，又遭排放廢水，變成「牛奶河」。",
    "sources": [
     {
      "title": "獨》快乾枯了還排廢水汙染 旱溪豐原段驚變牛奶河",
      "outlet": "中時新聞網",
      "url": "https://www.chinatimes.com/realtimenews/20210516001179-260402"
     }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "r-i20190719a",
    "title": "台中大安海水浴場驗出大腸桿菌超標",
    "date": "2019-07-19",
    "place": "大安",
-   "summary": "大安河川、排水遭污染。",
+   "summary": "大安海水浴場驗出大腸桿菌超標。",
    "sources": [
     {
      "title": "台中大安海水浴場驗出大腸桿菌超標",
      "outlet": "公視新聞網",
      "url": "https://news.pts.org.tw/article/438691"
     }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "r-fish",
@@ -760,42 +677,35 @@
    "title": "驚！中市東區旱溪大量魚群暴斃 3天還沒撈完",
    "date": "2019-06-21",
    "place": "東區",
-   "summary": "東區河川、排水遭污染。",
+   "summary": "東區旱溪出現大量魚群暴斃，3 天還沒撈完。",
    "sources": [
     {
      "title": "驚！中市東區旱溪大量魚群暴斃 3天還沒撈完",
      "outlet": "自由時報",
      "url": "https://news.ltn.com.tw/news/life/breakingnews/2829415"
     }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "r-i20190619a",
    "title": "大里中興大排雨後遭汙染一片橘紅　元凶竟是「甜辣醬」",
    "date": "2019-06-19",
    "place": "大里",
-   "summary": "大里河川、排水遭污染。",
+   "summary": "大里中興大排在雨後被染成一片橘紅，查出是食品廠趁大雨排放甜辣醬廢水。",
    "sources": [
     {
      "title": "大里中興大排雨後遭汙染一片橘紅　元凶竟是「甜辣醬」",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20190619/1470619.htm"
-    }
-   ]
-  },
-  {
-   "id": "r-i20190619b",
-   "title": "抓到了！台中大里食品廠趁大雨排廢水染紅整條水溝",
-   "date": "2019-06-19",
-   "place": "大里",
-   "summary": "大里河川、排水遭污染。",
-   "sources": [
+    },
     {
      "title": "抓到了！台中大里食品廠趁大雨排廢水染紅整條水溝",
      "outlet": "自由時報",
      "url": "https://news.ltn.com.tw/news/life/breakingnews/2826917"
     }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "r-2019",
@@ -816,42 +726,45 @@
    "title": "惠來溪汙染惡臭 中市花6億進行整治",
    "date": "2019-05-12",
    "place": "台中",
-   "summary": "台中河川、排水遭污染。",
+   "summary": "惠來溪長期污染發出惡臭，市府編列約 6 億元整治。",
    "sources": [
     {
      "title": "惠來溪汙染惡臭 中市花6億進行整治",
      "outlet": "公視新聞網",
      "url": "https://news.pts.org.tw/article/431470"
     }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "r-i20190416a",
    "title": "台中龍井大排成牛奶河 民眾懷疑工廠偷排",
    "date": "2019-04-16",
    "place": "台中",
-   "summary": "台中河川、排水遭污染。",
+   "summary": "龍井大排變成「牛奶河」，民眾懷疑有工廠偷排。",
    "sources": [
     {
      "title": "台中龍井大排成牛奶河 民眾懷疑工廠偷排",
      "outlet": "自由時報",
      "url": "https://news.ltn.com.tw/news/life/breakingnews/2761011"
     }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "r-i20190306a",
    "title": "烏日五福溪魚群暴斃 三天撈一噸死魚",
    "date": "2019-03-06",
    "place": "烏日",
-   "summary": "烏日河川、排水遭污染。",
+   "summary": "烏日五福溪魚群暴斃，3 天撈出約一噸死魚。",
    "sources": [
     {
      "title": "烏日五福溪魚群暴斃 三天撈一噸死魚",
      "outlet": "公視新聞網",
      "url": "https://news.pts.org.tw/article/424633"
     }
-   ]
+   ],
+   "fear": []
   }
  ]
 }
