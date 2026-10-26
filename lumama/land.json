@@ -3,63 +3,6 @@
  "updated": "2026-10-24",
  "records": [
   {
-   "id": "l-i20261018a",
-   "title": "化解百年廟地標售危機！ 中市府助霧峰進興宮土地回歸 盧市長贈匾「福進興寧」祈福",
-   "date": "2026-10-18",
-   "place": "霧峰",
-   "summary": "霧峰市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "化解百年廟地標售危機！ 中市府助霧峰進興宮土地回歸 盧市長贈匾「福進興寧」祈福",
-     "outlet": "Life 生活網",
-     "url": "https://life.tw/article/%E5%8C%96%E8%A7%A3%E7%99%BE%E5%B9%B4%E5%BB%9F%E5%9C%B0%E6%A8%99%E5%94%AE%E5%8D%B1%E6%A9%9F-%E4%B8%AD%E5%B8%82%E5%BA%9C%E5%8A%A9%E9%9C%A7%E5%B3%B0%E9%80%B2%E8%88%88%E5%AE%AE%E5%9C%9F%E5%9C%B0%E5%9B%9E%E6%AD%B8-%E7%9B%A7%E5%B8%82%E9%95%B7%E8%B4%88%E5%8C%BE-3184689"
-    },
-    {
-     "title": "百年廟地產權不明險遭標售！　台中市府出手搶救",
-     "outlet": "news.housefun.com.tw",
-     "url": "https://news.housefun.com.tw/news/article/152362490200.html"
-    }
-   ]
-  },
-  {
-   "id": "l-i20261014a",
-   "title": "AI擴產狂潮工業供給告急！台中高鐵旁「明傳產業園區」8883坪工業地公開標售",
-   "date": "2026-10-14",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "搭 AI 供應鏈搶廠潮 近高鐵台中逾8,500坪工業土地11月25日公開標售",
-     "outlet": "聯合新聞網",
-     "url": "https://money.udn.com/money/story/5621/9814818"
-    },
-    {
-     "title": "AI擴產狂潮工業供給告急！台中高鐵旁「明傳產業園區」8883坪工業地公開標售",
-     "outlet": "newstaiwan.net",
-     "url": "https://newstaiwan.net/2026/10/14/488907/"
-    },
-    {
-     "title": "台中高鐵旁「明傳產業園區」8,883坪工業地公開標售",
-     "outlet": "annewsmedia.com",
-     "url": "https://annewsmedia.com/2026/10/14/market-news/22656/"
-    }
-   ]
-  },
-  {
-   "id": "l-i20261001a",
-   "title": "台中捷運有新可能性 盧秀燕透露有日本企業有意合作BOT：要好好思考",
-   "date": "2026-10-01",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "台中捷運有新可能性 盧秀燕透露有日本企業有意合作BOT：要好好思考",
-     "outlet": "聯合新聞網",
-     "url": "https://udn.com/news/story/6656/9787442"
-    }
-   ]
-  },
-  {
    "id": "l-dome",
    "title": "水湳超巨蛋BOT 卸任前簽約引爭議",
    "date": "2026-10",
@@ -98,53 +41,26 @@
    ]
   },
   {
-   "id": "l-i20260915a",
-   "title": "全台好市多買熟食要掃卡！「台中南屯店除外」背後BOT歷史被起底",
-   "date": "2026-09-15",
-   "place": "南屯",
-   "summary": "南屯市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "全台好市多買熟食要掃卡！「台中南屯店除外」背後BOT歷史被起底",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20260915/3237458.htm"
-    }
-   ]
-  },
-  {
    "id": "l-i20260810a",
    "title": "中市府舉債彌平預算短差上百億 綠議員批：盧秀燕賣地收益去哪？",
    "date": "2026-08-10",
    "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
+   "summary": "市府舉債彌補上百億元預算缺口，議員質疑歷年賣地收益用到哪裡。",
    "sources": [
     {
      "title": "中市府舉債彌平預算短差上百億 綠議員批：盧秀燕賣地收益去哪？",
      "outlet": "自由時報",
      "url": "https://news.ltn.com.tw/news/politics/breakingnews/5534818"
     }
-   ]
-  },
-  {
-   "id": "l-i20260630a",
-   "title": "台中最猛重劃區換人了？豐邑、寶輝、亞昕集體押寶 百億建設開始收成",
-   "date": "2026-06-30",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "台中最猛重劃區換人了？豐邑、寶輝、亞昕集體押寶 百億建設開始收成",
-     "outlet": "自由時報",
-     "url": "https://estate.ltn.com.tw/article/28287"
-    }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "l-i20260515a",
    "title": "台中地政局出手！大夫第重劃會解散13年土地爭議終落幕",
    "date": "2026-05-15",
    "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
+   "summary": "大夫第自辦重劃會經地政局處理後解散，持續 13 年的土地爭議落幕。",
    "sources": [
     {
      "title": "台中地政局出手！大夫第重劃會解散13年土地爭議終落幕",
@@ -171,147 +87,70 @@
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20260630/3192315.htm"
     }
-   ]
-  },
-  {
-   "id": "l-i20260312a",
-   "title": "8888吉祥車牌來了！豐原監理站標售小客車、普通重機號牌",
-   "date": "2026-03-12",
-   "place": "豐原",
-   "summary": "豐原市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "8888吉祥車牌來了！豐原監理站標售小客車、普通重機號牌",
-     "outlet": "聯合新聞網",
-     "url": "https://udn.com/news/story/7266/9375058"
-    }
-   ]
-  },
-  {
-   "id": "l-i20260305a",
-   "title": "再下一城！台壽獲「台中超巨蛋BOT」最優申請人　投資金額近600億元",
-   "date": "2026-03-05",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "台中超巨蛋 BOT 中信插旗",
-     "outlet": "聯合新聞網",
-     "url": "https://udn.com/news/story/7241/9359977"
-    },
-    {
-     "title": "6500萬放水流？台中超巨蛋BOT案惹議 中央球場擬拆除變車場",
-     "outlet": "中時新聞網",
-     "url": "https://www.chinatimes.com/realtimenews/20260420002588-260405"
-    },
-    {
-     "title": "台中超巨蛋投標今截止！台灣人壽600億BOT出線機率高",
-     "outlet": "聯合新聞網",
-     "url": "https://udn.com/news/story/7241/9466422"
-    },
-    {
-     "title": "台中超巨蛋BOT開發商出爐？ 確定中信金控台灣人壽投標",
-     "outlet": "聯合新聞網",
-     "url": "https://udn.com/news/story/7241/9467288"
-    },
-    {
-     "title": "再下一城！台壽獲「台中超巨蛋BOT」最優申請人　投資金額近600億元",
-     "outlet": "news.housefun.com.tw",
-     "url": "https://news.housefun.com.tw/news/article/853027485747.html"
-    },
-    {
-     "title": "李灝宇16日現身台中 見證600億超巨蛋BOT簽約",
-     "outlet": "LINE TODAY（轉載）",
-     "url": "https://today.line.me/tw/v3/article/j7popZY"
-    },
-    {
-     "title": "台中超巨蛋BOT案明簽約 旅美強棒李灝宇見證",
-     "outlet": "LINE TODAY（轉載）",
-     "url": "https://today.line.me/tw/v3/article/JPyzgzP"
-    },
-    {
-     "title": "六百億與七十年？從硬體缺口到城市競爭？ 台中超巨蛋背後，台灣BOT模式結構性賭局",
-     "outlet": "PChome 新聞（轉載）",
-     "url": "https://news.pchome.com.tw/society/focus586/20261017/index-79220626643928289002.html"
-    }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "l-i20260226a",
    "title": "自救會抗議自辦市地重劃浮濫 台中市府：依法行政",
    "date": "2026-02-26",
    "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
+   "summary": "自救會抗議自辦市地重劃浮濫，市府回應依法行政。",
    "sources": [
     {
      "title": "自救會抗議自辦市地重劃浮濫 台中市府：依法行政",
      "outlet": "公視新聞網",
      "url": "https://news.pts.org.tw/article/796508"
     }
-   ]
-  },
-  {
-   "id": "l-i20260209a",
-   "title": "怨重劃不公陳情多年無果 台中老翁北捷連燒2廁所",
-   "date": "2026-02-09",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "怨重劃不公陳情多年無果 台中老翁北捷連燒2廁所",
-     "outlet": "聯合新聞網",
-     "url": "https://udn.com/news/story/7315/9317300"
-    }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "l-i20260208a",
    "title": "北捷連續縱火！嫌「請願書內容曝」：拒絕參加台中土地重劃",
    "date": "2026-02-08",
    "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
+   "summary": "一名老翁不滿台中大夫第土地重劃、陳情多年無果，到台北捷運站連續縱火燒公廁；請願書寫著拒絕參加重劃，市府出面回應。",
    "sources": [
     {
      "title": "北捷連續縱火！72歲嫌「請願書內容曝」：拒絕參加台中土地重劃",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20260208/3115483.htm"
-    }
-   ]
-  },
-  {
-   "id": "l-i20260208b",
-   "title": "台中大夫第重劃爭議...老翁到北捷公廁縱火聲稱不滿重劃 台中市府回應",
-   "date": "2026-02-08",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
+    },
+    {
+     "title": "怨重劃不公陳情多年無果 台中老翁北捷連燒2廁所",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7315/9317300"
+    },
     {
      "title": "台中大夫第重劃爭議...老翁到北捷公廁縱火聲稱不滿重劃 台中市府回應",
      "outlet": "聯合新聞網",
      "url": "https://udn.com/news/story/7315/9316991"
     }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "l-i20260115a",
    "title": "台中辰億重劃案爭議未歇　環團籲環差審查暫緩",
    "date": "2026-01-15",
    "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
+   "summary": "辰億自辦重劃案爭議未平，環團呼籲暫緩環差審查。",
    "sources": [
     {
      "title": "台中辰億重劃案爭議未歇　環團籲環差審查暫緩",
      "outlet": "news.housefun.com.tw",
      "url": "https://news.housefun.com.tw/news/article/107677480190.html"
     }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "l-i20260113a",
    "title": "中市黎明幼兒園拒拆 市地重劃纏訟16年未解",
    "date": "2026-01-13",
    "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
+   "summary": "黎明幼兒園拒絕拆遷，市地重劃訴訟纏訟 16 年仍未解決。",
    "sources": [
     {
      "title": "中市黎明幼兒園拒拆 市地重劃纏訟16年未解",
@@ -323,244 +162,120 @@
      "outlet": "公視新聞網",
      "url": "https://news.pts.org.tw/article/792547"
     }
-   ]
-  },
-  {
-   "id": "l-i20251221a",
-   "title": "比中央標準嚴格 中市百坪以上市地改推地上權",
-   "date": "2025-12-21",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "比中央標準嚴格 中市百坪以上市地改推地上權",
-     "outlet": "聯合新聞網",
-     "url": "https://udn.com/news/story/7325/9216419"
-    }
-   ]
-  },
-  {
-   "id": "l-i20251211a",
-   "title": "卡6年終於動了！台中文山焚化廠BOT案簽約 2030年營運",
-   "date": "2025-12-11",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "卡6年終於動了！台中文山焚化廠BOT案簽約 2030年營運",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/life/breakingnews/5275585"
-    }
-   ]
-  },
-  {
-   "id": "l-i20251205a",
-   "title": "房市急凍！台中最「火」重劃區曝光 北部建商南下獵地將推4案",
-   "date": "2025-12-05",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "房市急凍！台中最「火」重劃區曝光 北部建商南下獵地將推4案",
-     "outlet": "聯合新聞網",
-     "url": "https://udn.com/news/story/7241/9183553"
-    }
-   ]
-  },
-  {
-   "id": "l-i20251127a",
-   "title": "台中首座捷運宅「文華高中站」最後3戶標售 投標至12月26日",
-   "date": "2025-11-27",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "台中「文華高中站」捷運宅 第三批公開標售啟動 歡迎各界踴躍投標",
-     "outlet": "風傳媒",
-     "url": "https://new7.storm.mg/article/5446438"
-    },
-    {
-     "title": "台中首座捷運宅「文華高中站」最後3戶標售 投標至12月26日",
-     "outlet": "聯合新聞網",
-     "url": "https://udn.com/news/story/7241/9166373"
-    }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "l-i20251028a",
    "title": "台中水湳經貿段6、8地號設定地上權案「等嘸人」又流標",
    "date": "2025-10-28",
    "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
+   "summary": "水湳經貿園區 2 筆土地設定地上權招標無人投標，再度流標。",
    "sources": [
     {
      "title": "台中水湳經貿段6、8地號設定地上權案「等嘸人」又流標",
      "outlet": "聯合新聞網",
      "url": "https://udn.com/news/story/7241/9100628"
     }
-   ]
-  },
-  {
-   "id": "l-i20250909a",
-   "title": "台中三大開發區土地標售 41億資金入袋 標脫率18%反映市場趨謹慎",
-   "date": "2025-09-09",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "台中市地政局9日配餘地與抵費地標售 得標金額41.42億",
-     "outlet": "ctee.com.tw",
-     "url": "https://www.ctee.com.tw/news/20250909701951-430503"
-    },
-    {
-     "title": "台中標售173筆配餘地及抵費地 標脫率18%",
-     "outlet": "中央社",
-     "url": "https://www.cna.com.tw/news/aloc/202509090239.aspx"
-    }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "l-i20250907a",
    "title": "中市府再大規模標售抵費地 綠議員轟「官方帶頭炒地」地政局澄清全國一致",
    "date": "2025-09-07",
    "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
+   "summary": "市府再度大規模標售抵費地，議員批評是「官方帶頭炒地」，地政局澄清做法與全國一致。",
    "sources": [
     {
      "title": "中市府再大規模標售抵費地 綠議員轟「官方帶頭炒地」地政局澄清全國一致",
      "outlet": "台灣好新聞",
      "url": "https://www.taiwanhot.net/news/1113435/%E4%B8%AD%E5%B8%82%E5%BA%9C%E5%86%8D%E5%A4%A7%E8%A6%8F%E6%A8%A1%E6%A8%99%E5%94%AE%E6%8A%B5%E8%B2%BB%E5%9C%B0+%E7%B6%A0%E8%AD%B0%E5%93%A1%E8%BD%9F%E3%80%8C%E5%AE%98%E6%96%B9%E5%B8%B6%E9%A0%AD%E7%82%92%E5%9C%B0%E3%80%8D%E5%9C%B0%E6%94%BF%E5%B1%80%E6%BE%84%E6%B8%85%E5%85%A8%E5%9C%8B%E4%B8%80%E8%87%B4"
     }
-   ]
-  },
-  {
-   "id": "l-i20250830a",
-   "title": "中市地政局辦理整體開發區土地公開標售 9/9即將開標",
-   "date": "2025-08-30",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "中市地政局辦理整體開發區土地公開標售 9/9即將開標",
-     "outlet": "taichung.gov.tw",
-     "url": "https://www.taichung.gov.tw/8868/8872/9962/3081184"
-    }
-   ]
-  },
-  {
-   "id": "l-i20250827a",
-   "title": "全台房市急凍　台中指標14期重劃區前三季成績單揭曉",
-   "date": "2025-08-27",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "全台房市急凍　台中指標14期重劃區前三季成績單揭曉",
-     "outlet": "news.housefun.com.tw",
-     "url": "https://news.housefun.com.tw/news/article/140787472041.html"
-    }
-   ]
-  },
-  {
-   "id": "l-i20250814a",
-   "title": "「台中市水湳機場原址區段徵收區」配餘地、「台中市第13期大慶市地重劃區」及「台中市第14期美和庄市地重劃區」抵費地公開標售中市地政局歡迎踴躍投標",
-   "date": "2025-08-14",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "「台中市水湳機場原址區段徵收區」配餘地、「台中市第13期大慶市地重劃區」及「台中市第14期美和庄市地重劃區」抵費地公開標售 中市地政局歡迎踴躍投標",
-     "outlet": "taichung.gov.tw",
-     "url": "https://www.taichung.gov.tw/8868/8872/9962/3068101"
-    },
-    {
-     "title": "「台中市水湳機場原址區段徵收區」配餘地、「台中市第13期大慶市地重劃區」及「台中市第14期美和庄市地重劃區」抵費地公開標售中市地政局歡迎踴躍投標",
-     "outlet": "蕃新聞（轉載）",
-     "url": "https://n.yam.com/Article/20250814189038"
-    },
-    {
-     "title": "「臺中市水湳機場原址區段徵收區」配餘地及「臺中市第13期大慶市地重劃區」、「臺中市第14期美和庄市地重劃區」抵費地公開標售 歡迎踴躍投標",
-     "outlet": "focus.586.com.tw",
-     "url": "https://focus.586.com.tw/2025/09/03/p359793/"
-    }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "l-i20250806a",
    "title": "台中黎明重劃案纏訟　民團挺林金連",
    "date": "2025-08-06",
    "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
+   "summary": "黎明重劃案訴訟纏訟，民間團體聲援地主。",
    "sources": [
     {
      "title": "台中黎明重劃案纏訟　民團挺林金連",
      "outlet": "news.housefun.com.tw",
      "url": "https://news.housefun.com.tw/news/article/104931470327.html"
     }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "l-i20250722a",
    "title": "台中單元二重劃區弊案　沒收73億土地被撤　今改判仍沒收土地",
    "date": "2025-07-22",
    "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
+   "summary": "單元二重劃區弊案，原沒收 73 億元土地的判決被撤銷，更審後仍改判沒收土地。",
    "sources": [
     {
      "title": "台中單元二重劃區弊案　沒收73億土地被撤　今改判仍沒收土地",
      "outlet": "news.housefun.com.tw",
      "url": "https://news.housefun.com.tw/news/article/443836469149.html"
     }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "l-i20250702a",
    "title": "台中長春自辦重劃理事長花30萬買兇 「教訓」重劃科長與地政所主任還錄影",
    "date": "2025-07-02",
    "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
+   "summary": "長春自辦重劃會理事長涉嫌花 30 萬元買兇「教訓」市府重劃科長與地政事務所主任，還錄影存證。",
    "sources": [
     {
      "title": "台中長春自辦重劃理事長花30萬買兇 「教訓」重劃科長與地政所主任還錄影",
      "outlet": "自由時報",
      "url": "https://news.ltn.com.tw/news/society/breakingnews/5093743"
     }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "l-i20250628a",
    "title": "慘！台中水湳精華地標售多數沒人要　文商段鑽石地驚現單坪300萬元",
    "date": "2025-06-28",
    "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
+   "summary": "水湳園區精華地標售多數無人投標。",
    "sources": [
     {
      "title": "慘！台中水湳精華地標售多數沒人要　文商段鑽石地驚現單坪300萬元",
      "outlet": "news.housefun.com.tw",
      "url": "https://news.housefun.com.tw/news/article/104998467018.html"
     }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "l-i20250604a",
    "title": "台中市標售土地總額將破千億！綠批傷害人民　藍稱合理投資",
    "date": "2025-06-04",
    "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
+   "summary": "市府標售土地總額將破千億元，綠營議員批評傷害人民，藍營稱是合理投資。",
    "sources": [
     {
      "title": "台中市標售土地總額將破千億！綠批傷害人民　藍稱合理投資",
      "outlet": "news.housefun.com.tw",
      "url": "https://news.housefun.com.tw/news/article/382514464898.html"
     }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "l-i20250604b",
    "title": "台中辰億重劃會無效？自救會要求停審環差 中市府尊重司法審判職權",
    "date": "2025-06-04",
    "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
+   "summary": "自救會主張辰億重劃會無效、要求停止環差審查，市府表示尊重司法審判。",
    "sources": [
     {
      "title": "自救會指台中辰億重劃會無效 中市府：最高法院判決不含本案",
@@ -572,15 +287,21 @@
      "outlet": "中華日報",
      "url": "https://www.cdns.com.tw/articles/1229782"
     }
-   ]
+   ],
+   "fear": []
   },
   {
-   "id": "l-i20250603a",
-   "title": "台中市府售地引藍綠論戰 盧秀燕：依法標售、 償還開發成本",
+   "id": "l-i20250603b",
+   "title": "台中6年賣地衝千億、重大建設卻延宕 議員陳淑華質疑「錢用到哪」",
    "date": "2025-06-03",
    "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
+   "summary": "市府 6 年賣地將近千億元，重大建設卻延宕，議員質疑錢用到哪裡；市長回應是依法標售、償還開發成本。",
    "sources": [
+    {
+     "title": "台中6年賣地衝千億、重大建設卻延宕 議員陳淑華質疑「錢用到哪」",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/politics/breakingnews/5063058"
+    },
     {
      "title": "「配餘地」非「市有地」 盧市長：中市依法標售、償還開發成本",
      "outlet": "taichung.gov.tw",
@@ -591,21 +312,8 @@
      "outlet": "cnews.com.tw",
      "url": "https://cnews.com.tw/237250604a02/"
     }
-   ]
-  },
-  {
-   "id": "l-i20250603b",
-   "title": "台中6年賣地衝千億、重大建設卻延宕 議員陳淑華質疑「錢用到哪」",
-   "date": "2025-06-03",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "台中6年賣地衝千億、重大建設卻延宕 議員陳淑華質疑「錢用到哪」",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/politics/breakingnews/5063058"
-    }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "l-2025",
@@ -642,125 +350,57 @@
    ]
   },
   {
-   "id": "l-i20250526a",
-   "title": "中市府又要賣地 17筆底價近520億",
-   "date": "2025-05-26",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "中市府又要賣地 17筆底價近520億",
-     "outlet": "自由時報",
-     "url": "https://ec.ltn.com.tw/article/paper/1708493"
-    }
-   ]
-  },
-  {
    "id": "l-i20250511a",
    "title": "籌錢蓋捷運藍線　中市府祭520億精華地標售",
    "date": "2025-05-11",
    "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
+   "summary": "市府為籌措捷運藍線經費，推出 17 筆底價合計近 520 億元的精華地標售。",
    "sources": [
     {
      "title": "籌錢蓋捷運藍線　中市府祭520億精華地標售",
      "outlet": "ETtoday",
      "url": "https://house.ettoday.net/news/2957127"
-    }
-   ]
-  },
-  {
-   "id": "l-i20250416a",
-   "title": "台中市府4度標售抵費地 13期掀「獵地大戰」",
-   "date": "2025-04-16",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
+    },
     {
-     "title": "台中市府4度標售抵費地 13期掀「獵地大戰」",
-     "outlet": "ctee.com.tw",
-     "url": "https://www.ctee.com.tw/news/20250416701316-431401"
+     "title": "中市府又要賣地 17筆底價近520億",
+     "outlet": "自由時報",
+     "url": "https://ec.ltn.com.tw/article/paper/1708493"
     }
-   ]
-  },
-  {
-   "id": "l-i20250325a",
-   "title": "台中三大重劃區　靠新古屋漲幅成「蛋黃區」",
-   "date": "2025-03-25",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "台中三大重劃區　靠新古屋漲幅成「蛋黃區」",
-     "outlet": "ETtoday",
-     "url": "https://house.ettoday.net/news/2931231"
-    }
-   ]
-  },
-  {
-   "id": "l-i20250317a",
-   "title": "冠軍企業聚落台中工業區稀有方正土地公開標售- 商情",
-   "date": "2025-03-17",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "冠軍企業聚落台中工業區稀有方正土地公開標售- 商情",
-     "outlet": "ctee.com.tw",
-     "url": "https://www.ctee.com.tw/news/20250317700773-431206"
-    }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "l-i20250225a",
    "title": "「台中最大獵地案」楊姓病逝！詐取60億遭判刑，黎明重劃1.2萬坪土地怎麼處理？",
    "date": "2025-02-25",
    "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
+   "summary": "黎明重劃弊案主嫌楊姓病逝，他被判詐取約 60 億元，1.2 萬坪被沒收的土地如何處理受到關注。",
    "sources": [
     {
      "title": "「台中最大獵地案」楊文欣病逝！詐取60億遭判刑，黎明重劃1.2萬坪土地怎麼處理？",
      "outlet": "風傳媒",
      "url": "https://www.storm.mg/lifestyle/5329680"
     }
-   ]
+   ],
+   "fear": []
   },
   {
-   "id": "l-i20250211a",
-   "title": "台中烏日九德區段徵收創造居民、市府雙贏，打造全台宜居城市新典範",
-   "date": "2025-02-11",
-   "place": "烏日",
-   "summary": "烏日市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "台中烏日九德區段徵收創造居民、市府雙贏，打造全台宜居城市新典範",
-     "outlet": "gvm.com.tw",
-     "url": "https://www.gvm.com.tw/article/118999"
-    },
-    {
-     "title": "烏日九德區段徵收啟動 環中路六段分3階段封閉進行拓寬工程",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/life/breakingnews/5127695"
-    },
-    {
-     "title": "台中烏日九德區段徵收全面啟動　環中路六段3階段封閉日期曝光",
-     "outlet": "news.housefun.com.tw",
-     "url": "https://news.housefun.com.tw/news/article/162798469942.html"
-    },
-    {
-     "title": "臺中烏日九德區段徵收工程ING 打造宜居新典範",
-     "outlet": "Yahoo 新聞",
-     "url": "https://tw.news.yahoo.com/%E8%87%BA%E4%B8%AD%E7%83%8F%E6%97%A5%E4%B9%9D%E5%BE%B7%E5%8D%80%E6%AE%B5%E5%BE%B5%E6%94%B6%E5%B7%A5%E7%A8%8Bing-%E6%89%93%E9%80%A0%E5%AE%9C%E5%B1%85%E6%96%B0%E5%85%B8%E7%AF%84-090033251.html"
-    }
-   ]
-  },
-  {
-   "id": "l-i20250205a",
-   "title": "台中土地標售釋出133筆 水湳經貿園區地王坪價衝311萬",
+   "id": "l-i20250205b",
+   "title": "中市府將標售700餘億元土地 議員質疑盧秀燕「為何急於變賣家產」",
    "date": "2025-02-05",
    "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
+   "summary": "市府將標售 700 餘億元土地，其中水湳經貿園區地王每坪達 311 萬元，議員質疑市長「為何急於變賣家產」。",
    "sources": [
+    {
+     "title": "中市府將標售700餘億元土地 議員質疑盧秀燕「為何急於變賣家產」",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/Taichung/breakingnews/4942577"
+    },
+    {
+     "title": "中市長盧秀燕再標售747億元土地 超越任內前6年總和",
+     "outlet": "自由時報",
+     "url": "https://ec.ltn.com.tw/article/paper/1690261"
+    },
     {
      "title": "台中土地標售釋出133筆 水湳經貿園區地王坪價衝311萬",
      "outlet": "聯合新聞網",
@@ -776,293 +416,38 @@
      "outlet": "自由時報",
      "url": "https://ec.ltn.com.tw/article/paper/1690262"
     }
-   ]
-  },
-  {
-   "id": "l-i20250205b",
-   "title": "中市府將標售700餘億元土地 議員質疑盧秀燕「為何急於變賣家產」",
-   "date": "2025-02-05",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "中市府將標售700餘億元土地 議員質疑盧秀燕「為何急於變賣家產」",
-     "outlet": "自由時報",
-     "url": "https://news.ltn.com.tw/news/Taichung/breakingnews/4942577"
-    },
-    {
-     "title": "中市長盧秀燕再標售747億元土地 超越任內前6年總和",
-     "outlet": "自由時報",
-     "url": "https://ec.ltn.com.tw/article/paper/1690261"
-    }
-   ]
-  },
-  {
-   "id": "l-i20250204a",
-   "title": "中市地政局2/27辦理「台中市整體開發區土地公開標售」 促進土地資源的有效利用",
-   "date": "2025-02-04",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "中市地政局2/27辦理「台中市整體開發區土地公開標售」 促進土地資源的有效利用",
-     "outlet": "taichung.gov.tw",
-     "url": "https://www.taichung.gov.tw/8868/8872/9962/2893784"
-    }
-   ]
-  },
-  {
-   "id": "l-i20250104a",
-   "title": "台中重劃區ＶＳ市中心怎麼選？　兩跡象顯示買盤回歸市中心",
-   "date": "2025-01-04",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "台中重劃區ＶＳ市中心怎麼選？　兩跡象顯示買盤回歸市中心",
-     "outlet": "ETtoday",
-     "url": "https://house.ettoday.net/news/2881260"
-    }
-   ]
-  },
-  {
-   "id": "l-i20250104b",
-   "title": "「隱藏版」首購天堂　台中十期重劃區迎2大利多",
-   "date": "2025-01-04",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "「隱藏版」首購天堂　台中十期重劃區迎2大利多",
-     "outlet": "ETtoday",
-     "url": "https://finance.ettoday.net/news/2885336"
-    }
-   ]
-  },
-  {
-   "id": "l-i20241122a",
-   "title": "台中市地政局土地標售結果出爐 環中段拿下單價、溢價雙冠王",
-   "date": "2024-11-22",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "台中市地政局土地標售結果出爐 環中段拿下單價、溢價雙冠王",
-     "outlet": "cmmedia.com.tw",
-     "url": "https://www.cmmedia.com.tw/home/articles/50727"
-    }
-   ]
-  },
-  {
-   "id": "l-i20241113a",
-   "title": "標售底價上看400億元！　台中抵費地、配餘地一次釋出5萬坪",
-   "date": "2024-11-13",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "標售底價上看400億元！　台中抵費地、配餘地一次釋出5萬坪",
-     "outlet": "ETtoday",
-     "url": "https://house.ettoday.net/news/2854120"
-    }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "l-i20241016a",
    "title": "監院糾正中市自辦市地重劃 市府：爭議案法院審理中",
    "date": "2024-10-16",
    "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
+   "summary": "監察院糾正市府自辦市地重劃的監督，市府回應爭議案件仍在法院審理。",
    "sources": [
     {
      "title": "監院糾正中市自辦市地重劃 市府：爭議案法院審理中",
      "outlet": "自由時報",
      "url": "https://news.ltn.com.tw/news/politics/breakingnews/4832883"
     }
-   ]
-  },
-  {
-   "id": "l-i20240920a",
-   "title": "史上最低！台中13期標售遇打炒房　標脫率半年竟腰斬",
-   "date": "2024-09-20",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "史上最低！台中13期標售遇打炒房　標脫率半年竟腰斬",
-     "outlet": "news.housefun.com.tw",
-     "url": "https://news.housefun.com.tw/news/article/102732438005.html"
-    }
-   ]
-  },
-  {
-   "id": "l-i20240919a",
-   "title": "台中市第13期大慶市地重劃區抵費地標售 促進區域經濟發展",
-   "date": "2024-09-19",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "台中市第13期大慶市地重劃區抵費地標售 促進區域經濟發展",
-     "outlet": "taichung.gov.tw",
-     "url": "https://www.taichung.gov.tw/8868/8872/9962/2757381"
-    },
-    {
-     "title": "台中十三期土地標售，標脫率僅約2成",
-     "outlet": "mygonews.com",
-     "url": "https://www.mygonews.com/news/detail/news_id/216524/%E5%8F%B0%E4%B8%AD%E5%8D%81%E4%B8%89%E6%9C%9F%E5%9C%9F%E5%9C%B0%E6%A8%99%E5%94%AE%EF%BC%8C%E6%A8%99%E8%84%AB%E7%8E%87%E5%83%85%E7%B4%842%E6%88%90"
-    }
-   ]
-  },
-  {
-   "id": "l-i20240919b",
-   "title": "汎德永業以12.16億餘元 標下台中市13期抵費地「地王」",
-   "date": "2024-09-19",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "汎德永業以12.16億餘元 標下台中市13期抵費地「地王」",
-     "outlet": "聯合新聞網",
-     "url": "https://house.udn.com/house/story/123590/8237792"
-    }
-   ]
-  },
-  {
-   "id": "l-i20240905a",
-   "title": "台中市單元重劃區領銜南屯區土地交易熱度再起",
-   "date": "2024-09-05",
-   "place": "南屯",
-   "summary": "南屯市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "台中市單元重劃區領銜南屯區土地交易熱度再起",
-     "outlet": "聯合新聞網",
-     "url": "https://house.udn.com/house/story/123590/8209844"
-    }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "l-i20240830a",
    "title": "台中15期重劃建設喊卡 中央否認要求留地蓋社宅說法",
    "date": "2024-08-30",
    "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
+   "summary": "15 期重劃建設喊卡，中央否認曾要求留地蓋社宅的說法。",
    "sources": [
     {
      "title": "台中15期重劃建設喊卡 中央否認要求留地蓋社宅說法",
      "outlet": "公視新聞網",
      "url": "https://news.pts.org.tw/article/712551"
     }
-   ]
-  },
-  {
-   "id": "l-i20240821a",
-   "title": "中市祭13期212筆土地　標售前見大戶砸9億搶地",
-   "date": "2024-08-21",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "中市祭13期212筆土地　標售前見大戶砸9億搶地",
-     "outlet": "ETtoday",
-     "url": "https://house.ettoday.net/news/2801581"
-    }
-   ]
-  },
-  {
-   "id": "l-i20240727a",
-   "title": "車太久沒開會壞！颱風夜重劃區暖車　台中男2度酒駕下場超慘",
-   "date": "2024-07-27",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "車太久沒開會壞！颱風夜重劃區暖車　台中男2度酒駕下場超慘",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20240727/2785558.htm"
-    }
-   ]
-  },
-  {
-   "id": "l-i20240603a",
-   "title": "中市府代標售113年地籍未清理地開始公告 歡迎踴躍投標",
-   "date": "2024-06-03",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "中市府代標售113年地籍未清理地開始公告 歡迎踴躍投標",
-     "outlet": "taichung.gov.tw",
-     "url": "https://www.taichung.gov.tw/8868/8872/9962/2653239"
-    }
-   ]
-  },
-  {
-   "id": "l-i20240523a",
-   "title": "誆拿到「西屯殯儀館BOT案」　台中殯葬夫妻檔狠撈4億...人間蒸發",
-   "date": "2024-05-23",
-   "place": "西屯",
-   "summary": "西屯市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "誆拿到「西屯殯儀館BOT案」　台中殯葬夫妻檔狠撈4億...人間蒸發",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20240523/2744501.htm"
-    }
-   ]
-  },
-  {
-   "id": "l-i20240509a",
-   "title": "斥資5.62億元 太子建設標下台中大里BOT案",
-   "date": "2024-05-09",
-   "place": "大里",
-   "summary": "大里市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "斥資5.62億元 太子建設標下台中大里BOT案",
-     "outlet": "自由時報",
-     "url": "https://estate.ltn.com.tw/article/20551"
-    }
-   ]
-  },
-  {
-   "id": "l-i20240508a",
-   "title": "這間公司不買了！ 自然人包辦台中市捷運宅標售",
-   "date": "2024-05-08",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "這間公司不買了！ 自然人包辦台中捷運宅標售",
-     "outlet": "TVBS",
-     "url": "https://news.tvbs.com.tw/money/2480214"
-    },
-    {
-     "title": "這間公司不買了！ 自然人包辦台中市捷運宅標售",
-     "outlet": "自由時報",
-     "url": "https://estate.ltn.com.tw/article/20525"
-    },
-    {
-     "title": "台灣金聯掃貨14間挨批後這次「不買了」 台中共構宅標售出爐",
-     "outlet": "聯合新聞網",
-     "url": "https://house.udn.com/house/story/123590/7950233"
-    }
-   ]
-  },
-  {
-   "id": "l-i20240504a",
-   "title": "台中13期重劃區全面開通　塞車族最怕的3要道交通緩解",
-   "date": "2024-05-04",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "台中13期重劃區全面開通　塞車族最怕的3要道交通緩解",
-     "outlet": "news.housefun.com.tw",
-     "url": "https://news.housefun.com.tw/news/article/200956421905.html"
-    }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "l-724",
@@ -1093,7 +478,7 @@
    "title": "台中市府賣地爭議（上）：沒人反對市府還債，但一個重劃區土地處分進帳600億元合理嗎？",
    "date": "2024-03-14",
    "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
+   "summary": "關鍵評論網專文：一個重劃區的土地處分進帳約 600 億元，是否合理。",
    "sources": [
     {
      "title": "台中市府賣地爭議（下）：用三套劇本，讓你了解台中市土地交易的問題",
@@ -1105,21 +490,23 @@
      "outlet": "關鍵評論網",
      "url": "https://www.thenewslens.com/article/200126"
     }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "l-i20240308a",
    "title": "台中標售200億抵費地惹議 盧秀燕點名林右昌「當市長時也賣地」",
    "date": "2024-03-08",
    "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
+   "summary": "市府標售約 200 億元抵費地引發爭議，市長點名前市府時期也曾賣地。",
    "sources": [
     {
      "title": "台中標售200億抵費地惹議 盧秀燕點名林右昌「當市長時也賣地」",
      "outlet": "自由時報",
      "url": "https://news.ltn.com.tw/news/politics/breakingnews/4601290"
     }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "l-2024",
@@ -1205,258 +592,85 @@
    "title": "PO文宣傳捷運宅標售！網驚奇「交通局在賣房子」：公開炒房？ 台中市府回應了",
    "date": "2024-03-07",
    "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
+   "summary": "交通局發文宣傳捷運宅標售，網友質疑「交通局在賣房子」是公開炒房，市府出面回應。",
    "sources": [
     {
      "title": "PO文宣傳捷運宅標售！網驚奇「交通局在賣房子」：公開炒房？ 台中市府回應了",
      "outlet": "風傳媒",
      "url": "https://www.storm.mg/lifestyle/5044851"
     }
-   ]
-  },
-  {
-   "id": "l-i20240307b",
-   "title": "台中熱門重劃區土地開標14期「榮德段」、13期「昌明段」單價創新高- 房市",
-   "date": "2024-03-07",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "台中熱門重劃區土地開標14期「榮德段」、13期「昌明段」單價創新高- 房市",
-     "outlet": "ctee.com.tw",
-     "url": "https://www.ctee.com.tw/news/20240307701194-430601"
-    }
-   ]
-  },
-  {
-   "id": "l-i20240306a",
-   "title": "別再錯失機會！台中捷運宅「文華高中站」第二批開始標售",
-   "date": "2024-03-06",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "別再錯失機會！台中捷運宅「文華高中站」第二批開始標售",
-     "outlet": "taichung.gov.tw",
-     "url": "https://www.taichung.gov.tw/8868/8872/9962/2581910"
-    },
-    {
-     "title": "台中市首座捷運宅「文華高中站」 第二批12戶即日起公開標售",
-     "outlet": "自由時報",
-     "url": "https://ec.ltn.com.tw/article/breakingnews/4598838"
-    },
-    {
-     "title": "別錯失機會！台中捷運宅「文華高中站」第二批開始標售",
-     "outlet": "聯合新聞網",
-     "url": "https://house.udn.com/house/story/123590/7812272"
-    }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "l-i20240227a",
    "title": "台中市政府賣地 5年賺進504億元",
    "date": "2024-02-27",
    "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
+   "summary": "報導統計市府 5 年賣地進帳約 504 億元；中央官員要求暫緩標售，立委批評台中成「社宅侏儒」，市府回應社宅已超標。",
    "sources": [
     {
      "title": "台中市政府賣地 5年賺進504億元",
      "outlet": "自由時報",
      "url": "https://ec.ltn.com.tw/article/breakingnews/4591052"
-    }
-   ]
-  },
-  {
-   "id": "l-i20240227b",
-   "title": "林右昌要台中暫緩標售土地 市府回應了：社宅已超標",
-   "date": "2024-02-27",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
+    },
     {
      "title": "林右昌要台中暫緩標售土地 市府回應了：社宅已超標",
      "outlet": "中時新聞網",
      "url": "https://www.chinatimes.com/realtimenews/20240227002581-260407"
-    }
-   ]
-  },
-  {
-   "id": "l-i20240227c",
-   "title": "蔡其昌批中市府狂賣地成「社宅侏儒」　陳建仁認戶數應再5倍才夠",
-   "date": "2024-02-27",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
+    },
     {
      "title": "蔡其昌批中市府狂賣地成「社宅侏儒」　陳建仁認戶數應再5倍才夠",
      "outlet": "ETtoday",
      "url": "https://www.ettoday.net/news/20240227/2690179.htm"
     }
-   ]
-  },
-  {
-   "id": "l-i20240208a",
-   "title": "台中「豐富專案」補上拼圖3塊配餘地全標售完畢",
-   "date": "2024-02-08",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "台中「豐富專案」補上拼圖3塊配餘地全標售完畢",
-     "outlet": "聯合新聞網",
-     "url": "https://house.udn.com/house/story/123590/7763282"
-    }
-   ]
-  },
-  {
-   "id": "l-i20231113a",
-   "title": "台中首座捷運共構宅14戶標售台灣金聯砸3.74億全部打包- 房市",
-   "date": "2023-11-13",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "台中首座捷運共構宅14戶標售台灣金聯砸3.74億全部打包- 房市",
-     "outlet": "ctee.com.tw",
-     "url": "https://www.ctee.com.tw/news/20231113701739-430602"
-    }
-   ]
-  },
-  {
-   "id": "l-i20231107a",
-   "title": "台中西屯七期重劃區核心生活圈",
-   "date": "2023-11-07",
-   "place": "西屯",
-   "summary": "西屯市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "台中西屯七期重劃區核心生活圈",
-     "outlet": "farglory-realty.com.tw",
-     "url": "https://www.farglory-realty.com.tw/life-proposal/area-txg-7th_function_20231107/"
-    }
-   ]
-  },
-  {
-   "id": "l-i20231027a",
-   "title": "促進區域均衡發展 中市地政局今辦區段徵收配餘地標售",
-   "date": "2023-10-27",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "促進區域均衡發展 中市地政局今辦區段徵收配餘地標售",
-     "outlet": "taichung.gov.tw",
-     "url": "https://www.taichung.gov.tw/8868/8872/9962/2483774"
-    }
-   ]
-  },
-  {
-   "id": "l-i20231026a",
-   "title": "八哥入侵大里十九甲重劃區　車輛慘遭鳥糞波及...超噁畫面曝光",
-   "date": "2023-10-26",
-   "place": "大里",
-   "summary": "大里市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "八哥入侵大里十九甲重劃區　車輛慘遭鳥糞波及...超噁畫面曝光",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20231026/2610330.htm"
-    }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "l-i20231021a",
    "title": "台中龍井、大肚近6百公頃土地擬重劃 居民憂拆屋也盼改善交通",
    "date": "2023-10-21",
    "place": "大肚",
-   "summary": "大肚市府土地處分、BOT或重劃出現爭議。",
+   "summary": "龍井、大肚近 600 公頃土地擬辦重劃，居民擔心房屋被拆，也期待交通改善。",
    "sources": [
     {
      "title": "台中龍井、大肚近6百公頃土地擬重劃 居民憂拆屋也盼改善交通",
      "outlet": "自由時報",
      "url": "https://news.ltn.com.tw/news/life/breakingnews/4465528"
     }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "l-i20231017a",
    "title": "誰卡中捷藍線多年？綠營：盧秀燕更改路線及站點才是原因，中市府：改路線後徵收最少",
    "date": "2023-10-17",
    "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
+   "summary": "捷運藍線延宕多年，綠營指市長更改路線與站點是主因，市府回應改線後徵收最少。",
    "sources": [
     {
      "title": "誰卡中捷藍線多年？綠營：盧秀燕更改路線及站點才是原因，中市府：改路線後徵收最少",
      "outlet": "關鍵評論網",
      "url": "https://www.thenewslens.com/article/193287"
     }
-   ]
-  },
-  {
-   "id": "l-i20230918a",
-   "title": "台中北屯區「市30」市場用地採BOT案開發 明年Q1招商",
-   "date": "2023-09-18",
-   "place": "北屯",
-   "summary": "北屯市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "台中北屯區「市30」市場用地採BOT案開發 明年Q1招商",
-     "outlet": "ctee.com.tw",
-     "url": "https://www.ctee.com.tw/news/20230918701753-430602"
-    }
-   ]
-  },
-  {
-   "id": "l-i20230915a",
-   "title": "台中首座共構宅釋出標售戶　「35坪含車位」底價揭曉",
-   "date": "2023-09-15",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "台中首座共構宅釋出標售戶　「35坪含車位」底價揭曉",
-     "outlet": "ETtoday",
-     "url": "https://house.ettoday.net/news/2583261"
-    }
-   ]
-  },
-  {
-   "id": "l-i20230914a",
-   "title": "捷運出站即到家！中市府標售捷運綠線文華高中站住宅不動產",
-   "date": "2023-09-14",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "捷運出站即到家！中市府標售捷運綠線文華高中站住宅不動產",
-     "outlet": "taichung.gov.tw",
-     "url": "https://www.taichung.gov.tw/8868/8872/9962/2451453"
-    },
-    {
-     "title": "捷運綠線文華高中站住宅標售掀熱潮 中市府加開賞屋",
-     "outlet": "聯合新聞網",
-     "url": "https://house.udn.com/house/story/123590/7524806"
-    },
-    {
-     "title": "台中首座捷運宅文華高中站標售10月31日加開賞屋",
-     "outlet": "聯合新聞網",
-     "url": "https://house.udn.com/house/story/123590/7523772"
-    }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "l-i20230714a",
    "title": "台中黎明重劃案沒收200億土地 地主怒土地還來！",
    "date": "2023-07-14",
    "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
+   "summary": "黎明重劃弊案判決沒收約 200 億元土地，地主抗議要求歸還土地。",
    "sources": [
     {
      "title": "台中黎明重劃案沒收200億土地 地主怒土地還來！",
      "outlet": "Yahoo 新聞",
      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E9%BB%8E%E6%98%8E%E9%87%8D%E5%8A%83%E6%A1%88%E6%B2%92%E6%94%B6200%E5%84%84%E5%9C%9F%E5%9C%B0-%E5%9C%B0%E4%B8%BB%E6%80%92%E5%9C%9F%E5%9C%B0%E9%82%84%E4%BE%86-024400023.html"
     }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "l-thugs",
@@ -1532,7 +746,7 @@
    "title": "台中黎明重劃弊案二審：前立委楊姓判4年10月，9000多坪精華地被沒收",
    "date": "2023-05-30",
    "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
+   "summary": "黎明重劃弊案二審，前立委楊姓判刑 4 年 10 個月，9,000 多坪精華地被沒收。",
    "sources": [
     {
      "title": "台中黎明重劃案　前立委楊文欣二審判4年10月",
@@ -1554,61 +768,30 @@
      "outlet": "風傳媒",
      "url": "https://www.storm.mg/article/4799547"
     }
-   ]
-  },
-  {
-   "id": "l-i20230426a",
-   "title": "甩棄標陰霾　台中「市31」BOT開發案統一集團拿下",
-   "date": "2023-04-26",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "甩棄標陰霾　台中「市31」BOT開發案統一集團拿下",
-     "outlet": "ETtoday",
-     "url": "https://house.ettoday.net/news/2486768"
-    }
-   ]
-  },
-  {
-   "id": "l-i20230214a",
-   "title": "〈房產〉測水溫！台中七期逾千坪建地商仲獨家公開標售 4/26開標",
-   "date": "2023-02-14",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "稀有台中七期千坪建地公開標售",
-     "outlet": "mygonews.com",
-     "url": "https://www.mygonews.com/news/detail/news_id/210353/%E7%A8%80%E6%9C%89%E5%8F%B0%E4%B8%AD%E4%B8%83%E6%9C%9F%E5%8D%83%E5%9D%AA%E5%BB%BA%E5%9C%B0%E5%85%AC%E9%96%8B%E6%A8%99%E5%94%AE"
-    },
-    {
-     "title": "〈房產〉測水溫！台中七期逾千坪建地商仲獨家公開標售 4/26開標",
-     "outlet": "news.cnyes.com",
-     "url": "https://news.cnyes.com/news/id/5085837"
-    }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "l-i20230116a",
    "title": "台中自辦重劃面積冠全台- 房市",
    "date": "2023-01-16",
    "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
+   "summary": "台中自辦市地重劃面積居全台之冠。",
    "sources": [
     {
      "title": "台中自辦重劃面積冠全台- 房市",
      "outlet": "ctee.com.tw",
      "url": "https://www.ctee.com.tw/news/20230116700201-430601"
     }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "l-i20230107a",
    "title": "【台中也有大祕寶1】千億土地藏弊端　台中重劃區工程款全超過法官認定",
    "date": "2023-01-07",
    "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
+   "summary": "鏡週刊調查：台中重劃區工程款全都超過法官認定的金額，千億土地藏有弊端。",
    "sources": [
     {
      "title": "【台中也有大祕寶2】重劃區訴訟惹爭議　涉案情節相同判決差很大",
@@ -1645,35 +828,38 @@
      "outlet": "ETtoday",
      "url": "https://house.ettoday.net/news/2420163"
     }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "l-i20220816a",
    "title": "土地重劃媽祖也落難？北屯聖母堂面四面圍籬只能爬著入廟",
    "date": "2022-08-16",
    "place": "北屯",
-   "summary": "北屯市府土地處分、BOT或重劃出現爭議。",
+   "summary": "北屯聖母堂被土地重劃工程圍籬四面包圍，信眾只能爬著進廟。",
    "sources": [
     {
      "title": "土地重劃媽祖也落難？北屯聖母堂面四面圍籬只能爬著入廟",
      "outlet": "中時新聞網",
      "url": "https://www.chinatimes.com/realtimenews/20220816002323-260421"
     }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "l-i20220525a",
    "title": "台中坪林國小司令台遭標售 新地主要求校方購回",
    "date": "2022-05-25",
    "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
+   "summary": "坪林國小的司令台所在土地遭標售，新地主要求校方購回。",
    "sources": [
     {
      "title": "台中坪林國小司令台遭標售 新地主要求校方購回",
      "outlet": "公視新聞網",
      "url": "https://news.pts.org.tw/article/582435"
     }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "l-512",
@@ -1723,89 +909,15 @@
    "title": "台中太原夜市地主40億入袋》土地重劃煉金術 揭官商圈地、養地、獵地3步驟",
    "date": "2021-12-15",
    "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
+   "summary": "報導揭露太原夜市地主透過土地重劃獲利約 40 億元，以及官商圈地、養地、獵地的手法。",
    "sources": [
     {
      "title": "台中太原夜市地主40億入袋》土地重劃煉金術 揭官商圈地、養地、獵地3步驟",
      "outlet": "cmmedia.com.tw",
      "url": "https://www.cmmedia.com.tw/home/articles/31283"
     }
-   ]
-  },
-  {
-   "id": "l-i20211018a",
-   "title": "〈房產〉台中水湳近3000坪大型建地將以底價113.5億元標售",
-   "date": "2021-10-18",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "〈房產〉台中水湳近3000坪大型建地將以底價113.5億元標售",
-     "outlet": "news.cnyes.com",
-     "url": "https://news.cnyes.com/news/id/4747425"
-    },
-    {
-     "title": "台中水湳經貿園區地王113.5億12/28公開標售",
-     "outlet": "mygonews.com",
-     "url": "https://www.mygonews.com/news/detail"
-    }
-   ]
-  },
-  {
-   "id": "l-i20210918a",
-   "title": "台中市新興自辦市地重劃區（整體開發地區單元13）預計2025年完成土地分配工作",
-   "date": "2021-09-18",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "台中市新興自辦市地重劃區（整體開發地區單元13）預計2025年完成土地分配工作",
-     "outlet": "ccss3172.blogspot.com",
-     "url": "https://ccss3172.blogspot.com/2021/09/132025.html"
-    }
-   ]
-  },
-  {
-   "id": "l-i20210819a",
-   "title": "市郊距離剛剛好！　台中十期重劃區中古屋站穩2字頭",
-   "date": "2021-08-19",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "市郊距離剛剛好！　台中十期重劃區中古屋站穩2字頭",
-     "outlet": "ETtoday",
-     "url": "https://finance.ettoday.net/news/2059799"
-    }
-   ]
-  },
-  {
-   "id": "l-i20210730a",
-   "title": "驚見針頭！台中13期重劃區飆車噪音擾民　中市府緊急封路",
-   "date": "2021-07-30",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "驚見針頭！台中13期重劃區飆車噪音擾民　中市府緊急封路",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20210730/2043692.htm"
-    }
-   ]
-  },
-  {
-   "id": "l-i20210610a",
-   "title": "疫情悶太久約空曠重劃區聊天　台中7男7女「夜聚」最高罰420萬",
-   "date": "2021-06-10",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "疫情悶太久約空曠重劃區聊天　台中7男7女「夜聚」最高罰420萬",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20210610/2004194.htm"
-    }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "l-fiscal",
@@ -1822,67 +934,11 @@
    ]
   },
   {
-   "id": "l-i20210407a",
-   "title": "台中市土地標售創新高 進帳206.7億引關注",
-   "date": "2021-04-07",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "台中市土地標售創新高 進帳206.7億引關注",
-     "outlet": "news.591.com.tw",
-     "url": "https://news.591.com.tw/news/6358"
-    }
-   ]
-  },
-  {
-   "id": "l-i20210407b",
-   "title": "台中標售配餘地 水湳經貿園區標案最高一坪達280萬",
-   "date": "2021-04-07",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "台中標售配餘地 水湳經貿園區標案最高一坪達280萬",
-     "outlet": "自由時報",
-     "url": "https://ec.ltn.com.tw/article/breakingnews/3491977"
-    }
-   ]
-  },
-  {
-   "id": "l-i20210406a",
-   "title": "台中最大條！　逾2萬坪、總價170億配餘地標售明登場",
-   "date": "2021-04-06",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "台中最大條！　逾2萬坪、總價170億配餘地標售明登場",
-     "outlet": "ETtoday",
-     "url": "https://house.ettoday.net/news/1954356"
-    }
-   ]
-  },
-  {
-   "id": "l-i20210224a",
-   "title": "台中重劃區26人大亂鬥...高職生開2槍！只為幫友人喬2萬元債務",
-   "date": "2021-02-24",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "台中重劃區26人大亂鬥...高職生開2槍！只為幫友人喬2萬元債務",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20210224/1925399.htm"
-    }
-   ]
-  },
-  {
    "id": "l-i20210203a",
    "title": "台中東勢土地重劃惹議！中山地政事務所遭控「反鎖」抗議民眾， 深夜警方強制驅離",
    "date": "2021-02-03",
    "place": "東勢",
-   "summary": "東勢市府土地處分、BOT或重劃出現爭議。",
+   "summary": "東勢土地重劃引發爭議，中山地政事務所被控把抗議民眾反鎖，警方深夜強制驅離。",
    "sources": [
     {
      "title": "台中東勢土地重劃爭議 警民推擠衝突",
@@ -1899,14 +955,15 @@
      "outlet": "風傳媒",
      "url": "https://www.storm.mg/lifestyle/3448810"
     }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "l-i20201217a",
    "title": "台中北屯土地重劃爭議 地主提告勝訴確定",
    "date": "2020-12-17",
    "place": "北屯",
-   "summary": "北屯市府土地處分、BOT或重劃出現爭議。",
+   "summary": "北屯土地重劃爭議，地主提告勝訴確定。",
    "sources": [
     {
      "title": "台中北屯土地重劃爭議 地主提告勝訴確定",
@@ -1918,203 +975,83 @@
      "outlet": "自由時報",
      "url": "https://news.ltn.com.tw/news/life/paper/1419689"
     }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "l-i20201217b",
    "title": "台中單元13重劃區人頭地主爭議 40戶民宅已被拆除",
    "date": "2020-12-17",
    "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
+   "summary": "單元 13 重劃區傳出人頭地主爭議，已有 40 戶民宅被拆除。",
    "sources": [
     {
      "title": "台中單元13重劃區人頭地主爭議 40戶民宅已被拆除",
      "outlet": "中時新聞網",
      "url": "https://www.chinatimes.com/realtimenews/20201217005255-260402"
     }
-   ]
-  },
-  {
-   "id": "l-i20201112a",
-   "title": "40年來全台最大重劃區！洲際棒球場旁「台中14期」6成地主已登記",
-   "date": "2020-11-12",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "40年來全台最大重劃區！洲際棒球場旁「台中14期」6成地主已登記",
-     "outlet": "ETtoday",
-     "url": "https://house.ettoday.net/news/1845395"
-    }
-   ]
-  },
-  {
-   "id": "l-i20201027a",
-   "title": "台中高鐵重劃區住宅工地意外　男高處墜落B3無呼吸心跳",
-   "date": "2020-10-27",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "台中高鐵重劃區住宅工地意外　男高處墜落B3無呼吸心跳",
-     "outlet": "ETtoday",
-     "url": "https://www.ettoday.net/news/20201027/1840645.htm"
-    }
-   ]
-  },
-  {
-   "id": "l-i20201014a",
-   "title": "台中13期重劃區挖出千年遺址 建商遭令停工還要賠3億",
-   "date": "2020-10-14",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "台中13期重劃區挖出千年遺址 建商遭令停工還要賠3億",
-     "outlet": "Yahoo 新聞",
-     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD13%E6%9C%9F%E9%87%8D%E5%8A%83%E5%8D%80%E6%8C%96%E5%87%BA%E5%8D%83%E5%B9%B4%E9%81%BA%E5%9D%80-%E5%BB%BA%E5%95%86%E9%81%AD%E4%BB%A4%E5%81%9C%E5%B7%A5%E9%82%84%E8%A6%81%E8%B3%A03%E5%84%84-081337441.html"
-    }
-   ]
-  },
-  {
-   "id": "l-i20200805a",
-   "title": "台中機廠特區土地標售失利，未來發展前景如何？",
-   "date": "2020-08-05",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "台中機廠特區土地標售失利，未來發展前景如何？",
-     "outlet": "news.591.com.tw",
-     "url": "https://news.591.com.tw/news/4783"
-    }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "l-i20200707a",
    "title": "台中「大夫第」重劃區 30餘地主仍反對",
    "date": "2020-07-07",
    "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
+   "summary": "大夫第重劃區仍有 30 多名地主反對重劃。",
    "sources": [
     {
      "title": "台中「大夫第」重劃區 30餘地主仍反對",
      "outlet": "公視新聞網",
      "url": "https://news.pts.org.tw/article/485976"
     }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "l-i20200313a",
    "title": "【全文】地主控政治黑手阻撓　台中百億重劃案延宕14年",
    "date": "2020-03-13",
    "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
+   "summary": "鏡週刊報導：地主指控政治黑手阻撓，台中一宗百億元重劃案延宕 14 年。",
    "sources": [
     {
      "title": "【全文】地主控政治黑手阻撓　台中百億重劃案延宕14年",
      "outlet": "鏡週刊",
      "url": "https://www.mirrormedia.mg/story/20200308soc007"
     }
-   ]
-  },
-  {
-   "id": "l-i20200217a",
-   "title": "「農地變黃金」建商來了！台中北屯竄出14期重劃區",
-   "date": "2020-02-17",
-   "place": "北屯",
-   "summary": "北屯市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "「農地變黃金」建商來了！台中北屯竄出14期重劃區",
-     "outlet": "三立新聞網",
-     "url": "https://fuhouse.setn.com/news/691441"
-    }
-   ]
-  },
-  {
-   "id": "l-i20200213a",
-   "title": "土地公廟占地40年 中市府重劃終可遷",
-   "date": "2020-02-13",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "土地公廟占地40年 中市府重劃終可遷",
-     "outlet": "公視新聞網",
-     "url": "https://news.pts.org.tw/article/466385"
-    }
-   ]
-  },
-  {
-   "id": "l-i20200113a",
-   "title": "台中「市31」BOT案明正式啟動 放寬招商條件吸引投資客目光",
-   "date": "2020-01-13",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "台中「市31」BOT案明正式啟動 放寬招商條件吸引投資客目光",
-     "outlet": "taichung.gov.tw",
-     "url": "https://www.taichung.gov.tw/8868/8872/9962/1451372"
-    }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "l-i20191216a",
    "title": "公部門「超級標售王」　台中市府254億元稱霸",
    "date": "2019-12-16",
    "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
+   "summary": "公部門土地標售統計，台中市府以約 254 億元居冠。",
    "sources": [
     {
      "title": "公部門「超級標售王」　台中市府254億元稱霸",
      "outlet": "ETtoday",
      "url": "https://house.ettoday.net/news/1603109"
     }
-   ]
-  },
-  {
-   "id": "l-i20191107a",
-   "title": "台中市土地標售熱潮 知名建商積極搶地",
-   "date": "2019-11-07",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "台中市土地標售熱潮 知名建商積極搶地",
-     "outlet": "news.591.com.tw",
-     "url": "https://news.591.com.tw/news/2998"
-    }
-   ]
-  },
-  {
-   "id": "l-i20191030a",
-   "title": "中市3560坪地王標售 豐邑以35.2億得標",
-   "date": "2019-10-30",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "中市3560坪地王標售 豐邑以35.2億得標",
-     "outlet": "news.591.com.tw",
-     "url": "https://news.591.com.tw/news/2971"
-    }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "l-i20190724a",
    "title": "中市府標售社宅用地，轉賺38億引發熱議",
    "date": "2019-07-24",
    "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
+   "summary": "市府標售社宅用地、轉賺約 38 億元，引發討論。",
    "sources": [
     {
      "title": "中市府標售社宅用地，轉賺38億引發熱議",
      "outlet": "news.591.com.tw",
      "url": "https://news.591.com.tw/news/2410"
     }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "l-taiyuan",
@@ -2151,46 +1088,39 @@
    ]
   },
   {
-   "id": "l-i20190711a",
-   "title": "廖庭輝／逆轉的居住正義：台中社宅用地遭標售的諷刺與矛盾",
-   "date": "2019-07-11",
-   "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
-   "sources": [
-    {
-     "title": "廖庭輝／逆轉的居住正義：台中社宅用地遭標售的諷刺與矛盾",
-     "outlet": "聯合新聞網",
-     "url": "https://opinion.udn.com/opinion/story/12838/3921249"
-    }
-   ]
-  },
-  {
    "id": "l-i20190708a",
    "title": "社宅不玩了 台中市太原段社宅土地34.1億元標售",
    "date": "2019-07-08",
    "place": "台中",
-   "summary": "台中市府土地處分、BOT或重劃出現爭議。",
+   "summary": "市府放棄太原段社宅計畫，改以 34.1 億元標售土地，學者撰文批評違反居住正義。",
    "sources": [
     {
      "title": "社宅不玩了 台中市太原段社宅土地34.1億元標售",
      "outlet": "自由時報",
      "url": "https://estate.ltn.com.tw/article/7828"
+    },
+    {
+     "title": "廖庭輝／逆轉的居住正義：台中社宅用地遭標售的諷刺與矛盾",
+     "outlet": "聯合新聞網",
+     "url": "https://opinion.udn.com/opinion/story/12838/3921249"
     }
-   ]
+   ],
+   "fear": []
   },
   {
    "id": "l-i20190502a",
    "title": "台中市府欲賣清水原社宅公有地 挨批敗家",
    "date": "2019-05-02",
    "place": "清水",
-   "summary": "清水市府土地處分、BOT或重劃出現爭議。",
+   "summary": "市府計畫出售清水原定興建社宅的公有地，遭批評敗家。",
    "sources": [
     {
      "title": "台中市府欲賣清水原社宅公有地 挨批敗家",
      "outlet": "自由時報",
      "url": "https://news.ltn.com.tw/news/life/breakingnews/2777483"
     }
-   ]
+   ],
+   "fear": []
   }
  ]
 }
