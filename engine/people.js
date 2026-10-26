@@ -144,8 +144,12 @@ export function createPeople(THREE, { scene, flows, centers, heightAt, roles, rn
   const glowMat = new THREE.MeshBasicMaterial({ color: 0xffc23a, toneMapped: false });
   const triGeo = new THREE.ConeGeometry(0.028, 0.035, 3).rotateX(Math.PI / 2);
   const mouthGeo = new THREE.BoxGeometry(0.1, 0.022, 0.01);
-  const batGeo = new THREE.CylinderGeometry(0.022, 0.011, 0.36, 8).translate(0, 0.18, 0);
-  const batMat = new THREE.MeshStandardMaterial({ color: 0xb98a55, roughness: 0.55 });
+  // aluminium bat: brushed silver barrel, black grip tape, knob at the handle end
+  const batGeo = new THREE.CylinderGeometry(0.022, 0.011, 0.28, 12).translate(0, 0.22, 0);
+  const gripGeo = new THREE.CylinderGeometry(0.0125, 0.0125, 0.09, 8).translate(0, 0.045, 0);
+  const knobGeo = new THREE.CylinderGeometry(0.018, 0.018, 0.012, 10);
+  const batMat = new THREE.MeshStandardMaterial({ color: 0xd4d8de, metalness: 0.85, roughness: 0.28, emissive: 0x2a2d33 });
+  const gripMat = new THREE.MeshStandardMaterial({ color: 0x151515, roughness: 0.9 });
   const armGeo = new THREE.BoxGeometry(0.045, 0.13, 0.045).translate(0, -0.06, 0);
   const cloakMats = [0x2b2233, 0x3a2a1c, 0x1f2a2a].map((c) => new THREE.MeshStandardMaterial({ color: c, roughness: 0.85 }));
   const pumpkins = [];
@@ -185,13 +189,14 @@ export function createPeople(THREE, { scene, flows, centers, heightAt, roles, rn
     const bat = new THREE.Mesh(batGeo, batMat);
     bat.position.y = -0.11;
     bat.rotation.x = -0.5;
+    bat.add(new THREE.Mesh(gripGeo, gripMat), new THREE.Mesh(knobGeo, gripMat));
     arm.add(bat);
     for (const m of [body, pump, ...legs, bat]) m.castShadow = true;
     g.add(body, head, ...legs, arm);
     const home = zoneList[Math.floor(rng() * zoneList.length)];
     const pos = pick(home);
     g.position.copy(pos);
-    g.scale.setScalar(1.7);
+    g.scale.setScalar(2.4); // about 1.45 tall, still a head shorter than Lumama (about 2.25)
     g.userData = { home, to: pick(home), legs, arm, head, wait: rng() * 2, hops: 0, sp: 0.3 + rng() * 0.15, ph: rng() * 6.3, y: heightAt(pos.x, pos.z) };
     group.add(g);
     pumpkins.push(g);
