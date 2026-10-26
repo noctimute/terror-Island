@@ -136,6 +136,67 @@ export function createPeople(THREE, { scene, flows, centers, heightAt, roles, rn
     crows.push(c);
   }
 
+  // ---- pumpkin-headed wanderers with baseball bats ----
+  const pumpGeo = new THREE.SphereGeometry(0.13, 14, 10).scale(1, 0.82, 1);
+  const pumpMat = new THREE.MeshStandardMaterial({ color: 0xe8741c, roughness: 0.6 });
+  const stemGeo = new THREE.CylinderGeometry(0.014, 0.02, 0.06, 6);
+  const stemMat = new THREE.MeshStandardMaterial({ color: 0x3d5a1e, roughness: 0.8 });
+  const glowMat = new THREE.MeshBasicMaterial({ color: 0xffc23a, toneMapped: false });
+  const triGeo = new THREE.ConeGeometry(0.028, 0.035, 3).rotateX(Math.PI / 2);
+  const mouthGeo = new THREE.BoxGeometry(0.1, 0.022, 0.01);
+  const batGeo = new THREE.CylinderGeometry(0.022, 0.011, 0.36, 8).translate(0, 0.18, 0);
+  const batMat = new THREE.MeshStandardMaterial({ color: 0xb98a55, roughness: 0.55 });
+  const armGeo = new THREE.BoxGeometry(0.045, 0.13, 0.045).translate(0, -0.06, 0);
+  const cloakMats = [0x2b2233, 0x3a2a1c, 0x1f2a2a].map((c) => new THREE.MeshStandardMaterial({ color: c, roughness: 0.85 }));
+  const pumpkins = [];
+  const nearest = (from) => zoneList.filter((z) => z !== from).sort((a, b) => Math.hypot(a.x - from.x, a.z - from.z) - Math.hypot(b.x - from.x, b.z - from.z));
+  const pick = (home) => {
+    const a = rng() * 6.3,
+      r = 0.3 + rng() * 1.2;
+    return new THREE.Vector3(home.x + Math.cos(a) * r, 0, home.z + Math.sin(a) * r);
+  };
+  for (let i = 0; i < 7; i++) {
+    const g = new THREE.Group();
+    const cloak = cloakMats[i % cloakMats.length];
+    const body = new THREE.Mesh(bodyGeo, cloak);
+    body.position.y = 0.23;
+    const head = new THREE.Group();
+    head.position.y = 0.47;
+    const pump = new THREE.Mesh(pumpGeo, pumpMat);
+    const stem = new THREE.Mesh(stemGeo, stemMat);
+    stem.position.y = 0.12;
+    head.add(pump, stem);
+    for (const x of [-0.045, 0.045]) {
+      const e = new THREE.Mesh(triGeo, glowMat);
+      e.position.set(x, 0.025, 0.118);
+      head.add(e);
+    }
+    const mouth = new THREE.Mesh(mouthGeo, glowMat);
+    mouth.position.set(0, -0.04, 0.118);
+    head.add(mouth);
+    const legs = [-0.05, 0.05].map((x) => {
+      const l = new THREE.Mesh(legGeo, cloak);
+      l.position.set(x, 0.13, 0);
+      return l;
+    });
+    const arm = new THREE.Group();
+    arm.position.set(0.13, 0.32, 0);
+    arm.add(new THREE.Mesh(armGeo, cloak));
+    const bat = new THREE.Mesh(batGeo, batMat);
+    bat.position.y = -0.11;
+    bat.rotation.x = -0.5;
+    arm.add(bat);
+    for (const m of [body, pump, ...legs, bat]) m.castShadow = true;
+    g.add(body, head, ...legs, arm);
+    const home = zoneList[Math.floor(rng() * zoneList.length)];
+    const pos = pick(home);
+    g.position.copy(pos);
+    g.scale.setScalar(1.7);
+    g.userData = { home, to: pick(home), legs, arm, head, wait: rng() * 2, hops: 0, sp: 0.3 + rng() * 0.15, ph: rng() * 6.3, y: heightAt(pos.x, pos.z) };
+    group.add(g);
+    pumpkins.push(g);
+  }
+
   let filter = null,
     badgesOn = true;
   const p = new THREE.Vector3(),
@@ -182,6 +243,47 @@ export function createPeople(THREE, { scene, flows, centers, heightAt, roles, rn
       const op = Math.max(0, n - 0.15) * 0.85;
       u.mat.opacity = op;
       g.visible = op > 0.04;
+    }
+    for (const g of pumpkins) {
+      const u = g.userData;
+      let moving = false;
+      if (dt > 0) {
+        if (u.wait > 0) u.wait -= dt;
+        else {
+          const dx = u.to.x - g.position.x,
+            dz = u.to.z - g.position.z,
+            d = Math.hypot(dx, dz);
+          if (d < 0.05) {
+            // linger, then wander on; every few stops cross over to a neighbouring plateau
+            u.wait = 0.8 + rng() * 2.5;
+            if (++u.hops > 3 && rng() < 0.5) {
+              const near = nearest(u.home);
+              u.home = near[Math.floor(rng() * Math.min(3, near.length))];
+              u.hops = 0;
+            }
+            u.to = pick(u.home);
+          } else {
+            const step = Math.min(d, dt * u.sp);
+            g.position.x += (dx / d) * step;
+            g.position.z += (dz / d) * step;
+            const want = Math.atan2(dx, dz);
+            let turn = want - g.rotation.y;
+            turn = Math.atan2(Math.sin(turn), Math.cos(turn));
+            g.rotation.y += turn * Math.min(1, dt * 6);
+            moving = true;
+          }
+        }
+      }
+      const ground = heightAt(g.position.x, g.position.z);
+      u.y += (ground - u.y) * Math.min(1, dt * 10 || 1);
+      g.position.y = u.y;
+      const sw = moving ? Math.sin(t * 10 + u.ph) * 0.6 : 0;
+      u.legs[0].rotation.x = sw;
+      u.legs[1].rotation.x = -sw;
+      // the bat swings with the stride, and gets a lazy practice swing while standing
+      u.arm.rotation.x = moving ? -sw * 0.5 : -0.4 + Math.max(0, Math.sin(t * 2.4 + u.ph)) ** 6 * -1.6;
+      u.head.rotation.z = Math.sin(t * 2 + u.ph) * 0.12;
+      g.children[0].position.y = 0.23 + (moving ? Math.abs(Math.sin(t * 10 + u.ph)) * 0.02 : 0);
     }
     for (const c of crows) {
       const u = c.userData;

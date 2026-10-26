@@ -1,7 +1,7 @@
 import { S, TOP, WILD_TOP, layoutZones, buildCity, createHeightAt } from "./world.js?v=1";
 import { createEnvironment, mulberry } from "./environment.js?v=6";
 import { createKit, MODELS, wildForest } from "./models.js?v=23";
-import { createPeople, flowCurve } from "./people.js?v=3";
+import { createPeople, flowCurve } from "./people.js?v=4";
 import { createLumama, buildLumama } from "./lumama.js?v=14";
 import { createGuns } from "./guns.js?v=11";
 import { createMusic } from "./music.js?v=1";
