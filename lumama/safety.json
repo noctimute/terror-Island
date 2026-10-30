@@ -5,6 +5,48 @@
  "updated": "2026-10-23",
  "records": [
   {
+   "id": "s-xitun-factory-fire",
+   "title": "西屯甘肅路工廠大火悶燒整夜",
+   "date": "2026-10-29",
+   "place": "西屯",
+   "summary": "西屯甘肅路二段一處工廠午後起火，出動 67 名消防人員，約一小時後控制火勢，但內部悶燒到隔天清晨；一名男子吸入濃煙、手掌與前臂二度灼傷送醫，下風處空品一度惡化。",
+   "fear": [
+    "S"
+   ],
+   "sources": [
+    {
+     "title": "台中西屯工廠大火悶燒整夜！消防員苦戰至清晨 網友心疼：真的辛苦了",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E8%A5%BF%E5%B1%AF%E5%B7%A5%E5%BB%A0%E5%A4%A7%E7%81%AB%E6%82%B6%E7%87%92%E6%95%B4%E5%A4%9C-%E6%B6%88%E9%98%B2%E5%93%A1%E8%8B%A6%E6%88%B0%E8%87%B3%E6%B8%85%E6%99%A8-%E7%B6%B2%E5%8F%8B%E5%BF%83%E7%96%BC-%E7%9C%9F%E7%9A%84%E8%BE%9B%E8%8B%A6%E4%BA%86-033233687.html"
+    },
+    {
+     "title": "台中鐵皮工廠火警！狂燒逾3小時 環保局急發空汙警報",
+     "outlet": "東森新聞",
+     "url": "https://news.ebc.net.tw/news/society/578112"
+    },
+    {
+     "title": "台中西屯倉庫悶燒是否有人受困未明…消防出動6單位全力灌救",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7324/9844966"
+    },
+    {
+     "title": "快訊／台中西屯區工廠火災！悶燒黑煙竄天際 飄出濃厚塑膠味",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/4043066"
+    },
+    {
+     "title": "快訊》台中西屯鐵皮倉庫火警 刺鼻惡臭濃煙飄散「快關窗」",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20261029003509-260402"
+    },
+    {
+     "title": "台中西屯鐵皮工廠大火 貨梯工人輕微燒燙傷",
+     "outlet": "公視新聞網",
+     "url": "https://news.pts.org.tw/article/833560"
+    }
+   ]
+  },
+  {
    "id": "s-bus-2026",
    "title": "外籍旅客走斑馬線遭轉彎客運撞輾 不治",
    "date": "2026-09-16",
