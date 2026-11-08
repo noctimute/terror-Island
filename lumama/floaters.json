@@ -5,6 +5,86 @@
  "updated": "2026-10-23",
  "records": [
   {
+   "id": "float-r20261107a",
+   "title": "霧峰烏溪支流收蛇籠男子遭溪水沖走身亡",
+   "date": "2026-11-07",
+   "place": "霧峰",
+   "summary": "霧峰烏溪支流，一名男子與同事在溪邊捕魚蝦時下水收蛇籠，遭湍急溪水沖走，警消搜救約 4 小時後在下游約 300 公尺處尋獲遺體。",
+   "sources": [
+    {
+     "title": "霧峰捕魚男收網遭溪水沖走 不幸身亡",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5632824"
+    },
+    {
+     "title": "台中霧峰烏溪傳悲劇！30歲男收蛇籠遭湍急溪水沖走　警消搜救尋獲遺體",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1935201"
+    },
+    {
+     "title": "快訊／烏溪支流收蛇籠被沖走！台中男下落不明…警消沿線搜救中",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1935086"
+    },
+    {
+     "title": "台中男「下水收蛇籠」遭沖走 搜救近4小時尋獲已身亡",
+     "outlet": "東森新聞",
+     "url": "https://news.ebc.net.tw/news/society/579563"
+    },
+    {
+     "title": "台中男抓魚蝦溺斃 收蛇籠遭急流沖走、300米外見遺體",
+     "outlet": "壹電視",
+     "url": "https://www.nexttv.com.tw/NextTV/News/Home/Society/2026-11-08/2519407.html"
+    },
+    {
+     "title": "收取蛇籠突失足！霧峰男落水遭烏溪急流吞沒 搜救4小時尋獲已身亡",
+     "outlet": "Life 生活網",
+     "url": "https://life.tw/article/%E6%94%B6%E5%8F%96%E8%9B%87%E7%B1%A0%E7%AA%81%E5%A4%B1%E8%B6%B3-%E9%9C%A7%E5%B3%B0%E7%94%B7%E8%90%BD%E6%B0%B4%E9%81%AD%E7%83%8F%E6%BA%AA%E6%80%A5%E6%B5%81%E5%90%9E%E6%B2%92-%E6%90%9C%E6%95%914%E5%B0%8F%E6%99%82%E5%B0%8B%E7%8D%B2%E5%B7%B2%E8%BA%AB-3209047"
+    }
+   ],
+   "deaths": 1
+  },
+  {
+   "id": "float-r20261106a",
+   "title": "台中公園日月湖男子落水身亡",
+   "date": "2026-11-06",
+   "place": "北區",
+   "summary": "北區台中公園日月湖晚間有路人發現湖面人形漂浮物，警消打撈上岸時男子已無生命跡象；警方初步排除他殺，死因待檢方相驗。",
+   "sources": [
+    {
+     "title": "台中公園日月湖夜驚魂！驚見「人形漂浮物」 撈起竟是男屍",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5632566"
+    },
+    {
+     "title": "台中公園日月湖夜間驚魂！民眾見人形漂浮物竟是男屍",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/4047097"
+    },
+    {
+     "title": "台中公園日月湖又有浮屍！老翁趴浮水面民眾深夜路過嚇壞- 社會",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20261107001563-260402"
+    },
+    {
+     "title": "快訊／台中公園日月湖死亡案件！男落水「趴伏湖面」…打撈上岸已溺斃",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1934984"
+    },
+    {
+     "title": "台中公園日月湖深夜驚見浮屍！ 7旬男命喪湖中",
+     "outlet": "東森新聞",
+     "url": "https://news.ebc.net.tw/news/society/579501"
+    },
+    {
+     "title": "台中公園日月湖驚傳噩耗 路人見「男屍漂浮」嚇壞",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E5%85%AC%E5%9C%92%E6%97%A5%E6%9C%88%E6%B9%96%E9%A9%9A%E5%82%B3%E5%99%A9%E8%80%97-%E8%B7%AF%E4%BA%BA%E8%A6%8B-%E7%94%B7%E5%B1%8D%E6%BC%82%E6%B5%AE-%E5%9A%87%E5%A3%9E-035404185.html"
+    }
+   ],
+   "deaths": 1
+  },
+  {
    "id": "float-dm462",
    "title": "快訊／台中筏子溪驚見人形物體 警消到場發現男性浮屍",
    "date": "2026-10-20",
