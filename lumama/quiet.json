@@ -5,6 +5,46 @@
  "updated": "2026-10-23",
  "records": [
   {
+   "id": "q-r20261106a",
+   "title": "南區公園晨運民眾發現男子身亡",
+   "date": "2026-11-06",
+   "place": "南區",
+   "summary": "南區一處公園，晨運民眾發現一名男子身亡，警方初步排除外力介入。",
+   "sources": [
+    {
+     "title": "台中某公園驚見「單槓男屍」 晨運民眾急報案",
+     "outlet": "Yahoo 新聞",
+     "url": "https://tw.news.yahoo.com/%E5%8F%B0%E4%B8%AD%E6%9F%90%E5%85%AC%E5%9C%92%E9%A9%9A%E8%A6%8B-%E5%96%AE%E6%A7%93%E7%94%B7%E5%B1%8D-%E6%99%A8%E9%81%8B%E6%B0%91%E7%9C%BE%E6%80%A5%E5%A0%B1%E6%A1%88-051500321.html"
+    },
+    {
+     "title": "台中南區晨運驚魂！嚇見21歲男吊掛公園單槓明顯死亡屍僵",
+     "outlet": "自由時報",
+     "url": "https://news.ltn.com.tw/news/society/breakingnews/5631438"
+    },
+    {
+     "title": "台中男清晨吊掛公園單槓上！民眾嚇壞報案　警消到場已屍僵死亡",
+     "outlet": "ETtoday",
+     "url": "https://www.ettoday.net/news/20261106/3267393.htm"
+    },
+    {
+     "title": "快訊／台中男陳屍公園單槓區！雙腳懸空已屍僵…晨運民眾嚇壞報案",
+     "outlet": "三立新聞網",
+     "url": "https://www.setn.com/news/1934448"
+    },
+    {
+     "title": "快訊／年輕男吊掛台中某公園單槓！屍僵明顯死亡 民眾嚇壞",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/4046688"
+    },
+    {
+     "title": "台中知名公園悲劇！男子屍僵明顯死亡 晨運上學路人嚇呆",
+     "outlet": "中時新聞網",
+     "url": "https://www.chinatimes.com/realtimenews/20261106001493-260402"
+    }
+   ],
+   "deaths": 1
+  },
+  {
    "id": "q-dm458",
    "title": "快訊／台中草悟道旁公園驚見女屍！晨運民眾嚇壞報警",
    "date": "2026-10-14",
