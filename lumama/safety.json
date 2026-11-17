@@ -5,6 +5,45 @@
  "updated": "2026-10-23",
  "records": [
   {
+   "id": "s-r20261116a",
+   "title": "后里科技大廠工地怪手翻覆 司機受困不治",
+   "date": "2026-11-16",
+   "place": "后里",
+   "summary": "后里后科路二段一處科技大廠工地進行整地拆除作業時，挖土機翻覆，司機受困車內，消防到場已無呼吸心跳，吊車協助救出後不治；勞檢單位要求停工調查。",
+   "sources": [
+    {
+     "title": "快訊／台中知名科技大廠整地怪手翻覆　1司機受困無生命跡象搶救中",
+     "outlet": "TVBS",
+     "url": "https://news.tvbs.com.tw/local/4051303"
+    },
+    {
+     "title": "台中后里工地怪手翻覆司機亡 勞檢單位要求停工",
+     "outlet": "聯合新聞網",
+     "url": "https://udn.com/news/story/7320/9882339"
+    },
+    {
+     "title": "台中后里工地怪手翻覆 司機受困無生命跡象",
+     "outlet": "中央社",
+     "url": "https://www.cna.com.tw/news/asoc/202611160134.aspx"
+    },
+    {
+     "title": "中科后里園區美光友達工安意外 怪手拆廠房翻覆壓死司機",
+     "outlet": "壹蘋新聞網",
+     "url": "https://news.nextapple.com/local/20261116/BF06E80917101A24C1D2E847B3CC246D"
+    },
+    {
+     "title": "美光中科工地怪手翻覆30歲司機OHCA不治 廠區管制停工",
+     "outlet": "知新聞",
+     "url": "https://www.knews.com.tw/news/7A348FDFF6BCD66E96B0FB1EC41376A2"
+    }
+   ],
+   "deaths": 1,
+   "fear": [
+    "D",
+    "S"
+   ]
+  },
+  {
    "id": "s-xitun-factory-fire",
    "title": "西屯甘肅路工廠大火悶燒整夜",
    "date": "2026-10-29",
